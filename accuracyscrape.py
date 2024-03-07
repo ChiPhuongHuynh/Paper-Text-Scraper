@@ -3,6 +3,7 @@ import requests
 import re
 import json
 import csv
+from tqdm import tqdm
 
 url = "https://paperswithcode.com/sota/image-classification-on-imagenet"
 
@@ -16,23 +17,43 @@ f = open("./text/paperswithcode.txt", "w", encoding="utf-8")
 
 f.write(soup.prettify())
 
+def scrapeurl(slug):
+    body = "https://paperswithcode.com/paper/"
+    url = body + slug
+
+    r = requests.get(url)
+    s = BeautifulSoup(r.content, 'html5lib')
+
+    cur = s.find('body')
+    cur = cur.find(attrs={'class': 'container content content-buffer'})
+    cur = cur.find('main')
+    cur = cur.find(attrs={'class': 'paper-abstract'})
+    cur = cur.find(attrs={'class': 'row'})
+    cur = cur.find(attrs={'class': 'col-md-12'})
+    out = cur.find('a')['href']
+    return out
+
 cur = body.find("script", id="evaluation-chart-data")
 cur_string = str(cur)
 cur_string = cur_string[(cur_string.find("\"dataPoints\"") + len("\"dataPoints\"")+3):]
 t = cur_string.find("},") + 3
 datapoints = cur_string.split("},")
+slug = (datapoints[0].split(", ")[5].split(": ")[1])[1:-1]
+print(scrapeurl(slug))
 
 afields = ["name", "year", "accuracy", "paper"]
 
 def accuracy_scrape(datatable):
     rows = []
-    for dt in datatable:
+    for dt in tqdm(datatable):
         dt0 = dt.split(", ")
         try:
             year = (dt0[0].split(": ")[1])[1:5]
             accuracy = (dt0[1].split(": ")[1])
             name = (dt0[2].split(": ")[1])[1:-1]
-            paper = (dt0[5].split(": ")[1])[1:-1]
+            #paper = (dt0[5].split(": ")[1])[1:-1]
+            slug = (dt0[5].split(": ")[1])[1:-1]
+            paper = scrapeurl(slug)
             rows.append([name, year, accuracy, paper])
             #print([name, year, accuracy, paper])
         except: pass
@@ -81,6 +102,8 @@ def eval_scrape(datatable):
     return rows
 
 erows = eval_scrape(eval)
+
+
 
 with open("table2.csv",'w') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter='|')

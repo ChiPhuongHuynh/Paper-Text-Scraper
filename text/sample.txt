@@ -1,0 +1,27 @@
+<div class="col-md-12">
+ <p>
+  Large-kernel convolutional neural networks (ConvNets) have recently received extensive research attention, but there are two unresolved and critical issues that demand further investigation. 1) The architectures of existing large-kernel ConvNets largely follow the design principles of conventional ConvNets or transformers, while the architectural design for large-kernel ConvNets remains under-addressed. 2) As transformers have dominated multiple modalities, it remains to be investigated whether ConvNets also have a strong universal perception ability in domains beyond vision. In this paper, we contribute from two aspects. 1) We propose four architectural guidelines for designing large-kernel ConvNets, the core of which is to exploit the essential characteristics of large kernels that distinguish them from small kernels - they can see wide without going deep. Following such guidelines, our proposed large-kernel ConvNet shows leading performance in image recognition. For example, our models achieve an ImageNet accuracy of 88.0%, ADE20K mIoU of 55.6%, and COCO box AP of 56.4%, demonstrating better performance and higher speed than a number of recently proposed powerful competitors. 2) We discover that large kernels are the key to unlocking the exceptional performance of ConvNets in domains where they were originally not proficient. With certain modality-related preprocessing approaches, the proposed model achieves state-of-the-art performance on time-series forecasting and audio recognition tasks even without modality-specific customization to the architecture. Code and all the models at https://github.com/AILab-CVC/UniRepLKNet.
+ </p>
+ <a class="badge badge-light" href="https://arxiv.org/pdf/2311.15599v1.pdf" onclick="captureOutboundLink('https://arxiv.org/pdf/2311.15599v1.pdf'); return true;">
+  <span class="icon-wrapper icon-fa icon-fa-regular" data-name="file-pdf">
+   <svg viewBox="0 0 384 513.795" xmlns="http://www.w3.org/2000/svg">
+    <path d="M369.9 98.88c9 9 14.1 21.3 14.1 34v332.1c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48v-416c0-26.5 21.5-48 48-48.1h204.1c12.7 0 24.9 5.1 33.9 14.1zm-37.8 30.1L256 52.88v76.1h76.1zM48 464.98h288v-288H232c-13.3 0-24-10.7-24-24v-104H48v416zm250.2-143.7c10.5 10.5 8 38.7-17.5 38.7-14.8 0-36.9-6.8-55.8-17-21.6 3.6-46 12.7-68.4 20.1-50.1 86.4-79.4 47-76.1 31.2 4-20 31-35.9 51-46.2 10.5-18.4 25.4-50.5 35.4-74.4-7.4-28.6-11.4-51-7-67.1 4.8-17.7 38.4-20.3 42.6 5.9 4.7 15.4-1.5 39.9-5.4 56 8.1 21.3 19.6 35.8 36.8 46.3 17.4-2.2 52.2-5.5 64.4 6.5zm-198.1 77.8c0 .7 11.4-4.7 30.4-35-5.9 5.5-25.299 21.3-30.4 35zm81.6-190.6c-2.5 0-2.6 26.9 1.8 40.8 4.9-8.7 5.6-40.8-1.8-40.8zm-24.4 136.6c15.9-6.1 34-14.9 54.8-19.2-11.199-8.3-21.8-20.4-30.1-35.5-6.7 17.7-15 37.8-24.7 54.7zm131.6-5c3.6-2.4-2.2-10.4-37.3-7.8 32.3 13.8 37.3 7.8 37.3 7.8z">
+    </path>
+   </svg>
+  </span>
+  <span>
+   PDF
+  </span>
+ </a>
+ <a class="badge badge-light" href="https://arxiv.org/abs/2311.15599v1" onclick="captureOutboundLink('https://arxiv.org/abs/2311.15599v1'); return true;">
+  <span class="icon-wrapper icon-fa icon-fa-regular" data-name="file">
+   <svg viewBox="0 0 384 513.795" xmlns="http://www.w3.org/2000/svg">
+    <path d="M369.9 98.88c9 9 14.1 21.3 14.1 34v332.1c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48v-416c0-26.5 21.5-48 48-48.1h204.1c12.7 0 24.9 5.1 33.9 14.1zm-37.8 30.1L256 52.88v76.1h76.1zM48 464.98h288v-288H232c-13.3 0-24-10.7-24-24v-104H48v416z">
+    </path>
+   </svg>
+  </span>
+  <span>
+   Abstract
+  </span>
+ </a>
+</div>
