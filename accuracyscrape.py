@@ -17,7 +17,7 @@ f = open("./text/paperswithcode.txt", "w", encoding="utf-8")
 
 f.write(soup.prettify())
 
-def scrapeurl(slug):
+def scrapeurl_slug(slug):
     body = "https://paperswithcode.com/paper/"
     url = body + slug
 
@@ -33,13 +33,36 @@ def scrapeurl(slug):
     out = cur.find('a')['href']
     return out
 
+def scrapeurl_2(link):
+    body = "https://paperswithcode.com"
+    url = body+link
+
+    r = requests.get(url)
+    soup = BeautifulSoup(r.content, 'html5lib')
+
+    cur = soup.find('body')
+
+    cur = cur.find(attrs={'class':'container content content-buffer'})
+    cur = cur.find('form')
+    cur = cur.find(attrs={'class':'container-fluid content review-content'})
+    cur = cur.find(attrs={'class':'extracted-table'})
+    cur = cur.find(attrs={'class':'row'})
+    cur = cur.find(attrs={'class':'col-md-6 from-paper'})
+    cur = cur.find(attrs={'class':'container paper-extracts'})
+
+    cur = cur.find(attrs={'class':'paper-pdf-link'})
+    link = cur.find('a')['href'].split("https://arxiv.org/pdf/")
+    link = link[1].split(".pdf")
+    return link[0]
+
+
 cur = body.find("script", id="evaluation-chart-data")
 cur_string = str(cur)
 cur_string = cur_string[(cur_string.find("\"dataPoints\"") + len("\"dataPoints\"")+3):]
 t = cur_string.find("},") + 3
 datapoints = cur_string.split("},")
 slug = (datapoints[0].split(", ")[5].split(": ")[1])[1:-1]
-print(scrapeurl(slug))
+#print(scrapeurl(slug))
 
 afields = ["name", "year", "accuracy", "paper"]
 
@@ -102,8 +125,6 @@ def eval_scrape(datatable):
     return rows
 
 erows = eval_scrape(eval)
-
-
 
 with open("table2.csv",'w') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter='|')

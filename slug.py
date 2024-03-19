@@ -3,32 +3,22 @@ import requests
 import re
 import csv
 
-body = "https://paperswithcode.com/paper/"
-slug = "going-deeper-with-image-transformers/review/?hl=29203"
-
-url = body+slug
+url = "https://paperswithcode.com/sota/image-classification-on-imagenet"
 
 r = requests.get(url)
 soup = BeautifulSoup(r.content, 'html5lib')
 
-f = open("./text/table2.txt", "w", encoding="utf-8")
+body = soup.find("body")
 
+body = body.find(attrs={'class':'container content content-buffer'})
+f = open("./text/sample.txt", "w", encoding="utf-8")
 
-cur = soup.find('body')
+cur = body.find("script", id="evaluation-chart-data")
+cur_string = str(cur)
+cur_string = cur_string[(cur_string.find("\"dataPoints\"") + len("\"dataPoints\"")+3):]
+t = cur_string.find("},") + 3
+datapoints = cur_string.split("},")
 
-cur = cur.find(attrs={'class':'container content content-buffer'})
-cur = cur.find('form')
-cur = cur.find(attrs={'class':'container-fluid content review-content'})
-cur = cur.find(attrs={'class':'extracted-table'})
-cur = cur.find(attrs={'class':'row'})
-cur = cur.find(attrs={'class':'col-md-6 from-paper'})
-cur = cur.find(attrs={'class':'container paper-extracts'})
+eval = str(body.find("script", id="evaluation-table-data"))
 
-cur = cur.find(attrs={'class':'paper-pdf-link'})
-link = cur.find('a')['href'].split("https://arxiv.org/pdf/")
-link = link[1].split(".pdf")
-print(link[0])
-
-f.write(cur.prettify())
-
-#print(cur.find('a')['href'])
+f.write(eval)
