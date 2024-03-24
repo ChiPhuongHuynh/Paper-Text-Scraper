@@ -30,8 +30,9 @@ def scrapeurl_slug(slug):
     cur = cur.find(attrs={'class': 'paper-abstract'})
     cur = cur.find(attrs={'class': 'row'})
     cur = cur.find(attrs={'class': 'col-md-12'})
-    out = cur.find('a')['href']
-    return out
+    out = cur.find('a')['href'].split("https://arxiv.org/pdf/")
+    out = out[1].split(".pdf")
+    return out[0]
 
 def scrapeurl_2(link):
     body = "https://paperswithcode.com"
@@ -64,7 +65,7 @@ datapoints = cur_string.split("},")
 slug = (datapoints[0].split(", ")[5].split(": ")[1])[1:-1]
 #print(scrapeurl(slug))
 
-afields = ["name", "year", "accuracy", "paper"]
+afields = ["name", "year", "accuracy", "paper", "id"]
 
 def accuracy_scrape(datatable):
     rows = []
@@ -76,7 +77,8 @@ def accuracy_scrape(datatable):
             name = (dt0[2].split(": ")[1])[1:-1]
             #paper = (dt0[5].split(": ")[1])[1:-1]
             slug = (dt0[5].split(": ")[1])[1:-1]
-            paper = scrapeurl(slug)
+            try: paper = scrapeurl_slug(slug)
+            except: paper = None
             rows.append([name, year, accuracy, paper])
             #print([name, year, accuracy, paper])
         except: pass
@@ -104,7 +106,7 @@ print(data[17].split(": ")[2])
 for i in tag:
    print(i.split(", ")[1].split(": ")[1])
 """
-
+"""
 efields = ["name", "accuracy", "params", "hardware_req","tags"]
 def eval_scrape(datatable):
     eval = datatable[(datatable.find("{")) + 1:]
@@ -131,3 +133,4 @@ with open("table2.csv",'w') as csvfile:
     csvwriter.writerow(efields)
     csvwriter.writerows(erows)
     csvfile.close()
+"""

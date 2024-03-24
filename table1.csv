@@ -1,1740 +1,1769 @@
-name|year|accuracy|paper
-FireCaffe |2015|0.6829999999999999|https://arxiv.org/pdf/1511.00175v2.pdf
-ResNet-152|2015|0.7857|https://arxiv.org/pdf/1512.03385v1.pdf
-Inception ResNet V2|2016|0.8009999999999999|https://arxiv.org/pdf/1602.07261v2.pdf
-SimpleNetV1-9m-correct-labels|2016|0.8123999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-NASNET-A|2017|0.8270000000000001|https://arxiv.org/pdf/1707.07012v4.pdf
-PNASNet-5|2017|0.8290000000000001|https://arxiv.org/pdf/1712.00559v3.pdf
-AmoebaNet-A|2018|0.8390000000000001|https://arxiv.org/pdf/1802.01548v7.pdf
-ResNeXt-101 32x48d|2018|0.8540000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-FixResNeXt-101 32x48d|2019|0.8640000000000001|https://arxiv.org/pdf/1906.06423v4.pdf
-NoisyStudent |2019|0.8690000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-BiT-L |2019|0.8754000000000001|https://arxiv.org/pdf/1912.11370v3.pdf
-NoisyStudent |2020|0.884|https://arxiv.org/pdf/1911.04252v4.pdf
-FixEfficientNet-L2|2020|0.885|https://arxiv.org/pdf/2003.08237v5.pdf
-Meta Pseudo Labels |2020|0.902|https://arxiv.org/pdf/2003.10580v4.pdf
-ViT-G/14|2021|0.9045000000000001|https://arxiv.org/pdf/2106.04560v2.pdf
-CoAtNet-7|2021|0.9087999999999999|https://arxiv.org/pdf/2106.04803v2.pdf
-Model soups |2022|0.9098|https://arxiv.org/pdf/2203.05482v3.pdf
-CoCa |2022|0.91|https://arxiv.org/pdf/2205.01917v2.pdf
-OmniVec|2023|0.924|https://arxiv.org/pdf/2311.05709v1.pdf
-ResNet-101|2015|0.7825|https://arxiv.org/pdf/1512.03385v1.pdf
-ResNet-50|2015|0.753|https://arxiv.org/pdf/1512.03385v1.pdf
-ResNet-200|2016|0.799|https://arxiv.org/pdf/1603.05027v3.pdf
-WRN-50-2-bottleneck|2016|0.7809999999999999|https://arxiv.org/pdf/1605.07146v4.pdf
-FractalNet-34|2016|0.7587999999999999|https://arxiv.org/pdf/1605.07648v4.pdf
-SimpleNetV1-5m-correct-labels|2016|0.7912|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-075-correct-labels|2016|0.7565999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-9m|2016|0.7417|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-5m|2016|0.7193999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-05-correct-labels|2016|0.6911|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-075|2016|0.6815000000000001|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-05|2016|0.6152000000000001|https://arxiv.org/pdf/1608.06037v8.pdf
-DenseNet-264|2016|0.7785|https://arxiv.org/pdf/1608.06993v5.pdf
-DenseNet-201|2016|0.7742|https://arxiv.org/pdf/1608.06993v5.pdf
-DenseNet-169|2016|0.762|https://arxiv.org/pdf/1608.06993v5.pdf
-DenseNet-121|2016|0.7498|https://arxiv.org/pdf/1608.06993v5.pdf
-Xception|2016|0.79|https://arxiv.org/pdf/1610.02357v3.pdf
-ResNeXt-101  64x4|2016|0.809|https://arxiv.org/pdf/1611.05431v2.pdf
-MobileNet-224 \u00d71.25|2017|0.706|https://arxiv.org/pdf/1704.04861v1.pdf
-Attention-92|2017|0.805|https://arxiv.org/pdf/1704.06904v1.pdf
-ShuffleNet|2017|0.7090000000000001|https://arxiv.org/pdf/1707.01083v2.pdf
-ResNet-101 |2017|0.792|https://arxiv.org/pdf/1707.02968v2.pdf
-MobileNetV2 |2018|0.747|https://arxiv.org/pdf/1801.04381v4.pdf
-MobileNetV2|2018|0.72|https://arxiv.org/pdf/1801.04381v4.pdf
-ResNet-152 + SWA|2018|0.7894|https://arxiv.org/pdf/1803.05407v3.pdf
-DenseNet-161 + SWA|2018|0.7844|https://arxiv.org/pdf/1803.05407v3.pdf
-Inception v3|2018|0.7712|https://arxiv.org/pdf/1803.08337v1.pdf
-ResNeXt-101 32x32d|2018|0.851|https://arxiv.org/pdf/1805.00932v1.pdf
-ResNeXt-101 32\u00d716d|2018|0.8420000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-ResNeXt-101 32x8d|2018|0.8220000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-CoordConv ResNet-50|2018|0.7574|https://arxiv.org/pdf/1807.03247v2.pdf
-ShuffleNet V2|2018|0.754|https://arxiv.org/pdf/1807.11164v1.pdf
-MnasNet-A3|2018|0.767|https://arxiv.org/pdf/1807.11626v3.pdf
-MnasNet-A2|2018|0.7559999999999999|https://arxiv.org/pdf/1807.11626v3.pdf
-MnasNet-A1|2018|0.752|https://arxiv.org/pdf/1807.11626v3.pdf
-GPIPE|2018|0.8440000000000001|https://arxiv.org/pdf/1811.06965v5.pdf
-ESPNetv2|2018|0.7490000000000001|https://arxiv.org/pdf/1811.11431v3.pdf
-Proxyless|2018|0.746|https://arxiv.org/pdf/1812.00332v2.pdf
-ResNet-50-D|2018|0.7716|https://arxiv.org/pdf/1812.01187v2.pdf
-FBNet-C|2018|0.7490000000000001|https://arxiv.org/pdf/1812.03443v3.pdf
-ColorNet |2019|0.8432|https://arxiv.org/pdf/1902.00267v1.pdf
-ColorNet|2019|0.8234999999999999|https://arxiv.org/pdf/1902.00267v1.pdf
-MultiGrain PNASNet |2019|0.836|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.8320000000000001|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.831|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.83|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.8270000000000001|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.826|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.813|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain R50-AA-500|2019|0.794|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain R50-AA-224|2019|0.782|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain NASNet-A-Mobile |2019|0.7509999999999999|https://arxiv.org/pdf/1902.05509v2.pdf
-Graph-RISE |2019|0.6829000000000001|https://arxiv.org/pdf/1902.10814v1.pdf
-SKNet-101|2019|0.7981|https://arxiv.org/pdf/1903.06586v2.pdf
-SRM-ResNet-101|2019|0.7847|https://arxiv.org/pdf/1903.10829v1.pdf
-Res2Net-101|2019|0.8123|https://arxiv.org/pdf/1904.01169v3.pdf
-RandWire-WS|2019|0.8009999999999999|https://arxiv.org/pdf/1904.01569v2.pdf
-Res2Net-50-299|2019|0.7859|https://arxiv.org/pdf/1904.01169v3.pdf
-RandWire-WS |2019|0.747|https://arxiv.org/pdf/1904.01569v2.pdf
-Single-Path NAS|2019|0.7495999999999999|https://arxiv.org/pdf/1904.02877v1.pdf
-ACNet |2019|0.775|https://arxiv.org/pdf/1904.03579v1.pdf
-Oct-ResNet-152 |2019|0.8290000000000001|https://arxiv.org/pdf/1904.05049v3.pdf
-EfficientNet-B0 |2019|0.7829999999999999|https://arxiv.org/pdf/1904.04971v3.pdf
-ScaleNet-152|2019|0.7938|https://arxiv.org/pdf/1904.09460v1.pdf
-ScaleNet-101|2019|0.7903|https://arxiv.org/pdf/1904.09460v1.pdf
-ScaleNet-50|2019|0.778|https://arxiv.org/pdf/1904.09460v1.pdf
-AA-ResNet-152|2019|0.7909999999999999|https://arxiv.org/pdf/1904.09925v5.pdf
-LR-Net-26|2019|0.757|https://arxiv.org/pdf/1904.11491v1.pdf
-ResNet-50 |2019|0.7904000000000001|https://arxiv.org/pdf/1904.12848v6.pdf
-ResNet-200 |2019|0.8059999999999999|https://arxiv.org/pdf/1905.00397v2.pdf
-ResNet-50 |2019|0.7759999999999999|https://arxiv.org/pdf/1905.00397v2.pdf
-ResNeXt-101 32x16d |2019|0.848|https://arxiv.org/pdf/1905.00546v1.pdf
-ResNeXt-101 32x8d |2019|0.843|https://arxiv.org/pdf/1905.00546v1.pdf
-ResNeXt-101 32x4d |2019|0.8340000000000001|https://arxiv.org/pdf/1905.00546v1.pdf
-MobileNet V3-Large 1.0|2019|0.752|https://arxiv.org/pdf/1905.02244v5.pdf
-ResNeXt-101 |2019|0.8053|https://arxiv.org/pdf/1905.04899v2.pdf
-ResNet-50 |2019|0.784|https://arxiv.org/pdf/1905.04899v2.pdf
-SGE-ResNet101|2019|0.78798|https://arxiv.org/pdf/1905.09646v2.pdf
-SGE-ResNet50|2019|0.7758400000000001|https://arxiv.org/pdf/1905.09646v2.pdf
-EfficientNet-B7|2019|0.8440000000000001|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B6|2019|0.84|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B5|2019|0.833|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B4|2019|0.826|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B3|2019|0.8109999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B2|2019|0.7979999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B1|2019|0.7879999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B0|2019|0.763|https://arxiv.org/pdf/1905.11946v5.pdf
-DiCENet|2019|0.7509999999999999|https://arxiv.org/pdf/1906.03516v3.pdf
-FixResNet-50 Billion-scale@224|2019|0.825|https://arxiv.org/pdf/1906.06423v4.pdf
-FixResNet-50 CutMix|2019|0.7979999999999999|https://arxiv.org/pdf/1906.06423v4.pdf
-FixResNet-50|2019|0.7909999999999999|https://arxiv.org/pdf/1906.06423v4.pdf
-DenseNAS-A|2019|0.759|https://arxiv.org/pdf/1906.09607v3.pdf
-FairNAS-A|2019|0.7534000000000001|https://arxiv.org/pdf/1907.01845v5.pdf
-FairNAS-B|2019|0.7509999999999999|https://arxiv.org/pdf/1907.01845v5.pdf
-FairNAS-C|2019|0.7469|https://arxiv.org/pdf/1907.01845v5.pdf
-MixNet-L|2019|0.789|https://arxiv.org/pdf/1907.09595v3.pdf
-MixNet-M|2019|0.77|https://arxiv.org/pdf/1907.09595v3.pdf
-MixNet-S|2019|0.758|https://arxiv.org/pdf/1907.09595v3.pdf
-MobileNet-224 |2019|0.7256|https://arxiv.org/pdf/1907.09665v10.pdf
-AOGNet-40M-AN|2019|0.8187000000000001|https://arxiv.org/pdf/1908.01259v3.pdf
-MoGA-A|2019|0.759|https://arxiv.org/pdf/1908.01314v4.pdf
-LIP-ResNet-101|2019|0.7933|https://arxiv.org/pdf/1908.04156v3.pdf
-ResNet-50 |2019|0.7815000000000001|https://arxiv.org/pdf/1908.04156v3.pdf
-LIP-DenseNet-BC-121|2019|0.7664|https://arxiv.org/pdf/1908.04156v3.pdf
-SCARLET-A4|2019|0.823|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-A|2019|0.769|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-B|2019|0.763|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-C|2019|0.7559999999999999|https://arxiv.org/pdf/1908.06022v6.pdf
-CSPResNeXt-50 + Mish|2019|0.7979999999999999|https://arxiv.org/pdf/1908.08681v3.pdf
-HCGNet-C|2019|0.805|https://arxiv.org/pdf/1908.09699v3.pdf
-HCGNet-B|2019|0.785|https://arxiv.org/pdf/1908.09699v3.pdf
-BBG |2019|0.626|https://arxiv.org/pdf/1909.12117v2.pdf
-BBG |2019|0.594|https://arxiv.org/pdf/1909.12117v2.pdf
-EfficientNet-B8 |2019|0.8540000000000001|https://arxiv.org/pdf/1909.13719v2.pdf
-EfficientNet-B7 |2019|0.85|https://arxiv.org/pdf/1909.13719v2.pdf
-ResNet-50-DW |2019|0.785|https://arxiv.org/pdf/1910.02940v2.pdf
-ECA-Net |2019|0.7892|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7865000000000001|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7748|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7256|https://arxiv.org/pdf/1910.03151v4.pdf
-ResNet-50|2019|0.721|https://arxiv.org/pdf/1910.04209v3.pdf
-NoisyStudent |2019|0.8640000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.861|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.853|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.841|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.8240000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.815|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.7879999999999999|https://arxiv.org/pdf/1911.04252v4.pdf
-AdvProp |2019|0.855|https://arxiv.org/pdf/1911.09665v2.pdf
-AdvProp |2019|0.852|https://arxiv.org/pdf/1911.09665v2.pdf
-InceptionV3 |2019|0.7895|https://arxiv.org/pdf/1911.09737v2.pdf
-ResnetV2 50 |2019|0.7720999999999999|https://arxiv.org/pdf/1911.09737v2.pdf
-CSPResNeXt-50 |2019|0.7979999999999999|https://arxiv.org/pdf/1911.11929v1.pdf
-GhostNet \u00d71.3|2019|0.757|https://arxiv.org/pdf/1911.11907v2.pdf
-Ghost-ResNet-50 |2019|0.75|https://arxiv.org/pdf/1911.11907v2.pdf
-Ghost-ResNet-50 |2019|0.741|https://arxiv.org/pdf/1911.11907v2.pdf
-GhostNet \u00d71.0|2019|0.7390000000000001|https://arxiv.org/pdf/1911.11907v2.pdf
-GhostNet \u00d70.5|2019|0.662|https://arxiv.org/pdf/1911.11907v2.pdf
-Wide ResNet-50 |2019|0.733|https://arxiv.org/pdf/1911.13299v2.pdf
-DY-MobileNetV2 \u00d71.0|2019|0.7440000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.75|2019|0.728|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-ResNet-18|2019|0.727|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV3-Small|2019|0.6970000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.5|2019|0.6940000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-ResNet-10|2019|0.677|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.35|2019|0.649|https://arxiv.org/pdf/1912.03458v2.pdf
-SpineNet-143|2019|0.79|https://arxiv.org/pdf/1912.05027v3.pdf
-BiT-M |2019|0.8539|https://arxiv.org/pdf/1912.11370v3.pdf
-ResNet-200 |2019|0.8131999999999999|https://arxiv.org/pdf/1912.11188v1.pdf
-ResNet-50 |2019|0.794|https://arxiv.org/pdf/1912.11188v1.pdf
-Assemble-ResNet152|2020|0.8420000000000001|https://arxiv.org/pdf/2001.06268v2.pdf
-Fix-EfficientNet-B8 |2020|0.858|https://arxiv.org/pdf/2002.09024v1.pdf
-FixEfficientNet-B7|2020|0.871|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B6|2020|0.867|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B5|2020|0.8640000000000001|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B4|2020|0.8590000000000001|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B8|2020|0.857|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B3|2020|0.85|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNetB4|2020|0.84|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B2|2020|0.836|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B1|2020|0.826|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B0|2020|0.802|https://arxiv.org/pdf/2003.08237v5.pdf
-Meta Pseudo Labels |2020|0.9|https://arxiv.org/pdf/2003.10580v4.pdf
-Meta Pseudo Labels |2020|0.8320000000000001|https://arxiv.org/pdf/2003.10580v4.pdf
-KDforAA |2020|0.858|https://arxiv.org/pdf/2003.11342v1.pdf
-KDforAA |2020|0.855|https://arxiv.org/pdf/2003.11342v1.pdf
-GreedyNAS-A|2020|0.7709999999999999|https://arxiv.org/pdf/2003.11236v1.pdf
-GreedyNAS-B|2020|0.768|https://arxiv.org/pdf/2003.11236v1.pdf
-GreedyNAS-C|2020|0.762|https://arxiv.org/pdf/2003.11236v1.pdf
-TResNet-XL|2020|0.843|https://arxiv.org/pdf/2003.13630v3.pdf
-RegNetY-8.0GF|2020|0.799|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-4.0GF|2020|0.794|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-1.6GF|2020|0.78|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-800MF|2020|0.763|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-600MF|2020|0.755|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-400MF|2020|0.741|https://arxiv.org/pdf/2003.13678v1.pdf
-MUXNet-l|2020|0.7659999999999999|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-m|2020|0.753|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-s|2020|0.716|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-xs|2020|0.667|https://arxiv.org/pdf/2003.13880v2.pdf
-ResNeSt-269|2020|0.845|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-200|2020|0.8390000000000001|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-101|2020|0.83|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-50|2020|0.8112999999999999|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-50-fast|2020|0.8064|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNet-200 |2020|0.8079999999999999|https://arxiv.org/pdf/2004.11362v5.pdf
-NAT-M4|2020|0.805|https://arxiv.org/pdf/2005.05859v2.pdf
-Multiscale DEQ |2020|0.792|https://arxiv.org/pdf/2006.08656v2.pdf
-ResNet200_vd_26w_4s_ssld|2020|0.851|https://arxiv.org/pdf/2006.10702v1.pdf
-Fix_ResNet50_vd_ssld|2020|0.84|https://arxiv.org/pdf/2006.10702v1.pdf
-ResNet50_vd_ssld|2020|0.83|https://arxiv.org/pdf/2006.10702v1.pdf
-MobileNetV3_large_x1_0_ssld|2020|0.79|https://arxiv.org/pdf/2006.10702v1.pdf
-PyConvResNet-101|2020|0.8149|https://arxiv.org/pdf/2006.11538v1.pdf
-Prodpoly|2020|0.7717|https://arxiv.org/pdf/2006.13026v2.pdf
-PS-KD |2020|0.7924|https://arxiv.org/pdf/2006.12000v3.pdf
-ReXNet-R_3.0|2020|0.845|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet-R_2.0|2020|0.8320000000000001|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_3.0|2020|0.828|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_2.0|2020|0.816|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.5|2020|0.8029999999999999|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.3|2020|0.795|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.0|2020|0.779|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_0.9|2020|0.772|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_0.6|2020|0.746|https://arxiv.org/pdf/2007.00992v3.pdf
-Ours|2020|0.7197|https://arxiv.org/pdf/2009.04626v1.pdf
-ResNet-50|2020|0.7876000000000001|https://arxiv.org/pdf/2009.06962v2.pdf
-MEAL V2 |2020|0.8172|https://arxiv.org/pdf/2009.08453v2.pdf
-MEAL V2 |2020|0.8067|https://arxiv.org/pdf/2009.08453v2.pdf
-ResNet-18 |2020|0.7319|https://arxiv.org/pdf/2009.08453v2.pdf
-iAFF-ResNeXt-50-32x4d|2020|0.8022|https://arxiv.org/pdf/2009.14082v2.pdf
-EfficientNet-L2-475 |2020|0.8861|https://arxiv.org/pdf/2010.01412v3.pdf
-ResNet-152 |2020|0.816|https://arxiv.org/pdf/2010.01412v3.pdf
-ResNeXt-101 |2020|0.812|https://arxiv.org/pdf/2010.05981v2.pdf
-ViT-H/14|2020|0.8855|https://arxiv.org/pdf/2010.11929v2.pdf
-ViT-L/16|2020|0.8776|https://arxiv.org/pdf/2010.11929v2.pdf
-TinyNet |2020|0.794|https://arxiv.org/pdf/2010.14819v2.pdf
-TinyNet-A + RA|2020|0.777|https://arxiv.org/pdf/2010.14819v2.pdf
-Grafit |2020|0.7959999999999999|https://arxiv.org/pdf/2011.12982v1.pdf
-ResNet-18 |2020|0.7171|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7156|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7137|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7108|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7093|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7051999999999999|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7009000000000001|https://arxiv.org/pdf/2011.12913v2.pdf
-DeiT-B 384|2020|0.852|https://arxiv.org/pdf/2012.12877v2.pdf
-DeiT-B|2020|0.8420000000000001|https://arxiv.org/pdf/2012.12877v2.pdf
-DeiT-B|2020|0.826|https://arxiv.org/pdf/2012.12877v2.pdf
-DeiT-B|2020|0.7659999999999999|https://arxiv.org/pdf/2012.12877v2.pdf
-ResNet-50+AutoDropout+RandAugment|2021|0.8029999999999999|https://arxiv.org/pdf/2101.01761v1.pdf
-ResNet-50|2021|0.787|https://arxiv.org/pdf/2101.01761v1.pdf
-EfficientNet-B0|2021|0.775|https://arxiv.org/pdf/2101.01761v1.pdf
-SSAL-Resnet50|2021|0.77|https://arxiv.org/pdf/2101.03057v1.pdf
-RepVGG-B2|2021|0.7878000000000001|https://arxiv.org/pdf/2101.03697v3.pdf
-RepVGG-B2g4|2021|0.785|https://arxiv.org/pdf/2101.03697v3.pdf
-ReXNet_1.0-relabel|2021|0.784|https://arxiv.org/pdf/2101.05022v2.pdf
-BoTNet T7|2021|0.847|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T7-320|2021|0.8420000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T6|2021|0.84|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-350|2021|0.838|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T5|2021|0.835|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T4|2021|0.828|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-152|2021|0.8220000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T3|2021|0.8170000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-101|2021|0.8140000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-ResNet-101|2021|0.8|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-50|2021|0.794|https://arxiv.org/pdf/2101.11605v2.pdf
-ResNet-50|2021|0.7879999999999999|https://arxiv.org/pdf/2101.11605v2.pdf
-"T2T-ViT-14|384"|2021|0.833|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViTt-24|2021|0.826|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-24|2021|0.823|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViTt-19|2021|0.8220000000000001|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-19|2021|0.8190000000000001|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-14|2021|0.815|https://arxiv.org/pdf/2101.11986v3.pdf
-ZenNAS |2021|0.83|https://arxiv.org/pdf/2102.01063v4.pdf
-ZenNet-400M-SE|2021|0.78|https://arxiv.org/pdf/2102.01063v4.pdf
-NFNet-F4+|2021|0.892|https://arxiv.org/pdf/2102.06171v1.pdf
-ALIGN |2021|0.8864|https://arxiv.org/pdf/2102.05918v2.pdf
-NFNet-F6 w/ SAM|2021|0.865|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F5 w/ SAM|2021|0.863|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F5|2021|0.86|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F4|2021|0.8590000000000001|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F3|2021|0.857|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F2|2021|0.851|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F1|2021|0.847|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F0|2021|0.836|https://arxiv.org/pdf/2102.06171v1.pdf
-ResNet-50 MLPerf v0.7 - 2512 steps|2021|0.7592|https://arxiv.org/pdf/2102.06356v3.pdf
-AlphaNet-A6|2021|0.8079999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A5|2021|0.8029999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A4|2021|0.8|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A3|2021|0.794|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A2|2021|0.7909999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A1|2021|0.789|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A0|2021|0.778|https://arxiv.org/pdf/2102.07954v2.pdf
-LambdaResNet200|2021|0.843|https://arxiv.org/pdf/2102.08602v1.pdf
-LambdaResNet152|2021|0.84|https://arxiv.org/pdf/2102.08602v1.pdf
-TNT-B|2021|0.8390000000000001|https://arxiv.org/pdf/2103.00112v3.pdf
-Perceiver |2021|0.78|https://arxiv.org/pdf/2103.03206v2.pdf
-Perceiver|2021|0.764|https://arxiv.org/pdf/2103.03206v2.pdf
-RedNet-152|2021|0.7929999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-101|2021|0.7909999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-50|2021|0.784|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-38|2021|0.7759999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-26|2021|0.759|https://arxiv.org/pdf/2103.06255v2.pdf
-ResNet-RS-50 |2021|0.8440000000000001|https://arxiv.org/pdf/2103.07579v1.pdf
-ResNet-RS-270 |2021|0.838|https://arxiv.org/pdf/2103.07579v1.pdf
-ConViT-B+|2021|0.825|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-B|2021|0.8240000000000001|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-S+|2021|0.8220000000000001|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-S|2021|0.813|https://arxiv.org/pdf/2103.10697v2.pdf
-HVT-S-1|2021|0.78|https://arxiv.org/pdf/2103.10619v2.pdf
-ConViT-Ti+|2021|0.767|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-Ti|2021|0.731|https://arxiv.org/pdf/2103.10697v2.pdf
-HVT-Ti-1|2021|0.6964|https://arxiv.org/pdf/2103.10619v2.pdf
-CeiT-S |2021|0.833|https://arxiv.org/pdf/2103.11816v2.pdf
-DeepVit-L* |2021|0.831|https://arxiv.org/pdf/2103.11886v4.pdf
-DeepVit-L|2021|0.8220000000000001|https://arxiv.org/pdf/2103.11886v4.pdf
-CeiT-S|2021|0.82|https://arxiv.org/pdf/2103.11816v2.pdf
-CeiT-T |2021|0.7879999999999999|https://arxiv.org/pdf/2103.11816v2.pdf
-CeiT-T|2021|0.764|https://arxiv.org/pdf/2103.11816v2.pdf
-BossNet-T1|2021|0.8220000000000001|https://arxiv.org/pdf/2103.12424v3.pdf
-ResNet-101 |2021|0.8098000000000001|https://arxiv.org/pdf/2103.13027v6.pdf
-ResNet-50 |2021|0.7925|https://arxiv.org/pdf/2103.13027v6.pdf
-ResNet-34 |2021|0.7609999999999999|https://arxiv.org/pdf/2103.13027v6.pdf
-ResNet-18 |2021|0.7204999999999999|https://arxiv.org/pdf/2103.13027v6.pdf
-Swin-T|2021|0.813|https://arxiv.org/pdf/2103.14030v2.pdf
-CrossViT-18+|2021|0.828|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-18|2021|0.825|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-15+|2021|0.823|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-15|2021|0.815|https://arxiv.org/pdf/2103.14899v2.pdf
-CvT-21 |2021|0.833|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Medium-D|2021|0.833|https://arxiv.org/pdf/2103.15358v2.pdf
-ViL-Base-D|2021|0.8320000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-13 |2021|0.83|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Medium-W|2021|0.8290000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-21|2021|0.825|https://arxiv.org/pdf/2103.15808v1.pdf
-CvT-13-NAS|2021|0.8220000000000001|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Small|2021|0.82|https://arxiv.org/pdf/2103.15358v2.pdf
-ViL-Base-W|2021|0.8190000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-13|2021|0.816|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Tiny-RPB|2021|0.767|https://arxiv.org/pdf/2103.15358v2.pdf
-PiT-B|2021|0.84|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-S|2021|0.8190000000000001|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-XS|2021|0.7909999999999999|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-Ti|2021|0.746|https://arxiv.org/pdf/2103.16302v2.pdf
-CaiT-M-48-448|2021|0.865|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M36-448|2021|0.863|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M-36|2021|0.861|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M-24|2021|0.858|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-36|2021|0.8540000000000001|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-48|2021|0.853|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-24|2021|0.851|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XS-36|2021|0.848|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XS-24|2021|0.841|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XXS-36|2021|0.8220000000000001|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XXS-24|2021|0.809|https://arxiv.org/pdf/2103.17239v2.pdf
-EfficientNetV2-L |2021|0.868|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-M |2021|0.861|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-L|2021|0.857|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-M|2021|0.851|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-S |2021|0.85|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-S|2021|0.8390000000000001|https://arxiv.org/pdf/2104.00298v3.pdf
-LeViT-384|2021|0.825|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-256|2021|0.816|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-192|2021|0.8|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-128|2021|0.7959999999999999|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-128S|2021|0.757|https://arxiv.org/pdf/2104.01136v2.pdf
-"CCT-14/7x2 | 384"|2021|0.8271|https://arxiv.org/pdf/2104.05704v4.pdf
-CCT-14/7x2|2021|0.8134|https://arxiv.org/pdf/2104.05704v4.pdf
-LocalViT-S|2021|0.8079999999999999|https://arxiv.org/pdf/2104.05707v1.pdf
-CCT-16/7x2|2021|0.8028|https://arxiv.org/pdf/2104.05704v4.pdf
-LocalViT-PVT|2021|0.782|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-TNT|2021|0.759|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-T|2021|0.748|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-T2T|2021|0.725|https://arxiv.org/pdf/2104.05707v1.pdf
-AsymmNet-Large \u00d71.0|2021|0.754|https://arxiv.org/pdf/2104.07770v1.pdf
-AsymmNet-Large \u00d70.5|2021|0.6920000000000001|https://arxiv.org/pdf/2104.07770v1.pdf
-AsymmNet-Small \u00d71.0|2021|0.684|https://arxiv.org/pdf/2104.07770v1.pdf
-PDC|2021|0.716|https://arxiv.org/pdf/2104.07916v2.pdf
-ReActNet-A |2021|0.68|https://arxiv.org/pdf/2104.08215v1.pdf
-DIFFQ |2021|0.82|https://arxiv.org/pdf/2104.09987v3.pdf
-LV-ViT-L|2021|0.8640000000000001|https://arxiv.org/pdf/2104.10858v3.pdf
-MViT-B-24|2021|0.848|https://arxiv.org/pdf/2104.11227v1.pdf
-LV-ViT-M|2021|0.841|https://arxiv.org/pdf/2104.10858v3.pdf
-LV-ViT-S|2021|0.833|https://arxiv.org/pdf/2104.10858v3.pdf
-MViT-B-16|2021|0.83|https://arxiv.org/pdf/2104.11227v1.pdf
-Visformer-S|2021|0.8220000000000001|https://arxiv.org/pdf/2104.12533v4.pdf
-Visformer-Ti|2021|0.7859999999999999|https://arxiv.org/pdf/2104.12533v4.pdf
-Twins-SVT-L|2021|0.8370000000000001|https://arxiv.org/pdf/2104.13840v4.pdf
-Mixer-H/14 |2021|0.8794|https://arxiv.org/pdf/2105.01601v4.pdf
-ViT-L/16 Dosovitskiy et al. |2021|0.853|https://arxiv.org/pdf/2105.01601v4.pdf
-Mixer-B/16|2021|0.7644|https://arxiv.org/pdf/2105.01601v4.pdf
-T2T-ViT-14|2021|0.8170000000000001|https://arxiv.org/pdf/2105.02358v2.pdf
-RepMLP-Res50|2021|0.7859999999999999|https://arxiv.org/pdf/2105.01883v3.pdf
-FF|2021|0.7490000000000001|https://arxiv.org/pdf/2105.02723v1.pdf
-ResMLP-B24/8|2021|0.836|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-S24|2021|0.8079999999999999|https://arxiv.org/pdf/2105.03404v2.pdf
-BasisNet-MV3|2021|0.8|https://arxiv.org/pdf/2105.03014v1.pdf
-ResMLP-36|2021|0.797|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-24|2021|0.794|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-S12|2021|0.778|https://arxiv.org/pdf/2105.03404v2.pdf
-Conformer-B|2021|0.841|https://arxiv.org/pdf/2105.03889v1.pdf
-RVT-B*|2021|0.8270000000000001|https://arxiv.org/pdf/2105.07926v4.pdf
-RVT-S*|2021|0.8190000000000001|https://arxiv.org/pdf/2105.07926v4.pdf
-gMLP-B|2021|0.816|https://arxiv.org/pdf/2105.08050v2.pdf
-RVT-Ti*|2021|0.792|https://arxiv.org/pdf/2105.07926v4.pdf
-Heteroscedastic |2021|0.6859999999999999|https://arxiv.org/pdf/2105.10305v1.pdf
-Transformer local-attention |2021|0.838|https://arxiv.org/pdf/2105.12723v4.pdf
-Transformer local-attention |2021|0.833|https://arxiv.org/pdf/2105.12723v4.pdf
-Transformer local-attention |2021|0.815|https://arxiv.org/pdf/2105.12723v4.pdf
-NFNet-F5 w/ SAM w/ augmult=16|2021|0.8678|https://arxiv.org/pdf/2105.13343v2.pdf
-ResT-Large|2021|0.836|https://arxiv.org/pdf/2105.13677v5.pdf
-ResT-Small|2021|0.7959999999999999|https://arxiv.org/pdf/2105.13677v5.pdf
-DVT |2021|0.8043|https://arxiv.org/pdf/2105.15075v2.pdf
-DVT |2021|0.7974|https://arxiv.org/pdf/2105.15075v2.pdf
-DVT |2021|0.7848|https://arxiv.org/pdf/2105.15075v2.pdf
-Container Container|2021|0.8270000000000001|https://arxiv.org/pdf/2106.01401v2.pdf
-Container-Light|2021|0.82|https://arxiv.org/pdf/2106.01401v2.pdf
-DynamicViT-LV-M/0.8|2021|0.8390000000000001|https://arxiv.org/pdf/2106.02034v2.pdf
-ResNet-152x2-SAM|2021|0.8109999999999999|https://arxiv.org/pdf/2106.01548v3.pdf
-ViT-B/16-SAM|2021|0.799|https://arxiv.org/pdf/2106.01548v3.pdf
-Mixer-B/8-SAM|2021|0.79|https://arxiv.org/pdf/2106.01548v3.pdf
-Refiner-ViT-L|2021|0.8603000000000001|https://arxiv.org/pdf/2106.03714v1.pdf
-ViTAE-B-Stage|2021|0.836|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-S-Stage|2021|0.8220000000000001|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-13M|2021|0.81|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-6M|2021|0.779|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-T-Stage|2021|0.768|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-T|2021|0.753|https://arxiv.org/pdf/2106.03348v4.pdf
-CoAtNet-6|2021|0.9045000000000001|https://arxiv.org/pdf/2106.04803v2.pdf
-CoAtNet-3 @384|2021|0.8852|https://arxiv.org/pdf/2106.04803v2.pdf
-FunMatch - T384+224 |2021|0.828|https://arxiv.org/pdf/2106.05237v2.pdf
-V-MoE-H/14 |2021|0.8835999999999999|https://arxiv.org/pdf/2106.05974v1.pdf
-V-MoE-H/14 |2021|0.8823000000000001|https://arxiv.org/pdf/2106.05974v1.pdf
-VIT-H/14|2021|0.8808|https://arxiv.org/pdf/2106.05974v1.pdf
-V-MoE-L/16 |2021|0.8741|https://arxiv.org/pdf/2106.05974v1.pdf
-BEiT-L |2021|0.8859999999999999|https://arxiv.org/pdf/2106.08254v2.pdf
-BEiT-L |2021|0.863|https://arxiv.org/pdf/2106.08254v2.pdf
-XCiT-L24|2021|0.86|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-M24|2021|0.858|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-S24|2021|0.856|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-S12|2021|0.851|https://arxiv.org/pdf/2106.09681v2.pdf
-TokenLearner L/8 |2021|0.8887|https://arxiv.org/pdf/2106.11297v4.pdf
-16-TokenLearner B/16 |2021|0.8706999999999999|https://arxiv.org/pdf/2106.11297v4.pdf
-VOLO-D5|2021|0.871|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D4|2021|0.868|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D3|2021|0.863|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D2|2021|0.86|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D1|2021|0.852|https://arxiv.org/pdf/2106.13112v2.pdf
-PVTv2-B4|2021|0.838|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B3|2021|0.8320000000000001|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B2|2021|0.82|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B1|2021|0.787|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B0|2021|0.705|https://arxiv.org/pdf/2106.13797v7.pdf
-CSWin-L |2021|0.875|https://arxiv.org/pdf/2107.00652v3.pdf
-GFNet-H-B|2021|0.8290000000000001|https://arxiv.org/pdf/2107.00645v2.pdf
-AutoFormer-base|2021|0.8240000000000001|https://arxiv.org/pdf/2107.00651v1.pdf
-AutoFormer-small|2021|0.8170000000000001|https://arxiv.org/pdf/2107.00651v1.pdf
-AutoFormer-tiny|2021|0.747|https://arxiv.org/pdf/2107.00651v1.pdf
-GLiT-Bases|2021|0.823|https://arxiv.org/pdf/2107.02960v3.pdf
-GLiT-Smalls|2021|0.805|https://arxiv.org/pdf/2107.02960v3.pdf
-GLiT-Tinys|2021|0.763|https://arxiv.org/pdf/2107.02960v3.pdf
-CoE-Large + CondConv|2021|0.815|https://arxiv.org/pdf/2107.03815v2.pdf
-CoE-Large|2021|0.807|https://arxiv.org/pdf/2107.03815v2.pdf
-CoE-Small + CondConv + PWLU|2021|0.8|https://arxiv.org/pdf/2107.03815v2.pdf
-"ViP-B|384"|2021|0.8420000000000001|https://arxiv.org/pdf/2107.05790v2.pdf
-CycleMLP-B5|2021|0.8320000000000001|https://arxiv.org/pdf/2107.10224v4.pdf
-SkipblockNet-L|2021|0.7709999999999999|https://arxiv.org/pdf/2107.11170v3.pdf
-SkipblockNet-M|2021|0.762|https://arxiv.org/pdf/2107.11170v3.pdf
-WideNet-H|2021|0.8009000000000001|https://arxiv.org/pdf/2107.11817v3.pdf
-WideNet-L|2021|0.7948999999999999|https://arxiv.org/pdf/2107.11817v3.pdf
-WideNet-B|2021|0.7754000000000001|https://arxiv.org/pdf/2107.11817v3.pdf
-SE-CoTNetD-152|2021|0.846|https://arxiv.org/pdf/2107.12292v1.pdf
-SE-CoTNetD-101|2021|0.8320000000000001|https://arxiv.org/pdf/2107.12292v1.pdf
-ResNet-200|2021|0.818|https://arxiv.org/pdf/2107.12028v2.pdf
-SE-CoTNetD-50|2021|0.816|https://arxiv.org/pdf/2107.12292v1.pdf
-ResNet-152|2021|0.813|https://arxiv.org/pdf/2107.12028v2.pdf
-ResNet-101|2021|0.809|https://arxiv.org/pdf/2107.12028v2.pdf
-DeiT-B with iRPE-K|2021|0.8240000000000001|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-S with iRPE-QKV|2021|0.8140000000000001|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-S with iRPE-QK|2021|0.8109999999999999|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-S with iRPE-K|2021|0.809|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-Ti with iRPE-K|2021|0.737|https://arxiv.org/pdf/2107.14222v1.pdf
-Evo-LeViT-384*|2021|0.8220000000000001|https://arxiv.org/pdf/2108.01390v5.pdf
-Co-ResNet-152|2021|0.7903|https://arxiv.org/pdf/2108.07387v1.pdf
-ConvMLP-L|2021|0.802|https://arxiv.org/pdf/2109.04454v2.pdf
-ConvMLP-M|2021|0.79|https://arxiv.org/pdf/2109.04454v2.pdf
-ConvMLP-S|2021|0.768|https://arxiv.org/pdf/2109.04454v2.pdf
-sMLPNet-B |2021|0.8340000000000001|https://arxiv.org/pdf/2109.05422v2.pdf
-sMLPNet-S |2021|0.831|https://arxiv.org/pdf/2109.05422v2.pdf
-sMLPNet-T |2021|0.8190000000000001|https://arxiv.org/pdf/2109.05422v2.pdf
-NASViT |2021|0.8290000000000001|https://openreview.net/pdf?id=Qaw16njk6L
-ConvMixer-1536/20|2021|0.8220000000000001|https://arxiv.org/pdf/2201.09792v1.pdf
-NASViT-A5|2021|0.818|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A4|2021|0.8140000000000001|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A3|2021|0.81|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A2|2021|0.805|https://openreview.net/pdf?id=Qaw16njk6L
-DAFT-conv |2021|0.802|https://openreview.net/pdf?id=JVR4JswsEM
-DAFT-full|2021|0.7979999999999999|https://openreview.net/pdf?id=JVR4JswsEM
-NASViT-A1|2021|0.797|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A0|2021|0.782|https://openreview.net/pdf?id=Qaw16njk6L
-ResNet-152 |2021|0.8240000000000001|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet-152 |2021|0.818|https://arxiv.org/pdf/2110.00476v1.pdf
-DeiT-S |2021|0.804|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet50 |2021|0.804|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet50 |2021|0.7809999999999999|https://arxiv.org/pdf/2110.00476v1.pdf
-MobileViT-S|2021|0.784|https://arxiv.org/pdf/2110.02178v2.pdf
-MobileViT-XS|2021|0.748|https://arxiv.org/pdf/2110.02178v2.pdf
-UniNet-B5|2021|0.852|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B4|2021|0.8420000000000001|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B2|2021|0.8270000000000001|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B1|2021|0.804|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B0|2021|0.7909999999999999|https://arxiv.org/pdf/2110.04035v1.pdf
-HRFormer-B|2021|0.828|https://arxiv.org/pdf/2110.09408v3.pdf
-HRFormer-T|2021|0.785|https://arxiv.org/pdf/2110.09408v3.pdf
-SReT-T|2021|0.7759999999999999|https://arxiv.org/pdf/2111.05297v3.pdf
-SReT-ExT|2021|0.74|https://arxiv.org/pdf/2111.05297v3.pdf
-MAE |2021|0.8690000000000001|https://arxiv.org/pdf/2111.06377v2.pdf
-MAE |2021|0.8590000000000001|https://arxiv.org/pdf/2111.06377v2.pdf
-MAE |2021|0.836|https://arxiv.org/pdf/2111.06377v2.pdf
-SwinV2-G|2021|0.9017000000000001|https://arxiv.org/pdf/2111.09883v2.pdf
-SwinV2-B|2021|0.871|https://arxiv.org/pdf/2111.09883v2.pdf
-FBNetV5-F-CLS|2021|0.841|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-C-CLS|2021|0.826|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5|2021|0.818|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-A-CLS|2021|0.8170000000000001|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-AC-CLS|2021|0.784|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-AR-CLS|2021|0.772|https://arxiv.org/pdf/2111.10007v2.pdf
-DiscreteViT|2021|0.8506999999999999|https://arxiv.org/pdf/2111.10493v2.pdf
-Florence-CoSwin-H|2021|0.9005|https://arxiv.org/pdf/2111.11432v1.pdf
-MetaFormer PoolFormer-M48|2021|0.825|https://arxiv.org/pdf/2111.11418v3.pdf
-ResNet-101 |2021|0.8108|https://arxiv.org/pdf/2111.15454v3.pdf
-ResNet-50 |2021|0.7940999999999999|https://arxiv.org/pdf/2111.15454v3.pdf
-ResNet-34 |2021|0.7635|https://arxiv.org/pdf/2111.15454v3.pdf
-ResNet-18 |2021|0.7232999999999999|https://arxiv.org/pdf/2111.15454v3.pdf
-Dspike |2021|0.7123999999999999|http://proceedings.neurips.cc/paper/2021/file/c4ca4238a0b923820dcc509a6f75849b-Paper.pdf
-MViTv2-H |2021|0.88|https://arxiv.org/pdf/2112.01526v2.pdf
-MViTv2-L |2021|0.863|https://arxiv.org/pdf/2112.01526v2.pdf
-MViTv2-T|2021|0.823|https://arxiv.org/pdf/2112.01526v2.pdf
-SReT-LT |2021|0.787|https://arxiv.org/pdf/2112.01528v1.pdf
-QnA-ViT-Base|2021|0.8370000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-QnA-ViT-Small|2021|0.8320000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-RepMLPNet-L256|2021|0.818|https://arxiv.org/pdf/2112.11081v2.pdf
-QnA-ViT-Tiny|2021|0.8170000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-ELSA-VOLO-D5 |2021|0.872|https://arxiv.org/pdf/2112.12786v1.pdf
-ELSA-VOLO-D1|2021|0.847|https://arxiv.org/pdf/2112.12786v1.pdf
-ELSA-Swin-T|2021|0.8270000000000001|https://arxiv.org/pdf/2112.12786v1.pdf
-PatchConvNet-L120-21k-384|2021|0.871|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-B60-21k-384|2021|0.865|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S60-21k-512|2021|0.8540000000000001|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-B120|2021|0.841|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-B60|2021|0.835|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S120|2021|0.8320000000000001|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S60|2021|0.821|https://arxiv.org/pdf/2112.13692v1.pdf
-DAT-S|2022|0.8370000000000001|https://arxiv.org/pdf/2201.00520v3.pdf
-DAT-T|2022|0.82|https://arxiv.org/pdf/2201.00520v3.pdf
-ConvNeXt-XL |2022|0.878|https://arxiv.org/pdf/2201.03545v2.pdf
-ConvNeXt-L |2022|0.855|https://arxiv.org/pdf/2201.03545v2.pdf
-ConvNeXt-T|2022|0.821|https://arxiv.org/pdf/2201.03545v2.pdf
-SWAG |2022|0.8859999999999999|https://arxiv.org/pdf/2201.08371v2.pdf
-Omnivore |2022|0.86|https://arxiv.org/pdf/2201.08377v2.pdf
-Omnivore |2022|0.853|https://arxiv.org/pdf/2201.08377v2.pdf
-UniFormer-L |2022|0.863|https://arxiv.org/pdf/2201.09450v3.pdf
-UniFormer-L|2022|0.856|https://arxiv.org/pdf/2201.09450v3.pdf
-UniFormer-S|2022|0.8340000000000001|https://arxiv.org/pdf/2201.09450v3.pdf
-Shift-B|2022|0.833|https://arxiv.org/pdf/2201.10801v1.pdf
-Shift-S|2022|0.828|https://arxiv.org/pdf/2201.10801v1.pdf
-Shift-T|2022|0.8170000000000001|https://arxiv.org/pdf/2201.10801v1.pdf
-data2vec |2022|0.866|https://arxiv.org/pdf/2202.03555v3.pdf
-MKD ViT-L|2022|0.865|https://arxiv.org/pdf/2202.07940v1.pdf
-SEER |2022|0.858|https://arxiv.org/pdf/2202.08360v2.pdf
-MKD ViT-B|2022|0.851|https://arxiv.org/pdf/2202.07940v1.pdf
-MKD ViT-S|2022|0.831|https://arxiv.org/pdf/2202.07940v1.pdf
-MKD ViT-T|2022|0.7709999999999999|https://arxiv.org/pdf/2202.07940v1.pdf
-VAN-B5 |2022|0.863|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B4 |2022|0.857|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B2|2022|0.828|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B1|2022|0.8109999999999999|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B0|2022|0.754|https://arxiv.org/pdf/2202.09741v5.pdf
-ViTAE-H + MAE |2022|0.885|https://arxiv.org/pdf/2202.10108v2.pdf
-EdgeFormer-S|2022|0.7863|https://arxiv.org/pdf/2203.03952v5.pdf
-Model soups |2022|0.9094|https://arxiv.org/pdf/2203.05482v3.pdf
-ActiveMLP-L|2022|0.848|https://arxiv.org/pdf/2203.06108v2.pdf
-ActiveMLP-T|2022|0.82|https://arxiv.org/pdf/2203.06108v2.pdf
-RepLKNet-XL|2022|0.878|https://arxiv.org/pdf/2203.06717v4.pdf
-ViT-L@384 |2022|0.855|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B@384 |2022|0.843|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B-36x1|2022|0.841|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B-18x2|2022|0.841|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B |2022|0.8340000000000001|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-S-24x2|2022|0.826|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-S-48x1|2022|0.823|https://arxiv.org/pdf/2203.09795v1.pdf
-ELP |2022|0.7613|http://openaccess.thecvf.com//content/CVPR2022/papers/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.pdf
-VOLO-D5+HAT|2022|0.873|https://arxiv.org/pdf/2204.00993v3.pdf
-kNN-CLIP|2022|0.7979999999999999|https://arxiv.org/pdf/2204.01186v2.pdf
-MaxViT-L |2022|0.867|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-L |2022|0.8640000000000001|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-B |2022|0.8634000000000001|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-S |2022|0.8619|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T|2022|0.8572|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T |2022|0.8523999999999999|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-B |2022|0.8495|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-S |2022|0.8445|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T |2022|0.8362|https://arxiv.org/pdf/2204.01697v4.pdf
-DaViT-G|2022|0.904|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-H|2022|0.902|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-L |2022|0.875|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-B |2022|0.8690000000000001|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-B|2022|0.846|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-T|2022|0.828|https://arxiv.org/pdf/2204.03645v1.pdf
-ViT-L @384 |2022|0.858|https://arxiv.org/pdf/2204.07118v1.pdf
-Mini-Swin-B@384|2022|0.855|https://arxiv.org/pdf/2204.07154v1.pdf
-ViT-H @224 |2022|0.852|https://arxiv.org/pdf/2204.07118v1.pdf
-ViT-B @384 |2022|0.85|https://arxiv.org/pdf/2204.07118v1.pdf
-ViT-L @224 |2022|0.8490000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Base|2022|0.843|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-B @224 |2022|0.838|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Small|2022|0.8370000000000001|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-S @384 |2022|0.8340000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Tiny|2022|0.8320000000000001|https://arxiv.org/pdf/2204.07143v5.pdf
-NAT-Mini|2022|0.818|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-S @224 |2022|0.8140000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-EfficientNetV2 |2022|0.872|https://arxiv.org/pdf/2204.12511v2.pdf
-FAN-L-Hybrid++|2022|0.871|https://arxiv.org/pdf/2204.12451v4.pdf
-ASF-former-B|2022|0.8390000000000001|https://arxiv.org/pdf/2204.12196v2.pdf
-ASF-former-S|2022|0.8270000000000001|https://arxiv.org/pdf/2204.12196v2.pdf
-CoCa |2022|0.9059999999999999|https://arxiv.org/pdf/2205.01917v2.pdf
-Sequencer2D-L\u2191392|2022|0.846|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-L|2022|0.8340000000000001|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-M|2022|0.828|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-S|2022|0.823|https://arxiv.org/pdf/2205.01972v4.pdf
-CLCNet |2022|0.8661|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8645999999999999|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8642|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8528|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8388|https://arxiv.org/pdf/2205.09612v5.pdf
-Bamboo |2022|0.871|https://arxiv.org/pdf/2205.10505v3.pdf
-Bamboo |2022|0.863|https://arxiv.org/pdf/2205.10505v3.pdf
-Bamboo |2022|0.8420000000000001|https://arxiv.org/pdf/2205.10505v3.pdf
-\u00b52Net |2022|0.8674|https://arxiv.org/pdf/2205.12755v6.pdf
-MixMIM-B|2022|0.851|https://arxiv.org/pdf/2205.13137v4.pdf
-"LITv2-B|384"|2022|0.847|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ViT-S|2022|0.8367|https://arxiv.org/pdf/2205.13331v4.pdf
-LITv2-B|2022|0.836|https://arxiv.org/pdf/2205.13213v5.pdf
-LITv2-M|2022|0.833|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ConvNext-T|2022|0.8245999999999999|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-Swin-T|2022|0.8216|https://arxiv.org/pdf/2205.13331v4.pdf
-LITv2-S|2022|0.82|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ResNet50-StrikesBack|2022|0.8115000000000001|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet152|2022|0.8064|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet101|2022|0.7986|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet50|2022|0.7903|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-EfficientNetB0|2022|0.7859999999999999|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-MobileNetV3-L|2022|0.7681|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet34|2022|0.767|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet18|2022|0.7336|https://arxiv.org/pdf/2205.13331v4.pdf
-FD |2022|0.89|https://arxiv.org/pdf/2205.14141v3.pdf
-WaveMix-192/16 |2022|0.7493000000000001|https://arxiv.org/pdf/2205.14375v4.pdf
-EfficientViT-B3 |2022|0.8420000000000001|https://arxiv.org/pdf/2205.14756v6.pdf
-Pyramid ViG-B|2022|0.8370000000000001|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-M|2022|0.831|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-S|2022|0.821|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-Ti|2022|0.782|https://arxiv.org/pdf/2206.00272v3.pdf
-MobileOne-S4 |2022|0.8140000000000001|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S3 |2022|0.8|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S4|2022|0.794|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S2 |2022|0.7909999999999999|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S3|2022|0.7809999999999999|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S2|2022|0.774|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S1 |2022|0.774|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S1|2022|0.759|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S0 |2022|0.725|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S0|2022|0.7140000000000001|https://arxiv.org/pdf/2206.04040v2.pdf
-Top-k DiffSortNets |2022|0.8837|https://arxiv.org/pdf/2206.07290v1.pdf
-"Our SP-ViT-L|384"|2022|0.863|https://arxiv.org/pdf/2206.07662v1.pdf
-"Our SP-ViT-M|384"|2022|0.86|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-L|2022|0.855|https://arxiv.org/pdf/2206.07662v1.pdf
-"SP-ViT-S|384"|2022|0.851|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-M|2022|0.8490000000000001|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-S|2022|0.8390000000000001|https://arxiv.org/pdf/2206.07662v1.pdf
-GC ViT-B|2022|0.845|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-S|2022|0.84|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-T|2022|0.8340000000000001|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-XT|2022|0.82|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-XXT|2022|0.7979999999999999|https://arxiv.org/pdf/2206.09959v5.pdf
-EdgeNeXt-S|2022|0.794|https://arxiv.org/pdf/2206.10589v3.pdf
-EdgeNeXt-XXS|2022|0.7120000000000001|https://arxiv.org/pdf/2206.10589v3.pdf
-RevBiFPN-S6|2022|0.8420000000000001|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S5|2022|0.8370000000000001|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S4|2022|0.83|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S3|2022|0.8109999999999999|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S2|2022|0.79|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S1|2022|0.759|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S0|2022|0.728|https://arxiv.org/pdf/2206.14098v2.pdf
-Wave-ViT-L|2022|0.855|https://arxiv.org/pdf/2207.04978v1.pdf
-Wave-ViT-B|2022|0.848|https://arxiv.org/pdf/2207.04978v1.pdf
-Wave-ViT-S|2022|0.8390000000000001|https://arxiv.org/pdf/2207.04978v1.pdf
-UniNet-B6|2022|0.8740000000000001|https://arxiv.org/pdf/2207.05420v2.pdf
-UniNet-B5|2022|0.87|https://arxiv.org/pdf/2207.05420v2.pdf
-Next-ViT-L @384|2022|0.847|https://arxiv.org/pdf/2207.05501v4.pdf
-Next-ViT-B|2022|0.8320000000000001|https://arxiv.org/pdf/2207.05501v4.pdf
-Next-ViT-S|2022|0.825|https://arxiv.org/pdf/2207.05501v4.pdf
-UniNet-B0|2022|0.8079999999999999|https://arxiv.org/pdf/2207.05420v2.pdf
-TinyViT-21M-distill |2022|0.848|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-11M-distill |2022|0.8320000000000001|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-21M|2022|0.831|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-11M|2022|0.815|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-5M-distill |2022|0.807|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-5M|2022|0.7909999999999999|https://arxiv.org/pdf/2207.10666v1.pdf
-ResMLP-B24 + STD|2022|0.8240000000000001|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-CycleMLP-B2 + STD|2022|0.821|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-Mixer-S16 + STD|2022|0.757|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-HorNet-L |2022|0.877|https://arxiv.org/pdf/2207.14284v3.pdf
-gSwin-S|2022|0.8301000000000001|https://arxiv.org/pdf/2208.11718v1.pdf
-gSwin-T|2022|0.8170999999999999|https://arxiv.org/pdf/2208.11718v1.pdf
-gSwin-VT|2022|0.8031999999999999|https://arxiv.org/pdf/2208.11718v1.pdf
-dBOT ViT-H |2022|0.882|https://arxiv.org/pdf/2209.03917v3.pdf
-dBOT ViT-L |2022|0.878|https://arxiv.org/pdf/2209.03917v3.pdf
-dBOT ViT-B |2022|0.857|https://arxiv.org/pdf/2209.03917v3.pdf
-ViT-e|2022|0.909|https://arxiv.org/pdf/2209.06794v4.pdf
-MAE+DAT |2022|0.8702|https://arxiv.org/pdf/2209.07735v1.pdf
-Mega|2022|0.8240000000000001|https://arxiv.org/pdf/2209.10655v3.pdf
-GPaCo |2022|0.8601000000000001|https://arxiv.org/pdf/2209.12400v2.pdf
-GPaCo |2022|0.84|https://arxiv.org/pdf/2209.12400v2.pdf
-GPaCo |2022|0.797|https://arxiv.org/pdf/2209.12400v2.pdf
-DiNAT-Large |2022|0.875|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Large |2022|0.8740000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT_s-Large |2022|0.8740000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT_s-Large |2022|0.865|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Base|2022|0.8440000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Small|2022|0.838|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Tiny|2022|0.8270000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Mini|2022|0.818|https://arxiv.org/pdf/2209.15001v3.pdf
-MobileViTv3-S|2022|0.7929999999999999|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-1.0|2022|0.7864|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-XS|2022|0.767|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-0.75|2022|0.7655|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-0.5|2022|0.7232999999999999|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-XXS|2022|0.7098|https://arxiv.org/pdf/2209.15159v2.pdf
-MOAT-4 22K+1K|2022|0.8909999999999999|https://arxiv.org/pdf/2210.01820v2.pdf
-MOAT-3 1K only|2022|0.867|https://arxiv.org/pdf/2210.01820v2.pdf
-MOAT-0 1K only|2022|0.833|https://arxiv.org/pdf/2210.01820v2.pdf
-OTTT|2022|0.6515000000000001|https://arxiv.org/pdf/2210.04195v2.pdf
-WaveMixLite-256/24|2022|0.677|https://openreview.net/pdf?id=y_icnxeeUcl
-ViT-B/16-224+HTM|2022|0.8237000000000001|https://arxiv.org/pdf/2210.07562v1.pdf
-CAFormer-B36 |2022|0.8640000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-M36 |2022|0.862|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S36 |2022|0.857|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-B36 |2022|0.857|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-M36 |2022|0.856|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-B36 |2022|0.855|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S36 |2022|0.8540000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-M36 |2022|0.852|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S18 |2022|0.85|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-B36 |2022|0.848|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S36 |2022|0.845|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-M36 |2022|0.845|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S18 |2022|0.8440000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S36 |2022|0.841|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S18 |2022|0.836|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S18 |2022|0.83|https://arxiv.org/pdf/2210.13452v3.pdf
-MogaNet-XL |2022|0.878|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-L|2022|0.847|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-B|2022|0.843|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-S|2022|0.8340000000000001|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-T |2022|0.8|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-XT |2022|0.772|https://arxiv.org/pdf/2211.03295v3.pdf
-InternImage-DCNv3-G |2022|0.9009999999999999|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-H|2022|0.8959999999999999|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-XL|2022|0.88|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-L|2022|0.877|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-B|2022|0.8490000000000001|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-S|2022|0.8420000000000001|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-T|2022|0.835|https://arxiv.org/pdf/2211.05778v4.pdf
-EVA|2022|0.897|https://arxiv.org/pdf/2211.07636v2.pdf
-M3I Pre-training |2022|0.8959999999999999|https://arxiv.org/pdf/2211.09807v2.pdf
-Heinsen Routing + BEiT-large 16 224|2022|0.867|https://arxiv.org/pdf/2211.11754v3.pdf
-Last Layer Tuning with Newton Step |2022|0.889|https://arxiv.org/pdf/2211.13403v1.pdf
-SALG-ST|2022|0.759|https://arxiv.org/pdf/2211.14705v1.pdf
-PAT-B|2022|0.836|https://arxiv.org/pdf/2211.16961v5.pdf
-PAT-S|2022|0.831|https://arxiv.org/pdf/2211.16961v5.pdf
-IPT-B|2022|0.836|https://arxiv.org/pdf/2212.03035v1.pdf
-IPT-S|2022|0.8290000000000001|https://arxiv.org/pdf/2212.03035v1.pdf
-IPT-T|2022|0.805|https://arxiv.org/pdf/2212.03035v1.pdf
-ViT-H@224 |2022|0.88|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-L@224 |2022|0.875|https://arxiv.org/pdf/2212.04884v1.pdf
-Swin-L@224 |2022|0.871|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-B@224 |2022|0.863|https://arxiv.org/pdf/2212.04884v1.pdf
-Swin-B@224 |2022|0.862|https://arxiv.org/pdf/2212.04884v1.pdf
-ConvNeXt-B@224 |2022|0.858|https://arxiv.org/pdf/2212.04884v1.pdf
-PiT-B@224 |2022|0.858|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-M@224 |2022|0.85|https://arxiv.org/pdf/2212.04884v1.pdf
-RegnetY16GF@224 |2022|0.8420000000000001|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-S@224 |2022|0.831|https://arxiv.org/pdf/2212.04884v1.pdf
-R-Mix |2022|0.7739|https://arxiv.org/pdf/2212.04875v3.pdf
-OpenCLIP ViT-H/14|2022|0.885|https://arxiv.org/pdf/2212.07143v1.pdf
-data2vec 2.0|2022|0.8740000000000001|https://arxiv.org/pdf/2212.07525v2.pdf
-NEXcepTion-S|2022|0.82|https://arxiv.org/pdf/2212.08448v2.pdf
-NEXcepTion-TP|2022|0.818|https://arxiv.org/pdf/2212.08448v2.pdf
-NEXcepTion-T|2022|0.815|https://arxiv.org/pdf/2212.08448v2.pdf
-Adlik-ViT-SG+Swin_large+Convnext_xlarge|2022|0.8835999999999999|https://arxiv.org/pdf/2201.03545v2.pdf
-RevCol-H|2022|0.9|https://arxiv.org/pdf/2212.11696v3.pdf
-mPLUG-2|2023|0.885|https://arxiv.org/pdf/2302.00402v1.pdf
-DeepMAD-89M|2023|0.84|https://arxiv.org/pdf/2303.02165v3.pdf
-BiFormer-B* |2023|0.8540000000000001|https://arxiv.org/pdf/2303.08810v1.pdf
-BiFormer-S* |2023|0.843|https://arxiv.org/pdf/2303.08810v1.pdf
-BiFormer-T |2023|0.8140000000000001|https://arxiv.org/pdf/2303.08810v1.pdf
-ViC-MAE |2023|0.85|https://arxiv.org/pdf/2303.12001v2.pdf
-MAWS |2023|0.9009999999999999|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.898|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.895|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.888|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.868|https://arxiv.org/pdf/2303.13496v3.pdf
-Diffusion Classifier|2023|0.7909999999999999|https://arxiv.org/pdf/2303.16203v3.pdf
-CloFormer-S|2023|0.816|https://arxiv.org/pdf/2303.17803v5.pdf
-CloFormer-XS|2023|0.7979999999999999|https://arxiv.org/pdf/2303.17803v5.pdf
-CloFormer-XXS|2023|0.77|https://arxiv.org/pdf/2303.17803v5.pdf
-Unicom |2023|0.883|https://arxiv.org/pdf/2304.05884v1.pdf
-XCiT-M |2023|0.841|https://arxiv.org/pdf/2304.12043v2.pdf
-CA-Swin-S |2023|0.8370000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-DeiT-B |2023|0.8290000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-CA-Swin-T |2023|0.828|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-M |2023|0.8270000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-S |2023|0.812|https://arxiv.org/pdf/2304.12043v2.pdf
-CaiT-XXS |2023|0.8059999999999999|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-T |2023|0.767|https://arxiv.org/pdf/2304.12043v2.pdf
-DeiT-T |2023|0.738|https://arxiv.org/pdf/2304.12043v2.pdf
-ONE-PEACE|2023|0.898|https://arxiv.org/pdf/2305.11172v1.pdf
-Hiera-H|2023|0.8690000000000001|https://arxiv.org/pdf/2306.00989v1.pdf
-Swin-T+SSA|2023|0.8189|https://arxiv.org/pdf/2306.01705v1.pdf
-ViT-H @224 |2023|0.857|https://arxiv.org/pdf/2306.11339v2.pdf
-ViT-L @224 |2023|0.853|https://arxiv.org/pdf/2306.11339v2.pdf
-ViT-B @224 |2023|0.8420000000000001|https://arxiv.org/pdf/2306.11339v2.pdf
-CaiT-S24|2023|0.8491|https://arxiv.org/pdf/2308.09372v1.pdf
-XCiT-S|2023|0.8365|https://arxiv.org/pdf/2308.09372v1.pdf
-Wave-ViT-S|2023|0.8361|https://arxiv.org/pdf/2308.09372v1.pdf
-SwinV2-Ti|2023|0.8309000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-ViT-S|2023|0.8254|https://arxiv.org/pdf/2308.09372v1.pdf
-EViT |2023|0.8229000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-STViT-Swin-Ti|2023|0.8222|https://arxiv.org/pdf/2308.09372v1.pdf
-ToMe-ViT-S|2023|0.8210999999999999|https://arxiv.org/pdf/2308.09372v1.pdf
-EViT |2023|0.8195999999999999|https://arxiv.org/pdf/2308.09372v1.pdf
-GFNet-S|2023|0.8133|https://arxiv.org/pdf/2308.09372v1.pdf
-DynamicViT-S|2023|0.8109000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-TokenLearner-ViT-8|2023|0.8066|https://arxiv.org/pdf/2308.09372v1.pdf
-CoaT-Ti|2023|0.7842|https://arxiv.org/pdf/2308.09372v1.pdf
-Poly-SA-ViT-S|2023|0.7834|https://arxiv.org/pdf/2308.09372v1.pdf
-EfficientFormer-V2-S0|2023|0.7153|https://arxiv.org/pdf/2308.09372v1.pdf
-DAT-B++ |2023|0.8590000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-B++ |2023|0.8490000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-S++|2023|0.846|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-T++|2023|0.8390000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-MIRL|2023|0.848|https://arxiv.org/pdf/2309.14136v3.pdf
-MIRL |2023|0.862|https://arxiv.org/pdf/2309.14136v3.pdf
-GTP-ViT-B-Patch8/P20|2023|0.858|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-EVA-L/P8|2023|0.8540000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-ViT-L/P8|2023|0.8370000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-LV-ViT-M/P8|2023|0.828|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-LV-ViT-S/P8|2023|0.8190000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-DeiT-B/P8|2023|0.815|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-DeiT-S/P8|2023|0.795|https://arxiv.org/pdf/2311.03035v2.pdf
-UniRepLKNet-XL++|2023|0.88|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-L++|2023|0.879|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-B++|2023|0.8740000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-S++|2023|0.8640000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-S|2023|0.8390000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-T|2023|0.8320000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-N|2023|0.816|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-P|2023|0.802|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-F|2023|0.7859999999999999|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-A|2023|0.77|https://arxiv.org/pdf/2311.15599v1.pdf
-AIM-7B|2024|0.84|https://arxiv.org/pdf/2401.08541v1.pdf
-Inception ResNet V2|2016|0.8009999999999999|https://arxiv.org/pdf/1602.07261v2.pdf
-PNASNet-5|2017|0.8290000000000001|https://arxiv.org/pdf/1712.00559v3.pdf
-ResNeXt-101 32x48d|2018|0.8540000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-EfficientNet-B8 |2019|0.8540000000000001|https://arxiv.org/pdf/1909.13719v2.pdf
-BiT-L |2019|0.8754000000000001|https://arxiv.org/pdf/1912.11370v3.pdf
-DenseNet-169|2016|0.762|https://arxiv.org/pdf/1608.06993v5.pdf
-ResNeXt-101 32\u00d716d|2018|0.8420000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-MnasNet-A3|2018|0.767|https://arxiv.org/pdf/1807.11626v3.pdf
-MnasNet-A2|2018|0.7559999999999999|https://arxiv.org/pdf/1807.11626v3.pdf
-Oct-ResNet-152 |2019|0.8290000000000001|https://arxiv.org/pdf/1904.05049v3.pdf
-EfficientNet-B7|2019|0.8440000000000001|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B5|2019|0.833|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B7 |2019|0.85|https://arxiv.org/pdf/1909.13719v2.pdf
-ResNet-50|2019|0.721|https://arxiv.org/pdf/1910.04209v3.pdf
-InceptionV3 |2019|0.7895|https://arxiv.org/pdf/1911.09737v2.pdf
-ResnetV2 50 |2019|0.7720999999999999|https://arxiv.org/pdf/1911.09737v2.pdf
-BiT-M |2019|0.8539|https://arxiv.org/pdf/1912.11370v3.pdf
-FixEfficientNet-B6|2020|0.867|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B4|2020|0.8590000000000001|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B8|2020|0.857|https://arxiv.org/pdf/2003.08237v5.pdf
-ResNeSt-200|2020|0.8390000000000001|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-50-fast|2020|0.8064|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNet200_vd_26w_4s_ssld|2020|0.851|https://arxiv.org/pdf/2006.10702v1.pdf
-ReXNet-R_3.0|2020|0.845|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet-R_2.0|2020|0.8320000000000001|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_2.0|2020|0.816|https://arxiv.org/pdf/2007.00992v3.pdf
-ResNet-152 |2020|0.816|https://arxiv.org/pdf/2010.01412v3.pdf
-DeiT-B 384|2020|0.852|https://arxiv.org/pdf/2012.12877v2.pdf
-DeiT-B|2020|0.8420000000000001|https://arxiv.org/pdf/2012.12877v2.pdf
-DeiT-B|2020|0.826|https://arxiv.org/pdf/2012.12877v2.pdf
-SENet-101|2021|0.8140000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-T2T-ViTt-24|2021|0.826|https://arxiv.org/pdf/2101.11986v3.pdf
-NFNet-F5 w/ SAM|2021|0.863|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F5|2021|0.86|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F4|2021|0.8590000000000001|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F2|2021|0.851|https://arxiv.org/pdf/2102.06171v1.pdf
-ResNet-RS-50 |2021|0.8440000000000001|https://arxiv.org/pdf/2103.07579v1.pdf
-ResNet-34 |2021|0.7609999999999999|https://arxiv.org/pdf/2103.13027v6.pdf
-EfficientNetV2-L |2021|0.868|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-M |2021|0.861|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-L|2021|0.857|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-M|2021|0.851|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-S |2021|0.85|https://arxiv.org/pdf/2104.00298v3.pdf
-EfficientNetV2-S|2021|0.8390000000000001|https://arxiv.org/pdf/2104.00298v3.pdf
-LeViT-384|2021|0.825|https://arxiv.org/pdf/2104.01136v2.pdf
-ResNet-152x2-SAM|2021|0.8109999999999999|https://arxiv.org/pdf/2106.01548v3.pdf
-CSWin-L |2021|0.875|https://arxiv.org/pdf/2107.00652v3.pdf
-ResNet-152|2021|0.813|https://arxiv.org/pdf/2107.12028v2.pdf
-DeiT-B with iRPE-K|2021|0.8240000000000001|https://arxiv.org/pdf/2107.14222v1.pdf
-ResNet-152 |2021|0.8240000000000001|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet-152 |2021|0.818|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet-101 |2021|0.8108|https://arxiv.org/pdf/2111.15454v3.pdf
-ResNet-34 |2021|0.7635|https://arxiv.org/pdf/2111.15454v3.pdf
-Dspike |2021|0.7123999999999999|http://proceedings.neurips.cc/paper/2021/file/c4ca4238a0b923820dcc509a6f75849b-Paper.pdf
-MViTv2-L |2021|0.863|https://arxiv.org/pdf/2112.01526v2.pdf
-ELSA-VOLO-D5 |2021|0.872|https://arxiv.org/pdf/2112.12786v1.pdf
-PatchConvNet-B60-21k-384|2021|0.865|https://arxiv.org/pdf/2112.13692v1.pdf
-VOLO-D5+HAT|2022|0.873|https://arxiv.org/pdf/2204.00993v3.pdf
-Mini-Swin-B@384|2022|0.855|https://arxiv.org/pdf/2204.07154v1.pdf
-EfficientNetV2 |2022|0.872|https://arxiv.org/pdf/2204.12511v2.pdf
-TransBoost-MobileNetV3-L|2022|0.7681|https://arxiv.org/pdf/2205.13331v4.pdf
-RevBiFPN-S6|2022|0.8420000000000001|https://arxiv.org/pdf/2206.14098v2.pdf
-Next-ViT-B|2022|0.8320000000000001|https://arxiv.org/pdf/2207.05501v4.pdf
-Next-ViT-S|2022|0.825|https://arxiv.org/pdf/2207.05501v4.pdf
-DiNAT_s-Large |2022|0.8740000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-AIM-7B|2024|0.84|https://arxiv.org/pdf/2401.08541v1.pdf
-ResNet-152|2015|0.7857|https://arxiv.org/pdf/1512.03385v1.pdf
-ResNet-200|2016|0.799|https://arxiv.org/pdf/1603.05027v3.pdf
-SimpleNetV1-9m-correct-labels|2016|0.8123999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-NASNET-A|2017|0.8270000000000001|https://arxiv.org/pdf/1707.07012v4.pdf
-AmoebaNet-A|2018|0.8390000000000001|https://arxiv.org/pdf/1802.01548v7.pdf
-ResNeXt-101 32x32d|2018|0.851|https://arxiv.org/pdf/1805.00932v1.pdf
-FixResNeXt-101 32x48d|2019|0.8640000000000001|https://arxiv.org/pdf/1906.06423v4.pdf
-NoisyStudent |2019|0.8690000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2020|0.884|https://arxiv.org/pdf/1911.04252v4.pdf
-FixEfficientNet-L2|2020|0.885|https://arxiv.org/pdf/2003.08237v5.pdf
-Meta Pseudo Labels |2020|0.902|https://arxiv.org/pdf/2003.10580v4.pdf
-ViT-G/14|2021|0.9045000000000001|https://arxiv.org/pdf/2106.04560v2.pdf
-CoAtNet-7|2021|0.9087999999999999|https://arxiv.org/pdf/2106.04803v2.pdf
-Model soups |2022|0.9098|https://arxiv.org/pdf/2203.05482v3.pdf
-CoCa |2022|0.91|https://arxiv.org/pdf/2205.01917v2.pdf
-OmniVec|2023|0.924|https://arxiv.org/pdf/2311.05709v1.pdf
-ResNet-101|2015|0.7825|https://arxiv.org/pdf/1512.03385v1.pdf
-WRN-50-2-bottleneck|2016|0.7809999999999999|https://arxiv.org/pdf/1605.07146v4.pdf
-FractalNet-34|2016|0.7587999999999999|https://arxiv.org/pdf/1605.07648v4.pdf
-SimpleNetV1-5m-correct-labels|2016|0.7912|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-075-correct-labels|2016|0.7565999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-9m|2016|0.7417|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-5m|2016|0.7193999999999999|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-05-correct-labels|2016|0.6911|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-075|2016|0.6815000000000001|https://arxiv.org/pdf/1608.06037v8.pdf
-SimpleNetV1-small-05|2016|0.6152000000000001|https://arxiv.org/pdf/1608.06037v8.pdf
-DenseNet-201|2016|0.7742|https://arxiv.org/pdf/1608.06993v5.pdf
-DenseNet-121|2016|0.7498|https://arxiv.org/pdf/1608.06993v5.pdf
-Xception|2016|0.79|https://arxiv.org/pdf/1610.02357v3.pdf
-ResNeXt-101  64x4|2016|0.809|https://arxiv.org/pdf/1611.05431v2.pdf
-MobileNet-224 \u00d71.25|2017|0.706|https://arxiv.org/pdf/1704.04861v1.pdf
-Attention-92|2017|0.805|https://arxiv.org/pdf/1704.06904v1.pdf
-ShuffleNet|2017|0.7090000000000001|https://arxiv.org/pdf/1707.01083v2.pdf
-ResNet-101 |2017|0.792|https://arxiv.org/pdf/1707.02968v2.pdf
-MobileNetV2 |2018|0.747|https://arxiv.org/pdf/1801.04381v4.pdf
-MobileNetV2|2018|0.72|https://arxiv.org/pdf/1801.04381v4.pdf
-ResNet-152 + SWA|2018|0.7894|https://arxiv.org/pdf/1803.05407v3.pdf
-DenseNet-161 + SWA|2018|0.7844|https://arxiv.org/pdf/1803.05407v3.pdf
-Inception v3|2018|0.7712|https://arxiv.org/pdf/1803.08337v1.pdf
-ResNeXt-101 32x8d|2018|0.8220000000000001|https://arxiv.org/pdf/1805.00932v1.pdf
-CoordConv ResNet-50|2018|0.7574|https://arxiv.org/pdf/1807.03247v2.pdf
-ShuffleNet V2|2018|0.754|https://arxiv.org/pdf/1807.11164v1.pdf
-MnasNet-A1|2018|0.752|https://arxiv.org/pdf/1807.11626v3.pdf
-GPIPE|2018|0.8440000000000001|https://arxiv.org/pdf/1811.06965v5.pdf
-ESPNetv2|2018|0.7490000000000001|https://arxiv.org/pdf/1811.11431v3.pdf
-Proxyless|2018|0.746|https://arxiv.org/pdf/1812.00332v2.pdf
-ResNet-50-D|2018|0.7716|https://arxiv.org/pdf/1812.01187v2.pdf
-FBNet-C|2018|0.7490000000000001|https://arxiv.org/pdf/1812.03443v3.pdf
-ColorNet |2019|0.8432|https://arxiv.org/pdf/1902.00267v1.pdf
-ColorNet|2019|0.8234999999999999|https://arxiv.org/pdf/1902.00267v1.pdf
-MultiGrain PNASNet |2019|0.836|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.8320000000000001|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.831|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.83|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain SENet154 |2019|0.8270000000000001|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.826|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain PNASNet |2019|0.813|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain R50-AA-500|2019|0.794|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain R50-AA-224|2019|0.782|https://arxiv.org/pdf/1902.05509v2.pdf
-MultiGrain NASNet-A-Mobile |2019|0.7509999999999999|https://arxiv.org/pdf/1902.05509v2.pdf
-Graph-RISE |2019|0.6829000000000001|https://arxiv.org/pdf/1902.10814v1.pdf
-SKNet-101|2019|0.7981|https://arxiv.org/pdf/1903.06586v2.pdf
-SRM-ResNet-101|2019|0.7847|https://arxiv.org/pdf/1903.10829v1.pdf
-Res2Net-101|2019|0.8123|https://arxiv.org/pdf/1904.01169v3.pdf
-RandWire-WS|2019|0.8009999999999999|https://arxiv.org/pdf/1904.01569v2.pdf
-Res2Net-50-299|2019|0.7859|https://arxiv.org/pdf/1904.01169v3.pdf
-RandWire-WS |2019|0.747|https://arxiv.org/pdf/1904.01569v2.pdf
-Single-Path NAS|2019|0.7495999999999999|https://arxiv.org/pdf/1904.02877v1.pdf
-ACNet |2019|0.775|https://arxiv.org/pdf/1904.03579v1.pdf
-EfficientNet-B0 |2019|0.7829999999999999|https://arxiv.org/pdf/1904.04971v3.pdf
-ScaleNet-152|2019|0.7938|https://arxiv.org/pdf/1904.09460v1.pdf
-ScaleNet-101|2019|0.7903|https://arxiv.org/pdf/1904.09460v1.pdf
-ScaleNet-50|2019|0.778|https://arxiv.org/pdf/1904.09460v1.pdf
-AA-ResNet-152|2019|0.7909999999999999|https://arxiv.org/pdf/1904.09925v5.pdf
-LR-Net-26|2019|0.757|https://arxiv.org/pdf/1904.11491v1.pdf
-ResNet-50 |2019|0.7904000000000001|https://arxiv.org/pdf/1904.12848v6.pdf
-ResNet-200 |2019|0.8059999999999999|https://arxiv.org/pdf/1905.00397v2.pdf
-ResNet-50 |2019|0.7759999999999999|https://arxiv.org/pdf/1905.00397v2.pdf
-ResNeXt-101 32x16d |2019|0.848|https://arxiv.org/pdf/1905.00546v1.pdf
-ResNeXt-101 32x8d |2019|0.843|https://arxiv.org/pdf/1905.00546v1.pdf
-ResNeXt-101 32x4d |2019|0.8340000000000001|https://arxiv.org/pdf/1905.00546v1.pdf
-MobileNet V3-Large 1.0|2019|0.752|https://arxiv.org/pdf/1905.02244v5.pdf
-ResNeXt-101 |2019|0.8053|https://arxiv.org/pdf/1905.04899v2.pdf
-ResNet-50 |2019|0.784|https://arxiv.org/pdf/1905.04899v2.pdf
-SGE-ResNet101|2019|0.78798|https://arxiv.org/pdf/1905.09646v2.pdf
-SGE-ResNet50|2019|0.7758400000000001|https://arxiv.org/pdf/1905.09646v2.pdf
-EfficientNet-B6|2019|0.84|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B4|2019|0.826|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B3|2019|0.8109999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B2|2019|0.7979999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B1|2019|0.7879999999999999|https://arxiv.org/pdf/1905.11946v5.pdf
-EfficientNet-B0|2019|0.763|https://arxiv.org/pdf/1905.11946v5.pdf
-DiCENet|2019|0.7509999999999999|https://arxiv.org/pdf/1906.03516v3.pdf
-FixResNet-50 Billion-scale@224|2019|0.825|https://arxiv.org/pdf/1906.06423v4.pdf
-FixResNet-50 CutMix|2019|0.7979999999999999|https://arxiv.org/pdf/1906.06423v4.pdf
-FixResNet-50|2019|0.7909999999999999|https://arxiv.org/pdf/1906.06423v4.pdf
-DenseNAS-A|2019|0.759|https://arxiv.org/pdf/1906.09607v3.pdf
-FairNAS-A|2019|0.7534000000000001|https://arxiv.org/pdf/1907.01845v5.pdf
-FairNAS-B|2019|0.7509999999999999|https://arxiv.org/pdf/1907.01845v5.pdf
-FairNAS-C|2019|0.7469|https://arxiv.org/pdf/1907.01845v5.pdf
-MixNet-L|2019|0.789|https://arxiv.org/pdf/1907.09595v3.pdf
-MixNet-M|2019|0.77|https://arxiv.org/pdf/1907.09595v3.pdf
-MixNet-S|2019|0.758|https://arxiv.org/pdf/1907.09595v3.pdf
-MobileNet-224 |2019|0.7256|https://arxiv.org/pdf/1907.09665v10.pdf
-AOGNet-40M-AN|2019|0.8187000000000001|https://arxiv.org/pdf/1908.01259v3.pdf
-MoGA-A|2019|0.759|https://arxiv.org/pdf/1908.01314v4.pdf
-LIP-ResNet-101|2019|0.7933|https://arxiv.org/pdf/1908.04156v3.pdf
-ResNet-50 |2019|0.7815000000000001|https://arxiv.org/pdf/1908.04156v3.pdf
-LIP-DenseNet-BC-121|2019|0.7664|https://arxiv.org/pdf/1908.04156v3.pdf
-SCARLET-A4|2019|0.823|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-A|2019|0.769|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-B|2019|0.763|https://arxiv.org/pdf/1908.06022v6.pdf
-SCARLET-C|2019|0.7559999999999999|https://arxiv.org/pdf/1908.06022v6.pdf
-CSPResNeXt-50 + Mish|2019|0.7979999999999999|https://arxiv.org/pdf/1908.08681v3.pdf
-HCGNet-C|2019|0.805|https://arxiv.org/pdf/1908.09699v3.pdf
-HCGNet-B|2019|0.785|https://arxiv.org/pdf/1908.09699v3.pdf
-BBG |2019|0.626|https://arxiv.org/pdf/1909.12117v2.pdf
-BBG |2019|0.594|https://arxiv.org/pdf/1909.12117v2.pdf
-ResNet-50-DW |2019|0.785|https://arxiv.org/pdf/1910.02940v2.pdf
-ECA-Net |2019|0.7892|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7865000000000001|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7748|https://arxiv.org/pdf/1910.03151v4.pdf
-ECA-Net |2019|0.7256|https://arxiv.org/pdf/1910.03151v4.pdf
-NoisyStudent |2019|0.8640000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.861|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.853|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.841|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.8240000000000001|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.815|https://arxiv.org/pdf/1911.04252v4.pdf
-NoisyStudent |2019|0.7879999999999999|https://arxiv.org/pdf/1911.04252v4.pdf
-AdvProp |2019|0.855|https://arxiv.org/pdf/1911.09665v2.pdf
-AdvProp |2019|0.852|https://arxiv.org/pdf/1911.09665v2.pdf
-CSPResNeXt-50 |2019|0.7979999999999999|https://arxiv.org/pdf/1911.11929v1.pdf
-GhostNet \u00d71.3|2019|0.757|https://arxiv.org/pdf/1911.11907v2.pdf
-Ghost-ResNet-50 |2019|0.75|https://arxiv.org/pdf/1911.11907v2.pdf
-Ghost-ResNet-50 |2019|0.741|https://arxiv.org/pdf/1911.11907v2.pdf
-GhostNet \u00d71.0|2019|0.7390000000000001|https://arxiv.org/pdf/1911.11907v2.pdf
-GhostNet \u00d70.5|2019|0.662|https://arxiv.org/pdf/1911.11907v2.pdf
-Wide ResNet-50 |2019|0.733|https://arxiv.org/pdf/1911.13299v2.pdf
-DY-MobileNetV2 \u00d71.0|2019|0.7440000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.75|2019|0.728|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-ResNet-18|2019|0.727|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV3-Small|2019|0.6970000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.5|2019|0.6940000000000001|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-ResNet-10|2019|0.677|https://arxiv.org/pdf/1912.03458v2.pdf
-DY-MobileNetV2 \u00d70.35|2019|0.649|https://arxiv.org/pdf/1912.03458v2.pdf
-SpineNet-143|2019|0.79|https://arxiv.org/pdf/1912.05027v3.pdf
-ResNet-200 |2019|0.8131999999999999|https://arxiv.org/pdf/1912.11188v1.pdf
-ResNet-50 |2019|0.794|https://arxiv.org/pdf/1912.11188v1.pdf
-Assemble-ResNet152|2020|0.8420000000000001|https://arxiv.org/pdf/2001.06268v2.pdf
-Fix-EfficientNet-B8 |2020|0.858|https://arxiv.org/pdf/2002.09024v1.pdf
-FixEfficientNet-B7|2020|0.871|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B5|2020|0.8640000000000001|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B3|2020|0.85|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNetB4|2020|0.84|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B2|2020|0.836|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B1|2020|0.826|https://arxiv.org/pdf/2003.08237v5.pdf
-FixEfficientNet-B0|2020|0.802|https://arxiv.org/pdf/2003.08237v5.pdf
-Meta Pseudo Labels |2020|0.9|https://arxiv.org/pdf/2003.10580v4.pdf
-Meta Pseudo Labels |2020|0.8320000000000001|https://arxiv.org/pdf/2003.10580v4.pdf
-KDforAA |2020|0.858|https://arxiv.org/pdf/2003.11342v1.pdf
-KDforAA |2020|0.855|https://arxiv.org/pdf/2003.11342v1.pdf
-GreedyNAS-A|2020|0.7709999999999999|https://arxiv.org/pdf/2003.11236v1.pdf
-GreedyNAS-B|2020|0.768|https://arxiv.org/pdf/2003.11236v1.pdf
-GreedyNAS-C|2020|0.762|https://arxiv.org/pdf/2003.11236v1.pdf
-TResNet-XL|2020|0.843|https://arxiv.org/pdf/2003.13630v3.pdf
-RegNetY-8.0GF|2020|0.799|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-4.0GF|2020|0.794|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-1.6GF|2020|0.78|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-800MF|2020|0.763|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-600MF|2020|0.755|https://arxiv.org/pdf/2003.13678v1.pdf
-RegNetY-400MF|2020|0.741|https://arxiv.org/pdf/2003.13678v1.pdf
-MUXNet-l|2020|0.7659999999999999|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-m|2020|0.753|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-s|2020|0.716|https://arxiv.org/pdf/2003.13880v2.pdf
-MUXNet-xs|2020|0.667|https://arxiv.org/pdf/2003.13880v2.pdf
-ResNeSt-269|2020|0.845|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-101|2020|0.83|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNeSt-50|2020|0.8112999999999999|https://arxiv.org/pdf/2004.08955v2.pdf
-ResNet-200 |2020|0.8079999999999999|https://arxiv.org/pdf/2004.11362v5.pdf
-NAT-M4|2020|0.805|https://arxiv.org/pdf/2005.05859v2.pdf
-Multiscale DEQ |2020|0.792|https://arxiv.org/pdf/2006.08656v2.pdf
-Fix_ResNet50_vd_ssld|2020|0.84|https://arxiv.org/pdf/2006.10702v1.pdf
-ResNet50_vd_ssld|2020|0.83|https://arxiv.org/pdf/2006.10702v1.pdf
-MobileNetV3_large_x1_0_ssld|2020|0.79|https://arxiv.org/pdf/2006.10702v1.pdf
-PyConvResNet-101|2020|0.8149|https://arxiv.org/pdf/2006.11538v1.pdf
-Prodpoly|2020|0.7717|https://arxiv.org/pdf/2006.13026v2.pdf
-PS-KD |2020|0.7924|https://arxiv.org/pdf/2006.12000v3.pdf
-ReXNet_3.0|2020|0.828|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.5|2020|0.8029999999999999|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.3|2020|0.795|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_1.0|2020|0.779|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_0.9|2020|0.772|https://arxiv.org/pdf/2007.00992v3.pdf
-ReXNet_0.6|2020|0.746|https://arxiv.org/pdf/2007.00992v3.pdf
-Ours|2020|0.7197|https://arxiv.org/pdf/2009.04626v1.pdf
-ResNet-50|2020|0.7876000000000001|https://arxiv.org/pdf/2009.06962v2.pdf
-MEAL V2 |2020|0.8172|https://arxiv.org/pdf/2009.08453v2.pdf
-MEAL V2 |2020|0.8067|https://arxiv.org/pdf/2009.08453v2.pdf
-ResNet-18 |2020|0.7319|https://arxiv.org/pdf/2009.08453v2.pdf
-iAFF-ResNeXt-50-32x4d|2020|0.8022|https://arxiv.org/pdf/2009.14082v2.pdf
-EfficientNet-L2-475 |2020|0.8861|https://arxiv.org/pdf/2010.01412v3.pdf
-ResNeXt-101 |2020|0.812|https://arxiv.org/pdf/2010.05981v2.pdf
-ViT-H/14|2020|0.8855|https://arxiv.org/pdf/2010.11929v2.pdf
-ViT-L/16|2020|0.8776|https://arxiv.org/pdf/2010.11929v2.pdf
-TinyNet |2020|0.794|https://arxiv.org/pdf/2010.14819v2.pdf
-TinyNet-A + RA|2020|0.777|https://arxiv.org/pdf/2010.14819v2.pdf
-Grafit |2020|0.7959999999999999|https://arxiv.org/pdf/2011.12982v1.pdf
-ResNet-18 |2020|0.7171|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7156|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7137|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7108|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7093|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7051999999999999|https://arxiv.org/pdf/2011.12913v2.pdf
-ResNet-18 |2020|0.7009000000000001|https://arxiv.org/pdf/2011.12913v2.pdf
-DeiT-B|2020|0.7659999999999999|https://arxiv.org/pdf/2012.12877v2.pdf
-ResNet-50+AutoDropout+RandAugment|2021|0.8029999999999999|https://arxiv.org/pdf/2101.01761v1.pdf
-ResNet-50|2021|0.787|https://arxiv.org/pdf/2101.01761v1.pdf
-EfficientNet-B0|2021|0.775|https://arxiv.org/pdf/2101.01761v1.pdf
-SSAL-Resnet50|2021|0.77|https://arxiv.org/pdf/2101.03057v1.pdf
-RepVGG-B2|2021|0.7878000000000001|https://arxiv.org/pdf/2101.03697v3.pdf
-RepVGG-B2g4|2021|0.785|https://arxiv.org/pdf/2101.03697v3.pdf
-ReXNet_1.0-relabel|2021|0.784|https://arxiv.org/pdf/2101.05022v2.pdf
-BoTNet T7|2021|0.847|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T7-320|2021|0.8420000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T6|2021|0.84|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-350|2021|0.838|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T5|2021|0.835|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T4|2021|0.828|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-152|2021|0.8220000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-BoTNet T3|2021|0.8170000000000001|https://arxiv.org/pdf/2101.11605v2.pdf
-ResNet-101|2021|0.8|https://arxiv.org/pdf/2101.11605v2.pdf
-SENet-50|2021|0.794|https://arxiv.org/pdf/2101.11605v2.pdf
-ResNet-50|2021|0.7879999999999999|https://arxiv.org/pdf/2101.11605v2.pdf
-"T2T-ViT-14|384"|2021|0.833|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-24|2021|0.823|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViTt-19|2021|0.8220000000000001|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-19|2021|0.8190000000000001|https://arxiv.org/pdf/2101.11986v3.pdf
-T2T-ViT-14|2021|0.815|https://arxiv.org/pdf/2101.11986v3.pdf
-ZenNAS |2021|0.83|https://arxiv.org/pdf/2102.01063v4.pdf
-ZenNet-400M-SE|2021|0.78|https://arxiv.org/pdf/2102.01063v4.pdf
-NFNet-F4+|2021|0.892|https://arxiv.org/pdf/2102.06171v1.pdf
-ALIGN |2021|0.8864|https://arxiv.org/pdf/2102.05918v2.pdf
-NFNet-F6 w/ SAM|2021|0.865|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F3|2021|0.857|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F1|2021|0.847|https://arxiv.org/pdf/2102.06171v1.pdf
-NFNet-F0|2021|0.836|https://arxiv.org/pdf/2102.06171v1.pdf
-ResNet-50 MLPerf v0.7 - 2512 steps|2021|0.7592|https://arxiv.org/pdf/2102.06356v3.pdf
-AlphaNet-A6|2021|0.8079999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A5|2021|0.8029999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A4|2021|0.8|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A3|2021|0.794|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A2|2021|0.7909999999999999|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A1|2021|0.789|https://arxiv.org/pdf/2102.07954v2.pdf
-AlphaNet-A0|2021|0.778|https://arxiv.org/pdf/2102.07954v2.pdf
-LambdaResNet200|2021|0.843|https://arxiv.org/pdf/2102.08602v1.pdf
-LambdaResNet152|2021|0.84|https://arxiv.org/pdf/2102.08602v1.pdf
-TNT-B|2021|0.8390000000000001|https://arxiv.org/pdf/2103.00112v3.pdf
-Perceiver |2021|0.78|https://arxiv.org/pdf/2103.03206v2.pdf
-Perceiver|2021|0.764|https://arxiv.org/pdf/2103.03206v2.pdf
-RedNet-152|2021|0.7929999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-101|2021|0.7909999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-50|2021|0.784|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-38|2021|0.7759999999999999|https://arxiv.org/pdf/2103.06255v2.pdf
-RedNet-26|2021|0.759|https://arxiv.org/pdf/2103.06255v2.pdf
-ResNet-RS-270 |2021|0.838|https://arxiv.org/pdf/2103.07579v1.pdf
-ConViT-B+|2021|0.825|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-B|2021|0.8240000000000001|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-S+|2021|0.8220000000000001|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-S|2021|0.813|https://arxiv.org/pdf/2103.10697v2.pdf
-HVT-S-1|2021|0.78|https://arxiv.org/pdf/2103.10619v2.pdf
-ConViT-Ti+|2021|0.767|https://arxiv.org/pdf/2103.10697v2.pdf
-ConViT-Ti|2021|0.731|https://arxiv.org/pdf/2103.10697v2.pdf
-HVT-Ti-1|2021|0.6964|https://arxiv.org/pdf/2103.10619v2.pdf
-CeiT-S |2021|0.833|https://arxiv.org/pdf/2103.11816v2.pdf
-DeepVit-L* |2021|0.831|https://arxiv.org/pdf/2103.11886v4.pdf
-DeepVit-L|2021|0.8220000000000001|https://arxiv.org/pdf/2103.11886v4.pdf
-CeiT-S|2021|0.82|https://arxiv.org/pdf/2103.11816v2.pdf
-CeiT-T |2021|0.7879999999999999|https://arxiv.org/pdf/2103.11816v2.pdf
-CeiT-T|2021|0.764|https://arxiv.org/pdf/2103.11816v2.pdf
-BossNet-T1|2021|0.8220000000000001|https://arxiv.org/pdf/2103.12424v3.pdf
-ResNet-101 |2021|0.8098000000000001|https://arxiv.org/pdf/2103.13027v6.pdf
-ResNet-50 |2021|0.7925|https://arxiv.org/pdf/2103.13027v6.pdf
-ResNet-18 |2021|0.7204999999999999|https://arxiv.org/pdf/2103.13027v6.pdf
-Swin-T|2021|0.813|https://arxiv.org/pdf/2103.14030v2.pdf
-CrossViT-18+|2021|0.828|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-18|2021|0.825|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-15+|2021|0.823|https://arxiv.org/pdf/2103.14899v2.pdf
-CrossViT-15|2021|0.815|https://arxiv.org/pdf/2103.14899v2.pdf
-CvT-21 |2021|0.833|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Medium-D|2021|0.833|https://arxiv.org/pdf/2103.15358v2.pdf
-ViL-Base-D|2021|0.8320000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-13 |2021|0.83|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Medium-W|2021|0.8290000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-21|2021|0.825|https://arxiv.org/pdf/2103.15808v1.pdf
-CvT-13-NAS|2021|0.8220000000000001|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Small|2021|0.82|https://arxiv.org/pdf/2103.15358v2.pdf
-ViL-Base-W|2021|0.8190000000000001|https://arxiv.org/pdf/2103.15358v2.pdf
-CvT-13|2021|0.816|https://arxiv.org/pdf/2103.15808v1.pdf
-ViL-Tiny-RPB|2021|0.767|https://arxiv.org/pdf/2103.15358v2.pdf
-PiT-B|2021|0.84|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-S|2021|0.8190000000000001|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-XS|2021|0.7909999999999999|https://arxiv.org/pdf/2103.16302v2.pdf
-PiT-Ti|2021|0.746|https://arxiv.org/pdf/2103.16302v2.pdf
-CaiT-M-48-448|2021|0.865|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M36-448|2021|0.863|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M-36|2021|0.861|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-M-24|2021|0.858|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-36|2021|0.8540000000000001|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-48|2021|0.853|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-S-24|2021|0.851|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XS-36|2021|0.848|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XS-24|2021|0.841|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XXS-36|2021|0.8220000000000001|https://arxiv.org/pdf/2103.17239v2.pdf
-CAIT-XXS-24|2021|0.809|https://arxiv.org/pdf/2103.17239v2.pdf
-LeViT-256|2021|0.816|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-192|2021|0.8|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-128|2021|0.7959999999999999|https://arxiv.org/pdf/2104.01136v2.pdf
-LeViT-128S|2021|0.757|https://arxiv.org/pdf/2104.01136v2.pdf
-"CCT-14/7x2 | 384"|2021|0.8271|https://arxiv.org/pdf/2104.05704v4.pdf
-CCT-14/7x2|2021|0.8134|https://arxiv.org/pdf/2104.05704v4.pdf
-LocalViT-S|2021|0.8079999999999999|https://arxiv.org/pdf/2104.05707v1.pdf
-CCT-16/7x2|2021|0.8028|https://arxiv.org/pdf/2104.05704v4.pdf
-LocalViT-PVT|2021|0.782|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-TNT|2021|0.759|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-T|2021|0.748|https://arxiv.org/pdf/2104.05707v1.pdf
-LocalViT-T2T|2021|0.725|https://arxiv.org/pdf/2104.05707v1.pdf
-AsymmNet-Large \u00d71.0|2021|0.754|https://arxiv.org/pdf/2104.07770v1.pdf
-AsymmNet-Large \u00d70.5|2021|0.6920000000000001|https://arxiv.org/pdf/2104.07770v1.pdf
-AsymmNet-Small \u00d71.0|2021|0.684|https://arxiv.org/pdf/2104.07770v1.pdf
-PDC|2021|0.716|https://arxiv.org/pdf/2104.07916v2.pdf
-ReActNet-A |2021|0.68|https://arxiv.org/pdf/2104.08215v1.pdf
-DIFFQ |2021|0.82|https://arxiv.org/pdf/2104.09987v3.pdf
-LV-ViT-L|2021|0.8640000000000001|https://arxiv.org/pdf/2104.10858v3.pdf
-MViT-B-24|2021|0.848|https://arxiv.org/pdf/2104.11227v1.pdf
-LV-ViT-M|2021|0.841|https://arxiv.org/pdf/2104.10858v3.pdf
-LV-ViT-S|2021|0.833|https://arxiv.org/pdf/2104.10858v3.pdf
-MViT-B-16|2021|0.83|https://arxiv.org/pdf/2104.11227v1.pdf
-Visformer-S|2021|0.8220000000000001|https://arxiv.org/pdf/2104.12533v4.pdf
-Visformer-Ti|2021|0.7859999999999999|https://arxiv.org/pdf/2104.12533v4.pdf
-Twins-SVT-L|2021|0.8370000000000001|https://arxiv.org/pdf/2104.13840v4.pdf
-Mixer-H/14 |2021|0.8794|https://arxiv.org/pdf/2105.01601v4.pdf
-ViT-L/16 Dosovitskiy et al. |2021|0.853|https://arxiv.org/pdf/2105.01601v4.pdf
-Mixer-B/16|2021|0.7644|https://arxiv.org/pdf/2105.01601v4.pdf
-T2T-ViT-14|2021|0.8170000000000001|https://arxiv.org/pdf/2105.02358v2.pdf
-RepMLP-Res50|2021|0.7859999999999999|https://arxiv.org/pdf/2105.01883v3.pdf
-FF|2021|0.7490000000000001|https://arxiv.org/pdf/2105.02723v1.pdf
-ResMLP-B24/8|2021|0.836|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-S24|2021|0.8079999999999999|https://arxiv.org/pdf/2105.03404v2.pdf
-BasisNet-MV3|2021|0.8|https://arxiv.org/pdf/2105.03014v1.pdf
-ResMLP-36|2021|0.797|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-24|2021|0.794|https://arxiv.org/pdf/2105.03404v2.pdf
-ResMLP-S12|2021|0.778|https://arxiv.org/pdf/2105.03404v2.pdf
-Conformer-B|2021|0.841|https://arxiv.org/pdf/2105.03889v1.pdf
-RVT-B*|2021|0.8270000000000001|https://arxiv.org/pdf/2105.07926v4.pdf
-RVT-S*|2021|0.8190000000000001|https://arxiv.org/pdf/2105.07926v4.pdf
-gMLP-B|2021|0.816|https://arxiv.org/pdf/2105.08050v2.pdf
-RVT-Ti*|2021|0.792|https://arxiv.org/pdf/2105.07926v4.pdf
-Heteroscedastic |2021|0.6859999999999999|https://arxiv.org/pdf/2105.10305v1.pdf
-Transformer local-attention |2021|0.838|https://arxiv.org/pdf/2105.12723v4.pdf
-Transformer local-attention |2021|0.833|https://arxiv.org/pdf/2105.12723v4.pdf
-Transformer local-attention |2021|0.815|https://arxiv.org/pdf/2105.12723v4.pdf
-NFNet-F5 w/ SAM w/ augmult=16|2021|0.8678|https://arxiv.org/pdf/2105.13343v2.pdf
-ResT-Large|2021|0.836|https://arxiv.org/pdf/2105.13677v5.pdf
-ResT-Small|2021|0.7959999999999999|https://arxiv.org/pdf/2105.13677v5.pdf
-DVT |2021|0.8043|https://arxiv.org/pdf/2105.15075v2.pdf
-DVT |2021|0.7974|https://arxiv.org/pdf/2105.15075v2.pdf
-DVT |2021|0.7848|https://arxiv.org/pdf/2105.15075v2.pdf
-Container Container|2021|0.8270000000000001|https://arxiv.org/pdf/2106.01401v2.pdf
-Container-Light|2021|0.82|https://arxiv.org/pdf/2106.01401v2.pdf
-DynamicViT-LV-M/0.8|2021|0.8390000000000001|https://arxiv.org/pdf/2106.02034v2.pdf
-ViT-B/16-SAM|2021|0.799|https://arxiv.org/pdf/2106.01548v3.pdf
-Mixer-B/8-SAM|2021|0.79|https://arxiv.org/pdf/2106.01548v3.pdf
-Refiner-ViT-L|2021|0.8603000000000001|https://arxiv.org/pdf/2106.03714v1.pdf
-ViTAE-B-Stage|2021|0.836|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-S-Stage|2021|0.8220000000000001|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-13M|2021|0.81|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-6M|2021|0.779|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-T-Stage|2021|0.768|https://arxiv.org/pdf/2106.03348v4.pdf
-ViTAE-T|2021|0.753|https://arxiv.org/pdf/2106.03348v4.pdf
-CoAtNet-6|2021|0.9045000000000001|https://arxiv.org/pdf/2106.04803v2.pdf
-CoAtNet-3 @384|2021|0.8852|https://arxiv.org/pdf/2106.04803v2.pdf
-FunMatch - T384+224 |2021|0.828|https://arxiv.org/pdf/2106.05237v2.pdf
-V-MoE-H/14 |2021|0.8835999999999999|https://arxiv.org/pdf/2106.05974v1.pdf
-V-MoE-H/14 |2021|0.8823000000000001|https://arxiv.org/pdf/2106.05974v1.pdf
-VIT-H/14|2021|0.8808|https://arxiv.org/pdf/2106.05974v1.pdf
-V-MoE-L/16 |2021|0.8741|https://arxiv.org/pdf/2106.05974v1.pdf
-BEiT-L |2021|0.8859999999999999|https://arxiv.org/pdf/2106.08254v2.pdf
-BEiT-L |2021|0.863|https://arxiv.org/pdf/2106.08254v2.pdf
-XCiT-L24|2021|0.86|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-M24|2021|0.858|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-S24|2021|0.856|https://arxiv.org/pdf/2106.09681v2.pdf
-XCiT-S12|2021|0.851|https://arxiv.org/pdf/2106.09681v2.pdf
-TokenLearner L/8 |2021|0.8887|https://arxiv.org/pdf/2106.11297v4.pdf
-16-TokenLearner B/16 |2021|0.8706999999999999|https://arxiv.org/pdf/2106.11297v4.pdf
-VOLO-D5|2021|0.871|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D4|2021|0.868|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D3|2021|0.863|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D2|2021|0.86|https://arxiv.org/pdf/2106.13112v2.pdf
-VOLO-D1|2021|0.852|https://arxiv.org/pdf/2106.13112v2.pdf
-PVTv2-B4|2021|0.838|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B3|2021|0.8320000000000001|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B2|2021|0.82|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B1|2021|0.787|https://arxiv.org/pdf/2106.13797v7.pdf
-PVTv2-B0|2021|0.705|https://arxiv.org/pdf/2106.13797v7.pdf
-GFNet-H-B|2021|0.8290000000000001|https://arxiv.org/pdf/2107.00645v2.pdf
-AutoFormer-base|2021|0.8240000000000001|https://arxiv.org/pdf/2107.00651v1.pdf
-AutoFormer-small|2021|0.8170000000000001|https://arxiv.org/pdf/2107.00651v1.pdf
-AutoFormer-tiny|2021|0.747|https://arxiv.org/pdf/2107.00651v1.pdf
-GLiT-Bases|2021|0.823|https://arxiv.org/pdf/2107.02960v3.pdf
-GLiT-Smalls|2021|0.805|https://arxiv.org/pdf/2107.02960v3.pdf
-GLiT-Tinys|2021|0.763|https://arxiv.org/pdf/2107.02960v3.pdf
-CoE-Large + CondConv|2021|0.815|https://arxiv.org/pdf/2107.03815v2.pdf
-CoE-Large|2021|0.807|https://arxiv.org/pdf/2107.03815v2.pdf
-CoE-Small + CondConv + PWLU|2021|0.8|https://arxiv.org/pdf/2107.03815v2.pdf
-"ViP-B|384"|2021|0.8420000000000001|https://arxiv.org/pdf/2107.05790v2.pdf
-CycleMLP-B5|2021|0.8320000000000001|https://arxiv.org/pdf/2107.10224v4.pdf
-SkipblockNet-L|2021|0.7709999999999999|https://arxiv.org/pdf/2107.11170v3.pdf
-SkipblockNet-M|2021|0.762|https://arxiv.org/pdf/2107.11170v3.pdf
-WideNet-H|2021|0.8009000000000001|https://arxiv.org/pdf/2107.11817v3.pdf
-WideNet-L|2021|0.7948999999999999|https://arxiv.org/pdf/2107.11817v3.pdf
-WideNet-B|2021|0.7754000000000001|https://arxiv.org/pdf/2107.11817v3.pdf
-SE-CoTNetD-152|2021|0.846|https://arxiv.org/pdf/2107.12292v1.pdf
-SE-CoTNetD-101|2021|0.8320000000000001|https://arxiv.org/pdf/2107.12292v1.pdf
-ResNet-200|2021|0.818|https://arxiv.org/pdf/2107.12028v2.pdf
-SE-CoTNetD-50|2021|0.816|https://arxiv.org/pdf/2107.12292v1.pdf
-ResNet-101|2021|0.809|https://arxiv.org/pdf/2107.12028v2.pdf
-DeiT-S with iRPE-QKV|2021|0.8140000000000001|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-S with iRPE-QK|2021|0.8109999999999999|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-S with iRPE-K|2021|0.809|https://arxiv.org/pdf/2107.14222v1.pdf
-DeiT-Ti with iRPE-K|2021|0.737|https://arxiv.org/pdf/2107.14222v1.pdf
-Evo-LeViT-384*|2021|0.8220000000000001|https://arxiv.org/pdf/2108.01390v5.pdf
-Co-ResNet-152|2021|0.7903|https://arxiv.org/pdf/2108.07387v1.pdf
-ConvMLP-L|2021|0.802|https://arxiv.org/pdf/2109.04454v2.pdf
-ConvMLP-M|2021|0.79|https://arxiv.org/pdf/2109.04454v2.pdf
-ConvMLP-S|2021|0.768|https://arxiv.org/pdf/2109.04454v2.pdf
-sMLPNet-B |2021|0.8340000000000001|https://arxiv.org/pdf/2109.05422v2.pdf
-sMLPNet-S |2021|0.831|https://arxiv.org/pdf/2109.05422v2.pdf
-sMLPNet-T |2021|0.8190000000000001|https://arxiv.org/pdf/2109.05422v2.pdf
-NASViT |2021|0.8290000000000001|https://openreview.net/pdf?id=Qaw16njk6L
-ConvMixer-1536/20|2021|0.8220000000000001|https://arxiv.org/pdf/2201.09792v1.pdf
-NASViT-A5|2021|0.818|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A4|2021|0.8140000000000001|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A3|2021|0.81|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A2|2021|0.805|https://openreview.net/pdf?id=Qaw16njk6L
-DAFT-conv |2021|0.802|https://openreview.net/pdf?id=JVR4JswsEM
-DAFT-full|2021|0.7979999999999999|https://openreview.net/pdf?id=JVR4JswsEM
-NASViT-A1|2021|0.797|https://openreview.net/pdf?id=Qaw16njk6L
-NASViT-A0|2021|0.782|https://openreview.net/pdf?id=Qaw16njk6L
-DeiT-S |2021|0.804|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet50 |2021|0.804|https://arxiv.org/pdf/2110.00476v1.pdf
-ResNet50 |2021|0.7809999999999999|https://arxiv.org/pdf/2110.00476v1.pdf
-MobileViT-S|2021|0.784|https://arxiv.org/pdf/2110.02178v2.pdf
-MobileViT-XS|2021|0.748|https://arxiv.org/pdf/2110.02178v2.pdf
-UniNet-B5|2021|0.852|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B4|2021|0.8420000000000001|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B2|2021|0.8270000000000001|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B1|2021|0.804|https://arxiv.org/pdf/2110.04035v1.pdf
-UniNet-B0|2021|0.7909999999999999|https://arxiv.org/pdf/2110.04035v1.pdf
-HRFormer-B|2021|0.828|https://arxiv.org/pdf/2110.09408v3.pdf
-HRFormer-T|2021|0.785|https://arxiv.org/pdf/2110.09408v3.pdf
-SReT-T|2021|0.7759999999999999|https://arxiv.org/pdf/2111.05297v3.pdf
-SReT-ExT|2021|0.74|https://arxiv.org/pdf/2111.05297v3.pdf
-MAE |2021|0.8690000000000001|https://arxiv.org/pdf/2111.06377v2.pdf
-MAE |2021|0.8590000000000001|https://arxiv.org/pdf/2111.06377v2.pdf
-MAE |2021|0.836|https://arxiv.org/pdf/2111.06377v2.pdf
-SwinV2-G|2021|0.9017000000000001|https://arxiv.org/pdf/2111.09883v2.pdf
-SwinV2-B|2021|0.871|https://arxiv.org/pdf/2111.09883v2.pdf
-FBNetV5-F-CLS|2021|0.841|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-C-CLS|2021|0.826|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5|2021|0.818|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-A-CLS|2021|0.8170000000000001|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-AC-CLS|2021|0.784|https://arxiv.org/pdf/2111.10007v2.pdf
-FBNetV5-AR-CLS|2021|0.772|https://arxiv.org/pdf/2111.10007v2.pdf
-DiscreteViT|2021|0.8506999999999999|https://arxiv.org/pdf/2111.10493v2.pdf
-Florence-CoSwin-H|2021|0.9005|https://arxiv.org/pdf/2111.11432v1.pdf
-MetaFormer PoolFormer-M48|2021|0.825|https://arxiv.org/pdf/2111.11418v3.pdf
-ResNet-50 |2021|0.7940999999999999|https://arxiv.org/pdf/2111.15454v3.pdf
-ResNet-18 |2021|0.7232999999999999|https://arxiv.org/pdf/2111.15454v3.pdf
-MViTv2-H |2021|0.88|https://arxiv.org/pdf/2112.01526v2.pdf
-MViTv2-T|2021|0.823|https://arxiv.org/pdf/2112.01526v2.pdf
-SReT-LT |2021|0.787|https://arxiv.org/pdf/2112.01528v1.pdf
-QnA-ViT-Base|2021|0.8370000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-QnA-ViT-Small|2021|0.8320000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-RepMLPNet-L256|2021|0.818|https://arxiv.org/pdf/2112.11081v2.pdf
-QnA-ViT-Tiny|2021|0.8170000000000001|https://arxiv.org/pdf/2112.11435v2.pdf
-ELSA-VOLO-D1|2021|0.847|https://arxiv.org/pdf/2112.12786v1.pdf
-ELSA-Swin-T|2021|0.8270000000000001|https://arxiv.org/pdf/2112.12786v1.pdf
-PatchConvNet-L120-21k-384|2021|0.871|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S60-21k-512|2021|0.8540000000000001|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-B120|2021|0.841|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-B60|2021|0.835|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S120|2021|0.8320000000000001|https://arxiv.org/pdf/2112.13692v1.pdf
-PatchConvNet-S60|2021|0.821|https://arxiv.org/pdf/2112.13692v1.pdf
-DAT-S|2022|0.8370000000000001|https://arxiv.org/pdf/2201.00520v3.pdf
-DAT-T|2022|0.82|https://arxiv.org/pdf/2201.00520v3.pdf
-ConvNeXt-XL |2022|0.878|https://arxiv.org/pdf/2201.03545v2.pdf
-ConvNeXt-L |2022|0.855|https://arxiv.org/pdf/2201.03545v2.pdf
-ConvNeXt-T|2022|0.821|https://arxiv.org/pdf/2201.03545v2.pdf
-SWAG |2022|0.8859999999999999|https://arxiv.org/pdf/2201.08371v2.pdf
-Omnivore |2022|0.86|https://arxiv.org/pdf/2201.08377v2.pdf
-Omnivore |2022|0.853|https://arxiv.org/pdf/2201.08377v2.pdf
-UniFormer-L |2022|0.863|https://arxiv.org/pdf/2201.09450v3.pdf
-UniFormer-L|2022|0.856|https://arxiv.org/pdf/2201.09450v3.pdf
-UniFormer-S|2022|0.8340000000000001|https://arxiv.org/pdf/2201.09450v3.pdf
-Shift-B|2022|0.833|https://arxiv.org/pdf/2201.10801v1.pdf
-Shift-S|2022|0.828|https://arxiv.org/pdf/2201.10801v1.pdf
-Shift-T|2022|0.8170000000000001|https://arxiv.org/pdf/2201.10801v1.pdf
-data2vec |2022|0.866|https://arxiv.org/pdf/2202.03555v3.pdf
-MKD ViT-L|2022|0.865|https://arxiv.org/pdf/2202.07940v1.pdf
-SEER |2022|0.858|https://arxiv.org/pdf/2202.08360v2.pdf
-MKD ViT-B|2022|0.851|https://arxiv.org/pdf/2202.07940v1.pdf
-MKD ViT-S|2022|0.831|https://arxiv.org/pdf/2202.07940v1.pdf
-MKD ViT-T|2022|0.7709999999999999|https://arxiv.org/pdf/2202.07940v1.pdf
-VAN-B5 |2022|0.863|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B4 |2022|0.857|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B2|2022|0.828|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B1|2022|0.8109999999999999|https://arxiv.org/pdf/2202.09741v5.pdf
-VAN-B0|2022|0.754|https://arxiv.org/pdf/2202.09741v5.pdf
-ViTAE-H + MAE |2022|0.885|https://arxiv.org/pdf/2202.10108v2.pdf
-EdgeFormer-S|2022|0.7863|https://arxiv.org/pdf/2203.03952v5.pdf
-Model soups |2022|0.9094|https://arxiv.org/pdf/2203.05482v3.pdf
-ActiveMLP-L|2022|0.848|https://arxiv.org/pdf/2203.06108v2.pdf
-ActiveMLP-T|2022|0.82|https://arxiv.org/pdf/2203.06108v2.pdf
-RepLKNet-XL|2022|0.878|https://arxiv.org/pdf/2203.06717v4.pdf
-ViT-L@384 |2022|0.855|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B@384 |2022|0.843|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B-36x1|2022|0.841|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B-18x2|2022|0.841|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-B |2022|0.8340000000000001|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-S-24x2|2022|0.826|https://arxiv.org/pdf/2203.09795v1.pdf
-ViT-S-48x1|2022|0.823|https://arxiv.org/pdf/2203.09795v1.pdf
-ELP |2022|0.7613|http://openaccess.thecvf.com//content/CVPR2022/papers/Liang_A_Simple_Episodic_Linear_Probe_Improves_Visual_Recognition_in_the_CVPR_2022_paper.pdf
-kNN-CLIP|2022|0.7979999999999999|https://arxiv.org/pdf/2204.01186v2.pdf
-MaxViT-L |2022|0.867|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-L |2022|0.8640000000000001|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-B |2022|0.8634000000000001|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-S |2022|0.8619|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T|2022|0.8572|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T |2022|0.8523999999999999|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-B |2022|0.8495|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-S |2022|0.8445|https://arxiv.org/pdf/2204.01697v4.pdf
-MaxViT-T |2022|0.8362|https://arxiv.org/pdf/2204.01697v4.pdf
-DaViT-G|2022|0.904|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-H|2022|0.902|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-L |2022|0.875|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-B |2022|0.8690000000000001|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-B|2022|0.846|https://arxiv.org/pdf/2204.03645v1.pdf
-DaViT-T|2022|0.828|https://arxiv.org/pdf/2204.03645v1.pdf
-ViT-L @384 |2022|0.858|https://arxiv.org/pdf/2204.07118v1.pdf
-ViT-H @224 |2022|0.852|https://arxiv.org/pdf/2204.07118v1.pdf
-ViT-B @384 |2022|0.85|https://arxiv.org/pdf/2204.07118v1.pdf
-ViT-L @224 |2022|0.8490000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Base|2022|0.843|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-B @224 |2022|0.838|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Small|2022|0.8370000000000001|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-S @384 |2022|0.8340000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-NAT-Tiny|2022|0.8320000000000001|https://arxiv.org/pdf/2204.07143v5.pdf
-NAT-Mini|2022|0.818|https://arxiv.org/pdf/2204.07143v5.pdf
-ViT-S @224 |2022|0.8140000000000001|https://arxiv.org/pdf/2204.07118v1.pdf
-FAN-L-Hybrid++|2022|0.871|https://arxiv.org/pdf/2204.12451v4.pdf
-ASF-former-B|2022|0.8390000000000001|https://arxiv.org/pdf/2204.12196v2.pdf
-ASF-former-S|2022|0.8270000000000001|https://arxiv.org/pdf/2204.12196v2.pdf
-CoCa |2022|0.9059999999999999|https://arxiv.org/pdf/2205.01917v2.pdf
-Sequencer2D-L\u2191392|2022|0.846|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-L|2022|0.8340000000000001|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-M|2022|0.828|https://arxiv.org/pdf/2205.01972v4.pdf
-Sequencer2D-S|2022|0.823|https://arxiv.org/pdf/2205.01972v4.pdf
-CLCNet |2022|0.8661|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8645999999999999|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8642|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8528|https://arxiv.org/pdf/2205.09612v5.pdf
-CLCNet |2022|0.8388|https://arxiv.org/pdf/2205.09612v5.pdf
-Bamboo |2022|0.871|https://arxiv.org/pdf/2205.10505v3.pdf
-Bamboo |2022|0.863|https://arxiv.org/pdf/2205.10505v3.pdf
-Bamboo |2022|0.8420000000000001|https://arxiv.org/pdf/2205.10505v3.pdf
-\u00b52Net |2022|0.8674|https://arxiv.org/pdf/2205.12755v6.pdf
-MixMIM-B|2022|0.851|https://arxiv.org/pdf/2205.13137v4.pdf
-"LITv2-B|384"|2022|0.847|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ViT-S|2022|0.8367|https://arxiv.org/pdf/2205.13331v4.pdf
-LITv2-B|2022|0.836|https://arxiv.org/pdf/2205.13213v5.pdf
-LITv2-M|2022|0.833|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ConvNext-T|2022|0.8245999999999999|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-Swin-T|2022|0.8216|https://arxiv.org/pdf/2205.13331v4.pdf
-LITv2-S|2022|0.82|https://arxiv.org/pdf/2205.13213v5.pdf
-TransBoost-ResNet50-StrikesBack|2022|0.8115000000000001|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet152|2022|0.8064|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet101|2022|0.7986|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet50|2022|0.7903|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-EfficientNetB0|2022|0.7859999999999999|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet34|2022|0.767|https://arxiv.org/pdf/2205.13331v4.pdf
-TransBoost-ResNet18|2022|0.7336|https://arxiv.org/pdf/2205.13331v4.pdf
-FD |2022|0.89|https://arxiv.org/pdf/2205.14141v3.pdf
-WaveMix-192/16 |2022|0.7493000000000001|https://arxiv.org/pdf/2205.14375v4.pdf
-EfficientViT-B3 |2022|0.8420000000000001|https://arxiv.org/pdf/2205.14756v6.pdf
-Pyramid ViG-B|2022|0.8370000000000001|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-M|2022|0.831|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-S|2022|0.821|https://arxiv.org/pdf/2206.00272v3.pdf
-Pyramid ViG-Ti|2022|0.782|https://arxiv.org/pdf/2206.00272v3.pdf
-MobileOne-S4 |2022|0.8140000000000001|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S3 |2022|0.8|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S4|2022|0.794|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S2 |2022|0.7909999999999999|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S3|2022|0.7809999999999999|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S2|2022|0.774|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S1 |2022|0.774|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S1|2022|0.759|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S0 |2022|0.725|https://arxiv.org/pdf/2206.04040v2.pdf
-MobileOne-S0|2022|0.7140000000000001|https://arxiv.org/pdf/2206.04040v2.pdf
-Top-k DiffSortNets |2022|0.8837|https://arxiv.org/pdf/2206.07290v1.pdf
-"Our SP-ViT-L|384"|2022|0.863|https://arxiv.org/pdf/2206.07662v1.pdf
-"Our SP-ViT-M|384"|2022|0.86|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-L|2022|0.855|https://arxiv.org/pdf/2206.07662v1.pdf
-"SP-ViT-S|384"|2022|0.851|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-M|2022|0.8490000000000001|https://arxiv.org/pdf/2206.07662v1.pdf
-Our SP-ViT-S|2022|0.8390000000000001|https://arxiv.org/pdf/2206.07662v1.pdf
-GC ViT-B|2022|0.845|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-S|2022|0.84|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-T|2022|0.8340000000000001|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-XT|2022|0.82|https://arxiv.org/pdf/2206.09959v5.pdf
-GC ViT-XXT|2022|0.7979999999999999|https://arxiv.org/pdf/2206.09959v5.pdf
-EdgeNeXt-S|2022|0.794|https://arxiv.org/pdf/2206.10589v3.pdf
-EdgeNeXt-XXS|2022|0.7120000000000001|https://arxiv.org/pdf/2206.10589v3.pdf
-RevBiFPN-S5|2022|0.8370000000000001|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S4|2022|0.83|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S3|2022|0.8109999999999999|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S2|2022|0.79|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S1|2022|0.759|https://arxiv.org/pdf/2206.14098v2.pdf
-RevBiFPN-S0|2022|0.728|https://arxiv.org/pdf/2206.14098v2.pdf
-Wave-ViT-L|2022|0.855|https://arxiv.org/pdf/2207.04978v1.pdf
-Wave-ViT-B|2022|0.848|https://arxiv.org/pdf/2207.04978v1.pdf
-Wave-ViT-S|2022|0.8390000000000001|https://arxiv.org/pdf/2207.04978v1.pdf
-UniNet-B6|2022|0.8740000000000001|https://arxiv.org/pdf/2207.05420v2.pdf
-UniNet-B5|2022|0.87|https://arxiv.org/pdf/2207.05420v2.pdf
-Next-ViT-L @384|2022|0.847|https://arxiv.org/pdf/2207.05501v4.pdf
-UniNet-B0|2022|0.8079999999999999|https://arxiv.org/pdf/2207.05420v2.pdf
-TinyViT-21M-distill |2022|0.848|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-11M-distill |2022|0.8320000000000001|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-21M|2022|0.831|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-11M|2022|0.815|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-5M-distill |2022|0.807|https://arxiv.org/pdf/2207.10666v1.pdf
-TinyViT-5M|2022|0.7909999999999999|https://arxiv.org/pdf/2207.10666v1.pdf
-ResMLP-B24 + STD|2022|0.8240000000000001|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-CycleMLP-B2 + STD|2022|0.821|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-Mixer-S16 + STD|2022|0.757|https://proceedings.mlr.press/v162/li22c/li22c.pdf
-HorNet-L |2022|0.877|https://arxiv.org/pdf/2207.14284v3.pdf
-gSwin-S|2022|0.8301000000000001|https://arxiv.org/pdf/2208.11718v1.pdf
-gSwin-T|2022|0.8170999999999999|https://arxiv.org/pdf/2208.11718v1.pdf
-gSwin-VT|2022|0.8031999999999999|https://arxiv.org/pdf/2208.11718v1.pdf
-dBOT ViT-H |2022|0.882|https://arxiv.org/pdf/2209.03917v3.pdf
-dBOT ViT-L |2022|0.878|https://arxiv.org/pdf/2209.03917v3.pdf
-dBOT ViT-B |2022|0.857|https://arxiv.org/pdf/2209.03917v3.pdf
-ViT-e|2022|0.909|https://arxiv.org/pdf/2209.06794v4.pdf
-MAE+DAT |2022|0.8702|https://arxiv.org/pdf/2209.07735v1.pdf
-Mega|2022|0.8240000000000001|https://arxiv.org/pdf/2209.10655v3.pdf
-GPaCo |2022|0.8601000000000001|https://arxiv.org/pdf/2209.12400v2.pdf
-GPaCo |2022|0.84|https://arxiv.org/pdf/2209.12400v2.pdf
-GPaCo |2022|0.797|https://arxiv.org/pdf/2209.12400v2.pdf
-DiNAT-Large |2022|0.875|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Large |2022|0.8740000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT_s-Large |2022|0.865|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Base|2022|0.8440000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Small|2022|0.838|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Tiny|2022|0.8270000000000001|https://arxiv.org/pdf/2209.15001v3.pdf
-DiNAT-Mini|2022|0.818|https://arxiv.org/pdf/2209.15001v3.pdf
-MobileViTv3-S|2022|0.7929999999999999|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-1.0|2022|0.7864|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-XS|2022|0.767|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-0.75|2022|0.7655|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-0.5|2022|0.7232999999999999|https://arxiv.org/pdf/2209.15159v2.pdf
-MobileViTv3-XXS|2022|0.7098|https://arxiv.org/pdf/2209.15159v2.pdf
-MOAT-4 22K+1K|2022|0.8909999999999999|https://arxiv.org/pdf/2210.01820v2.pdf
-MOAT-3 1K only|2022|0.867|https://arxiv.org/pdf/2210.01820v2.pdf
-MOAT-0 1K only|2022|0.833|https://arxiv.org/pdf/2210.01820v2.pdf
-OTTT|2022|0.6515000000000001|https://arxiv.org/pdf/2210.04195v2.pdf
-WaveMixLite-256/24|2022|0.677|https://openreview.net/pdf?id=y_icnxeeUcl
-ViT-B/16-224+HTM|2022|0.8237000000000001|https://arxiv.org/pdf/2210.07562v1.pdf
-CAFormer-B36 |2022|0.8640000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-M36 |2022|0.862|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S36 |2022|0.857|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-B36 |2022|0.857|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-M36 |2022|0.856|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-B36 |2022|0.855|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S36 |2022|0.8540000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-M36 |2022|0.852|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S18 |2022|0.85|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-B36 |2022|0.848|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S36 |2022|0.845|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-M36 |2022|0.845|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S18 |2022|0.8440000000000001|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S36 |2022|0.841|https://arxiv.org/pdf/2210.13452v3.pdf
-CAFormer-S18 |2022|0.836|https://arxiv.org/pdf/2210.13452v3.pdf
-ConvFormer-S18 |2022|0.83|https://arxiv.org/pdf/2210.13452v3.pdf
-MogaNet-XL |2022|0.878|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-L|2022|0.847|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-B|2022|0.843|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-S|2022|0.8340000000000001|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-T |2022|0.8|https://arxiv.org/pdf/2211.03295v3.pdf
-MogaNet-XT |2022|0.772|https://arxiv.org/pdf/2211.03295v3.pdf
-InternImage-DCNv3-G |2022|0.9009999999999999|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-H|2022|0.8959999999999999|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-XL|2022|0.88|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-L|2022|0.877|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-B|2022|0.8490000000000001|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-S|2022|0.8420000000000001|https://arxiv.org/pdf/2211.05778v4.pdf
-InternImage-T|2022|0.835|https://arxiv.org/pdf/2211.05778v4.pdf
-EVA|2022|0.897|https://arxiv.org/pdf/2211.07636v2.pdf
-M3I Pre-training |2022|0.8959999999999999|https://arxiv.org/pdf/2211.09807v2.pdf
-Heinsen Routing + BEiT-large 16 224|2022|0.867|https://arxiv.org/pdf/2211.11754v3.pdf
-Last Layer Tuning with Newton Step |2022|0.889|https://arxiv.org/pdf/2211.13403v1.pdf
-SALG-ST|2022|0.759|https://arxiv.org/pdf/2211.14705v1.pdf
-PAT-B|2022|0.836|https://arxiv.org/pdf/2211.16961v5.pdf
-PAT-S|2022|0.831|https://arxiv.org/pdf/2211.16961v5.pdf
-IPT-B|2022|0.836|https://arxiv.org/pdf/2212.03035v1.pdf
-IPT-S|2022|0.8290000000000001|https://arxiv.org/pdf/2212.03035v1.pdf
-IPT-T|2022|0.805|https://arxiv.org/pdf/2212.03035v1.pdf
-ViT-H@224 |2022|0.88|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-L@224 |2022|0.875|https://arxiv.org/pdf/2212.04884v1.pdf
-Swin-L@224 |2022|0.871|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-B@224 |2022|0.863|https://arxiv.org/pdf/2212.04884v1.pdf
-Swin-B@224 |2022|0.862|https://arxiv.org/pdf/2212.04884v1.pdf
-ConvNeXt-B@224 |2022|0.858|https://arxiv.org/pdf/2212.04884v1.pdf
-PiT-B@224 |2022|0.858|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-M@224 |2022|0.85|https://arxiv.org/pdf/2212.04884v1.pdf
-RegnetY16GF@224 |2022|0.8420000000000001|https://arxiv.org/pdf/2212.04884v1.pdf
-ViT-S@224 |2022|0.831|https://arxiv.org/pdf/2212.04884v1.pdf
-R-Mix |2022|0.7739|https://arxiv.org/pdf/2212.04875v3.pdf
-OpenCLIP ViT-H/14|2022|0.885|https://arxiv.org/pdf/2212.07143v1.pdf
-data2vec 2.0|2022|0.8740000000000001|https://arxiv.org/pdf/2212.07525v2.pdf
-NEXcepTion-S|2022|0.82|https://arxiv.org/pdf/2212.08448v2.pdf
-NEXcepTion-TP|2022|0.818|https://arxiv.org/pdf/2212.08448v2.pdf
-NEXcepTion-T|2022|0.815|https://arxiv.org/pdf/2212.08448v2.pdf
-Adlik-ViT-SG+Swin_large+Convnext_xlarge|2022|0.8835999999999999|https://arxiv.org/pdf/2201.03545v2.pdf
-RevCol-H|2022|0.9|https://arxiv.org/pdf/2212.11696v3.pdf
-mPLUG-2|2023|0.885|https://arxiv.org/pdf/2302.00402v1.pdf
-DeepMAD-89M|2023|0.84|https://arxiv.org/pdf/2303.02165v3.pdf
-BiFormer-B* |2023|0.8540000000000001|https://arxiv.org/pdf/2303.08810v1.pdf
-BiFormer-S* |2023|0.843|https://arxiv.org/pdf/2303.08810v1.pdf
-BiFormer-T |2023|0.8140000000000001|https://arxiv.org/pdf/2303.08810v1.pdf
-ViC-MAE |2023|0.85|https://arxiv.org/pdf/2303.12001v2.pdf
-MAWS |2023|0.9009999999999999|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.898|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.895|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.888|https://arxiv.org/pdf/2303.13496v3.pdf
-MAWS |2023|0.868|https://arxiv.org/pdf/2303.13496v3.pdf
-Diffusion Classifier|2023|0.7909999999999999|https://arxiv.org/pdf/2303.16203v3.pdf
-CloFormer-S|2023|0.816|https://arxiv.org/pdf/2303.17803v5.pdf
-CloFormer-XS|2023|0.7979999999999999|https://arxiv.org/pdf/2303.17803v5.pdf
-CloFormer-XXS|2023|0.77|https://arxiv.org/pdf/2303.17803v5.pdf
-Unicom |2023|0.883|https://arxiv.org/pdf/2304.05884v1.pdf
-XCiT-M |2023|0.841|https://arxiv.org/pdf/2304.12043v2.pdf
-CA-Swin-S |2023|0.8370000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-DeiT-B |2023|0.8290000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-CA-Swin-T |2023|0.828|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-M |2023|0.8270000000000001|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-S |2023|0.812|https://arxiv.org/pdf/2304.12043v2.pdf
-CaiT-XXS |2023|0.8059999999999999|https://arxiv.org/pdf/2304.12043v2.pdf
-PVT-T |2023|0.767|https://arxiv.org/pdf/2304.12043v2.pdf
-DeiT-T |2023|0.738|https://arxiv.org/pdf/2304.12043v2.pdf
-ONE-PEACE|2023|0.898|https://arxiv.org/pdf/2305.11172v1.pdf
-Hiera-H|2023|0.8690000000000001|https://arxiv.org/pdf/2306.00989v1.pdf
-Swin-T+SSA|2023|0.8189|https://arxiv.org/pdf/2306.01705v1.pdf
-ViT-H @224 |2023|0.857|https://arxiv.org/pdf/2306.11339v2.pdf
-ViT-L @224 |2023|0.853|https://arxiv.org/pdf/2306.11339v2.pdf
-ViT-B @224 |2023|0.8420000000000001|https://arxiv.org/pdf/2306.11339v2.pdf
-CaiT-S24|2023|0.8491|https://arxiv.org/pdf/2308.09372v1.pdf
-XCiT-S|2023|0.8365|https://arxiv.org/pdf/2308.09372v1.pdf
-Wave-ViT-S|2023|0.8361|https://arxiv.org/pdf/2308.09372v1.pdf
-SwinV2-Ti|2023|0.8309000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-ViT-S|2023|0.8254|https://arxiv.org/pdf/2308.09372v1.pdf
-EViT |2023|0.8229000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-STViT-Swin-Ti|2023|0.8222|https://arxiv.org/pdf/2308.09372v1.pdf
-ToMe-ViT-S|2023|0.8210999999999999|https://arxiv.org/pdf/2308.09372v1.pdf
-EViT |2023|0.8195999999999999|https://arxiv.org/pdf/2308.09372v1.pdf
-GFNet-S|2023|0.8133|https://arxiv.org/pdf/2308.09372v1.pdf
-DynamicViT-S|2023|0.8109000000000001|https://arxiv.org/pdf/2308.09372v1.pdf
-TokenLearner-ViT-8|2023|0.8066|https://arxiv.org/pdf/2308.09372v1.pdf
-CoaT-Ti|2023|0.7842|https://arxiv.org/pdf/2308.09372v1.pdf
-Poly-SA-ViT-S|2023|0.7834|https://arxiv.org/pdf/2308.09372v1.pdf
-EfficientFormer-V2-S0|2023|0.7153|https://arxiv.org/pdf/2308.09372v1.pdf
-DAT-B++ |2023|0.8590000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-B++ |2023|0.8490000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-S++|2023|0.846|https://arxiv.org/pdf/2309.01430v1.pdf
-DAT-T++|2023|0.8390000000000001|https://arxiv.org/pdf/2309.01430v1.pdf
-MIRL|2023|0.848|https://arxiv.org/pdf/2309.14136v3.pdf
-MIRL |2023|0.862|https://arxiv.org/pdf/2309.14136v3.pdf
-GTP-ViT-B-Patch8/P20|2023|0.858|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-EVA-L/P8|2023|0.8540000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-ViT-L/P8|2023|0.8370000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-LV-ViT-M/P8|2023|0.828|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-LV-ViT-S/P8|2023|0.8190000000000001|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-DeiT-B/P8|2023|0.815|https://arxiv.org/pdf/2311.03035v2.pdf
-GTP-DeiT-S/P8|2023|0.795|https://arxiv.org/pdf/2311.03035v2.pdf
-UniRepLKNet-XL++|2023|0.88|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-L++|2023|0.879|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-B++|2023|0.8740000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-S++|2023|0.8640000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-S|2023|0.8390000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-T|2023|0.8320000000000001|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-N|2023|0.816|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-P|2023|0.802|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-F|2023|0.7859999999999999|https://arxiv.org/pdf/2311.15599v1.pdf
-UniRepLKNet-A|2023|0.77|https://arxiv.org/pdf/2311.15599v1.pdf
+name|year|accuracy|paper
+FireCaffe |2015|0.6829999999999999|1511.00175v2
+ResNet-152|2015|0.7857|1512.03385v1
+Inception ResNet V2|2016|0.8009999999999999|1602.07261v2
+SimpleNetV1-9m-correct-labels|2016|0.8123999999999999|1608.06037v8
+NASNET-A|2017|0.8270000000000001|1707.07012v4
+PNASNet-5|2017|0.8290000000000001|1712.00559v3
+AmoebaNet-A|2018|0.8390000000000001|1802.01548v7
+ResNeXt-101 32x48d|2018|0.8540000000000001|1805.00932v1
+FixResNeXt-101 32x48d|2019|0.8640000000000001|1906.06423v4
+NoisyStudent |2019|0.8690000000000001|1911.04252v4
+BiT-L |2019|0.8754000000000001|1912.11370v3
+NoisyStudent |2020|0.884|1911.04252v4
+FixEfficientNet-L2|2020|0.885|2003.08237v5
+Meta Pseudo Labels |2020|0.902|2003.10580v4
+ViT-G/14|2021|0.9045000000000001|2106.04560v2
+CoAtNet-7|2021|0.9087999999999999|2106.04803v2
+Model soups |2022|0.9098|2203.05482v3
+CoCa |2022|0.91|2205.01917v2
+OmniVec|2023|0.924|2311.05709v1
+ru|"""nam"|"""scatter"""|
+ResNet-101|2015|0.7825|1512.03385v1
+ResNet-50|2015|0.753|1512.03385v1
+ResNet-200|2016|0.799|1603.05027v3
+WRN-50-2-bottleneck|2016|0.7809999999999999|1605.07146v4
+FractalNet-34|2016|0.7587999999999999|1605.07648v4
+SimpleNetV1-5m-correct-labels|2016|0.7912|1608.06037v8
+SimpleNetV1-small-075-correct-labels|2016|0.7565999999999999|1608.06037v8
+SimpleNetV1-9m|2016|0.7417|1608.06037v8
+SimpleNetV1-5m|2016|0.7193999999999999|1608.06037v8
+SimpleNetV1-small-05-correct-labels|2016|0.6911|1608.06037v8
+SimpleNetV1-small-075|2016|0.6815000000000001|1608.06037v8
+SimpleNetV1-small-05|2016|0.6152000000000001|1608.06037v8
+DenseNet-264|2016|0.7785|1608.06993v5
+DenseNet-201|2016|0.7742|1608.06993v5
+DenseNet-169|2016|0.762|1608.06993v5
+DenseNet-121|2016|0.7498|1608.06993v5
+Xception|2016|0.79|1610.02357v3
+ResNeXt-101  64x4|2016|0.809|1611.05431v2
+MobileNet-224 \u00d71.25|2017|0.706|1704.04861v1
+Attention-92|2017|0.805|1704.06904v1
+ShuffleNet|2017|0.7090000000000001|1707.01083v2
+ResNet-101 |2017|0.792|1707.02968v2
+MobileNetV2 |2018|0.747|1801.04381v4
+MobileNetV2|2018|0.72|1801.04381v4
+ResNet-152 + SWA|2018|0.7894|1803.05407v3
+DenseNet-161 + SWA|2018|0.7844|1803.05407v3
+Inception v3|2018|0.7712|1803.08337v1
+ResNeXt-101 32x32d|2018|0.851|1805.00932v1
+ResNeXt-101 32\u00d716d|2018|0.8420000000000001|1805.00932v1
+ResNeXt-101 32x8d|2018|0.8220000000000001|1805.00932v1
+CoordConv ResNet-50|2018|0.7574|1807.03247v2
+ShuffleNet V2|2018|0.754|1807.11164v1
+MnasNet-A3|2018|0.767|1807.11626v3
+MnasNet-A2|2018|0.7559999999999999|1807.11626v3
+MnasNet-A1|2018|0.752|1807.11626v3
+GPIPE|2018|0.8440000000000001|1811.06965v5
+ESPNetv2|2018|0.7490000000000001|1811.11431v3
+Proxyless|2018|0.746|1812.00332v2
+ResNet-50-D|2018|0.7716|1812.01187v2
+FBNet-C|2018|0.7490000000000001|1812.03443v3
+ColorNet |2019|0.8432|1902.00267v1
+ColorNet|2019|0.8234999999999999|1902.00267v1
+MultiGrain PNASNet |2019|0.836|1902.05509v2
+MultiGrain PNASNet |2019|0.8320000000000001|1902.05509v2
+MultiGrain SENet154 |2019|0.831|1902.05509v2
+MultiGrain SENet154 |2019|0.83|1902.05509v2
+MultiGrain SENet154 |2019|0.8270000000000001|1902.05509v2
+MultiGrain PNASNet |2019|0.826|1902.05509v2
+MultiGrain PNASNet |2019|0.813|1902.05509v2
+MultiGrain R50-AA-500|2019|0.794|1902.05509v2
+MultiGrain R50-AA-224|2019|0.782|1902.05509v2
+MultiGrain NASNet-A-Mobile |2019|0.7509999999999999|1902.05509v2
+Graph-RISE |2019|0.6829000000000001|1902.10814v1
+SKNet-101|2019|0.7981|1903.06586v2
+SRM-ResNet-101|2019|0.7847|1903.10829v1
+Res2Net-101|2019|0.8123|1904.01169v3
+RandWire-WS|2019|0.8009999999999999|1904.01569v2
+Res2Net-50-299|2019|0.7859|1904.01169v3
+RandWire-WS |2019|0.747|1904.01569v2
+Single-Path NAS|2019|0.7495999999999999|1904.02877v1
+ACNet |2019|0.775|1904.03579v1
+Oct-ResNet-152 |2019|0.8290000000000001|1904.05049v3
+EfficientNet-B0 |2019|0.7829999999999999|1904.04971v3
+ScaleNet-152|2019|0.7938|1904.09460v1
+ScaleNet-101|2019|0.7903|1904.09460v1
+ScaleNet-50|2019|0.778|1904.09460v1
+AA-ResNet-152|2019|0.7909999999999999|1904.09925v5
+LR-Net-26|2019|0.757|1904.11491v1
+ResNet-50 |2019|0.7904000000000001|1904.12848v6
+ResNet-200 |2019|0.8059999999999999|1905.00397v2
+ResNet-50 |2019|0.7759999999999999|1905.00397v2
+ResNeXt-101 32x16d |2019|0.848|1905.00546v1
+ResNeXt-101 32x8d |2019|0.843|1905.00546v1
+ResNeXt-101 32x4d |2019|0.8340000000000001|1905.00546v1
+MobileNet V3-Large 1.0|2019|0.752|1905.02244v5
+ResNeXt-101 |2019|0.8053|1905.04899v2
+ResNet-50 |2019|0.784|1905.04899v2
+SGE-ResNet101|2019|0.78798|1905.09646v2
+SGE-ResNet50|2019|0.7758400000000001|1905.09646v2
+EfficientNet-B7|2019|0.8440000000000001|1905.11946v5
+EfficientNet-B6|2019|0.84|1905.11946v5
+EfficientNet-B5|2019|0.833|1905.11946v5
+EfficientNet-B4|2019|0.826|1905.11946v5
+EfficientNet-B3|2019|0.8109999999999999|1905.11946v5
+EfficientNet-B2|2019|0.7979999999999999|1905.11946v5
+EfficientNet-B1|2019|0.7879999999999999|1905.11946v5
+EfficientNet-B0|2019|0.763|1905.11946v5
+DiCENet|2019|0.7509999999999999|1906.03516v3
+FixResNet-50 Billion-scale@224|2019|0.825|1906.06423v4
+FixResNet-50 CutMix|2019|0.7979999999999999|1906.06423v4
+FixResNet-50|2019|0.7909999999999999|1906.06423v4
+DenseNAS-A|2019|0.759|1906.09607v3
+FairNAS-A|2019|0.7534000000000001|1907.01845v5
+FairNAS-B|2019|0.7509999999999999|1907.01845v5
+FairNAS-C|2019|0.7469|1907.01845v5
+MixNet-L|2019|0.789|1907.09595v3
+MixNet-M|2019|0.77|1907.09595v3
+MixNet-S|2019|0.758|1907.09595v3
+MobileNet-224 |2019|0.7256|1907.09665v10
+AOGNet-40M-AN|2019|0.8187000000000001|1908.01259v3
+MoGA-A|2019|0.759|1908.01314v4
+LIP-ResNet-101|2019|0.7933|1908.04156v3
+ResNet-50 |2019|0.7815000000000001|1908.04156v3
+LIP-DenseNet-BC-121|2019|0.7664|1908.04156v3
+SCARLET-A4|2019|0.823|1908.06022v6
+SCARLET-A|2019|0.769|1908.06022v6
+SCARLET-B|2019|0.763|1908.06022v6
+SCARLET-C|2019|0.7559999999999999|1908.06022v6
+CSPResNeXt-50 + Mish|2019|0.7979999999999999|1908.08681v3
+HCGNet-C|2019|0.805|1908.09699v3
+HCGNet-B|2019|0.785|1908.09699v3
+BBG |2019|0.626|1909.12117v2
+BBG |2019|0.594|1909.12117v2
+EfficientNet-B8 |2019|0.8540000000000001|1909.13719v2
+EfficientNet-B7 |2019|0.85|1909.13719v2
+ResNet-50-DW |2019|0.785|1910.02940v2
+ECA-Net |2019|0.7892|1910.03151v4
+ECA-Net |2019|0.7865000000000001|1910.03151v4
+ECA-Net |2019|0.7748|1910.03151v4
+ECA-Net |2019|0.7256|1910.03151v4
+ResNet-50|2019|0.721|1910.04209v3
+NoisyStudent |2019|0.8640000000000001|1911.04252v4
+NoisyStudent |2019|0.861|1911.04252v4
+NoisyStudent |2019|0.853|1911.04252v4
+NoisyStudent |2019|0.841|1911.04252v4
+NoisyStudent |2019|0.8240000000000001|1911.04252v4
+NoisyStudent |2019|0.815|1911.04252v4
+NoisyStudent |2019|0.7879999999999999|1911.04252v4
+AdvProp |2019|0.855|1911.09665v2
+AdvProp |2019|0.852|1911.09665v2
+InceptionV3 |2019|0.7895|1911.09737v2
+ResnetV2 50 |2019|0.7720999999999999|1911.09737v2
+CSPResNeXt-50 |2019|0.7979999999999999|1911.11929v1
+GhostNet \u00d71.3|2019|0.757|1911.11907v2
+Ghost-ResNet-50 |2019|0.75|1911.11907v2
+Ghost-ResNet-50 |2019|0.741|1911.11907v2
+GhostNet \u00d71.0|2019|0.7390000000000001|1911.11907v2
+GhostNet \u00d70.5|2019|0.662|1911.11907v2
+Wide ResNet-50 |2019|0.733|1911.13299v2
+DY-MobileNetV2 \u00d71.0|2019|0.7440000000000001|1912.03458v2
+DY-MobileNetV2 \u00d70.75|2019|0.728|1912.03458v2
+DY-ResNet-18|2019|0.727|1912.03458v2
+DY-MobileNetV3-Small|2019|0.6970000000000001|1912.03458v2
+DY-MobileNetV2 \u00d70.5|2019|0.6940000000000001|1912.03458v2
+DY-ResNet-10|2019|0.677|1912.03458v2
+DY-MobileNetV2 \u00d70.35|2019|0.649|1912.03458v2
+SpineNet-143|2019|0.79|1912.05027v3
+BiT-M |2019|0.8539|1912.11370v3
+ResNet-200 |2019|0.8131999999999999|1912.11188v1
+ResNet-50 |2019|0.794|1912.11188v1
+Assemble-ResNet152|2020|0.8420000000000001|2001.06268v2
+Fix-EfficientNet-B8 |2020|0.858|2002.09024v1
+FixEfficientNet-B7|2020|0.871|2003.08237v5
+FixEfficientNet-B6|2020|0.867|2003.08237v5
+FixEfficientNet-B5|2020|0.8640000000000001|2003.08237v5
+FixEfficientNet-B4|2020|0.8590000000000001|2003.08237v5
+FixEfficientNet-B8|2020|0.857|2003.08237v5
+FixEfficientNet-B3|2020|0.85|2003.08237v5
+FixEfficientNetB4|2020|0.84|2003.08237v5
+FixEfficientNet-B2|2020|0.836|2003.08237v5
+FixEfficientNet-B1|2020|0.826|2003.08237v5
+FixEfficientNet-B0|2020|0.802|2003.08237v5
+Meta Pseudo Labels |2020|0.9|2003.10580v4
+Meta Pseudo Labels |2020|0.8320000000000001|2003.10580v4
+KDforAA |2020|0.858|2003.11342v1
+KDforAA |2020|0.855|2003.11342v1
+GreedyNAS-A|2020|0.7709999999999999|2003.11236v1
+GreedyNAS-B|2020|0.768|2003.11236v1
+GreedyNAS-C|2020|0.762|2003.11236v1
+TResNet-XL|2020|0.843|2003.13630v3
+RegNetY-8.0GF|2020|0.799|2003.13678v1
+RegNetY-4.0GF|2020|0.794|2003.13678v1
+RegNetY-1.6GF|2020|0.78|2003.13678v1
+RegNetY-800MF|2020|0.763|2003.13678v1
+RegNetY-600MF|2020|0.755|2003.13678v1
+RegNetY-400MF|2020|0.741|2003.13678v1
+MUXNet-l|2020|0.7659999999999999|2003.13880v2
+MUXNet-m|2020|0.753|2003.13880v2
+MUXNet-s|2020|0.716|2003.13880v2
+MUXNet-xs|2020|0.667|2003.13880v2
+ResNeSt-269|2020|0.845|2004.08955v2
+ResNeSt-200|2020|0.8390000000000001|2004.08955v2
+ResNeSt-101|2020|0.83|2004.08955v2
+ResNeSt-50|2020|0.8112999999999999|2004.08955v2
+ResNeSt-50-fast|2020|0.8064|2004.08955v2
+ResNet-200 |2020|0.8079999999999999|2004.11362v5
+NAT-M4|2020|0.805|2005.05859v2
+Multiscale DEQ |2020|0.792|2006.08656v2
+ResNet200_vd_26w_4s_ssld|2020|0.851|2006.10702v1
+Fix_ResNet50_vd_ssld|2020|0.84|2006.10702v1
+ResNet50_vd_ssld|2020|0.83|2006.10702v1
+MobileNetV3_large_x1_0_ssld|2020|0.79|2006.10702v1
+PyConvResNet-101|2020|0.8149|2006.11538v1
+Prodpoly|2020|0.7717|2006.13026v2
+PS-KD |2020|0.7924|2006.12000v3
+ReXNet-R_3.0|2020|0.845|2007.00992v3
+ReXNet-R_2.0|2020|0.8320000000000001|2007.00992v3
+ReXNet_3.0|2020|0.828|2007.00992v3
+ReXNet_2.0|2020|0.816|2007.00992v3
+ReXNet_1.5|2020|0.8029999999999999|2007.00992v3
+ReXNet_1.3|2020|0.795|2007.00992v3
+ReXNet_1.0|2020|0.779|2007.00992v3
+ReXNet_0.9|2020|0.772|2007.00992v3
+ReXNet_0.6|2020|0.746|2007.00992v3
+Ours|2020|0.7197|2009.04626v1
+ResNet-50|2020|0.7876000000000001|2009.06962v2
+MEAL V2 |2020|0.8172|2009.08453v2
+MEAL V2 |2020|0.8067|2009.08453v2
+ResNet-18 |2020|0.7319|2009.08453v2
+iAFF-ResNeXt-50-32x4d|2020|0.8022|2009.14082v2
+EfficientNet-L2-475 |2020|0.8861|2010.01412v3
+ResNet-152 |2020|0.816|2010.01412v3
+ResNeXt-101 |2020|0.812|2010.05981v2
+ViT-H/14|2020|0.8855|2010.11929v2
+ViT-L/16|2020|0.8776|2010.11929v2
+TinyNet |2020|0.794|2010.14819v2
+TinyNet-A + RA|2020|0.777|2010.14819v2
+Grafit |2020|0.7959999999999999|2011.12982v1
+ResNet-18 |2020|0.7171|2011.12913v2
+ResNet-18 |2020|0.7156|2011.12913v2
+ResNet-18 |2020|0.7137|2011.12913v2
+ResNet-18 |2020|0.7108|2011.12913v2
+ResNet-18 |2020|0.7093|2011.12913v2
+ResNet-18 |2020|0.7051999999999999|2011.12913v2
+ResNet-18 |2020|0.7009000000000001|2011.12913v2
+SE-ResNeXt-10|2020|0.836|
+SE-ResNeXt-10|2020|0.8334|
+ResNeXt-10|2020|0.8212999999999999|
+DeiT-B 384|2020|0.852|2012.12877v2
+DeiT-B|2020|0.8420000000000001|2012.12877v2
+DeiT-B|2020|0.826|2012.12877v2
+DeiT-B|2020|0.7659999999999999|2012.12877v2
+ResNet-50+AutoDropout+RandAugment|2021|0.8029999999999999|2101.01761v1
+ResNet-50|2021|0.787|2101.01761v1
+EfficientNet-B0|2021|0.775|2101.01761v1
+SSAL-Resnet50|2021|0.77|2101.03057v1
+RepVGG-B2|2021|0.7878000000000001|2101.03697v3
+RepVGG-B2g4|2021|0.785|2101.03697v3
+ReXNet_1.0-relabel|2021|0.784|2101.05022v2
+BoTNet T7|2021|0.847|2101.11605v2
+BoTNet T7-320|2021|0.8420000000000001|2101.11605v2
+BoTNet T6|2021|0.84|2101.11605v2
+SENet-350|2021|0.838|2101.11605v2
+BoTNet T5|2021|0.835|2101.11605v2
+BoTNet T4|2021|0.828|2101.11605v2
+SENet-152|2021|0.8220000000000001|2101.11605v2
+BoTNet T3|2021|0.8170000000000001|2101.11605v2
+SENet-101|2021|0.8140000000000001|2101.11605v2
+ResNet-101|2021|0.8|2101.11605v2
+SENet-50|2021|0.794|2101.11605v2
+ResNet-50|2021|0.7879999999999999|2101.11605v2
+"T2T-ViT-14|384"|2021|0.833|2101.11986v3
+T2T-ViTt-24|2021|0.826|2101.11986v3
+T2T-ViT-24|2021|0.823|2101.11986v3
+T2T-ViTt-19|2021|0.8220000000000001|2101.11986v3
+T2T-ViT-19|2021|0.8190000000000001|2101.11986v3
+T2T-ViT-14|2021|0.815|2101.11986v3
+ZenNAS |2021|0.83|2102.01063v4
+ZenNet-400M-SE|2021|0.78|2102.01063v4
+NFNet-F4+|2021|0.892|2102.06171v1
+ALIGN |2021|0.8864|2102.05918v2
+NFNet-F6 w/ SAM|2021|0.865|2102.06171v1
+NFNet-F5 w/ SAM|2021|0.863|2102.06171v1
+NFNet-F5|2021|0.86|2102.06171v1
+NFNet-F4|2021|0.8590000000000001|2102.06171v1
+NFNet-F3|2021|0.857|2102.06171v1
+NFNet-F2|2021|0.851|2102.06171v1
+NFNet-F1|2021|0.847|2102.06171v1
+NFNet-F0|2021|0.836|2102.06171v1
+ResNet-50 MLPerf v0.7 - 2512 steps|2021|0.7592|2102.06356v3
+AlphaNet-A6|2021|0.8079999999999999|2102.07954v2
+AlphaNet-A5|2021|0.8029999999999999|2102.07954v2
+AlphaNet-A4|2021|0.8|2102.07954v2
+AlphaNet-A3|2021|0.794|2102.07954v2
+AlphaNet-A2|2021|0.7909999999999999|2102.07954v2
+AlphaNet-A1|2021|0.789|2102.07954v2
+AlphaNet-A0|2021|0.778|2102.07954v2
+LambdaResNet200|2021|0.843|2102.08602v1
+LambdaResNet152|2021|0.84|2102.08602v1
+TNT-B|2021|0.8390000000000001|2103.00112v3
+Perceiver |2021|0.78|2103.03206v2
+Perceiver|2021|0.764|2103.03206v2
+RedNet-152|2021|0.7929999999999999|2103.06255v2
+RedNet-101|2021|0.7909999999999999|2103.06255v2
+RedNet-50|2021|0.784|2103.06255v2
+RedNet-38|2021|0.7759999999999999|2103.06255v2
+RedNet-26|2021|0.759|2103.06255v2
+ResNet-RS-50 |2021|0.8440000000000001|2103.07579v1
+ResNet-RS-270 |2021|0.838|2103.07579v1
+ConViT-B+|2021|0.825|2103.10697v2
+ConViT-B|2021|0.8240000000000001|2103.10697v2
+ConViT-S+|2021|0.8220000000000001|2103.10697v2
+ConViT-S|2021|0.813|2103.10697v2
+HVT-S-1|2021|0.78|2103.10619v2
+ConViT-Ti+|2021|0.767|2103.10697v2
+ConViT-Ti|2021|0.731|2103.10697v2
+HVT-Ti-1|2021|0.6964|2103.10619v2
+CeiT-S |2021|0.833|2103.11816v2
+DeepVit-L* |2021|0.831|2103.11886v4
+DeepVit-L|2021|0.8220000000000001|2103.11886v4
+CeiT-S|2021|0.82|2103.11816v2
+CeiT-T |2021|0.7879999999999999|2103.11816v2
+CeiT-T|2021|0.764|2103.11816v2
+BossNet-T1|2021|0.8220000000000001|2103.12424v3
+ResNet-101 |2021|0.8098000000000001|2103.13027v6
+ResNet-50 |2021|0.7925|2103.13027v6
+ResNet-34 |2021|0.7609999999999999|2103.13027v6
+ResNet-18 |2021|0.7204999999999999|2103.13027v6
+Swin-L|2021|0.873|2103.14030v2
+Swin-B|2021|0.8640000000000001|2103.14030v2
+Swin-T|2021|0.813|2103.14030v2
+CrossViT-18+|2021|0.828|2103.14899v2
+CrossViT-18|2021|0.825|2103.14899v2
+CrossViT-15+|2021|0.823|2103.14899v2
+CrossViT-15|2021|0.815|2103.14899v2
+CvT-21 |2021|0.833|2103.15808v1
+ViL-Medium-D|2021|0.833|2103.15358v2
+ViL-Base-D|2021|0.8320000000000001|2103.15358v2
+CvT-13 |2021|0.83|2103.15808v1
+ViL-Medium-W|2021|0.8290000000000001|2103.15358v2
+CvT-21|2021|0.825|2103.15808v1
+CvT-13-NAS|2021|0.8220000000000001|2103.15808v1
+ViL-Small|2021|0.82|2103.15358v2
+ViL-Base-W|2021|0.8190000000000001|2103.15358v2
+CvT-13|2021|0.816|2103.15808v1
+ViL-Tiny-RPB|2021|0.767|2103.15358v2
+PiT-B|2021|0.84|2103.16302v2
+PiT-S|2021|0.8190000000000001|2103.16302v2
+PiT-XS|2021|0.7909999999999999|2103.16302v2
+PiT-Ti|2021|0.746|2103.16302v2
+CaiT-M-48-448|2021|0.865|2103.17239v2
+CAIT-M36-448|2021|0.863|2103.17239v2
+CAIT-M-36|2021|0.861|2103.17239v2
+CAIT-M-24|2021|0.858|2103.17239v2
+CAIT-S-36|2021|0.8540000000000001|2103.17239v2
+CAIT-S-48|2021|0.853|2103.17239v2
+CAIT-S-24|2021|0.851|2103.17239v2
+CAIT-XS-36|2021|0.848|2103.17239v2
+CAIT-XS-24|2021|0.841|2103.17239v2
+CAIT-XXS-36|2021|0.8220000000000001|2103.17239v2
+CAIT-XXS-24|2021|0.809|2103.17239v2
+EfficientNetV2L|2021|0.868|2104.00298v3
+EfficientNetV2-M |2021|0.861|2104.00298v3
+EfficientNetV2-L|2021|0.857|2104.00298v3
+EfficientNetV2-M|2021|0.851|2104.00298v3
+EfficientNetV2-S |2021|0.85|2104.00298v3
+EfficientNetV2-S|2021|0.8390000000000001|2104.00298v3
+LeViT-384|2021|0.825|2104.01136v2
+LeViT-256|2021|0.816|2104.01136v2
+LeViT-192|2021|0.8|2104.01136v2
+LeViT-128|2021|0.7959999999999999|2104.01136v2
+LeViT-128S|2021|0.757|2104.01136v2
+"CCT-14/7x2 | 384"|2021|0.8271|2104.05704v4
+CCT-14/7x2|2021|0.8134|2104.05704v4
+LocalViT-S|2021|0.8079999999999999|2104.05707v1
+CCT-16/7x2|2021|0.8028|2104.05704v4
+LocalViT-PVT|2021|0.782|2104.05707v1
+LocalViT-TNT|2021|0.759|2104.05707v1
+LocalViT-T|2021|0.748|2104.05707v1
+LocalViT-T2T|2021|0.725|2104.05707v1
+AsymmNet-Large \u00d71.0|2021|0.754|2104.07770v1
+AsymmNet-Large \u00d70.5|2021|0.6920000000000001|2104.07770v1
+AsymmNet-Small \u00d71.0|2021|0.684|2104.07770v1
+PDC|2021|0.716|2104.07916v2
+ReActNet-A |2021|0.68|2104.08215v1
+DIFFQ |2021|0.82|2104.09987v3
+LV-ViT-L|2021|0.8640000000000001|2104.10858v3
+MViT-B-24|2021|0.848|2104.11227v1
+LV-ViT-M|2021|0.841|2104.10858v3
+LV-ViT-S|2021|0.833|2104.10858v3
+MViT-B-16|2021|0.83|2104.11227v1
+Visformer-S|2021|0.8220000000000001|2104.12533v4
+Visformer-Ti|2021|0.7859999999999999|2104.12533v4
+Twins-SVT-L|2021|0.8370000000000001|2104.13840v4
+Mixer-H/14 |2021|0.8794|2105.01601v4
+ViT-L/16 Dosovitskiy et al. |2021|0.853|2105.01601v4
+Mixer-B/16|2021|0.7644|2105.01601v4
+T2T-ViT-14|2021|0.8170000000000001|2105.02358v2
+RepMLP-Res50|2021|0.7859999999999999|2105.01883v3
+FF|2021|0.7490000000000001|2105.02723v1
+ResMLP-B24/8|2021|0.836|2105.03404v2
+ResMLP-S24|2021|0.8079999999999999|2105.03404v2
+BasisNet-MV3|2021|0.8|2105.03014v1
+ResMLP-36|2021|0.797|2105.03404v2
+ResMLP-24|2021|0.794|2105.03404v2
+ResMLP-S12|2021|0.778|2105.03404v2
+Conformer-B|2021|0.841|2105.03889v1
+RVT-B*|2021|0.8270000000000001|2105.07926v4
+RVT-S*|2021|0.8190000000000001|2105.07926v4
+gMLP-B|2021|0.816|2105.08050v2
+RVT-Ti*|2021|0.792|2105.07926v4
+Heteroscedastic |2021|0.6859999999999999|2105.10305v1
+Transformer local-attention |2021|0.838|2105.12723v4
+Transformer local-attention |2021|0.833|2105.12723v4
+Transformer local-attention |2021|0.815|2105.12723v4
+NFNet-F5 w/ SAM w/ augmult=16|2021|0.8678|2105.13343v2
+ResT-Large|2021|0.836|2105.13677v5
+ResT-Small|2021|0.7959999999999999|2105.13677v5
+DVT |2021|0.8043|2105.15075v2
+DVT |2021|0.7974|2105.15075v2
+DVT |2021|0.7848|2105.15075v2
+Container Container|2021|0.8270000000000001|2106.01401v2
+Container-Light|2021|0.82|2106.01401v2
+DynamicViT-LV-M/0.8|2021|0.8390000000000001|2106.02034v2
+ResNet-152x2-SAM|2021|0.8109999999999999|2106.01548v3
+ViT-B/16-SAM|2021|0.799|2106.01548v3
+Mixer-B/8-SAM|2021|0.79|2106.01548v3
+Refiner-ViT-L|2021|0.8603000000000001|2106.03714v1
+ViTAE-B-Stage|2021|0.836|2106.03348v4
+ViTAE-S-Stage|2021|0.8220000000000001|2106.03348v4
+ViTAE-13M|2021|0.81|2106.03348v4
+ViTAE-6M|2021|0.779|2106.03348v4
+ViTAE-T-Stage|2021|0.768|2106.03348v4
+ViTAE-T|2021|0.753|2106.03348v4
+CoAtNet-6|2021|0.9045000000000001|2106.04803v2
+CoAtNet-3 @384|2021|0.8852|2106.04803v2
+FunMatch - T384+224 |2021|0.828|2106.05237v2
+V-MoE-H/14 |2021|0.8835999999999999|2106.05974v1
+V-MoE-H/14 |2021|0.8823000000000001|2106.05974v1
+VIT-H/14|2021|0.8808|2106.05974v1
+V-MoE-L/16 |2021|0.8741|2106.05974v1
+BEiT-L |2021|0.8859999999999999|2106.08254v2
+BEiT-L |2021|0.863|2106.08254v2
+XCiT-L24|2021|0.86|2106.09681v2
+XCiT-M24|2021|0.858|2106.09681v2
+XCiT-S24|2021|0.856|2106.09681v2
+XCiT-S12|2021|0.851|2106.09681v2
+TokenLearner L/8 |2021|0.8887|2106.11297v4
+16-TokenLearner B/16 |2021|0.8706999999999999|2106.11297v4
+VOLO-D5|2021|0.871|2106.13112v2
+VOLO-D4|2021|0.868|2106.13112v2
+VOLO-D3|2021|0.863|2106.13112v2
+VOLO-D2|2021|0.86|2106.13112v2
+VOLO-D1|2021|0.852|2106.13112v2
+PVTv2-B4|2021|0.838|2106.13797v7
+PVTv2-B3|2021|0.8320000000000001|2106.13797v7
+PVTv2-B2|2021|0.82|2106.13797v7
+PVTv2-B1|2021|0.787|2106.13797v7
+PVTv2-B0|2021|0.705|2106.13797v7
+CSWin-L |2021|0.875|2107.00652v3
+GFNet-H-B|2021|0.8290000000000001|2107.00645v2
+AutoFormer-base|2021|0.8240000000000001|2107.00651v1
+AutoFormer-small|2021|0.8170000000000001|2107.00651v1
+AutoFormer-tiny|2021|0.747|2107.00651v1
+GLiT-Bases|2021|0.823|2107.02960v3
+GLiT-Smalls|2021|0.805|2107.02960v3
+GLiT-Tinys|2021|0.763|2107.02960v3
+CoE-Large + CondConv|2021|0.815|2107.03815v2
+CoE-Large|2021|0.807|2107.03815v2
+CoE-Small + CondConv + PWLU|2021|0.8|2107.03815v2
+"ViP-B|384"|2021|0.8420000000000001|2107.05790v2
+CycleMLP-B5|2021|0.8320000000000001|2107.10224v4
+SkipblockNet-L|2021|0.7709999999999999|2107.11170v3
+SkipblockNet-M|2021|0.762|2107.11170v3
+WideNet-H|2021|0.8009000000000001|2107.11817v3
+WideNet-L|2021|0.7948999999999999|2107.11817v3
+WideNet-B|2021|0.7754000000000001|2107.11817v3
+SE-CoTNetD-152|2021|0.846|2107.12292v1
+SE-CoTNetD-101|2021|0.8320000000000001|2107.12292v1
+ResNet-200|2021|0.818|2107.12028v2
+SE-CoTNetD-50|2021|0.816|2107.12292v1
+ResNet-152|2021|0.813|2107.12028v2
+ResNet-101|2021|0.809|2107.12028v2
+DeiT-B with iRPE-K|2021|0.8240000000000001|2107.14222v1
+DeiT-S with iRPE-QKV|2021|0.8140000000000001|2107.14222v1
+DeiT-S with iRPE-QK|2021|0.8109999999999999|2107.14222v1
+DeiT-S with iRPE-K|2021|0.809|2107.14222v1
+DeiT-Ti with iRPE-K|2021|0.737|2107.14222v1
+Evo-LeViT-384*|2021|0.8220000000000001|2108.01390v5
+Co-ResNet-152|2021|0.7903|2108.07387v1
+ConvMLP-L|2021|0.802|2109.04454v2
+ConvMLP-M|2021|0.79|2109.04454v2
+ConvMLP-S|2021|0.768|2109.04454v2
+sMLPNet-B |2021|0.8340000000000001|2109.05422v2
+sMLPNet-S |2021|0.831|2109.05422v2
+sMLPNet-T |2021|0.8190000000000001|2109.05422v2
+NASViT |2021|0.8290000000000001|
+ConvMixer-1536/20|2021|0.8220000000000001|2201.09792v1
+NASViT-A5|2021|0.818|
+NASViT-A4|2021|0.8140000000000001|
+NASViT-A3|2021|0.81|
+NASViT-A2|2021|0.805|
+DAFT-conv |2021|0.802|
+DAFT-full|2021|0.7979999999999999|
+NASViT-A1|2021|0.797|
+NASViT-A0|2021|0.782|
+ResNet-152 |2021|0.8240000000000001|2110.00476v1
+ResNet-152 |2021|0.818|2110.00476v1
+DeiT-S |2021|0.804|2110.00476v1
+ResNet50 |2021|0.804|2110.00476v1
+ResNet50 |2021|0.7809999999999999|2110.00476v1
+MobileViT-S|2021|0.784|2110.02178v2
+MobileViT-XS|2021|0.748|2110.02178v2
+UniNet-B5|2021|0.852|2110.04035v1
+UniNet-B4|2021|0.8420000000000001|2110.04035v1
+UniNet-B2|2021|0.8270000000000001|2110.04035v1
+UniNet-B1|2021|0.804|2110.04035v1
+UniNet-B0|2021|0.7909999999999999|2110.04035v1
+HRFormer-B|2021|0.828|2110.09408v3
+HRFormer-T|2021|0.785|2110.09408v3
+SReT-T|2021|0.7759999999999999|2111.05297v3
+SReT-ExT|2021|0.74|2111.05297v3
+MAE |2021|0.8690000000000001|2111.06377v2
+MAE |2021|0.8590000000000001|2111.06377v2
+MAE |2021|0.836|2111.06377v2
+SwinV2-G|2021|0.9017000000000001|2111.09883v2
+SwinV2-B|2021|0.871|2111.09883v2
+FBNetV5-F-CLS|2021|0.841|2111.10007v2
+FBNetV5-C-CLS|2021|0.826|2111.10007v2
+FBNetV5|2021|0.818|2111.10007v2
+FBNetV5-A-CLS|2021|0.8170000000000001|2111.10007v2
+FBNetV5-AC-CLS|2021|0.784|2111.10007v2
+FBNetV5-AR-CLS|2021|0.772|2111.10007v2
+DiscreteViT|2021|0.8506999999999999|2111.10493v2
+Florence-CoSwin-H|2021|0.9005|2111.11432v1
+MetaFormer PoolFormer-M48|2021|0.825|2111.11418v3
+ResNet-101 |2021|0.8108|2111.15454v3
+ResNet-50 |2021|0.7940999999999999|2111.15454v3
+ResNet-34 |2021|0.7635|2111.15454v3
+ResNet-18 |2021|0.7232999999999999|2111.15454v3
+Dspike |2021|0.7123999999999999|
+MViTv2-H |2021|0.88|2112.01526v2
+MViTv2-L |2021|0.863|2112.01526v2
+MViTv2-T|2021|0.823|2112.01526v2
+SReT-LT |2021|0.787|2112.01528v1
+QnA-ViT-Base|2021|0.8370000000000001|2112.11435v2
+QnA-ViT-Small|2021|0.8320000000000001|2112.11435v2
+RepMLPNet-L256|2021|0.818|2112.11081v2
+QnA-ViT-Tiny|2021|0.8170000000000001|2112.11435v2
+ELSA-VOLO-D5 |2021|0.872|2112.12786v1
+ELSA-VOLO-D1|2021|0.847|2112.12786v1
+ELSA-Swin-T|2021|0.8270000000000001|2112.12786v1
+PatchConvNet-L120-21k-384|2021|0.871|2112.13692v1
+PatchConvNet-B60-21k-384|2021|0.865|2112.13692v1
+PatchConvNet-S60-21k-512|2021|0.8540000000000001|2112.13692v1
+PatchConvNet-B120|2021|0.841|2112.13692v1
+PatchConvNet-B60|2021|0.835|2112.13692v1
+PatchConvNet-S120|2021|0.8320000000000001|2112.13692v1
+PatchConvNet-S60|2021|0.821|2112.13692v1
+DAT-S|2022|0.8370000000000001|2201.00520v3
+DAT-T|2022|0.82|2201.00520v3
+ConvNeXt-XL |2022|0.878|2201.03545v2
+ConvNeXt-L |2022|0.855|2201.03545v2
+ConvNeXt-T|2022|0.821|2201.03545v2
+SWAG |2022|0.8859999999999999|2201.08371v2
+Omnivore |2022|0.86|2201.08377v2
+Omnivore |2022|0.853|2201.08377v2
+UniFormer-L |2022|0.863|2201.09450v3
+UniFormer-L|2022|0.856|2201.09450v3
+UniFormer-S|2022|0.8340000000000001|2201.09450v3
+Shift-B|2022|0.833|2201.10801v1
+Shift-S|2022|0.828|2201.10801v1
+Shift-T|2022|0.8170000000000001|2201.10801v1
+data2vec |2022|0.866|2202.03555v3
+MKD ViT-L|2022|0.865|2202.07940v1
+SEER |2022|0.858|2202.08360v2
+MKD ViT-B|2022|0.851|2202.07940v1
+MKD ViT-S|2022|0.831|2202.07940v1
+MKD ViT-T|2022|0.7709999999999999|2202.07940v1
+VAN-B5 |2022|0.863|2202.09741v5
+VAN-B4 |2022|0.857|2202.09741v5
+VAN-B2|2022|0.828|2202.09741v5
+VAN-B1|2022|0.8109999999999999|2202.09741v5
+VAN-B0|2022|0.754|2202.09741v5
+ViTAE-H + MAE |2022|0.885|2202.10108v2
+EdgeFormer-S|2022|0.7863|2203.03952v5
+Model soups |2022|0.9094|2203.05482v3
+ActiveMLP-L|2022|0.848|2203.06108v2
+ActiveMLP-T|2022|0.82|2203.06108v2
+RepLKNet-XL|2022|0.878|2203.06717v4
+ViT-L@384 |2022|0.855|2203.09795v1
+ViT-B@384 |2022|0.843|2203.09795v1
+ViT-B-36x1|2022|0.841|2203.09795v1
+ViT-B-18x2|2022|0.841|2203.09795v1
+ViT-B |2022|0.8340000000000001|2203.09795v1
+ViT-S-24x2|2022|0.826|2203.09795v1
+ViT-S-48x1|2022|0.823|2203.09795v1
+ELP |2022|0.7613|
+VOLO-D5+HAT|2022|0.873|2204.00993v3
+kNN-CLIP|2022|0.7979999999999999|2204.01186v2
+MaxViT-L |2022|0.867|2204.01697v4
+MaxViT-L |2022|0.8640000000000001|2204.01697v4
+MaxViT-B |2022|0.8634000000000001|2204.01697v4
+MaxViT-S |2022|0.8619|2204.01697v4
+MaxViT-T|2022|0.8572|2204.01697v4
+MaxViT-T |2022|0.8523999999999999|2204.01697v4
+MaxViT-B |2022|0.8495|2204.01697v4
+MaxViT-S |2022|0.8445|2204.01697v4
+MaxViT-T |2022|0.8362|2204.01697v4
+DaViT-G|2022|0.904|2204.03645v1
+DaViT-H|2022|0.902|2204.03645v1
+DaViT-L |2022|0.875|2204.03645v1
+DaViT-B |2022|0.8690000000000001|2204.03645v1
+DaViT-B|2022|0.846|2204.03645v1
+DaViT-T|2022|0.828|2204.03645v1
+ViT-L|2022|0.858|2204.07118v1
+Mini-Swin-B@384|2022|0.855|2204.07154v1
+ViT-H @224 |2022|0.852|2204.07118v1
+ViT-B @384 |2022|0.85|2204.07118v1
+ViT-L @224 |2022|0.8490000000000001|2204.07118v1
+NAT-Base|2022|0.843|2204.07143v5
+ViT-B @224 |2022|0.838|2204.07118v1
+NAT-Small|2022|0.8370000000000001|2204.07143v5
+ViT-S @384 |2022|0.8340000000000001|2204.07118v1
+NAT-Tiny|2022|0.8320000000000001|2204.07143v5
+NAT-Mini|2022|0.818|2204.07143v5
+ViT-S @224 |2022|0.8140000000000001|2204.07118v1
+EfficientNetV2 |2022|0.872|2204.12511v2
+FAN-L-Hybrid++|2022|0.871|2204.12451v4
+ASF-former-B|2022|0.8390000000000001|2204.12196v2
+ASF-former-S|2022|0.8270000000000001|2204.12196v2
+CoCa |2022|0.9059999999999999|2205.01917v2
+Sequencer2D-L\u2191392|2022|0.846|2205.01972v4
+Sequencer2D-L|2022|0.8340000000000001|2205.01972v4
+Sequencer2D-M|2022|0.828|2205.01972v4
+Sequencer2D-S|2022|0.823|2205.01972v4
+CLCNet |2022|0.8661|2205.09612v5
+CLCNet |2022|0.8645999999999999|2205.09612v5
+CLCNet |2022|0.8642|2205.09612v5
+CLCNet |2022|0.8528|2205.09612v5
+CLCNet |2022|0.8388|2205.09612v5
+Bamboo |2022|0.871|2205.10505v3
+Bamboo |2022|0.863|2205.10505v3
+Bamboo |2022|0.8420000000000001|2205.10505v3
+\u00b52Net |2022|0.8674|2205.12755v6
+MixMIM-B|2022|0.851|2205.13137v4
+"LITv2-B|384"|2022|0.847|2205.13213v5
+TransBoost-ViT-S|2022|0.8367|2205.13331v4
+LITv2-B|2022|0.836|2205.13213v5
+LITv2-M|2022|0.833|2205.13213v5
+TransBoost-ConvNext-T|2022|0.8245999999999999|2205.13331v4
+TransBoost-Swin-T|2022|0.8216|2205.13331v4
+LITv2-S|2022|0.82|2205.13213v5
+TransBoost-ResNet50-StrikesBack|2022|0.8115000000000001|2205.13331v4
+TransBoost-ResNet152|2022|0.8064|2205.13331v4
+TransBoost-ResNet101|2022|0.7986|2205.13331v4
+TransBoost-ResNet50|2022|0.7903|2205.13331v4
+TransBoost-EfficientNetB0|2022|0.7859999999999999|2205.13331v4
+TransBoost-MobileNetV3-L|2022|0.7681|2205.13331v4
+TransBoost-ResNet34|2022|0.767|2205.13331v4
+TransBoost-ResNet18|2022|0.7336|2205.13331v4
+FD |2022|0.89|2205.14141v3
+WaveMix-192/16 |2022|0.7493000000000001|2205.14375v4
+EfficientViT-B3 |2022|0.8420000000000001|2205.14756v6
+Pyramid ViG-B|2022|0.8370000000000001|2206.00272v3
+Pyramid ViG-M|2022|0.831|2206.00272v3
+Pyramid ViG-S|2022|0.821|2206.00272v3
+Pyramid ViG-Ti|2022|0.782|2206.00272v3
+MobileOne-S4 |2022|0.8140000000000001|2206.04040v2
+MobileOne-S3 |2022|0.8|2206.04040v2
+MobileOne-S4|2022|0.794|2206.04040v2
+MobileOne-S2 |2022|0.7909999999999999|2206.04040v2
+MobileOne-S3|2022|0.7809999999999999|2206.04040v2
+MobileOne-S2|2022|0.774|2206.04040v2
+MobileOne-S1 |2022|0.774|2206.04040v2
+MobileOne-S1|2022|0.759|2206.04040v2
+MobileOne-S0 |2022|0.725|2206.04040v2
+MobileOne-S0|2022|0.7140000000000001|2206.04040v2
+Top-k DiffSortNets |2022|0.8837|2206.07290v1
+"Our SP-ViT-L|384"|2022|0.863|2206.07662v1
+"Our SP-ViT-M|384"|2022|0.86|2206.07662v1
+Our SP-ViT-L|2022|0.855|2206.07662v1
+"SP-ViT-S|384"|2022|0.851|2206.07662v1
+Our SP-ViT-M|2022|0.8490000000000001|2206.07662v1
+Our SP-ViT-S|2022|0.8390000000000001|2206.07662v1
+GC ViT-B|2022|0.845|2206.09959v5
+GC ViT-S|2022|0.84|2206.09959v5
+GC ViT-T|2022|0.8340000000000001|2206.09959v5
+GC ViT-XT|2022|0.82|2206.09959v5
+GC ViT-XXT|2022|0.7979999999999999|2206.09959v5
+EdgeNeXt-S|2022|0.794|2206.10589v3
+EdgeNeXt-XXS|2022|0.7120000000000001|2206.10589v3
+RevBiFPN-S6|2022|0.8420000000000001|2206.14098v2
+RevBiFPN-S5|2022|0.8370000000000001|2206.14098v2
+RevBiFPN-S4|2022|0.83|2206.14098v2
+RevBiFPN-S3|2022|0.8109999999999999|2206.14098v2
+RevBiFPN-S2|2022|0.79|2206.14098v2
+RevBiFPN-S1|2022|0.759|2206.14098v2
+RevBiFPN-S0|2022|0.728|2206.14098v2
+Wave-ViT-L|2022|0.855|2207.04978v1
+Wave-ViT-B|2022|0.848|2207.04978v1
+Wave-ViT-S|2022|0.8390000000000001|2207.04978v1
+UniNet-B6|2022|0.8740000000000001|2207.05420v2
+UniNet-B5|2022|0.87|2207.05420v2
+Next-ViT-L @384|2022|0.847|2207.05501v4
+Next-ViT-B|2022|0.8320000000000001|2207.05501v4
+Next-ViT-S|2022|0.825|2207.05501v4
+UniNet-B0|2022|0.8079999999999999|2207.05420v2
+TinyViT-21M-distill |2022|0.848|2207.10666v1
+TinyViT-11M-distill |2022|0.8320000000000001|2207.10666v1
+TinyViT-21M|2022|0.831|2207.10666v1
+TinyViT-11M|2022|0.815|2207.10666v1
+TinyViT-5M-distill |2022|0.807|2207.10666v1
+TinyViT-5M|2022|0.7909999999999999|2207.10666v1
+ResMLP-B24 + STD|2022|0.8240000000000001|
+CycleMLP-B2 + STD|2022|0.821|
+Mixer-S16 + STD|2022|0.757|
+HorNet-L |2022|0.877|2207.14284v3
+gSwin-S|2022|0.8301000000000001|2208.11718v1
+gSwin-T|2022|0.8170999999999999|2208.11718v1
+gSwin-VT|2022|0.8031999999999999|2208.11718v1
+dBOT ViT-H |2022|0.882|2209.03917v3
+dBOT ViT-L |2022|0.878|2209.03917v3
+dBOT ViT-B |2022|0.857|2209.03917v3
+ViT-e|2022|0.909|2209.06794v4
+MAE+DAT |2022|0.8702|2209.07735v1
+Mega|2022|0.8240000000000001|2209.10655v3
+GPaCo |2022|0.8601000000000001|2209.12400v2
+GPaCo |2022|0.84|2209.12400v2
+GPaCo |2022|0.797|2209.12400v2
+DiNAT-Large |2022|0.875|2209.15001v3
+DiNAT-Large |2022|0.8740000000000001|2209.15001v3
+DiNAT_s-Large |2022|0.8740000000000001|2209.15001v3
+DiNAT_s-Large |2022|0.865|2209.15001v3
+DiNAT-Base|2022|0.8440000000000001|2209.15001v3
+DiNAT-Small|2022|0.838|2209.15001v3
+DiNAT-Tiny|2022|0.8270000000000001|2209.15001v3
+DiNAT-Mini|2022|0.818|2209.15001v3
+MobileViTv3-S|2022|0.7929999999999999|2209.15159v2
+MobileViTv3-1.0|2022|0.7864|2209.15159v2
+MobileViTv3-XS|2022|0.767|2209.15159v2
+MobileViTv3-0.75|2022|0.7655|2209.15159v2
+MobileViTv3-0.5|2022|0.7232999999999999|2209.15159v2
+MobileViTv3-XXS|2022|0.7098|2209.15159v2
+MOAT-4 22K+1K|2022|0.8909999999999999|2210.01820v2
+MOAT-3 1K only|2022|0.867|2210.01820v2
+MOAT-0 1K only|2022|0.833|2210.01820v2
+OTTT|2022|0.6515000000000001|2210.04195v2
+WaveMixLite-256/24|2022|0.677|
+ViT-B/16-224+HTM|2022|0.8237000000000001|2210.07562v1
+CAFormer-B36 |2022|0.8640000000000001|2210.13452v3
+CAFormer-M36 |2022|0.862|2210.13452v3
+CAFormer-S36 |2022|0.857|2210.13452v3
+ConvFormer-B36 |2022|0.857|2210.13452v3
+ConvFormer-M36 |2022|0.856|2210.13452v3
+CAFormer-B36 |2022|0.855|2210.13452v3
+ConvFormer-S36 |2022|0.8540000000000001|2210.13452v3
+CAFormer-M36 |2022|0.852|2210.13452v3
+CAFormer-S18 |2022|0.85|2210.13452v3
+ConvFormer-B36 |2022|0.848|2210.13452v3
+CAFormer-S36 |2022|0.845|2210.13452v3
+ConvFormer-M36 |2022|0.845|2210.13452v3
+ConvFormer-S18 |2022|0.8440000000000001|2210.13452v3
+ConvFormer-S36 |2022|0.841|2210.13452v3
+CAFormer-S18 |2022|0.836|2210.13452v3
+ConvFormer-S18 |2022|0.83|2210.13452v3
+MogaNet-XL |2022|0.878|2211.03295v3
+MogaNet-L|2022|0.847|2211.03295v3
+MogaNet-B|2022|0.843|2211.03295v3
+MogaNet-S|2022|0.8340000000000001|2211.03295v3
+MogaNet-T |2022|0.8|2211.03295v3
+MogaNet-XT |2022|0.772|2211.03295v3
+InternImage-DCNv3-G |2022|0.9009999999999999|2211.05778v4
+InternImage-H|2022|0.8959999999999999|2211.05778v4
+InternImage-XL|2022|0.88|2211.05778v4
+InternImage-L|2022|0.877|2211.05778v4
+InternImage-B|2022|0.8490000000000001|2211.05778v4
+InternImage-S|2022|0.8420000000000001|2211.05778v4
+InternImage-T|2022|0.835|2211.05778v4
+EVA|2022|0.897|2211.07636v2
+M3I Pre-training |2022|0.8959999999999999|2211.09807v2
+Heinsen Routing + BEiT-large 16 224|2022|0.867|2211.11754v3
+Last Layer Tuning with Newton Step |2022|0.889|2211.13403v1
+SALG-ST|2022|0.759|2211.14705v1
+PAT-B|2022|0.836|2211.16961v5
+PAT-S|2022|0.831|2211.16961v5
+IPT-B|2022|0.836|2212.03035v1
+IPT-S|2022|0.8290000000000001|2212.03035v1
+IPT-T|2022|0.805|2212.03035v1
+ViT-H@224 |2022|0.88|2212.04884v1
+ViT-L@224 |2022|0.875|2212.04884v1
+Swin-L@224 |2022|0.871|2212.04884v1
+ViT-B@224 |2022|0.863|2212.04884v1
+Swin-B@224 |2022|0.862|2212.04884v1
+ConvNeXt-B@224 |2022|0.858|2212.04884v1
+PiT-B@224 |2022|0.858|2212.04884v1
+ViT-M@224 |2022|0.85|2212.04884v1
+RegnetY16GF@224 |2022|0.8420000000000001|2212.04884v1
+ViT-S@224 |2022|0.831|2212.04884v1
+R-Mix |2022|0.7739|2212.04875v3
+OpenCLIP ViT-H/14|2022|0.885|2212.07143v1
+data2vec 2.0|2022|0.8740000000000001|2212.07525v2
+NEXcepTion-S|2022|0.82|2212.08448v2
+NEXcepTion-TP|2022|0.818|2212.08448v2
+NEXcepTion-T|2022|0.815|2212.08448v2
+Adlik-ViT-SG+Swin_large+Convnext_xlarge|2022|0.8835999999999999|2201.03545v2
+RevCol-H|2022|0.9|2212.11696v3
+ViT-B/16|2023|0.8859999999999999|2302.05442v1
+mPLUG-2|2023|0.885|2302.00402v1
+DeepMAD-89M|2023|0.84|2303.02165v3
+BiFormer-B* |2023|0.8540000000000001|2303.08810v1
+BiFormer-S* |2023|0.843|2303.08810v1
+BiFormer-T |2023|0.8140000000000001|2303.08810v1
+ViC-MAE |2023|0.85|2303.12001v2
+MAWS |2023|0.9009999999999999|2303.13496v3
+MAWS |2023|0.898|2303.13496v3
+MAWS |2023|0.895|2303.13496v3
+MAWS |2023|0.888|2303.13496v3
+MAWS |2023|0.868|2303.13496v3
+Diffusion Classifier|2023|0.7909999999999999|2303.16203v3
+CloFormer-S|2023|0.816|2303.17803v5
+CloFormer-XS|2023|0.7979999999999999|2303.17803v5
+CloFormer-XXS|2023|0.77|2303.17803v5
+Unicom |2023|0.883|2304.05884v1
+XCiT-M |2023|0.841|2304.12043v2
+CA-Swin-S |2023|0.8370000000000001|2304.12043v2
+DeiT-B |2023|0.8290000000000001|2304.12043v2
+CA-Swin-T |2023|0.828|2304.12043v2
+PVT-M |2023|0.8270000000000001|2304.12043v2
+PVT-S |2023|0.812|2304.12043v2
+CaiT-XXS |2023|0.8059999999999999|2304.12043v2
+PVT-T |2023|0.767|2304.12043v2
+DeiT-T |2023|0.738|2304.12043v2
+ONE-PEACE|2023|0.898|2305.11172v1
+Hiera-H|2023|0.8690000000000001|2306.00989v1
+Swin-T+SSA|2023|0.8189|2306.01705v1
+ViT-H @224 |2023|0.857|2306.11339v2
+ViT-L @224 |2023|0.853|2306.11339v2
+ViT-B @224 |2023|0.8420000000000001|2306.11339v2
+GAC-SNN MS-ResNet-34|2023|0.7042|2308.06582v1
+CaiT-S24|2023|0.8491|2308.09372v1
+XCiT-S|2023|0.8365|2308.09372v1
+Wave-ViT-S|2023|0.8361|2308.09372v1
+SwinV2-Ti|2023|0.8309000000000001|2308.09372v1
+ViT-S|2023|0.8254|2308.09372v1
+EViT |2023|0.8229000000000001|2308.09372v1
+STViT-Swin-Ti|2023|0.8222|2308.09372v1
+ToMe-ViT-S|2023|0.8210999999999999|2308.09372v1
+EViT |2023|0.8195999999999999|2308.09372v1
+GFNet-S|2023|0.8133|2308.09372v1
+DynamicViT-S|2023|0.8109000000000001|2308.09372v1
+TokenLearner-ViT-8|2023|0.8066|2308.09372v1
+CoaT-Ti|2023|0.7842|2308.09372v1
+Poly-SA-ViT-S|2023|0.7834|2308.09372v1
+EfficientFormer-V2-S0|2023|0.7153|2308.09372v1
+DAT-B++ |2023|0.8590000000000001|2309.01430v1
+DAT-B++ |2023|0.8490000000000001|2309.01430v1
+DAT-S++|2023|0.846|2309.01430v1
+DAT-T++|2023|0.8390000000000001|2309.01430v1
+MIRL|2023|0.848|2309.14136v3
+MIRL |2023|0.862|2309.14136v3
+ReViT-B|2023|0.8240000000000001|2402.11301v1
+GTP-ViT-B-Patch8/P20|2023|0.858|2311.03035v2
+GTP-EVA-L/P8|2023|0.8540000000000001|2311.03035v2
+GTP-ViT-L/P8|2023|0.8370000000000001|2311.03035v2
+GTP-LV-ViT-M/P8|2023|0.828|2311.03035v2
+GTP-LV-ViT-S/P8|2023|0.8190000000000001|2311.03035v2
+GTP-DeiT-B/P8|2023|0.815|2311.03035v2
+GTP-DeiT-S/P8|2023|0.795|2311.03035v2
+UniRepLKNet-XL++|2023|0.88|2311.15599v2
+UniRepLKNet-L++|2023|0.879|2311.15599v2
+UniRepLKNet-B++|2023|0.8740000000000001|2311.15599v2
+UniRepLKNet-S++|2023|0.8640000000000001|2311.15599v2
+UniRepLKNet-S|2023|0.8390000000000001|2311.15599v2
+UniRepLKNet-T|2023|0.8320000000000001|2311.15599v2
+UniRepLKNet-N|2023|0.816|2311.15599v2
+UniRepLKNet-P|2023|0.802|2311.15599v2
+UniRepLKNet-F|2023|0.7859999999999999|2311.15599v2
+UniRepLKNet-A|2023|0.77|2311.15599v2
+AIM-7B|2024|0.84|2401.08541v1
+DGPPF-ResNet50|2024|0.7365999999999999|
+DGPPF-MobileNetV2|2024|0.6559|
+DGPPF-ResNet18|2024|0.6522|
+#ddd|"""yAx"|false|
+ru|"""tre"|"""line"""|
+Inception ResNet V2|2016|0.8009999999999999|1602.07261v2
+PNASNet-5|2017|0.8290000000000001|1712.00559v3
+ResNeXt-101 32x48d|2018|0.8540000000000001|1805.00932v1
+EfficientNet-B8 |2019|0.8540000000000001|1909.13719v2
+BiT-L |2019|0.8754000000000001|1912.11370v3
+ru|"""nam"|"""scatter"""|
+DenseNet-169|2016|0.762|1608.06993v5
+ResNeXt-101 32\u00d716d|2018|0.8420000000000001|1805.00932v1
+MnasNet-A3|2018|0.767|1807.11626v3
+MnasNet-A2|2018|0.7559999999999999|1807.11626v3
+Oct-ResNet-152 |2019|0.8290000000000001|1904.05049v3
+EfficientNet-B7|2019|0.8440000000000001|1905.11946v5
+EfficientNet-B5|2019|0.833|1905.11946v5
+EfficientNet-B7 |2019|0.85|1909.13719v2
+ResNet-50|2019|0.721|1910.04209v3
+InceptionV3 |2019|0.7895|1911.09737v2
+ResnetV2 50 |2019|0.7720999999999999|1911.09737v2
+BiT-M |2019|0.8539|1912.11370v3
+FixEfficientNet-B6|2020|0.867|2003.08237v5
+FixEfficientNet-B4|2020|0.8590000000000001|2003.08237v5
+FixEfficientNet-B8|2020|0.857|2003.08237v5
+ResNeSt-200|2020|0.8390000000000001|2004.08955v2
+ResNeSt-50-fast|2020|0.8064|2004.08955v2
+ResNet200_vd_26w_4s_ssld|2020|0.851|2006.10702v1
+ReXNet-R_3.0|2020|0.845|2007.00992v3
+ReXNet-R_2.0|2020|0.8320000000000001|2007.00992v3
+ReXNet_2.0|2020|0.816|2007.00992v3
+ResNet-152 |2020|0.816|2010.01412v3
+DeiT-B 384|2020|0.852|2012.12877v2
+DeiT-B|2020|0.8420000000000001|2012.12877v2
+DeiT-B|2020|0.826|2012.12877v2
+SENet-101|2021|0.8140000000000001|2101.11605v2
+T2T-ViTt-24|2021|0.826|2101.11986v3
+NFNet-F5 w/ SAM|2021|0.863|2102.06171v1
+NFNet-F5|2021|0.86|2102.06171v1
+NFNet-F4|2021|0.8590000000000001|2102.06171v1
+NFNet-F2|2021|0.851|2102.06171v1
+ResNet-RS-50 |2021|0.8440000000000001|2103.07579v1
+ResNet-34 |2021|0.7609999999999999|2103.13027v6
+EfficientNetV2L|2021|0.868|2104.00298v3
+EfficientNetV2-M |2021|0.861|2104.00298v3
+EfficientNetV2-L|2021|0.857|2104.00298v3
+EfficientNetV2-M|2021|0.851|2104.00298v3
+EfficientNetV2-S |2021|0.85|2104.00298v3
+EfficientNetV2-S|2021|0.8390000000000001|2104.00298v3
+LeViT-384|2021|0.825|2104.01136v2
+ResNet-152x2-SAM|2021|0.8109999999999999|2106.01548v3
+CSWin-L |2021|0.875|2107.00652v3
+ResNet-152|2021|0.813|2107.12028v2
+DeiT-B with iRPE-K|2021|0.8240000000000001|2107.14222v1
+ResNet-152 |2021|0.8240000000000001|2110.00476v1
+ResNet-152 |2021|0.818|2110.00476v1
+ResNet-101 |2021|0.8108|2111.15454v3
+ResNet-34 |2021|0.7635|2111.15454v3
+Dspike |2021|0.7123999999999999|
+MViTv2-L |2021|0.863|2112.01526v2
+ELSA-VOLO-D5 |2021|0.872|2112.12786v1
+PatchConvNet-B60-21k-384|2021|0.865|2112.13692v1
+VOLO-D5+HAT|2022|0.873|2204.00993v3
+Mini-Swin-B@384|2022|0.855|2204.07154v1
+EfficientNetV2 |2022|0.872|2204.12511v2
+TransBoost-MobileNetV3-L|2022|0.7681|2205.13331v4
+RevBiFPN-S6|2022|0.8420000000000001|2206.14098v2
+Next-ViT-B|2022|0.8320000000000001|2207.05501v4
+Next-ViT-S|2022|0.825|2207.05501v4
+DiNAT_s-Large |2022|0.8740000000000001|2209.15001v3
+AIM-7B|2024|0.84|2401.08541v1
+#ddd|"""yAx"|false|
+ru|"""tre"|"""line"""|
+ResNet-152|2015|0.7857|1512.03385v1
+ResNet-200|2016|0.799|1603.05027v3
+SimpleNetV1-9m-correct-labels|2016|0.8123999999999999|1608.06037v8
+NASNET-A|2017|0.8270000000000001|1707.07012v4
+AmoebaNet-A|2018|0.8390000000000001|1802.01548v7
+ResNeXt-101 32x32d|2018|0.851|1805.00932v1
+FixResNeXt-101 32x48d|2019|0.8640000000000001|1906.06423v4
+NoisyStudent |2019|0.8690000000000001|1911.04252v4
+NoisyStudent |2020|0.884|1911.04252v4
+FixEfficientNet-L2|2020|0.885|2003.08237v5
+Meta Pseudo Labels |2020|0.902|2003.10580v4
+ViT-G/14|2021|0.9045000000000001|2106.04560v2
+CoAtNet-7|2021|0.9087999999999999|2106.04803v2
+Model soups |2022|0.9098|2203.05482v3
+CoCa |2022|0.91|2205.01917v2
+OmniVec|2023|0.924|2311.05709v1
+ru|"""nam"|"""scatter"""|
+ResNet-101|2015|0.7825|1512.03385v1
+WRN-50-2-bottleneck|2016|0.7809999999999999|1605.07146v4
+FractalNet-34|2016|0.7587999999999999|1605.07648v4
+SimpleNetV1-5m-correct-labels|2016|0.7912|1608.06037v8
+SimpleNetV1-small-075-correct-labels|2016|0.7565999999999999|1608.06037v8
+SimpleNetV1-9m|2016|0.7417|1608.06037v8
+SimpleNetV1-5m|2016|0.7193999999999999|1608.06037v8
+SimpleNetV1-small-05-correct-labels|2016|0.6911|1608.06037v8
+SimpleNetV1-small-075|2016|0.6815000000000001|1608.06037v8
+SimpleNetV1-small-05|2016|0.6152000000000001|1608.06037v8
+DenseNet-201|2016|0.7742|1608.06993v5
+DenseNet-121|2016|0.7498|1608.06993v5
+Xception|2016|0.79|1610.02357v3
+ResNeXt-101  64x4|2016|0.809|1611.05431v2
+MobileNet-224 \u00d71.25|2017|0.706|1704.04861v1
+Attention-92|2017|0.805|1704.06904v1
+ShuffleNet|2017|0.7090000000000001|1707.01083v2
+ResNet-101 |2017|0.792|1707.02968v2
+MobileNetV2 |2018|0.747|1801.04381v4
+MobileNetV2|2018|0.72|1801.04381v4
+ResNet-152 + SWA|2018|0.7894|1803.05407v3
+DenseNet-161 + SWA|2018|0.7844|1803.05407v3
+Inception v3|2018|0.7712|1803.08337v1
+ResNeXt-101 32x8d|2018|0.8220000000000001|1805.00932v1
+CoordConv ResNet-50|2018|0.7574|1807.03247v2
+ShuffleNet V2|2018|0.754|1807.11164v1
+MnasNet-A1|2018|0.752|1807.11626v3
+GPIPE|2018|0.8440000000000001|1811.06965v5
+ESPNetv2|2018|0.7490000000000001|1811.11431v3
+Proxyless|2018|0.746|1812.00332v2
+ResNet-50-D|2018|0.7716|1812.01187v2
+FBNet-C|2018|0.7490000000000001|1812.03443v3
+ColorNet |2019|0.8432|1902.00267v1
+ColorNet|2019|0.8234999999999999|1902.00267v1
+MultiGrain PNASNet |2019|0.836|1902.05509v2
+MultiGrain PNASNet |2019|0.8320000000000001|1902.05509v2
+MultiGrain SENet154 |2019|0.831|1902.05509v2
+MultiGrain SENet154 |2019|0.83|1902.05509v2
+MultiGrain SENet154 |2019|0.8270000000000001|1902.05509v2
+MultiGrain PNASNet |2019|0.826|1902.05509v2
+MultiGrain PNASNet |2019|0.813|1902.05509v2
+MultiGrain R50-AA-500|2019|0.794|1902.05509v2
+MultiGrain R50-AA-224|2019|0.782|1902.05509v2
+MultiGrain NASNet-A-Mobile |2019|0.7509999999999999|1902.05509v2
+Graph-RISE |2019|0.6829000000000001|1902.10814v1
+SKNet-101|2019|0.7981|1903.06586v2
+SRM-ResNet-101|2019|0.7847|1903.10829v1
+Res2Net-101|2019|0.8123|1904.01169v3
+RandWire-WS|2019|0.8009999999999999|1904.01569v2
+Res2Net-50-299|2019|0.7859|1904.01169v3
+RandWire-WS |2019|0.747|1904.01569v2
+Single-Path NAS|2019|0.7495999999999999|1904.02877v1
+ACNet |2019|0.775|1904.03579v1
+EfficientNet-B0 |2019|0.7829999999999999|1904.04971v3
+ScaleNet-152|2019|0.7938|1904.09460v1
+ScaleNet-101|2019|0.7903|1904.09460v1
+ScaleNet-50|2019|0.778|1904.09460v1
+AA-ResNet-152|2019|0.7909999999999999|1904.09925v5
+LR-Net-26|2019|0.757|1904.11491v1
+ResNet-50 |2019|0.7904000000000001|1904.12848v6
+ResNet-200 |2019|0.8059999999999999|1905.00397v2
+ResNet-50 |2019|0.7759999999999999|1905.00397v2
+ResNeXt-101 32x16d |2019|0.848|1905.00546v1
+ResNeXt-101 32x8d |2019|0.843|1905.00546v1
+ResNeXt-101 32x4d |2019|0.8340000000000001|1905.00546v1
+MobileNet V3-Large 1.0|2019|0.752|1905.02244v5
+ResNeXt-101 |2019|0.8053|1905.04899v2
+ResNet-50 |2019|0.784|1905.04899v2
+SGE-ResNet101|2019|0.78798|1905.09646v2
+SGE-ResNet50|2019|0.7758400000000001|1905.09646v2
+EfficientNet-B6|2019|0.84|1905.11946v5
+EfficientNet-B4|2019|0.826|1905.11946v5
+EfficientNet-B3|2019|0.8109999999999999|1905.11946v5
+EfficientNet-B2|2019|0.7979999999999999|1905.11946v5
+EfficientNet-B1|2019|0.7879999999999999|1905.11946v5
+EfficientNet-B0|2019|0.763|1905.11946v5
+DiCENet|2019|0.7509999999999999|1906.03516v3
+FixResNet-50 Billion-scale@224|2019|0.825|1906.06423v4
+FixResNet-50 CutMix|2019|0.7979999999999999|1906.06423v4
+FixResNet-50|2019|0.7909999999999999|1906.06423v4
+DenseNAS-A|2019|0.759|1906.09607v3
+FairNAS-A|2019|0.7534000000000001|1907.01845v5
+FairNAS-B|2019|0.7509999999999999|1907.01845v5
+FairNAS-C|2019|0.7469|1907.01845v5
+MixNet-L|2019|0.789|1907.09595v3
+MixNet-M|2019|0.77|1907.09595v3
+MixNet-S|2019|0.758|1907.09595v3
+MobileNet-224 |2019|0.7256|1907.09665v10
+AOGNet-40M-AN|2019|0.8187000000000001|1908.01259v3
+MoGA-A|2019|0.759|1908.01314v4
+LIP-ResNet-101|2019|0.7933|1908.04156v3
+ResNet-50 |2019|0.7815000000000001|1908.04156v3
+LIP-DenseNet-BC-121|2019|0.7664|1908.04156v3
+SCARLET-A4|2019|0.823|1908.06022v6
+SCARLET-A|2019|0.769|1908.06022v6
+SCARLET-B|2019|0.763|1908.06022v6
+SCARLET-C|2019|0.7559999999999999|1908.06022v6
+CSPResNeXt-50 + Mish|2019|0.7979999999999999|1908.08681v3
+HCGNet-C|2019|0.805|1908.09699v3
+HCGNet-B|2019|0.785|1908.09699v3
+BBG |2019|0.626|1909.12117v2
+BBG |2019|0.594|1909.12117v2
+ResNet-50-DW |2019|0.785|1910.02940v2
+ECA-Net |2019|0.7892|1910.03151v4
+ECA-Net |2019|0.7865000000000001|1910.03151v4
+ECA-Net |2019|0.7748|1910.03151v4
+ECA-Net |2019|0.7256|1910.03151v4
+NoisyStudent |2019|0.8640000000000001|1911.04252v4
+NoisyStudent |2019|0.861|1911.04252v4
+NoisyStudent |2019|0.853|1911.04252v4
+NoisyStudent |2019|0.841|1911.04252v4
+NoisyStudent |2019|0.8240000000000001|1911.04252v4
+NoisyStudent |2019|0.815|1911.04252v4
+NoisyStudent |2019|0.7879999999999999|1911.04252v4
+AdvProp |2019|0.855|1911.09665v2
+AdvProp |2019|0.852|1911.09665v2
+CSPResNeXt-50 |2019|0.7979999999999999|1911.11929v1
+GhostNet \u00d71.3|2019|0.757|1911.11907v2
+Ghost-ResNet-50 |2019|0.75|1911.11907v2
+Ghost-ResNet-50 |2019|0.741|1911.11907v2
+GhostNet \u00d71.0|2019|0.7390000000000001|1911.11907v2
+GhostNet \u00d70.5|2019|0.662|1911.11907v2
+Wide ResNet-50 |2019|0.733|1911.13299v2
+DY-MobileNetV2 \u00d71.0|2019|0.7440000000000001|1912.03458v2
+DY-MobileNetV2 \u00d70.75|2019|0.728|1912.03458v2
+DY-ResNet-18|2019|0.727|1912.03458v2
+DY-MobileNetV3-Small|2019|0.6970000000000001|1912.03458v2
+DY-MobileNetV2 \u00d70.5|2019|0.6940000000000001|1912.03458v2
+DY-ResNet-10|2019|0.677|1912.03458v2
+DY-MobileNetV2 \u00d70.35|2019|0.649|1912.03458v2
+SpineNet-143|2019|0.79|1912.05027v3
+ResNet-200 |2019|0.8131999999999999|1912.11188v1
+ResNet-50 |2019|0.794|1912.11188v1
+Assemble-ResNet152|2020|0.8420000000000001|2001.06268v2
+Fix-EfficientNet-B8 |2020|0.858|2002.09024v1
+FixEfficientNet-B7|2020|0.871|2003.08237v5
+FixEfficientNet-B5|2020|0.8640000000000001|2003.08237v5
+FixEfficientNet-B3|2020|0.85|2003.08237v5
+FixEfficientNetB4|2020|0.84|2003.08237v5
+FixEfficientNet-B2|2020|0.836|2003.08237v5
+FixEfficientNet-B1|2020|0.826|2003.08237v5
+FixEfficientNet-B0|2020|0.802|2003.08237v5
+Meta Pseudo Labels |2020|0.9|2003.10580v4
+Meta Pseudo Labels |2020|0.8320000000000001|2003.10580v4
+KDforAA |2020|0.858|2003.11342v1
+KDforAA |2020|0.855|2003.11342v1
+GreedyNAS-A|2020|0.7709999999999999|2003.11236v1
+GreedyNAS-B|2020|0.768|2003.11236v1
+GreedyNAS-C|2020|0.762|2003.11236v1
+TResNet-XL|2020|0.843|2003.13630v3
+RegNetY-8.0GF|2020|0.799|2003.13678v1
+RegNetY-4.0GF|2020|0.794|2003.13678v1
+RegNetY-1.6GF|2020|0.78|2003.13678v1
+RegNetY-800MF|2020|0.763|2003.13678v1
+RegNetY-600MF|2020|0.755|2003.13678v1
+RegNetY-400MF|2020|0.741|2003.13678v1
+MUXNet-l|2020|0.7659999999999999|2003.13880v2
+MUXNet-m|2020|0.753|2003.13880v2
+MUXNet-s|2020|0.716|2003.13880v2
+MUXNet-xs|2020|0.667|2003.13880v2
+ResNeSt-269|2020|0.845|2004.08955v2
+ResNeSt-101|2020|0.83|2004.08955v2
+ResNeSt-50|2020|0.8112999999999999|2004.08955v2
+ResNet-200 |2020|0.8079999999999999|2004.11362v5
+NAT-M4|2020|0.805|2005.05859v2
+Multiscale DEQ |2020|0.792|2006.08656v2
+Fix_ResNet50_vd_ssld|2020|0.84|2006.10702v1
+ResNet50_vd_ssld|2020|0.83|2006.10702v1
+MobileNetV3_large_x1_0_ssld|2020|0.79|2006.10702v1
+PyConvResNet-101|2020|0.8149|2006.11538v1
+Prodpoly|2020|0.7717|2006.13026v2
+PS-KD |2020|0.7924|2006.12000v3
+ReXNet_3.0|2020|0.828|2007.00992v3
+ReXNet_1.5|2020|0.8029999999999999|2007.00992v3
+ReXNet_1.3|2020|0.795|2007.00992v3
+ReXNet_1.0|2020|0.779|2007.00992v3
+ReXNet_0.9|2020|0.772|2007.00992v3
+ReXNet_0.6|2020|0.746|2007.00992v3
+Ours|2020|0.7197|2009.04626v1
+ResNet-50|2020|0.7876000000000001|2009.06962v2
+MEAL V2 |2020|0.8172|2009.08453v2
+MEAL V2 |2020|0.8067|2009.08453v2
+ResNet-18 |2020|0.7319|2009.08453v2
+iAFF-ResNeXt-50-32x4d|2020|0.8022|2009.14082v2
+EfficientNet-L2-475 |2020|0.8861|2010.01412v3
+ResNeXt-101 |2020|0.812|2010.05981v2
+ViT-H/14|2020|0.8855|2010.11929v2
+ViT-L/16|2020|0.8776|2010.11929v2
+TinyNet |2020|0.794|2010.14819v2
+TinyNet-A + RA|2020|0.777|2010.14819v2
+Grafit |2020|0.7959999999999999|2011.12982v1
+ResNet-18 |2020|0.7171|2011.12913v2
+ResNet-18 |2020|0.7156|2011.12913v2
+ResNet-18 |2020|0.7137|2011.12913v2
+ResNet-18 |2020|0.7108|2011.12913v2
+ResNet-18 |2020|0.7093|2011.12913v2
+ResNet-18 |2020|0.7051999999999999|2011.12913v2
+ResNet-18 |2020|0.7009000000000001|2011.12913v2
+SE-ResNeXt-10|2020|0.836|
+SE-ResNeXt-10|2020|0.8334|
+ResNeXt-10|2020|0.8212999999999999|
+DeiT-B|2020|0.7659999999999999|2012.12877v2
+ResNet-50+AutoDropout+RandAugment|2021|0.8029999999999999|2101.01761v1
+ResNet-50|2021|0.787|2101.01761v1
+EfficientNet-B0|2021|0.775|2101.01761v1
+SSAL-Resnet50|2021|0.77|2101.03057v1
+RepVGG-B2|2021|0.7878000000000001|2101.03697v3
+RepVGG-B2g4|2021|0.785|2101.03697v3
+ReXNet_1.0-relabel|2021|0.784|2101.05022v2
+BoTNet T7|2021|0.847|2101.11605v2
+BoTNet T7-320|2021|0.8420000000000001|2101.11605v2
+BoTNet T6|2021|0.84|2101.11605v2
+SENet-350|2021|0.838|2101.11605v2
+BoTNet T5|2021|0.835|2101.11605v2
+BoTNet T4|2021|0.828|2101.11605v2
+SENet-152|2021|0.8220000000000001|2101.11605v2
+BoTNet T3|2021|0.8170000000000001|2101.11605v2
+ResNet-101|2021|0.8|2101.11605v2
+SENet-50|2021|0.794|2101.11605v2
+ResNet-50|2021|0.7879999999999999|2101.11605v2
+"T2T-ViT-14|384"|2021|0.833|2101.11986v3
+T2T-ViT-24|2021|0.823|2101.11986v3
+T2T-ViTt-19|2021|0.8220000000000001|2101.11986v3
+T2T-ViT-19|2021|0.8190000000000001|2101.11986v3
+T2T-ViT-14|2021|0.815|2101.11986v3
+ZenNAS |2021|0.83|2102.01063v4
+ZenNet-400M-SE|2021|0.78|2102.01063v4
+NFNet-F4+|2021|0.892|2102.06171v1
+ALIGN |2021|0.8864|2102.05918v2
+NFNet-F6 w/ SAM|2021|0.865|2102.06171v1
+NFNet-F3|2021|0.857|2102.06171v1
+NFNet-F1|2021|0.847|2102.06171v1
+NFNet-F0|2021|0.836|2102.06171v1
+ResNet-50 MLPerf v0.7 - 2512 steps|2021|0.7592|2102.06356v3
+AlphaNet-A6|2021|0.8079999999999999|2102.07954v2
+AlphaNet-A5|2021|0.8029999999999999|2102.07954v2
+AlphaNet-A4|2021|0.8|2102.07954v2
+AlphaNet-A3|2021|0.794|2102.07954v2
+AlphaNet-A2|2021|0.7909999999999999|2102.07954v2
+AlphaNet-A1|2021|0.789|2102.07954v2
+AlphaNet-A0|2021|0.778|2102.07954v2
+LambdaResNet200|2021|0.843|2102.08602v1
+LambdaResNet152|2021|0.84|2102.08602v1
+TNT-B|2021|0.8390000000000001|2103.00112v3
+Perceiver |2021|0.78|2103.03206v2
+Perceiver|2021|0.764|2103.03206v2
+RedNet-152|2021|0.7929999999999999|2103.06255v2
+RedNet-101|2021|0.7909999999999999|2103.06255v2
+RedNet-50|2021|0.784|2103.06255v2
+RedNet-38|2021|0.7759999999999999|2103.06255v2
+RedNet-26|2021|0.759|2103.06255v2
+ResNet-RS-270 |2021|0.838|2103.07579v1
+ConViT-B+|2021|0.825|2103.10697v2
+ConViT-B|2021|0.8240000000000001|2103.10697v2
+ConViT-S+|2021|0.8220000000000001|2103.10697v2
+ConViT-S|2021|0.813|2103.10697v2
+HVT-S-1|2021|0.78|2103.10619v2
+ConViT-Ti+|2021|0.767|2103.10697v2
+ConViT-Ti|2021|0.731|2103.10697v2
+HVT-Ti-1|2021|0.6964|2103.10619v2
+CeiT-S |2021|0.833|2103.11816v2
+DeepVit-L* |2021|0.831|2103.11886v4
+DeepVit-L|2021|0.8220000000000001|2103.11886v4
+CeiT-S|2021|0.82|2103.11816v2
+CeiT-T |2021|0.7879999999999999|2103.11816v2
+CeiT-T|2021|0.764|2103.11816v2
+BossNet-T1|2021|0.8220000000000001|2103.12424v3
+ResNet-101 |2021|0.8098000000000001|2103.13027v6
+ResNet-50 |2021|0.7925|2103.13027v6
+ResNet-18 |2021|0.7204999999999999|2103.13027v6
+Swin-L|2021|0.873|2103.14030v2
+Swin-B|2021|0.8640000000000001|2103.14030v2
+Swin-T|2021|0.813|2103.14030v2
+CrossViT-18+|2021|0.828|2103.14899v2
+CrossViT-18|2021|0.825|2103.14899v2
+CrossViT-15+|2021|0.823|2103.14899v2
+CrossViT-15|2021|0.815|2103.14899v2
+CvT-21 |2021|0.833|2103.15808v1
+ViL-Medium-D|2021|0.833|2103.15358v2
+ViL-Base-D|2021|0.8320000000000001|2103.15358v2
+CvT-13 |2021|0.83|2103.15808v1
+ViL-Medium-W|2021|0.8290000000000001|2103.15358v2
+CvT-21|2021|0.825|2103.15808v1
+CvT-13-NAS|2021|0.8220000000000001|2103.15808v1
+ViL-Small|2021|0.82|2103.15358v2
+ViL-Base-W|2021|0.8190000000000001|2103.15358v2
+CvT-13|2021|0.816|2103.15808v1
+ViL-Tiny-RPB|2021|0.767|2103.15358v2
+PiT-B|2021|0.84|2103.16302v2
+PiT-S|2021|0.8190000000000001|2103.16302v2
+PiT-XS|2021|0.7909999999999999|2103.16302v2
+PiT-Ti|2021|0.746|2103.16302v2
+CaiT-M-48-448|2021|0.865|2103.17239v2
+CAIT-M36-448|2021|0.863|2103.17239v2
+CAIT-M-36|2021|0.861|2103.17239v2
+CAIT-M-24|2021|0.858|2103.17239v2
+CAIT-S-36|2021|0.8540000000000001|2103.17239v2
+CAIT-S-48|2021|0.853|2103.17239v2
+CAIT-S-24|2021|0.851|2103.17239v2
+CAIT-XS-36|2021|0.848|2103.17239v2
+CAIT-XS-24|2021|0.841|2103.17239v2
+CAIT-XXS-36|2021|0.8220000000000001|2103.17239v2
+CAIT-XXS-24|2021|0.809|2103.17239v2
+LeViT-256|2021|0.816|2104.01136v2
+LeViT-192|2021|0.8|2104.01136v2
+LeViT-128|2021|0.7959999999999999|2104.01136v2
+LeViT-128S|2021|0.757|2104.01136v2
+"CCT-14/7x2 | 384"|2021|0.8271|2104.05704v4
+CCT-14/7x2|2021|0.8134|2104.05704v4
+LocalViT-S|2021|0.8079999999999999|2104.05707v1
+CCT-16/7x2|2021|0.8028|2104.05704v4
+LocalViT-PVT|2021|0.782|2104.05707v1
+LocalViT-TNT|2021|0.759|2104.05707v1
+LocalViT-T|2021|0.748|2104.05707v1
+LocalViT-T2T|2021|0.725|2104.05707v1
+AsymmNet-Large \u00d71.0|2021|0.754|2104.07770v1
+AsymmNet-Large \u00d70.5|2021|0.6920000000000001|2104.07770v1
+AsymmNet-Small \u00d71.0|2021|0.684|2104.07770v1
+PDC|2021|0.716|2104.07916v2
+ReActNet-A |2021|0.68|2104.08215v1
+DIFFQ |2021|0.82|2104.09987v3
+LV-ViT-L|2021|0.8640000000000001|2104.10858v3
+MViT-B-24|2021|0.848|2104.11227v1
+LV-ViT-M|2021|0.841|2104.10858v3
+LV-ViT-S|2021|0.833|2104.10858v3
+MViT-B-16|2021|0.83|2104.11227v1
+Visformer-S|2021|0.8220000000000001|2104.12533v4
+Visformer-Ti|2021|0.7859999999999999|2104.12533v4
+Twins-SVT-L|2021|0.8370000000000001|2104.13840v4
+Mixer-H/14 |2021|0.8794|2105.01601v4
+ViT-L/16 Dosovitskiy et al. |2021|0.853|2105.01601v4
+Mixer-B/16|2021|0.7644|2105.01601v4
+T2T-ViT-14|2021|0.8170000000000001|2105.02358v2
+RepMLP-Res50|2021|0.7859999999999999|2105.01883v3
+FF|2021|0.7490000000000001|2105.02723v1
+ResMLP-B24/8|2021|0.836|2105.03404v2
+ResMLP-S24|2021|0.8079999999999999|2105.03404v2
+BasisNet-MV3|2021|0.8|2105.03014v1
+ResMLP-36|2021|0.797|2105.03404v2
+ResMLP-24|2021|0.794|2105.03404v2
+ResMLP-S12|2021|0.778|2105.03404v2
+Conformer-B|2021|0.841|2105.03889v1
+RVT-B*|2021|0.8270000000000001|2105.07926v4
+RVT-S*|2021|0.8190000000000001|2105.07926v4
+gMLP-B|2021|0.816|2105.08050v2
+RVT-Ti*|2021|0.792|2105.07926v4
+Heteroscedastic |2021|0.6859999999999999|2105.10305v1
+Transformer local-attention |2021|0.838|2105.12723v4
+Transformer local-attention |2021|0.833|2105.12723v4
+Transformer local-attention |2021|0.815|2105.12723v4
+NFNet-F5 w/ SAM w/ augmult=16|2021|0.8678|2105.13343v2
+ResT-Large|2021|0.836|2105.13677v5
+ResT-Small|2021|0.7959999999999999|2105.13677v5
+DVT |2021|0.8043|2105.15075v2
+DVT |2021|0.7974|2105.15075v2
+DVT |2021|0.7848|2105.15075v2
+Container Container|2021|0.8270000000000001|2106.01401v2
+Container-Light|2021|0.82|2106.01401v2
+DynamicViT-LV-M/0.8|2021|0.8390000000000001|2106.02034v2
+ViT-B/16-SAM|2021|0.799|2106.01548v3
+Mixer-B/8-SAM|2021|0.79|2106.01548v3
+Refiner-ViT-L|2021|0.8603000000000001|2106.03714v1
+ViTAE-B-Stage|2021|0.836|2106.03348v4
+ViTAE-S-Stage|2021|0.8220000000000001|2106.03348v4
+ViTAE-13M|2021|0.81|2106.03348v4
+ViTAE-6M|2021|0.779|2106.03348v4
+ViTAE-T-Stage|2021|0.768|2106.03348v4
+ViTAE-T|2021|0.753|2106.03348v4
+CoAtNet-6|2021|0.9045000000000001|2106.04803v2
+CoAtNet-3 @384|2021|0.8852|2106.04803v2
+FunMatch - T384+224 |2021|0.828|2106.05237v2
+V-MoE-H/14 |2021|0.8835999999999999|2106.05974v1
+V-MoE-H/14 |2021|0.8823000000000001|2106.05974v1
+VIT-H/14|2021|0.8808|2106.05974v1
+V-MoE-L/16 |2021|0.8741|2106.05974v1
+BEiT-L |2021|0.8859999999999999|2106.08254v2
+BEiT-L |2021|0.863|2106.08254v2
+XCiT-L24|2021|0.86|2106.09681v2
+XCiT-M24|2021|0.858|2106.09681v2
+XCiT-S24|2021|0.856|2106.09681v2
+XCiT-S12|2021|0.851|2106.09681v2
+TokenLearner L/8 |2021|0.8887|2106.11297v4
+16-TokenLearner B/16 |2021|0.8706999999999999|2106.11297v4
+VOLO-D5|2021|0.871|2106.13112v2
+VOLO-D4|2021|0.868|2106.13112v2
+VOLO-D3|2021|0.863|2106.13112v2
+VOLO-D2|2021|0.86|2106.13112v2
+VOLO-D1|2021|0.852|2106.13112v2
+PVTv2-B4|2021|0.838|2106.13797v7
+PVTv2-B3|2021|0.8320000000000001|2106.13797v7
+PVTv2-B2|2021|0.82|2106.13797v7
+PVTv2-B1|2021|0.787|2106.13797v7
+PVTv2-B0|2021|0.705|2106.13797v7
+GFNet-H-B|2021|0.8290000000000001|2107.00645v2
+AutoFormer-base|2021|0.8240000000000001|2107.00651v1
+AutoFormer-small|2021|0.8170000000000001|2107.00651v1
+AutoFormer-tiny|2021|0.747|2107.00651v1
+GLiT-Bases|2021|0.823|2107.02960v3
+GLiT-Smalls|2021|0.805|2107.02960v3
+GLiT-Tinys|2021|0.763|2107.02960v3
+CoE-Large + CondConv|2021|0.815|2107.03815v2
+CoE-Large|2021|0.807|2107.03815v2
+CoE-Small + CondConv + PWLU|2021|0.8|2107.03815v2
+"ViP-B|384"|2021|0.8420000000000001|2107.05790v2
+CycleMLP-B5|2021|0.8320000000000001|2107.10224v4
+SkipblockNet-L|2021|0.7709999999999999|2107.11170v3
+SkipblockNet-M|2021|0.762|2107.11170v3
+WideNet-H|2021|0.8009000000000001|2107.11817v3
+WideNet-L|2021|0.7948999999999999|2107.11817v3
+WideNet-B|2021|0.7754000000000001|2107.11817v3
+SE-CoTNetD-152|2021|0.846|2107.12292v1
+SE-CoTNetD-101|2021|0.8320000000000001|2107.12292v1
+ResNet-200|2021|0.818|2107.12028v2
+SE-CoTNetD-50|2021|0.816|2107.12292v1
+ResNet-101|2021|0.809|2107.12028v2
+DeiT-S with iRPE-QKV|2021|0.8140000000000001|2107.14222v1
+DeiT-S with iRPE-QK|2021|0.8109999999999999|2107.14222v1
+DeiT-S with iRPE-K|2021|0.809|2107.14222v1
+DeiT-Ti with iRPE-K|2021|0.737|2107.14222v1
+Evo-LeViT-384*|2021|0.8220000000000001|2108.01390v5
+Co-ResNet-152|2021|0.7903|2108.07387v1
+ConvMLP-L|2021|0.802|2109.04454v2
+ConvMLP-M|2021|0.79|2109.04454v2
+ConvMLP-S|2021|0.768|2109.04454v2
+sMLPNet-B |2021|0.8340000000000001|2109.05422v2
+sMLPNet-S |2021|0.831|2109.05422v2
+sMLPNet-T |2021|0.8190000000000001|2109.05422v2
+NASViT |2021|0.8290000000000001|
+ConvMixer-1536/20|2021|0.8220000000000001|2201.09792v1
+NASViT-A5|2021|0.818|
+NASViT-A4|2021|0.8140000000000001|
+NASViT-A3|2021|0.81|
+NASViT-A2|2021|0.805|
+DAFT-conv |2021|0.802|
+DAFT-full|2021|0.7979999999999999|
+NASViT-A1|2021|0.797|
+NASViT-A0|2021|0.782|
+DeiT-S |2021|0.804|2110.00476v1
+ResNet50 |2021|0.804|2110.00476v1
+ResNet50 |2021|0.7809999999999999|2110.00476v1
+MobileViT-S|2021|0.784|2110.02178v2
+MobileViT-XS|2021|0.748|2110.02178v2
+UniNet-B5|2021|0.852|2110.04035v1
+UniNet-B4|2021|0.8420000000000001|2110.04035v1
+UniNet-B2|2021|0.8270000000000001|2110.04035v1
+UniNet-B1|2021|0.804|2110.04035v1
+UniNet-B0|2021|0.7909999999999999|2110.04035v1
+HRFormer-B|2021|0.828|2110.09408v3
+HRFormer-T|2021|0.785|2110.09408v3
+SReT-T|2021|0.7759999999999999|2111.05297v3
+SReT-ExT|2021|0.74|2111.05297v3
+MAE |2021|0.8690000000000001|2111.06377v2
+MAE |2021|0.8590000000000001|2111.06377v2
+MAE |2021|0.836|2111.06377v2
+SwinV2-G|2021|0.9017000000000001|2111.09883v2
+SwinV2-B|2021|0.871|2111.09883v2
+FBNetV5-F-CLS|2021|0.841|2111.10007v2
+FBNetV5-C-CLS|2021|0.826|2111.10007v2
+FBNetV5|2021|0.818|2111.10007v2
+FBNetV5-A-CLS|2021|0.8170000000000001|2111.10007v2
+FBNetV5-AC-CLS|2021|0.784|2111.10007v2
+FBNetV5-AR-CLS|2021|0.772|2111.10007v2
+DiscreteViT|2021|0.8506999999999999|2111.10493v2
+Florence-CoSwin-H|2021|0.9005|2111.11432v1
+MetaFormer PoolFormer-M48|2021|0.825|2111.11418v3
+ResNet-50 |2021|0.7940999999999999|2111.15454v3
+ResNet-18 |2021|0.7232999999999999|2111.15454v3
+MViTv2-H |2021|0.88|2112.01526v2
+MViTv2-T|2021|0.823|2112.01526v2
+SReT-LT |2021|0.787|2112.01528v1
+QnA-ViT-Base|2021|0.8370000000000001|2112.11435v2
+QnA-ViT-Small|2021|0.8320000000000001|2112.11435v2
+RepMLPNet-L256|2021|0.818|2112.11081v2
+QnA-ViT-Tiny|2021|0.8170000000000001|2112.11435v2
+ELSA-VOLO-D1|2021|0.847|2112.12786v1
+ELSA-Swin-T|2021|0.8270000000000001|2112.12786v1
+PatchConvNet-L120-21k-384|2021|0.871|2112.13692v1
+PatchConvNet-S60-21k-512|2021|0.8540000000000001|2112.13692v1
+PatchConvNet-B120|2021|0.841|2112.13692v1
+PatchConvNet-B60|2021|0.835|2112.13692v1
+PatchConvNet-S120|2021|0.8320000000000001|2112.13692v1
+PatchConvNet-S60|2021|0.821|2112.13692v1
+DAT-S|2022|0.8370000000000001|2201.00520v3
+DAT-T|2022|0.82|2201.00520v3
+ConvNeXt-XL |2022|0.878|2201.03545v2
+ConvNeXt-L |2022|0.855|2201.03545v2
+ConvNeXt-T|2022|0.821|2201.03545v2
+SWAG |2022|0.8859999999999999|2201.08371v2
+Omnivore |2022|0.86|2201.08377v2
+Omnivore |2022|0.853|2201.08377v2
+UniFormer-L |2022|0.863|2201.09450v3
+UniFormer-L|2022|0.856|2201.09450v3
+UniFormer-S|2022|0.8340000000000001|2201.09450v3
+Shift-B|2022|0.833|2201.10801v1
+Shift-S|2022|0.828|2201.10801v1
+Shift-T|2022|0.8170000000000001|2201.10801v1
+data2vec |2022|0.866|2202.03555v3
+MKD ViT-L|2022|0.865|2202.07940v1
+SEER |2022|0.858|2202.08360v2
+MKD ViT-B|2022|0.851|2202.07940v1
+MKD ViT-S|2022|0.831|2202.07940v1
+MKD ViT-T|2022|0.7709999999999999|2202.07940v1
+VAN-B5 |2022|0.863|2202.09741v5
+VAN-B4 |2022|0.857|2202.09741v5
+VAN-B2|2022|0.828|2202.09741v5
+VAN-B1|2022|0.8109999999999999|2202.09741v5
+VAN-B0|2022|0.754|2202.09741v5
+ViTAE-H + MAE |2022|0.885|2202.10108v2
+EdgeFormer-S|2022|0.7863|2203.03952v5
+Model soups |2022|0.9094|2203.05482v3
+ActiveMLP-L|2022|0.848|2203.06108v2
+ActiveMLP-T|2022|0.82|2203.06108v2
+RepLKNet-XL|2022|0.878|2203.06717v4
+ViT-L@384 |2022|0.855|2203.09795v1
+ViT-B@384 |2022|0.843|2203.09795v1
+ViT-B-36x1|2022|0.841|2203.09795v1
+ViT-B-18x2|2022|0.841|2203.09795v1
+ViT-B |2022|0.8340000000000001|2203.09795v1
+ViT-S-24x2|2022|0.826|2203.09795v1
+ViT-S-48x1|2022|0.823|2203.09795v1
+ELP |2022|0.7613|
+kNN-CLIP|2022|0.7979999999999999|2204.01186v2
+MaxViT-L |2022|0.867|2204.01697v4
+MaxViT-L |2022|0.8640000000000001|2204.01697v4
+MaxViT-B |2022|0.8634000000000001|2204.01697v4
+MaxViT-S |2022|0.8619|2204.01697v4
+MaxViT-T|2022|0.8572|2204.01697v4
+MaxViT-T |2022|0.8523999999999999|2204.01697v4
+MaxViT-B |2022|0.8495|2204.01697v4
+MaxViT-S |2022|0.8445|2204.01697v4
+MaxViT-T |2022|0.8362|2204.01697v4
+DaViT-G|2022|0.904|2204.03645v1
+DaViT-H|2022|0.902|2204.03645v1
+DaViT-L |2022|0.875|2204.03645v1
+DaViT-B |2022|0.8690000000000001|2204.03645v1
+DaViT-B|2022|0.846|2204.03645v1
+DaViT-T|2022|0.828|2204.03645v1
+ViT-L|2022|0.858|2204.07118v1
+ViT-H @224 |2022|0.852|2204.07118v1
+ViT-B @384 |2022|0.85|2204.07118v1
+ViT-L @224 |2022|0.8490000000000001|2204.07118v1
+NAT-Base|2022|0.843|2204.07143v5
+ViT-B @224 |2022|0.838|2204.07118v1
+NAT-Small|2022|0.8370000000000001|2204.07143v5
+ViT-S @384 |2022|0.8340000000000001|2204.07118v1
+NAT-Tiny|2022|0.8320000000000001|2204.07143v5
+NAT-Mini|2022|0.818|2204.07143v5
+ViT-S @224 |2022|0.8140000000000001|2204.07118v1
+FAN-L-Hybrid++|2022|0.871|2204.12451v4
+ASF-former-B|2022|0.8390000000000001|2204.12196v2
+ASF-former-S|2022|0.8270000000000001|2204.12196v2
+CoCa |2022|0.9059999999999999|2205.01917v2
+Sequencer2D-L\u2191392|2022|0.846|2205.01972v4
+Sequencer2D-L|2022|0.8340000000000001|2205.01972v4
+Sequencer2D-M|2022|0.828|2205.01972v4
+Sequencer2D-S|2022|0.823|2205.01972v4
+CLCNet |2022|0.8661|2205.09612v5
+CLCNet |2022|0.8645999999999999|2205.09612v5
+CLCNet |2022|0.8642|2205.09612v5
+CLCNet |2022|0.8528|2205.09612v5
+CLCNet |2022|0.8388|2205.09612v5
+Bamboo |2022|0.871|2205.10505v3
+Bamboo |2022|0.863|2205.10505v3
+Bamboo |2022|0.8420000000000001|2205.10505v3
+\u00b52Net |2022|0.8674|2205.12755v6
+MixMIM-B|2022|0.851|2205.13137v4
+"LITv2-B|384"|2022|0.847|2205.13213v5
+TransBoost-ViT-S|2022|0.8367|2205.13331v4
+LITv2-B|2022|0.836|2205.13213v5
+LITv2-M|2022|0.833|2205.13213v5
+TransBoost-ConvNext-T|2022|0.8245999999999999|2205.13331v4
+TransBoost-Swin-T|2022|0.8216|2205.13331v4
+LITv2-S|2022|0.82|2205.13213v5
+TransBoost-ResNet50-StrikesBack|2022|0.8115000000000001|2205.13331v4
+TransBoost-ResNet152|2022|0.8064|2205.13331v4
+TransBoost-ResNet101|2022|0.7986|2205.13331v4
+TransBoost-ResNet50|2022|0.7903|2205.13331v4
+TransBoost-EfficientNetB0|2022|0.7859999999999999|2205.13331v4
+TransBoost-ResNet34|2022|0.767|2205.13331v4
+TransBoost-ResNet18|2022|0.7336|2205.13331v4
+FD |2022|0.89|2205.14141v3
+WaveMix-192/16 |2022|0.7493000000000001|2205.14375v4
+EfficientViT-B3 |2022|0.8420000000000001|2205.14756v6
+Pyramid ViG-B|2022|0.8370000000000001|2206.00272v3
+Pyramid ViG-M|2022|0.831|2206.00272v3
+Pyramid ViG-S|2022|0.821|2206.00272v3
+Pyramid ViG-Ti|2022|0.782|2206.00272v3
+MobileOne-S4 |2022|0.8140000000000001|2206.04040v2
+MobileOne-S3 |2022|0.8|2206.04040v2
+MobileOne-S4|2022|0.794|2206.04040v2
+MobileOne-S2 |2022|0.7909999999999999|2206.04040v2
+MobileOne-S3|2022|0.7809999999999999|2206.04040v2
+MobileOne-S2|2022|0.774|2206.04040v2
+MobileOne-S1 |2022|0.774|2206.04040v2
+MobileOne-S1|2022|0.759|2206.04040v2
+MobileOne-S0 |2022|0.725|2206.04040v2
+MobileOne-S0|2022|0.7140000000000001|2206.04040v2
+Top-k DiffSortNets |2022|0.8837|2206.07290v1
+"Our SP-ViT-L|384"|2022|0.863|2206.07662v1
+"Our SP-ViT-M|384"|2022|0.86|2206.07662v1
+Our SP-ViT-L|2022|0.855|2206.07662v1
+"SP-ViT-S|384"|2022|0.851|2206.07662v1
+Our SP-ViT-M|2022|0.8490000000000001|2206.07662v1
+Our SP-ViT-S|2022|0.8390000000000001|2206.07662v1
+GC ViT-B|2022|0.845|2206.09959v5
+GC ViT-S|2022|0.84|2206.09959v5
+GC ViT-T|2022|0.8340000000000001|2206.09959v5
+GC ViT-XT|2022|0.82|2206.09959v5
+GC ViT-XXT|2022|0.7979999999999999|2206.09959v5
+EdgeNeXt-S|2022|0.794|2206.10589v3
+EdgeNeXt-XXS|2022|0.7120000000000001|2206.10589v3
+RevBiFPN-S5|2022|0.8370000000000001|2206.14098v2
+RevBiFPN-S4|2022|0.83|2206.14098v2
+RevBiFPN-S3|2022|0.8109999999999999|2206.14098v2
+RevBiFPN-S2|2022|0.79|2206.14098v2
+RevBiFPN-S1|2022|0.759|2206.14098v2
+RevBiFPN-S0|2022|0.728|2206.14098v2
+Wave-ViT-L|2022|0.855|2207.04978v1
+Wave-ViT-B|2022|0.848|2207.04978v1
+Wave-ViT-S|2022|0.8390000000000001|2207.04978v1
+UniNet-B6|2022|0.8740000000000001|2207.05420v2
+UniNet-B5|2022|0.87|2207.05420v2
+Next-ViT-L @384|2022|0.847|2207.05501v4
+UniNet-B0|2022|0.8079999999999999|2207.05420v2
+TinyViT-21M-distill |2022|0.848|2207.10666v1
+TinyViT-11M-distill |2022|0.8320000000000001|2207.10666v1
+TinyViT-21M|2022|0.831|2207.10666v1
+TinyViT-11M|2022|0.815|2207.10666v1
+TinyViT-5M-distill |2022|0.807|2207.10666v1
+TinyViT-5M|2022|0.7909999999999999|2207.10666v1
+ResMLP-B24 + STD|2022|0.8240000000000001|
+CycleMLP-B2 + STD|2022|0.821|
+Mixer-S16 + STD|2022|0.757|
+HorNet-L |2022|0.877|2207.14284v3
+gSwin-S|2022|0.8301000000000001|2208.11718v1
+gSwin-T|2022|0.8170999999999999|2208.11718v1
+gSwin-VT|2022|0.8031999999999999|2208.11718v1
+dBOT ViT-H |2022|0.882|2209.03917v3
+dBOT ViT-L |2022|0.878|2209.03917v3
+dBOT ViT-B |2022|0.857|2209.03917v3
+ViT-e|2022|0.909|2209.06794v4
+MAE+DAT |2022|0.8702|2209.07735v1
+Mega|2022|0.8240000000000001|2209.10655v3
+GPaCo |2022|0.8601000000000001|2209.12400v2
+GPaCo |2022|0.84|2209.12400v2
+GPaCo |2022|0.797|2209.12400v2
+DiNAT-Large |2022|0.875|2209.15001v3
+DiNAT-Large |2022|0.8740000000000001|2209.15001v3
+DiNAT_s-Large |2022|0.865|2209.15001v3
+DiNAT-Base|2022|0.8440000000000001|2209.15001v3
+DiNAT-Small|2022|0.838|2209.15001v3
+DiNAT-Tiny|2022|0.8270000000000001|2209.15001v3
+DiNAT-Mini|2022|0.818|2209.15001v3
+MobileViTv3-S|2022|0.7929999999999999|2209.15159v2
+MobileViTv3-1.0|2022|0.7864|2209.15159v2
+MobileViTv3-XS|2022|0.767|2209.15159v2
+MobileViTv3-0.75|2022|0.7655|2209.15159v2
+MobileViTv3-0.5|2022|0.7232999999999999|2209.15159v2
+MobileViTv3-XXS|2022|0.7098|2209.15159v2
+MOAT-4 22K+1K|2022|0.8909999999999999|2210.01820v2
+MOAT-3 1K only|2022|0.867|2210.01820v2
+MOAT-0 1K only|2022|0.833|2210.01820v2
+OTTT|2022|0.6515000000000001|2210.04195v2
+WaveMixLite-256/24|2022|0.677|
+ViT-B/16-224+HTM|2022|0.8237000000000001|2210.07562v1
+CAFormer-B36 |2022|0.8640000000000001|2210.13452v3
+CAFormer-M36 |2022|0.862|2210.13452v3
+CAFormer-S36 |2022|0.857|2210.13452v3
+ConvFormer-B36 |2022|0.857|2210.13452v3
+ConvFormer-M36 |2022|0.856|2210.13452v3
+CAFormer-B36 |2022|0.855|2210.13452v3
+ConvFormer-S36 |2022|0.8540000000000001|2210.13452v3
+CAFormer-M36 |2022|0.852|2210.13452v3
+CAFormer-S18 |2022|0.85|2210.13452v3
+ConvFormer-B36 |2022|0.848|2210.13452v3
+CAFormer-S36 |2022|0.845|2210.13452v3
+ConvFormer-M36 |2022|0.845|2210.13452v3
+ConvFormer-S18 |2022|0.8440000000000001|2210.13452v3
+ConvFormer-S36 |2022|0.841|2210.13452v3
+CAFormer-S18 |2022|0.836|2210.13452v3
+ConvFormer-S18 |2022|0.83|2210.13452v3
+MogaNet-XL |2022|0.878|2211.03295v3
+MogaNet-L|2022|0.847|2211.03295v3
+MogaNet-B|2022|0.843|2211.03295v3
+MogaNet-S|2022|0.8340000000000001|2211.03295v3
+MogaNet-T |2022|0.8|2211.03295v3
+MogaNet-XT |2022|0.772|2211.03295v3
+InternImage-DCNv3-G |2022|0.9009999999999999|2211.05778v4
+InternImage-H|2022|0.8959999999999999|2211.05778v4
+InternImage-XL|2022|0.88|2211.05778v4
+InternImage-L|2022|0.877|2211.05778v4
+InternImage-B|2022|0.8490000000000001|2211.05778v4
+InternImage-S|2022|0.8420000000000001|2211.05778v4
+InternImage-T|2022|0.835|2211.05778v4
+EVA|2022|0.897|2211.07636v2
+M3I Pre-training |2022|0.8959999999999999|2211.09807v2
+Heinsen Routing + BEiT-large 16 224|2022|0.867|2211.11754v3
+Last Layer Tuning with Newton Step |2022|0.889|2211.13403v1
+SALG-ST|2022|0.759|2211.14705v1
+PAT-B|2022|0.836|2211.16961v5
+PAT-S|2022|0.831|2211.16961v5
+IPT-B|2022|0.836|2212.03035v1
+IPT-S|2022|0.8290000000000001|2212.03035v1
+IPT-T|2022|0.805|2212.03035v1
+ViT-H@224 |2022|0.88|2212.04884v1
+ViT-L@224 |2022|0.875|2212.04884v1
+Swin-L@224 |2022|0.871|2212.04884v1
+ViT-B@224 |2022|0.863|2212.04884v1
+Swin-B@224 |2022|0.862|2212.04884v1
+ConvNeXt-B@224 |2022|0.858|2212.04884v1
+PiT-B@224 |2022|0.858|2212.04884v1
+ViT-M@224 |2022|0.85|2212.04884v1
+RegnetY16GF@224 |2022|0.8420000000000001|2212.04884v1
+ViT-S@224 |2022|0.831|2212.04884v1
+R-Mix |2022|0.7739|2212.04875v3
+OpenCLIP ViT-H/14|2022|0.885|2212.07143v1
+data2vec 2.0|2022|0.8740000000000001|2212.07525v2
+NEXcepTion-S|2022|0.82|2212.08448v2
+NEXcepTion-TP|2022|0.818|2212.08448v2
+NEXcepTion-T|2022|0.815|2212.08448v2
+Adlik-ViT-SG+Swin_large+Convnext_xlarge|2022|0.8835999999999999|2201.03545v2
+RevCol-H|2022|0.9|2212.11696v3
+ViT-B/16|2023|0.8859999999999999|2302.05442v1
+mPLUG-2|2023|0.885|2302.00402v1
+DeepMAD-89M|2023|0.84|2303.02165v3
+BiFormer-B* |2023|0.8540000000000001|2303.08810v1
+BiFormer-S* |2023|0.843|2303.08810v1
+BiFormer-T |2023|0.8140000000000001|2303.08810v1
+ViC-MAE |2023|0.85|2303.12001v2
+MAWS |2023|0.9009999999999999|2303.13496v3
+MAWS |2023|0.898|2303.13496v3
+MAWS |2023|0.895|2303.13496v3
+MAWS |2023|0.888|2303.13496v3
+MAWS |2023|0.868|2303.13496v3
+Diffusion Classifier|2023|0.7909999999999999|2303.16203v3
+CloFormer-S|2023|0.816|2303.17803v5
+CloFormer-XS|2023|0.7979999999999999|2303.17803v5
+CloFormer-XXS|2023|0.77|2303.17803v5
+Unicom |2023|0.883|2304.05884v1
+XCiT-M |2023|0.841|2304.12043v2
+CA-Swin-S |2023|0.8370000000000001|2304.12043v2
+DeiT-B |2023|0.8290000000000001|2304.12043v2
+CA-Swin-T |2023|0.828|2304.12043v2
+PVT-M |2023|0.8270000000000001|2304.12043v2
+PVT-S |2023|0.812|2304.12043v2
+CaiT-XXS |2023|0.8059999999999999|2304.12043v2
+PVT-T |2023|0.767|2304.12043v2
+DeiT-T |2023|0.738|2304.12043v2
+ONE-PEACE|2023|0.898|2305.11172v1
+Hiera-H|2023|0.8690000000000001|2306.00989v1
+Swin-T+SSA|2023|0.8189|2306.01705v1
+ViT-H @224 |2023|0.857|2306.11339v2
+ViT-L @224 |2023|0.853|2306.11339v2
+ViT-B @224 |2023|0.8420000000000001|2306.11339v2
+GAC-SNN MS-ResNet-34|2023|0.7042|2308.06582v1
+CaiT-S24|2023|0.8491|2308.09372v1
+XCiT-S|2023|0.8365|2308.09372v1
+Wave-ViT-S|2023|0.8361|2308.09372v1
+SwinV2-Ti|2023|0.8309000000000001|2308.09372v1
+ViT-S|2023|0.8254|2308.09372v1
+EViT |2023|0.8229000000000001|2308.09372v1
+STViT-Swin-Ti|2023|0.8222|2308.09372v1
+ToMe-ViT-S|2023|0.8210999999999999|2308.09372v1
+EViT |2023|0.8195999999999999|2308.09372v1
+GFNet-S|2023|0.8133|2308.09372v1
+DynamicViT-S|2023|0.8109000000000001|2308.09372v1
+TokenLearner-ViT-8|2023|0.8066|2308.09372v1
+CoaT-Ti|2023|0.7842|2308.09372v1
+Poly-SA-ViT-S|2023|0.7834|2308.09372v1
+EfficientFormer-V2-S0|2023|0.7153|2308.09372v1
+DAT-B++ |2023|0.8590000000000001|2309.01430v1
+DAT-B++ |2023|0.8490000000000001|2309.01430v1
+DAT-S++|2023|0.846|2309.01430v1
+DAT-T++|2023|0.8390000000000001|2309.01430v1
+MIRL|2023|0.848|2309.14136v3
+MIRL |2023|0.862|2309.14136v3
+ReViT-B|2023|0.8240000000000001|2402.11301v1
+GTP-ViT-B-Patch8/P20|2023|0.858|2311.03035v2
+GTP-EVA-L/P8|2023|0.8540000000000001|2311.03035v2
+GTP-ViT-L/P8|2023|0.8370000000000001|2311.03035v2
+GTP-LV-ViT-M/P8|2023|0.828|2311.03035v2
+GTP-LV-ViT-S/P8|2023|0.8190000000000001|2311.03035v2
+GTP-DeiT-B/P8|2023|0.815|2311.03035v2
+GTP-DeiT-S/P8|2023|0.795|2311.03035v2
+UniRepLKNet-XL++|2023|0.88|2311.15599v2
+UniRepLKNet-L++|2023|0.879|2311.15599v2
+UniRepLKNet-B++|2023|0.8740000000000001|2311.15599v2
+UniRepLKNet-S++|2023|0.8640000000000001|2311.15599v2
+UniRepLKNet-S|2023|0.8390000000000001|2311.15599v2
+UniRepLKNet-T|2023|0.8320000000000001|2311.15599v2
+UniRepLKNet-N|2023|0.816|2311.15599v2
+UniRepLKNet-P|2023|0.802|2311.15599v2
+UniRepLKNet-F|2023|0.7859999999999999|2311.15599v2
+UniRepLKNet-A|2023|0.77|2311.15599v2
+DGPPF-ResNet50|2024|0.7365999999999999|
+DGPPF-MobileNetV2|2024|0.6559|
+DGPPF-ResNet18|2024|0.6522|

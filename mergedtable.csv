@@ -1,0 +1,876 @@
+Task|name|accuracy|params|hardware_req|tags|id|year
+Image Classification|OmniVec|92.4|||[']']|2311.05709v1|2023
+Image Classification|CoCa (finetuned)|91.0|2100000000.0||['ALIGN', 'Transformer', 'JFT-3B']|2205.01917v2|2022
+Image Classification|Model soups (BASIC-L)|90.98|2440000000.0||['ALIGN', 'JFT-3B', 'Conv+Transformer']|2203.05482v3|2022
+Image Classification|Model soups (ViT-G/14)|90.94|1843000000.0||['JFT-3B', 'Transformer']|2203.05482v3|2022
+Image Classification|ViT-e|90.9|3900000000.0||['Transformer', 'JFT-3B']|2209.06794v4|2022
+Image Classification|CoAtNet-7|90.88|2440000000.0||['Conv+Transformer', 'JFT-3B']|2106.04803v2|2021
+Image Classification|CoCa (frozen)|90.6|2100000000.0||['Transformer', 'ALIGN', 'JFT-3B']|2205.01917v2|2022
+Image Classification|CoAtNet-6|90.45|1470000000.0||['Conv+Transformer', 'JFT-3B']|2106.04803v2|2021
+Image Classification|ViT-G/14|90.45|1843000000.0||['Transformer']|2106.04560v2|2021
+Image Classification|DaViT-G|90.4|1437000000.0||['Transformer']|2204.03645v1|2022
+Image Classification|DaViT-H|90.2|362000000.0||['Transformer']|2204.03645v1|2022
+Image Classification|Meta Pseudo Labels (EfficientNet-L2)|90.2|480000000.0|95040.0|['JFT-300M', 'EfficientNet']|2003.10580v4|2020
+Image Classification|SwinV2-G|90.17|3000000000.0||['Transformer']|2111.09883v2|2021
+Image Classification|InternImage-DCNv3-G (M3I Pre-training)|90.1|3000000000.0||[']']|2211.05778v4|2022
+Image Classification|Florence-CoSwin-H|90.05|893000000.0||['FLD-900M', 'Transformer']|2111.11432v1|2021
+Image Classification|Meta Pseudo Labels (EfficientNet-B6-Wide)|90.0|390000000.0||['JFT-300M', 'EfficientNet']|2003.10580v4|2020
+Image Classification|ONE-PEACE|89.8|1520000000.0||[']']|2305.11172v1|2023
+Image Classification|EVA|89.7|1000000000.0||[']']|2211.07636v2|2022
+Image Classification|M3I Pre-training (InternImage-H)|89.6|||['YFCC-15M', 'Laion-400M']|2211.09807v2|2022
+Image Classification|InternImage-H|89.6|1080000000.0||[']']|2211.05778v4|2022
+Image Classification|MaxViT-XL (512res, JFT)|89.53|||['JFT-300M']|2204.01697v4|2022
+Image Classification|MaxViT-XL (384res, JFT)|89.41|||['JFT-300M']|2204.01697v4|2022
+Image Classification|MaxViT-L (512res, JFT)|89.41|||['JFT-300M']|2204.01697v4|2022
+Image Classification|NFNet-F4+|89.2|527000000.0||['CNN', 'JFT-300M']|2102.06171v1|2021
+Image Classification|MaxViT-L (384res, JFT)|89.12|||['JFT-300M']|2204.01697v4|2022
+Image Classification|MOAT-4 22K+1K|89.1|483200000.0||['ImageNet-22k']|2210.01820v2|2022
+Image Classification|FD (CLIP ViT-L-336)|89.0|307000000.0||['ImageNet-22k', 'CLIP data ']|2205.14141v3|2022
+Image Classification|Last Layer Tuning with Newton Step (ViT-G/14))|88.9|||[']']|2211.13403v1|2022
+Image Classification|TokenLearner L/8 (24+11)|88.87|460000000.0||['Transformer', 'JFT-300M']|2106.11297v4|2021
+Image Classification|MaxViT-B (512res, JFT)|88.82|||['JFT-300M']|2204.01697v4|2022
+Image Classification|MViTv2-H (512 res, ImageNet-21k pretrain)|88.8|667000000.0||['ImageNet-22k']|2112.01526v2|2021
+Image Classification|MaxViT-XL (512res, 21K)|88.7|||[']']|2204.01697v4|2022
+Image Classification|MaxViT-B (384res, JFT)|88.69|||[']']|2204.01697v4|2022
+Image Classification|ALIGN (EfficientNet-L2)|88.64|480000000.0||['ALIGN', 'EfficientNet']|2102.05918v2|2021
+Image Classification|EfficientNet-L2-475 (SAM)|88.61|480000000.0||['JFT-300M', 'EfficientNet']|2010.01412v3|2020
+Image Classification|SWAG (ViT H/14)|88.6|633500000.0||[']']|2201.08371v2|2022
+Image Classification|ViT-H/14|88.55|||['JFT-300M', 'Transformer']|2010.11929v2|2020
+Image Classification|CoAtNet-3 @384|88.52|168000000.0||[']']|2106.04803v2|2021
+Image Classification|MaxViT-XL (384res, 21K)|88.51|||['ImageNet-22k']|2204.01697v4|2022
+Image Classification|mPLUG-2|88.5|||[']']|2302.00402v1|2023
+Image Classification|OpenCLIP ViT-H/14|88.5|||[']']|2212.07143v1|2022
+Image Classification|FixEfficientNet-L2|88.5|480000000.0||['JFT-300M', 'EfficientNet']|2003.08237v5|2020
+Image Classification|ViTAE-H + MAE (448)|88.5|644000000.0||[']']|2202.10108v2|2022
+Image Classification|MaxViT-L (512res, 21K)|88.46|||[']']|2204.01697v4|2022
+Image Classification|MViTv2-L (384 res, ImageNet-21k pretrain)|88.4|218000000.0||['ImageNet-22k']|2112.01526v2|2021
+Image Classification|NoisyStudent (EfficientNet-L2)|88.4|480000000.0|51800.0|['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-L2)|88.4|480000000.0|51800.0|['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|MaxViT-B (512res, 21K)|88.38|||['ImageNet-22k']|2204.01697v4|2022
+Image Classification|Top-k DiffSortNets (EfficientNet-L2)|88.37|||['EfficientNet', 'JFT-300M']|2206.07290v1|2022
+Image Classification|Adlik-ViT-SG+Swin_large+Convnext_xlarge(384)|88.36|1827000000.0||[']']|2201.03545v2|2022
+Image Classification|V-MoE-H/14 (Every-2)|88.36|7200000000.0||['JFT-300M', 'Transformer']|2106.05974v1|2021
+Image Classification|MaxViT-L (384res, 21K)|88.32|||['ImageNet-22k']|2204.01697v4|2022
+Image Classification|Unicom (ViT-L/14@336px) (Finetuned)|88.3|||[']']|2304.05884v1|2023
+Image Classification|MaxViT-B (384res, 21K)|88.24|||['ImageNet-22k']|2204.01697v4|2022
+Image Classification|V-MoE-H/14 (Last-5)|88.23|2700000000.0||['JFT-300M', 'Transformer']|2106.05974v1|2021
+Image Classification|dBOT ViT-H (CLIP as Teacher)|88.2|||['CLIP data ']|2209.03917v3|2022
+Image Classification|CAFormer-B36 (384 res, 21K)|88.1|99000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|VIT-H/14|88.08|656000000.0||['JFT-300M', 'Transformer']|2106.05974v1|2021
+Image Classification|ViT-H@224 (cosub)|88.0|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|UniRepLKNet-XL++|88.0|||[']']|2311.15599v2|2023
+Image Classification|InternImage-XL|88.0|335000000.0||[']']|2211.05778v4|2022
+Image Classification|MViTv2-H (mageNet-21k pretrain)|88.0|667000000.0||['ImageNet-22k']|2112.01526v2|2021
+Image Classification|Mixer-H/14 (JFT-300M pre-train)|87.94|||['JFT-300M', 'MLP']|2105.01601v4|2021
+Image Classification|UniRepLKNet-L++|87.9|||[']']|2311.15599v2|2023
+Image Classification|dBOT ViT-L (CLIP as Teacher)|87.8|||['CLIP data ']|2209.03917v3|2022
+Image Classification|MogaNet-XL (384res)|87.8|181000000.0||[']']|2211.03295v3|2022
+Image Classification|VAN-B6 (22K, 384res)|87.8|200000000.0||['ImageNet-22k']|2202.09741v5|2022
+Image Classification|RepLKNet-XL|87.8|335000000.0||['ImageNet-22k']|2203.06717v4|2022
+Image Classification|ConvNeXt-XL (ImageNet-22k)|87.8|350000000.0||['CNN', 'ImageNet-22k']|2201.03545v2|2022
+Image Classification|MAE (ViT-H, 448)|87.8|656000000.0||['Transformer', 'ImageNet-1k only']|2111.06377v2|2021
+Image Classification|ViT-L/16|87.76|||['JFT-300M', 'Transformer']|2010.11929v2|2020
+Image Classification|HorNet-L (GF)|87.7|||['ImageNet-22k']|2207.14284v3|2022
+Image Classification|InternImage-L|87.7|223000000.0||[']']|2211.05778v4|2022
+Image Classification|ConvFormer-B36 (384 res, 21K)|87.6|100000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|BiT-L (ResNet)|87.54|||['ImageNet-22k', 'ResNet']|1912.11370v3|2019
+Image Classification|ViT-L@224 (cosub)|87.5|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|CAFormer-M36 (384 res, 21K)|87.5|56000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|CSWin-L (384 res,ImageNet-22k pretrain)|87.5|173000000.0||['ImageNet-22k', 'Transformer']|2107.00652v3|2021
+Image Classification|DaViT-L (ImageNet-22k)|87.5|196800000.0||['ImageNet-22k']|2204.03645v1|2022
+Image Classification|DiNAT-Large (11x11ks; 384res; Pretrained on IN22K@224)|87.5|200000000.0||['ImageNet-22k']|2209.15001v3|2022
+Image Classification|V-MoE-L/16 (Every-2)|87.41|3400000000.0||['JFT-300M', 'Transformer']|2106.05974v1|2021
+Image Classification|DiNAT-Large (384x384; Pretrained on ImageNet-22K @ 224x224)|87.4|||['ImageNet-22k']|2209.15001v3|2022
+Image Classification|UniRepLKNet-B++|87.4|||[']']|2311.15599v2|2023
+Image Classification|CAFormer-B36 (224 res, 21K)|87.4|99000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|UniNet-B6|87.4|117000000.0||['ImageNet-22k']|2207.05420v2|2022
+Image Classification|DiNAT_s-Large (384res; Pretrained on IN22K@224)|87.4|197000000.0||['ImageNet-22k']|2209.15001v3|2022
+Image Classification|Swin-L|87.3|197000000.0||['Transformer']|2103.14030v2|2021
+Image Classification|VOLO-D5+HAT|87.3|295500000.0||['ImageNet-1k only', 'Transformer']|2204.00993v3|2022
+Image Classification|EfficientNetV2 (PolyLoss)|87.2|||[']']|2204.12511v2|2022
+Image Classification|ELSA-VOLO-D5 (512*512)|87.2|298000000.0||['Transformer', 'ImageNet-1k only']|2112.12786v1|2021
+Image Classification|Bamboo (Bamboo-H)|87.1|||['ImageNet-1k only']|2205.10505v3|2022
+Image Classification|Swin-L@224 (cosub)|87.1|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|FixEfficientNet-B7|87.1|66000000.0||['JFT-300M', 'EfficientNet']|2003.08237v5|2020
+Image Classification|FAN-L-Hybrid++|87.1|76800000.0||[']']|2204.12451v4|2022
+Image Classification|SwinV2-B|87.1|88000000.0||[']']|2111.09883v2|2021
+Image Classification|VOLO-D5|87.1|296000000.0||['ImageNet-1k only']|2106.13112v2|2021
+Image Classification|16-TokenLearner B/16 (21)|87.07|||['Transformer', 'JFT-300M']|2106.11297v4|2021
+Image Classification|MAE+DAT (ViT-H)|87.02|||[']']|2209.07735v1|2022
+Image Classification|UniNet-B5|87.0|72900000.0||['ImageNet-22k']|2207.05420v2|2022
+Image Classification|VAN-B5 (22K, 384res)|87.0|90000000.0||[']']|2202.09741v5|2022
+Image Classification|ConvFormer-B36 (224 res, 21K)|87.0|100000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|MAE (ViT-H)|86.9|||['Transformer', 'ImageNet-1k only']|2111.06377v2|2021
+Image Classification|Hiera-H|86.9|||['ImageNet-1k only', 'Transformer']|2306.00989v1|2023
+Image Classification|CAFormer-S36 (384 res, 21K)|86.9|39000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|ConvFormer-M36 (384 res, 21K)|86.9|57000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|NoisyStudent (EfficientNet-B7)|86.9|66000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B7)|86.9|66000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|DaViT-B (ImageNet-22k)|86.9|87900000.0||[']']|2204.03645v1|2022
+Image Classification|EfficientNetV2L|86.8|121000000.0||['ImageNet-22k', 'EfficientNet']|2104.00298v3|2021
+Image Classification|VOLO-D4|86.8|193000000.0||['ImageNet-1k only']|2106.13112v2|2021
+Image Classification|NFNet-F5 w/ SAM w/ augmult=16|86.78|377200000.0||['CNN', 'ImageNet-1k only']|2105.13343v2|2021
+Image Classification|\u00b52Net (ViT-L/16)|86.74|||['ImageNet-22k']|2205.12755v6|2022
+Image Classification|ViT-B @384 (DeiT III, 21k)|86.7|||['ImageNet-22k']|2204.07118v1|2022
+Image Classification|MaxViT-L (512res)|86.7|||[']']|2204.01697v4|2022
+Image Classification|FixEfficientNet-B6|86.7|43000000.0||['JFT-300M', 'EfficientNet']|2003.08237v5|2020
+Image Classification|MOAT-3 1K only|86.7|190000000.0||[']']|2210.01820v2|2022
+Image Classification|Heinsen Routing + BEiT-large 16 224|86.7|312800000.0||['Transformer', 'ImageNet-1k only']|2211.11754v3|2022
+Image Classification|CLCNet (S:ViT+D:EffNet-B7) (retrain)|86.61|||['ImageNet-1k only']|2205.09612v5|2022
+Image Classification|CAFormer-M36 (224 res, 21K)|86.6|56000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|VAN-B4 (22K, 384res)|86.6|60000000.0||[']']|2202.09741v5|2022
+Image Classification|data2vec (ViT-H)|86.6|656000000.0||['ImageNet-1k only']|2202.03555v3|2022
+Image Classification|DiNAT_s-Large (224x224; Pretrained on ImageNet-22K @ 224x224)|86.5|||['ImageNet-22k']|2209.15001v3|2022
+Image Classification|MKD ViT-L|86.5|||['Teacher-22k', 'ImageNet-22k']|2202.07940v1|2022
+Image Classification|TinyViT-21M-512-distill (512 res, 21k)|86.5|21000000.0||['ImageNet-22k', 'Transformer']|2207.10666v1|2022
+Image Classification|CaiT-M-48-448|86.5|438000000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|NFNet-F6 w/ SAM|86.5|438400000.0||['ImageNet-1k only']|2102.06171v1|2021
+Image Classification|CLCNet (S:ViT+D:VOLO-D3) (retrain)|86.46|||['ImageNet-1k only']|2205.09612v5|2022
+Image Classification|CLCNet (S:ConvNeXt-L+D:EffNet-B7) (retrain)|86.42|||['ImageNet-1k only']|2205.09612v5|2022
+Image Classification|MaxViT-L (384res)|86.4|||[']']|2204.01697v4|2022
+Image Classification|UniRepLKNet-S++|86.4|||[']']|2311.15599v2|2023
+Image Classification|FixEfficientNet-B5|86.4|30000000.0||['JFT-300M', 'EfficientNet']|2003.08237v5|2020
+Image Classification|ConvFormer-S36 (384 res, 21K)|86.4|40000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|NoisyStudent (EfficientNet-B6)|86.4|43000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B6)|86.4|43000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|Swin-B|86.4|88000000.0||['ImageNet-22k', 'Transformer']|2103.14030v2|2021
+Image Classification|CAFormer-B36 (384 res)|86.4|99000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|LV-ViT-L|86.4|151000000.0||['ImageNet-1k only', 'Transformer']|2104.10858v3|2021
+Image Classification|FixResNeXt-101 32x48d|86.4|829000000.0|62.0|['ResNeXt']|1906.06423v4|2019
+Image Classification|MaxViT-B (384res)|86.34|||[']']|2204.01697v4|2022
+Image Classification|Bamboo (Bamboo-L)|86.3|||['ImageNet-1k only']|2205.10505v3|2022
+Image Classification|ViT-B@224 (cosub)|86.3|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|"Our SP-ViT-L|384"|86.3|||[']']|2206.07662v1|2022
+Image Classification|VOLO-D3|86.3|86000000.0||['ImageNet-1k only']|2106.13112v2|2021
+Image Classification|VAN-B5 (22K)|86.3|90000000.0||[']']|2202.09741v5|2022
+Image Classification|UniFormer-L (384 res)|86.3|100000000.0||[']']|2201.09450v3|2022
+Image Classification|MViTv2-L (384 res)|86.3|218000000.0||[']']|2112.01526v2|2021
+Image Classification|CAIT-M36-448|86.3|271000000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|NFNet-F5 w/ SAM|86.3|377200000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|Swin-B@224 (cosub)|86.2|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|TinyViT-21M-384-distill (384 res, 21k)|86.2|21000000.0||['ImageNet-22k', 'Transformer']|2207.10666v1|2022
+Image Classification|CAFormer-M36 (384 res)|86.2|56000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|MaxViT-S (512res)|86.19|||[']']|2204.01697v4|2022
+Image Classification|NoisyStudent (EfficientNet-B5)|86.1|30000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B5)|86.1|30000000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|EfficientNetV2-M (21k)|86.1|55000000.0||['ImageNet-22k', 'EfficientNet']|2104.00298v3|2021
+Image Classification|ConvFormer-M36 (224 res, 21K)|86.1|57000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|CAIT-M-36|86.1|270900000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|Refiner-ViT-L|86.03|81000000.0||['ImageNet-1k only', 'Transformer']|2106.03714v1|2021
+Image Classification|GPaCo (ViT-L)|86.01|||['Contrastive', 'Transformer', 'ImageNet-1k only']|2209.12400v2|2022
+Image Classification|Omnivore (Swin-L)|86.0|||[']']|2201.08377v2|2022
+Image Classification|"Our SP-ViT-M|384"|86.0|||[']']|2206.07662v1|2022
+Image Classification|VOLO-D2|86.0|59000000.0||['ImageNet-1k only']|2106.13112v2|2021
+Image Classification|XCiT-L24|86.0|189000000.0||['Transformer', 'ImageNet-1k only']|2106.09681v2|2021
+Image Classification|NFNet-F5|86.0|377200000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|MAE (ViT-L)|85.9|||['Transformer', 'ImageNet-1k only']|2111.06377v2|2021
+Image Classification|DAT-B++ (384x384)|85.9|||[']']|2309.01430v1|2023
+Image Classification|FixEfficientNet-B4|85.9|19000000.0||['JFT-300M', 'EfficientNet']|2003.08237v5|2020
+Image Classification|NFNet-F4|85.9|316100000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|ConvNeXt-B@224 (cosub)|85.8|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|PiT-B@224 (cosub)|85.8|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|GTP-ViT-B-Patch8/P20|85.8|||[']']|2311.03035v2|2023
+Image Classification|CAFormer-S36 (224 res, 21K)|85.8|39000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|XCiT-M24|85.8|84000000.0||['ImageNet-1k only', 'Transformer']|2106.09681v2|2021
+Image Classification|Fix-EfficientNet-B8 (MaxUp + CutMix)|85.8|87420000.0||['ImageNet-1k only', 'EfficientNet']|2002.09024v1|2020
+Image Classification|KDforAA (EfficientNet-B8)|85.8|88000000.0||['ImageNet-1k only', 'EfficientNet']|2003.11342v1|2020
+Image Classification|CAIT-M-24|85.8|185900000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|ViT-L|85.8|304800000.0||['ImageNet-1k only']|2204.07118v1|2022
+Image Classification|SEER (RG-10B)|85.8|10000000000.0||['Self-Supervised Learning', 'RegNet', 'IG-1B']|2202.08360v2|2022
+Image Classification|MaxViT-T(512res)|85.72|||[']']|2204.01697v4|2022
+Image Classification|FixEfficientNet-B8|85.7|||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|EfficientNetV2-L|85.7|||['ImageNet-1k only', 'EfficientNet']|2104.00298v3|2021
+Image Classification|ViT-B @224 (DeiT III, 21k)|85.7|||['ImageNet-22k']|2204.07118v1|2022
+Image Classification|dBOT ViT-B (CLIP as Teacher)|85.7|||['CLIP data ']|2209.03917v3|2022
+Image Classification|CAFormer-S36 (384 res)|85.7|39000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|VAN-B4 (22K)|85.7|60000000.0||[']']|2202.09741v5|2022
+Image Classification|ConvFormer-B36 (384 res)|85.7|100000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|NFNet-F3|85.7|254900000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|XCiT-S24|85.6|48000000.0||['Transformer', 'ImageNet-1k only']|2106.09681v2|2021
+Image Classification|ConvFormer-M36 (384 res)|85.6|57000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|UniFormer-L|85.6|100000000.0||[']']|2201.09450v3|2022
+Image Classification|ViT-L@384 (attn finetune)|85.5|||['ImageNet-1k only']|2203.09795v1|2022
+Image Classification|Our SP-ViT-L|85.5|||[']']|2206.07662v1|2022
+Image Classification|Mini-Swin-B@384|85.5|47000000.0||['Conv+Transformer', 'ImageNet-1k only', 'Transformer']|2204.07154v1|2022
+Image Classification|Wave-ViT-L|85.5|57500000.0||[']']|2207.04978v1|2022
+Image Classification|KDforAA (EfficientNet-B7)|85.5|66000000.0||['ImageNet-1k only', 'EfficientNet']|2003.11342v1|2020
+Image Classification|AdvProp (EfficientNet-B8)|85.5|88000000.0||['ImageNet-1k only', 'EfficientNet']|1911.09665v2|2019
+Image Classification|CAFormer-B36 (224 res)|85.5|99000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|ConvNeXt-L (384 res)|85.5|198000000.0||[']']|2201.03545v2|2022
+Image Classification|EfficientNet-B8 (RandAugment)|85.4|||['ImageNet-1k only', 'EfficientNet']|1909.13719v2|2019
+Image Classification|BiFormer-B* (IN1k ptretrain)|85.4|||[']']|2303.08810v1|2023
+Image Classification|GTP-EVA-L/P8|85.4|||[']']|2311.03035v2|2023
+Image Classification|CAFormer-S18 (384 res, 21K)|85.4|26000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|ConvFormer-S36 (224 res, 21K)|85.4|40000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|ConvFormer-S36 (384 res)|85.4|40000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|CAIT-S-36|85.4|68200000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|ResNeXt-101 32x48d|85.4|829000000.0||['IG-1B', 'ResNeXt']|1805.00932v1|2018
+Image Classification|BiT-M (ResNet)|85.39|928000000.0||['ImageNet-22k', 'ResNet']|1912.11370v3|2019
+Image Classification|ViT-L/16 Dosovitskiy et al. (2021)|85.3|||['JFT-300M', 'Transformer']|2105.01601v4|2021
+Image Classification|Omnivore (Swin-B)|85.3|||[']']|2201.08377v2|2022
+Image Classification|NoisyStudent (EfficientNet-B4)|85.3|19000000.0||['EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B4)|85.3|19000000.0||['EfficientNet']|1911.04252v4|2020
+Image Classification|CAIT-S-48|85.3|89500000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|CLCNet (S:D1+D:D5)|85.28|||['ImageNet-1k only']|2205.09612v5|2022
+Image Classification|MaxViT-T (384res)|85.24|||[']']|2204.01697v4|2022
+Image Classification|ViT-H @224 (DeiT III)|85.2|||['ImageNet-1k only']|2204.07118v1|2022
+Image Classification|VOLO-D1|85.2|27000000.0||['ImageNet-1k only']|2106.13112v2|2021
+Image Classification|CAFormer-M36 (224 res)|85.2|56000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|AdvProp (EfficientNet-B7)|85.2|66000000.0||['ImageNet-1k only', 'EfficientNet']|1911.09665v2|2019
+Image Classification|UniNet-B5|85.2|73500000.0||[']']|2110.04035v1|2021
+Image Classification|DeiT-B 384|85.2|87000000.0||['ImageNet-1k only', 'Transformer']|2012.12877v2|2020
+Image Classification|EfficientNetV2-M|85.1|||['ImageNet-1k only', 'EfficientNet']|2104.00298v3|2021
+Image Classification|MKD ViT-B|85.1|||['Teacher-22k', 'ImageNet-22k']|2202.07940v1|2022
+Image Classification|"SP-ViT-S|384"|85.1|||[']']|2206.07662v1|2022
+Image Classification|XCiT-S12|85.1|26000000.0||['Transformer', 'ImageNet-1k only']|2106.09681v2|2021
+Image Classification|CAIT-S-24|85.1|46900000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|MixMIM-B|85.1|88000000.0||[']']|2205.13137v4|2022
+Image Classification|NFNet-F2|85.1|193800000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|ResNeXt-101 32x32d|85.1|466000000.0||['ResNeXt']|1805.00932v1|2018
+Image Classification|DiscreteViT|85.07|||['Transformer', 'ImageNet-1k only']|2111.10493v2|2021
+Image Classification|EfficientNetV2-S (21k)|85.0|||['ImageNet-22k', 'EfficientNet']|2104.00298v3|2021
+Image Classification|ViT-M@224 (cosub)|85.0|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|ViC-MAE (ViT-L)|85.0|||[']']|2303.12001v2|2023
+Image Classification|FixEfficientNet-B3|85.0|12000000.0||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|CAFormer-S18 (384 res)|85.0|26000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|ConvFormer-S18 (384 res, 21K)|85.0|27000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|EfficientNet-B7 (RandAugment)|85.0|66000000.0||['ImageNet-1k only', 'EfficientNet']|1909.13719v2|2019
+Image Classification|ViT-B @384 (DeiT III)|85.0|87000000.0||['ImageNet-1k only']|2204.07118v1|2022
+Image Classification|MaxViT-B (224res)|84.95|||[']']|2204.01697v4|2022
+Image Classification|CaiT-S24|84.91|||[']']|2308.09372v1|2023
+Image Classification|ViT-L @224 (DeiT III)|84.9|||['ImageNet-1k only']|2204.07118v1|2022
+Image Classification|Our SP-ViT-M|84.9|||[']']|2206.07662v1|2022
+Image Classification|DAT-B++ (224x224)|84.9|||[']']|2309.01430v1|2023
+Image Classification|CvT-21 (384 res, ImageNet-22k pretrain)|84.9|32000000.0||['ImageNet-22k', 'Transformer']|2103.15808v1|2021
+Image Classification|InternImage-B|84.9|97000000.0||[']']|2211.05778v4|2022
+Image Classification|TinyViT-21M-distill (21k)|84.8|21000000.0||['ImageNet-22k', 'Transformer']|2207.10666v1|2022
+Image Classification|Wave-ViT-B|84.8|33500000.0||[']']|2207.04978v1|2022
+Image Classification|CAIT-XS-36|84.8|38600000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|SReT-B (384 res, ImageNet-1K only)|84.8|71200000.0||['ImageNet-1k only', 'Transformer']|2111.05297v3|2021
+Image Classification|MViT-B-24|84.8|72900000.0||['Transformer', 'ImageNet-1k only']|2104.11227v1|2021
+Image Classification|ActiveMLP-L|84.8|76400000.0||[']']|2203.06108v2|2022
+Image Classification|DAT-B (384 res, IN-1K only)|84.8|88000000.0||['Transformer']|2201.00520v3|2022
+Image Classification|ConvFormer-B36 (224 res)|84.8|100000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|ResNeXt-101 32x16d (semi-weakly sup.)|84.8|193000000.0||['IG-1B', 'ResNeXt']|1905.00546v1|2019
+Image Classification|ELSA-VOLO-D1|84.7|27000000.0||['ImageNet-1k only']|2112.12786v1|2021
+Image Classification|Next-ViT-L @384|84.7|57800000.0||[']']|2207.05501v4|2022
+Image Classification|BoTNet T7|84.7|75100000.0||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|MogaNet-L|84.7|83000000.0||['CNN']|2211.03295v3|2022
+Image Classification|"LITv2-B|384"|84.7|87000000.0||[']']|2205.13213v5|2022
+Image Classification|NFNet-F1|84.7|132600000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|DAT-S++|84.6|||[']']|2309.01430v1|2023
+Image Classification|SE-CoTNetD-152|84.6|55800000.0||[']']|2107.12292v1|2021
+Image Classification|DaViT-B|84.6|87900000.0||['ImageNet-1k only', 'Transformer']|2204.03645v1|2022
+Image Classification|ReXNet-R_3.0|84.5|34800000.0||[']']|2007.00992v3|2020
+Image Classification|CAFormer-S36 (224 res)|84.5|39000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|ConvFormer-M36 (224 res)|84.5|57000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|GC ViT-B|84.5|90000000.0||[']']|2206.09959v5|2022
+Image Classification|ResNeSt-269|84.5|111000000.0||['CNN', 'ImageNet-1k only']|2004.08955v2|2020
+Image Classification|MaxViT-S (224res)|84.45|||[']']|2204.01697v4|2022
+Image Classification|GPIPE|84.4|||['ImageNet-1k only']|1811.06965v5|2018
+Image Classification|ConvFormer-S18 (384 res)|84.4|27000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|EfficientNet-B7|84.4|66000000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|DiNAT-Base|84.4|90000000.0||['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3|2022
+Image Classification|ResNet-RS-50 (160 image res)|84.4|192000000.0||['ImageNet-1k only', 'ResNet']|2103.07579v1|2021
+Image Classification|ColorNet (RHYLH with Conv Layer)|84.32|||[']']|1902.00267v1|2019
+Image Classification|ViT-B@384 (attn finetune)|84.3|||['ImageNet-1k only']|2203.09795v1|2022
+Image Classification|BiFormer-S* (IN1k ptretrain)|84.3|||[']']|2303.08810v1|2023
+Image Classification|SReT-S (512 res, ImageNet-1K only)|84.3|21300000.0||['ImageNet-1k only', 'Transformer']|2111.05297v3|2021
+Image Classification|LambdaResNet200|84.3|42000000.0||['CNN', 'ImageNet-1k only']|2102.08602v1|2021
+Image Classification|MogaNet-B|84.3|44000000.0||['CNN']|2211.03295v3|2022
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||"""nam"
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||2020
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||2021
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||2022
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||2024
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||"""yAx"
+Image Classification|TResNet-XL|84.3|77000000.0||['CNN', 'ImageNet-1k only']||"""tre"
+Image Classification|ResNeXt-101 32x8d (semi-weakly sup.)|84.3|88000000.0||['ResNeXt']|1905.00546v1|2019
+Image Classification|NAT-Base|84.3|90000000.0||['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5|2022
+Image Classification|Assemble-ResNet152|84.2|||['ImageNet-1k only', 'ResNet']|2001.06268v2|2020
+Image Classification|BoTNet T7-320|84.2|||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|"ViP-B|384"|84.2|||['Transformer', 'ImageNet-1k only']|2107.05790v2|2021
+Image Classification|Bamboo (Bamboo-B)|84.2|||['ImageNet-1k only']|2205.10505v3|2022
+Image Classification|RegnetY16GF@224 (cosub)|84.2|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|EfficientViT-B3 (r288)|84.2|||[']']|2205.14756v6|2022
+Image Classification|InternImage-S|84.2|50000000.0||[']']|2211.05778v4|2022
+Image Classification|UniNet-B4|84.2|73500000.0||[']']|2110.04035v1|2021
+Image Classification|DeiT-B|84.2|86000000.0||['ImageNet-1k only', 'Transformer']|2012.12877v2|2020
+Image Classification|RevBiFPN-S6|84.2|142300000.0||['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|ResNeXt-101 32\u00d716d|84.2|194000000.0||[']']|1805.00932v1|2018
+Image Classification|FBNetV5-F-CLS|84.1|||[']']|2111.10007v2|2021
+Image Classification|ViT-B-36x1|84.1|||['ImageNet-1k only']|2203.09795v1|2022
+Image Classification|ViT-B-18x2|84.1|||['ImageNet-1k only']|2203.09795v1|2022
+Image Classification|XCiT-M (+MixPro)|84.1|||[']']|2304.12043v2|2023
+Image Classification|NoisyStudent (EfficientNet-B3)|84.1|12000000.0||['ImageNet-1k only', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B3)|84.1|12000000.0||['ImageNet-1k only', 'EfficientNet']|1911.04252v4|2020
+Image Classification|CAFormer-S18 (224 res, 21K)|84.1|26000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|CAIT-XS-24|84.1|26600000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|ConvFormer-S36 (224 res)|84.1|40000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|LV-ViT-M|84.1|56000000.0||['ImageNet-1k only', 'Transformer']|2104.10858v3|2021
+Image Classification|GPaCo (Vit-B)|84.0|||[']']|2209.12400v2|2022
+Image Classification|FixEfficientNetB4|84.0|19000000.0||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|LambdaResNet152|84.0|35000000.0||['ImageNet-1k only', 'ResNet']|2102.08602v1|2021
+Image Classification|EfficientNet-B6|84.0|43000000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|GC ViT-S|84.0|51000000.0||[']']|2206.09959v5|2022
+Image Classification|BoTNet T6|84.0|53900000.0||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|PiT-B|84.0|73800000.0||['ImageNet-1k only', 'Transformer']|2103.16302v2|2021
+Image Classification|DeepMAD-89M|84.0|89000000.0||['ImageNet-1k only', 'CNN']|2303.02165v3|2023
+Image Classification|Our SP-ViT-S|83.9|||[']']|2206.07662v1|2022
+Image Classification|UniRepLKNet-S|83.9|||[']']|2311.15599v2|2023
+Image Classification|DAT-T++|83.9|||[']']|2309.01430v1|2023
+Image Classification|Wave-ViT-S|83.9|22700000.0||[']']|2207.04978v1|2022
+Image Classification|EfficientNetV2-S|83.9|24000000.0||['ImageNet-1k only', 'EfficientNet']|2104.00298v3|2021
+Image Classification|ASF-former-B|83.9|56700000.0||[']']|2204.12196v2|2022
+Image Classification|TNT-B|83.9|65600000.0||['ImageNet-1k only', 'Transformer']|2103.00112v3|2021
+Image Classification|ResNeSt-200|83.9|70000000.0||['CNN', 'ImageNet-1k only']|2004.08955v2|2020
+Image Classification|AmoebaNet-A|83.9|469000000.0||['CNN', 'ImageNet-1k only']|1802.01548v7|2018
+Image Classification|CLCNet (S:B4+D:B7)|83.88|||['ImageNet-1k only']|2205.09612v5|2022
+Image Classification|ResNet-RS-270 (256 image res)|83.8|||['ImageNet-1k only', 'ResNet']|2103.07579v1|2021
+Image Classification|SENet-350|83.8|||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|ViT-B @224 (DeiT III)|83.8|||['ImageNet-1k only']|2204.07118v1|2022
+Image Classification|SReT-S (384 res, ImageNet-1K only)|83.8|21000000.0||['ImageNet-1k only', 'Transformer']|2111.05297v3|2021
+Image Classification|DiNAT-Small|83.8|51000000.0||['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3|2022
+Image Classification|Transformer local-attention (NesT-B)|83.8|68000000.0||['ImageNet-1k only', 'Transformer']|2105.12723v4|2021
+Image Classification|PVTv2-B4|83.8|82000000.0||['Transformer', 'ImageNet-1k only']|2106.13797v7|2021
+Image Classification|CA-Swin-S (+MixPro)|83.7|||[']']|2304.12043v2|2023
+Image Classification|GTP-ViT-L/P8|83.7|||[']']|2311.03035v2|2023
+Image Classification|ConvFormer-S18 (224 res, 21K)|83.7|27000000.0||['ImageNet-22k']|2210.13452v3|2022
+Image Classification|DAT-S|83.7|50000000.0||[']']|2201.00520v3|2022
+Image Classification|NAT-Small|83.7|51000000.0||['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5|2022
+Image Classification|RevBiFPN-S5|83.7|82000000.0||['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|Pyramid ViG-B|83.7|92600000.0||[']']|2206.00272v3|2022
+Image Classification|Twins-SVT-L|83.7|99200000.0||['ImageNet-1k only', 'Transformer']|2104.13840v4|2021
+Image Classification|TransBoost-ViT-S|83.67|22050000.0||[']']|2205.13331v4|2022
+Image Classification|XCiT-S|83.65|||[']']|2308.09372v1|2023
+Image Classification|MaxViT-T (224res)|83.62|||[']']|2204.01697v4|2022
+Image Classification|Wave-ViT-S|83.61|||[']']|2308.09372v1|2023
+Image Classification|LITv2-B|83.6|||[']']|2205.13213v5|2022
+Image Classification|MultiGrain PNASNet (500px)|83.6|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|MAE (ViT-L)|83.6|||['Transformer', 'ImageNet-1k only']|2111.06377v2|2021
+Image Classification|PAT-B|83.6|||[']']|2211.16961v5|2022
+Image Classification|FixEfficientNet-B2|83.6|9200000.0||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|CAFormer-S18 (224 res)|83.6|26000000.0||[']']|2210.13452v3|2022
+Image Classification|IPT-B|83.6|39300000.0||[']']|2212.03035v1|2022
+Image Classification|ViTAE-B-Stage|83.6|48500000.0||['Transformer', 'ImageNet-1k only']|2106.03348v4|2021
+Image Classification|ResT-Large|83.6|51630000.0||['ImageNet-1k only', 'Transformer']|2105.13677v5|2021
+Image Classification|NFNet-F0|83.6|71500000.0||['CNN', 'ImageNet-1k only']|2102.06171v1|2021
+Image Classification|ResMLP-B24/8|83.6|116000000.0||['ImageNet-1k only', 'MLP']|2105.03404v2|2021
+Image Classification|BoTNet T5|83.5|||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|InternImage-T|83.5|30000000.0||[']']|2211.05778v4|2022
+Image Classification|ViT-B (hMLP + BeiT)|83.4|||[']']|2203.09795v1|2022
+Image Classification|UniFormer-S|83.4|22000000.0||[']']|2201.09450v3|2022
+Image Classification|ViT-S @384 (DeiT III)|83.4|22000000.0||[']']|2204.07118v1|2022
+Image Classification|MogaNet-S|83.4|25000000.0||['CNN']|2211.03295v3|2022
+Image Classification|GC ViT-T|83.4|28000000.0||[']']|2206.09959v5|2022
+Image Classification|ResNeXt-101 32x4d (semi-weakly sup.)|83.4|42000000.0||['ResNeXt']|1905.00546v1|2019
+Image Classification|sMLPNet-B (ImageNet-1k)|83.4|65900000.0||['ImageNet-1k only', 'MLP']|2109.05422v2|2021
+Image Classification|CvT-21 (384 res)|83.3|||['ImageNet-1k only', 'Transformer']|2103.15808v1|2021
+Image Classification|"T2T-ViT-14|384"|83.3|||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|CeiT-S (384 finetune res)|83.3|24200000.0||['ImageNet-1k only', 'Transformer']|2103.11816v2|2021
+Image Classification|LV-ViT-S|83.3|26000000.0||[']']|2104.10858v3|2021
+Image Classification|MOAT-0 1K only|83.3|27800000.0||[']']|2210.01820v2|2022
+Image Classification|EfficientNet-B5|83.3|30000000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|Transformer local-attention (NesT-S)|83.3|38000000.0||['ImageNet-1k only', 'Transformer']|2105.12723v4|2021
+Image Classification|ViL-Medium-D|83.3|39700000.0||['ImageNet-1k only', 'Transformer']|2103.15358v2|2021
+Image Classification|LITv2-M|83.3|49000000.0||[']']|2205.13213v5|2022
+Image Classification|Shift-B|83.3|88000000.0||[']']|2201.10801v1|2022
+Image Classification|MultiGrain PNASNet (450px)|83.2|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|Meta Pseudo Labels (ResNet-50)|83.2|||[']']|2003.10580v4|2020
+Image Classification|UniRepLKNet-T|83.2|||[']']|2311.15599v2|2023
+Image Classification|TinyViT-11M-distill (21k)|83.2|11000000.0||['ImageNet-22k', 'Transformer']|2207.10666v1|2022
+Image Classification|ReXNet-R_2.0|83.2|16500000.0||[']']|2007.00992v3|2020
+Image Classification|NAT-Tiny|83.2|28000000.0||['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5|2022
+Image Classification|SE-CoTNetD-101|83.2|40900000.0||[']']|2107.12292v1|2021
+Image Classification|Next-ViT-B|83.2|44800000.0||[']']|2207.05501v4|2022
+Image Classification|PVTv2-B3|83.2|45200000.0||['Transformer', 'ImageNet-1k only']|2106.13797v7|2021
+Image Classification|ViL-Base-D|83.2|55700000.0||['ImageNet-1k only', 'Transformer']|2103.15358v2|2021
+Image Classification|CycleMLP-B5|83.2|76000000.0||['ImageNet-1k only', 'MLP']|2107.10224v4|2021
+Image Classification|MultiGrain SENet154 (450px)|83.1|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|DeepVit-L* (DeiT training recipe)|83.1|||['ImageNet-1k only', 'Transformer']|2103.11886v4|2021
+Image Classification|ViT-S @224 (DeiT III, 21k)|83.1|||[']']|2204.07118v1|2022
+Image Classification|MKD ViT-S|83.1|||[']']|2202.07940v1|2022
+Image Classification|ViT-S@224 (cosub)|83.1|||['ImageNet-22k']|2212.04884v1|2022
+Image Classification|PAT-S|83.1|||[']']|2211.16961v5|2022
+Image Classification|TinyViT-21M|83.1|21000000.0||['ImageNet-1k only', 'Transformer']|2207.10666v1|2022
+Image Classification|sMLPNet-S (ImageNet-1k)|83.1|48600000.0||['ImageNet-1k only', 'MLP']|2109.05422v2|2021
+Image Classification|Pyramid ViG-M|83.1|51700000.0||[']']|2206.00272v3|2022
+Image Classification|SwinV2-Ti|83.09|||[']']|2308.09372v1|2023
+Image Classification|gSwin-S|83.01|39800000.0||['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1|2022
+Image Classification|MultiGrain SENet154 (400px)|83.0|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|CvT-13 (384 res)|83.0|20000000.0||['ImageNet-1k only', 'Transformer']|2103.15808v1|2021
+Image Classification|ConvFormer-S18 (224 res)|83.0|27000000.0||['ImageNet-1k only']|2210.13452v3|2022
+Image Classification|MViT-B-16|83.0|37000000.0||['Transformer', 'ImageNet-1k only']|2104.11227v1|2021
+Image Classification|ResNeSt-101|83.0|48000000.0||['CNN', 'ImageNet-1k only']|2004.08955v2|2020
+Image Classification|RevBiFPN-S4|83.0|48700000.0||['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|ZenNAS (0.8ms)|83.0|183000000.0||[']']|2102.01063v4|2021
+Image Classification|DeiT-B (+MixPro)|82.9|||[']']|2304.12043v2|2023
+Image Classification|IPT-S|82.9|24300000.0||[']']|2212.03035v1|2022
+Image Classification|ViL-Medium-W|82.9|39800000.0||['ImageNet-1k only', 'Transformer']|2103.15358v2|2021
+Image Classification|Oct-ResNet-152 (SE)|82.9|66800000.0|20771.0|['CNN', 'ImageNet-1k only']|1904.05049v3|2019
+Image Classification|PNASNet-5|82.9|86100000.0||['CNN', 'ImageNet-1k only']|1712.00559v3|2017
+Image Classification|GTP-LV-ViT-M/P8|82.8|||[']']|2311.03035v2|2023
+Image Classification|FunMatch - T384+224 (ResNet-50)|82.8|||['CNN', 'ImageNet-1k only']|2106.05237v2|2021
+Image Classification|CA-Swin-T (+MixPro)|82.8|||[']']|2304.12043v2|2023
+Image Classification|VAN-B2|82.8|26600000.0||[']']|2202.09741v5|2022
+Image Classification|DaViT-T|82.8|28300000.0||['ImageNet-1k only', 'Transformer']|2204.03645v1|2022
+Image Classification|ReXNet_3.0|82.8|34700000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|CrossViT-18+|82.8|44300000.0||['ImageNet-1k only', 'Transformer']|2103.14899v2|2021
+Image Classification|Shift-S|82.8|50000000.0||[']']|2201.10801v1|2022
+Image Classification|HRFormer-B|82.8|50300000.0||[']']|2110.09408v3|2021
+Image Classification|BoTNet T4|82.8|54700000.0||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|"CCT-14/7x2 | 384"|82.71|||['Transformer', 'ImageNet-1k only']|2104.05704v4|2021
+Image Classification|MultiGrain SENet154 (500px)|82.7|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|PVT-M (+MixPro)|82.7|||[']']|2304.12043v2|2023
+Image Classification|ASF-former-S|82.7|19300000.0||[']']|2204.12196v2|2022
+Image Classification|Container Container|82.7|22100000.0||[']']|2106.01401v2|2021
+Image Classification|UniNet-B2|82.7|22500000.0||[']']|2110.04035v1|2021
+Image Classification|DiNAT-Tiny|82.7|28000000.0||['Neighborhood Attention', 'Transformer', 'NAT Transformer', 'ImageNet-1k only']|2209.15001v3|2022
+Image Classification|ELSA-Swin-T|82.7|28000000.0||[']']|2112.12786v1|2021
+Image Classification|NASNET-A(6)|82.7|88900000.0|1648.0|['CNN', 'ImageNet-1k only']|1707.07012v4|2017
+Image Classification|RVT-B*|82.7|91800000.0||['ImageNet-1k only', 'Transformer']|2105.07926v4|2021
+Image Classification|FBNetV5-C-CLS|82.6|||[']']|2111.10007v2|2021
+Image Classification|MultiGrain PNASNet (400px)|82.6|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|ViT-S-24x2|82.6|||[']']|2203.09795v1|2022
+Image Classification|FixEfficientNet-B1|82.6|7800000.0||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|EfficientNet-B4|82.6|19000000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|DeiT-B|82.6|22000000.0||['ImageNet-1k only', 'Transformer']|2012.12877v2|2020
+Image Classification|T2T-ViTt-24|82.6|64400000.0||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|ViT-S|82.54|||[']']|2308.09372v1|2023
+Image Classification|CvT-21|82.5|||['ImageNet-1k only', 'Transformer']|2103.15808v1|2021
+Image Classification|FixResNet-50 Billion-scale@224|82.5|25600000.0||[']']|1906.06423v4|2019
+Image Classification|Next-ViT-S|82.5|31700000.0||[']']|2207.05501v4|2022
+Image Classification|LeViT-384|82.5|39400000.0||['ImageNet-1k only', 'Transformer']|2104.01136v2|2021
+Image Classification|CrossViT-18|82.5|43300000.0||['ImageNet-1k only', 'Transformer']|2103.14899v2|2021
+Image Classification|MetaFormer PoolFormer-M48|82.5|73000000.0||['Transformer', 'ImageNet-1k only']|2111.11418v3|2021
+Image Classification|ConViT-B+|82.5|152000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|TransBoost-ConvNext-T|82.46|28590000.0||[']']|2205.13331v4|2022
+Image Classification|NoisyStudent (EfficientNet-B2)|82.4|9200000.0||['ImageNet-1k only', 'JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B2)|82.4|9200000.0||['ImageNet-1k only', 'JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|AutoFormer-base|82.4|54000000.0||['ImageNet-1k only', 'Transformer']|2107.00651v1|2021
+Image Classification|ConViT-B|82.4|86000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|DeiT-B with iRPE-K|82.4|87000000.0||['ImageNet-1k only', 'Transformer']|2107.14222v1|2021
+Image Classification|Mega|82.4|90000000.0||[']']|2209.10655v3|2022
+Image Classification|ViT-B/16-224+HTM|82.37|||[']']|2210.07562v1|2022
+Image Classification|ColorNet|82.35|||['CNN', 'ImageNet-1k only']|1902.00267v1|2019
+Image Classification|T2T-ViT-24|82.3|||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|ViT-S-48x1|82.3|||[']']|2203.09795v1|2022
+Image Classification|MViTv2-T|82.3|24000000.0||[']']|2112.01526v2|2021
+Image Classification|SCARLET-A4|82.3|27800000.0|12.0|['CNN', 'ImageNet-1k only']|1908.06022v6|2019
+Image Classification|CrossViT-15+|82.3|28200000.0||['ImageNet-1k only', 'Transformer']|2103.14899v2|2021
+Image Classification|GLiT-Bases|82.3|96100000.0||['Transformer', 'ImageNet-1k only']|2107.02960v3|2021
+Image Classification|EViT (delete)|82.29|||[']']|2308.09372v1|2023
+Image Classification|STViT-Swin-Ti|82.22|||[']']|2308.09372v1|2023
+Image Classification|BossNet-T1|82.2|||[']']|2103.12424v3|2021
+Image Classification|CAIT-XXS-36|82.2|17300000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|CvT-13-NAS|82.2|18000000.0||['ImageNet-1k only', 'Transformer']|2103.15808v1|2021
+Image Classification|ViTAE-S-Stage|82.2|19200000.0||['Transformer', 'ImageNet-1k only']|2106.03348v4|2021
+Image Classification|T2T-ViTt-19|82.2|39200000.0||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|Evo-LeViT-384*|82.2|39600000.0||['Transformer', 'ImageNet-1k only']|2108.01390v5|2021
+Image Classification|Visformer-S|82.2|40200000.0||['ImageNet-1k only', 'Transformer']|2104.12533v4|2021
+Image Classification|ConViT-S+|82.2|48000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|ConvMixer-1536/20|82.2|51600000.0||['Mixer', 'ImageNet-1k only']|2201.09792v1|2021
+Image Classification|DeepVit-L|82.2|55000000.0||['ImageNet-1k only', 'Transformer']|2103.11886v4|2021
+Image Classification|SENet-152|82.2|66600000.0||['Transformer', 'ImageNet-1k only']|2101.11605v2|2021
+Image Classification|ResNeXt-101 32x8d|82.2|88000000.0||['ImageNet-1k only', 'ResNeXt']|1805.00932v1|2018
+Image Classification|TransBoost-Swin-T|82.16|71710000.0||[']']|2205.13331v4|2022
+Image Classification|ToMe-ViT-S|82.11|||[']']|2308.09372v1|2023
+Image Classification|Pyramid ViG-S|82.1|27300000.0||[']']|2206.00272v3|2022
+Image Classification|ConvNeXt-T|82.1|29000000.0||[']']|2201.03545v2|2022
+Image Classification|CeiT-S|82.0|||['ImageNet-1k only', 'Transformer']|2103.11816v2|2021
+Image Classification|DIFFQ (\u03bb=1e\u22122)|82.0|||['CNN', 'ImageNet-1k only']|2104.09987v3|2021
+Image Classification|NEXcepTion-S|82.0|||[']']|2212.08448v2|2022
+Image Classification|GC ViT-XT|82.0|20000000.0||[']']|2206.09959v5|2022
+Image Classification|Container-Light|82.0|20000000.0||['CNN', 'Transformer', 'ImageNet-1k only']|2106.01401v2|2021
+Image Classification|ViL-Small|82.0|24600000.0||['ImageNet-1k only', 'Transformer']|2103.15358v2|2021
+Image Classification|PVTv2-B2|82.0|25400000.0||['Transformer', 'ImageNet-1k only']|2106.13797v7|2021
+Image Classification|ActiveMLP-T|82.0|27200000.0||[']']|2203.06108v2|2022
+Image Classification|LITv2-S|82.0|28000000.0||[']']|2205.13213v5|2022
+Image Classification|DAT-T|82.0|29000000.0||[']']|2201.00520v3|2022
+Image Classification|EViT (fuse)|81.96|||[']']|2308.09372v1|2023
+Image Classification|GTP-LV-ViT-S/P8|81.9|||[']']|2311.03035v2|2023
+Image Classification|T2T-ViT-19|81.9|||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|ResNet-101 (224 res, Fast Knowledge Distillation)|81.9|||['ImageNet-1k only', 'ResNet']|2112.01528v1|2021
+Image Classification|RVT-S*|81.9|23300000.0||['ImageNet-1k only', 'Transformer']|2105.07926v4|2021
+Image Classification|PiT-S|81.9|23500000.0||['ImageNet-1k only', 'Transformer']|2103.16302v2|2021
+Image Classification|sMLPNet-T (ImageNet-1k)|81.9|24100000.0||['ImageNet-1k only', 'MLP']|2109.05422v2|2021
+Image Classification|ViL-Base-W|81.9|79000000.0||['ImageNet-1k only', 'Transformer']|2103.15358v2|2021
+Image Classification|Swin-T+SSA|81.89|||[']']|2306.01705v1|2023
+Image Classification|AOGNet-40M-AN|81.87|||['ImageNet-1k only']|1908.01259v3|2019
+Image Classification|FBNetV5|81.8|||['Transformer', 'ImageNet-1k only']|2111.10007v2|2021
+Image Classification|ResNet-200|81.8|||['ImageNet-1k only', 'ResNet']|2107.12028v2|2021
+Image Classification|RepMLPNet-L256|81.8|||['MLP', 'ImageNet-1k only']|2112.11081v2|2021
+Image Classification|NEXcepTion-TP|81.8|||[']']|2212.08448v2|2022
+Image Classification|NAT-Mini|81.8|20000000.0||['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5|2022
+Image Classification|DiNAT-Mini|81.8|20000000.0||['Neighborhood Attention', 'NAT Transformer', 'ImageNet-1k only', 'Transformer']|2209.15001v3|2022
+Image Classification|MEAL V2 (ResNet-50) (380 res)|81.72|25600000.0||[']']|2009.08453v2|2020
+Image Classification|gSwin-T|81.71|21800000.0||['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1|2022
+Image Classification|FBNetV5-A-CLS|81.7|||[']']|2111.10007v2|2021
+Image Classification|T2T-ViT-14|81.7|||['ImageNet-1k only', 'Transformer']|2105.02358v2|2021
+Image Classification|AutoFormer-small|81.7|22900000.0||['ImageNet-1k only', 'Transformer']|2107.00651v1|2021
+Image Classification|Shift-T|81.7|28000000.0||[']']|2201.10801v1|2022
+Image Classification|BoTNet T3|81.7|33500000.0||['ImageNet-1k only', 'Transformer']|2101.11605v2|2021
+Image Classification|CvT-13|81.6|||['ImageNet-1k only', 'Transformer']|2103.15808v1|2021
+Image Classification|ResNet-152 (SAM)|81.6|||['ImageNet-1k only', 'ResNet']|2010.01412v3|2020
+Image Classification|UniRepLKNet-N|81.6|||[']']|2311.15599v2|2023
+Image Classification|CloFormer-S|81.6|12300000.0||[']']|2303.17803v5|2023
+Image Classification|LeViT-256|81.6|17800000.0||['ImageNet-1k only', 'Transformer']|2104.01136v2|2021
+Image Classification|ReXNet_2.0|81.6|19000000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|SE-CoTNetD-50|81.6|23100000.0||[']']|2107.12292v1|2021
+Image Classification|gMLP-B|81.6|73000000.0||['ImageNet-1k only', 'MLP']|2105.08050v2|2021
+Image Classification|CoE-Large + CondConv|81.5|||[']']|2107.03815v2|2021
+Image Classification|GTP-DeiT-B/P8|81.5|||[']']|2311.03035v2|2023
+Image Classification|NEXcepTion-T|81.5|||[']']|2212.08448v2|2022
+Image Classification|NoisyStudent (EfficientNet-B1)|81.5|7800000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B1)|81.5|7800000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|TinyViT-11M|81.5|11000000.0||['ImageNet-1k only', 'Transformer']|2207.10666v1|2022
+Image Classification|Transformer local-attention (NesT-T)|81.5|17000000.0||['ImageNet-1k only', 'Transformer']|2105.12723v4|2021
+Image Classification|T2T-ViT-14|81.5|21500000.0||['ImageNet-1k only', 'Transformer']|2101.11986v3|2021
+Image Classification|CrossViT-15|81.5|27400000.0||['ImageNet-1k only', 'Transformer']|2103.14899v2|2021
+Image Classification|PyConvResNet-101|81.49|42300000.0||['CNN', 'ImageNet-1k only']|2006.11538v1|2020
+Image Classification|DeiT-S with iRPE-QKV|81.4|||['ImageNet-1k only', 'Transformer']|2107.14222v1|2021
+Image Classification|ViT-S @224 (DeiT III)|81.4|||[']']|2204.07118v1|2022
+Image Classification|BiFormer-T (IN1k ptretrain)|81.4|||[']']|2303.08810v1|2023
+Image Classification|MobileOne-S4 (distill)|81.4|14800000.0||[']']|2206.04040v2|2022
+Image Classification|SENet-101|81.4|49200000.0||['Transformer', 'ImageNet-1k only']|2101.11605v2|2021
+Image Classification|CCT-14/7x2|81.34|22360000.0||[']']|2104.05704v4|2021
+Image Classification|GFNet-S|81.33|||[']']|2308.09372v1|2023
+Image Classification|ResNet-200 (Adversarial Autoaugment)|81.32|||['ImageNet-1k only', 'ResNet']|1912.11188v1|2019
+Image Classification|MultiGrain PNASNet (300px)|81.3|||['CNN', 'ImageNet-1k only']|1902.05509v2|2019
+Image Classification|ResNet-152|81.3|||['ImageNet-1k only', 'ResNet']|2107.12028v2|2021
+Image Classification|ConViT-S|81.3|27000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|Swin-T|81.3|29000000.0||[']']|2103.14030v2|2021
+Image Classification|SimpleNetV1-9m-correct-labels|81.24|9500000.0||[']']|1608.06037v8|2016
+Image Classification|Res2Net-101|81.23|||['CNN', 'ImageNet-1k only']|1904.01169v3|2019
+Image Classification|PVT-S (+MixPro)|81.2|||[']']|2304.12043v2|2023
+Image Classification|TransBoost-ResNet50-StrikesBack|81.15|25560000.0||[']']|2205.13331v4|2022
+Image Classification|ResNeSt-50|81.13|27500000.0||[']']|2004.08955v2|2020
+Image Classification|DeiT-S with iRPE-QK|81.1|||['ImageNet-1k only', 'Transformer']|2107.14222v1|2021
+Image Classification|EfficientNet-B3|81.1|12000000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|VAN-B1|81.1|13900000.0||[']']|2202.09741v5|2022
+Image Classification|RevBiFPN-S3|81.1|19600000.0||['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|ResNet-152x2-SAM|81.1|236000000.0||['ImageNet-1k only', 'ResNet']|2106.01548v3|2021
+Image Classification|DynamicViT-S|81.09|||[']']|2308.09372v1|2023
+Image Classification|ResNet-101 (SAMix)|81.08|44600000.0||['ImageNet-1k only', 'ResNet']|2111.15454v3|2021
+Image Classification|ViTAE-13M|81.0|13200000.0||['Transformer', 'ImageNet-1k only']|2106.03348v4|2021
+Image Classification|ResNet-101 (AutoMix)|80.98|44600000.0||['ImageNet-1k only', 'ResNet']|2103.13027v6|2021
+Image Classification|ResNet-101|80.9|||['ImageNet-1k only', 'ResNet']|2107.12028v2|2021
+Image Classification|CAIT-XXS-24|80.9|12000000.0||['ImageNet-1k only', 'Transformer']|2103.17239v2|2021
+Image Classification|DeiT-S with iRPE-K|80.9|22000000.0||['ImageNet-1k only', 'Transformer']|2107.14222v1|2021
+Image Classification|ResNeXt-101  64x4|80.9|83600000.0||['ImageNet-1k only', 'ResNeXt']|1611.05431v2|2016
+Image Classification|AlphaNet-A6|80.8|||[']']|2102.07954v2|2021
+Image Classification|ResNet-200 (Supervised Contrastive)|80.8|||['ImageNet-1k only', 'ResNet']|2004.11362v5|2020
+Image Classification|UniNet-B0|80.8|11500000.0||[']']|2207.05420v2|2022
+Image Classification|LocalViT-S|80.8|22400000.0||['ImageNet-1k only', 'Transformer']|2104.05707v1|2021
+Image Classification|ResMLP-S24|80.8|30000000.0||['MLP', 'ImageNet-1k only']|2105.03404v2|2021
+Image Classification|TinyViT-5M-distill (21k)|80.7|5400000.0||['ImageNet-22k', 'Transformer']|2207.10666v1|2022
+Image Classification|CoE-Large|80.7|95300000.0||[']']|2107.03815v2|2021
+Image Classification|MEAL V2 (ResNet-50) (224 res)|80.67|||[']']|2009.08453v2|2020
+Image Classification|TokenLearner-ViT-8|80.66|||[']']|2308.09372v1|2023
+Image Classification|ResNeSt-50-fast|80.64|27500000.0||[']']|2004.08955v2|2020
+Image Classification|TransBoost-ResNet152|80.64|60190000.0||[']']|2205.13331v4|2022
+Image Classification|ResNet-200 (Fast AA)|80.6|||['ImageNet-1k only', 'ResNet']|1905.00397v2|2019
+Image Classification|CaiT-XXS (+MixPro)|80.6|||[']']|2304.12043v2|2023
+Image Classification|ResNeXt-101 (CutMix)|80.53|||['ImageNet-1k only', 'ResNeXt']|1905.04899v2|2019
+Image Classification|Attention-92|80.5|||['CNN', 'ImageNet-1k only']|1704.06904v1|2017
+Image Classification|NAT-M4|80.5|9100000.0||['CNN', 'ImageNet-1k only']|2005.05859v2|2020
+Image Classification|IPT-T|80.5|14000000.0||[']']|2212.03035v1|2022
+Image Classification|GLiT-Smalls|80.5|24600000.0||['Transformer', 'ImageNet-1k only']|2107.02960v3|2021
+Image Classification|HCGNet-C|80.5|42200000.0||['CNN', 'ImageNet-1k only']|1908.09699v3|2019
+Image Classification|DVT (T2T-ViT-12)|80.43|||['ImageNet-1k only', 'Transformer']|2105.15075v2|2021
+Image Classification|UniNet-B1|80.4|14000000.0||[']']|2110.04035v1|2021
+Image Classification|gSwin-VT|80.32|15500000.0||['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1|2022
+Image Classification|AlphaNet-A5|80.3|||[']']|2102.07954v2|2021
+Image Classification|ResNet-50+AutoDropout+RandAugment|80.3|||['ImageNet-1k only', 'ResNet']|2101.01761v1|2021
+Image Classification|ReXNet_1.5|80.3|9700000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|CCT-16/7x2|80.28|||['Transformer', 'ImageNet-1k only']|2104.05704v4|2021
+Image Classification|iAFF-ResNeXt-50-32x4d|80.22|34700000.0||['ImageNet-1k only', 'ResNeXt']|2009.14082v2|2020
+Image Classification|UniRepLKNet-P|80.2|||[']']|2311.15599v2|2023
+Image Classification|FixEfficientNet-B0|80.2|5300000.0||['ImageNet-1k only', 'EfficientNet']|2003.08237v5|2020
+Image Classification|ConvMLP-L|80.2|42700000.0||['CNN', 'MLP', 'ImageNet-1k only']|2109.04454v2|2021
+Image Classification|ResNet-50 (224 res, Fast Knowledge Distillation)|80.1|||['ImageNet-1k only', 'ResNet']|2112.01528v1|2021
+Image Classification|Inception ResNet V2|80.1|55800000.0||['ImageNet-1k only', 'ResNet']|1602.07261v2|2016
+Image Classification|RandWire-WS|80.1|61500000.0||['CNN', 'ImageNet-1k only']|1904.01569v2|2019
+Image Classification|WideNet-H|80.09|63000000.0||['Transformer', 'ImageNet-1k only']|2107.11817v3|2021
+Image Classification|CoE-Small + CondConv + PWLU|80.0|||[']']|2107.03815v2|2021
+Image Classification|BasisNet-MV3|80.0|||[']']|2105.03014v1|2021
+Image Classification|AlphaNet-A4|80.0|||[']']|2102.07954v2|2021
+Image Classification|MogaNet-T (256res)|80.0|5200000.0||['CNN']|2211.03295v3|2022
+Image Classification|MobileOne-S3 (distill)|80.0|10100000.0||[']']|2206.04040v2|2022
+Image Classification|LeViT-192|80.0|10400000.0||['ImageNet-1k only', 'Transformer']|2104.01136v2|2021
+Image Classification|ResNet-101|80.0|44400000.0||['ImageNet-1k only', 'ResNet']|2101.11605v2|2021
+Image Classification|ResNet-200|79.9|||['ImageNet-1k only', 'ResNet']|1603.05027v3|2016
+Image Classification|RegNetY-8.0GF|79.9|39200000.0||['CNN', 'ImageNet-1k only']|2003.13678v1|2020
+Image Classification|ViT-B/16-SAM|79.9|87000000.0||['ImageNet-1k only', 'Transformer']|2106.01548v3|2021
+Image Classification|TransBoost-ResNet101|79.86|44550000.0||[']']|2205.13331v4|2022
+Image Classification|SKNet-101|79.81|48900000.0||['CNN', 'ImageNet-1k only']|1903.06586v2|2019
+Image Classification|FixResNet-50 CutMix|79.8|||['ImageNet-1k only', 'ResNet']|1906.06423v4|2019
+Image Classification|CSPResNeXt-50 + Mish|79.8|||['CNN', 'ImageNet-1k only']|1908.08681v3|2019
+Image Classification|kNN-CLIP|79.8|||['Memory-Centric', 'CLIP Pre-trained']|2204.01186v2|2022
+Image Classification|CloFormer-XS|79.8|7200000.0||[']']|2303.17803v5|2023
+Image Classification|EfficientNet-B2|79.8|9200000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|GC ViT-XXT|79.8|12000000.0||[']']|2206.09959v5|2022
+Image Classification|CSPResNeXt-50 (Mish+Aug)|79.8|20500000.0||['CNN', 'ImageNet-1k only']|1911.11929v1|2019
+Image Classification|DVT (T2T-ViT-10)|79.74|||['ImageNet-1k only', 'Transformer']|2105.15075v2|2021
+Image Classification|GPaCo (ResNet-50)|79.7|||[']']|2209.12400v2|2022
+Image Classification|ResMLP-36|79.7|45000000.0||['MLP', 'ImageNet-1k only']|2105.03404v2|2021
+Image Classification|Grafit (ResNet-50)|79.6|||['ImageNet-1k only', 'ResNet']|2011.12982v1|2020
+Image Classification|LeViT-128|79.6|8800000.0||['ImageNet-1k only', 'Transformer']|2104.01136v2|2021
+Image Classification|ResT-Small|79.6|13660000.0||[']']|2105.13677v5|2021
+Image Classification|GTP-DeiT-S/P8|79.5|||[']']|2311.03035v2|2023
+Image Classification|ReXNet_1.3|79.5|7600000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|WideNet-L|79.49|40000000.0||['ImageNet-1k only']|2107.11817v3|2021
+Image Classification|ResNet-50 (SAMix)|79.41|25600000.0||['ImageNet-1k only', 'ResNet']|2111.15454v3|2021
+Image Classification|AlphaNet-A3|79.4|||[']']|2102.07954v2|2021
+Image Classification|MultiGrain R50-AA-500|79.4|||['ImageNet-1k only']|1902.05509v2|2019
+Image Classification|ResNet-50 (Adversarial Autoaugment)|79.4|||['ImageNet-1k only', 'ResNet']|1912.11188v1|2019
+Image Classification|ResMLP-24|79.4|||['CNN', 'ImageNet-1k only']|2105.03404v2|2021
+Image Classification|EdgeNeXt-S|79.4|5600000.0||['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3|2022
+Image Classification|TinyNet (GhostNet-A)|79.4|11900000.0||[']']|2010.14819v2|2020
+Image Classification|MobileOne-S4|79.4|14800000.0||[']']|2206.04040v2|2022
+Image Classification|RegNetY-4.0GF|79.4|20600000.0||['CNN', 'ImageNet-1k only']|2003.13678v1|2020
+Image Classification|SENet-50|79.4|28020000.0||['Transformer', 'ImageNet-1k only']|2101.11605v2|2021
+Image Classification|ScaleNet-152|79.38|||['CNN', 'ImageNet-1k only']|1904.09460v1|2019
+Image Classification|LIP-ResNet-101|79.33|42900000.0||['CNN', 'ImageNet-1k only']|1908.04156v3|2019
+Image Classification|MobileViTv3-S|79.3|5800000.0||['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2|2022
+Image Classification|RedNet-152|79.3|34000000.0||['Transformer', 'ImageNet-1k only']|2103.06255v2|2021
+Image Classification|ResNet-50 (AutoMix)|79.25|25600000.0||['ImageNet-1k only', 'ResNet']|2103.13027v6|2021
+Image Classification|PS-KD (ResNet-152 + CutMix)|79.24|||['ImageNet-1k only', 'ResNet']|2006.12000v3|2020
+Image Classification|ResNet-101 (JFT-300M Finetuning)|79.2|||['JFT-300M', 'ResNet']|1707.02968v2|2017
+Image Classification|RVT-Ti*|79.2|10900000.0||['ImageNet-1k only', 'Transformer']|2105.07926v4|2021
+Image Classification|SimpleNetV1-5m-correct-labels|79.12|5700000.0||[']']|1608.06037v8|2016
+Image Classification|AlphaNet-A2|79.1|||[']']|2102.07954v2|2021
+Image Classification|AA-ResNet-152|79.1|||['ImageNet-1k only']|1904.09925v5|2019
+Image Classification|FixResNet-50|79.1|||['ImageNet-1k only', 'ResNet']|1906.06423v4|2019
+Image Classification|Diffusion Classifier|79.1|||[']']|2303.16203v3|2023
+Image Classification|TinyViT-5M|79.1|5400000.0||['ImageNet-1k only', 'Transformer']|2207.10666v1|2022
+Image Classification|MobileOne-S2 (distill)|79.1|7800000.0||[']']|2206.04040v2|2022
+Image Classification|PiT-XS|79.1|10600000.0||['ImageNet-1k only', 'Transformer']|2103.16302v2|2021
+Image Classification|UniNet-B0|79.1|11900000.0||[']']|2110.04035v1|2021
+Image Classification|RedNet-101|79.1|25600000.0||['ImageNet-1k only']|2103.06255v2|2021
+Image Classification|ResNet-50 (UDA)|79.04|||['ImageNet-1k only', 'ResNet']|1904.12848v6|2019
+Image Classification|ScaleNet-101|79.03|||['ImageNet-1k only']|1904.09460v1|2019
+Image Classification|TransBoost-ResNet50|79.03|||[']']|2205.13331v4|2022
+Image Classification|Co-ResNet-152|79.03|60000000.0||[']']|2108.07387v1|2021
+Image Classification|RevBiFPN-S2|79.0|10600000.0||['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|ConvMLP-M|79.0|17400000.0||['ImageNet-1k only']|2109.04454v2|2021
+Image Classification|Xception|79.0|22855952.0|87.0|['ImageNet-1k only']|1610.02357v3|2016
+Image Classification|SpineNet-143|79.0|60500000.0||['ImageNet-1k only']|1912.05027v3|2019
+Image Classification|Mixer-B/8-SAM|79.0|64000000.0||['ImageNet-1k only']|2106.01548v3|2021
+Image Classification|ResNet-152 + SWA|78.94|||['ImageNet-1k only', 'ResNet']|1803.05407v3|2018
+Image Classification|ECA-Net (ResNet-152)|78.92|57400000.0||['ImageNet-1k only', 'ResNet']|1910.03151v4|2019
+Image Classification|AlphaNet-A1|78.9|||[']']|2102.07954v2|2021
+Image Classification|MixNet-L|78.9|7300000.0||['ImageNet-1k only']|1907.09595v3|2019
+Image Classification|CeiT-T (384 finetune res)|78.8|||['ImageNet-1k only', 'Transformer']|2103.11816v2|2021
+Image Classification|NoisyStudent (EfficientNet-B0)|78.8|5300000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2019
+Image Classification|NoisyStudent (EfficientNet-B0)|78.8|5300000.0||['JFT-300M', 'EfficientNet']|1911.04252v4|2020
+Image Classification|EfficientNet-B1|78.8|7800000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|ResNet-50|78.8|25500000.0||['ResNet']|2101.11605v2|2021
+Image Classification|SGE-ResNet101|78.798|44550000.0||['ImageNet-1k only']|1905.09646v2|2019
+Image Classification|RepVGG-B2|78.78|80310000.0||['CNN', 'ImageNet-1k only']|2101.03697v3|2021
+Image Classification|ResNet-50|78.76|||['ImageNet-1k only', 'ResNet']|2009.06962v2|2020
+Image Classification|ResNet-50|78.7|||['ImageNet-1k only', 'ResNet']|2101.01761v1|2021
+Image Classification|SReT-LT (Fast Knowledge Distillation)|78.7|5000000.0||['ImageNet-1k only', 'Transformer']|2112.01528v1|2021
+Image Classification|PVTv2-B1|78.7|13100000.0||['ImageNet-1k only']|2106.13797v7|2021
+Image Classification|ECA-Net (ResNet-101)|78.65|42490000.0||['ImageNet-1k only', 'ResNet']|1910.03151v4|2019
+Image Classification|MobileViTv3-1.0|78.64|||['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2|2022
+Image Classification|EdgeFormer-S|78.63|5000000.0||[']']|2203.03952v5|2022
+Image Classification|UniRepLKNet-F|78.6|||[']']|2311.15599v2|2023
+Image Classification|TransBoost-EfficientNetB0|78.6|5290000.0||[']']|2205.13331v4|2022
+Image Classification|Visformer-Ti|78.6|10300000.0||['ImageNet-1k only', 'Transformer']|2104.12533v4|2021
+Image Classification|ResMLP-12 (distilled, class-MLP)|78.6|17700000.0||[']']|2105.03404v2|2021
+Image Classification|RepMLP-Res50|78.6|52770000.0||['ImageNet-1k only']|2105.01883v3|2021
+Image Classification|Res2Net-50-299|78.59|||['ImageNet-1k only']|1904.01169v3|2019
+Image Classification|ResNet-152|78.57|||[']']|1512.03385v1|2015
+Image Classification|ResNet-50-DW (Deformable Kernels)|78.5|||['ImageNet-1k only', 'ResNet']|1910.02940v2|2019
+Image Classification|HRFormer-T|78.5|8000000.0||[']']|2110.09408v3|2021
+Image Classification|HCGNet-B|78.5|12900000.0||['ImageNet-1k only']|1908.09699v3|2019
+Image Classification|RepVGG-B2g4|78.5|55770000.0||['CNN', 'ImageNet-1k only']|2101.03697v3|2021
+Image Classification|DVT (T2T-ViT-7)|78.48|||['ImageNet-1k only', 'Transformer']|2105.15075v2|2021
+Image Classification|SRM-ResNet-101|78.47|||['ImageNet-1k only']|1903.10829v1|2019
+Image Classification|DenseNet-161 + SWA|78.44|||['ImageNet-1k only']|1803.05407v3|2018
+Image Classification|CoaT-Ti|78.42|||[']']|2308.09372v1|2023
+Image Classification|FBNetV5-AC-CLS|78.4|||[']']|2111.10007v2|2021
+Image Classification|ResNet-50 (CutMix)|78.4|||['ImageNet-1k only', 'ResNet']|1905.04899v2|2019
+Image Classification|ReXNet_1.0-relabel|78.4|4800000.0||['ImageNet-1k only']|2101.05022v2|2021
+Image Classification|RedNet-50|78.4|15500000.0||['ImageNet-1k only']|2103.06255v2|2021
+Image Classification|Poly-SA-ViT-S|78.34|||[']']|2308.09372v1|2023
+Image Classification|EfficientNet-B0 (CondConv)|78.3|||['ImageNet-1k only', 'EfficientNet']|1904.04971v3|2019
+Image Classification|ResNet-101|78.25|40000000.0||['ImageNet-1k only', 'ResNet']|1512.03385v1|2015
+Image Classification|MultiGrain R50-AA-224|78.2|||['ImageNet-1k only']|1902.05509v2|2019
+Image Classification|Pyramid ViG-Ti|78.2|10700000.0||[']']|2206.00272v3|2022
+Image Classification|LocalViT-PVT|78.2|13500000.0||['Transformer']|2104.05707v1|2021
+Image Classification|ResNet-50 (LIP Bottleneck-256)|78.15|25800000.0||['ImageNet-1k only', 'ResNet']|1908.04156v3|2019
+Image Classification|WRN-50-2-bottleneck|78.1|||['ImageNet-1k only']|1605.07146v4|2016
+Image Classification|MobileOne-S3|78.1|10100000.0||[']']|2206.04040v2|2022
+Image Classification|ZenNet-400M-SE|78.0|5700000.0||[']']|2102.01063v4|2021
+Image Classification|RegNetY-1.6GF|78.0|11200000.0||['ImageNet-1k only']|2003.13678v1|2020
+Image Classification|HVT-S-1|78.0|21740000.0||['Transformer', 'ImageNet-1k only']|2103.10619v2|2021
+Image Classification|Perceiver (FF)|78.0|44900000.0||[']']|2103.03206v2|2021
+Image Classification|ReXNet_1.0|77.9|4800000.0||['', 'ImageNet-1k only']|2007.00992v3|2020
+Image Classification|ViTAE-6M|77.9|6500000.0||['ImageNet-1k only']|2106.03348v4|2021
+Image Classification|DenseNet-264|77.85|||['ImageNet-1k only']|1608.06993v5|2016
+Image Classification|AlphaNet-A0|77.8|||[']']|2102.07954v2|2021
+Image Classification|ScaleNet-50|77.8|||[']']|1904.09460v1|2019
+Image Classification|ResMLP-S12|77.8|15400000.0||[']']|2105.03404v2|2021
+Image Classification|TinyNet-A + RA|77.7|5100000.0||[']']|2010.14819v2|2020
+Image Classification|ResNet-50 (Fast AA)|77.6|||['ImageNet-1k only', 'ResNet']|1905.00397v2|2019
+Image Classification|SReT-T|77.6|4800000.0||[']']|2111.05297v3|2021
+Image Classification|RedNet-38|77.6|12400000.0||['ImageNet-1k only']|2103.06255v2|2021
+Image Classification|SGE-ResNet50|77.584|25560000.0||[']']|1905.09646v2|2019
+Image Classification|WideNet-B|77.54|29000000.0||['ImageNet-1k only']|2107.11817v3|2021
+Image Classification|EfficientNet-B0|77.5|||['ImageNet-1k only', 'EfficientNet']|2101.01761v1|2021
+Image Classification|ACNet (ResNet-50)|77.5|29380000.0||['ImageNet-1k only', 'ResNet']|1904.03579v1|2019
+Image Classification|ECA-Net (ResNet-50)|77.48|24370000.0||['ImageNet-1k only', 'ResNet']|1910.03151v4|2019
+Image Classification|DenseNet-201|77.42|||['ImageNet-1k only']|1608.06993v5|2016
+Image Classification|MobileOne-S2|77.4|7.8||[']']|2206.04040v2|2022
+Image Classification|MobileOne-S1 (distill)|77.4|4800000.0||[']']|2206.04040v2|2022
+Image Classification|R-Mix (ResNet-50)|77.39|||[']']|2212.04875v3|2022
+Image Classification|FBNetV5-AR-CLS|77.2|||[']']|2111.10007v2|2021
+Image Classification|MogaNet-XT (256res)|77.2|3000000.0||[']']|2211.03295v3|2022
+Image Classification|ReXNet_0.9|77.2|4100000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|Prodpoly|77.17|||['ImageNet-1k only']|2006.13026v2|2020
+Image Classification|ResNet-50-D|77.16|25000000.0||['ImageNet-1k only', 'ResNet']|1812.01187v2|2018
+Image Classification|Inception v3|77.12|||['ImageNet-1k only']|1803.08337v1|2018
+Image Classification|MKD ViT-T|77.1|||[']']|2202.07940v1|2022
+Image Classification|GreedyNAS-A|77.1|6500000.0||['ImageNet-1k only']|2003.11236v1|2020
+Image Classification|SkipblockNet-L|77.1|7100000.0||[']']|2107.11170v3|2021
+Image Classification|SSAL-Resnet50|77.0|||['ImageNet-1k only', 'ResNet']|2101.03057v1|2021
+Image Classification|UniRepLKNet-A|77.0|||[']']|2311.15599v2|2023
+Image Classification|CloFormer-XXS|77.0|4200000.0||[']']|2303.17803v5|2023
+Image Classification|MixNet-M|77.0|5000000.0||['ImageNet-1k only']|1907.09595v3|2019
+Image Classification|SCARLET-A|76.9|6700000.0||['ImageNet-1k only']|1908.06022v6|2019
+Image Classification|TransBoost-MobileNetV3-L|76.81|5480000.0||[']']|2205.13331v4|2022
+Image Classification|ViTAE-T-Stage|76.8|4800000.0||['ImageNet-1k only']|2106.03348v4|2021
+Image Classification|GreedyNAS-B|76.8|5200000.0||['ImageNet-1k only']|2003.11236v1|2020
+Image Classification|ConvMLP-S|76.8|9000000.0||['ImageNet-1k only']|2109.04454v2|2021
+Image Classification|PVT-T (+MixPro)|76.7|||[']']|2304.12043v2|2023
+Image Classification|MobileViTv3-XS|76.7|2500000.0||['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2|2022
+Image Classification|MnasNet-A3|76.7|5200000.0||['ImageNet-1k only']|1807.11626v3|2018
+Image Classification|ViL-Tiny-RPB|76.7|6700000.0||[']']|2103.15358v2|2021
+Image Classification|ConViT-Ti+|76.7|10000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|TransBoost-ResNet34|76.7|21800000.0||[']']|2205.13331v4|2022
+Image Classification|LIP-DenseNet-BC-121|76.64|8700000.0||['ImageNet-1k only']|1908.04156v3|2019
+Image Classification|MUXNet-l|76.6|4000000.0||['ImageNet-1k only']|2003.13880v2|2020
+Image Classification|DeiT-B|76.6|5000000.0||['ImageNet-1k only', 'Transformer']|2012.12877v2|2020
+Image Classification|MobileViTv3-0.75|76.55|3000000.0||['ImageNet-1k only']|2209.15159v2|2022
+Image Classification|Mixer-B/16|76.44|46000000.0||['ImageNet-1k only']|2105.01601v4|2021
+Image Classification|Perceiver|76.4|||['Transformer', 'ImageNet-1k only']|2103.03206v2|2021
+Image Classification|CeiT-T|76.4|6400000.0||['ImageNet-1k only', 'Transformer']|2103.11816v2|2021
+Image Classification|ResNet-34 (SAMix)|76.35|21800000.0||['ImageNet-1k only', 'ResNet']|2111.15454v3|2021
+Image Classification|EfficientNet-B0|76.3|5300000.0||['ImageNet-1k only', 'EfficientNet']|1905.11946v5|2019
+Image Classification|RegNetY-800MF|76.3|6300000.0||['ImageNet-1k only']|2003.13678v1|2020
+Image Classification|SCARLET-B|76.3|6500000.0||['ImageNet-1k only']|1908.06022v6|2019
+Image Classification|GLiT-Tinys|76.3|7200000.0||['ImageNet-1k only']|2107.02960v3|2021
+Image Classification|DenseNet-169|76.2|||['ImageNet-1k only']|1608.06993v5|2016
+Image Classification|GreedyNAS-C|76.2|4700000.0||['ImageNet-1k only']|2003.11236v1|2020
+Image Classification|SkipblockNet-M|76.2|5500000.0||['CNN', 'ImageNet-1k only']|2107.11170v3|2021
+Image Classification|ResNet-34 (AutoMix)|76.1|21800000.0||['ImageNet-1k only', 'ResNet']|2103.13027v6|2021
+Image Classification|ResNet-50 MLPerf v0.7 - 2512 steps|75.92|||['ImageNet-1k only', 'ResNet']|2102.06356v3|2021
+Image Classification|DenseNAS-A|75.9|||['ImageNet-1k only']|1906.09607v3|2019
+Image Classification|MobileOne-S1|75.9|4800000.0||[']']|2206.04040v2|2022
+Image Classification|MoGA-A|75.9|5100000.0||['ImageNet-1k only']|1908.01314v4|2019
+Image Classification|RevBiFPN-S1|75.9|5110000.0||['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|LocalViT-TNT|75.9|6300000.0||['ImageNet-1k only', 'Transformer']|2104.05707v1|2021
+Image Classification|SALG-ST|75.9|6500000.0||[']']|2211.14705v1|2022
+Image Classification|RedNet-26|75.9|9200000.0||['ImageNet-1k only']|2103.06255v2|2021
+Image Classification|FractalNet-34|75.88|||['ImageNet-1k only']|1605.07648v4|2016
+Image Classification|MixNet-S|75.8|4100000.0||['ImageNet-1k only']|1907.09595v3|2019
+Image Classification|LeViT-128S|75.7|4700000.0||['ImageNet-1k only', 'Transformer']|2104.01136v2|2021
+Image Classification|GhostNet \u00d71.3|75.7|7300000.0||[']']|1911.11907v2|2019
+Image Classification|LR-Net-26|75.7|14700000.0||['ImageNet-1k only']|1904.11491v1|2019
+Image Classification|SimpleNetV1-small-075-correct-labels|75.66|3000000.0||[']']|1608.06037v8|2016
+Image Classification|MnasNet-A2|75.6|4800000.0||['ImageNet-1k only']|1807.11626v3|2018
+Image Classification|SCARLET-C|75.6|6000000.0||['ImageNet-1k only']|1908.06022v6|2019
+Image Classification|RegNetY-600MF|75.5|6100000.0||['ImageNet-1k only']|2003.13678v1|2020
+Image Classification|ShuffleNet V2|75.4|||[']']|1807.11164v1|2018
+Image Classification|VAN-B0|75.4|4100000.0||[']']|2202.09741v5|2022
+Image Classification|AsymmNet-Large \u00d71.0|75.4|5990000.0||[']']|2104.07770v1|2021
+Image Classification|FairNAS-A|75.34|4600000.0||[']']|1907.01845v5|2019
+Image Classification|ViTAE-T|75.3|||['ImageNet-1k only']|2106.03348v4|2021
+Image Classification|MUXNet-m|75.3|3400000.0||['ImageNet-1k only']|2003.13880v2|2020
+Image Classification|ResNet-50|75.3|25000000.0||['ImageNet-1k only', 'ResNet']|1512.03385v1|2015
+Image Classification|MnasNet-A1|75.2|3900000.0||['ImageNet-1k only']|1807.11626v3|2018
+Image Classification|MobileNet V3-Large 1.0|75.2|5400000.0||['ImageNet-1k only']|1905.02244v5|2019
+Image Classification|DiCENet|75.1|||[']']|1906.03516v3|2019
+Image Classification|MultiGrain NASNet-A-Mobile (350px)|75.1|||[']']|1902.05509v2|2019
+Image Classification|FairNAS-B|75.1|4500000.0||[']']|1907.01845v5|2019
+Image Classification|Ghost-ResNet-50 (s=2)|75.0|13000000.0||[']']|1911.11907v2|2019
+Image Classification|DenseNet-121|74.98|||['ImageNet-1k only']|1608.06993v5|2016
+Image Classification|Single-Path NAS|74.96|||['ImageNet-1k only']|1904.02877v1|2019
+Image Classification|WaveMix-192/16 (level 3)|74.93|||[']']|2205.14375v4|2022
+Image Classification|FBNet-C|74.9|5500000.0||['ImageNet-1k only']|1812.03443v3|2018
+Image Classification|ESPNetv2|74.9|5900000.0||['ImageNet-1k only']|1811.11431v3|2018
+Image Classification|LocalViT-T|74.8|5900000.0||['ImageNet-1k only', 'Transformer']|2104.05707v1|2021
+Image Classification|RandWire-WS (small)|74.7|5600000.0||[']']|1904.01569v2|2019
+Image Classification|AutoFormer-tiny|74.7|5700000.0||['ImageNet-1k only', 'Transformer']|2107.00651v1|2021
+Image Classification|MobileNetV2 (1.4)|74.7|6900000.0||['ImageNet-1k only']|1801.04381v4|2018
+Image Classification|FairNAS-C|74.69|4400000.0||[']']|1907.01845v5|2019
+Image Classification|ReXNet_0.6|74.6|2700000.0||['ImageNet-1k only']|2007.00992v3|2020
+Image Classification|Proxyless|74.6|4000000.0||['ImageNet-1k only']|1812.00332v2|2018
+Image Classification|PiT-Ti|74.6|4900000.0||['ImageNet-1k only', 'Transformer']|2103.16302v2|2021
+Image Classification|DY-MobileNetV2 \u00d71.0|74.4|11100000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|SimpleNetV1-9m|74.17|9500000.0||[']']|1608.06037v8|2016
+Image Classification|RegNetY-400MF|74.1|4300000.0||[']']|2003.13678v1|2020
+Image Classification|Ghost-ResNet-50 (s=4)|74.1|6500000.0||[']']|1911.11907v2|2019
+Image Classification|SReT-ExT|74.0|4000000.0||[']']|2111.05297v3|2021
+Image Classification|GhostNet \u00d71.0|73.9|5200000.0||[']']|1911.11907v2|2019
+Image Classification|DeiT-T (+MixPro)|73.8|||[']']|2304.12043v2|2023
+Image Classification|DeiT-Ti with iRPE-K|73.7|6000000.0||['ImageNet-1k only', 'Transformer']|2107.14222v1|2021
+Image Classification|TransBoost-ResNet18|73.36|11690000.0||[']']|2205.13331v4|2022
+Image Classification|Wide ResNet-50 (edge-popup)|73.3|20600000.0||['ImageNet-1k only', 'ResNet']|1911.13299v2|2019
+Image Classification|ResNet-18 (MEAL V2)|73.19|||['ImageNet-1k only']|2009.08453v2|2020
+Image Classification|ConViT-Ti|73.1|6000000.0||['ImageNet-1k only', 'Transformer']|2103.10697v2|2021
+Image Classification|RevBiFPN-S0|72.8|3420000.0||['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2|2022
+Image Classification|DY-MobileNetV2 \u00d70.75|72.8|7000000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|DY-ResNet-18|72.7|42700000.0||['ImageNet-1k only', 'ResNet']|1912.03458v2|2019
+Image Classification|ECA-Net (MobileNetV2)|72.56|3340000.0||['ImageNet-1k only']|1910.03151v4|2019
+Image Classification|MobileNet-224 (CGD)|72.56|4260000.0||['ImageNet-1k only']|1907.09665v10|2019
+Image Classification|MobileOne-S0 (distill)|72.5|2100000.0||[']']|2206.04040v2|2022
+Image Classification|LocalViT-T2T|72.5|4300000.0||['ImageNet-1k only', 'Transformer']|2104.05707v1|2021
+Image Classification|MobileViTv3-0.5|72.33|1400000.0||['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2|2022
+Image Classification|ResNet-18 (SAMix)|72.33|11700000.0||['ImageNet-1k only', 'ResNet']|2111.15454v3|2021
+Image Classification|ResNet-18 (AutoMix)|72.05|11700000.0||['ImageNet-1k only', 'ResNet']|2103.13027v6|2021
+Image Classification|MobileNetV2|72.0|3400000.0||['CNN']|1801.04381v4|2018
+Image Classification|Ours|71.97|||[']']|2009.04626v1|2020
+Image Classification|SimpleNetV1-5m|71.94|5700000.0||['CNN']|1608.06037v8|2016
+Image Classification|ResNet-18 (PAD-L2 w/ ResNet-34 teacher)|71.71|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|MUXNet-s|71.6|2400000.0||['ImageNet-1k only']|2003.13880v2|2020
+Image Classification|PDC|71.6|11510000.0||[']']|2104.07916v2|2021
+Image Classification|ResNet-18 (FT w/ ResNet-34 teacher)|71.56|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|EfficientFormer-V2-S0|71.53|||[']']|2308.09372v1|2023
+Image Classification|MobileOne-S0|71.4|2100000.0||[']']|2206.04040v2|2022
+Image Classification|ResNet-18 (KD w/ ResNet-34 teacher)|71.37|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|EdgeNeXt-XXS|71.2|1300000.0||['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3|2022
+Image Classification|ResNet-18 (L2 w/ ResNet-34 teacher)|71.08|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|MobileViTv3-XXS|70.98|1200000.0||['CNN+Transformer', 'Transformer', 'ImageNet-1k only']|2209.15159v2|2022
+Image Classification|ResNet-18 (CRD w/ ResNet-34 teacher)|70.93|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|ShuffleNet|70.9|||['ImageNet-1k only']|1707.01083v2|2017
+Image Classification|MobileNet-224 \u00d71.25|70.6|||[']']|1704.04861v1|2017
+Image Classification|ResNet-18 (tf-KD w/ ResNet-18 teacher)|70.52|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|PVTv2-B0|70.5|3400000.0||['ImageNet-1k only']|2106.13797v7|2021
+Image Classification|GAC-SNN MS-ResNet-34|70.42|||[']']|2308.06582v1|2023
+Image Classification|ResNet-18 (SSKD w/ ResNet-34 teacher)|70.09|||['ImageNet-1k only', 'ResNet']|2011.12913v2|2020
+Image Classification|DY-MobileNetV3-Small|69.7|4800000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|HVT-Ti-1|69.64|5740000.0||['ImageNet-1k only', 'Transformer']|2103.10619v2|2021
+Image Classification|DY-MobileNetV2 \u00d70.5|69.4|4000000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|AsymmNet-Large \u00d70.5|69.2|2800000.0||[']']|2104.07770v1|2021
+Image Classification|SimpleNetV1-small-05-correct-labels|69.11|1500000.0||[']']|1608.06037v8|2016
+Image Classification|Heteroscedastic (InceptionResNet-v2)|68.6|||['ImageNet-1k only']|2105.10305v1|2021
+Image Classification|AsymmNet-Small \u00d71.0|68.4|3100000.0||[']']|2104.07770v1|2021
+Image Classification|FireCaffe (GoogLeNet)|68.3|||['ImageNet-1k only']|1511.00175v2|2015
+Image Classification|Graph-RISE (40M)|68.29|||['ImageNet-1k only']|1902.10814v1|2019
+Image Classification|SimpleNetV1-small-075|68.15|3000000.0||[']']|1608.06037v8|2016
+Image Classification|ReActNet-A (BN-Free)|68.0|||['CNN', 'ImageNet-1k only']|2104.08215v1|2021
+Image Classification|DY-ResNet-10|67.7|18600000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|MUXNet-xs|66.7|1800000.0||['ImageNet-1k only']|2003.13880v2|2020
+Image Classification|GhostNet \u00d70.5|66.2|2600000.0||[']']|1911.11907v2|2019
+Image Classification|OTTT|65.15|||['SNN']|2210.04195v2|2022
+Image Classification|DY-MobileNetV2 \u00d70.35|64.9|2800000.0||['ImageNet-1k only']|1912.03458v2|2019
+Image Classification|BBG (ResNet-34)|62.6|||['ImageNet-1k only', 'ResNet']|1909.12117v2|2019
+Image Classification|SimpleNetV1-small-05|61.52|1500000.0||[']']|1608.06037v8|2016
+Image Classification|BBG (ResNet-18)|59.4|||['ImageNet-1k only', 'ResNet']|1909.12117v2|2019
+Image Classification|FireCaffe (AlexNet)|58.9|||['ImageNet-1k only']|1511.00175v2|2015
+Image Classification|EVA (EVA-CLIP)||0.0||[']']|2211.07636v2|2022
+Image Classification|MobileNet-224 \u00d71.0||4200000.0||[']']|1704.04861v1|2017
+Image Classification|DaViT-S||49700000.0||['ImageNet-1k only', 'Transformer']|2204.03645v1|2022
