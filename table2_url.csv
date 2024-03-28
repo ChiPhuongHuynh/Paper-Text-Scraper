@@ -1,973 +1,975 @@
-name|accuracy|params|hardware_req|tags|id
-OmniVec|92.4|null|null|[']']|2311.05709v1
-BASIC-L (Lion, fine-tuned)|91.1|2440000000.0|null|['Conv+Transformer', 'ALIGN', 'JFT-3B']|Null
-CoCa (finetuned)|91.0|2100000000.0|null|['ALIGN', 'Transformer', 'JFT-3B']|2205.01917v2
-Model soups (BASIC-L)|90.98|2440000000.0|null|['ALIGN', 'JFT-3B', 'Conv+Transformer']|2203.05482v3
-Model soups (ViT-G/14)|90.94|1843000000.0|null|['JFT-3B', 'Transformer']|2203.05482v3
-ViT-e|90.9|3900000000.0|null|['Transformer', 'JFT-3B']|2209.06794v4
-CoAtNet-7|90.88|2440000000.0|null|['Conv+Transformer', 'JFT-3B']|2106.04803v2
-ViT-G/14 (Lion)|90.71|1843000000.0|null|['Transformer', 'JFT-3B']|Null
-CoCa (frozen)|90.6|2100000000.0|null|['Transformer', 'ALIGN', 'JFT-3B']|2205.01917v2
-CoAtNet-6|90.45|1470000000.0|null|['Conv+Transformer', 'JFT-3B']|2106.04803v2
-ViT-G/14|90.45|1843000000.0|null|['Transformer']|2106.04560v2
-DaViT-G|90.4|1437000000.0|null|['Transformer']|2204.03645v1
-DaViT-H|90.2|362000000.0|null|['Transformer']|2204.03645v1
-Meta Pseudo Labels (EfficientNet-L2)|90.2|480000000.0|95040.0|['JFT-300M', 'EfficientNet']|2003.10580v4
-SwinV2-G|90.17|3000000000.0|null|['Transformer']|2111.09883v2
-InternImage-DCNv3-G (M3I Pre-training)|90.1|3000000000.0|null|[']']|2211.05778v4
-MAWS (ViT-6.5B)|90.1|6500000000.0|null|[']']|Null
-Florence-CoSwin-H|90.05|893000000.0|null|['FLD-900M', 'Transformer']|2111.11432v1
-Meta Pseudo Labels (EfficientNet-B6-Wide)|90.0|390000000.0|null|['JFT-300M', 'EfficientNet']|2003.10580v4
-RevCol-H|90.0|2158000000.0|null|['Pure CNN', 'Reversible', 'CNN']|Null
-ONE-PEACE|89.8|1520000000.0|null|[']']|2305.11172v1
-MAWS (ViT-2B)|89.8|2000000000.0|null|[']']|Null
-EVA|89.7|1000000000.0|null|[']']|2211.07636v2
-M3I Pre-training (InternImage-H)|89.6|null|null|['YFCC-15M', 'Laion-400M']|2211.09807v2
-ViT-L/16 (384res, distilled from ViT-22B)|89.6|307000000.0|null|[']']|Null
-InternImage-H|89.6|1080000000.0|null|[']']|2211.05778v4
-MaxViT-XL (512res, JFT)|89.53|null|null|['JFT-300M']|2204.01697v4
-MAWS (ViT-H)|89.5|650000000.0|null|[']']|Null
-MaxViT-XL (384res, JFT)|89.41|null|null|['JFT-300M']|2204.01697v4
-MaxViT-L (512res, JFT)|89.41|null|null|['JFT-300M']|2204.01697v4
-NFNet-F4+|89.2|527000000.0|null|['CNN', 'JFT-300M']|2102.06171v1
-MaxViT-L (384res, JFT)|89.12|null|null|['JFT-300M']|2204.01697v4
-MOAT-4 22K+1K|89.1|483200000.0|null|['ImageNet-22k']|2210.01820v2
-FD (CLIP ViT-L-336)|89.0|307000000.0|null|['ImageNet-22k', 'CLIP data ']|2205.14141v3
-Last Layer Tuning with Newton Step (ViT-G/14))|88.9|null|null|[']']|2211.13403v1
-TokenLearner L/8 (24+11)|88.87|460000000.0|null|['Transformer', 'JFT-300M']|2106.11297v4
-MaxViT-B (512res, JFT)|88.82|null|null|['JFT-300M']|2204.01697v4
-MAWS (ViT-L)|88.8|null|null|[']']|Null
-MViTv2-H (512 res, ImageNet-21k pretrain)|88.8|667000000.0|null|['ImageNet-22k']|2112.01526v2
-MaxViT-XL (512res, 21K)|88.7|null|null|[']']|2204.01697v4
-MaxViT-B (384res, JFT)|88.69|null|null|[']']|2204.01697v4
-ALIGN (EfficientNet-L2)|88.64|480000000.0|null|['ALIGN', 'EfficientNet']|2102.05918v2
-EfficientNet-L2-475 (SAM)|88.61|480000000.0|null|['JFT-300M', 'EfficientNet']|2010.01412v3
-ViT-B/16|88.6|86000000.0|null|[']']|Null
-BEiT-L (ViT; ImageNet-22K pretrain)|88.6|331000000.0|null|['ImageNet-22k', 'Transformer']|Null
-SWAG (ViT H/14)|88.6|633500000.0|null|[']']|2201.08371v2
-ViT-H/14|88.55|null|null|['JFT-300M', 'Transformer']|2010.11929v2
-CoAtNet-3 @384|88.52|168000000.0|null|[']']|2106.04803v2
-MaxViT-XL (384res, 21K)|88.51|null|null|['ImageNet-22k']|2204.01697v4
-mPLUG-2|88.5|null|null|[']']|2302.00402v1
-OpenCLIP ViT-H/14|88.5|null|null|[']']|2212.07143v1
-FixEfficientNet-L2|88.5|480000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
-ViTAE-H + MAE (448)|88.5|644000000.0|null|[']']|2202.10108v2
-MaxViT-L (512res, 21K)|88.46|null|null|[']']|2204.01697v4
-MViTv2-L (384 res, ImageNet-21k pretrain)|88.4|218000000.0|null|['ImageNet-22k']|2112.01526v2
-NoisyStudent (EfficientNet-L2)|88.4|480000000.0|51800.0|['JFT-300M', 'EfficientNet']|1911.04252v4
-MaxViT-B (512res, 21K)|88.38|null|null|['ImageNet-22k']|2204.01697v4
-Top-k DiffSortNets (EfficientNet-L2)|88.37|null|null|['EfficientNet', 'JFT-300M']|2206.07290v1
-Adlik-ViT-SG+Swin_large+Convnext_xlarge(384)|88.36|1827000000.0|null|[']']|2201.03545v2
-V-MoE-H/14 (Every-2)|88.36|7200000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
-MaxViT-L (384res, 21K)|88.32|null|null|['ImageNet-22k']|2204.01697v4
-Unicom (ViT-L/14@336px) (Finetuned)|88.3|null|null|[']']|2304.05884v1
-PeCo (ViT-H, 448)|88.3|656000000.0|null|['Transformer', 'ImageNet-1k only']|2111.12710v3
-MaxViT-B (384res, 21K)|88.24|null|null|['ImageNet-22k']|2204.01697v4
-V-MoE-H/14 (Last-5)|88.23|2700000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
-dBOT ViT-H (CLIP as Teacher)|88.2|null|null|['CLIP data ']|2209.03917v3
-CAFormer-B36 (384 res, 21K)|88.1|99000000.0|null|['ImageNet-22k']|2210.13452v3
-VIT-H/14|88.08|656000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
-ViT-H@224 (cosub)|88.0|null|null|['ImageNet-22k']|2212.04884v1
-UniRepLKNet-XL++|88.0|null|null|[']']|2311.15599v2
-InternImage-XL|88.0|335000000.0|null|[']']|2211.05778v4
-MViTv2-H (mageNet-21k pretrain)|88.0|667000000.0|null|['ImageNet-22k']|2112.01526v2
-Mixer-H/14 (JFT-300M pre-train)|87.94|null|null|['JFT-300M', 'MLP']|2105.01601v4
-UniRepLKNet-L++|87.9|null|null|[']']|2311.15599v2
-dBOT ViT-L (CLIP as Teacher)|87.8|null|null|['CLIP data ']|2209.03917v3
-MogaNet-XL (384res)|87.8|181000000.0|null|[']']|2211.03295v3
-VAN-B6 (22K, 384res)|87.8|200000000.0|null|['ImageNet-22k']|2202.09741v5
-RepLKNet-XL|87.8|335000000.0|null|['ImageNet-22k']|2203.06717v4
-ConvNeXt-XL (ImageNet-22k)|87.8|350000000.0|null|['CNN', 'ImageNet-22k']|2201.03545v2
-MAE (ViT-H, 448)|87.8|656000000.0|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
-ViT-L/16|87.76|null|null|['JFT-300M', 'Transformer']|2010.11929v2
-HorNet-L (GF)|87.7|null|null|['ImageNet-22k']|2207.14284v3
-InternImage-L|87.7|223000000.0|null|[']']|2211.05778v4
-ConvFormer-B36 (384 res, 21K)|87.6|100000000.0|null|['ImageNet-22k']|2210.13452v3
-BiT-L (ResNet)|87.54|null|null|['ImageNet-22k', 'ResNet']|1912.11370v3
-PeCo (ViT-H, 224)|87.5|null|null|['Transformer', 'ImageNet-1k only']|2111.12710v3
-ViT-L@224 (cosub)|87.5|null|null|['ImageNet-22k']|2212.04884v1
-CAFormer-M36 (384 res, 21K)|87.5|56000000.0|null|['ImageNet-22k']|2210.13452v3
-CSWin-L (384 res,ImageNet-22k pretrain)|87.5|173000000.0|null|['ImageNet-22k', 'Transformer']|2107.00652v3
-DaViT-L (ImageNet-22k)|87.5|196800000.0|null|['ImageNet-22k']|2204.03645v1
-DiNAT-Large (11x11ks; 384res; Pretrained on IN22K@224)|87.5|200000000.0|null|['ImageNet-22k']|2209.15001v3
-V-MoE-L/16 (Every-2)|87.41|3400000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
-DiNAT-Large (384x384; Pretrained on ImageNet-22K @ 224x224)|87.4|null|null|['ImageNet-22k']|2209.15001v3
-data2vec 2.0|87.4|null|null|['ImageNet-1k only']|Null
-UniRepLKNet-B++|87.4|null|null|[']']|2311.15599v2
-CAFormer-B36 (224 res, 21K)|87.4|99000000.0|null|['ImageNet-22k']|2210.13452v3
-UniNet-B6|87.4|117000000.0|null|['ImageNet-22k']|2207.05420v2
-DiNAT_s-Large (384res; Pretrained on IN22K@224)|87.4|197000000.0|null|['ImageNet-22k']|2209.15001v3
-Swin-L|87.3|197000000.0|null|['Transformer']|2103.14030v2
-VOLO-D5+HAT|87.3|295500000.0|null|['ImageNet-1k only', 'Transformer']|2204.00993v3
-EfficientNetV2 (PolyLoss)|87.2|null|null|[']']|2204.12511v2
-ELSA-VOLO-D5 (512*512)|87.2|298000000.0|null|['Transformer', 'ImageNet-1k only']|2112.12786v1
-Bamboo (Bamboo-H)|87.1|null|null|['ImageNet-1k only']|2205.10505v3
-Swin-L@224 (cosub)|87.1|null|null|['ImageNet-22k']|2212.04884v1
-FixEfficientNet-B7|87.1|66000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
-FAN-L-Hybrid++|87.1|76800000.0|null|[']']|2204.12451v4
-SwinV2-B|87.1|88000000.0|null|[']']|2111.09883v2
-VOLO-D5|87.1|296000000.0|null|['ImageNet-1k only']|2106.13112v2
-PatchConvNet-L120-21k-384|87.1|334300000.0|null|['PatchConvnet', 'ImageNet-22k']|Null
-16-TokenLearner B/16 (21)|87.07|null|null|['Transformer', 'JFT-300M']|2106.11297v4
-MAE+DAT (ViT-H)|87.02|null|null|[']']|2209.07735v1
-UniNet-B5|87.0|72900000.0|null|['ImageNet-22k']|2207.05420v2
-VAN-B5 (22K, 384res)|87.0|90000000.0|null|[']']|2202.09741v5
-ConvFormer-B36 (224 res, 21K)|87.0|100000000.0|null|['ImageNet-22k']|2210.13452v3
-MAE (ViT-H)|86.9|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
-Hiera-H|86.9|null|null|['ImageNet-1k only', 'Transformer']|2306.00989v1
-CAFormer-S36 (384 res, 21K)|86.9|39000000.0|null|['ImageNet-22k']|2210.13452v3
-ConvFormer-M36 (384 res, 21K)|86.9|57000000.0|null|['ImageNet-22k']|2210.13452v3
-NoisyStudent (EfficientNet-B7)|86.9|66000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
-DaViT-B (ImageNet-22k)|86.9|87900000.0|null|[']']|2204.03645v1
-MAWS (ViT-B)|86.8|null|null|[']']|Null
-EfficientNetV2L|86.8|121000000.0|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
-VOLO-D4|86.8|193000000.0|null|['ImageNet-1k only']|2106.13112v2
-NFNet-F5 w/ SAM w/ augmult=16|86.78|377200000.0|null|['CNN', 'ImageNet-1k only']|2105.13343v2
-\u00b52Net (ViT-L/16)|86.74|null|null|['ImageNet-22k']|2205.12755v6
-ViT-B @384 (DeiT III, 21k)|86.7|null|null|['ImageNet-22k']|2204.07118v1
-MaxViT-L (512res)|86.7|null|null|[']']|2204.01697v4
-FixEfficientNet-B6|86.7|43000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
-MOAT-3 1K only|86.7|190000000.0|null|[']']|2210.01820v2
-Heinsen Routing + BEiT-large 16 224|86.7|312800000.0|null|['Transformer', 'ImageNet-1k only']|2211.11754v3
-CLCNet (S:ViT+D:EffNet-B7) (retrain)|86.61|null|null|['ImageNet-1k only']|2205.09612v5
-CAFormer-M36 (224 res, 21K)|86.6|56000000.0|null|['ImageNet-22k']|2210.13452v3
-VAN-B4 (22K, 384res)|86.6|60000000.0|null|[']']|2202.09741v5
-data2vec (ViT-H)|86.6|656000000.0|null|['ImageNet-1k only']|2202.03555v3
-DiNAT_s-Large (224x224; Pretrained on ImageNet-22K @ 224x224)|86.5|null|null|['ImageNet-22k']|2209.15001v3
-MKD ViT-L|86.5|null|null|['Teacher-22k', 'ImageNet-22k']|2202.07940v1
-TinyViT-21M-512-distill (512 res, 21k)|86.5|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
-PatchConvNet-B60-21k-384|86.5|99400000.0|null|['PatchConvnet', 'ImageNet-22k']|Null
-CaiT-M-48-448|86.5|438000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-NFNet-F6 w/ SAM|86.5|438400000.0|null|['ImageNet-1k only']|2102.06171v1
-CLCNet (S:ViT+D:VOLO-D3) (retrain)|86.46|null|null|['ImageNet-1k only']|2205.09612v5
-CLCNet (S:ConvNeXt-L+D:EffNet-B7) (retrain)|86.42|null|null|['ImageNet-1k only']|2205.09612v5
-MaxViT-L (384res)|86.4|null|null|[']']|2204.01697v4
-UniRepLKNet-S++|86.4|null|null|[']']|2311.15599v2
-FixEfficientNet-B5|86.4|30000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
-ConvFormer-S36 (384 res, 21K)|86.4|40000000.0|null|['ImageNet-22k']|2210.13452v3
-NoisyStudent (EfficientNet-B6)|86.4|43000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
-Swin-B|86.4|88000000.0|null|['ImageNet-22k', 'Transformer']|2103.14030v2
-CAFormer-B36 (384 res)|86.4|99000000.0|null|['ImageNet-1k only']|2210.13452v3
-LV-ViT-L|86.4|151000000.0|null|['ImageNet-1k only', 'Transformer']|2104.10858v3
-FixResNeXt-101 32x48d|86.4|829000000.0|62.0|['ResNeXt']|1906.06423v4
-MaxViT-B (384res)|86.34|null|null|[']']|2204.01697v4
-Bamboo (Bamboo-L)|86.3|null|null|['ImageNet-1k only']|2205.10505v3
-ViT-B@224 (cosub)|86.3|null|null|['ImageNet-22k']|2212.04884v1
-"Our SP-ViT-L|384"|86.3|null|null|[']']|2206.07662v1
-BEiT-L (ViT; ImageNet 1k pretrain)|86.3|86000000.0|null|['Transformer', 'ImageNet-1k only']|Null
-VOLO-D3|86.3|86000000.0|null|['ImageNet-1k only']|2106.13112v2
-VAN-B5 (22K)|86.3|90000000.0|null|[']']|2202.09741v5
-UniFormer-L (384 res)|86.3|100000000.0|null|[']']|2201.09450v3
-MViTv2-L (384 res)|86.3|218000000.0|null|[']']|2112.01526v2
-CAIT-M36-448|86.3|271000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-NFNet-F5 w/ SAM|86.3|377200000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-Swin-B@224 (cosub)|86.2|null|null|['ImageNet-22k']|2212.04884v1
-TinyViT-21M-384-distill (384 res, 21k)|86.2|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
-CAFormer-M36 (384 res)|86.2|56000000.0|null|['ImageNet-1k only']|2210.13452v3
-TransNeXt-Base (IN-1K supervised, 384)|86.2|89700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
-MIRL (ViT-B-48)|86.2|341000000.0|null|['Transformer', 'ImageNet-1k only']|Null
-MaxViT-S (512res)|86.19|null|null|[']']|2204.01697v4
-NoisyStudent (EfficientNet-B5)|86.1|30000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
-EfficientNetV2-M (21k)|86.1|55000000.0|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
-ConvFormer-M36 (224 res, 21K)|86.1|57000000.0|null|['ImageNet-22k']|2210.13452v3
-CAIT-M-36|86.1|270900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-Refiner-ViT-L|86.03|81000000.0|null|['ImageNet-1k only', 'Transformer']|2106.03714v1
-GPaCo (ViT-L)|86.01|null|null|['Contrastive', 'Transformer', 'ImageNet-1k only']|2209.12400v2
-Omnivore (Swin-L)|86.0|null|null|[']']|2201.08377v2
-"Our SP-ViT-M|384"|86.0|null|null|[']']|2206.07662v1
-TransNeXt-Small (IN-1K supervised, 384)|86.0|49700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
-VOLO-D2|86.0|59000000.0|null|['ImageNet-1k only']|2106.13112v2
-XCiT-L24|86.0|189000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
-SparK (ConvNeXt-Large, 384)|86.0|198000000.0|null|['ConvNeXt', 'CNN', 'ImageNet-1k only']|2301.03580v2
-NFNet-F5|86.0|377200000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-MAE (ViT-L)|85.9|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
-DAT-B++ (384x384)|85.9|null|null|[']']|2309.01430v1
-FixEfficientNet-B4|85.9|19000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
-NFNet-F4|85.9|316100000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-ConvNeXt-B@224 (cosub)|85.8|null|null|['ImageNet-22k']|2212.04884v1
-PiT-B@224 (cosub)|85.8|null|null|['ImageNet-22k']|2212.04884v1
-GTP-ViT-B-Patch8/P20|85.8|null|null|[']']|2311.03035v2
-CAFormer-S36 (224 res, 21K)|85.8|39000000.0|null|['ImageNet-22k']|2210.13452v3
-XCiT-M24|85.8|84000000.0|null|['ImageNet-1k only', 'Transformer']|2106.09681v2
-Fix-EfficientNet-B8 (MaxUp + CutMix)|85.8|87420000.0|null|['ImageNet-1k only', 'EfficientNet']|2002.09024v1
-KDforAA (EfficientNet-B8)|85.8|88000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.11342v1
-CAIT-M-24|85.8|185900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-ViT-L|85.8|304800000.0|null|['ImageNet-1k only']|2204.07118v1
-SEER (RG-10B)|85.8|10000000000.0|null|['Self-Supervised Learning', 'RegNet', 'IG-1B']|2202.08360v2
-MaxViT-T(512res)|85.72|null|null|[']']|2204.01697v4
-FixEfficientNet-B8|85.7|null|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-EfficientNetV2-L|85.7|null|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
-ViT-B @224 (DeiT III, 21k)|85.7|null|null|['ImageNet-22k']|2204.07118v1
-dBOT ViT-B (CLIP as Teacher)|85.7|null|null|['CLIP data ']|2209.03917v3
-CAFormer-S36 (384 res)|85.7|39000000.0|null|['ImageNet-1k only']|2210.13452v3
-VAN-B4 (22K)|85.7|60000000.0|null|[']']|2202.09741v5
-ConvFormer-B36 (384 res)|85.7|100000000.0|null|['ImageNet-1k only']|2210.13452v3
-NFNet-F3|85.7|254900000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-ViT-H @224 (DeiT-III + AugSub)|85.7|632000000.0|null|[']']|Null
-XCiT-S24|85.6|48000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
-ConvFormer-M36 (384 res)|85.6|57000000.0|null|['ImageNet-1k only']|2210.13452v3
-UniFormer-L|85.6|100000000.0|null|[']']|2201.09450v3
-ViT-L@384 (attn finetune)|85.5|null|null|['ImageNet-1k only']|2203.09795v1
-Our SP-ViT-L|85.5|null|null|[']']|2206.07662v1
-Mini-Swin-B@384|85.5|47000000.0|null|['Conv+Transformer', 'ImageNet-1k only', 'Transformer']|2204.07154v1
-Wave-ViT-L|85.5|57500000.0|null|[']']|2207.04978v1
-KDforAA (EfficientNet-B7)|85.5|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.11342v1
-HaloNet4 (base 128, Conv-12)|85.5|87000000.0|null|['Transformer', 'ImageNet-1k only']|2103.12731v3
-AdvProp (EfficientNet-B8)|85.5|88000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.09665v2
-CAFormer-B36 (224 res)|85.5|99000000.0|null|['ImageNet-1k only']|2210.13452v3
-ConvNeXt-L (384 res)|85.5|198000000.0|null|[']']|2201.03545v2
-EfficientNet-B8 (RandAugment)|85.4|null|null|['ImageNet-1k only', 'EfficientNet']|1909.13719v2
-BiFormer-B* (IN1k ptretrain)|85.4|null|null|[']']|2303.08810v1
-GTP-EVA-L/P8|85.4|null|null|[']']|2311.03035v2
-PatchConvNet-S60-21k-512|85.4|25200000.0|null|['ImageNet-22k', 'PatchConvnet']|Null
-CAFormer-S18 (384 res, 21K)|85.4|26000000.0|null|['ImageNet-22k']|2210.13452v3
-ConvFormer-S36 (224 res, 21K)|85.4|40000000.0|null|['ImageNet-22k']|2210.13452v3
-ConvFormer-S36 (384 res)|85.4|40000000.0|null|['ImageNet-1k only']|2210.13452v3
-CAIT-S-36|85.4|68200000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-ResNeXt-101 32x48d|85.4|829000000.0|null|['IG-1B', 'ResNeXt']|1805.00932v1
-BiT-M (ResNet)|85.39|928000000.0|null|['ImageNet-22k', 'ResNet']|1912.11370v3
-ViT-L/16 Dosovitskiy et al. (2021)|85.3|null|null|['JFT-300M', 'Transformer']|2105.01601v4
-Omnivore (Swin-B)|85.3|null|null|[']']|2201.08377v2
-NoisyStudent (EfficientNet-B4)|85.3|19000000.0|null|['EfficientNet']|1911.04252v4
-CAIT-S-48|85.3|89500000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-ViT-L @224 (DeiT-III + AugSub)|85.3|304000000.0|null|[']']|Null
-CLCNet (S:D1+D:D5)|85.28|null|null|['ImageNet-1k only']|2205.09612v5
-MaxViT-T (384res)|85.24|null|null|[']']|2204.01697v4
-ViT-H @224 (DeiT III)|85.2|null|null|['ImageNet-1k only']|2204.07118v1
-VOLO-D1|85.2|27000000.0|null|['ImageNet-1k only']|2106.13112v2
-CAFormer-M36 (224 res)|85.2|56000000.0|null|['ImageNet-1k only']|2210.13452v3
-AdvProp (EfficientNet-B7)|85.2|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.09665v2
-UniNet-B5|85.2|73500000.0|null|[']']|2110.04035v1
-DeiT-B 384|85.2|87000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
-EfficientNetV2-M|85.1|null|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
-MKD ViT-B|85.1|null|null|['Teacher-22k', 'ImageNet-22k']|2202.07940v1
-"SP-ViT-S|384"|85.1|null|null|[']']|2206.07662v1
-XCiT-S12|85.1|26000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
-CAIT-S-24|85.1|46900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-ResNet200_vd_26w_4s_ssld|85.1|76000000.0|null|['ResNet']|Null
-MixMIM-B|85.1|88000000.0|null|[']']|2205.13137v4
-NFNet-F2|85.1|193800000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-ResNeXt-101 32x32d|85.1|466000000.0|null|['ResNeXt']|1805.00932v1
-DiscreteViT|85.07|null|null|['Transformer', 'ImageNet-1k only']|2111.10493v2
-EfficientNetV2-S (21k)|85.0|null|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
-ViT-M@224 (cosub)|85.0|null|null|['ImageNet-22k']|2212.04884v1
-ViC-MAE (ViT-L)|85.0|null|null|[']']|2303.12001v2
-FixEfficientNet-B3|85.0|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-CAFormer-S18 (384 res)|85.0|26000000.0|null|['ImageNet-1k only']|2210.13452v3
-ConvFormer-S18 (384 res, 21K)|85.0|27000000.0|null|['ImageNet-22k']|2210.13452v3
-EfficientNet-B7 (RandAugment)|85.0|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1909.13719v2
-ViT-B @384 (DeiT III)|85.0|87000000.0|null|['ImageNet-1k only']|2204.07118v1
-MaxViT-B (224res)|84.95|null|null|[']']|2204.01697v4
-CaiT-S24|84.91|null|null|[']']|2308.09372v1
-ViT-L @224 (DeiT III)|84.9|null|null|['ImageNet-1k only']|2204.07118v1
-Our SP-ViT-M|84.9|null|null|[']']|2206.07662v1
-DAT-B++ (224x224)|84.9|null|null|[']']|2309.01430v1
-CvT-21 (384 res, ImageNet-22k pretrain)|84.9|32000000.0|null|['ImageNet-22k', 'Transformer']|2103.15808v1
-InternImage-B|84.9|97000000.0|null|[']']|2211.05778v4
-TinyViT-21M-distill (21k)|84.8|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
-Wave-ViT-B|84.8|33500000.0|null|[']']|2207.04978v1
-CAIT-XS-36|84.8|38600000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-SReT-B (384 res, ImageNet-1K only)|84.8|71200000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
-MViT-B-24|84.8|72900000.0|null|['Transformer', 'ImageNet-1k only']|2104.11227v1
-ActiveMLP-L|84.8|76400000.0|null|[']']|2203.06108v2
-NoisyViT-B (384res, ImageNet-21k pretrain)|84.8|86000000.0|null|[']']|2309.10625v3
-DAT-B (384 res, IN-1K only)|84.8|88000000.0|null|['Transformer']|2201.00520v3
-MIRL(ViT-S-54)|84.8|96000000.0|null|['Transformer', 'ImageNet-1k only']|Null
-ConvFormer-B36 (224 res)|84.8|100000000.0|null|['ImageNet-1k only']|2210.13452v3
-ResNeXt-101 32x16d (semi-weakly sup.)|84.8|193000000.0|null|['IG-1B', 'ResNeXt']|1905.00546v1
-ELSA-VOLO-D1|84.7|27000000.0|null|['ImageNet-1k only']|2112.12786v1
-TransNeXt-Small (IN-1K supervised, 224)|84.7|49700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
-Next-ViT-L @384|84.7|57800000.0|null|[']']|2207.05501v4
-BoTNet T7|84.7|75100000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-MogaNet-L|84.7|83000000.0|null|['CNN']|2211.03295v3
-"LITv2-B|384"|84.7|87000000.0|null|[']']|2205.13213v5
-NFNet-F1|84.7|132600000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-DAT-S++|84.6|null|null|[']']|2309.01430v1
-Sequencer2D-L\u2191392|84.6|54000000.0|null|[']']|Null
-SE-CoTNetD-152|84.6|55800000.0|null|[']']|2107.12292v1
-DaViT-B|84.6|87900000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1
-ReXNet-R_3.0|84.5|34800000.0|null|[']']|2007.00992v3
-CAFormer-S36 (224 res)|84.5|39000000.0|null|['ImageNet-1k only']|2210.13452v3
-ConvFormer-M36 (224 res)|84.5|57000000.0|null|['ImageNet-1k only']|2210.13452v3
-GC ViT-B|84.5|90000000.0|null|[']']|2206.09959v5
-ResNeSt-269|84.5|111000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
-MaxViT-S (224res)|84.45|null|null|[']']|2204.01697v4
-GPIPE|84.4|null|null|['ImageNet-1k only']|1811.06965v5
-ConvFormer-S18 (384 res)|84.4|27000000.0|null|['ImageNet-1k only']|2210.13452v3
-EfficientNet-B7|84.4|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-DiNAT-Base|84.4|90000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3
-ResNet-RS-50 (160 image res)|84.4|192000000.0|null|['ImageNet-1k only', 'ResNet']|2103.07579v1
-ColorNet (RHYLH with Conv Layer)|84.32|null|null|[']']|1902.00267v1
-ViT-B@384 (attn finetune)|84.3|null|null|['ImageNet-1k only']|2203.09795v1
-BiFormer-S* (IN1k ptretrain)|84.3|null|null|[']']|2303.08810v1
-SReT-S (512 res, ImageNet-1K only)|84.3|21300000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
-LambdaResNet200|84.3|42000000.0|null|['CNN', 'ImageNet-1k only']|2102.08602v1
-MogaNet-B|84.3|44000000.0|null|['CNN']|2211.03295v3
-TResNet-XL|84.3|77000000.0|null|['CNN', 'ImageNet-1k only']|
-ResNeXt-101 32x8d (semi-weakly sup.)|84.3|88000000.0|null|['ResNeXt']|1905.00546v1
-NAT-Base|84.3|90000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
-Assemble-ResNet152|84.2|null|null|['ImageNet-1k only', 'ResNet']|2001.06268v2
-BoTNet T7-320|84.2|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-"ViP-B|384"|84.2|null|null|['Transformer', 'ImageNet-1k only']|2107.05790v2
-Bamboo (Bamboo-B)|84.2|null|null|['ImageNet-1k only']|2205.10505v3
-RegnetY16GF@224 (cosub)|84.2|null|null|['ImageNet-22k']|2212.04884v1
-EfficientViT-B3 (r288)|84.2|null|null|[']']|2205.14756v6
-InternImage-S|84.2|50000000.0|null|[']']|2211.05778v4
-UniNet-B4|84.2|73500000.0|null|[']']|2110.04035v1
-DeiT-B|84.2|86000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
-ViT-B @224 (DeiT-III + AugSub)|84.2|86600000.0|null|[']']|Null
-RevBiFPN-S6|84.2|142300000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
-ResNeXt-101 32\u00d716d|84.2|194000000.0|null|[']']|1805.00932v1
-FBNetV5-F-CLS|84.1|null|null|[']']|2111.10007v2
-ViT-B-36x1|84.1|null|null|['ImageNet-1k only']|2203.09795v1
-ViT-B-18x2|84.1|null|null|['ImageNet-1k only']|2203.09795v1
-XCiT-M (+MixPro)|84.1|null|null|[']']|2304.12043v2
-NoisyStudent (EfficientNet-B3)|84.1|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.04252v4
-CAFormer-S18 (224 res, 21K)|84.1|26000000.0|null|['ImageNet-22k']|2210.13452v3
-CAIT-XS-24|84.1|26600000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-ConvFormer-S36 (224 res)|84.1|40000000.0|null|['ImageNet-1k only']|2210.13452v3
-LV-ViT-M|84.1|56000000.0|null|['ImageNet-1k only', 'Transformer']|2104.10858v3
-Conformer-B|84.1|83300000.0|null|['ImageNet-1k only', 'Transformer']|Null
-PatchConvNet-B120|84.1|188600000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
-GPaCo (Vit-B)|84.0|null|null|[']']|2209.12400v2
-AIM-7B|84.0|null|null|[']']|Null
-FixEfficientNetB4|84.0|19000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-Fix_ResNet50_vd_ssld|84.0|25580000.0|null|['ResNet']|Null
-TransNeXt-Tiny (IN-1K supervised, 224)|84.0|28200000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
-LambdaResNet152|84.0|35000000.0|null|['ImageNet-1k only', 'ResNet']|2102.08602v1
-EfficientNet-B6|84.0|43000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-GC ViT-S|84.0|51000000.0|null|[']']|2206.09959v5
-BoTNet T6|84.0|53900000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-PiT-B|84.0|73800000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
-DeepMAD-89M|84.0|89000000.0|null|['ImageNet-1k only', 'CNN']|2303.02165v3
-Our SP-ViT-S|83.9|null|null|[']']|2206.07662v1
-UniRepLKNet-S|83.9|null|null|[']']|2311.15599v2
-DAT-T++|83.9|null|null|[']']|2309.01430v1
-Wave-ViT-S|83.9|22700000.0|null|[']']|2207.04978v1
-EfficientNetV2-S|83.9|24000000.0|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
-ASF-former-B|83.9|56700000.0|null|[']']|2204.12196v2
-DynamicViT-LV-M/0.8|83.9|57100000.0|null|['ImageNet-1k only', 'Transformer']|Null
-TNT-B|83.9|65600000.0|null|['ImageNet-1k only', 'Transformer']|2103.00112v3
-ResNeSt-200|83.9|70000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
-AmoebaNet-A|83.9|469000000.0|null|['CNN', 'ImageNet-1k only']|1802.01548v7
-CLCNet (S:B4+D:B7)|83.88|null|null|['ImageNet-1k only']|2205.09612v5
-ResNet-RS-270 (256 image res)|83.8|null|null|['ImageNet-1k only', 'ResNet']|2103.07579v1
-SENet-350|83.8|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-ViT-B @224 (DeiT III)|83.8|null|null|['ImageNet-1k only']|2204.07118v1
-SReT-S (384 res, ImageNet-1K only)|83.8|21000000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
-DiNAT-Small|83.8|51000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3
-Transformer local-attention (NesT-B)|83.8|68000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
-PVTv2-B4|83.8|82000000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
-CA-Swin-S (+MixPro)|83.7|null|null|[']']|2304.12043v2
-GTP-ViT-L/P8|83.7|null|null|[']']|2311.03035v2
-ConvFormer-S18 (224 res, 21K)|83.7|27000000.0|null|['ImageNet-22k']|2210.13452v3
-DAT-S|83.7|50000000.0|null|[']']|2201.00520v3
-NAT-Small|83.7|51000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
-QnA-ViT-Base|83.7|56000000.0|null|[']']|Null
-RevBiFPN-S5|83.7|82000000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
-Pyramid ViG-B|83.7|92600000.0|null|[']']|2206.00272v3
-Twins-SVT-L|83.7|99200000.0|null|['ImageNet-1k only', 'Transformer']|2104.13840v4
-TransBoost-ViT-S|83.67|22050000.0|null|[']']|2205.13331v4
-XCiT-S|83.65|null|null|[']']|2308.09372v1
-MaxViT-T (224res)|83.62|null|null|[']']|2204.01697v4
-Wave-ViT-S|83.61|null|null|[']']|2308.09372v1
-LITv2-B|83.6|null|null|[']']|2205.13213v5
-MultiGrain PNASNet (500px)|83.6|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-MAE (ViT-L)|83.6|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
-PAT-B|83.6|null|null|[']']|2211.16961v5
-FixEfficientNet-B2|83.6|9200000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-CAFormer-S18 (224 res)|83.6|26000000.0|null|[']']|2210.13452v3
-IPT-B|83.6|39300000.0|null|[']']|2212.03035v1
-ViTAE-B-Stage|83.6|48500000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
-ResT-Large|83.6|51630000.0|null|['ImageNet-1k only', 'Transformer']|2105.13677v5
-NFNet-F0|83.6|71500000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
-SE-ResNeXt-101, 64x4d, S=2(320px)|83.6|98000000.0|null|[']']|Null
-ResMLP-B24/8|83.6|116000000.0|null|['ImageNet-1k only', 'MLP']|2105.03404v2
-BoTNet T5|83.5|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-InternImage-T|83.5|30000000.0|null|[']']|2211.05778v4
-PatchConvNet-B60|83.5|99400000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
-ViT-B (hMLP + BeiT)|83.4|null|null|[']']|2203.09795v1
-UniFormer-S|83.4|22000000.0|null|[']']|2201.09450v3
-ViT-S @384 (DeiT III)|83.4|22000000.0|null|[']']|2204.07118v1
-MogaNet-S|83.4|25000000.0|null|['CNN']|2211.03295v3
-GC ViT-T|83.4|28000000.0|null|[']']|2206.09959v5
-ResNeXt-101 32x4d (semi-weakly sup.)|83.4|42000000.0|null|['ResNeXt']|1905.00546v1
-Sequencer2D-L|83.4|54000000.0|null|[']']|Null
-sMLPNet-B (ImageNet-1k)|83.4|65900000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
-SE-ResNeXt-101, 64x4d, S=2(416px)|83.34|98000000.0|null|['ImageNet-1k only', 'ResNeXt']|Null
-CvT-21 (384 res)|83.3|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
-"T2T-ViT-14|384"|83.3|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-CeiT-S (384 finetune res)|83.3|24200000.0|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
-LV-ViT-S|83.3|26000000.0|null|[']']|2104.10858v3
-MOAT-0 1K only|83.3|27800000.0|null|[']']|2210.01820v2
-EfficientNet-B5|83.3|30000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-Transformer local-attention (NesT-S)|83.3|38000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
-ViL-Medium-D|83.3|39700000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
-LITv2-M|83.3|49000000.0|null|[']']|2205.13213v5
-Shift-B|83.3|88000000.0|null|[']']|2201.10801v1
-MultiGrain PNASNet (450px)|83.2|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-Meta Pseudo Labels (ResNet-50)|83.2|null|null|[']']|2003.10580v4
-UniRepLKNet-T|83.2|null|null|[']']|2311.15599v2
-TinyViT-11M-distill (21k)|83.2|11000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
-ReXNet-R_2.0|83.2|16500000.0|null|[']']|2007.00992v3
-QnA-ViT-Small|83.2|25000000.0|null|[']']|Null
-NAT-Tiny|83.2|28000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
-SE-CoTNetD-101|83.2|40900000.0|null|[']']|2107.12292v1
-Next-ViT-B|83.2|44800000.0|null|[']']|2207.05501v4
-PVTv2-B3|83.2|45200000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
-PatchConvNet-S120|83.2|47700000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
-ViL-Base-D|83.2|55700000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
-CycleMLP-B5|83.2|76000000.0|null|['ImageNet-1k only', 'MLP']|2107.10224v4
-MultiGrain SENet154 (450px)|83.1|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-DeepVit-L* (DeiT training recipe)|83.1|null|null|['ImageNet-1k only', 'Transformer']|2103.11886v4
-ViT-S @224 (DeiT III, 21k)|83.1|null|null|[']']|2204.07118v1
-MKD ViT-S|83.1|null|null|[']']|2202.07940v1
-ViT-S@224 (cosub)|83.1|null|null|['ImageNet-22k']|2212.04884v1
-PAT-S|83.1|null|null|[']']|2211.16961v5
-TinyViT-21M|83.1|21000000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
-sMLPNet-S (ImageNet-1k)|83.1|48600000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
-Pyramid ViG-M|83.1|51700000.0|null|[']']|2206.00272v3
-SwinV2-Ti|83.09|null|null|[']']|2308.09372v1
-gSwin-S|83.01|39800000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
-MultiGrain SENet154 (400px)|83.0|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-CvT-13 (384 res)|83.0|20000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
-ResNet50_vd_ssld|83.0|25580000.0|null|['ImageNet-1k only', 'ResNet']|Null
-ConvFormer-S18 (224 res)|83.0|27000000.0|null|['ImageNet-1k only']|2210.13452v3
-MViT-B-16|83.0|37000000.0|null|['Transformer', 'ImageNet-1k only']|2104.11227v1
-ResNeSt-101|83.0|48000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
-RevBiFPN-S4|83.0|48700000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
-ZenNAS (0.8ms)|83.0|183000000.0|null|[']']|2102.01063v4
-NASViT (supernet)|82.9|null|null|[']']|Null
-DeiT-B (+MixPro)|82.9|null|null|[']']|2304.12043v2
-IPT-S|82.9|24300000.0|null|[']']|2212.03035v1
-ViL-Medium-W|82.9|39800000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
-GFNet-H-B|82.9|54000000.0|null|['Transformer', 'ImageNet-1k only']|Null
-Oct-ResNet-152 (SE)|82.9|66800000.0|20771.0|['CNN', 'ImageNet-1k only']|1904.05049v3
-PNASNet-5|82.9|86100000.0|null|['CNN', 'ImageNet-1k only']|1712.00559v3
-Harm-SE-RNX-101 64x4d (320x320, Mean-Max Pooling)|82.85|88200000.0|null|['CNN', 'ImageNet-1k only']|2001.06570v3
-GTP-LV-ViT-M/P8|82.8|null|null|[']']|2311.03035v2
-FunMatch - T384+224 (ResNet-50)|82.8|null|null|['CNN', 'ImageNet-1k only']|2106.05237v2
-CA-Swin-T (+MixPro)|82.8|null|null|[']']|2304.12043v2
-VAN-B2|82.8|26600000.0|null|[']']|2202.09741v5
-DaViT-T|82.8|28300000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1
-ReXNet_3.0|82.8|34700000.0|null|['ImageNet-1k only']|2007.00992v3
-Sequencer2D-M|82.8|38000000.0|null|[']']|Null
-CrossViT-18+|82.8|44300000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
-Shift-S|82.8|50000000.0|null|[']']|2201.10801v1
-HRFormer-B|82.8|50300000.0|null|[']']|2110.09408v3
-BoTNet T4|82.8|54700000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-"CCT-14/7x2 | 384"|82.71|null|null|['Transformer', 'ImageNet-1k only']|2104.05704v4
-MultiGrain SENet154 (500px)|82.7|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-PVT-M (+MixPro)|82.7|null|null|[']']|2304.12043v2
-ASF-former-S|82.7|19300000.0|null|[']']|2204.12196v2
-Container Container|82.7|22100000.0|null|[']']|2106.01401v2
-UniNet-B2|82.7|22500000.0|null|[']']|2110.04035v1
-DiNAT-Tiny|82.7|28000000.0|null|['Neighborhood Attention', 'Transformer', 'NAT Transformer', 'ImageNet-1k only']|2209.15001v3
-ELSA-Swin-T|82.7|28000000.0|null|[']']|2112.12786v1
-NASNET-A(6)|82.7|88900000.0|1648.0|['CNN', 'ImageNet-1k only']|1707.07012v4
-RVT-B*|82.7|91800000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
-FBNetV5-C-CLS|82.6|null|null|[']']|2111.10007v2
-MultiGrain PNASNet (400px)|82.6|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-ViT-S-24x2|82.6|null|null|[']']|2203.09795v1
-FixEfficientNet-B1|82.6|7800000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-EfficientNet-B4|82.6|19000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-DeiT-B|82.6|22000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
-T2T-ViTt-24|82.6|64400000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-ViT-S|82.54|null|null|[']']|2308.09372v1
-CvT-21|82.5|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
-TransNeXt-Micro (IN-1K supervised, 224)|82.5|12800000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
-FixResNet-50 Billion-scale@224|82.5|25600000.0|null|[']']|1906.06423v4
-Next-ViT-S|82.5|31700000.0|null|[']']|2207.05501v4
-LeViT-384|82.5|39400000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
-CrossViT-18|82.5|43300000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
-MetaFormer PoolFormer-M48|82.5|73000000.0|null|['Transformer', 'ImageNet-1k only']|2111.11418v3
-ConViT-B+|82.5|152000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-TransBoost-ConvNext-T|82.46|28590000.0|null|[']']|2205.13331v4
-ReViT-B|82.4|null|null|[']']|Null
-NoisyStudent (EfficientNet-B2)|82.4|9200000.0|null|['ImageNet-1k only', 'JFT-300M', 'EfficientNet']|1911.04252v4
-AutoFormer-base|82.4|54000000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
-ResNet-152 (A2 + reg)|82.4|60200000.0|null|['CNN', 'ImageNet-1k only']|Null
-ConViT-B|82.4|86000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-DeiT-B with iRPE-K|82.4|87000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
-Mega|82.4|90000000.0|null|[']']|2209.10655v3
-ResMLP-B24 + STD|82.4|122600000.0|null|[']']|Null
-ViT-B/16-224+HTM|82.37|null|null|[']']|2210.07562v1
-ColorNet|82.35|null|null|['CNN', 'ImageNet-1k only']|1902.00267v1
-T2T-ViT-24|82.3|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-ViT-S-48x1|82.3|null|null|[']']|2203.09795v1
-MViTv2-T|82.3|24000000.0|null|[']']|2112.01526v2
-SCARLET-A4|82.3|27800000.0|12.0|['CNN', 'ImageNet-1k only']|1908.06022v6
-Sequencer2D-S|82.3|28000000.0|null|[']']|Null
-CrossViT-15+|82.3|28200000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
-GLiT-Bases|82.3|96100000.0|null|['Transformer', 'ImageNet-1k only']|2107.02960v3
-EViT (delete)|82.29|null|null|[']']|2308.09372v1
-STViT-Swin-Ti|82.22|null|null|[']']|2308.09372v1
-BossNet-T1|82.2|null|null|[']']|2103.12424v3
-CAIT-XXS-36|82.2|17300000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-CvT-13-NAS|82.2|18000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
-ViTAE-S-Stage|82.2|19200000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
-T2T-ViTt-19|82.2|39200000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-Evo-LeViT-384*|82.2|39600000.0|null|['Transformer', 'ImageNet-1k only']|2108.01390v5
-Visformer-S|82.2|40200000.0|null|['ImageNet-1k only', 'Transformer']|2104.12533v4
-ConViT-S+|82.2|48000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-ConvMixer-1536/20|82.2|51600000.0|null|['Mixer', 'ImageNet-1k only']|2201.09792v1
-DeepVit-L|82.2|55000000.0|null|['ImageNet-1k only', 'Transformer']|2103.11886v4
-SENet-152|82.2|66600000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
-ResNeXt-101 32x8d|82.2|88000000.0|null|['ImageNet-1k only', 'ResNeXt']|1805.00932v1
-TransBoost-Swin-T|82.16|71710000.0|null|[']']|2205.13331v4
-ResNeXt-101, 64x4d, S=2(224px)|82.13|88600000.0|null|['ImageNet-1k only', 'ResNeXt']|Null
-ToMe-ViT-S|82.11|null|null|[']']|2308.09372v1
-PatchConvNet-S60|82.1|25200000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
-Pyramid ViG-S|82.1|27300000.0|null|[']']|2206.00272v3
-ConvNeXt-T|82.1|29000000.0|null|[']']|2201.03545v2
-CycleMLP-B2 + STD|82.1|30100000.0|null|[']']|Null
-CeiT-S|82.0|null|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
-DIFFQ (\u03bb=1e\u22122)|82.0|null|null|['CNN', 'ImageNet-1k only']|2104.09987v3
-NEXcepTion-S|82.0|null|null|[']']|2212.08448v2
-GC ViT-XT|82.0|20000000.0|null|[']']|2206.09959v5
-Container-Light|82.0|20000000.0|null|['CNN', 'Transformer', 'ImageNet-1k only']|2106.01401v2
-ViL-Small|82.0|24600000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
-PVTv2-B2|82.0|25400000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
-ActiveMLP-T|82.0|27200000.0|null|[']']|2203.06108v2
-LITv2-S|82.0|28000000.0|null|[']']|2205.13213v5
-DAT-T|82.0|29000000.0|null|[']']|2201.00520v3
-Swin-T (SAMix+DM)|81.97|null|null|[']']|Null
-EViT (fuse)|81.96|null|null|[']']|2308.09372v1
-Swin-T (AutoMix+DM)|81.92|null|null|[']']|Null
-GTP-LV-ViT-S/P8|81.9|null|null|[']']|2311.03035v2
-T2T-ViT-19|81.9|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-ResNet-101 (224 res, Fast Knowledge Distillation)|81.9|null|null|['ImageNet-1k only', 'ResNet']|2112.01528v1
-Discrete Adversarial Distillation (ViT-B, 224)|81.9|null|null|[']']|Null
-RVT-S*|81.9|23300000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
-PiT-S|81.9|23500000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
-sMLPNet-T (ImageNet-1k)|81.9|24100000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
-ViL-Base-W|81.9|79000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
-Swin-T+SSA|81.89|null|null|[']']|2306.01705v1
-AOGNet-40M-AN|81.87|null|null|['ImageNet-1k only']|1908.01259v3
-FBNetV5|81.8|null|null|['Transformer', 'ImageNet-1k only']|2111.10007v2
-NASViT-A5|81.8|null|null|[']']|Null
-ResNet-200|81.8|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
-RepMLPNet-L256|81.8|null|null|['MLP', 'ImageNet-1k only']|2112.11081v2
-NEXcepTion-TP|81.8|null|null|[']']|2212.08448v2
-NAT-Mini|81.8|20000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
-DiNAT-Mini|81.8|20000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'ImageNet-1k only', 'Transformer']|2209.15001v3
-ResNet-152 (A2)|81.8|60200000.0|null|['ImageNet-1k only']|Null
-MEAL V2 (ResNet-50) (380 res)|81.72|25600000.0|null|[']']|2009.08453v2
-gSwin-T|81.71|21800000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
-FBNetV5-A-CLS|81.7|null|null|[']']|2111.10007v2
-T2T-ViT-14|81.7|null|null|['ImageNet-1k only', 'Transformer']|2105.02358v2
-QnA-ViT-Tiny|81.7|16000000.0|null|[']']|Null
-AutoFormer-small|81.7|22900000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
-Shift-T|81.7|28000000.0|null|[']']|2201.10801v1
-BoTNet T3|81.7|33500000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
-CvT-13|81.6|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
-ResNet-152 (SAM)|81.6|null|null|['ImageNet-1k only', 'ResNet']|2010.01412v3
-UniRepLKNet-N|81.6|null|null|[']']|2311.15599v2
-CloFormer-S|81.6|12300000.0|null|[']']|2303.17803v5
-LeViT-256|81.6|17800000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
-ReXNet_2.0|81.6|19000000.0|null|['ImageNet-1k only']|2007.00992v3
-SE-CoTNetD-50|81.6|23100000.0|null|[']']|2107.12292v1
-gMLP-B|81.6|73000000.0|null|['ImageNet-1k only', 'MLP']|2105.08050v2
-CoE-Large + CondConv|81.5|null|null|[']']|2107.03815v2
-GTP-DeiT-B/P8|81.5|null|null|[']']|2311.03035v2
-NEXcepTion-T|81.5|null|null|[']']|2212.08448v2
-NoisyStudent (EfficientNet-B1)|81.5|7800000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
-TinyViT-11M|81.5|11000000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
-Transformer local-attention (NesT-T)|81.5|17000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
-T2T-ViT-14|81.5|21500000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
-CrossViT-15|81.5|27400000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
-PyConvResNet-101|81.49|42300000.0|null|['CNN', 'ImageNet-1k only']|2006.11538v1
-NASViT-A4|81.4|null|null|[']']|Null
-DeiT-S with iRPE-QKV|81.4|null|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
-ViT-S @224 (DeiT III)|81.4|null|null|[']']|2204.07118v1
-BiFormer-T (IN1k ptretrain)|81.4|null|null|[']']|2303.08810v1
-MobileOne-S4 (distill)|81.4|14800000.0|null|[']']|2206.04040v2
-SENet-101|81.4|49200000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
-CCT-14/7x2|81.34|22360000.0|null|[']']|2104.05704v4
-GFNet-S|81.33|null|null|[']']|2308.09372v1
-ResNet-200 (Adversarial Autoaugment)|81.32|null|null|['ImageNet-1k only', 'ResNet']|1912.11188v1
-MultiGrain PNASNet (300px)|81.3|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
-ResNet-152|81.3|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
-ConViT-S|81.3|27000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-Swin-T|81.3|29000000.0|null|[']']|2103.14030v2
-SimpleNetV1-9m-correct-labels|81.24|9500000.0|null|[']']|1608.06037v8
-Res2Net-101|81.23|null|null|['CNN', 'ImageNet-1k only']|1904.01169v3
-ResNeXt-101 (Debiased+CutMix)|81.2|null|null|['ImageNet-1k only', 'ResNeXt']|Null
-PVT-S (+MixPro)|81.2|null|null|[']']|2304.12043v2
-Swin-T (PuzzleMix+DM)|81.16|null|null|[']']|Null
-TransBoost-ResNet50-StrikesBack|81.15|25560000.0|null|[']']|2205.13331v4
-ResNeSt-50|81.13|27500000.0|null|[']']|2004.08955v2
-DeiT-S (SAMix+DM)|81.12|null|null|[']']|Null
-DeiT-S with iRPE-QK|81.1|null|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
-EfficientNet-B3|81.1|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-VAN-B1|81.1|13900000.0|null|[']']|2202.09741v5
-RevBiFPN-S3|81.1|19600000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
-ResNet-152x2-SAM|81.1|236000000.0|null|['ImageNet-1k only', 'ResNet']|2106.01548v3
-DynamicViT-S|81.09|null|null|[']']|2308.09372v1
-ResNet-101 (SAMix)|81.08|44600000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
-NASViT-A3|81.0|null|null|[']']|Null
-ViTAE-13M|81.0|13200000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
-ResNet-101 (AutoMix)|80.98|44600000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
-DeiT-S (AutoMix+DM)|80.91|null|null|[']']|Null
-ResNet-101|80.9|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
-CAIT-XXS-24|80.9|12000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
-DeiT-S with iRPE-K|80.9|22000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
-CentroidViT-S (arXiv, 2021-02)|80.9|22300000.0|null|[']']|2102.08606v2
-ResNeXt-101  64x4|80.9|83600000.0|null|['ImageNet-1k only', 'ResNeXt']|1611.05431v2
-AlphaNet-A6|80.8|null|null|[']']|2102.07954v2
-ResNet-200 (Supervised Contrastive)|80.8|null|null|['ImageNet-1k only', 'ResNet']|2004.11362v5
-UniNet-B0|80.8|11500000.0|null|[']']|2207.05420v2
-LocalViT-S|80.8|22400000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
-DAFT-conv (384 heads, 300 epochs)|80.8|23000000.0|null|[']']|Null
-ResMLP-S24|80.8|30000000.0|null|['MLP', 'ImageNet-1k only']|2105.03404v2
-TinyViT-5M-distill (21k)|80.7|5400000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
-CoE-Large|80.7|95300000.0|null|[']']|2107.03815v2
-MEAL V2 (ResNet-50) (224 res)|80.67|null|null|[']']|2009.08453v2
-TokenLearner-ViT-8|80.66|null|null|[']']|2308.09372v1
-ResNeSt-50-fast|80.64|27500000.0|null|[']']|2004.08955v2
-TransBoost-ResNet152|80.64|60190000.0|null|[']']|2205.13331v4
-ResNet-200 (Fast AA)|80.6|null|null|['ImageNet-1k only', 'ResNet']|1905.00397v2
-CaiT-XXS (+MixPro)|80.6|null|null|[']']|2304.12043v2
-ResNeXt-101 (CutMix)|80.53|null|null|['ImageNet-1k only', 'ResNeXt']|1905.04899v2
-NASViT-A2|80.5|null|null|[']']|Null
-Attention-92|80.5|null|null|['CNN', 'ImageNet-1k only']|1704.06904v1
-NAT-M4|80.5|9100000.0|null|['CNN', 'ImageNet-1k only']|2005.05859v2
-IPT-T|80.5|14000000.0|null|[']']|2212.03035v1
-GLiT-Smalls|80.5|24600000.0|null|['Transformer', 'ImageNet-1k only']|2107.02960v3
-HCGNet-C|80.5|42200000.0|null|['CNN', 'ImageNet-1k only']|1908.09699v3
-DVT (T2T-ViT-12)|80.43|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
-UniNet-B1|80.4|14000000.0|null|[']']|2110.04035v1
-DeiT-S (T2)|80.4|22000000.0|null|['Transformer', 'ImageNet-1k only']|Null
-ResNet50 (A1)|80.4|25000000.0|null|['CNN', 'ImageNet-1k only']|Null
-gSwin-VT|80.32|15500000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
-AlphaNet-A5|80.3|null|null|[']']|2102.07954v2
-ResNet-50+AutoDropout+RandAugment|80.3|null|null|['ImageNet-1k only', 'ResNet']|2101.01761v1
-ReXNet_1.5|80.3|9700000.0|null|['ImageNet-1k only']|2007.00992v3
-CCT-16/7x2|80.28|null|null|['Transformer', 'ImageNet-1k only']|2104.05704v4
-DeiT-S (PuzzleMix+DM)|80.25|null|null|[']']|Null
-iAFF-ResNeXt-50-32x4d|80.22|34700000.0|null|['ImageNet-1k only', 'ResNeXt']|2009.14082v2
-UniRepLKNet-P|80.2|null|null|[']']|2311.15599v2
-FixEfficientNet-B0|80.2|5300000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
-DAFT-conv (16 heads)|80.2|20300000.0|null|[']']|Null
-ConvMLP-L|80.2|42700000.0|null|['CNN', 'MLP', 'ImageNet-1k only']|2109.04454v2
-ResNet-50 (224 res, Fast Knowledge Distillation)|80.1|null|null|['ImageNet-1k only', 'ResNet']|2112.01528v1
-DAFT-conv (384 heads, 200 epochs)|80.1|23000000.0|null|[']']|Null
-Inception ResNet V2|80.1|55800000.0|null|['ImageNet-1k only', 'ResNet']|1602.07261v2
-RandWire-WS|80.1|61500000.0|null|['CNN', 'ImageNet-1k only']|1904.01569v2
-WideNet-H|80.09|63000000.0|null|['Transformer', 'ImageNet-1k only']|2107.11817v3
-CoE-Small + CondConv + PWLU|80.0|null|null|[']']|2107.03815v2
-BasisNet-MV3|80.0|null|null|[']']|2105.03014v1
-AlphaNet-A4|80.0|null|null|[']']|2102.07954v2
-MogaNet-T (256res)|80.0|5200000.0|null|['CNN']|2211.03295v3
-MobileOne-S3 (distill)|80.0|10100000.0|null|[']']|2206.04040v2
-LeViT-192|80.0|10400000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
-ResNet-101|80.0|44400000.0|null|['ImageNet-1k only', 'ResNet']|2101.11605v2
-ResNet-200|79.9|null|null|['ImageNet-1k only', 'ResNet']|1603.05027v3
-RegNetY-8.0GF|79.9|39200000.0|null|['CNN', 'ImageNet-1k only']|2003.13678v1
-ViT-B/16-SAM|79.9|87000000.0|null|['ImageNet-1k only', 'Transformer']|2106.01548v3
-TransBoost-ResNet101|79.86|44550000.0|null|[']']|2205.13331v4
-SKNet-101|79.81|48900000.0|null|['CNN', 'ImageNet-1k only']|1903.06586v2
-FixResNet-50 CutMix|79.8|null|null|['ImageNet-1k only', 'ResNet']|1906.06423v4
-CSPResNeXt-50 + Mish|79.8|null|null|['CNN', 'ImageNet-1k only']|1908.08681v3
-kNN-CLIP|79.8|null|null|['Memory-Centric', 'CLIP Pre-trained']|2204.01186v2
-CloFormer-XS|79.8|7200000.0|null|[']']|2303.17803v5
-EfficientNet-B2|79.8|9200000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-GC ViT-XXT|79.8|12000000.0|null|[']']|2206.09959v5
-CSPResNeXt-50 (Mish+Aug)|79.8|20500000.0|null|['CNN', 'ImageNet-1k only']|1911.11929v1
-DAFT-full|79.8|22600000.0|null|[']']|Null
-DVT (T2T-ViT-10)|79.74|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
-NASViT-A1|79.7|null|null|[']']|Null
-GPaCo (ResNet-50)|79.7|null|null|[']']|2209.12400v2
-ResMLP-36|79.7|45000000.0|null|['MLP', 'ImageNet-1k only']|2105.03404v2
-Grafit (ResNet-50)|79.6|null|null|['ImageNet-1k only', 'ResNet']|2011.12982v1
-LeViT-128|79.6|8800000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
-ResT-Small|79.6|13660000.0|null|[']']|2105.13677v5
-GTP-DeiT-S/P8|79.5|null|null|[']']|2311.03035v2
-ReXNet_1.3|79.5|7600000.0|null|['ImageNet-1k only']|2007.00992v3
-WideNet-L|79.49|40000000.0|null|['ImageNet-1k only']|2107.11817v3
-ResNet-50 (SAMix)|79.41|25600000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
-AlphaNet-A3|79.4|null|null|[']']|2102.07954v2
-MultiGrain R50-AA-500|79.4|null|null|['ImageNet-1k only']|1902.05509v2
-ResNet-50 (Adversarial Autoaugment)|79.4|null|null|['ImageNet-1k only', 'ResNet']|1912.11188v1
-ResMLP-24|79.4|null|null|['CNN', 'ImageNet-1k only']|2105.03404v2
-EdgeNeXt-S|79.4|5600000.0|null|['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3
-TinyNet (GhostNet-A)|79.4|11900000.0|null|[']']|2010.14819v2
-MobileOne-S4|79.4|14800000.0|null|[']']|2206.04040v2
-RegNetY-4.0GF|79.4|20600000.0|null|['CNN', 'ImageNet-1k only']|2003.13678v1
-SENet-50|79.4|28020000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
-ScaleNet-152|79.38|null|null|['CNN', 'ImageNet-1k only']|1904.09460v1
-LIP-ResNet-101|79.33|42900000.0|null|['CNN', 'ImageNet-1k only']|1908.04156v3
-MobileViTv3-S|79.3|5800000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
-RedNet-152|79.3|34000000.0|null|['Transformer', 'ImageNet-1k only']|2103.06255v2
-ResNet-50 (AutoMix)|79.25|25600000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
-PS-KD (ResNet-152 + CutMix)|79.24|null|null|['ImageNet-1k only', 'ResNet']|2006.12000v3
-ResNet-101 (JFT-300M Finetuning)|79.2|null|null|['JFT-300M', 'ResNet']|1707.02968v2
-RVT-Ti*|79.2|10900000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
-Multiscale DEQ (MDEQ-XL)|79.2|81000000.0|null|['ImageNet-1k only']|Null
-SimpleNetV1-5m-correct-labels|79.12|5700000.0|null|[']']|1608.06037v8
-AlphaNet-A2|79.1|null|null|[']']|2102.07954v2
-AA-ResNet-152|79.1|null|null|['ImageNet-1k only']|1904.09925v5
-FixResNet-50|79.1|null|null|['ImageNet-1k only', 'ResNet']|1906.06423v4
-Diffusion Classifier|79.1|null|null|[']']|2303.16203v3
-TinyViT-5M|79.1|5400000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
-MobileOne-S2 (distill)|79.1|7800000.0|null|[']']|2206.04040v2
-PiT-XS|79.1|10600000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
-UniNet-B0|79.1|11900000.0|null|[']']|2110.04035v1
-RedNet-101|79.1|25600000.0|null|['ImageNet-1k only']|2103.06255v2
-ResNet-50 (UDA)|79.04|null|null|['ImageNet-1k only', 'ResNet']|1904.12848v6
-ScaleNet-101|79.03|null|null|['ImageNet-1k only']|1904.09460v1
-TransBoost-ResNet50|79.03|null|null|[']']|2205.13331v4
-Co-ResNet-152|79.03|60000000.0|null|[']']|2108.07387v1
-MobileNetV3_large_x1_0_ssld|79.0|5470000.0|null|['ImageNet-1k only']|Null
-RevBiFPN-S2|79.0|10600000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
-ConvMLP-M|79.0|17400000.0|null|['ImageNet-1k only']|2109.04454v2
-Xception|79.0|22855952.0|87.0|['ImageNet-1k only']|1610.02357v3
-SpineNet-143|79.0|60500000.0|null|['ImageNet-1k only']|1912.05027v3
-Mixer-B/8-SAM|79.0|64000000.0|null|['ImageNet-1k only']|2106.01548v3
-InceptionV3 (FRN layer)|78.95|null|null|['ImageNet-1k only']|Null
-ResNet-152 + SWA|78.94|null|null|['ImageNet-1k only', 'ResNet']|1803.05407v3
-ECA-Net (ResNet-152)|78.92|57400000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
-AlphaNet-A1|78.9|null|null|[']']|2102.07954v2
-MixNet-L|78.9|7300000.0|null|['ImageNet-1k only']|1907.09595v3
-CeiT-T (384 finetune res)|78.8|null|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
-NoisyStudent (EfficientNet-B0)|78.8|5300000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
-EfficientNet-B1|78.8|7800000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-ResNet-50|78.8|25500000.0|null|['ResNet']|2101.11605v2
-SGE-ResNet101|78.798|44550000.0|null|['ImageNet-1k only']|1905.09646v2
-RepVGG-B2|78.78|80310000.0|null|['CNN', 'ImageNet-1k only']|2101.03697v3
-ResNet-50|78.76|null|null|['ImageNet-1k only', 'ResNet']|2009.06962v2
-SAMix+DM (ResNet-50 RSB A3)|78.75|null|null|[']']|Null
-ResNet-50|78.7|null|null|['ImageNet-1k only', 'ResNet']|2101.01761v1
-SReT-LT (Fast Knowledge Distillation)|78.7|5000000.0|null|['ImageNet-1k only', 'Transformer']|2112.01528v1
-PVTv2-B1|78.7|13100000.0|null|['ImageNet-1k only']|2106.13797v7
-ECA-Net (ResNet-101)|78.65|42490000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
-MobileViTv3-1.0|78.64|null|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
-EdgeFormer-S|78.63|5000000.0|null|[']']|2203.03952v5
-AutoMix+DM (ResNet-50 RSB A3)|78.62|null|null|[']']|Null
-UniRepLKNet-F|78.6|null|null|[']']|2311.15599v2
-TransBoost-EfficientNetB0|78.6|5290000.0|null|[']']|2205.13331v4
-Visformer-Ti|78.6|10300000.0|null|['ImageNet-1k only', 'Transformer']|2104.12533v4
-ResMLP-12 (distilled, class-MLP)|78.6|17700000.0|null|[']']|2105.03404v2
-RepMLP-Res50|78.6|52770000.0|null|['ImageNet-1k only']|2105.01883v3
-Res2Net-50-299|78.59|null|null|['ImageNet-1k only']|1904.01169v3
-ResNet-152|78.57|null|null|[']']|1512.03385v1
-ResNet-50-DW (Deformable Kernels)|78.5|null|null|['ImageNet-1k only', 'ResNet']|1910.02940v2
-HRFormer-T|78.5|8000000.0|null|[']']|2110.09408v3
-HCGNet-B|78.5|12900000.0|null|['ImageNet-1k only']|1908.09699v3
-RepVGG-B2g4|78.5|55770000.0|null|['CNN', 'ImageNet-1k only']|2101.03697v3
-DVT (T2T-ViT-7)|78.48|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
-SRM-ResNet-101|78.47|null|null|['ImageNet-1k only']|1903.10829v1
-DenseNet-161 + SWA|78.44|null|null|['ImageNet-1k only']|1803.05407v3
-CoaT-Ti|78.42|null|null|[']']|2308.09372v1
-FBNetV5-AC-CLS|78.4|null|null|[']']|2111.10007v2
-ResNet-50 (CutMix)|78.4|null|null|['ImageNet-1k only', 'ResNet']|1905.04899v2
-ReXNet_1.0-relabel|78.4|4800000.0|null|['ImageNet-1k only']|2101.05022v2
-MobileViT-S|78.4|5600000.0|null|['Transformer', 'ImageNet-1k only']|Null
-RedNet-50|78.4|15500000.0|null|['ImageNet-1k only']|2103.06255v2
-ResNet-50 (SAMix+DM)|78.36|null|null|[']']|Null
-ResNet-50 + DropBlock (0.9 kp, 0.1 label smoothing)|78.35|null|null|['ImageNet-1k only', 'ResNet']|1810.12890v1
-Poly-SA-ViT-S|78.34|null|null|[']']|2308.09372v1
-EfficientNet-B0 (CondConv)|78.3|null|null|['ImageNet-1k only', 'EfficientNet']|1904.04971v3
-ResNet-101|78.25|40000000.0|null|['ImageNet-1k only', 'ResNet']|1512.03385v1
-NASViT-A0|78.2|null|null|[']']|Null
-MultiGrain R50-AA-224|78.2|null|null|['ImageNet-1k only']|1902.05509v2
-Pyramid ViG-Ti|78.2|10700000.0|null|[']']|2206.00272v3
-LocalViT-PVT|78.2|13500000.0|null|['Transformer']|2104.05707v1
-ResNet-50 (AutoMix+DM)|78.15|null|null|[']']|Null
-PuzzleMix+DM (ResNet-50 RSB A3)|78.15|null|null|[']']|Null
-ResNet-50 (LIP Bottleneck-256)|78.15|25800000.0|null|['ImageNet-1k only', 'ResNet']|1908.04156v3
-WRN-50-2-bottleneck|78.1|null|null|['ImageNet-1k only']|1605.07146v4
-MobileOne-S3|78.1|10100000.0|null|[']']|2206.04040v2
-ResNet50 (A3)|78.1|25000000.0|null|['ImageNet-1k only']|Null
-ZenNet-400M-SE|78.0|5700000.0|null|[']']|2102.01063v4
-RegNetY-1.6GF|78.0|11200000.0|null|['ImageNet-1k only']|2003.13678v1
-HVT-S-1|78.0|21740000.0|null|['Transformer', 'ImageNet-1k only']|2103.10619v2
-Perceiver (FF)|78.0|44900000.0|null|[']']|2103.03206v2
-ReXNet_1.0|77.9|4800000.0|null|['', 'ImageNet-1k only']|2007.00992v3
-ViTAE-6M|77.9|6500000.0|null|['ImageNet-1k only']|2106.03348v4
-DenseNet-264|77.85|null|null|['ImageNet-1k only']|1608.06993v5
-AlphaNet-A0|77.8|null|null|[']']|2102.07954v2
-ScaleNet-50|77.8|null|null|[']']|1904.09460v1
-ResMLP-S12|77.8|15400000.0|null|[']']|2105.03404v2
-ResNet-50 (PuzzleMix+DM)|77.71|null|null|[']']|Null
-TinyNet-A + RA|77.7|5100000.0|null|[']']|2010.14819v2
-ResNet-50 (Fast AA)|77.6|null|null|['ImageNet-1k only', 'ResNet']|1905.00397v2
-SReT-T|77.6|4800000.0|null|[']']|2111.05297v3
-RedNet-38|77.6|12400000.0|null|['ImageNet-1k only']|2103.06255v2
-SGE-ResNet50|77.584|25560000.0|null|[']']|1905.09646v2
-WideNet-B|77.54|29000000.0|null|['ImageNet-1k only']|2107.11817v3
-EfficientNet-B0|77.5|null|null|['ImageNet-1k only', 'EfficientNet']|2101.01761v1
-ACNet (ResNet-50)|77.5|29380000.0|null|['ImageNet-1k only', 'ResNet']|1904.03579v1
-ECA-Net (ResNet-50)|77.48|24370000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
-DenseNet-201|77.42|null|null|['ImageNet-1k only']|1608.06993v5
-MobileOne-S2|77.4|7.8|null|[']']|2206.04040v2
-MobileOne-S1 (distill)|77.4|4800000.0|null|[']']|2206.04040v2
-R-Mix (ResNet-50)|77.39|null|null|[']']|2212.04875v3
-ResnetV2 50 (FRN layer)|77.21|null|null|['ImageNet-1k only', 'ResNet']|Null
-FBNetV5-AR-CLS|77.2|null|null|[']']|2111.10007v2
-MogaNet-XT (256res)|77.2|3000000.0|null|[']']|2211.03295v3
-ReXNet_0.9|77.2|4100000.0|null|['ImageNet-1k only']|2007.00992v3
-Prodpoly|77.17|null|null|['ImageNet-1k only']|2006.13026v2
-ResNet-50-D|77.16|25000000.0|null|['ImageNet-1k only', 'ResNet']|1812.01187v2
-Inception v3|77.12|null|null|['ImageNet-1k only']|1803.08337v1
-MKD ViT-T|77.1|null|null|[']']|2202.07940v1
-GreedyNAS-A|77.1|6500000.0|null|['ImageNet-1k only']|2003.11236v1
-SkipblockNet-L|77.1|7100000.0|null|[']']|2107.11170v3
-SSAL-Resnet50|77.0|null|null|['ImageNet-1k only', 'ResNet']|2101.03057v1
-UniRepLKNet-A|77.0|null|null|[']']|2311.15599v2
-CloFormer-XXS|77.0|4200000.0|null|[']']|2303.17803v5
-MixNet-M|77.0|5000000.0|null|['ImageNet-1k only']|1907.09595v3
-SCARLET-A|76.9|6700000.0|null|['ImageNet-1k only']|1908.06022v6
-TransBoost-MobileNetV3-L|76.81|5480000.0|null|[']']|2205.13331v4
-ViTAE-T-Stage|76.8|4800000.0|null|['ImageNet-1k only']|2106.03348v4
-GreedyNAS-B|76.8|5200000.0|null|['ImageNet-1k only']|2003.11236v1
-ConvMLP-S|76.8|9000000.0|null|['ImageNet-1k only']|2109.04454v2
-Perona Malik (Perona and Malik, 1990)|76.71|null|null|['CNN', 'ImageNet-1k only']|2011.01901v3
-PVT-T (+MixPro)|76.7|null|null|[']']|2304.12043v2
-MobileViTv3-XS|76.7|2500000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
-MnasNet-A3|76.7|5200000.0|null|['ImageNet-1k only']|1807.11626v3
-ViL-Tiny-RPB|76.7|6700000.0|null|[']']|2103.15358v2
-ConViT-Ti+|76.7|10000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-TransBoost-ResNet34|76.7|21800000.0|null|[']']|2205.13331v4
-LIP-DenseNet-BC-121|76.64|8700000.0|null|['ImageNet-1k only']|1908.04156v3
-ResNet-50 (X-volution, stage3)|76.6|null|null|['ImageNet-1k only', 'ResNet']|2106.02253v2
-MUXNet-l|76.6|4000000.0|null|['ImageNet-1k only']|2003.13880v2
-DeiT-B|76.6|5000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
-MobileViTv3-0.75|76.55|3000000.0|null|['ImageNet-1k only']|2209.15159v2
-Mixer-B/16|76.44|46000000.0|null|['ImageNet-1k only']|2105.01601v4
-Perceiver|76.4|null|null|['Transformer', 'ImageNet-1k only']|2103.03206v2
-CeiT-T|76.4|6400000.0|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
-ResNet-34 (SAMix)|76.35|21800000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
-EfficientNet-B0|76.3|5300000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
-RegNetY-800MF|76.3|6300000.0|null|['ImageNet-1k only']|2003.13678v1
-SCARLET-B|76.3|6500000.0|null|['ImageNet-1k only']|1908.06022v6
-GLiT-Tinys|76.3|7200000.0|null|['ImageNet-1k only']|2107.02960v3
-DenseNet-169|76.2|null|null|['ImageNet-1k only']|1608.06993v5
-GreedyNAS-C|76.2|4700000.0|null|['ImageNet-1k only']|2003.11236v1
-SkipblockNet-M|76.2|5500000.0|null|['CNN', 'ImageNet-1k only']|2107.11170v3
-ELP (naive ResNet50)|76.13|null|null|[']']|Null
-ResNet-34 (AutoMix)|76.1|21800000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
-ResNet-50 MLPerf v0.7 - 2512 steps|75.92|null|null|['ImageNet-1k only', 'ResNet']|2102.06356v3
-DenseNAS-A|75.9|null|null|['ImageNet-1k only']|1906.09607v3
-MobileOne-S1|75.9|4800000.0|null|[']']|2206.04040v2
-MoGA-A|75.9|5100000.0|null|['ImageNet-1k only']|1908.01314v4
-RevBiFPN-S1|75.9|5110000.0|null|['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2
-LocalViT-TNT|75.9|6300000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
-SALG-ST|75.9|6500000.0|null|[']']|2211.14705v1
-RedNet-26|75.9|9200000.0|null|['ImageNet-1k only']|2103.06255v2
-FractalNet-34|75.88|null|null|['ImageNet-1k only']|1605.07648v4
-MixNet-S|75.8|4100000.0|null|['ImageNet-1k only']|1907.09595v3
-CoordConv ResNet-50|75.74|null|null|['ImageNet-1k only', 'ResNet']|Null
-LeViT-128S|75.7|4700000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
-GhostNet \u00d71.3|75.7|7300000.0|null|[']']|1911.11907v2
-LR-Net-26|75.7|14700000.0|null|['ImageNet-1k only']|1904.11491v1
-Mixer-S16 + STD|75.7|22200000.0|null|[']']|Null
-SimpleNetV1-small-075-correct-labels|75.66|3000000.0|null|[']']|1608.06037v8
-MnasNet-A2|75.6|4800000.0|null|['ImageNet-1k only']|1807.11626v3
-SCARLET-C|75.6|6000000.0|null|['ImageNet-1k only']|1908.06022v6
-PAWS (ResNet-50, 10% labels)|75.5|null|null|['ImageNet-1k only', 'ResNet']|2104.13963v3
-RegNetY-600MF|75.5|6100000.0|null|['ImageNet-1k only']|2003.13678v1
-ShuffleNet V2|75.4|null|null|[']']|1807.11164v1
-VAN-B0|75.4|4100000.0|null|[']']|2202.09741v5
-AsymmNet-Large \u00d71.0|75.4|5990000.0|null|[']']|2104.07770v1
-FairNAS-A|75.34|4600000.0|null|[']']|1907.01845v5
-ViTAE-T|75.3|null|null|['ImageNet-1k only']|2106.03348v4
-MUXNet-m|75.3|3400000.0|null|['ImageNet-1k only']|2003.13880v2
-ResNet-50|75.3|25000000.0|null|['ImageNet-1k only', 'ResNet']|1512.03385v1
-MnasNet-A1|75.2|3900000.0|null|['ImageNet-1k only']|1807.11626v3
-MobileNet V3-Large 1.0|75.2|5400000.0|null|['ImageNet-1k only']|1905.02244v5
-DiCENet|75.1|null|null|[']']|1906.03516v3
-MultiGrain NASNet-A-Mobile (350px)|75.1|null|null|[']']|1902.05509v2
-FairNAS-B|75.1|4500000.0|null|[']']|1907.01845v5
-ResNet-34 (X-volution, stage3)|75.0|null|null|['ImageNet-1k only', 'ResNet']|2106.02253v2
-Ghost-ResNet-50 (s=2)|75.0|13000000.0|null|[']']|1911.11907v2
-DenseNet-121|74.98|null|null|['ImageNet-1k only']|1608.06993v5
-Single-Path NAS|74.96|null|null|['ImageNet-1k only']|1904.02877v1
-WaveMix-192/16 (level 3)|74.93|null|null|[']']|2205.14375v4
-FF|74.9|null|null|['ImageNet-1k only']|Null
-FBNet-C|74.9|5500000.0|null|['ImageNet-1k only']|1812.03443v3
-ESPNetv2|74.9|5900000.0|null|['ImageNet-1k only']|1811.11431v3
-MobileViT-XS|74.8|2300000.0|null|[']']|Null
-LocalViT-T|74.8|5900000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
-RandWire-WS (small)|74.7|5600000.0|null|[']']|1904.01569v2
-AutoFormer-tiny|74.7|5700000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
-MobileNetV2 (1.4)|74.7|6900000.0|null|['ImageNet-1k only']|1801.04381v4
-FairNAS-C|74.69|4400000.0|null|[']']|1907.01845v5
-ReXNet_0.6|74.6|2700000.0|null|['ImageNet-1k only']|2007.00992v3
-Proxyless|74.6|4000000.0|null|['ImageNet-1k only']|1812.00332v2
-PiT-Ti|74.6|4900000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
-DY-MobileNetV2 \u00d71.0|74.4|11100000.0|null|['ImageNet-1k only']|1912.03458v2
-SimpleNetV1-9m|74.17|9500000.0|null|[']']|1608.06037v8
-RegNetY-400MF|74.1|4300000.0|null|[']']|2003.13678v1
-Ghost-ResNet-50 (s=4)|74.1|6500000.0|null|[']']|1911.11907v2
-SReT-ExT|74.0|4000000.0|null|[']']|2111.05297v3
-GhostNet \u00d71.0|73.9|5200000.0|null|[']']|1911.11907v2
-DeiT-T (+MixPro)|73.8|null|null|[']']|2304.12043v2
-DeiT-Ti with iRPE-K|73.7|6000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
-DGPPF-ResNet50|73.66|2560000.0|null|[']']|Null
-TransBoost-ResNet18|73.36|11690000.0|null|[']']|2205.13331v4
-Wide ResNet-50 (edge-popup)|73.3|20600000.0|null|['ImageNet-1k only', 'ResNet']|1911.13299v2
-ResNet-18 (MEAL V2)|73.19|null|null|['ImageNet-1k only']|2009.08453v2
-ConViT-Ti|73.1|6000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
-RevBiFPN-S0|72.8|3420000.0|null|['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2
-DY-MobileNetV2 \u00d70.75|72.8|7000000.0|null|['ImageNet-1k only']|1912.03458v2
-DY-ResNet-18|72.7|42700000.0|null|['ImageNet-1k only', 'ResNet']|1912.03458v2
-ECA-Net (MobileNetV2)|72.56|3340000.0|null|['ImageNet-1k only']|1910.03151v4
-MobileNet-224 (CGD)|72.56|4260000.0|null|['ImageNet-1k only']|1907.09665v10
-MobileOne-S0 (distill)|72.5|2100000.0|null|[']']|2206.04040v2
-LocalViT-T2T|72.5|4300000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
-MobileViTv3-0.5|72.33|1400000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
-ResNet-18 (SAMix)|72.33|11700000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
-ResNet-50|72.1|null|null|['ImageNet-1k only', 'ResNet']|Null
-ResNet-18 (AutoMix)|72.05|11700000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
-MobileNetV2|72.0|3400000.0|null|['CNN']|1801.04381v4
-Ours|71.97|null|null|[']']|2009.04626v1
-SimpleNetV1-5m|71.94|5700000.0|null|['CNN']|1608.06037v8
-ResNet-18 (PAD-L2 w/ ResNet-34 teacher)|71.71|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-MUXNet-s|71.6|2400000.0|null|['ImageNet-1k only']|2003.13880v2
-PDC|71.6|11510000.0|null|[']']|2104.07916v2
-ResNet-18 (FT w/ ResNet-34 teacher)|71.56|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-EfficientFormer-V2-S0|71.53|null|null|[']']|2308.09372v1
-MobileOne-S0|71.4|2100000.0|null|[']']|2206.04040v2
-ResNet-18 (KD w/ ResNet-34 teacher)|71.37|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-Dspike (VGG-16)|71.24|null|null|['SNN']|Null
-EdgeNeXt-XXS|71.2|1300000.0|null|['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3
-ResNet-18 (L2 w/ ResNet-34 teacher)|71.08|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-MobileViTv3-XXS|70.98|1200000.0|null|['CNN+Transformer', 'Transformer', 'ImageNet-1k only']|2209.15159v2
-ResNet-18 (CRD w/ ResNet-34 teacher)|70.93|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-ShuffleNet|70.9|null|null|['ImageNet-1k only']|1707.01083v2
-MobileNet-224 \u00d71.25|70.6|null|null|[']']|1704.04861v1
-PSN (SEW ResNet-34)|70.54|null|null|['SNN']|Null
-ResNet-18 (tf-KD w/ ResNet-18 teacher)|70.52|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-PVTv2-B0|70.5|3400000.0|null|['ImageNet-1k only']|2106.13797v7
-GAC-SNN MS-ResNet-34|70.42|null|null|[']']|2308.06582v1
-ResNet-18 (SSKD w/ ResNet-34 teacher)|70.09|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
-DY-MobileNetV3-Small|69.7|4800000.0|null|['ImageNet-1k only']|1912.03458v2
-HVT-Ti-1|69.64|5740000.0|null|['ImageNet-1k only', 'Transformer']|2103.10619v2
-DY-MobileNetV2 \u00d70.5|69.4|4000000.0|null|['ImageNet-1k only']|1912.03458v2
-AsymmNet-Large \u00d70.5|69.2|2800000.0|null|[']']|2104.07770v1
-SimpleNetV1-small-05-correct-labels|69.11|1500000.0|null|[']']|1608.06037v8
-Heteroscedastic (InceptionResNet-v2)|68.6|null|null|['ImageNet-1k only']|2105.10305v1
-AsymmNet-Small \u00d71.0|68.4|3100000.0|null|[']']|2104.07770v1
-FireCaffe (GoogLeNet)|68.3|null|null|['ImageNet-1k only']|1511.00175v2
-Graph-RISE (40M)|68.29|null|null|['ImageNet-1k only']|1902.10814v1
-SimpleNetV1-small-075|68.15|3000000.0|null|[']']|1608.06037v8
-ReActNet-A (BN-Free)|68.0|null|null|['CNN', 'ImageNet-1k only']|2104.08215v1
-DY-ResNet-10|67.7|18600000.0|null|['ImageNet-1k only']|1912.03458v2
-WaveMixLite-256/24|67.7|32400000.0|null|[']']|Null
-PSN (SEW ResNet-18)|67.63|null|null|['SNN']|Null
-MUXNet-xs|66.7|1800000.0|null|['ImageNet-1k only']|2003.13880v2
-PAWS (ResNet-50, 1% labels)|66.5|null|null|['ImageNet-1k only', 'ResNet']|2104.13963v3
-GhostNet \u00d70.5|66.2|2600000.0|null|[']']|1911.11907v2
-DGPPF-MobileNetV2|65.59|1030000.0|null|[']']|Null
-DGPPF-ResNet18|65.22|1150000.0|null|[']']|Null
-OTTT|65.15|null|null|['SNN']|2210.04195v2
-DY-MobileNetV2 \u00d70.35|64.9|2800000.0|null|['ImageNet-1k only']|1912.03458v2
-BBG (ResNet-34)|62.6|null|null|['ImageNet-1k only', 'ResNet']|1909.12117v2
-SimpleNetV1-small-05|61.52|1500000.0|null|[']']|1608.06037v8
-BBG (ResNet-18)|59.4|null|null|['ImageNet-1k only', 'ResNet']|1909.12117v2
-FireCaffe (AlexNet)|58.9|null|null|['ImageNet-1k only']|1511.00175v2
-EVA (EVA-CLIP)|null|0|null|[']']|2211.07636v2
-MobileNet-224 \u00d71.0|null|4200000.0|null|[']']|1704.04861v1
-Inception V2|null|11200000.0|null|['ImageNet-1k only']|1502.03167v3
-DaViT-S|null|49700000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1
+name|accuracy|params|hardware_req|tags|id
+OmniVec|92.4|null|null|[']']|2311.05709v1
+BASIC-L (Lion, fine-tuned)|91.1|2440000000.0|null|['Conv+Transformer', 'ALIGN', 'JFT-3B']|Null
+CoCa (finetuned)|91.0|2100000000.0|null|['ALIGN', 'Transformer', 'JFT-3B']|2205.01917v2
+Model soups (BASIC-L)|90.98|2440000000.0|null|['ALIGN', 'JFT-3B', 'Conv+Transformer']|2203.05482v3
+Model soups (ViT-G/14)|90.94|1843000000.0|null|['JFT-3B', 'Transformer']|2203.05482v3
+ViT-e|90.9|3900000000.0|null|['Transformer', 'JFT-3B']|2209.06794v4
+CoAtNet-7|90.88|2440000000.0|null|['Conv+Transformer', 'JFT-3B']|2106.04803v2
+ViT-G/14 (Lion)|90.71|1843000000.0|null|['Transformer', 'JFT-3B']|Null
+CoCa (frozen)|90.6|2100000000.0|null|['Transformer', 'ALIGN', 'JFT-3B']|2205.01917v2
+CoAtNet-6|90.45|1470000000.0|null|['Conv+Transformer', 'JFT-3B']|2106.04803v2
+ViT-G/14|90.45|1843000000.0|null|['Transformer']|2106.04560v2
+DaViT-G|90.4|1437000000.0|null|['Transformer']|2204.03645v1
+DaViT-H|90.2|362000000.0|null|['Transformer']|2204.03645v1
+Meta Pseudo Labels (EfficientNet-L2)|90.2|480000000.0|95040.0|['JFT-300M', 'EfficientNet']|2003.10580v4
+SwinV2-G|90.17|3000000000.0|null|['Transformer']|2111.09883v2
+InternImage-DCNv3-G (M3I Pre-training)|90.1|3000000000.0|null|[']']|2211.05778v4
+MAWS (ViT-6.5B)|90.1|6500000000.0|null|[']']|Null
+Florence-CoSwin-H|90.05|893000000.0|null|['FLD-900M', 'Transformer']|2111.11432v1
+Meta Pseudo Labels (EfficientNet-B6-Wide)|90.0|390000000.0|null|['JFT-300M', 'EfficientNet']|2003.10580v4
+RevCol-H|90.0|2158000000.0|null|['Pure CNN', 'Reversible', 'CNN']|Null
+ONE-PEACE|89.8|1520000000.0|null|[']']|2305.11172v1
+MAWS (ViT-2B)|89.8|2000000000.0|null|[']']|Null
+EVA|89.7|1000000000.0|null|[']']|2211.07636v2
+M3I Pre-training (InternImage-H)|89.6|null|null|['YFCC-15M', 'Laion-400M']|2211.09807v2
+ViT-L/16 (384res, distilled from ViT-22B)|89.6|307000000.0|null|[']']|Null
+InternImage-H|89.6|1080000000.0|null|[']']|2211.05778v4
+MaxViT-XL (512res, JFT)|89.53|null|null|['JFT-300M']|2204.01697v4
+MAWS (ViT-H)|89.5|650000000.0|null|[']']|Null
+MaxViT-XL (384res, JFT)|89.41|null|null|['JFT-300M']|2204.01697v4
+MaxViT-L (512res, JFT)|89.41|null|null|['JFT-300M']|2204.01697v4
+NFNet-F4+|89.2|527000000.0|null|['CNN', 'JFT-300M']|2102.06171v1
+MaxViT-L (384res, JFT)|89.12|null|null|['JFT-300M']|2204.01697v4
+MOAT-4 22K+1K|89.1|483200000.0|null|['ImageNet-22k']|2210.01820v2
+FD (CLIP ViT-L-336)|89.0|307000000.0|null|['ImageNet-22k', 'CLIP data ']|2205.14141v3
+Last Layer Tuning with Newton Step (ViT-G/14))|88.9|null|null|[']']|2211.13403v1
+TokenLearner L/8 (24+11)|88.87|460000000.0|null|['Transformer', 'JFT-300M']|2106.11297v4
+MaxViT-B (512res, JFT)|88.82|null|null|['JFT-300M']|2204.01697v4
+MAWS (ViT-L)|88.8|null|null|[']']|Null
+MViTv2-H (512 res, ImageNet-21k pretrain)|88.8|667000000.0|null|['ImageNet-22k']|2112.01526v2
+MaxViT-XL (512res, 21K)|88.7|null|null|[']']|2204.01697v4
+MaxViT-B (384res, JFT)|88.69|null|null|[']']|2204.01697v4
+ALIGN (EfficientNet-L2)|88.64|480000000.0|null|['ALIGN', 'EfficientNet']|2102.05918v2
+EfficientNet-L2-475 (SAM)|88.61|480000000.0|null|['JFT-300M', 'EfficientNet']|2010.01412v3
+ViT-B/16|88.6|86000000.0|null|[']']|Null
+BEiT-L (ViT; ImageNet-22K pretrain)|88.6|331000000.0|null|['ImageNet-22k', 'Transformer']|Null
+SWAG (ViT H/14)|88.6|633500000.0|null|[']']|2201.08371v2
+ViT-H/14|88.55|null|null|['JFT-300M', 'Transformer']|2010.11929v2
+CoAtNet-3 @384|88.52|168000000.0|null|[']']|2106.04803v2
+MaxViT-XL (384res, 21K)|88.51|null|null|['ImageNet-22k']|2204.01697v4
+mPLUG-2|88.5|null|null|[']']|2302.00402v1
+OpenCLIP ViT-H/14|88.5|null|null|[']']|2212.07143v1
+FixEfficientNet-L2|88.5|480000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
+ViTAE-H + MAE (448)|88.5|644000000.0|null|[']']|2202.10108v2
+MaxViT-L (512res, 21K)|88.46|null|null|[']']|2204.01697v4
+MViTv2-L (384 res, ImageNet-21k pretrain)|88.4|218000000.0|null|['ImageNet-22k']|2112.01526v2
+NoisyStudent (EfficientNet-L2)|88.4|480000000.0|51800.0|['JFT-300M', 'EfficientNet']|1911.04252v4
+MaxViT-B (512res, 21K)|88.38|null|null|['ImageNet-22k']|2204.01697v4
+Top-k DiffSortNets (EfficientNet-L2)|88.37|null|null|['EfficientNet', 'JFT-300M']|2206.07290v1
+Adlik-ViT-SG+Swin_large+Convnext_xlarge(384)|88.36|1827000000.0|null|[']']|2201.03545v2
+V-MoE-H/14 (Every-2)|88.36|7200000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
+MaxViT-L (384res, 21K)|88.32|null|null|['ImageNet-22k']|2204.01697v4
+Unicom (ViT-L/14@336px) (Finetuned)|88.3|null|null|[']']|2304.05884v1
+PeCo (ViT-H, 448)|88.3|656000000.0|null|['Transformer', 'ImageNet-1k only']|2111.12710v3
+MaxViT-B (384res, 21K)|88.24|null|null|['ImageNet-22k']|2204.01697v4
+V-MoE-H/14 (Last-5)|88.23|2700000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
+dBOT ViT-H (CLIP as Teacher)|88.2|null|null|['CLIP data ']|2209.03917v3
+CAFormer-B36 (384 res, 21K)|88.1|99000000.0|null|['ImageNet-22k']|2210.13452v3
+VIT-H/14|88.08|656000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
+ViT-H@224 (cosub)|88.0|null|null|['ImageNet-22k']|2212.04884v1
+UniRepLKNet-XL++|88.0|null|null|[']']|2311.15599v2
+InternImage-XL|88.0|335000000.0|null|[']']|2211.05778v4
+MViTv2-H (mageNet-21k pretrain)|88.0|667000000.0|null|['ImageNet-22k']|2112.01526v2
+Mixer-H/14 (JFT-300M pre-train)|87.94|null|null|['JFT-300M', 'MLP']|2105.01601v4
+UniRepLKNet-L++|87.9|null|null|[']']|2311.15599v2
+dBOT ViT-L (CLIP as Teacher)|87.8|null|null|['CLIP data ']|2209.03917v3
+MogaNet-XL (384res)|87.8|181000000.0|null|[']']|2211.03295v3
+VAN-B6 (22K, 384res)|87.8|200000000.0|null|['ImageNet-22k']|2202.09741v5
+RepLKNet-XL|87.8|335000000.0|null|['ImageNet-22k']|2203.06717v4
+ConvNeXt-XL (ImageNet-22k)|87.8|350000000.0|null|['CNN', 'ImageNet-22k']|2201.03545v2
+MAE (ViT-H, 448)|87.8|656000000.0|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
+ViT-L/16|87.76|null|null|['JFT-300M', 'Transformer']|2010.11929v2
+HorNet-L (GF)|87.7|null|null|['ImageNet-22k']|2207.14284v3
+InternImage-L|87.7|223000000.0|null|[']']|2211.05778v4
+ConvFormer-B36 (384 res, 21K)|87.6|100000000.0|null|['ImageNet-22k']|2210.13452v3
+BiT-L (ResNet)|87.54|null|null|['ImageNet-22k', 'ResNet']|1912.11370v3
+PeCo (ViT-H, 224)|87.5|null|null|['Transformer', 'ImageNet-1k only']|2111.12710v3
+ViT-L@224 (cosub)|87.5|null|null|['ImageNet-22k']|2212.04884v1
+CAFormer-M36 (384 res, 21K)|87.5|56000000.0|null|['ImageNet-22k']|2210.13452v3
+CSWin-L (384 res,ImageNet-22k pretrain)|87.5|173000000.0|null|['ImageNet-22k', 'Transformer']|2107.00652v3
+DaViT-L (ImageNet-22k)|87.5|196800000.0|null|['ImageNet-22k']|2204.03645v1
+DiNAT-Large (11x11ks; 384res; Pretrained on IN22K@224)|87.5|200000000.0|null|['ImageNet-22k']|2209.15001v3
+V-MoE-L/16 (Every-2)|87.41|3400000000.0|null|['JFT-300M', 'Transformer']|2106.05974v1
+DiNAT-Large (384x384; Pretrained on ImageNet-22K @ 224x224)|87.4|null|null|['ImageNet-22k']|2209.15001v3
+data2vec 2.0|87.4|null|null|['ImageNet-1k only']|Null
+UniRepLKNet-B++|87.4|null|null|[']']|2311.15599v2
+CAFormer-B36 (224 res, 21K)|87.4|99000000.0|null|['ImageNet-22k']|2210.13452v3
+UniNet-B6|87.4|117000000.0|null|['ImageNet-22k']|2207.05420v2
+DiNAT_s-Large (384res; Pretrained on IN22K@224)|87.4|197000000.0|null|['ImageNet-22k']|2209.15001v3
+Swin-L|87.3|197000000.0|null|['Transformer']|2103.14030v2
+VOLO-D5+HAT|87.3|295500000.0|null|['ImageNet-1k only', 'Transformer']|2204.00993v3
+EfficientNetV2 (PolyLoss)|87.2|null|null|[']']|2204.12511v2
+ELSA-VOLO-D5 (512*512)|87.2|298000000.0|null|['Transformer', 'ImageNet-1k only']|2112.12786v1
+Bamboo (Bamboo-H)|87.1|null|null|['ImageNet-1k only']|2205.10505v3
+Swin-L@224 (cosub)|87.1|null|null|['ImageNet-22k']|2212.04884v1
+FixEfficientNet-B7|87.1|66000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
+FAN-L-Hybrid++|87.1|76800000.0|null|[']']|2204.12451v4
+SwinV2-B|87.1|88000000.0|null|[']']|2111.09883v2
+VOLO-D5|87.1|296000000.0|null|['ImageNet-1k only']|2106.13112v2
+PatchConvNet-L120-21k-384|87.1|334300000.0|null|['PatchConvnet', 'ImageNet-22k']|Null
+16-TokenLearner B/16 (21)|87.07|null|null|['Transformer', 'JFT-300M']|2106.11297v4
+MAE+DAT (ViT-H)|87.02|null|null|[']']|2209.07735v1
+UniNet-B5|87.0|72900000.0|null|['ImageNet-22k']|2207.05420v2
+VAN-B5 (22K, 384res)|87.0|90000000.0|null|[']']|2202.09741v5
+ConvFormer-B36 (224 res, 21K)|87.0|100000000.0|null|['ImageNet-22k']|2210.13452v3
+MAE (ViT-H)|86.9|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
+Hiera-H|86.9|null|null|['ImageNet-1k only', 'Transformer']|2306.00989v1
+CAFormer-S36 (384 res, 21K)|86.9|39000000.0|null|['ImageNet-22k']|2210.13452v3
+ConvFormer-M36 (384 res, 21K)|86.9|57000000.0|null|['ImageNet-22k']|2210.13452v3
+NoisyStudent (EfficientNet-B7)|86.9|66000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
+DaViT-B (ImageNet-22k)|86.9|87900000.0|null|[']']|2204.03645v1
+MAWS (ViT-B)|86.8|null|null|[']']|Null
+EfficientNetV2L|86.8|121000000.0|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
+VOLO-D4|86.8|193000000.0|null|['ImageNet-1k only']|2106.13112v2
+NFNet-F5 w/ SAM w/ augmult=16|86.78|377200000.0|null|['CNN', 'ImageNet-1k only']|2105.13343v2
+\u00b52Net (ViT-L/16)|86.74|null|null|['ImageNet-22k']|2205.12755v6
+ViT-B @384 (DeiT III, 21k)|86.7|null|null|['ImageNet-22k']|2204.07118v1
+MaxViT-L (512res)|86.7|null|null|[']']|2204.01697v4
+FixEfficientNet-B6|86.7|43000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
+MOAT-3 1K only|86.7|190000000.0|null|[']']|2210.01820v2
+Heinsen Routing + BEiT-large 16 224|86.7|312800000.0|null|['Transformer', 'ImageNet-1k only']|2211.11754v3
+CLCNet (S:ViT+D:EffNet-B7) (retrain)|86.61|null|null|['ImageNet-1k only']|2205.09612v5
+CAFormer-M36 (224 res, 21K)|86.6|56000000.0|null|['ImageNet-22k']|2210.13452v3
+VAN-B4 (22K, 384res)|86.6|60000000.0|null|[']']|2202.09741v5
+data2vec (ViT-H)|86.6|656000000.0|null|['ImageNet-1k only']|2202.03555v3
+DiNAT_s-Large (224x224; Pretrained on ImageNet-22K @ 224x224)|86.5|null|null|['ImageNet-22k']|2209.15001v3
+MKD ViT-L|86.5|null|null|['Teacher-22k', 'ImageNet-22k']|2202.07940v1
+TinyViT-21M-512-distill (512 res, 21k)|86.5|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
+PatchConvNet-B60-21k-384|86.5|99400000.0|null|['PatchConvnet', 'ImageNet-22k']|Null
+CaiT-M-48-448|86.5|438000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+NFNet-F6 w/ SAM|86.5|438400000.0|null|['ImageNet-1k only']|2102.06171v1
+CLCNet (S:ViT+D:VOLO-D3) (retrain)|86.46|null|null|['ImageNet-1k only']|2205.09612v5
+CLCNet (S:ConvNeXt-L+D:EffNet-B7) (retrain)|86.42|null|null|['ImageNet-1k only']|2205.09612v5
+MaxViT-L (384res)|86.4|null|null|[']']|2204.01697v4
+UniRepLKNet-S++|86.4|null|null|[']']|2311.15599v2
+FixEfficientNet-B5|86.4|30000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
+ConvFormer-S36 (384 res, 21K)|86.4|40000000.0|null|['ImageNet-22k']|2210.13452v3
+NoisyStudent (EfficientNet-B6)|86.4|43000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
+Swin-B|86.4|88000000.0|null|['ImageNet-22k', 'Transformer']|2103.14030v2
+CAFormer-B36 (384 res)|86.4|99000000.0|null|['ImageNet-1k only']|2210.13452v3
+LV-ViT-L|86.4|151000000.0|null|['ImageNet-1k only', 'Transformer']|2104.10858v3
+FixResNeXt-101 32x48d|86.4|829000000.0|62.0|['ResNeXt']|1906.06423v4
+MaxViT-B (384res)|86.34|null|null|[']']|2204.01697v4
+Bamboo (Bamboo-L)|86.3|null|null|['ImageNet-1k only']|2205.10505v3
+ViT-B@224 (cosub)|86.3|null|null|['ImageNet-22k']|2212.04884v1
+"Our SP-ViT-L|384"|86.3|null|null|[']']|2206.07662v1
+BEiT-L (ViT; ImageNet 1k pretrain)|86.3|86000000.0|null|['Transformer', 'ImageNet-1k only']|Null
+VOLO-D3|86.3|86000000.0|null|['ImageNet-1k only']|2106.13112v2
+VAN-B5 (22K)|86.3|90000000.0|null|[']']|2202.09741v5
+UniFormer-L (384 res)|86.3|100000000.0|null|[']']|2201.09450v3
+MViTv2-L (384 res)|86.3|218000000.0|null|[']']|2112.01526v2
+CAIT-M36-448|86.3|271000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+NFNet-F5 w/ SAM|86.3|377200000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+Swin-B@224 (cosub)|86.2|null|null|['ImageNet-22k']|2212.04884v1
+TinyViT-21M-384-distill (384 res, 21k)|86.2|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
+CAFormer-M36 (384 res)|86.2|56000000.0|null|['ImageNet-1k only']|2210.13452v3
+TransNeXt-Base (IN-1K supervised, 384)|86.2|89700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
+MIRL (ViT-B-48)|86.2|341000000.0|null|['Transformer', 'ImageNet-1k only']|Null
+MaxViT-S (512res)|86.19|null|null|[']']|2204.01697v4
+NoisyStudent (EfficientNet-B5)|86.1|30000000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
+EfficientNetV2-M (21k)|86.1|55000000.0|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
+ConvFormer-M36 (224 res, 21K)|86.1|57000000.0|null|['ImageNet-22k']|2210.13452v3
+CAIT-M-36|86.1|270900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+Refiner-ViT-L|86.03|81000000.0|null|['ImageNet-1k only', 'Transformer']|2106.03714v1
+GPaCo (ViT-L)|86.01|null|null|['Contrastive', 'Transformer', 'ImageNet-1k only']|2209.12400v2
+Omnivore (Swin-L)|86.0|null|null|[']']|2201.08377v2
+"Our SP-ViT-M|384"|86.0|null|null|[']']|2206.07662v1
+TransNeXt-Small (IN-1K supervised, 384)|86.0|49700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
+VOLO-D2|86.0|59000000.0|null|['ImageNet-1k only']|2106.13112v2
+XCiT-L24|86.0|189000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
+SparK (ConvNeXt-Large, 384)|86.0|198000000.0|null|['ConvNeXt', 'CNN', 'ImageNet-1k only']|2301.03580v2
+NFNet-F5|86.0|377200000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+MAE (ViT-L)|85.9|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
+DAT-B++ (384x384)|85.9|null|null|[']']|2309.01430v1
+FixEfficientNet-B4|85.9|19000000.0|null|['JFT-300M', 'EfficientNet']|2003.08237v5
+NFNet-F4|85.9|316100000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+ConvNeXt-B@224 (cosub)|85.8|null|null|['ImageNet-22k']|2212.04884v1
+PiT-B@224 (cosub)|85.8|null|null|['ImageNet-22k']|2212.04884v1
+GTP-ViT-B-Patch8/P20|85.8|null|null|[']']|2311.03035v2
+CAFormer-S36 (224 res, 21K)|85.8|39000000.0|null|['ImageNet-22k']|2210.13452v3
+XCiT-M24|85.8|84000000.0|null|['ImageNet-1k only', 'Transformer']|2106.09681v2
+Fix-EfficientNet-B8 (MaxUp + CutMix)|85.8|87420000.0|null|['ImageNet-1k only', 'EfficientNet']|2002.09024v1
+KDforAA (EfficientNet-B8)|85.8|88000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.11342v1
+CAIT-M-24|85.8|185900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+ViT-L|85.8|304800000.0|null|['ImageNet-1k only']|2204.07118v1
+SEER (RG-10B)|85.8|10000000000.0|null|['Self-Supervised Learning', 'RegNet', 'IG-1B']|2202.08360v2
+MaxViT-T(512res)|85.72|null|null|[']']|2204.01697v4
+FixEfficientNet-B8|85.7|null|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+EfficientNetV2-L|85.7|null|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
+ViT-B @224 (DeiT III, 21k)|85.7|null|null|['ImageNet-22k']|2204.07118v1
+dBOT ViT-B (CLIP as Teacher)|85.7|null|null|['CLIP data ']|2209.03917v3
+CAFormer-S36 (384 res)|85.7|39000000.0|null|['ImageNet-1k only']|2210.13452v3
+VAN-B4 (22K)|85.7|60000000.0|null|[']']|2202.09741v5
+ConvFormer-B36 (384 res)|85.7|100000000.0|null|['ImageNet-1k only']|2210.13452v3
+NFNet-F3|85.7|254900000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+ViT-H @224 (DeiT-III + AugSub)|85.7|632000000.0|null|[']']|Null
+XCiT-S24|85.6|48000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
+ConvFormer-M36 (384 res)|85.6|57000000.0|null|['ImageNet-1k only']|2210.13452v3
+UniFormer-L|85.6|100000000.0|null|[']']|2201.09450v3
+ViT-L@384 (attn finetune)|85.5|null|null|['ImageNet-1k only']|2203.09795v1
+Our SP-ViT-L|85.5|null|null|[']']|2206.07662v1
+Mini-Swin-B@384|85.5|47000000.0|null|['Conv+Transformer', 'ImageNet-1k only', 'Transformer']|2204.07154v1
+Wave-ViT-L|85.5|57500000.0|null|[']']|2207.04978v1
+KDforAA (EfficientNet-B7)|85.5|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.11342v1
+HaloNet4 (base 128, Conv-12)|85.5|87000000.0|null|['Transformer', 'ImageNet-1k only']|2103.12731v3
+AdvProp (EfficientNet-B8)|85.5|88000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.09665v2
+CAFormer-B36 (224 res)|85.5|99000000.0|null|['ImageNet-1k only']|2210.13452v3
+ConvNeXt-L (384 res)|85.5|198000000.0|null|[']']|2201.03545v2
+EfficientNet-B8 (RandAugment)|85.4|null|null|['ImageNet-1k only', 'EfficientNet']|1909.13719v2
+BiFormer-B* (IN1k ptretrain)|85.4|null|null|[']']|2303.08810v1
+GTP-EVA-L/P8|85.4|null|null|[']']|2311.03035v2
+PatchConvNet-S60-21k-512|85.4|25200000.0|null|['ImageNet-22k', 'PatchConvnet']|Null
+CAFormer-S18 (384 res, 21K)|85.4|26000000.0|null|['ImageNet-22k']|2210.13452v3
+ConvFormer-S36 (224 res, 21K)|85.4|40000000.0|null|['ImageNet-22k']|2210.13452v3
+ConvFormer-S36 (384 res)|85.4|40000000.0|null|['ImageNet-1k only']|2210.13452v3
+CAIT-S-36|85.4|68200000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+ResNeXt-101 32x48d|85.4|829000000.0|null|['IG-1B', 'ResNeXt']|1805.00932v1
+BiT-M (ResNet)|85.39|928000000.0|null|['ImageNet-22k', 'ResNet']|1912.11370v3
+ViT-L/16 Dosovitskiy et al. (2021)|85.3|null|null|['JFT-300M', 'Transformer']|2105.01601v4
+Omnivore (Swin-B)|85.3|null|null|[']']|2201.08377v2
+NoisyStudent (EfficientNet-B4)|85.3|19000000.0|null|['EfficientNet']|1911.04252v4
+CAIT-S-48|85.3|89500000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+ViT-L @224 (DeiT-III + AugSub)|85.3|304000000.0|null|[']']|Null
+CLCNet (S:D1+D:D5)|85.28|null|null|['ImageNet-1k only']|2205.09612v5
+MaxViT-T (384res)|85.24|null|null|[']']|2204.01697v4
+ViT-H @224 (DeiT III)|85.2|null|null|['ImageNet-1k only']|2204.07118v1
+VOLO-D1|85.2|27000000.0|null|['ImageNet-1k only']|2106.13112v2
+CAFormer-M36 (224 res)|85.2|56000000.0|null|['ImageNet-1k only']|2210.13452v3
+AdvProp (EfficientNet-B7)|85.2|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.09665v2
+UniNet-B5|85.2|73500000.0|null|[']']|2110.04035v1
+DeiT-B 384|85.2|87000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
+EfficientNetV2-M|85.1|null|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
+MKD ViT-B|85.1|null|null|['Teacher-22k', 'ImageNet-22k']|2202.07940v1
+"SP-ViT-S|384"|85.1|null|null|[']']|2206.07662v1
+XCiT-S12|85.1|26000000.0|null|['Transformer', 'ImageNet-1k only']|2106.09681v2
+CAIT-S-24|85.1|46900000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+ResNet200_vd_26w_4s_ssld|85.1|76000000.0|null|['ResNet']|Null
+MixMIM-B|85.1|88000000.0|null|[']']|2205.13137v4
+NFNet-F2|85.1|193800000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+ResNeXt-101 32x32d|85.1|466000000.0|null|['ResNeXt']|1805.00932v1
+DiscreteViT|85.07|null|null|['Transformer', 'ImageNet-1k only']|2111.10493v2
+EfficientNetV2-S (21k)|85.0|null|null|['ImageNet-22k', 'EfficientNet']|2104.00298v3
+ViT-M@224 (cosub)|85.0|null|null|['ImageNet-22k']|2212.04884v1
+ViC-MAE (ViT-L)|85.0|null|null|[']']|2303.12001v2
+FixEfficientNet-B3|85.0|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+CAFormer-S18 (384 res)|85.0|26000000.0|null|['ImageNet-1k only']|2210.13452v3
+ConvFormer-S18 (384 res, 21K)|85.0|27000000.0|null|['ImageNet-22k']|2210.13452v3
+EfficientNet-B7 (RandAugment)|85.0|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1909.13719v2
+ViT-B @384 (DeiT III)|85.0|87000000.0|null|['ImageNet-1k only']|2204.07118v1
+MaxViT-B (224res)|84.95|null|null|[']']|2204.01697v4
+CaiT-S24|84.91|null|null|[']']|2308.09372v1
+ViT-L @224 (DeiT III)|84.9|null|null|['ImageNet-1k only']|2204.07118v1
+Our SP-ViT-M|84.9|null|null|[']']|2206.07662v1
+DAT-B++ (224x224)|84.9|null|null|[']']|2309.01430v1
+CvT-21 (384 res, ImageNet-22k pretrain)|84.9|32000000.0|null|['ImageNet-22k', 'Transformer']|2103.15808v1
+InternImage-B|84.9|97000000.0|null|[']']|2211.05778v4
+TinyViT-21M-distill (21k)|84.8|21000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
+Wave-ViT-B|84.8|33500000.0|null|[']']|2207.04978v1
+CAIT-XS-36|84.8|38600000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+SReT-B (384 res, ImageNet-1K only)|84.8|71200000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
+MViT-B-24|84.8|72900000.0|null|['Transformer', 'ImageNet-1k only']|2104.11227v1
+ActiveMLP-L|84.8|76400000.0|null|[']']|2203.06108v2
+NoisyViT-B (384res, ImageNet-21k pretrain)|84.8|86000000.0|null|[']']|2309.10625v3
+DAT-B (384 res, IN-1K only)|84.8|88000000.0|null|['Transformer']|2201.00520v3
+MIRL(ViT-S-54)|84.8|96000000.0|null|['Transformer', 'ImageNet-1k only']|Null
+ConvFormer-B36 (224 res)|84.8|100000000.0|null|['ImageNet-1k only']|2210.13452v3
+ResNeXt-101 32x16d (semi-weakly sup.)|84.8|193000000.0|null|['IG-1B', 'ResNeXt']|1905.00546v1
+ELSA-VOLO-D1|84.7|27000000.0|null|['ImageNet-1k only']|2112.12786v1
+TransNeXt-Small (IN-1K supervised, 224)|84.7|49700000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
+Next-ViT-L @384|84.7|57800000.0|null|[']']|2207.05501v4
+BoTNet T7|84.7|75100000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+MogaNet-L|84.7|83000000.0|null|['CNN']|2211.03295v3
+"LITv2-B|384"|84.7|87000000.0|null|[']']|2205.13213v5
+NFNet-F1|84.7|132600000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+DAT-S++|84.6|null|null|[']']|2309.01430v1
+Sequencer2D-L\u2191392|84.6|54000000.0|null|[']']|Null
+SE-CoTNetD-152|84.6|55800000.0|null|[']']|2107.12292v1
+AMD(ViT-B/16)|84.6|87000000.0|null|['Vision Transformer', 'ImageNet-1k only']|Null
+DaViT-B|84.6|87900000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1
+ReXNet-R_3.0|84.5|34800000.0|null|[']']|2007.00992v3
+CAFormer-S36 (224 res)|84.5|39000000.0|null|['ImageNet-1k only']|2210.13452v3
+ConvFormer-M36 (224 res)|84.5|57000000.0|null|['ImageNet-1k only']|2210.13452v3
+GC ViT-B|84.5|90000000.0|null|[']']|2206.09959v5
+ResNeSt-269|84.5|111000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
+MaxViT-S (224res)|84.45|null|null|[']']|2204.01697v4
+GPIPE|84.4|null|null|['ImageNet-1k only']|1811.06965v5
+ConvFormer-S18 (384 res)|84.4|27000000.0|null|['ImageNet-1k only']|2210.13452v3
+EfficientNet-B7|84.4|66000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+DiNAT-Base|84.4|90000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3
+ResNet-RS-50 (160 image res)|84.4|192000000.0|null|['ImageNet-1k only', 'ResNet']|2103.07579v1
+ColorNet (RHYLH with Conv Layer)|84.32|null|null|[']']|1902.00267v1
+ViT-B@384 (attn finetune)|84.3|null|null|['ImageNet-1k only']|2203.09795v1
+BiFormer-S* (IN1k ptretrain)|84.3|null|null|[']']|2303.08810v1
+SReT-S (512 res, ImageNet-1K only)|84.3|21300000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
+LambdaResNet200|84.3|42000000.0|null|['CNN', 'ImageNet-1k only']|2102.08602v1
+MogaNet-B|84.3|44000000.0|null|['CNN']|2211.03295v3
+TResNet-XL|84.3|77000000.0|null|['CNN', 'ImageNet-1k only']|
+ResNeXt-101 32x8d (semi-weakly sup.)|84.3|88000000.0|null|['ResNeXt']|1905.00546v1
+NAT-Base|84.3|90000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
+Assemble-ResNet152|84.2|null|null|['ImageNet-1k only', 'ResNet']|2001.06268v2
+BoTNet T7-320|84.2|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+"ViP-B|384"|84.2|null|null|['Transformer', 'ImageNet-1k only']|2107.05790v2
+Bamboo (Bamboo-B)|84.2|null|null|['ImageNet-1k only']|2205.10505v3
+RegnetY16GF@224 (cosub)|84.2|null|null|['ImageNet-22k']|2212.04884v1
+EfficientViT-B3 (r288)|84.2|null|null|[']']|2205.14756v6
+InternImage-S|84.2|50000000.0|null|[']']|2211.05778v4
+UniNet-B4|84.2|73500000.0|null|[']']|2110.04035v1
+DeiT-B|84.2|86000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
+ViT-B @224 (DeiT-III + AugSub)|84.2|86600000.0|null|[']']|Null
+RevBiFPN-S6|84.2|142300000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
+ResNeXt-101 32\u00d716d|84.2|194000000.0|null|[']']|1805.00932v1
+FBNetV5-F-CLS|84.1|null|null|[']']|2111.10007v2
+ViT-B-36x1|84.1|null|null|['ImageNet-1k only']|2203.09795v1
+ViT-B-18x2|84.1|null|null|['ImageNet-1k only']|2203.09795v1
+XCiT-M (+MixPro)|84.1|null|null|[']']|2304.12043v2
+NoisyStudent (EfficientNet-B3)|84.1|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|1911.04252v4
+CAFormer-S18 (224 res, 21K)|84.1|26000000.0|null|['ImageNet-22k']|2210.13452v3
+CAIT-XS-24|84.1|26600000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+ConvFormer-S36 (224 res)|84.1|40000000.0|null|['ImageNet-1k only']|2210.13452v3
+LV-ViT-M|84.1|56000000.0|null|['ImageNet-1k only', 'Transformer']|2104.10858v3
+Conformer-B|84.1|83300000.0|null|['ImageNet-1k only', 'Transformer']|Null
+PatchConvNet-B120|84.1|188600000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
+GPaCo (Vit-B)|84.0|null|null|[']']|2209.12400v2
+AIM-7B|84.0|null|null|[']']|Null
+FixEfficientNetB4|84.0|19000000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+Fix_ResNet50_vd_ssld|84.0|25580000.0|null|['ResNet']|Null
+TransNeXt-Tiny (IN-1K supervised, 224)|84.0|28200000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
+LambdaResNet152|84.0|35000000.0|null|['ImageNet-1k only', 'ResNet']|2102.08602v1
+EfficientNet-B6|84.0|43000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+GC ViT-S|84.0|51000000.0|null|[']']|2206.09959v5
+BoTNet T6|84.0|53900000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+PiT-B|84.0|73800000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
+DeepMAD-89M|84.0|89000000.0|null|['ImageNet-1k only', 'CNN']|2303.02165v3
+Our SP-ViT-S|83.9|null|null|[']']|2206.07662v1
+UniRepLKNet-S|83.9|null|null|[']']|2311.15599v2
+DAT-T++|83.9|null|null|[']']|2309.01430v1
+Wave-ViT-S|83.9|22700000.0|null|[']']|2207.04978v1
+EfficientNetV2-S|83.9|24000000.0|null|['ImageNet-1k only', 'EfficientNet']|2104.00298v3
+ASF-former-B|83.9|56700000.0|null|[']']|2204.12196v2
+DynamicViT-LV-M/0.8|83.9|57100000.0|null|['ImageNet-1k only', 'Transformer']|Null
+TNT-B|83.9|65600000.0|null|['ImageNet-1k only', 'Transformer']|2103.00112v3
+ResNeSt-200|83.9|70000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
+AmoebaNet-A|83.9|469000000.0|null|['CNN', 'ImageNet-1k only']|1802.01548v7
+CLCNet (S:B4+D:B7)|83.88|null|null|['ImageNet-1k only']|2205.09612v5
+ResNet-RS-270 (256 image res)|83.8|null|null|['ImageNet-1k only', 'ResNet']|2103.07579v1
+SENet-350|83.8|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+ViT-B @224 (DeiT III)|83.8|null|null|['ImageNet-1k only']|2204.07118v1
+SReT-S (384 res, ImageNet-1K only)|83.8|21000000.0|null|['ImageNet-1k only', 'Transformer']|2111.05297v3
+DiNAT-Small|83.8|51000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']|2209.15001v3
+Transformer local-attention (NesT-B)|83.8|68000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
+PVTv2-B4|83.8|82000000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
+CA-Swin-S (+MixPro)|83.7|null|null|[']']|2304.12043v2
+GTP-ViT-L/P8|83.7|null|null|[']']|2311.03035v2
+ConvFormer-S18 (224 res, 21K)|83.7|27000000.0|null|['ImageNet-22k']|2210.13452v3
+DAT-S|83.7|50000000.0|null|[']']|2201.00520v3
+NAT-Small|83.7|51000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
+QnA-ViT-Base|83.7|56000000.0|null|[']']|Null
+RevBiFPN-S5|83.7|82000000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
+Pyramid ViG-B|83.7|92600000.0|null|[']']|2206.00272v3
+Twins-SVT-L|83.7|99200000.0|null|['ImageNet-1k only', 'Transformer']|2104.13840v4
+TransBoost-ViT-S|83.67|22050000.0|null|[']']|2205.13331v4
+XCiT-S|83.65|null|null|[']']|2308.09372v1
+MaxViT-T (224res)|83.62|null|null|[']']|2204.01697v4
+Wave-ViT-S|83.61|null|null|[']']|2308.09372v1
+LITv2-B|83.6|null|null|[']']|2205.13213v5
+MultiGrain PNASNet (500px)|83.6|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+MAE (ViT-L)|83.6|null|null|['Transformer', 'ImageNet-1k only']|2111.06377v2
+PAT-B|83.6|null|null|[']']|2211.16961v5
+FixEfficientNet-B2|83.6|9200000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+CAFormer-S18 (224 res)|83.6|26000000.0|null|[']']|2210.13452v3
+IPT-B|83.6|39300000.0|null|[']']|2212.03035v1
+ViTAE-B-Stage|83.6|48500000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
+ResT-Large|83.6|51630000.0|null|['ImageNet-1k only', 'Transformer']|2105.13677v5
+NFNet-F0|83.6|71500000.0|null|['CNN', 'ImageNet-1k only']|2102.06171v1
+SE-ResNeXt-101, 64x4d, S=2(320px)|83.6|98000000.0|null|[']']|Null
+ResMLP-B24/8|83.6|116000000.0|null|['ImageNet-1k only', 'MLP']|2105.03404v2
+BoTNet T5|83.5|null|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+InternImage-T|83.5|30000000.0|null|[']']|2211.05778v4
+PatchConvNet-B60|83.5|99400000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
+ViT-B (hMLP + BeiT)|83.4|null|null|[']']|2203.09795v1
+UniFormer-S|83.4|22000000.0|null|[']']|2201.09450v3
+ViT-S @384 (DeiT III)|83.4|22000000.0|null|[']']|2204.07118v1
+MogaNet-S|83.4|25000000.0|null|['CNN']|2211.03295v3
+GC ViT-T|83.4|28000000.0|null|[']']|2206.09959v5
+ResNeXt-101 32x4d (semi-weakly sup.)|83.4|42000000.0|null|['ResNeXt']|1905.00546v1
+Sequencer2D-L|83.4|54000000.0|null|[']']|Null
+sMLPNet-B (ImageNet-1k)|83.4|65900000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
+SE-ResNeXt-101, 64x4d, S=2(416px)|83.34|98000000.0|null|['ImageNet-1k only', 'ResNeXt']|Null
+CvT-21 (384 res)|83.3|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
+"T2T-ViT-14|384"|83.3|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+CeiT-S (384 finetune res)|83.3|24200000.0|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
+LV-ViT-S|83.3|26000000.0|null|[']']|2104.10858v3
+MOAT-0 1K only|83.3|27800000.0|null|[']']|2210.01820v2
+EfficientNet-B5|83.3|30000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+Transformer local-attention (NesT-S)|83.3|38000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
+ViL-Medium-D|83.3|39700000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
+LITv2-M|83.3|49000000.0|null|[']']|2205.13213v5
+Shift-B|83.3|88000000.0|null|[']']|2201.10801v1
+MultiGrain PNASNet (450px)|83.2|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+Meta Pseudo Labels (ResNet-50)|83.2|null|null|[']']|2003.10580v4
+UniRepLKNet-T|83.2|null|null|[']']|2311.15599v2
+TinyViT-11M-distill (21k)|83.2|11000000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
+ReXNet-R_2.0|83.2|16500000.0|null|[']']|2007.00992v3
+QnA-ViT-Small|83.2|25000000.0|null|[']']|Null
+NAT-Tiny|83.2|28000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
+SE-CoTNetD-101|83.2|40900000.0|null|[']']|2107.12292v1
+Next-ViT-B|83.2|44800000.0|null|[']']|2207.05501v4
+PVTv2-B3|83.2|45200000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
+PatchConvNet-S120|83.2|47700000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
+ViL-Base-D|83.2|55700000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
+CycleMLP-B5|83.2|76000000.0|null|['ImageNet-1k only', 'MLP']|2107.10224v4
+MultiGrain SENet154 (450px)|83.1|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+DeepVit-L* (DeiT training recipe)|83.1|null|null|['ImageNet-1k only', 'Transformer']|2103.11886v4
+ViT-S @224 (DeiT III, 21k)|83.1|null|null|[']']|2204.07118v1
+MKD ViT-S|83.1|null|null|[']']|2202.07940v1
+ViT-S@224 (cosub)|83.1|null|null|['ImageNet-22k']|2212.04884v1
+PAT-S|83.1|null|null|[']']|2211.16961v5
+TinyViT-21M|83.1|21000000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
+sMLPNet-S (ImageNet-1k)|83.1|48600000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
+Pyramid ViG-M|83.1|51700000.0|null|[']']|2206.00272v3
+SwinV2-Ti|83.09|null|null|[']']|2308.09372v1
+gSwin-S|83.01|39800000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
+MultiGrain SENet154 (400px)|83.0|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+CvT-13 (384 res)|83.0|20000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
+ResNet50_vd_ssld|83.0|25580000.0|null|['ImageNet-1k only', 'ResNet']|Null
+ConvFormer-S18 (224 res)|83.0|27000000.0|null|['ImageNet-1k only']|2210.13452v3
+MViT-B-16|83.0|37000000.0|null|['Transformer', 'ImageNet-1k only']|2104.11227v1
+ResNeSt-101|83.0|48000000.0|null|['CNN', 'ImageNet-1k only']|2004.08955v2
+RevBiFPN-S4|83.0|48700000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
+ZenNAS (0.8ms)|83.0|183000000.0|null|[']']|2102.01063v4
+NASViT (supernet)|82.9|null|null|[']']|Null
+DeiT-B (+MixPro)|82.9|null|null|[']']|2304.12043v2
+IPT-S|82.9|24300000.0|null|[']']|2212.03035v1
+ViL-Medium-W|82.9|39800000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
+GFNet-H-B|82.9|54000000.0|null|['Transformer', 'ImageNet-1k only']|Null
+Oct-ResNet-152 (SE)|82.9|66800000.0|20771.0|['CNN', 'ImageNet-1k only']|1904.05049v3
+PNASNet-5|82.9|86100000.0|null|['CNN', 'ImageNet-1k only']|1712.00559v3
+Harm-SE-RNX-101 64x4d (320x320, Mean-Max Pooling)|82.85|88200000.0|null|['CNN', 'ImageNet-1k only']|2001.06570v3
+GTP-LV-ViT-M/P8|82.8|null|null|[']']|2311.03035v2
+FunMatch - T384+224 (ResNet-50)|82.8|null|null|['CNN', 'ImageNet-1k only']|2106.05237v2
+CA-Swin-T (+MixPro)|82.8|null|null|[']']|2304.12043v2
+VAN-B2|82.8|26600000.0|null|[']']|2202.09741v5
+DaViT-T|82.8|28300000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1
+ReXNet_3.0|82.8|34700000.0|null|['ImageNet-1k only']|2007.00992v3
+Sequencer2D-M|82.8|38000000.0|null|[']']|Null
+CrossViT-18+|82.8|44300000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
+Shift-S|82.8|50000000.0|null|[']']|2201.10801v1
+HRFormer-B|82.8|50300000.0|null|[']']|2110.09408v3
+BoTNet T4|82.8|54700000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+"CCT-14/7x2 | 384"|82.71|null|null|['Transformer', 'ImageNet-1k only']|2104.05704v4
+MultiGrain SENet154 (500px)|82.7|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+PVT-M (+MixPro)|82.7|null|null|[']']|2304.12043v2
+ASF-former-S|82.7|19300000.0|null|[']']|2204.12196v2
+Container Container|82.7|22100000.0|null|[']']|2106.01401v2
+UniNet-B2|82.7|22500000.0|null|[']']|2110.04035v1
+DiNAT-Tiny|82.7|28000000.0|null|['Neighborhood Attention', 'Transformer', 'NAT Transformer', 'ImageNet-1k only']|2209.15001v3
+ELSA-Swin-T|82.7|28000000.0|null|[']']|2112.12786v1
+NASNET-A(6)|82.7|88900000.0|1648.0|['CNN', 'ImageNet-1k only']|1707.07012v4
+RVT-B*|82.7|91800000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
+FBNetV5-C-CLS|82.6|null|null|[']']|2111.10007v2
+MultiGrain PNASNet (400px)|82.6|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+ViT-S-24x2|82.6|null|null|[']']|2203.09795v1
+FixEfficientNet-B1|82.6|7800000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+EfficientNet-B4|82.6|19000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+DeiT-B|82.6|22000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
+T2T-ViTt-24|82.6|64400000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+ViT-S|82.54|null|null|[']']|2308.09372v1
+CvT-21|82.5|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
+TransNeXt-Micro (IN-1K supervised, 224)|82.5|12800000.0|null|['Transformer', 'ImageNet-1k only']|2311.17132v1
+FixResNet-50 Billion-scale@224|82.5|25600000.0|null|[']']|1906.06423v4
+Next-ViT-S|82.5|31700000.0|null|[']']|2207.05501v4
+LeViT-384|82.5|39400000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
+CrossViT-18|82.5|43300000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
+MetaFormer PoolFormer-M48|82.5|73000000.0|null|['Transformer', 'ImageNet-1k only']|2111.11418v3
+ConViT-B+|82.5|152000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+TransBoost-ConvNext-T|82.46|28590000.0|null|[']']|2205.13331v4
+ReViT-B|82.4|null|null|[']']|Null
+NoisyStudent (EfficientNet-B2)|82.4|9200000.0|null|['ImageNet-1k only', 'JFT-300M', 'EfficientNet']|1911.04252v4
+AutoFormer-base|82.4|54000000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
+ResNet-152 (A2 + reg)|82.4|60200000.0|null|['CNN', 'ImageNet-1k only']|Null
+ConViT-B|82.4|86000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+DeiT-B with iRPE-K|82.4|87000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
+Mega|82.4|90000000.0|null|[']']|2209.10655v3
+ResMLP-B24 + STD|82.4|122600000.0|null|[']']|Null
+ViT-B/16-224+HTM|82.37|null|null|[']']|2210.07562v1
+ColorNet|82.35|null|null|['CNN', 'ImageNet-1k only']|1902.00267v1
+T2T-ViT-24|82.3|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+ViT-S-48x1|82.3|null|null|[']']|2203.09795v1
+MViTv2-T|82.3|24000000.0|null|[']']|2112.01526v2
+SCARLET-A4|82.3|27800000.0|12.0|['CNN', 'ImageNet-1k only']|1908.06022v6
+Sequencer2D-S|82.3|28000000.0|null|[']']|Null
+CrossViT-15+|82.3|28200000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
+GLiT-Bases|82.3|96100000.0|null|['Transformer', 'ImageNet-1k only']|2107.02960v3
+EViT (delete)|82.29|null|null|[']']|2308.09372v1
+STViT-Swin-Ti|82.22|null|null|[']']|2308.09372v1
+BossNet-T1|82.2|null|null|[']']|2103.12424v3
+CAIT-XXS-36|82.2|17300000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+CvT-13-NAS|82.2|18000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
+ViTAE-S-Stage|82.2|19200000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
+T2T-ViTt-19|82.2|39200000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+Evo-LeViT-384*|82.2|39600000.0|null|['Transformer', 'ImageNet-1k only']|2108.01390v5
+Visformer-S|82.2|40200000.0|null|['ImageNet-1k only', 'Transformer']|2104.12533v4
+ConViT-S+|82.2|48000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+ConvMixer-1536/20|82.2|51600000.0|null|['Mixer', 'ImageNet-1k only']|2201.09792v1
+DeepVit-L|82.2|55000000.0|null|['ImageNet-1k only', 'Transformer']|2103.11886v4
+SENet-152|82.2|66600000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
+ResNeXt-101 32x8d|82.2|88000000.0|null|['ImageNet-1k only', 'ResNeXt']|1805.00932v1
+TransBoost-Swin-T|82.16|71710000.0|null|[']']|2205.13331v4
+ResNeXt-101, 64x4d, S=2(224px)|82.13|88600000.0|null|['ImageNet-1k only', 'ResNeXt']|Null
+ToMe-ViT-S|82.11|null|null|[']']|2308.09372v1
+AMD(ViT-S/16)|82.1|22000000.0|null|['Vision Transformer', 'ImageNet-1k only']|Null
+PatchConvNet-S60|82.1|25200000.0|null|['ImageNet-1k only', 'PatchConvnet']|Null
+Pyramid ViG-S|82.1|27300000.0|null|[']']|2206.00272v3
+ConvNeXt-T|82.1|29000000.0|null|[']']|2201.03545v2
+CycleMLP-B2 + STD|82.1|30100000.0|null|[']']|Null
+CeiT-S|82.0|null|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
+DIFFQ (\u03bb=1e\u22122)|82.0|null|null|['CNN', 'ImageNet-1k only']|2104.09987v3
+NEXcepTion-S|82.0|null|null|[']']|2212.08448v2
+GC ViT-XT|82.0|20000000.0|null|[']']|2206.09959v5
+Container-Light|82.0|20000000.0|null|['CNN', 'Transformer', 'ImageNet-1k only']|2106.01401v2
+ViL-Small|82.0|24600000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
+PVTv2-B2|82.0|25400000.0|null|['Transformer', 'ImageNet-1k only']|2106.13797v7
+ActiveMLP-T|82.0|27200000.0|null|[']']|2203.06108v2
+LITv2-S|82.0|28000000.0|null|[']']|2205.13213v5
+DAT-T|82.0|29000000.0|null|[']']|2201.00520v3
+Swin-T (SAMix+DM)|81.97|null|null|[']']|Null
+EViT (fuse)|81.96|null|null|[']']|2308.09372v1
+Swin-T (AutoMix+DM)|81.92|null|null|[']']|Null
+GTP-LV-ViT-S/P8|81.9|null|null|[']']|2311.03035v2
+T2T-ViT-19|81.9|null|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+ResNet-101 (224 res, Fast Knowledge Distillation)|81.9|null|null|['ImageNet-1k only', 'ResNet']|2112.01528v1
+Discrete Adversarial Distillation (ViT-B, 224)|81.9|null|null|[']']|Null
+RVT-S*|81.9|23300000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
+PiT-S|81.9|23500000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
+sMLPNet-T (ImageNet-1k)|81.9|24100000.0|null|['ImageNet-1k only', 'MLP']|2109.05422v2
+ViL-Base-W|81.9|79000000.0|null|['ImageNet-1k only', 'Transformer']|2103.15358v2
+Swin-T+SSA|81.89|null|null|[']']|2306.01705v1
+AOGNet-40M-AN|81.87|null|null|['ImageNet-1k only']|1908.01259v3
+FBNetV5|81.8|null|null|['Transformer', 'ImageNet-1k only']|2111.10007v2
+NASViT-A5|81.8|null|null|[']']|Null
+ResNet-200|81.8|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
+RepMLPNet-L256|81.8|null|null|['MLP', 'ImageNet-1k only']|2112.11081v2
+NEXcepTion-TP|81.8|null|null|[']']|2212.08448v2
+NAT-Mini|81.8|20000000.0|null|['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']|2204.07143v5
+DiNAT-Mini|81.8|20000000.0|null|['Neighborhood Attention', 'NAT Transformer', 'ImageNet-1k only', 'Transformer']|2209.15001v3
+ResNet-152 (A2)|81.8|60200000.0|null|['ImageNet-1k only']|Null
+MEAL V2 (ResNet-50) (380 res)|81.72|25600000.0|null|[']']|2009.08453v2
+gSwin-T|81.71|21800000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
+FBNetV5-A-CLS|81.7|null|null|[']']|2111.10007v2
+T2T-ViT-14|81.7|null|null|['ImageNet-1k only', 'Transformer']|2105.02358v2
+QnA-ViT-Tiny|81.7|16000000.0|null|[']']|Null
+AutoFormer-small|81.7|22900000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
+Shift-T|81.7|28000000.0|null|[']']|2201.10801v1
+BoTNet T3|81.7|33500000.0|null|['ImageNet-1k only', 'Transformer']|2101.11605v2
+CvT-13|81.6|null|null|['ImageNet-1k only', 'Transformer']|2103.15808v1
+ResNet-152 (SAM)|81.6|null|null|['ImageNet-1k only', 'ResNet']|2010.01412v3
+UniRepLKNet-N|81.6|null|null|[']']|2311.15599v2
+CloFormer-S|81.6|12300000.0|null|[']']|2303.17803v5
+LeViT-256|81.6|17800000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
+ReXNet_2.0|81.6|19000000.0|null|['ImageNet-1k only']|2007.00992v3
+SE-CoTNetD-50|81.6|23100000.0|null|[']']|2107.12292v1
+gMLP-B|81.6|73000000.0|null|['ImageNet-1k only', 'MLP']|2105.08050v2
+CoE-Large + CondConv|81.5|null|null|[']']|2107.03815v2
+GTP-DeiT-B/P8|81.5|null|null|[']']|2311.03035v2
+NEXcepTion-T|81.5|null|null|[']']|2212.08448v2
+NoisyStudent (EfficientNet-B1)|81.5|7800000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
+TinyViT-11M|81.5|11000000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
+Transformer local-attention (NesT-T)|81.5|17000000.0|null|['ImageNet-1k only', 'Transformer']|2105.12723v4
+T2T-ViT-14|81.5|21500000.0|null|['ImageNet-1k only', 'Transformer']|2101.11986v3
+CrossViT-15|81.5|27400000.0|null|['ImageNet-1k only', 'Transformer']|2103.14899v2
+PyConvResNet-101|81.49|42300000.0|null|['CNN', 'ImageNet-1k only']|2006.11538v1
+NASViT-A4|81.4|null|null|[']']|Null
+DeiT-S with iRPE-QKV|81.4|null|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
+ViT-S @224 (DeiT III)|81.4|null|null|[']']|2204.07118v1
+BiFormer-T (IN1k ptretrain)|81.4|null|null|[']']|2303.08810v1
+MobileOne-S4 (distill)|81.4|14800000.0|null|[']']|2206.04040v2
+SENet-101|81.4|49200000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
+CCT-14/7x2|81.34|22360000.0|null|[']']|2104.05704v4
+GFNet-S|81.33|null|null|[']']|2308.09372v1
+ResNet-200 (Adversarial Autoaugment)|81.32|null|null|['ImageNet-1k only', 'ResNet']|1912.11188v1
+MultiGrain PNASNet (300px)|81.3|null|null|['CNN', 'ImageNet-1k only']|1902.05509v2
+ResNet-152|81.3|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
+ConViT-S|81.3|27000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+Swin-T|81.3|29000000.0|null|[']']|2103.14030v2
+SimpleNetV1-9m-correct-labels|81.24|9500000.0|null|[']']|1608.06037v8
+Res2Net-101|81.23|null|null|['CNN', 'ImageNet-1k only']|1904.01169v3
+ResNeXt-101 (Debiased+CutMix)|81.2|null|null|['ImageNet-1k only', 'ResNeXt']|Null
+PVT-S (+MixPro)|81.2|null|null|[']']|2304.12043v2
+Swin-T (PuzzleMix+DM)|81.16|null|null|[']']|Null
+TransBoost-ResNet50-StrikesBack|81.15|25560000.0|null|[']']|2205.13331v4
+ResNeSt-50|81.13|27500000.0|null|[']']|2004.08955v2
+DeiT-S (SAMix+DM)|81.12|null|null|[']']|Null
+DeiT-S with iRPE-QK|81.1|null|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
+EfficientNet-B3|81.1|12000000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+VAN-B1|81.1|13900000.0|null|[']']|2202.09741v5
+RevBiFPN-S3|81.1|19600000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
+ResNet-152x2-SAM|81.1|236000000.0|null|['ImageNet-1k only', 'ResNet']|2106.01548v3
+DynamicViT-S|81.09|null|null|[']']|2308.09372v1
+ResNet-101 (SAMix)|81.08|44600000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
+NASViT-A3|81.0|null|null|[']']|Null
+ViTAE-13M|81.0|13200000.0|null|['Transformer', 'ImageNet-1k only']|2106.03348v4
+ResNet-101 (AutoMix)|80.98|44600000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
+DeiT-S (AutoMix+DM)|80.91|null|null|[']']|Null
+ResNet-101|80.9|null|null|['ImageNet-1k only', 'ResNet']|2107.12028v2
+CAIT-XXS-24|80.9|12000000.0|null|['ImageNet-1k only', 'Transformer']|2103.17239v2
+DeiT-S with iRPE-K|80.9|22000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
+CentroidViT-S (arXiv, 2021-02)|80.9|22300000.0|null|[']']|2102.08606v2
+ResNeXt-101  64x4|80.9|83600000.0|null|['ImageNet-1k only', 'ResNeXt']|1611.05431v2
+AlphaNet-A6|80.8|null|null|[']']|2102.07954v2
+ResNet-200 (Supervised Contrastive)|80.8|null|null|['ImageNet-1k only', 'ResNet']|2004.11362v5
+UniNet-B0|80.8|11500000.0|null|[']']|2207.05420v2
+LocalViT-S|80.8|22400000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
+DAFT-conv (384 heads, 300 epochs)|80.8|23000000.0|null|[']']|Null
+ResMLP-S24|80.8|30000000.0|null|['MLP', 'ImageNet-1k only']|2105.03404v2
+TinyViT-5M-distill (21k)|80.7|5400000.0|null|['ImageNet-22k', 'Transformer']|2207.10666v1
+CoE-Large|80.7|95300000.0|null|[']']|2107.03815v2
+MEAL V2 (ResNet-50) (224 res)|80.67|null|null|[']']|2009.08453v2
+TokenLearner-ViT-8|80.66|null|null|[']']|2308.09372v1
+ResNeSt-50-fast|80.64|27500000.0|null|[']']|2004.08955v2
+TransBoost-ResNet152|80.64|60190000.0|null|[']']|2205.13331v4
+ResNet-200 (Fast AA)|80.6|null|null|['ImageNet-1k only', 'ResNet']|1905.00397v2
+CaiT-XXS (+MixPro)|80.6|null|null|[']']|2304.12043v2
+ResNeXt-101 (CutMix)|80.53|null|null|['ImageNet-1k only', 'ResNeXt']|1905.04899v2
+NASViT-A2|80.5|null|null|[']']|Null
+Attention-92|80.5|null|null|['CNN', 'ImageNet-1k only']|1704.06904v1
+NAT-M4|80.5|9100000.0|null|['CNN', 'ImageNet-1k only']|2005.05859v2
+IPT-T|80.5|14000000.0|null|[']']|2212.03035v1
+GLiT-Smalls|80.5|24600000.0|null|['Transformer', 'ImageNet-1k only']|2107.02960v3
+HCGNet-C|80.5|42200000.0|null|['CNN', 'ImageNet-1k only']|1908.09699v3
+DVT (T2T-ViT-12)|80.43|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
+UniNet-B1|80.4|14000000.0|null|[']']|2110.04035v1
+DeiT-S (T2)|80.4|22000000.0|null|['Transformer', 'ImageNet-1k only']|Null
+ResNet50 (A1)|80.4|25000000.0|null|['CNN', 'ImageNet-1k only']|Null
+gSwin-VT|80.32|15500000.0|null|['ImageNet-1k only', 'Swin-Transformer', 'MLP']|2208.11718v1
+AlphaNet-A5|80.3|null|null|[']']|2102.07954v2
+ResNet-50+AutoDropout+RandAugment|80.3|null|null|['ImageNet-1k only', 'ResNet']|2101.01761v1
+ReXNet_1.5|80.3|9700000.0|null|['ImageNet-1k only']|2007.00992v3
+CCT-16/7x2|80.28|null|null|['Transformer', 'ImageNet-1k only']|2104.05704v4
+DeiT-S (PuzzleMix+DM)|80.25|null|null|[']']|Null
+iAFF-ResNeXt-50-32x4d|80.22|34700000.0|null|['ImageNet-1k only', 'ResNeXt']|2009.14082v2
+UniRepLKNet-P|80.2|null|null|[']']|2311.15599v2
+FixEfficientNet-B0|80.2|5300000.0|null|['ImageNet-1k only', 'EfficientNet']|2003.08237v5
+DAFT-conv (16 heads)|80.2|20300000.0|null|[']']|Null
+ConvMLP-L|80.2|42700000.0|null|['CNN', 'MLP', 'ImageNet-1k only']|2109.04454v2
+ResNet-50 (224 res, Fast Knowledge Distillation)|80.1|null|null|['ImageNet-1k only', 'ResNet']|2112.01528v1
+DAFT-conv (384 heads, 200 epochs)|80.1|23000000.0|null|[']']|Null
+Inception ResNet V2|80.1|55800000.0|null|['ImageNet-1k only', 'ResNet']|1602.07261v2
+RandWire-WS|80.1|61500000.0|null|['CNN', 'ImageNet-1k only']|1904.01569v2
+WideNet-H|80.09|63000000.0|null|['Transformer', 'ImageNet-1k only']|2107.11817v3
+CoE-Small + CondConv + PWLU|80.0|null|null|[']']|2107.03815v2
+BasisNet-MV3|80.0|null|null|[']']|2105.03014v1
+AlphaNet-A4|80.0|null|null|[']']|2102.07954v2
+MogaNet-T (256res)|80.0|5200000.0|null|['CNN']|2211.03295v3
+MobileOne-S3 (distill)|80.0|10100000.0|null|[']']|2206.04040v2
+LeViT-192|80.0|10400000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
+ResNet-101|80.0|44400000.0|null|['ImageNet-1k only', 'ResNet']|2101.11605v2
+ResNet-200|79.9|null|null|['ImageNet-1k only', 'ResNet']|1603.05027v3
+RegNetY-8.0GF|79.9|39200000.0|null|['CNN', 'ImageNet-1k only']|2003.13678v1
+ViT-B/16-SAM|79.9|87000000.0|null|['ImageNet-1k only', 'Transformer']|2106.01548v3
+TransBoost-ResNet101|79.86|44550000.0|null|[']']|2205.13331v4
+SKNet-101|79.81|48900000.0|null|['CNN', 'ImageNet-1k only']|1903.06586v2
+FixResNet-50 CutMix|79.8|null|null|['ImageNet-1k only', 'ResNet']|1906.06423v4
+CSPResNeXt-50 + Mish|79.8|null|null|['CNN', 'ImageNet-1k only']|1908.08681v3
+kNN-CLIP|79.8|null|null|['Memory-Centric', 'CLIP Pre-trained']|2204.01186v2
+CloFormer-XS|79.8|7200000.0|null|[']']|2303.17803v5
+EfficientNet-B2|79.8|9200000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+GC ViT-XXT|79.8|12000000.0|null|[']']|2206.09959v5
+CSPResNeXt-50 (Mish+Aug)|79.8|20500000.0|null|['CNN', 'ImageNet-1k only']|1911.11929v1
+DAFT-full|79.8|22600000.0|null|[']']|Null
+DVT (T2T-ViT-10)|79.74|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
+NASViT-A1|79.7|null|null|[']']|Null
+GPaCo (ResNet-50)|79.7|null|null|[']']|2209.12400v2
+ResMLP-36|79.7|45000000.0|null|['MLP', 'ImageNet-1k only']|2105.03404v2
+Grafit (ResNet-50)|79.6|null|null|['ImageNet-1k only', 'ResNet']|2011.12982v1
+LeViT-128|79.6|8800000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
+ResT-Small|79.6|13660000.0|null|[']']|2105.13677v5
+GTP-DeiT-S/P8|79.5|null|null|[']']|2311.03035v2
+ReXNet_1.3|79.5|7600000.0|null|['ImageNet-1k only']|2007.00992v3
+WideNet-L|79.49|40000000.0|null|['ImageNet-1k only']|2107.11817v3
+ResNet-50 (SAMix)|79.41|25600000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
+AlphaNet-A3|79.4|null|null|[']']|2102.07954v2
+MultiGrain R50-AA-500|79.4|null|null|['ImageNet-1k only']|1902.05509v2
+ResNet-50 (Adversarial Autoaugment)|79.4|null|null|['ImageNet-1k only', 'ResNet']|1912.11188v1
+ResMLP-24|79.4|null|null|['CNN', 'ImageNet-1k only']|2105.03404v2
+EdgeNeXt-S|79.4|5600000.0|null|['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3
+TinyNet (GhostNet-A)|79.4|11900000.0|null|[']']|2010.14819v2
+MobileOne-S4|79.4|14800000.0|null|[']']|2206.04040v2
+RegNetY-4.0GF|79.4|20600000.0|null|['CNN', 'ImageNet-1k only']|2003.13678v1
+SENet-50|79.4|28020000.0|null|['Transformer', 'ImageNet-1k only']|2101.11605v2
+ScaleNet-152|79.38|null|null|['CNN', 'ImageNet-1k only']|1904.09460v1
+LIP-ResNet-101|79.33|42900000.0|null|['CNN', 'ImageNet-1k only']|1908.04156v3
+MobileViTv3-S|79.3|5800000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
+RedNet-152|79.3|34000000.0|null|['Transformer', 'ImageNet-1k only']|2103.06255v2
+ResNet-50 (AutoMix)|79.25|25600000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
+PS-KD (ResNet-152 + CutMix)|79.24|null|null|['ImageNet-1k only', 'ResNet']|2006.12000v3
+ResNet-101 (JFT-300M Finetuning)|79.2|null|null|['JFT-300M', 'ResNet']|1707.02968v2
+RVT-Ti*|79.2|10900000.0|null|['ImageNet-1k only', 'Transformer']|2105.07926v4
+Multiscale DEQ (MDEQ-XL)|79.2|81000000.0|null|['ImageNet-1k only']|Null
+SimpleNetV1-5m-correct-labels|79.12|5700000.0|null|[']']|1608.06037v8
+AlphaNet-A2|79.1|null|null|[']']|2102.07954v2
+AA-ResNet-152|79.1|null|null|['ImageNet-1k only']|1904.09925v5
+FixResNet-50|79.1|null|null|['ImageNet-1k only', 'ResNet']|1906.06423v4
+Diffusion Classifier|79.1|null|null|[']']|2303.16203v3
+TinyViT-5M|79.1|5400000.0|null|['ImageNet-1k only', 'Transformer']|2207.10666v1
+MobileOne-S2 (distill)|79.1|7800000.0|null|[']']|2206.04040v2
+PiT-XS|79.1|10600000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
+UniNet-B0|79.1|11900000.0|null|[']']|2110.04035v1
+RedNet-101|79.1|25600000.0|null|['ImageNet-1k only']|2103.06255v2
+ResNet-50 (UDA)|79.04|null|null|['ImageNet-1k only', 'ResNet']|1904.12848v6
+ScaleNet-101|79.03|null|null|['ImageNet-1k only']|1904.09460v1
+TransBoost-ResNet50|79.03|null|null|[']']|2205.13331v4
+Co-ResNet-152|79.03|60000000.0|null|[']']|2108.07387v1
+MobileNetV3_large_x1_0_ssld|79.0|5470000.0|null|['ImageNet-1k only']|Null
+RevBiFPN-S2|79.0|10600000.0|null|['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']|2206.14098v2
+ConvMLP-M|79.0|17400000.0|null|['ImageNet-1k only']|2109.04454v2
+Xception|79.0|22855952.0|87.0|['ImageNet-1k only']|1610.02357v3
+SpineNet-143|79.0|60500000.0|null|['ImageNet-1k only']|1912.05027v3
+Mixer-B/8-SAM|79.0|64000000.0|null|['ImageNet-1k only']|2106.01548v3
+InceptionV3 (FRN layer)|78.95|null|null|['ImageNet-1k only']|Null
+ResNet-152 + SWA|78.94|null|null|['ImageNet-1k only', 'ResNet']|1803.05407v3
+ECA-Net (ResNet-152)|78.92|57400000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
+AlphaNet-A1|78.9|null|null|[']']|2102.07954v2
+MixNet-L|78.9|7300000.0|null|['ImageNet-1k only']|1907.09595v3
+CeiT-T (384 finetune res)|78.8|null|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
+NoisyStudent (EfficientNet-B0)|78.8|5300000.0|null|['JFT-300M', 'EfficientNet']|1911.04252v4
+EfficientNet-B1|78.8|7800000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+ResNet-50|78.8|25500000.0|null|['ResNet']|2101.11605v2
+SGE-ResNet101|78.798|44550000.0|null|['ImageNet-1k only']|1905.09646v2
+RepVGG-B2|78.78|80310000.0|null|['CNN', 'ImageNet-1k only']|2101.03697v3
+ResNet-50|78.76|null|null|['ImageNet-1k only', 'ResNet']|2009.06962v2
+SAMix+DM (ResNet-50 RSB A3)|78.75|null|null|[']']|Null
+ResNet-50|78.7|null|null|['ImageNet-1k only', 'ResNet']|2101.01761v1
+SReT-LT (Fast Knowledge Distillation)|78.7|5000000.0|null|['ImageNet-1k only', 'Transformer']|2112.01528v1
+PVTv2-B1|78.7|13100000.0|null|['ImageNet-1k only']|2106.13797v7
+ECA-Net (ResNet-101)|78.65|42490000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
+MobileViTv3-1.0|78.64|null|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
+EdgeFormer-S|78.63|5000000.0|null|[']']|2203.03952v5
+AutoMix+DM (ResNet-50 RSB A3)|78.62|null|null|[']']|Null
+UniRepLKNet-F|78.6|null|null|[']']|2311.15599v2
+TransBoost-EfficientNetB0|78.6|5290000.0|null|[']']|2205.13331v4
+Visformer-Ti|78.6|10300000.0|null|['ImageNet-1k only', 'Transformer']|2104.12533v4
+ResMLP-12 (distilled, class-MLP)|78.6|17700000.0|null|[']']|2105.03404v2
+RepMLP-Res50|78.6|52770000.0|null|['ImageNet-1k only']|2105.01883v3
+Res2Net-50-299|78.59|null|null|['ImageNet-1k only']|1904.01169v3
+ResNet-152|78.57|null|null|[']']|1512.03385v1
+ResNet-50-DW (Deformable Kernels)|78.5|null|null|['ImageNet-1k only', 'ResNet']|1910.02940v2
+HRFormer-T|78.5|8000000.0|null|[']']|2110.09408v3
+HCGNet-B|78.5|12900000.0|null|['ImageNet-1k only']|1908.09699v3
+RepVGG-B2g4|78.5|55770000.0|null|['CNN', 'ImageNet-1k only']|2101.03697v3
+DVT (T2T-ViT-7)|78.48|null|null|['ImageNet-1k only', 'Transformer']|2105.15075v2
+SRM-ResNet-101|78.47|null|null|['ImageNet-1k only']|1903.10829v1
+DenseNet-161 + SWA|78.44|null|null|['ImageNet-1k only']|1803.05407v3
+CoaT-Ti|78.42|null|null|[']']|2308.09372v1
+FBNetV5-AC-CLS|78.4|null|null|[']']|2111.10007v2
+ResNet-50 (CutMix)|78.4|null|null|['ImageNet-1k only', 'ResNet']|1905.04899v2
+ReXNet_1.0-relabel|78.4|4800000.0|null|['ImageNet-1k only']|2101.05022v2
+MobileViT-S|78.4|5600000.0|null|['Transformer', 'ImageNet-1k only']|Null
+RedNet-50|78.4|15500000.0|null|['ImageNet-1k only']|2103.06255v2
+ResNet-50 (SAMix+DM)|78.36|null|null|[']']|Null
+ResNet-50 + DropBlock (0.9 kp, 0.1 label smoothing)|78.35|null|null|['ImageNet-1k only', 'ResNet']|1810.12890v1
+Poly-SA-ViT-S|78.34|null|null|[']']|2308.09372v1
+EfficientNet-B0 (CondConv)|78.3|null|null|['ImageNet-1k only', 'EfficientNet']|1904.04971v3
+ResNet-101|78.25|40000000.0|null|['ImageNet-1k only', 'ResNet']|1512.03385v1
+NASViT-A0|78.2|null|null|[']']|Null
+MultiGrain R50-AA-224|78.2|null|null|['ImageNet-1k only']|1902.05509v2
+Pyramid ViG-Ti|78.2|10700000.0|null|[']']|2206.00272v3
+LocalViT-PVT|78.2|13500000.0|null|['Transformer']|2104.05707v1
+ResNet-50 (AutoMix+DM)|78.15|null|null|[']']|Null
+PuzzleMix+DM (ResNet-50 RSB A3)|78.15|null|null|[']']|Null
+ResNet-50 (LIP Bottleneck-256)|78.15|25800000.0|null|['ImageNet-1k only', 'ResNet']|1908.04156v3
+WRN-50-2-bottleneck|78.1|null|null|['ImageNet-1k only']|1605.07146v4
+MobileOne-S3|78.1|10100000.0|null|[']']|2206.04040v2
+ResNet50 (A3)|78.1|25000000.0|null|['ImageNet-1k only']|Null
+ZenNet-400M-SE|78.0|5700000.0|null|[']']|2102.01063v4
+RegNetY-1.6GF|78.0|11200000.0|null|['ImageNet-1k only']|2003.13678v1
+HVT-S-1|78.0|21740000.0|null|['Transformer', 'ImageNet-1k only']|2103.10619v2
+Perceiver (FF)|78.0|44900000.0|null|[']']|2103.03206v2
+ReXNet_1.0|77.9|4800000.0|null|['', 'ImageNet-1k only']|2007.00992v3
+ViTAE-6M|77.9|6500000.0|null|['ImageNet-1k only']|2106.03348v4
+DenseNet-264|77.85|null|null|['ImageNet-1k only']|1608.06993v5
+AlphaNet-A0|77.8|null|null|[']']|2102.07954v2
+ScaleNet-50|77.8|null|null|[']']|1904.09460v1
+ResMLP-S12|77.8|15400000.0|null|[']']|2105.03404v2
+ResNet-50 (PuzzleMix+DM)|77.71|null|null|[']']|Null
+TinyNet-A + RA|77.7|5100000.0|null|[']']|2010.14819v2
+ResNet-50 (Fast AA)|77.6|null|null|['ImageNet-1k only', 'ResNet']|1905.00397v2
+SReT-T|77.6|4800000.0|null|[']']|2111.05297v3
+RedNet-38|77.6|12400000.0|null|['ImageNet-1k only']|2103.06255v2
+SGE-ResNet50|77.584|25560000.0|null|[']']|1905.09646v2
+WideNet-B|77.54|29000000.0|null|['ImageNet-1k only']|2107.11817v3
+EfficientNet-B0|77.5|null|null|['ImageNet-1k only', 'EfficientNet']|2101.01761v1
+ACNet (ResNet-50)|77.5|29380000.0|null|['ImageNet-1k only', 'ResNet']|1904.03579v1
+ECA-Net (ResNet-50)|77.48|24370000.0|null|['ImageNet-1k only', 'ResNet']|1910.03151v4
+DenseNet-201|77.42|null|null|['ImageNet-1k only']|1608.06993v5
+MobileOne-S2|77.4|7.8|null|[']']|2206.04040v2
+MobileOne-S1 (distill)|77.4|4800000.0|null|[']']|2206.04040v2
+R-Mix (ResNet-50)|77.39|null|null|[']']|2212.04875v3
+ResnetV2 50 (FRN layer)|77.21|null|null|['ImageNet-1k only', 'ResNet']|Null
+FBNetV5-AR-CLS|77.2|null|null|[']']|2111.10007v2
+MogaNet-XT (256res)|77.2|3000000.0|null|[']']|2211.03295v3
+ReXNet_0.9|77.2|4100000.0|null|['ImageNet-1k only']|2007.00992v3
+Prodpoly|77.17|null|null|['ImageNet-1k only']|2006.13026v2
+ResNet-50-D|77.16|25000000.0|null|['ImageNet-1k only', 'ResNet']|1812.01187v2
+Inception v3|77.12|null|null|['ImageNet-1k only']|1803.08337v1
+MKD ViT-T|77.1|null|null|[']']|2202.07940v1
+GreedyNAS-A|77.1|6500000.0|null|['ImageNet-1k only']|2003.11236v1
+SkipblockNet-L|77.1|7100000.0|null|[']']|2107.11170v3
+SSAL-Resnet50|77.0|null|null|['ImageNet-1k only', 'ResNet']|2101.03057v1
+UniRepLKNet-A|77.0|null|null|[']']|2311.15599v2
+CloFormer-XXS|77.0|4200000.0|null|[']']|2303.17803v5
+MixNet-M|77.0|5000000.0|null|['ImageNet-1k only']|1907.09595v3
+SCARLET-A|76.9|6700000.0|null|['ImageNet-1k only']|1908.06022v6
+TransBoost-MobileNetV3-L|76.81|5480000.0|null|[']']|2205.13331v4
+ViTAE-T-Stage|76.8|4800000.0|null|['ImageNet-1k only']|2106.03348v4
+GreedyNAS-B|76.8|5200000.0|null|['ImageNet-1k only']|2003.11236v1
+ConvMLP-S|76.8|9000000.0|null|['ImageNet-1k only']|2109.04454v2
+Perona Malik (Perona and Malik, 1990)|76.71|null|null|['CNN', 'ImageNet-1k only']|2011.01901v3
+PVT-T (+MixPro)|76.7|null|null|[']']|2304.12043v2
+MobileViTv3-XS|76.7|2500000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
+MnasNet-A3|76.7|5200000.0|null|['ImageNet-1k only']|1807.11626v3
+ViL-Tiny-RPB|76.7|6700000.0|null|[']']|2103.15358v2
+ConViT-Ti+|76.7|10000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+TransBoost-ResNet34|76.7|21800000.0|null|[']']|2205.13331v4
+LIP-DenseNet-BC-121|76.64|8700000.0|null|['ImageNet-1k only']|1908.04156v3
+ResNet-50 (X-volution, stage3)|76.6|null|null|['ImageNet-1k only', 'ResNet']|2106.02253v2
+MUXNet-l|76.6|4000000.0|null|['ImageNet-1k only']|2003.13880v2
+DeiT-B|76.6|5000000.0|null|['ImageNet-1k only', 'Transformer']|2012.12877v2
+MobileViTv3-0.75|76.55|3000000.0|null|['ImageNet-1k only']|2209.15159v2
+Mixer-B/16|76.44|46000000.0|null|['ImageNet-1k only']|2105.01601v4
+Perceiver|76.4|null|null|['Transformer', 'ImageNet-1k only']|2103.03206v2
+CeiT-T|76.4|6400000.0|null|['ImageNet-1k only', 'Transformer']|2103.11816v2
+ResNet-34 (SAMix)|76.35|21800000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
+EfficientNet-B0|76.3|5300000.0|null|['ImageNet-1k only', 'EfficientNet']|1905.11946v5
+RegNetY-800MF|76.3|6300000.0|null|['ImageNet-1k only']|2003.13678v1
+SCARLET-B|76.3|6500000.0|null|['ImageNet-1k only']|1908.06022v6
+GLiT-Tinys|76.3|7200000.0|null|['ImageNet-1k only']|2107.02960v3
+DenseNet-169|76.2|null|null|['ImageNet-1k only']|1608.06993v5
+GreedyNAS-C|76.2|4700000.0|null|['ImageNet-1k only']|2003.11236v1
+SkipblockNet-M|76.2|5500000.0|null|['CNN', 'ImageNet-1k only']|2107.11170v3
+ELP (naive ResNet50)|76.13|null|null|[']']|Null
+ResNet-34 (AutoMix)|76.1|21800000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
+ResNet-50 MLPerf v0.7 - 2512 steps|75.92|null|null|['ImageNet-1k only', 'ResNet']|2102.06356v3
+DenseNAS-A|75.9|null|null|['ImageNet-1k only']|1906.09607v3
+MobileOne-S1|75.9|4800000.0|null|[']']|2206.04040v2
+MoGA-A|75.9|5100000.0|null|['ImageNet-1k only']|1908.01314v4
+RevBiFPN-S1|75.9|5110000.0|null|['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2
+LocalViT-TNT|75.9|6300000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
+SALG-ST|75.9|6500000.0|null|[']']|2211.14705v1
+RedNet-26|75.9|9200000.0|null|['ImageNet-1k only']|2103.06255v2
+FractalNet-34|75.88|null|null|['ImageNet-1k only']|1605.07648v4
+MixNet-S|75.8|4100000.0|null|['ImageNet-1k only']|1907.09595v3
+CoordConv ResNet-50|75.74|null|null|['ImageNet-1k only', 'ResNet']|Null
+LeViT-128S|75.7|4700000.0|null|['ImageNet-1k only', 'Transformer']|2104.01136v2
+GhostNet \u00d71.3|75.7|7300000.0|null|[']']|1911.11907v2
+LR-Net-26|75.7|14700000.0|null|['ImageNet-1k only']|1904.11491v1
+Mixer-S16 + STD|75.7|22200000.0|null|[']']|Null
+SimpleNetV1-small-075-correct-labels|75.66|3000000.0|null|[']']|1608.06037v8
+MnasNet-A2|75.6|4800000.0|null|['ImageNet-1k only']|1807.11626v3
+SCARLET-C|75.6|6000000.0|null|['ImageNet-1k only']|1908.06022v6
+PAWS (ResNet-50, 10% labels)|75.5|null|null|['ImageNet-1k only', 'ResNet']|2104.13963v3
+RegNetY-600MF|75.5|6100000.0|null|['ImageNet-1k only']|2003.13678v1
+ShuffleNet V2|75.4|null|null|[']']|1807.11164v1
+VAN-B0|75.4|4100000.0|null|[']']|2202.09741v5
+AsymmNet-Large \u00d71.0|75.4|5990000.0|null|[']']|2104.07770v1
+FairNAS-A|75.34|4600000.0|null|[']']|1907.01845v5
+ViTAE-T|75.3|null|null|['ImageNet-1k only']|2106.03348v4
+MUXNet-m|75.3|3400000.0|null|['ImageNet-1k only']|2003.13880v2
+ResNet-50|75.3|25000000.0|null|['ImageNet-1k only', 'ResNet']|1512.03385v1
+MnasNet-A1|75.2|3900000.0|null|['ImageNet-1k only']|1807.11626v3
+MobileNet V3-Large 1.0|75.2|5400000.0|null|['ImageNet-1k only']|1905.02244v5
+DiCENet|75.1|null|null|[']']|1906.03516v3
+MultiGrain NASNet-A-Mobile (350px)|75.1|null|null|[']']|1902.05509v2
+FairNAS-B|75.1|4500000.0|null|[']']|1907.01845v5
+ResNet-34 (X-volution, stage3)|75.0|null|null|['ImageNet-1k only', 'ResNet']|2106.02253v2
+Ghost-ResNet-50 (s=2)|75.0|13000000.0|null|[']']|1911.11907v2
+DenseNet-121|74.98|null|null|['ImageNet-1k only']|1608.06993v5
+Single-Path NAS|74.96|null|null|['ImageNet-1k only']|1904.02877v1
+WaveMix-192/16 (level 3)|74.93|null|null|[']']|2205.14375v4
+FF|74.9|null|null|['ImageNet-1k only']|Null
+FBNet-C|74.9|5500000.0|null|['ImageNet-1k only']|1812.03443v3
+ESPNetv2|74.9|5900000.0|null|['ImageNet-1k only']|1811.11431v3
+MobileViT-XS|74.8|2300000.0|null|[']']|Null
+LocalViT-T|74.8|5900000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
+RandWire-WS (small)|74.7|5600000.0|null|[']']|1904.01569v2
+AutoFormer-tiny|74.7|5700000.0|null|['ImageNet-1k only', 'Transformer']|2107.00651v1
+MobileNetV2 (1.4)|74.7|6900000.0|null|['ImageNet-1k only']|1801.04381v4
+FairNAS-C|74.69|4400000.0|null|[']']|1907.01845v5
+ReXNet_0.6|74.6|2700000.0|null|['ImageNet-1k only']|2007.00992v3
+Proxyless|74.6|4000000.0|null|['ImageNet-1k only']|1812.00332v2
+PiT-Ti|74.6|4900000.0|null|['ImageNet-1k only', 'Transformer']|2103.16302v2
+DY-MobileNetV2 \u00d71.0|74.4|11100000.0|null|['ImageNet-1k only']|1912.03458v2
+SimpleNetV1-9m|74.17|9500000.0|null|[']']|1608.06037v8
+RegNetY-400MF|74.1|4300000.0|null|[']']|2003.13678v1
+Ghost-ResNet-50 (s=4)|74.1|6500000.0|null|[']']|1911.11907v2
+SReT-ExT|74.0|4000000.0|null|[']']|2111.05297v3
+GhostNet \u00d71.0|73.9|5200000.0|null|[']']|1911.11907v2
+DeiT-T (+MixPro)|73.8|null|null|[']']|2304.12043v2
+DeiT-Ti with iRPE-K|73.7|6000000.0|null|['ImageNet-1k only', 'Transformer']|2107.14222v1
+DGPPF-ResNet50|73.66|2560000.0|null|[']']|Null
+TransBoost-ResNet18|73.36|11690000.0|null|[']']|2205.13331v4
+Wide ResNet-50 (edge-popup)|73.3|20600000.0|null|['ImageNet-1k only', 'ResNet']|1911.13299v2
+ResNet-18 (MEAL V2)|73.19|null|null|['ImageNet-1k only']|2009.08453v2
+ConViT-Ti|73.1|6000000.0|null|['ImageNet-1k only', 'Transformer']|2103.10697v2
+RevBiFPN-S0|72.8|3420000.0|null|['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']|2206.14098v2
+DY-MobileNetV2 \u00d70.75|72.8|7000000.0|null|['ImageNet-1k only']|1912.03458v2
+DY-ResNet-18|72.7|42700000.0|null|['ImageNet-1k only', 'ResNet']|1912.03458v2
+ECA-Net (MobileNetV2)|72.56|3340000.0|null|['ImageNet-1k only']|1910.03151v4
+MobileNet-224 (CGD)|72.56|4260000.0|null|['ImageNet-1k only']|1907.09665v10
+MobileOne-S0 (distill)|72.5|2100000.0|null|[']']|2206.04040v2
+LocalViT-T2T|72.5|4300000.0|null|['ImageNet-1k only', 'Transformer']|2104.05707v1
+MobileViTv3-0.5|72.33|1400000.0|null|['Transformer', 'CNN+Transformer', 'ImageNet-1k only']|2209.15159v2
+ResNet-18 (SAMix)|72.33|11700000.0|null|['ImageNet-1k only', 'ResNet']|2111.15454v3
+ResNet-50|72.1|null|null|['ImageNet-1k only', 'ResNet']|Null
+ResNet-18 (AutoMix)|72.05|11700000.0|null|['ImageNet-1k only', 'ResNet']|2103.13027v6
+MobileNetV2|72.0|3400000.0|null|['CNN']|1801.04381v4
+Ours|71.97|null|null|[']']|2009.04626v1
+SimpleNetV1-5m|71.94|5700000.0|null|['CNN']|1608.06037v8
+ResNet-18 (PAD-L2 w/ ResNet-34 teacher)|71.71|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+MUXNet-s|71.6|2400000.0|null|['ImageNet-1k only']|2003.13880v2
+PDC|71.6|11510000.0|null|[']']|2104.07916v2
+ResNet-18 (FT w/ ResNet-34 teacher)|71.56|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+EfficientFormer-V2-S0|71.53|null|null|[']']|2308.09372v1
+MobileOne-S0|71.4|2100000.0|null|[']']|2206.04040v2
+ResNet-18 (KD w/ ResNet-34 teacher)|71.37|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+Dspike (VGG-16)|71.24|null|null|['SNN']|Null
+EdgeNeXt-XXS|71.2|1300000.0|null|['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']|2206.10589v3
+ResNet-18 (L2 w/ ResNet-34 teacher)|71.08|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+MobileViTv3-XXS|70.98|1200000.0|null|['CNN+Transformer', 'Transformer', 'ImageNet-1k only']|2209.15159v2
+ResNet-18 (CRD w/ ResNet-34 teacher)|70.93|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+ShuffleNet|70.9|null|null|['ImageNet-1k only']|1707.01083v2
+MobileNet-224 \u00d71.25|70.6|null|null|[']']|1704.04861v1
+PSN (SEW ResNet-34)|70.54|null|null|['SNN']|Null
+ResNet-18 (tf-KD w/ ResNet-18 teacher)|70.52|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+PVTv2-B0|70.5|3400000.0|null|['ImageNet-1k only']|2106.13797v7
+GAC-SNN MS-ResNet-34|70.42|null|null|[']']|2308.06582v1
+ResNet-18 (SSKD w/ ResNet-34 teacher)|70.09|null|null|['ImageNet-1k only', 'ResNet']|2011.12913v2
+DY-MobileNetV3-Small|69.7|4800000.0|null|['ImageNet-1k only']|1912.03458v2
+HVT-Ti-1|69.64|5740000.0|null|['ImageNet-1k only', 'Transformer']|2103.10619v2
+DY-MobileNetV2 \u00d70.5|69.4|4000000.0|null|['ImageNet-1k only']|1912.03458v2
+AsymmNet-Large \u00d70.5|69.2|2800000.0|null|[']']|2104.07770v1
+SimpleNetV1-small-05-correct-labels|69.11|1500000.0|null|[']']|1608.06037v8
+Heteroscedastic (InceptionResNet-v2)|68.6|null|null|['ImageNet-1k only']|2105.10305v1
+AsymmNet-Small \u00d71.0|68.4|3100000.0|null|[']']|2104.07770v1
+FireCaffe (GoogLeNet)|68.3|null|null|['ImageNet-1k only']|1511.00175v2
+Graph-RISE (40M)|68.29|null|null|['ImageNet-1k only']|1902.10814v1
+SimpleNetV1-small-075|68.15|3000000.0|null|[']']|1608.06037v8
+ReActNet-A (BN-Free)|68.0|null|null|['CNN', 'ImageNet-1k only']|2104.08215v1
+DY-ResNet-10|67.7|18600000.0|null|['ImageNet-1k only']|1912.03458v2
+WaveMixLite-256/24|67.7|32400000.0|null|[']']|Null
+PSN (SEW ResNet-18)|67.63|null|null|['SNN']|Null
+MUXNet-xs|66.7|1800000.0|null|['ImageNet-1k only']|2003.13880v2
+PAWS (ResNet-50, 1% labels)|66.5|null|null|['ImageNet-1k only', 'ResNet']|2104.13963v3
+GhostNet \u00d70.5|66.2|2600000.0|null|[']']|1911.11907v2
+DGPPF-MobileNetV2|65.59|1030000.0|null|[']']|Null
+DGPPF-ResNet18|65.22|1150000.0|null|[']']|Null
+OTTT|65.15|null|null|['SNN']|2210.04195v2
+DY-MobileNetV2 \u00d70.35|64.9|2800000.0|null|['ImageNet-1k only']|1912.03458v2
+BBG (ResNet-34)|62.6|null|null|['ImageNet-1k only', 'ResNet']|1909.12117v2
+SimpleNetV1-small-05|61.52|1500000.0|null|[']']|1608.06037v8
+BBG (ResNet-18)|59.4|null|null|['ImageNet-1k only', 'ResNet']|1909.12117v2
+FireCaffe (AlexNet)|58.9|null|null|['ImageNet-1k only']|1511.00175v2
+EVA (EVA-CLIP)|null|0|null|[']']|2211.07636v2
+MobileNet-224 \u00d71.0|null|4200000.0|null|[']']|1704.04861v1
+Inception V2|null|11200000.0|null|['ImageNet-1k only']|1502.03167v3
+DaViT-S|null|49700000.0|null|['ImageNet-1k only', 'Transformer']|2204.03645v1

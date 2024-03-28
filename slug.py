@@ -12,14 +12,15 @@ soup = BeautifulSoup(r.content, 'html5lib')
 body = soup.find("body")
 
 body = body.find(attrs={'class':'container content content-buffer'})
-f = open("./text/sample.txt", "w", encoding="utf-8")
+#f = open("./text/sample.txt", "w", encoding="utf-8")
 
+"""
 cur = body.find("script", id="evaluation-chart-data")
 cur_string = str(cur)
 cur_string = cur_string[(cur_string.find("\"dataPoints\"") + len("\"dataPoints\"")+3):]
 t = cur_string.find("},") + 3
 datapoints = cur_string.split("},")
-
+"""
 def scrapeurl_2(link):
     if link == "ul": return "Null"
     body = "https://paperswithcode.com"
