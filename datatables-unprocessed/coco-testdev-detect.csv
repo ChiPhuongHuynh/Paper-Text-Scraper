@@ -1,0 +1,251 @@
+name|accuracy|params|tags|id
+Co-DETR|66.0|null|['Large']|2211.12860v5
+InternImage-H|65.4|null|[']']|2211.05778v4
+M3I Pre-training (InternImage-H)|65.4|null|[']']|2211.09807v2
+MoCaE|65.1|null|[']']|2309.14976v4
+Co-DETR (Swin-L)|64.8|null|[']']|2211.12860v5
+Focal-Stable-DINO (without TTA)|64.8|null|['FocalNet', 'DINO']|2304.13027v1
+EVA|64.7|null|['ViT-Giant']|2211.07636v2
+Group DETR v2|64.5|null|['Group DETR', 'DINO', 'ViT-Huge']|2211.03594v1
+FocalNet-H (DINO)|64.4|null|['DINO', 'FocalNet']|2203.11926v3
+InternImage-XL|64.3|null|[']']|2211.05778v4
+FD-SwinV2-G|64.2|null|['Giant']|2205.14141v3
+RevCol-H(DINO)|63.8|null|[']']|2212.11696v3
+BEiT-3|63.7|null|['Giant']|2208.10442v2
+DETA (Swin-L)|63.5|null|[']']|2212.06137v1
+DINO (Swin-L,multi-scale, TTA)|63.3|null|[']']|2203.03605v4
+SwinV2-G (HTC++)|63.1|null|['multiscale', 'Swin-Transformer']|2111.09883v2
+Grounding DINO|63.0|null|[']']|2303.05499v4
+Florence-CoSwin-H|62.4|null|['Swin-Transformer']|2111.11432v1
+GLIPv2 (CoSwin-H, multi-scale)|62.4|null|['multiscale', 'BERT', 'Vision Language', 'CLIP']|2206.05836v2
+GLEE-Pro|62.3|null|[']']|2312.09158v1
+GLIP (Swin-L, multi-scale)|61.5|null|['multiscale', 'Vision Language', 'Dynamic Head', 'BERT-Base']|2112.03857v2
+Soft Teacher + Swin-L (HTC++, multi-scale)|61.3|null|['multiscale', 'Swin-Transformer']|2106.09018v3
+ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)|60.9|null|[']']|2205.08534v4
+DyHead (Swin-L, multi scale, self-training)|60.6|null|['multiscale', 'Swin-Transformer']|2106.08322v1
+GLEE-Plus|60.6|null|[']']|2312.09158v1
+ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)|60.4|null|[']']|2205.08534v4
+GRiT (ViT-H, single-scale testing)|60.4|null|[']']|2212.00280v1
+CBNetV2 (Dual-Swin-L HTC, multi-scale)|60.1|null|['Swin-Transformer']|2107.00420v7
+CBNetV2 (Dual-Swin-L HTC, single-scale)|59.4|null|['Swin-Transformer']|2107.00420v7
+Focal-L (DyHead, multi-scale)|58.9|null|['Focal-Transformer', 'multiscale']|2107.00641v1
+DyHead (Swin-L, multi scale)|58.7|null|['Swin-Transformer', 'multiscale']|2106.08322v1
+Swin-L (HTC++, multi scale)|58.7|null|['multiscale', 'Swin-Transformer']|2103.14030v2
+Swin-L (HTC++, single scale)|57.7|null|[']']|2103.14030v2
+Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)|57.3|null|['NAS-FPN']|2012.07177v2
+PyCenterNet (Swin-L, multi-scale)|57.1|null|['End-to-End', 'Swin-Transformer', 'multiscale']|2204.08394v1
+dBOT ViT-L (CLIP)|56.8|null|[']']|2209.03917v3
+YOLOv7-D6 (44 fps)|56.6|null|['YOLO']|2207.02696v1
+SOLQ (Swin-L, single scale)|56.5|null|['Swin-Transformer', 'single scale', 'Transformer']|2106.02351v3
+CenterNet2 (Res2Net-101-DCN-BiFPN, self-training, 1560 single-scale)|56.4|null|['DCN', 'FPN']|2103.07461v1
+QueryInst (single-scale)|56.1|null|[']']|2105.01928v3
+dBOT ViT-L|56.1|null|[']']|2209.03917v3
+YOLOv7-E6 (56 fps)|56|null|['YOLO', 'single scale']|2207.02696v1
+YOLOv4-P7 with TTA|55.8|null|['YOLO', 'multiscale']|2011.08036v2
+DetectoRS (ResNeXt-101-64x4d, multi-scale)|55.7|null|['multiscale', 'ResNeXt']|2006.02334v2
+YOLOR-D6 (1280, single-scale, 30 fps)|55.4|null|['YOLO', 'single scale']|2105.04206v1
+YOLOv4-P6 with TTA|54.9|null|['YOLO', 'multiscale']|2011.08036v2
+YOLOv7-W6 (84 fps)|54.9|null|['YOLO', 'single scale']|2207.02696v1
+Cascade Eff-B7 NAS-FPN (1280)|54.8|null|['NAS-FPN', 'single scale']|2012.07177v2
+DetectoRS (ResNeXt-101-32x4d, multi-scale)|54.7|null|['multiscale', 'ResNeXt']|2006.02334v2
+GLEE-Lite|54.7|null|[']']|2312.09158v1
+YOLOv4-P6 CSP-P6 (single-scale, 32 fps)|54.3|null|['YOLO', 'single scale']|2011.08036v2
+SpineNet-190 (1280, with Self-training on OpenImages, single-scale)|54.3|null|['single scale']|2006.06882v2
+UniverseNet-20.08d (Res2Net-101, DCN, multi-scale)|54.1|null|['DCN', 'multiscale']|2103.14027v3
+DyHead (ResNeXt-64x4d-101-DCN, multi scale)|54|null|[']']|2106.08322v1
+dBOT ViT-B (CLIP)|53.6|null|[']']|2209.03917v3
+PAA (ResNext-152-32x8d + DCN, multi-scale)|53.5|null|['DCN', 'multiscale', 'ResNeXt']|2007.08103v2
+LSNet (Res2Net-101+ DCN, multi-scale)|53.5|null|['DCN', 'multiscale']|2104.04899v1
+dBOT ViT-B|53.5|null|[']']|2209.03917v3
+ResNeSt-200 (multi-scale)|53.3|null|['multiscale']|2004.08955v2
+Cascade Mask R-CNN (Triple-ResNeXt152, multi-scale)|53.3|null|['multiscale']|1909.03625v1
+DetectoRS (ResNeXt-101-32x4d, single-scale)|53.3|null|['single scale', 'ResNeXt']|2006.02334v2
+GFLV2 (Res2Net-101, DCN, multiscale)|53.3|null|['DCN', 'multiscale']|2011.12885v1
+YOLOv7-X (114 fps)|53.1|null|['YOLO', 'single scale']|2207.02696v1
+RelationNet++ (ResNeXt-64x4d-101-DCN)|52.7|null|['DCN', 'ResNeXt']|2010.15831v1
+EfficientDet-D7 (1536)|52.6|null|[']']|1911.09070v7
+YOLOv4-P5 with TTA|52.5|null|['YOLO', 'multiscale']|2011.08036v2
+Deformable DETR (ResNeXt-101+DCN)|52.3|null|['DCN', 'ResNeXt']|2010.04159v4
+GCNet (ResNeXt-101 + DCN + cascade + GC r4)|52.3|null|['GCN', 'DCN', 'ResNeXt']|2012.13375v1
+PP-YOLOE-x(CSPRepResNet-x, 640x640, single-scale )|52.2|null|['single scale', 'YOLO', 'CSPRepResNet', 'TAL', 'ET-head']|2203.16250v3
+RetinaNet (SpineNet-190, 1280x1280)|52.1|null|[']']|1912.05027v3
+RepPoints v2 (ResNeXt-101, DCN, multi-scale)|52.1|null|['DCN', 'multiscale', 'ResNeXt']|2007.08508v1
+AC-FPN Cascade R-CNN (X-152-32x8d-FPN-IN5k, multi scale, only CEM)|51.9|null|['FPN', 'ResNeXt', 'multiscale']|2005.11475v1
+OTA (ResNeXt-101+DCN, multiscale)|51.5|null|[']']|2103.14259v1
+YOLOX-x(Modified CSP v5, 640x640, single-scale)|51.5|null|['YOLO']|2107.08430v2
+PP-YOLOE-l(CSPRepResNet-l, 640x640, single-scale )|51.4|null|['single scale', 'ET-head', 'TAL', 'CSPRepResNet']|2203.16250v3
+YOLOv7 (161 fps)|51.4|null|['single scale', 'YOLO']|2207.02696v1
+UniverseNet-20.08d (Res2Net-101, DCN, single-scale)|51.3|null|['DCN', 'single scale']|2103.14027v3
+TSD(SENet154-DCN,multi-scale)|51.2|null|['DCN', 'multiscale']|2003.07540v1
+YOLOX-X (Modified CSP v5)|51.2|null|['YOLO']|2107.08430v2
+iBOT (ViT-B/16)|51.2|null|[']']|2111.07832v3
+RetinaNet (SpineNet-143, 1280x1280)|50.7|null|[']']|1912.05027v3
+ATSS (ResNetXt-64x4d-101+DCN,multi-scale)|50.7|null|['ResNeXt', 'multiscale', 'DCN']|1912.02424v4
+NAS-FPN (AmoebaNet-D, learned aug)|50.7|null|['FPN']|1906.11172v1
+Boosting R-CNN*|50.7|null|[']']|2206.13728v3
+GFLV2 (Res2Net-101, DCN)|50.6|null|['DCN']|2011.12885v1
+aLRP Loss (ResNext-101-64x4d, DCN, multiscale test)|50.2|null|['DCN', 'multiscale', 'ResNeXt']|2009.13592v4
+FreeAnchor + SEPC (DCN, ResNext-101-64x4d)|50.1|null|['DCN', 'ResNeXt']|2005.03101v1
+D2Det (ResNet-101-DCN, multi-scale test)|50.1|null|[']']|null
+Dynamic R-CNN (ResNet-101-DCN, multi-scale)|50.1|null|[']']|2004.06002v2
+TSD(ResNet-101-Deformable, Image Pyramid)|49.4|null|[']']|2003.07540v1
+RepPoints v2 (ResNeXt-101, DCN)|49.4|null|['DCN', 'ResNeXt']|2007.08508v1
+A2MIM (ViT-B)|49.4|null|[']']|2205.13943v4
+iBOT (ViT-S/16)|49.4|null|[']']|2111.07832v3
+CPNDet (Hourglass-104, multi-scale)|49.2|null|['multiscale']|2007.13816v1
+GFLV2 (ResNeXt-101, 32x4d, DCN)|49|null|['DCN', 'ResNeXt']|2011.12885v1
+aLRP Loss (ResNext-101-64x4d, DCN, single scale)|48.9|null|['DCN', 'single scale', 'ResNeXt']|2009.13592v4
+PP-YOLOE-m(CSPRepResNet-m, 640x640, single-scale )|48.9|null|['single scale', 'ET-head', 'TAL', 'CSPRepResNet']|2203.16250v3
+UniverseNet-20.08 (Res2Net-50, DCN, single-scale)|48.8|null|['DCN', 'single scale']|2103.14027v3
+SOLQ (ResNet101, single scale)|48.7|null|['single scale', 'Transformer']|2106.02351v3
+RetinaNet (SpineNet-96, 1024x1024)|48.6|null|[']']|1912.05027v3
+TridentNet (ResNet-101-Deformable, Image Pyramid)|48.4|null|[']']|1901.01892v2
+GCNet (ResNeXt-101 + DCN + cascade + GC r4)|48.4|null|['GCN', 'DCN', 'ResNeXt']|1904.11492v1
+GFLV2 (ResNet-101-DCN)|48.3|null|['DCN']|2011.12885v1
+GFL (X-101-32x4d-DCN, single-scale)|48.2|null|['DCN', 'ResNeXt', 'single scale']|2006.04388v1
+ISTR (ResNet101-FPN-3x, single-scale)|48.1|null|[']']|2105.00637v2
+YOLOX-Darknet53(Darknet53, 640x640, single-scale)|48.0|null|['YOLO']|2107.08430v2
+DAT-S (RetinaNet)|47.9|null|[']']|2201.00520v3
+aLRP Loss (ResNext-101-64x4d, single scale)|47.8|null|['single scale', 'ResNeXt']|2009.13592v4
+MatrixNet Corners (ResNet-152, multi-scale)|47.8|null|[']']|1908.04646v2
+SOLQ (ResNet50, single scale)|47.8|null|['single scale', 'Transformer']|2106.02351v3
+DyHead (ResNeXt-64x4d-101)|47.7|null|[']']|2106.08322v1
+SAPD (ResNeXt-101, single-scale)|47.4|null|['single scale', 'ResNeXt']|1911.12448v2
+PANet (ResNeXt-101, multi-scale)|47.4|null|['multiscale', 'ResNeXt']|1803.01534v4
+HTC (HRNetV2p-W48)|47.3|null|[']']|1908.07919v2
+HTC (ResNeXt-101-FPN)|47.1|null|['FPN', 'ResNeXt']|1901.07518v2
+CenterNet511 (Hourglass-104, multi-scale)|47.0|null|['multiscale']|1904.08189v3
+MAL (ResNeXt101, multi-scale)|47.0|null|['multiscale', 'ResNeXt']|1912.02252v1
+ISTR (ResNet50-FPN-3x)|46.8|null|[']']|2105.00637v2
+RetinaNet (SpineNet-49, 896x896)|46.7|null|[']']|1912.05027v3
+RPDet (ResNet-101-DCN, multi-scale)|46.5|null|[']']|1904.11490v2
+HoughNet (MS)|46.4|null|['multiscale']|2007.02355v3
+PPDet (ResNeXt-101-FPN, multiscale)|46.3|null|['FPN', 'multiscale', 'ResNeXt']|2008.01167v2
+GFLV2 (ResNet-101)|46.2|null|[']']|2011.12885v1
+SNIPER (ResNet-101)|46.1|null|[']']|1805.09300v3
+Mask R-CNN (HRNetV2p-W48 + cascade)|46.1|null|[']']|1908.07919v2
+ResNeXt-64x4d-101 NAS-FCOS @128-256 w/improvements|46.1|null|[']']|1906.04423v4
+DCNv2 (ResNet-101, multi-scale)|46.0|null|[']']|1811.11168v2
+Gaussian-FCOS|46|null|[']']|2006.15607v6
+Cascade R-CNN-FPN (ResNet-101, map-guided)|45.9|null|[']']|1908.07801v1
+MAL (ResNeXt101, single-scale)|45.9|null|['single scale', 'ResNeXt']|1912.02252v1
+CenterMask+VoVNetV2-99 (single-scale)|45.8|null|['single scale']|1911.06667v6
+D-RFCN + SNIP (DPN-98 with flip, multi-scale)|45.7|null|['multiscale']|1711.08189v2
+YOLOv4 (CD53)|45.5|null|['single scale', 'YOLO']|2011.08036v2
+PP-YOLO (608x608)|45.2|null|[']']|2007.12099v3
+AC-FPN Cascade R-CNN(ResNet-101, single scale)|45|null|[']']|2005.11475v1
+FreeAnchor (ResNeXt-101)|44.8|null|['ResNeXt']|1909.02466v2
+FCOS (ResNeXt-64x4d-101-FPN 4 + improvements)|44.7|null|['FPN', 'ResNeXt']|1904.01355v5
+CenterMask+VoVNet2-57 (single-scale)|44.7|null|['single scale']|1911.06667v6
+FSAF (ResNeXt-101, multi-scale)|44.6|null|['multiscale', 'ResNeXt']|1903.00621v1
+aLRP Loss (ResNext-101, DCN, 500 scale)|44.6|null|['DCN', 'ResNeXt']|2009.13592v4
+CenterMask + X-101-32x8d (single-scale)|44.6|null|['single scale']|1911.06667v6
+RetinaNet (SpineNet-49, 640x640)|44.3|null|[']']|1912.05027v3
+YOLOF-DC5|44.3|null|[']']|2103.09460v1
+GFLV2 (ResNet-50)|44.3|null|[']']|2011.12885v1
+InterNet (ResNet-101-FPN, multi-scale)|44.2|null|[']']|1903.11851v1
+M2Det (VGG-16, multi-scale)|44.2|null|['multiscale']|1811.04533v3
+Faster R-CNN (LIP-ResNet-101-MD w FPN)|43.9|null|['FPN']|1908.04156v3
+M2Det (ResNet-101, multi-scale)|43.9|null|[']']|1811.04533v3
+YOLOv3 @800 + ASFF* (Darknet-53)|43.9|null|['YOLO']|1911.09516v2
+FoveaBox (ResNeXt-101)|43.9|null|['ResNeXt']|1904.03797v2
+ExtremeNet (Hourglass-104, multi-scale)|43.7|null|['multiscale']|1901.08043v3
+YOLOv4-608|43.5|null|['single scale']|2004.10934v1
+SNIPER (ResNet-50)|43.5|null|[']']|1805.09300v3
+CenterNet (HRNetV2-W48)|43.5|null|[']']|1908.07919v2
+D-RFCN + SNIP (ResNet-101, multi-scale)|43.4|null|[']']|1711.08189v2
+Grid R-CNN (ResNeXt-101-FPN)|43.2|null|['FPN', 'ResNeXt']|1811.12030v1
+FCOS (ResNeXt-101-64x4d-FPN)|43.2|null|['FPN', 'ResNeXt']|1904.01355v5
+CornerNet-Saccade (Hourglass-104, multi-scale)|43.2|null|['multiscale']|1904.08900v2
+PP-YOLOE-s(CSPRepResNet-s, 640x640, single-scale )|43.1|null|['single scale', 'ET-head', 'TAL', 'CSPRepResNet']|2203.16250v3
+Libra R-CNN (ResNeXt-101-FPN)|43.0|null|['FPN', 'ResNeXt']|1904.02701v1
+DyHead (ResNet-50)|43|null|[']']|2106.08322v1
+RPDet (ResNet-101-DCN)|42.8|null|[']']|1904.11490v2
+SpineNet-49 (640, RetinaNet, single-scale)|42.8|null|[']']|1912.05027v3
+Cascade R-CNN (ResNet-101-FPN+, cascade)|42.8|null|[']']|1712.00726v1
+Cascade R-CNN|42.8|null|[']']|1906.09756v1
+TridentNet (ResNet-101)|42.7|null|[']']|1901.01892v2
+FCOS (ResNeXt-32x8d-101-FPN)|42.7|null|['FPN', 'ResNeXt']|1904.01355v5
+RetinaMask (ResNeXt-101-FPN-GN)|42.6|null|['FPN', 'ResNeXt']|1901.03353v1
+TAL + TAP|42.5|null|[']']|2108.07755v3
+Faster R-CNN (HRNetV2p-W48)|42.4|null|[']']|1908.07919v2
+HSD (Rest101, 768x768, single-scale test)|42.3|null|['single scale']|null
+CornerNet511 (Hourglass-104, multi-scale)|42.1|null|['multiscale']|1808.01244v2
+FoveaBox (ResNeXt-101)|42.1|null|['ResNeXt']|1904.03797v2
+FCOS (HRNet-W32-5l)|42.0|null|[']']|1904.01355v5
+RefineDet512+ (ResNet-101)|41.8|null|[']']|1711.06897v3
+GHM-C + GHM-R (RetinaNet-FPN-ResNeXt-101)|41.6|null|['FPN']|1811.05181v1
+CenterNet-DLA (DLA-34, multi-scale)|41.6|null|['multiscale']|1904.07850v2
+RetinaNet (SpineNet-49S, 640x640)|41.5|null|[']']|1912.05027v3
+RPDet (ResNet-101)|41|null|[']']|1904.11490v2
+M2Det (VGG-16, single-scale)|41.0|null|['single scale']|1811.04533v3
+FSAF (ResNet-101, single-scale)|40.9|null|[']']|1903.00621v1
+RetinaNet (ResNeXt-101-FPN)|40.8|null|['FPN', 'ResNeXt']|1708.02002v2
+Cascade R-CNN (ResNet-50-FPN+, cascade)|40.6|null|[']']|1712.00726v1
+Faster R-CNN (Cascade RPN)|40.6|null|[']']|1909.06720v2
+ResNet-50-DW-DPN (Deformable Kernels)|40.6|null|[']']|1910.02940v2
+IoU-Net|40.6|null|[']']|1807.11590v1
+FCOS (HRNetV2p-W48)|40.5|null|[']']|1908.07919v2
+ResNet-50-FPN Mask R-CNN + KL Loss + var voting + soft-NMS|40.4|null|[']']|1809.08545v3
+RDSNet (ResNet-101, RetinaNet, mask, MBRM)|40.3|null|['ResNet']|1912.05070v1
+ExtremeNet (Hourglass-104, single-scale)|40.2|null|[']']|1901.08043v3
+Mask R-CNN (ResNet-101-FPN, CBN)|40.1|null|['FPN', 'ResNet']|2002.05712v3
+Fast R-CNN (Cascade RPN)|40.1|null|[']']|1909.06720v2
+Mask R-CNN (ResNeXt-101-FPN)|39.8|null|['FPN', 'ResNeXt']|1703.06870v3
+GA-Faster-RCNN|39.8|null|[']']|1901.03278v2
+ResNet-50 NAS-FCOS @256|39.8|null|[']']|1906.04423v4
+A2MIM (ResNet-50 2x)|39.8|null|[']']|2205.13943v4
+FPN (ResNet101 backbone)|39.5|null|['FPN']|1708.08169v1
+RetinaMask (ResNet-50-FPN)|39.4|null|['FPN']|1901.03353v1
+PP-YOLO (320x320)|39.3|null|[']']|2007.12099v3
+AA-ResNet-10 + RetinaNet|39.2|null|[']']|1904.09925v5
+MAL (ResNet50, single-scale)|39.2|null|['ResNet', 'single scale']|1912.02252v1
+RetinaNet (ResNet-101-FPN)|39.1|null|['FPN']|1708.02002v2
+Cascade R-CNN (ResNet-101-FPN+)|38.8|null|['FPN']|1712.00726v1
+M2Det (ResNet-101, single-scale)|38.8|null|[']']|1811.04533v3
+SaccadeNet (DLA-34-DCN)|38.5|null|['DCN']|2003.12125v1
+Mask R-CNN (ResNet-101-FPN)|38.2|null|['FPN', 'ResNet']|1703.06870v3
+WSMA-Seg|38.1|null|[']']|1904.13300v3
+Faster R-CNN + FPN + CGD|37.9|null|['FPN']|1907.09665v10
+CornerNet511 (Hourglass-52, single-scale)|37.8|null|[']']|1808.01244v2
+RefineDet512+ (VGG-16)|37.6|null|[']']|1711.06897v3
+DeformConv-R-FCN (Aligned-Inception-ResNet)|37.5|null|[']']|1703.06211v3
+Faster R-CNN (ImageNet+300M)|37.4|null|[']']|1707.02968v2
+Mask R-CNN (Bottleneck-injected ResNet-50, FPN)|36.9|null|['FPN', 'ResNet']|2011.12913v2
+Faster R-CNN + TDM|36.8|null|[']']|1612.06851v2
+Cascade R-CNN (ResNet-50-FPN+)|36.5|null|['FPN']|1712.00726v1
+RefineDet512 (ResNet-101)|36.4|null|[']']|1711.06897v3
+Faster R-CNN + FPN|36.2|null|['FPN']|1612.03144v2
+Faster R-CNN (Bottleneck-injected ResNet-50 and FPN)|35.9|null|['FPN', 'ResNet']|2011.12913v2
+Faster R-CNN (box refinement, context, multi-scale testing)|34.9|null|['multiscale']|1512.03385v1
+MobileNetV2 NAS-FCOS @256|34.7|null|[']']|1906.04423v4
+Faster R-CNN|34.7|null|[']']|1611.10012v3
+CornerNet-Squeeze|34.4|null|[']']|1904.08900v2
+MultiPath Network|33.2|null|[']']|1604.02135v2
+ION|33.1|null|[']']|1512.04143v1
+RefineDet512 (VGG-16)|33|null|[']']|1711.06897v3
+YOLOv3 + Darknet-53|33.0|null|['YOLO']|1804.02767v1
+YOLOX-Tiny(416x416, single-scale)|32.8|null|['YOLO']|2107.08430v2
+SSD512|28.8|null|[']']|1512.02325v5
+EdgeNeXt|27.9|null|['CNN', 'Transformer']|2206.10589v3
+MnasFPN (MobileNetV2)|26.1|null|['FPN']|1912.01106v2
+ESPNetv2-512|26.0|null|[']']|1811.11431v3
+YOLOX-Nano(416x416, single-scale)|25.8|null|[']']|2107.08430v2
+MnasFPN (MobileNetV3)|25.5|null|['FPN']|1912.01106v2
+MnasFPN (MNASNet-B1)|24.6|null|['FPN']|1912.01106v2
+MnasFPN x0.7 (MobileNetV2)|23.8|null|['FPN']|1912.01106v2
+MobielNet-v1-SSD-300x300+CGD|21.4|null|[']']|1907.09665v10
+Fast-RCNN|19.7|null|[']']|1504.08083v2
+MobileNet|19.3|null|[']']|1704.04861v1
+CenterMask-VoVNet99 (multi-scale)|null|null|['multiscale']|1911.06667v6
+DyHead (ResNet-101)|null|null|[']']|2106.08322v1
+Mask R-CNN (HRNetV2p-W32 + cascade)|null|null|[']']|1908.07919v2
+FoveaBox (ResNeXt-101)|null|null|['ResNeXt']|1904.03797v2
+VirTex Mask R-CNN (ResNet-50-FPN)|null|null|['FPN', 'ResNet']|2006.06666v3
+Centermask + ResNet101|null|null|['ResNet']|1911.06667v6
+PAFNet (ResNet50-vd)|null|null|['ResNet']|2104.13534v1
+IoU-Net+EnergyRegression|null|null|[']']|1909.12297v4
+Cascade R-CNN (HRNetV2p-W48)|null|null|[']']|1908.07919v2
+ISTR (ResNet50-FPN-3x, single-scale)|null|null|[']']|2105.00637v2
+FoveaBox (ResNeXt-101)|null|null|['ResNeXt']|1904.03797v2
+InternImage-H (M3I Pre-training)|null|null|['DCN', 'Giant', 'DINO', 'Deformable Convolution']|2211.05778v4

@@ -1,0 +1,10 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5
+Image Classification,SVHN,M3I Pre-training (InternImage-H),65.0,0.4705882352941152,,[],2211.09807v2
+Image Classification,SVHN,InternImage-H,65.0,0.4705882352941152,,[],2211.05778v4
+Image Classification,SVHN,Co-DETR (Swin-L),64.7,0.29411764705882304,,[],2211.12860v5
+Image Classification,SVHN,Focal-Stable-DINO (without TTA),64.6,0.2352941176470534,,[],2304.13027v1
+Image Classification,SVHN,EVA,64.5,0.17647058823529216,,"['ViT-Giant', 'ViT']",2211.07636v2
+Image Classification,SVHN,ViT-CoMer,64.3,0.05882352941176126,,['ViT-L'],2403.07392
+Image Classification,SVHN,FocalNet-H (DINO),64.2,0.0,,"['DINO', 'FocalNet']",2203.11926v3
+Image Classification,SVHN,InternImage-XL,64.2,0.0,,[],2211.05778v4

@@ -1,0 +1,93 @@
+name|accuracy|params|tags|id
+Branching/Merging CNN + Homogeneous Vector Capsules|99.87|null|[']']|2001.09136v6
+EnsNet (Ensemble learning in CNN augmented with fully connected subnetworks)|99.84|null|[']']|2003.08562v3
+Efficient-CapsNet|99.84|null|[']']|2101.12491v2
+SOPCNN (Only a single Model)|99.83|null|[']']|2001.08856v1
+RMDL (30 RDLs)|99.82|null|[']']|1805.01890v2
+DropConnect|99.79|null|[']']|null
+MCDNN|99.77|null|[']']|1202.2745v1
+APAC|99.77|null|[']']|1505.03229v1
+BNM NiN|99.76|null|[']']|1511.02583v1
+SimpleNetv1|99.75|null|[']']|1608.06037v8
+CapsNet|99.75|null|[']']|1710.09829v2
+VGG8B + LocalLearning + CO|99.74|null|[']']|1901.06656v2
+VGG-5 (Spinal FC)|99.72|null|[']']|2007.03347v3
+TextCaps|99.71|null|[']']|1904.08095v1
+ExquisiteNetV2|99.71|null|[']']|2105.09008v5
+WaveMix-128/7|99.71|null|[']']|2203.03689v1
+Fractional MP|99.7|null|[']']|1412.6071v4
+RCNN-96|99.7|null|[']']|null
+Tree+Max-Avg pooling|99.7|null|[']']|1509.08985v2
+CMsC|99.7|null|[']']|1511.05635v1
+Second Order Neural Ordinary Differential Equation|99.63|null|[']']|2006.07220v2
+Augmented Neural Ordinary Differential Equation|99.63|null|[']']|1904.01681v3
+Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis|99.6|null|[']']|null
+Energy-Based Sparse Represenation|99.6|null|[']']|null
+DBSNN|99.6|null|[']']|null
+DSN|99.6|null|[']']|1409.5185v2
+CKN|99.6|null|[']']|1406.3332v2
+C-SVDDNet|99.6|null|[']']|1412.7259v3
+HOPE|99.6|null|[']']|1502.00702v2
+FLSCNN|99.6|null|[']']|1503.04596v3
+MLR DNN|99.6|null|[']']|null
+MIM|99.6|null|[']']|1508.00330v2
+Fitnet-LSUV-SVM|99.6|null|[']']|1511.06422v7
+Deformation Models|99.5|null|[']']|null
+Trainable feature extractor|99.5|null|[']']|null
+The Best Multi-Stage Architecture|99.5|null|[']']|null
+COSFIRE|99.5|null|[']']|null
+Maxout Networks|99.5|null|[']']|1302.4389v4
+NiN|99.5|null|[']']|1312.4400v3
+ReNet|99.5|null|[']']|1505.00393v3
+DCNN+GFE|99.5|null|['DCN']|1710.02286v1
+VDN|99.5|null|[']']|1507.06228v2
+NeuPDE|99.49|null|[']']|1908.03190v1
+Simple CNN with BaikalCMA loss|99.47|null|[']']|1905.11528v3
+SEER (RegNet10B)|99.42|null|[']']|2202.08360v2
+Convolutional Tsetlin Machine|99.4|null|[']']|1905.09688v5
+Shape contexts|99.4|null|[']']|null
+ISVM|99.4|null|[']']|null
+invariant feature hierarchies|99.4|null|[']']|null
+Sparse Coding|99.4|null|[']']|null
+Receptive Field Learning|99.4|null|[']']|null
+PCANet|99.4|null|[']']|1404.3606v2
+DiffPrune (LeNet5)|99.4|null|[']']|2012.03653v2
+CNN+Gabor Filters|99.3|null|[']']|null
+On Optimization Methods for Deep Learning|99.3|null|[']']|null
+Deep Fried Convnets|99.3|null|[']']|1412.7149v4
+CDBN|99.2|null|[']']|null
+Supervised Translation-Invariant Sparse Coding|99.2|null|[']']|null
+Sparse Activity and Sparse Connectivity in Supervised Learning|99.2|null|[']']|1603.08367v1
+Explaining and Harnessing Adversarial Examples|99.2|null|[']']|1412.6572v3
+Large-Margin kNN|99.1|null|[']']|null
+Deep Boltzmann Machines|99.0|null|[']']|null
+BinaryConnect|99.0|null|[']']|1511.00363v3
+DBN|98.9|null|[']']|null
+StrongNet|98.9|null|[']']|null
+CNN|98.8|null|[']']|null
+Reducing the dimensionality of data with neural networks|98.8|null|[']']|null
+LeNet 300-100 (Sparse Momentum)|98.74|null|[']']|1907.04840v2
+Convolutional Clustering|98.6|null|[']']|1511.06241v2
+CNN Model by Som|98.59|null|[']']|1705.03122v3
+Weighted Tsetlin Machine|98.5|null|[']']|1911.12607v4
+Deep learning via semi-supervised embedding|98.5|null|[']']|null
+Perceptron with a tensor train layer|98.2|null|[']']|1509.06569v2
+ANODE|98.2|null|[']']|1904.01681v3
+Tsetlin Machine|98.2|null|[']']|1804.01508v10
+GECCO|98.04|null|[']']|2402.00564v1
+DNN-5 (Trainable Activations)|97.2|null|[']']|null
+DNN-3 (Trainable Activations)|97.0|null|[']']|null
+DNN-2 (Trainable Activations)|96.4|null|[']']|null
+Zhao et al. (2015) (auto-encoder)|95.24|null|[']']|1506.02351v8
+ProjectionNet|95.0|null|[']']|1708.00630v2
+\u00b52Net (ViT-L/16)|null|null|[']']|2205.12755v6
+MobileNet_XnODR|null|null|[']']|2111.10854v3
+ResNet-9|null|null|[']']|2203.15331v2
+PyramidNet|null|null|[']']|2205.09615v4
+FastSNN (CNN)|null|null|['SNN']|2205.15286v2
+CNN-5 Layer|null|null|[']']|2106.08882v1
+StiDi-BP in R-CSNN|null|null|['SNN']|2108.13621v1
+FastSNN (MLP)|null|null|['SNN']|2205.15286v2
+Binarized MLP with on-chip spiking backpropagation (on Loihi)|null|null|[']']|2106.07030v2
+pFedBreD_ns_mg|null|null|[']']|2211.10684v2
+Backpropagation Neural tree|null|null|[']}]</script']|null

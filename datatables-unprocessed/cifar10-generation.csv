@@ -1,0 +1,222 @@
+name|accuracy|params|tags|id
+CTM|1.63|null|['Diffusion']|2310.02279v3
+Discriminator Guidance|1.64|null|['Diffusion', 'Score-based']|2211.17091v4
+CTM (NFE 1)|1.73|null|['Diffusion']|2310.02279v3
+EDM-AOT|1.73|null|[']']|2403.05069v1
+PFGM++|1.74|null|['PFGM']|2302.04265v2
+SciRE-Solver (with EDM)|1.76|null|['Score-based', 'EDM', 'Diffusion']|2308.07896v3
+Discriminator Guidance (unconditional)|1.77|null|['Diffusion', 'Score-based']|2211.17091v4
+EDM-ES|1.8|null|['Score-based', 'Diffusion']|2308.15321v5
+StyleGAN-XL|1.85|null|['GAN']|2202.00273v2
+EDM-AOT (unconditional)|1.88|null|[']']|2403.05069v1
+STF (unconditional)|1.90|null|['Score-based']|2302.00670v2
+LSGM-G++ (FID)|1.94|null|['VAE', 'Diffusion', 'Score-based']|2211.17091v4
+DiffiT|1.95|null|[']']|2312.02139v2
+DDIM+CS|2.01|null|[']']|2312.06285v1
+PSLD (ODE)|2.10|null|['unconditional', 'Score-based']|2303.01748v2
+LSGM (FID)|2.10|null|['Score-based', 'VAE']|2106.05931v3
+ADM-ES|2.17|null|['stochatic sampler', 'unconditional', 'Diffusion']|2308.15321v5
+Subspace Diffusion (NSCN++)|2.17|null|['Score-based']|2205.01490v2
+LSGM (balanced)|2.17|null|['VAE', 'Score-based']|2106.05931v3
+NCSN++|2.20|null|['Score-based']|2011.13456v2
+PSLD (SDE)|2.21|null|['unconditional', 'Score-based']|2303.01748v2
+CLD-SGM (EM-QS)|2.23|null|['Score-based']|2112.07068v4
+StyleGAN2 + DiffAugment + D2D-CE|2.236|null|['GAN']|2111.01118v1
+CLD-SGM (Prob. Flow)|2.25|null|['Score-based']|2112.07068v4
+INDM (FID)|2.28|null|['Diffusion']|2205.13699v3
+StyleGAN2 + ADA|2.316|null|['GAN']|2111.01118v1
+StyleGAN2 + ADA+ D2D-CE|2.325|null|['GAN']|2111.01118v1
+UDM (RVE) + ST|2.33|null|['Score-based']|2106.05527v5
+PFGM|2.35|null|['PFGM']|2209.11178v4
+BDDM|2.38|null|['Diffusion']|2203.13508v1
+BIGRoC (StyleGAN2 ADA)|2.41|null|[']']|2108.03702v4
+DDPM++ cont. (deep, sub-VP)|2.41|null|['Score-based']|2011.13456v2
+DDPM++ (VP, FID) + ST|2.47|null|['Score-based']|2106.05527v5
+LeCAM (StyleGAN2 + ADA)|2.47|null|['GAN']|2104.03310v1
+PD (NFE=8)|2.57|null|['Diffusion']|2202.00512v2
+DiffuseVAE-72M|2.62|null|[']']|2201.00308v3
+Diffusion StyleGAN2 + ADA|2.67|null|[']']|2206.02262v4
+Styleformer|2.82|null|['GAN']|2106.07023v3
+TDPM+ (TTrunc=99)|2.83|null|[']']|2202.09671v4
+CD (Diffusion + Distillation, NFE=2)|2.93|null|['Diffusion']|2303.01469v2
+PD (NFE=4)|3.00|null|['Diffusion']|2202.00512v2
+SB-FBSDE|3.01|null|['Optimal Transport', 'Score-based']|2110.11291v5
+Denoising Diffusion|3.17|null|['Score-based']|2006.11239v2
+Diffusion StyleGAN2|3.19|null|[']']|2206.02262v4
+INDM (ST)|3.25|null|[']']|2205.13699v3
+PNDM|3.26|null|[']']|2202.09778v2
+Improved DDPM|3.27|null|[']']|2102.09672v1
+DDPM++ (VP, NLL) + ST|3.45|null|['Score-based']|2106.05527v5
+RDGAN|3.53|null|[']']|2311.17101v1
+CD (Diffusion + Distillation, NFE=1)|3.55|null|['Diffusion']|2303.01469v2
+GENIE (Learned Sampler, NFEs=25)|3.64|null|[']']|2210.05475v1
+DSM-ALS|3.65|null|['Score-based']|2009.05475v2
+GENIE (NFEs=25)|3.67|null|[']']|2210.05475v1
+DDGAN|3.75|null|[']']|2112.07804v2
+DiffuseVAE|3.77|null|[']']|2201.00308v3
+GENIE (Learned Sampler, NFEs=20)|3.94|null|[']']|2210.05475v1
+GENIE (NFEs=20)|3.94|null|[']']|2210.05475v1
+VDM (FID)|4.0|null|[']']|2107.00630v6
+WaveDiff|4.01|null|['Diffusion']|2211.16152v2
+MHGAN|4.22|null|[']']|null
+DiffAugment-CR-BigGAN|4.30|null|['GAN']|2006.10738v4
+ReACGAN|4.40|null|[']']|null
+GENIE (Learned Sampler, NFEs=15)|4.49|null|[']']|2210.05475v1
+GENIE (NFEs=15)|4.49|null|[']']|2210.05475v1
+PD (NFE=2)|4.51|null|['Diffusion']|2202.00512v2
+ViTGAN with StyleGAN2|4.57|null|['Transformer']|2107.04589v1
+Blackout Diffusion|4.58|null|[']']|2305.11089v1
+DiffAugment-BigGAN|4.61|null|['GAN']|2006.10738v4
+INDM (NLL)|4.79|null|[']']|2205.13699v3
+GENIE (Learned Sampler, NFEs=10)|5.28|null|[']']|2210.05475v1
+DiffAugment-StyleGAN2|5.79|null|['GAN']|2006.10738v4
+CT (Direct Generation, NFE=2)|5.83|null|[']']|2303.01469v2
+GENIE (NFEs=10)|5.97|null|[']']|2210.05475v1
+ViTGAN|6.66|null|['Transformer']|2107.04589v1
+LSGM (NLL)|6.89|null|['VAE', 'Score-based']|2106.05931v3
+MIX-BigGAN|8.17|null|['GAN']|2007.06418v2
+LeCAM (BigGAN + DA)|8.46|null|[']']|2104.03310v1
+CT (Direct Generation, NFE=1)|8.70|null|[']']|2303.01469v2
+PGMGAN|8.93 |null|[']']|2104.00816v2
+BigGAN-OBRS|8.98|null|[']']|2311.00460v2
+PD (NFE=1)|9.12|null|['Diffusion']|2202.00512v2
+TransGAN|9.26|null|['GAN']|2102.07074v4
+Denoising Student|9.36|null|[']']|2101.02388v1
+EBM-DRL (T6)|9.6|null|['EBM']|2012.08125v2
+SNGAN + DGflow|9.62|null|['Flow-based', 'GAN']|2012.00780v4
+CR +LT-BigGAN|9.80|null|['GAN']|2010.09893v1
+EAGAN (G+D)|9.91|null|[']']|2111.15097v2
+EAGAN (G)|10.14|null|[']']|2111.15097v2
+PPOGAN|10.7|null|['GAN']|2006.06900v4
+NCSNv2|10.87|null|['Score-based']|2006.09011v2
+StyleGAN V2|11.07|null|['GAN']|2006.10738v4
+GENIE (Learned Sampler, NFEs=5)|11.2|null|[']']|2210.05475v1
+E2GAN|11.26|null|['GAN']|2007.09180v1
+MSGAN|11.40|null|['GAN']|1911.06997v2
+PR-BigGAN - Recall|11.62|null|[']']|null
+aw-AutoGAN|11.82|null|[']']|2012.03149v2
+DEGAS|12.01|null|[']']|1912.00606v3
+VAEBM w/ persistent chain|12.19|null|['VAE']|2010.00654v3
+VAEBM w/o persistent chain|12.26|null|['VAE']|2010.00654v3
+aw-SN-GAN|12.32|null|[']']|2012.03149v2
+AutoGAN|12.42|null|['GAN']|1908.03835v1
+NDA|12.61|null|[']']|2102.05113v1
+WGAN-ALP|12.96|null|['GAN']|1907.05681v3
+DDPM (L)|13.51|null|[']']|2006.11239v2
+GENIE (NFEs=5)|13.9|null|[']']|2210.05475v1
+CuGAN|14.41|null|[']']|1910.08967v2
+CR-GAN (ResNet)|14.56|null|['GAN', 'ResNet']|1910.12027v2
+BigGAN|14.73|null|['GAN']|1809.11096v2
+SS-GAN (sBN)|15.65|null|['GAN']|1811.11212v2
+PA-GAN|16.1|null|['GAN']|1901.10422v3
+MMD-GAN-rep|16.21|null|['GAN']|1812.09916v4
+SNGAN-DCD (Latent)|16.24|null|[']']|2004.01704v1
+Pi-net|16.79|null|[']']|2003.03828v2
+ProdPoly|16.79|null|[']']|2006.13026v2
+Dist-GAN|17.61|null|['GAN']|1803.08887v3
+LOGAN|17.87|null|[']']|null
+DC-VAE|17.9|null|['VAE']|2011.10063v1
+NK-CA|18.27|null|[']']|2303.05497v2
+CoProGAN|19.66|null|[']']|2108.07387v1
+SRN-GANs|19.83|null|['GAN']|1906.04659v3
+PeerGAN|21.55|null|[']']|2101.07524v3
+SNGAN-DCD (Pixel)|21.67|null|[']']|2004.01704v1
+SN-GANs|21.7|null|['GAN']|1802.05957v1
+NCP-VAE|24.08|null|['VAE']|2010.02917v3
+WGAN-GP + TT Update Rule|24.8|null|['GAN']|1706.08500v6
+SN-SMMDGAN|25.0|null|['GAN']|1805.11565v5
+NCSN|25.32|null|[']']|1907.05600v3
+RSGAN-GP|25.60|null|['GAN']|1807.00734v3
+HingeGAN|27.12|null|['GAN']|1910.06922v2
+FOGAN|27.4|null|['GAN']|1802.04591v2
+MSGAN|28.73|null|['GAN']|1903.05628v6
+WGAN-GP|29.3|null|['GAN']|1704.00028v3
+QSNGAN|31.966|null|['GAN']|2104.09630v2
+NVAE w/ flow|32.53|null|['Flow-based', 'VAE']|2007.03898v3
+DenseFlow-74-10|34.90|null|['Flow-based']|2106.04627v3
+ACGAN|35.47|null|[']']|null
+ProdPoly no activation functions|40.45|null|[']']|2006.13026v2
+GLF+perceptual loss (ours)|44.6|null|['Flow-based']|1905.10485v2
+Residual Flow|46.37|null|['Flow-based']|1906.02735v6
+RESFLOW|48.29|null|[']']|null
+PresGAN|52.202|null|['GAN']|1910.04302v1
+PR-BigGAN - Precision|67.03|null|[']']|null
+Feature Alignment|69.89|null|[']']|2106.12562v2
+PFGM++ (DINOv2)|null|null|[']']|2302.04265v2
+LSGM (FID, DINOv2)|null|null|[']']|2106.05931v3
+StyleGAN-XL (DINOv2)|null|null|[']']|2202.00273v2
+Improved DDPM (DINOv2)|null|null|[']']|2102.09672v1
+StyleGAN2 + ADA (DINOv2)|null|null|[']']|2111.01118v1
+BigGAN (DINOv2)|null|null|[']']|1809.11096v2
+ReACGAN (DINOv2)|null|null|[']']|null
+MHGAN (DINOv2)|null|null|[']']|null
+LOGAN (DINOv2)|null|null|[']']|null
+NVAE w/ flow (DINOv2)|null|null|[']']|2007.03898v3
+WGAN-GP (DINOv2)|null|null|[']']|1704.00028v3
+ACGAN (DINOv2)|null|null|[']']|null
+RESFLOW (DINOv2)|null|null|[']']|null
+Reflected Diffusion|null|null|['Score-based']|2304.04740v3
+UNCSN++ (RVE) + ST|null|null|[']']|2106.05527v5
+VE (new SDE solver)|null|null|['Score-based']|2105.14080v1
+PGGAN|null|null|['GAN']|1710.10196v3
+CLC-GAN|null|null|['GAN']|1909.13188v4
+MSG-ProGAN|null|null|['GAN']|1903.06048v4
+Splitting GAN|null|null|['GAN']|1709.07359v2
+Single Classifier|null|null|[']']|1906.09453v2
+LR-GAN|null|null|['GAN']|1703.01560v3
+CEGAN-Ent-VI|null|null|['GAN']|1702.01691v2
+Improved GAN|null|null|['GAN']|1606.03498v1
+GMAN|null|null|[']']|1611.01673v3
+BEGAN|null|null|['GAN']|1703.10717v4
+ALI|null|null|[']']|1606.00704v3
+VDM|null|null|[']']|2107.00630v6
+CR-NVAE|null|null|['VAE']|2105.14859v2
+DistAug-Sparse Transformer 152M|null|null|['Transformer']|null
+i-DODE|null|null|['No Augmentation', 'Diffusion']|2305.03935v3
+DistAug-Sparse Transformer 58M|null|null|['Transformer']|null
+ARDM-Upscale 4|null|null|[']']|2110.02037v2
+BFN|null|null|[']']|2308.07037v5
+Combiner-Axial|null|null|[']']|2107.05768v2
+Transformer+SSA|null|null|[']']|2306.01705v1
+Sparse Transformer 59M (strided)|null|null|['Transformer']|1904.10509v1
+\u03b4-VAE|null|null|['VAE']|1901.03416v1
+Very Deep VAE|null|null|['VAE']|2011.10650v2
+Efficient-VDVAE|null|null|['VAE']|2203.13751v2
+Combiner-Mixture|null|null|[']']|2107.05768v2
+Image Transformer|null|null|['Transformer']|1802.05751v3
+Locally Masked PixelCNN, 8 orders|null|null|[']']|2006.12486v3
+PixelVAE++ Sadeghi et al. (2019)|null|null|['VAE']|1908.09948v1
+Routing Transformer (12 layers)|null|null|[']']|2003.05997v5
+VFlow|null|null|['Flow-based']|2002.09741v2
+PixelRNN|null|null|[']']|1601.06759v3
+Gated PixelCNN|null|null|[']']|1606.05328v2
+ANF Huang et al. (2020)|null|null|['Flow-based']|2002.07101v1
+Flow++|null|null|['Flow-based']|1902.00275v2
+BIVA Maaloe et al. (2019)|null|null|[']']|1902.02102v3
+VAE with IAF|null|null|['Flow-based', 'VAE']|null
+PixelCNN|null|null|[']']|1601.06759v3
+MaCow (Var)|null|null|[']']|1902.04208v5
+EBM-DRL (T1k)|null|null|[']']|2012.08125v2
+MALI|null|null|[']']|2102.04668v2
+Glow with resampled base distribution|null|null|[']']|2110.15828v2
+Performer (12 layers)|null|null|[']']|2009.14794v4
+MintNet|null|null|[']']|1907.07945v2
+Performer (6 layers)|null|null|[']']|2009.14794v4
+Glow (Kingma and Dhariwal, 2018)|null|null|['Flow-based']|1807.03039v2
+DVAE++ Vahdat et al. ([2018b])|null|null|['VAE']|1802.04920v2
+RNODE|null|null|[']']|2002.02798v3
+FFJORD|null|null|[']']|1810.01367v3
+i-ResNet|null|null|['ResNet']|1811.00995v3
+RIDE|null|null|[']']|1506.03478v2
+Real NVP (Dinh et al., 2017)|null|null|[']']|1605.08803v3
+Real NVP|null|null|[']']|1605.08803v3
+VAE+RealNVP|null|null|['VAE']|2006.05218v2
+MRCNF|null|null|[']']|2106.08462v5
+Conv DRAW|null|null|[']']|1604.08772v1
+srVAE|null|null|['VAE']|2006.05218v2
+Axial Transformer (6 layers)|null|null|[']']|1912.12180v1
+Deep GMM|null|null|[']']|null
+DRAW|null|null|[']']|1502.04623v2
+Logsparse (6 layers)|null|null|[']']|1907.00235v3
+NICE|null|null|[']']|1601.06759v3
+NICE|null|null|[']}]</script']|1410.8516v6

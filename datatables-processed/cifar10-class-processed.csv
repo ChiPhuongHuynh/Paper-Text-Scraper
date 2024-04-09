@@ -1,0 +1,205 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2
+Image Classification,CIFAR-10,"DINOv2 (ViT-g/14, frozen model, linear eval)",99.0,1.0,1100M,[],2304.07193v2
+Image Classification,CIFAR-10,\u00b52Net (ViT-L/16),99.0,1.0,,[],2205.12755v6
+Image Classification,CIFAR-10,ViT-L/16,99.0,1.0,,['Transformer'],2010.11929v2
+Image Classification,CIFAR-10,CaiT-M-36 U 224,99.0,1.0,,['Transformer'],2103.17239v2
+Image Classification,CIFAR-10,CvT-W24,99.0,1.0,,['Transformer'],2103.15808v1
+Image Classification,CIFAR-10,BiT-L (ResNet),99.0,1.0,,['ResNet'],1912.11370v3
+Image Classification,CIFAR-10,ViT-B (attn fine-tune),99.0,1.0,,[],2203.09795v1
+Image Classification,CIFAR-10,Heinsen Routing + BEiT-large 16 224,99.0,1.0,309.5M,[],2211.11754v3
+Image Classification,CIFAR-10,ViT-B/16 (PUGD),99.0,1.0,,[],2110.00199v2
+Image Classification,CIFAR-10,Astroformer,99.0,1.0,,[],2304.05350v2
+Image Classification,CIFAR-10,CeiT-S (384 finetune resolution),99.0,1.0,,['Transformer'],2103.11816v2
+Image Classification,CIFAR-10,AutoFormer-S | 384,99.0,1.0,23M,[],2107.00651v1
+Image Classification,CIFAR-10,TNT-B,99.0,1.0,65.6M,['Transformer'],2103.00112v3
+Image Classification,CIFAR-10,DeiT-B,99.0,1.0,86M,['Transformer'],2012.12877v2
+Image Classification,CIFAR-10,EfficientNetV2-L,99.0,1.0,121M,['EfficientNet'],2104.00298v3
+Image Classification,CIFAR-10,VIT-L/16,99.0,1.0,,[],2305.03238v3
+Image Classification,CIFAR-10,CeiT-S,99.0,1.0,,['Transformer'],2103.11816v2
+Image Classification,CIFAR-10,GPIPE + transfer learning,99.0,1.0,,[],1811.06965v5
+Image Classification,CIFAR-10,TResNet-XL,99.0,1.0,,[],2003.13630v3
+Image Classification,CIFAR-10,GFNet-H-B,99.0,1.0,54M,[],2107.00645v2
+Image Classification,CIFAR-10,EfficientNetV2-M,99.0,1.0,55M,['EfficientNet'],2104.00298v3
+Image Classification,CIFAR-10,BiT-M (ResNet),98.0,0.9743589743589743,,['ResNet'],1912.11370v3
+Image Classification,CIFAR-10,EfficientNet-B7,98.0,0.9743589743589743,64M,['EfficientNet'],1905.11946v5
+Image Classification,CIFAR-10,"PyramidNet-272, S=4",98.0,0.9743589743589743,32.6M,[],2011.14660v4
+Image Classification,CIFAR-10,EfficientNetV2-S,98.0,0.9743589743589743,24M,['EfficientNet'],2104.00298v3
+Image Classification,CIFAR-10,PyramidNet-272 (ASAM),98.0,0.9743589743589743,26M,[],2102.11600v3
+Image Classification,CIFAR-10,PyramidNet + ShakeDrop + Fast AA + FMix,98.0,0.9743589743589743,26.21M,[],2002.12047v3
+Image Classification,CIFAR-10,ConvMLP-M,98.0,0.9743589743589743,,[],2109.04454v2
+Image Classification,CIFAR-10,ConvMLP-L,98.0,0.9743589743589743,,[],2109.04454v2
+Image Classification,CIFAR-10,ViT-B/16- SAM,98.0,0.9743589743589743,87M,['Transformer'],2106.01548v3
+Image Classification,CIFAR-10,DVT (T2T-ViT-24),98.0,0.9743589743589743,,['Transformer'],2105.15075v2
+Image Classification,CIFAR-10,E2E-3M,98.0,0.9743589743589743,20M,[],2007.15161v3
+Image Classification,CIFAR-10,CeiT-T,98.0,0.9743589743589743,,['Transformer'],2103.11816v2
+Image Classification,CIFAR-10,NAT-M4,98.0,0.9743589743589743,6.9M,[],2005.05859v2
+Image Classification,CIFAR-10,"WRN-40-10, S=4",98.0,0.9743589743589743,55.9M,[],2011.14660v4
+Image Classification,CIFAR-10,"WRN-28-10, S=4",98.0,0.9743589743589743,36.7M,[],2011.14660v4
+Image Classification,CIFAR-10,Dynamics 2,98.0,0.9743589743589743,,[],2205.10456v3
+Image Classification,CIFAR-10,"Shake-Shake 26 2x96d, S=4",98.0,0.9743589743589743,26.3M,[],2011.14660v4
+Image Classification,CIFAR-10,ResNet50 (A1),98.0,0.9743589743589743,25M,['ResNet'],2110.00476v1
+Image Classification,CIFAR-10,PyramidNet+ShakeDrop (Fast AA),98.0,0.9743589743589743,26.21M,[],1905.00397v2
+Image Classification,CIFAR-10,NoisyDARTS-A-t,98.0,0.9743589743589743,,[],2005.03566v3
+Image Classification,CIFAR-10,LeViT-192,98.0,0.9743589743589743,,['Transformer'],2104.01136v2
+Image Classification,CIFAR-10,ResNet-152-SAM,98.0,0.9743589743589743,,['ResNet'],2106.01548v3
+Image Classification,CIFAR-10,ViT-S/16- SAM,98.0,0.9743589743589743,,['Transformer'],2106.01548v3
+Image Classification,CIFAR-10,Bamboo (ViT-B/16),98.0,0.9743589743589743,,[],2203.07845v2
+Image Classification,CIFAR-10,NAT-M3,98.0,0.9743589743589743,6.2M,[],2005.05859v2
+Image Classification,CIFAR-10,LeViT-256,98.0,0.9743589743589743,,['Transformer'],2104.01136v2
+Image Classification,CIFAR-10,PyramidNet + AA (AMP),98.0,0.9743589743589743,27.22M,[],2010.04925v4
+Image Classification,CIFAR-10,EnAET,98.0,0.9743589743589743,36.5M,[],1911.09265v2
+Image Classification,CIFAR-10,LeViT-384,98.0,0.9743589743589743,,['Transformer'],2104.01136v2
+Image Classification,CIFAR-10,ConvMLP-S,98.0,0.9743589743589743,,[],2109.04454v2
+Image Classification,CIFAR-10,MUXNet-m,98.0,0.9743589743589743,2.1M,[],2003.13880v2
+Image Classification,CIFAR-10,CCT-7/3x1*,98.0,0.9743589743589743,3.76M,['Transformer'],2104.05704v4
+Image Classification,CIFAR-10,Proxyless-G + c/o,97.0,0.9487179487179487,5.7M,[],1812.00332v2
+Image Classification,CIFAR-10,NAT-M2,97.0,0.9487179487179487,4.6M,[],2005.05859v2
+Image Classification,CIFAR-10,WRN-28-10+AutoDropout+RandAugment,97.0,0.9487179487179487,36.5M,[],2101.01761v1
+Image Classification,CIFAR-10,SENet + ShakeShake + Cutout,97.0,0.9487179487179487,,[],1709.01507v4
+Image Classification,CIFAR-10,HCGNet-A3,97.0,0.9487179487179487,11.4M,[],1908.09699v3
+Image Classification,CIFAR-10,Wide-ResNet-28-10,97.0,0.9487179487179487,,[],2209.15031v2
+Image Classification,CIFAR-10,ResNeXt-50 (AutoMix),97.0,0.9487179487179487,,[],2103.13027v6
+Image Classification,CIFAR-10,ResNet-152x4-AGC (ImageNet-21K),97.0,0.9487179487179487,,[],2106.00116v4
+Image Classification,CIFAR-10,Mixer-B/16- SAM,97.0,0.9487179487179487,,[],2106.01548v3
+Image Classification,CIFAR-10,CCT-7/3x1+VTM,97.0,0.9487179487179487,,[],2210.07562v1
+Image Classification,CIFAR-10,WRN-28-10,97.0,0.9487179487179487,36.5M,[],2103.06132v3
+Image Classification,CIFAR-10,HCGNet-A2,97.0,0.9487179487179487,3.1M,[],1908.09699v3
+Image Classification,CIFAR-10,WRN + fixup init + mixup + cutout,97.0,0.9487179487179487,18M,[],1901.09321v2
+Image Classification,CIFAR-10,TransBoost-ResNet50,97.0,0.9487179487179487,,[],2205.13331v4
+Image Classification,CIFAR-10,NoisyDARTS-a,97.0,0.9487179487179487,5.5M,[],2005.03566v3
+Image Classification,CIFAR-10,LeViT-128,97.0,0.9487179487179487,,['Transformer'],2104.01136v2
+Image Classification,CIFAR-10,DenseNet-BC-190 + batchboost,97.0,0.9487179487179487,25.6M,[],2001.07627v1
+Image Classification,CIFAR-10,LeViT-128S,97.0,0.9487179487179487,,['Transformer'],2104.01136v2
+Image Classification,CIFAR-10,Shared WRN,97.0,0.9487179487179487,33.5M,[],1902.09701v2
+Image Classification,CIFAR-10,Manifold Mixup WRN 28-10,97.0,0.9487179487179487,36.5M,[],1806.05236v7
+Image Classification,CIFAR-10,WRN 28-14,97.0,0.9487179487179487,36.5M,[],2007.12927v4
+Image Classification,CIFAR-10,SparseSwin,97.0,0.9487179487179487,17.58M,[],2309.05224v1
+Image Classification,CIFAR-10,WRN-28-10 with reSGHMC,97.0,0.9487179487179487,36.5M,[],2008.05367v3
+Image Classification,CIFAR-10,NAT-M1,97.0,0.9487179487179487,4.3M,[],2005.05859v2
+Image Classification,CIFAR-10,ResNet-50-SAM,97.0,0.9487179487179487,25M,['ResNet'],2106.01548v3
+Image Classification,CIFAR-10,kNN-CLIP,97.0,0.9487179487179487,,"['Memory-Centric', 'CLIP Pre-trained']",2204.01186v2
+Image Classification,CIFAR-10,DenseNet-BC-190 + Mixup,97.0,0.9487179487179487,25.6M,[],1710.09412v2
+Image Classification,CIFAR-10,WaveMixLite-144/7,97.0,0.9487179487179487,,[],2205.14375v5
+Image Classification,CIFAR-10,Transformer local-attention (NesT-B),97.0,0.9487179487179487,90.1M,['Transformer'],2105.12723v4
+Image Classification,CIFAR-10,PyramidNet,97.0,0.9487179487179487,,[],2205.09615v4
+Image Classification,CIFAR-10,ShakeShake-2x64d + SWA,97.0,0.9487179487179487,,[],1803.05407v3
+Image Classification,CIFAR-10,PyramidNet-200 + CutMix,97.0,0.9487179487179487,,[],1905.04899v2
+Image Classification,CIFAR-10,Wide-ResNet-40-2,97.0,0.9487179487179487,,[],2209.15031v2
+Image Classification,CIFAR-10,ORN,97.0,0.9487179487179487,,[],1701.01833v2
+Image Classification,CIFAR-10,WRN-16-8 with reSGHMC,96.0,0.9230769230769231,,[],2008.05367v3
+Image Classification,CIFAR-10,ResNet_XnIDR,96.0,0.9230769230769231,,[],2111.10854v3
+Image Classification,CIFAR-10,HCGNet-A1,96.0,0.9230769230769231,1.1M,[],1908.09699v3
+Image Classification,CIFAR-10,WRN 28-10,96.0,0.9230769230769231,,[],2007.12927v4
+Image Classification,CIFAR-10,AutoDropout,96.0,0.9230769230769231,,[],2101.01761v1
+Image Classification,CIFAR-10,WRN-28-10 + SWA,96.0,0.9230769230769231,,[],1803.05407v3
+Image Classification,CIFAR-10,ConvMixer-256/16,96.0,0.9230769230769231,1.34M,[],2201.09792v1
+Image Classification,CIFAR-10,Wide ResNet+cutout,96.0,0.9230769230769231,,['ResNet'],1907.06916v2
+Image Classification,CIFAR-10,Deep pyramidal residual network,96.0,0.9230769230769231,,[],1610.02915v4
+Image Classification,CIFAR-10,CoPaNet-R-164,96.0,0.9230769230769231,,[],1709.10282v1
+Image Classification,CIFAR-10,DenseNet (DenseNet-BC-190),96.0,0.9230769230769231,,[],1608.06993v5
+Image Classification,CIFAR-10,"SKNet-29 (ResNeXt-29, 16\u00d732d)",96.0,0.9230769230769231,,['ResNeXt'],1903.06586v2
+Image Classification,CIFAR-10,Fractional MP,96.0,0.9230769230769231,,[],1412.6071v4
+Image Classification,CIFAR-10,"PDO-eConv (p8, 4.6M)",96.0,0.9230769230769231,,[],2007.10408v2
+Image Classification,CIFAR-10,UPANets,96.0,0.9230769230769231,,[],2103.08640v2
+Image Classification,CIFAR-10,"ViT (lightweight, MAE pretrained)",96.0,0.9230769230769231,3.64M,['Transformer'],2402.03752v1
+Image Classification,CIFAR-10,NAS-RL,96.0,0.9230769230769231,,[],1611.01578v2
+Image Classification,CIFAR-10,VGG11B(2x) + LocalLearning + CO,96.0,0.9230769230769231,,[],1901.06656v2
+Image Classification,CIFAR-10,Residual Gates + WRN,96.0,0.9230769230769231,,[],1611.01260v2
+Image Classification,CIFAR-10,"PDO-eConv (p8, 2.62M)",96.0,0.9230769230769231,,[],2007.10408v2
+Image Classification,CIFAR-10,SimpleNetv2,96.0,0.9230769230769231,,[],1802.06205v1
+Image Classification,CIFAR-10,ResNet56 with reSGHMC,96.0,0.9230769230769231,,['ResNet'],2008.05367v3
+Image Classification,CIFAR-10,Mixer-S/16- SAM,96.0,0.9230769230769231,,[],2106.01548v3
+Image Classification,CIFAR-10,PreActResNet18 (AMP),96.0,0.9230769230769231,,['ResNet'],2010.04925v4
+Image Classification,CIFAR-10,ConvMixer-256/8,96.0,0.9230769230769231,0.71M,[],2201.09792v1
+Image Classification,CIFAR-10,Local Mixup Resnet18,95.0,0.8974358974358975,,[],2201.04368v1
+Image Classification,CIFAR-10,ResNet-50x1-ACG (ImageNet-21K),95.0,0.8974358974358975,,[],2106.00116v4
+Image Classification,CIFAR-10,ACN,95.0,0.8974358974358975,,[],1412.6806v3
+Image Classification,CIFAR-10,Evolution ensemble,95.0,0.8974358974358975,,[],1703.01041v2
+Image Classification,CIFAR-10,ResNet-18,95.0,0.8974358974358975,,"['ResNet-18', 'ResNet']",2206.13424v3
+Image Classification,CIFAR-10,SimpleNetv1,95.0,0.8974358974358975,,[],1608.06037v8
+Image Classification,CIFAR-10,ResNet-1001,95.0,0.8974358974358975,,['ResNet'],1603.05027v3
+Image Classification,CIFAR-10,ResNet32 with reSGHMC,95.0,0.8974358974358975,,['ResNet'],2008.05367v3
+Image Classification,CIFAR-10,ResNet-18+MM+FRL,95.0,0.8974358974358975,,[],2011.10951v2
+Image Classification,CIFAR-10,CCT-6/3x1,95.0,0.8974358974358975,3.17M,['Transformer'],2104.05704v4
+Image Classification,CIFAR-10,MomentumNet,95.0,0.8974358974358975,,[],2102.07870v3
+Image Classification,CIFAR-10,SRM-ResNet-56,95.0,0.8974358974358975,,[],1903.10829v1
+Image Classification,CIFAR-10,MixMatch,95.0,0.8974358974358975,,[],1905.02249v2
+Image Classification,CIFAR-10,WRN-22-8 (Sparse Momentum),95.0,0.8974358974358975,,[],1907.04840v2
+Image Classification,CIFAR-10,LP-BNN (ours) + cutout,95.0,0.8974358974358975,,[],2012.02818v2
+Image Classification,CIFAR-10,Prodpoly,94.0,0.8717948717948718,,[],2006.13026v2
+Image Classification,CIFAR-10,ResNet-9,94.0,0.8717948717948718,,[],2203.15331v2
+Image Classification,CIFAR-10,Stochastic Depth,94.0,0.8717948717948718,,[],1603.09382v3
+Image Classification,CIFAR-10,VGG-19 with GradInit,94.0,0.8717948717948718,20.03M,[],2102.08098v3
+Image Classification,CIFAR-10,ResNet20 with reSGHMC,94.0,0.8717948717948718,,['ResNet'],2008.05367v3
+Image Classification,CIFAR-10,"PDO-eConv (p6m,0.37M)",94.0,0.8717948717948718,,[],2007.10408v2
+Image Classification,CIFAR-10,Evolution,94.0,0.8717948717948718,,[],1703.01041v2
+Image Classification,CIFAR-10,RL+NT,94.0,0.8717948717948718,,[],1707.04873v2
+Image Classification,CIFAR-10,Convolutional Performer for Vision (CPV),94.0,0.8717948717948718,1.3M,['Xformer'],2201.10271v1
+Image Classification,CIFAR-10,ResNet+ELU,94.0,0.8717948717948718,,['ResNet'],1604.04112v4
+Image Classification,CIFAR-10,Deep Complex,94.0,0.8717948717948718,,[],1705.09792v4
+Image Classification,CIFAR-10,"PDO-eConv (p6,0.36M)",94.0,0.8717948717948718,,[],2007.10408v2
+Image Classification,CIFAR-10,Stochastic Optimization of Plain Convolutional Neural Networks with Simple methods,94.0,0.8717948717948718,4.3M,[],2001.08856v1
+Image Classification,CIFAR-10,Fitnet4-LSUV,94.0,0.8717948717948718,,[],1511.06422v7
+Image Classification,CIFAR-10,ResNet 9 + Mish,94.0,0.8717948717948718,,['ResNet'],1908.08681v3
+Image Classification,CIFAR-10,Tree+Max-Avg pooling,94.0,0.8717948717948718,,[],1509.08985v2
+Image Classification,CIFAR-10,Standard ACNet,94.0,0.8717948717948718,,[],1904.03579v1
+Image Classification,CIFAR-10,SA quadratic embedding,93.0,0.8461538461538461,,[],1911.03584v2
+Image Classification,CIFAR-10,OTTT,93.0,0.8461538461538461,,['SNN'],2210.04195v2
+Image Classification,CIFAR-10,SSCNN,93.0,0.8461538461538461,,[],1409.6070v1
+Image Classification,CIFAR-10,NNCLR,93.0,0.8461538461538461,,[],2104.14548v2
+Image Classification,CIFAR-10,Tuned CNN,93.0,0.8461538461538461,,[],1502.05700v2
+Image Classification,CIFAR-10,Exponential Linear Units,93.0,0.8461538461538461,,[],1511.07289v5
+Image Classification,CIFAR-10,BNM NiN,93.0,0.8461538461538461,,[],1511.02583v1
+Image Classification,CIFAR-10,Universum Prescription,93.0,0.8461538461538461,,[],1511.03719v7
+Image Classification,CIFAR-10,CMsC,93.0,0.8461538461538461,,[],1511.05635v1
+Image Classification,CIFAR-10,NiN+APL,92.0,0.8205128205128205,,[],1412.6830v3
+Image Classification,CIFAR-10,VDN,92.0,0.8205128205128205,,[],1507.06228v2
+Image Classification,CIFAR-10,ResNet,92.0,0.8205128205128205,,[],2105.04319v3
+Image Classification,CIFAR-10,SWWAE,92.0,0.8205128205128205,,[],1506.02351v8
+Image Classification,CIFAR-10,FlexTCN-7,92.0,0.8205128205128205,0.67M,[],2110.08059v3
+Image Classification,CIFAR-10,ReActNet-18,92.0,0.8205128205128205,,[],2104.08215v1
+Image Classification,CIFAR-10,ResNet v2-20 (Mish activation),92.0,0.8205128205128205,,['ResNet'],1908.08681v3
+Image Classification,CIFAR-10,DSN,91.0,0.7948717948717948,,[],1409.5185v2
+Image Classification,CIFAR-10,BinaryConnect,91.0,0.7948717948717948,,[],1511.00363v3
+Image Classification,CIFAR-10,CLS-GAN,91.0,0.7948717948717948,,[],1701.06264v6
+Image Classification,CIFAR-10,MIM,91.0,0.7948717948717948,,[],1508.00330v2
+Image Classification,CIFAR-10,Spectral Representations for Convolutional Neural Networks,91.0,0.7948717948717948,,[],1506.03767v1
+Image Classification,CIFAR-10,"DLME (ResNet-18, linear)",91.0,0.7948717948717948,,[],2207.03160v2
+Image Classification,CIFAR-10,RMDL (30 RDLs),91.0,0.7948717948717948,,[],1805.01890v2
+Image Classification,CIFAR-10,Network in Network,91.0,0.7948717948717948,,[],1312.4400v3
+Image Classification,CIFAR-10,Deep Networks with Internal Selective Attention through Feedback Connections,90.0,0.7692307692307693,,[],1407.3068v2
+Image Classification,CIFAR-10,Maxout Network (k=2),90.0,0.7692307692307693,,[],1302.4389v4
+Image Classification,CIFAR-10,ResNet-18,90.0,0.7692307692307693,,[],1911.05329v1
+Image Classification,CIFAR-10,DNN+Probabilistic Maxout,90.0,0.7692307692307693,,[],1312.6116v2
+Image Classification,CIFAR-10,GP EI,90.0,0.7692307692307693,,[],1206.2944v2
+Image Classification,CIFAR-10,SEER (RegNet10B),90.0,0.7692307692307693,,[],2202.08360v2
+Image Classification,CIFAR-10,APAC,89.0,0.7435897435897436,,[],1505.03229v1
+Image Classification,CIFAR-10,ensemble of 7 models,89.0,0.7435897435897436,,[],1710.09829v2
+Image Classification,CIFAR-10,DCNN+GFE,89.0,0.7435897435897436,,['DCN'],1710.02286v1
+Image Classification,CIFAR-10,MCDNN,88.0,0.717948717948718,,[],1202.2745v1
+Image Classification,CIFAR-10,RReLU,88.0,0.717948717948718,,[],1505.00853v2
+Image Classification,CIFAR-10,Diffusion Classifier (zero-shot),88.0,0.717948717948718,,[],2303.16203v3
+Image Classification,CIFAR-10,ReNet,87.0,0.6923076923076923,,[],1505.00393v3
+Image Classification,CIFAR-10,An Analysis of Unsupervised Pre-training in Light of Recent Advances,86.0,0.6666666666666666,,[],1412.6597v4
+Image Classification,CIFAR-10,cvpr_class,85.0,0.6410256410256411,,[],2110.00476v1
+Image Classification,CIFAR-10,Stochastic Pooling,84.0,0.6153846153846154,,[],1301.3557v1
+Image Classification,CIFAR-10,Improving neural networks by preventing co-adaptation of feature detectors,84.0,0.6153846153846154,,[],1207.0580v1
+Image Classification,CIFAR-10,CCN,83.0,0.5897435897435898,0.906075M,['Xformer'],2107.02239v4
+Image Classification,CIFAR-10,CvN,83.0,0.5897435897435898,,[],2107.02239v4
+Image Classification,CIFAR-10,CvP,83.0,0.5897435897435898,,[],2107.02239v4
+Image Classification,CIFAR-10,UL-Hopfield (ULH),83.0,0.5897435897435898,,[],1805.01033v1
+Image Classification,CIFAR-10,DCGAN,82.0,0.5641025641025641,,[],1511.06434v2
+Image Classification,CIFAR-10,CKN,82.0,0.5641025641025641,,[],1406.3332v2
+Image Classification,CIFAR-10,Sign-symmetry,80.0,0.5128205128205128,,[],1510.05067v4
+Image Classification,CIFAR-10,pFedBreD_ns_mg,80.0,0.5128205128205128,,[],2211.10684v2
+Image Classification,CIFAR-10,1 Layer K-means,80.0,0.5128205128205128,,[],1511.06434v2
+Image Classification,CIFAR-10,LeViP,79.0,0.48717948717948717,,[],2107.02239v4
+Image Classification,CIFAR-10,PCANet,78.0,0.46153846153846156,,[],1404.3606v2
+Image Classification,CIFAR-10,Hybrid ViT+RoPE,76.0,0.41025641025641024,,[],2107.02239v4
+Image Classification,CIFAR-10,FLSCNN,75.0,0.38461538461538464,,[],1503.04596v3
+Image Classification,CIFAR-10,Hybrid Vision Nystromformer (ViN),75.0,0.38461538461538464,0.623706M,['Xformer'],2107.02239v4
+Image Classification,CIFAR-10,Hybrid PiN,74.0,0.358974358974359,0.990298M,['Xformer'],2107.02239v4
+Image Classification,CIFAR-10,SmoothNetV1,73.0,0.3333333333333333,,[],2205.04095v1
+Image Classification,CIFAR-10,Vision Nystromformer (ViN),65.0,0.1282051282051282,0.530970M,['Xformer'],2107.02239v4
+Image Classification,CIFAR-10,ANODE,60.0,0.0,,[],1904.01681v3

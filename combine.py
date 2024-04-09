@@ -1,22 +1,39 @@
 import pandas as pd
 
-df = pd.read_csv("mergedtable.csv",delimiter='|')
+"""
+df = pd.read_csv("datatables-processed/complete.csv", delimiter=",", index_col=False)
+df1 = pd.read_csv("datatables-processed/cifar10-generation-processed.csv",delimiter=",", index_col=False)
+df2 = pd.read_csv("datatables-processed/imagenet-256-generation-processed.csv", delimiter=",", index_col=False)
 
+frames = [df, df1, df2]
+result = pd.concat(frames, ignore_index=True)
+result.to_csv("complete.csv", index=False)
 
-##This file takes in 2 tables that has an ID column and combine them, as well as
-##make the tables cleaner looking and more consistent
-def tag_edit(x):
-    if pd.isna(x):
-        return 0
-    return x
+#cols = ['Task', 'Dataset', 'name', 'accuracy', 'accuracy_norm', 'params', 'tags', 'id']
+#df = df[cols]
 
-def replace_val(x):
-    if pd.isna(x):
-        return 0
-    return x
+def process(df, dataset, task):
+    df["Dataset"] = dataset
+    df["Task"] = task
 
-## generate a map of values of features existing within which samples
-sample = df.tags.str.get_dummies(sep=', ')
+    df.loc[df["tags"] == "[']']", "tags"] = "[]"
+    df.loc[df["tags"] == "[']}]</script']", "tags"] = "[]"
+    df = df[df['accuracy'].notna()]
+    df = df[df['id'].notna()]
 
-sample = sample.drop('\'\'', axis=1)
-sample.to_csv("tag_dummies.csv", index=False, encoding='utf-8')
+    df["accuracy"] = df["accuracy"].str[:-1]
+    df["accuracy"] = df["accuracy"].astype(float)
+    df["accuracy_norm"] = (df["accuracy"] - df["accuracy"].min()) / (df["accuracy"].max() - df["accuracy"].min())
+
+    cols = ['Task', 'Dataset', 'name', 'accuracy', 'accuracy_norm', 'params', 'tags', 'id']
+    df = df[cols]
+    return df
+
+#cur = process(df, "ImageNet 256x256", "Image Generation")
+#cur.to_csv("imagenet-256-generation-processed.csv", index=False)
+"""
+df = pd.read_csv("complete.csv", index_col= False)
+
+idx = df.groupby(['Dataset', 'Task'])['accuracy'].idxmax()
+max_scores = df.loc[idx]
+max_scores.to_csv("normalized-task-data.csv", index=False)

@@ -1,0 +1,207 @@
+name|accuracy|params|tags|id
+Co-DETR|65.9|null|['Large']|2211.12860v5
+M3I Pre-training (InternImage-H)|65.0|null|[']']|2211.09807v2
+InternImage-H|65.0|null|[']']|2211.05778v4
+Co-DETR (Swin-L)|64.7|null|[']']|2211.12860v5
+Focal-Stable-DINO (without TTA)|64.6|null|[']']|2304.13027v1
+EVA|64.5|null|['ViT-Giant', 'ViT']|2211.07636v2
+ViT-CoMer|64.3|null|['ViT-L']|2403.07392
+FocalNet-H (DINO)|64.2|null|['DINO', 'FocalNet']|2203.11926v3
+InternImage-XL|64.2|null|[']']|2211.05778v4
+RevCol-H(DINO)|63.8|null|[']']|null
+DINO(Swin-L)|63.2|null|[']']|null
+Grounding DINO|63.0|null|[']']|null
+SwinV2-G (HTC++)|62.5|null|[']']|null
+Florence-CoSwin-H|62|null|[']']|null
+GLEE-Pro|62.0|null|[']']|null
+ViTDet, ViT-H Cascade (multiscale)|61.3|null|['ViT']|null
+GLIP (Swin-L, multi-scale)|60.8|null|['multiscale', 'Vision Language', 'Dynamic Head', 'BERT-Base']|null
+Soft Teacher + Swin-L (HTC++, multi-scale)|60.7|null|['multiscale', 'Swin-Transformer']|null
+UNINEXT-H|60.6|null|[']']|null
+ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)|60.5|null|['ViT']|null
+ViTDet, ViT-H Cascade|60.4|null|['ViT']|null
+GLEE-Plus|60.4|null|[']']|null
+DyHead (Swin-L, multi scale, self-training)|60.3|null|['Swin-Transformer', 'multiscale']|null
+ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)|60.2|null|['ViT']|null
+Soft Teacher+Swin-L(HTC++, single scale)|60.1|null|['swin-transformer', 'single scale']|null
+CBNetV2 (Dual-Swin-L HTC, multi-scale)|59.6|null|[']']|null
+Frozen Backbone, SwinV2-G-ext22K (HTC)|59.3|null|[']']|null
+HorNet-L|59.2|null|[']']|null
+MOAT-3 (IN-22K pretraining, single-scale)|59.2|null|[']']|null
+CBNetV2 (Dual-Swin-L HTC, single-scale)|59.1|null|[']']|null
+Focal-L (DyHead, multi-scale)|58.7|null|['Focal-Transformer', 'multiscale']|null
+MViTv2-L (Cascade Mask R-CNN, multi-scale, IN21k pre-train)|58.7|null|[']']|null
+MOAT-2 (IN-22K pretraining, single-scale)|58.5|null|[']']|null
+DyHead (Swin-L, multi scale)|58.4|null|['Swin-Transformer', 'multiscale']|null
+Swin-L (HTC++, multi scale)|58|null|['Swin-Transformer', 'multiscale']|null
+MOAT-1 (IN-1K pretraining, single-scale)|57.7|null|[']']|null
+UM-MAE(HTC++, Swin-L, IN1K)|57.4|null|['Self-Supervised Learning', 'Swin-Transformer', 'single scale']|null
+YOLOv6-L6(46 fps, 1280, V100)|57.2|null|['YOLO']|null
+Swin-L (HTC++, single scale)|57.1|null|[']']|null
+TransNeXt-Base (IN-1K pretrain, DINO 1x)|57.1|null|[']']|null
+Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)|57.0|null|['EfficientNet', 'single scale', 'NAS-FPN']|null
+TransNeXt-Small (IN-1K pretrain, DINO 1x)|56.6|null|[']']|null
+QueryInst (single scale)|56.1|null|['single scale']|null
+MViTv2-H (Cascade Mask R-CNN, single-scale, IN21k pre-train)|56.1|null|[']']|null
+MOAT-0 (IN-1K pretraining, single-scale)|55.9|null|[']']|null
+TransNeXt-Tiny (IN-1K pretrain, DINO 1x)|55.7|null|[']']|null
+YOLOv4-P7 CSP-P7 (single-scale, 16 fps)|55.4|null|[']']|null
+tiny-MOAT-3 (IN-1K pretraining, single-scale)|55.2|null|[']']|null
+FAN-L-Hybrid|55.1|null|[']']|null
+Hiera-L|55|null|[']']|null
+GLEE-Lite|55.0|null|[']']|null
+TEC(VIT-B, Mask-RCNN)|54.6|null|['Self-Supervised Learning', 'Transformer']|null
+Cascade Eff-B7 NAS-FPN (1280)|54.5|null|[']']|null
+CAE (ViT-L, Mask R-CNN, 1x schedule)|54.5|null|['1x schedule']|null
+MViTv2-L (Cascade Mask R-CNN, single-scale)|54.3|null|[']']|null
+SpineNet-190 (1280, with Self-training on OpenImages, single-scale)|54.2|null|['single scale']|null
+Cascade RCNN-RS (SpineNet-143L, single scale)|53.6|null|[']']|null
+UniverseNet-20.08d (Res2Net-101, DCN, multi-scale)|53.5|null|['DCN', 'multiscale']|null
+MAE (ViT-L, Mask R-CNN)|53.3|null|[']']|null
+Cascade RCNN-RS (ResNet-200, single scale)|53.1|null|[']']|null
+tiny-MOAT-2 (IN-1K pretraining, single-scale)|53.0|null|[']']|null
+MViT-L (Mask R-CNN, single-scale, IN21k pre-train)|52.7|null|['MViT']|null
+ResNeSt-200 (multi-scale)|52.47|null|['multiscale']|null
+ActiveMLP-B (Cascade Mask R-CNN)|52.3|null|[']']|null
+RetinaNet (SpineNet-190, 1536x1536)|52.2|null|[']']|null
+EfficientDet-D7 (1536)|52.1|null|[']']|null
+tiny-MOAT-1 (IN-1K pretraining, single-scale)|51.9|null|[']']|null
+GCNet (ResNeXt-101 + DCN + cascade + GC r4)|51.8|null|['GCN', 'DCN', 'ResNeXt']|null
+ELSA-S (Cascade Mask RCNN)|51.6|null|[']']|null
+FocalNet-T (LRF, Cascade Mask R-CNN)|51.5|null|[']']|null
+ResNeSt-200-DCN (single-scale)|50.91|null|['DCN', 'single scale']|null
+UniverseNet-20.08d (Res2Net-101, DCN, single-scale)|50.9|null|['DCN', 'single scale']|null
+ResNeSt-200 (single-scale)|50.54|null|['single scale']|null
+tiny-MOAT-0 (IN-1K pretraining, single-scale)|50.5|null|[']']|null
+MAE (ViT-B, Mask R-CNN)|50.3|null|[']']|null
+Sparse R-CNN (PVTv2-B2)|50.1|null|[']']|null
+Pix2seq (ViT-L)|50.0|null|[']']|null
+BoTNet 200 (Mask R-CNN, single scale, 72 epochs)|49.7|null|['Transformer', 'single scale']|null
+BoTNet 152 (Mask R-CNN, single scale, 72 epochs)|49.5|null|['Transformer', 'single scale']|null
+REGO-Deformable DETR-X101|49.1|null|[']']|null
+CenterMask+VoVNet99 (multi-scale)|48.6|null|['multiscale']|null
+Mask R-CNN (ResNeXt-152-FPN, cascade)|48.6|null|['FPN', 'ResNeXt']|null
+UniverseNet-20.08 (Res2Net-50, DCN, single-scale)|48.5|null|['DCN', 'single scale']|null
+XCiT-M24/8|48.5|null|[']']|null
+ELSA-S (Mask RCNN)|48.3|null|[']']|null
+XCiT-S24/8|48.1|null|[']']|null
+GCNet (ResNeXt-101 + DCN + cascade + GC r16)|47.9|null|['GCN', 'DCN', 'ResNeXt']|null
+MAE-Det(MAE-Det-L+GFLV2)|47.8|null|[']']|null
+Res2Net101+HTC|47.5|null|[']']|null
+Mask R-CNN (ResNet-101-FPN, GN, Cascade)|47.4|null|['FPN', 'ResNet']|null
+Pix2seq (R50-C4)|47.3|null|[']']|null
+Pix2seq (ViT-B)|47.1|null|[']']|null
+HTC (HRNetV2p-W48)|47.0|null|[']']|null
+PatchConvNet-S120 (Mask R-CNN)|47.0|null|[']']|null
+RPDet (ResNeXt-101-DCN, multi-scale)|46.8|null|['DCN', 'multiscale', 'ResNeXt']|null
+DyHead (ResNet-101)|46.5|null|[']']|null
+Mask R-CNN (ResNeXt-152-FPN)|46.4|null|['FPN', 'ResNeXt']|null
+RPDet (ResNet-101-DCN, multi-scale)|46.4|null|['DCN', 'multiscale', 'ResNet']|null
+PatchConvNet-S60 (Mask R-CNN)|46.4|null|[']']|null
+Cascade Mask R-CNN (ResNet-50)|46.3|null|[']']|null
+HoughNet (HG-104, MS)|46.1|null|[']']|null
+Mask R-CNN (HRNetV2p-W48, cascade)|46.0|null|[']']|null
+BoTNet 50 (72 epochs)|45.9|null|['Transformer']|null
+Sparse R-CNN (ResNet-101, learnable proposals, random crop aug, FPN)|45.6|null|['FPN', 'ResNet']|null
+CenterMask+VoVNetV2-99 (single-scale)|45.6|null|['single scale']|null
+HTC (HRNetV2p-W32)|45.3|null|[']']|null
+Mask R-CNN (ResNeXt-152 + 1 NL)|45.0|null|['ResNeXt']|null
+Pix2seq (R101-DC5)|45.0|null|['ResNet-101']|null
+Mask R-CNN-FPN (AOGNet-40M)|44.9|null|['FPN']|null
+DETR-DC5 (ResNet-101)|44.9|null|['ResNet']|null
+Mask R-CNN (VoVNetV2-99, single-scale)|44.9|null|['single scale']|null
+R3-CNN (ResNet-50-FPN, DCN)|44.8|null|['DCN', 'FPN', 'ResNet']|null
+RPDet (ResNet-101-DCN, multi-scale train)|44.8|null|['DCN', 'multiscale', 'ResNet']|null
+RetinaNet (ViL-Base, multi-scale, 3x)|44.7|null|['Transformer', 'multiscale']|null
+Cascade R-CNN (HRNetV2p-W48)|44.6|null|[']']|null
+CenterMask+VoVNetV2-57 (single-scale)|44.6|null|['single scale']|null
+Sparse R-CNN (ResNet-50, learnable proposals, random crop aug, FPN)|44.5|null|['FPN', 'ResNet']|null
+GFL (ResNet-50)|44.5|null|[']']|null
+RPDet (ResNeXt-101-DCN)|44.5|null|['DCN', 'ResNeXt']|null
+CenterMask+X101-32x8d (single-scale)|44.4|null|['single scale']|null
+RetinaNet (ViL-Base)|44.3|null|['Transformer']|null
+R3-CNN (ResNet-50-FPN, GC-Net)|44.3|null|[']']|null
+Faster RCNN-R101-FPN+|44|null|['FPN']|null
+Cascade R-CNN (HRNetV2p-W32)|43.7|null|[']']|null
+Sparse R-CNN (ResNet-101, FPN)|43.5|null|['FPN', 'ResNet']|null
+ATSS (ResNet-50)|43.5|null|[']']|null
+PVT-Large (RetinaNet 3x,MS)|43.4|null|[']']|null
+ExtremeNet (Hourglass-104, multi-scale)|43.3|null|['multiscale']|null
+Pix2seq (R50-DC5 )|43.2|null|['ResNet-50']|null
+HTC (cascade)|43.2|null|[']']|null
+Mask R-CNN-FPN (ResNeXt-101, GN+WS)|43.12|null|['FPN', 'ResNeXt']|null
+HTC (HRNetV2p-W18)|43.1|null|[']']|null
+Mask R-CNN (ResNet-101, DCNv2)|43.1|null|['DCN', 'ResNet']|null
+HoughNet (HG-104)|43.0|null|[']']|null
+Faster R-CNN (FPN, X-volution)|42.8|null|['FPN']|null
+Cascade R-CNN (ResNet-101-FPN+, cascade)|42.7|null|['FPN', 'ResNet']|null
+PVT-Large (RetinaNet 1x)|42.6|null|[']']|null
+CornerNet-Saccade (Hourglass-54)|42.6|null|[']']|null
+Pix2seq (R50)|42.6|null|[']']|null
+Mask R-CNN (ResNet-101-FPN, GroupNorm, long)|42.3|null|['FPN', 'ResNet']|null
+Sparse R-CNN (ResNet-50, FPN)|42.3|null|['FPN', 'ResNet']|null
+Mask R-CNN (HRNetV2p-W32)|42.3|null|[']']|null
+DETR-ResNet50 with iRPE-K (300 epochs)|42.3|null|[']']|null
+TridentNet (ResNet-101)|42|null|['ResNet']|null
+R3-CNN (ResNet-50-FPN)|42|null|['FPN', 'ResNet']|null
+Faster R-CNN (HRNetV2p-W48)|41.8|null|[']']|null
+Faster R-CNN (LIP-ResNet-101)|41.7|null|[']']|null
+Faster R-CNN (ResNet-101, DCNv2)|41.7|null|['DCN', 'ResNet']|null
+FSAF (ResNeXt-101, anchor-based branches)|41.6|null|['ResNeXt']|null
+CornerNet-Saccade (Hourglass-104)|41.4|null|[']']|null
+Grid R-CNN (ResNet-101-FPN)|41.3|null|['FPN', 'ResNet']|null
+Cascade R-CNN (HRNetV2p-W18)|41.3|null|[']']|null
+CenterNet511 (Hourglass-52)|41.3|null|[']']|null
+RetinaMask (ResNet-101-FPN)|41.1|null|['FPN', 'ResNet']|null
+PoolFormer-S36 (Mask R-CNN)|41.0|null|[']']|null
+Faster R-CNN (HRNetV2p-W32)|40.9|null|[']']|null
+VirTex Mask R-CNN (ResNet-50-FPN)|40.9|null|['FPN', 'ResNet']|null
+Mask R-CNN (ResNet-101 + 1 NL)|40.8|null|['ResNet']|null
+Mask R-CNN (ResNet-50-FPN, GroupNorm, long)|40.8|null|['FPN', 'ResNet']|null
+RPDet (ResNet-50, multi-scale train)|40.8|null|['multiscale', 'ResNet']|null
+DETR-ResNet50 with iRPE-K (150 epochs)|40.8|null|[']']|null
+Faster R-CNN+aLRP Loss (ResNet-50, 500 scale)|40.7|null|['ResNet']|null
+PPDet (ResNet-101-FPN)|40.5|null|['FPN', 'ResNet']|null
+GCnet (ResNet-50-FPN, GRoIE)|40.3|null|['FPN', 'ResNet']|null
+Mask R-CNN (ResNet-50-FPN, GroupNorm)|40.3|null|['FPN', 'ResNet']|null
+Cascade R-CNN (ResNet-50-FPN+)|40.3|null|['FPN', 'ResNet']|null
+ExtremeNet (Hourglass-104, single-scale)|40.3|null|['single scale']|null
+RPDet (ResNet-101)|40.3|null|['ResNet']|null
+RetinaNet+aLRP Loss (ResNet-50, 500 scale)|40.2|null|['ResNet']|null
+Mask R-CNN (ResNet-101-FPN)|40.0|null|['FPN', 'ResNet']|null
+FPN+|39.8|null|['FPN']|null
+FoveaBox+aLRP Loss (ResNet-50, 500 scale)|39.7|null|['ResNet']|null
+Grid R-CNN (ResNet-50-FPN)|39.6|null|['FPN', 'ResNet']|null
+Mask R-CNN (ResNet-50, ACNet)|39.5|null|['ResNet']|null
+FSAF (ResNet-101, anchor-based branches)|39.3|null|['ResNet']|null
+Mask R-CNN (HRNetV2p-W18)|39.2|null|[']']|null
+Mask R-CNN (ResNet-50 + 1 NL)|39.0|null|['ResNet']|null
+FoveaBox (ResNet-101-FPN, 800x800)|38.9|null|['FPN', 'ResNet']|null
+FCOS (ResNet-50-FPN + improvements)|38.6 |null|['FPN', 'ResNet']|null
+RPDet (ResNet-50)|38.6|null|['ResNet']|null
+Libra R-CNN (ResNet-50 FPN)|38.5|null|['FPN', 'ResNet']|null
+Mask R-CNN (ResNet-50-FPN, GRoIE)|38.4|null|['FPN', 'ResNet']|null
+CornerNet511 (Hourglass-104)|38.4|null|[']']|null
+FoveaBox+Retina (ResNet-50)|38.1|null|['ResNet']|null
+Faster R-CNN (HRNetV2p-W18)|38.0|null|[']']|null
+FoveaBox (ResNet-101-FPN, 600x600)|38|null|['FPN', 'ResNet']|null
+FSAF (ResNet-101)|37.9|null|['ResNet']|null
+Mask R-CNN (ResNet-50-FPN)|37.7|null|['FPN', 'ResNet']|null
+Faster R-CNN (ResNet-50-FPN, GRoIE)|37.5|null|['FPN', 'ResNet']|null
+Mask R-CNN (ResNeXt-101-FPN)|36.7|null|['FPN', 'ResNeXt']|null
+FoveaBox (ResNet-50-FPN, 600x600)|36.0|null|['FPN', 'ResNet']|null
+FSAF (ResNet-50)|35.9|null|['ResNet']|null
+GHM-C + GHM-R (RetinaNet-FPN-ResNet-50, M=30)|35.8|null|['FPN']|null
+Online Fg Bal. Sampling+Hard Negative Mining (ResNet-50)|35.6|null|['ResNet']|null
+M2Det (ResNet-1o1, 320x320)|34.1|null|['ResNet']|null
+Faster R-CNN (Res2Net-50)|33.7|null|[']']|null
+M2Det (VGG-16, 320x320)|33.2|null|[']']|null
+SOLQ (Swin-L, single scale)|null|null|['single scale', 'Transformer']|null
+YOLOR-D6 (1280, single-scale, 31 fps)|null|null|[']']|null
+EfficientDet-D7x (single-scale)|null|null|['single scale']|null
+YOLOR-P6 (1280, single-scale, 72 fps)|null|null|[']']|null
+FocalNet-T (SRF, Cascade Mask R-CNN)|null|null|[']']|null
+R3-CNN (ResNet-50-FPN, GRoIE)|null|null|['FPN', 'ResNet']|null
+Mask R-CNN (HRNetV2p-W32, cascade)|null|null|[']']|null
+Shift-T|null|null|[']']|null
+DyHead (ResNeXt-64x4d-101-DCN, multi scale)|null|null|[']}]</script']|null

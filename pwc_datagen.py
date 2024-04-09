@@ -10,7 +10,9 @@ def sota_dt_prep(slug):
     url = link_body + slug
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'html5lib')
+    f = open("./text/paperswithcode.txt", "w", encoding="utf-8")
 
+    f.write(soup.prettify())
     body = soup.find("body")
     body = body.find(attrs={'class': 'container content content-buffer'})
     cur = body.find("script", id="evaluation-chart-data")
@@ -82,6 +84,11 @@ def accuracy_scrape(datatable):
 def eval_scrape(datatable):
     eval = datatable[(datatable.find("{")) + 1:]
     sample = eval.split("{\"table_id\"")
+    f = open("./text/sample.txt", "w", encoding="utf-8")
+
+    for i in sample:
+        f.write(i)
+        f.write("\n")
     rows = []
     for s in tqdm(sample):
         s = s.split("\"tags\"")
@@ -106,14 +113,17 @@ def sota_pipeline(slug):
     a_fields = ["name", "year", "accuracy", "paper", "id"]
     e_row = eval_scrape(table2)
     a_row = accuracy_scrape(table1)
-    with open("table1.csv", 'w') as csvfile:
+    with open("chexperttable1.csv", 'w') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter='|')
         csvwriter.writerow(e_fields)
         csvwriter.writerows(e_row)
         csvfile.close()
 
-    with open("table2.csv", 'w') as csvfile:
+    with open("chexperttable2.csv", 'w') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter='|')
         csvwriter.writerow(a_fields)
         csvwriter.writerows(a_row)
         csvfile.close()
+
+slug = "/image-classification-on-stl-10"
+sota_pipeline(slug)

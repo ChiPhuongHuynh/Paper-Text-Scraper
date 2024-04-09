@@ -1,0 +1,41 @@
+name|accuracy|params|tags|id
+MDTv2|1.58}|null|['VAE', 'Diffusion', 'Mask Prediction']|2303.14389v2
+DiT-XL/2 with CADS|1.70}|null|[']']|2310.17347v2
+DiffiT|1.73}|null|['Vision Transformer', 'Diffusion']|2312.02139v2
+MAGVIT-v2|1.78}|null|['VAE/VQ-VAE', 'Mask Prediction', 'BERT']|2310.05737v3
+MDT|1.79}|null|['VAE', 'Mask Prediction', 'Diffusion']|2303.14389v2
+VAR (Visual Autoregressive)|1.80}|null|['VAE/VQ-VAE', 'Autoregressive']|2404.02905v1
+Discriminator Guidance|1.83}|null|['Diffusion']|2211.17091v4
+RDM|1.99}|null|[']']|2309.03350v1
+StyleSAN-XL|2.14}|null|['GAN']|2301.12811v3
+DiT-XL/2|2.27}|null|['Diffusion']|2212.09748v2
+StyleGAN-XL|2.30}|null|['GAN']|2202.00273v2
+Patch Diffusion|2.74}|null|[']']|null
+Poly-INR|2.86}|null|['GAN']|2303.11424v1
+ADM-G++ (FID)|3.18}|null|['Diffusion']|2211.17091v4
+Contextual RQ-Transformer|3.41}|null|['BERT', 'VAE/VQ-VAE', 'Mask Prediction']|2206.04452v1
+GigaGAN|3.45}|null|['GAN']|2303.05511v2
+RCG-L (w/o guidance)|3.49}|null|['VAE/VQ-VAE', 'Mask Prediction', 'BERT']|2312.03701v3
+BIGRoC-gt (Guided-Diffusion)|3.63}|null|['Diffusion']|2108.03702v4
+MAGVIT-v2 (w/o guidance)|3.65}|null|['VAE/VQ-VAE', 'Mask Prediction', 'BERT']|2310.05737v3
+BIGRoC-pl (Guided-Diffusion)|3.69}|null|['Diffusion']|2108.03702v4
+simple diffusion (U-Net)|3.71}|null|['Diffusion']|2301.11093v2
+simple diffusion (U-ViT, L)|3.75}|null|['Diffusion']|2301.11093v2
+RQ-Transformer|3.83}|null|['VAE/VQ-VAE', 'Autoregressive']|2203.01941v2
+ADM-G, ADM-U|3.94}|null|['Diffusion']|2105.05233v4
+ADM-G + EDS (ED-DPM, classifier_scale=0.75)|3.96}|null|['Diffusion']|2206.11474v5
+MaskGIT (a=0.05)|4.02}|null|['VAE/VQ-VAE', 'BERT', 'Mask Prediction']|2202.04200v1
+ADM-G + EDS + ECT (ED-DPM, classifier_scale=1.0)|4.09}|null|['Diffusion']|2206.11474v5
+LDM|4.29}|null|['Diffusion']|null
+ADM-G++ (Recall)|4.45}|null|['Diffusion']|2211.17091v4
+LFM|4.46}|null|[']']|2307.08698v1
+RIN|4.51}|null|[']']|2212.11972v2
+ADM-G|4.59}|null|['Diffusion']|2105.05233v4
+CDM|4.88}|null|['Diffusion']|2106.15282v3
+VQGAN+Transformer (k=600, p=1.0, a=0.05)|5.2}|null|['VAE/VQ-VAE', 'Autoregressive']|2012.09841v3
+MaskGIT|6.18}|null|['BERT', 'Mask Prediction', 'VAE/VQ-VAE']|2202.04200v1
+VQGAN+Transformer (k=mixed, p=1.0, a=0.005)|6.59}|null|['VAE/VQ-VAE', 'Autoregressive']|2012.09841v3
+Polarity-BigGAN|6.82}|null|['GAN']|2203.01993v2
+BigGAN-deep|8.1}|null|['GAN']|1809.11096v2
+ADM|11.84}|null|['Diffusion']|null
+Improved DDPM|12.3}|null|['Diffusion']|2102.09672v1

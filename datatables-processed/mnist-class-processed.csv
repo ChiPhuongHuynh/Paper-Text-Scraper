@@ -1,0 +1,53 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6
+Image Classification,MNIST,EnsNet (Ensemble learning in CNN augmented with fully connected subnetworks),99.84,0.9938398357289525,,[],2003.08562v3
+Image Classification,MNIST,Efficient-CapsNet,99.84,0.9938398357289525,,[],2101.12491v2
+Image Classification,MNIST,SOPCNN (Only a single Model),99.83,0.9917864476386025,,[],2001.08856v1
+Image Classification,MNIST,RMDL (30 RDLs),99.82,0.9897330595482523,,[],1805.01890v2
+Image Classification,MNIST,MCDNN,99.77,0.9794661190965075,,[],1202.2745v1
+Image Classification,MNIST,APAC,99.77,0.9794661190965075,,[],1505.03229v1
+Image Classification,MNIST,BNM NiN,99.76,0.9774127310061603,,[],1511.02583v1
+Image Classification,MNIST,SimpleNetv1,99.75,0.9753593429158102,,[],1608.06037v8
+Image Classification,MNIST,CapsNet,99.75,0.9753593429158102,,[],1710.09829v2
+Image Classification,MNIST,VGG8B + LocalLearning + CO,99.74,0.97330595482546,,[],1901.06656v2
+Image Classification,MNIST,VGG-5 (Spinal FC),99.72,0.9691991786447627,,[],2007.03347v3
+Image Classification,MNIST,TextCaps,99.71,0.9671457905544126,,[],1904.08095v1
+Image Classification,MNIST,ExquisiteNetV2,99.71,0.9671457905544126,,[],2105.09008v5
+Image Classification,MNIST,WaveMix-128/7,99.71,0.9671457905544126,,[],2203.03689v1
+Image Classification,MNIST,Fractional MP,99.7,0.9650924024640654,,[],1412.6071v4
+Image Classification,MNIST,Tree+Max-Avg pooling,99.7,0.9650924024640654,,[],1509.08985v2
+Image Classification,MNIST,CMsC,99.7,0.9650924024640654,,[],1511.05635v1
+Image Classification,MNIST,Second Order Neural Ordinary Differential Equation,99.63,0.9507186858316203,,[],2006.07220v2
+Image Classification,MNIST,Augmented Neural Ordinary Differential Equation,99.63,0.9507186858316203,,[],1904.01681v3
+Image Classification,MNIST,DSN,99.6,0.9445585215605729,,[],1409.5185v2
+Image Classification,MNIST,CKN,99.6,0.9445585215605729,,[],1406.3332v2
+Image Classification,MNIST,C-SVDDNet,99.6,0.9445585215605729,,[],1412.7259v3
+Image Classification,MNIST,HOPE,99.6,0.9445585215605729,,[],1502.00702v2
+Image Classification,MNIST,FLSCNN,99.6,0.9445585215605729,,[],1503.04596v3
+Image Classification,MNIST,MIM,99.6,0.9445585215605729,,[],1508.00330v2
+Image Classification,MNIST,Fitnet-LSUV-SVM,99.6,0.9445585215605729,,[],1511.06422v7
+Image Classification,MNIST,Maxout Networks,99.5,0.9240246406570833,,[],1302.4389v4
+Image Classification,MNIST,NiN,99.5,0.9240246406570833,,[],1312.4400v3
+Image Classification,MNIST,ReNet,99.5,0.9240246406570833,,[],1505.00393v3
+Image Classification,MNIST,DCNN+GFE,99.5,0.9240246406570833,,['DCN'],1710.02286v1
+Image Classification,MNIST,VDN,99.5,0.9240246406570833,,[],1507.06228v2
+Image Classification,MNIST,NeuPDE,99.49,0.9219712525667332,,[],1908.03190v1
+Image Classification,MNIST,Simple CNN with BaikalCMA loss,99.47,0.9178644763860359,,[],1905.11528v3
+Image Classification,MNIST,SEER (RegNet10B),99.42,0.907597535934291,,[],2202.08360v2
+Image Classification,MNIST,Convolutional Tsetlin Machine,99.4,0.9034907597535937,,[],1905.09688v5
+Image Classification,MNIST,PCANet,99.4,0.9034907597535937,,[],1404.3606v2
+Image Classification,MNIST,DiffPrune (LeNet5),99.4,0.9034907597535937,,[],2012.03653v2
+Image Classification,MNIST,Deep Fried Convnets,99.3,0.8829568788501012,,[],1412.7149v4
+Image Classification,MNIST,Sparse Activity and Sparse Connectivity in Supervised Learning,99.2,0.8624229979466117,,[],1603.08367v1
+Image Classification,MNIST,Explaining and Harnessing Adversarial Examples,99.2,0.8624229979466117,,[],1412.6572v3
+Image Classification,MNIST,BinaryConnect,99.0,0.8213552361396296,,[],1511.00363v3
+Image Classification,MNIST,LeNet 300-100 (Sparse Momentum),98.74,0.7679671457905527,,[],1907.04840v2
+Image Classification,MNIST,Convolutional Clustering,98.6,0.7392197125256655,,[],1511.06241v2
+Image Classification,MNIST,CNN Model by Som,98.59,0.7371663244353183,,[],1705.03122v3
+Image Classification,MNIST,Weighted Tsetlin Machine,98.5,0.7186858316221759,,[],1911.12607v4
+Image Classification,MNIST,Perceptron with a tensor train layer,98.2,0.6570841889117043,,[],1509.06569v2
+Image Classification,MNIST,ANODE,98.2,0.6570841889117043,,[],1904.01681v3
+Image Classification,MNIST,Tsetlin Machine,98.2,0.6570841889117043,,[],1804.01508v10
+Image Classification,MNIST,GECCO,98.04,0.6242299794661198,,[],2402.00564v1
+Image Classification,MNIST,Zhao et al. (2015) (auto-encoder),95.24,0.04928131416837673,,[],1506.02351v8
+Image Classification,MNIST,ProjectionNet,95.0,0.0,,[],1708.00630v2

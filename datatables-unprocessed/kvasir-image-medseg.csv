@@ -1,0 +1,47 @@
+name|accuracy|params|tags|id
+Meta-Polyp|0.959|null|[']']|2305.07848v3
+DUCK-Net|0.9502|null|[']']|2311.02239v1
+FCB Former|0.9445|null|[']']|2207.07842v1
+FCB-SwinV2 Transformer|0.9420|null|[']']|2302.01027v1
+SEP|0.9411|null|[']']|2211.08284v3
+FCBFormer|0.9385|null|[']']|2208.08352v1
+HarDNet-DFUS|0.9363|null|[']']|2209.07313v1
+SSFormer-L|0.9357|null|[']']|2203.03635v3
+ESFPNet-L|0.931|null|[']']|2207.07759v3
+UGCANet|0.928|null|[']']|2307.06260v1
+PVT-GCASCADE|0.9274|null|[']']|2310.16175v1
+ColonFormer|0.927|null|[']']|2205.08473v3
+RaBiT|0.927|null|[']']|2307.06420v1
+GMSRF-Net|0.9263|null|[']']|2111.10614v1
+PVT-CASCADE|0.9258|null|[']']|null
+DuAT|0.924|null|[']']|2212.11677v1
+MSRF-Net|0.9217|null|[']']|2105.07451v2
+CaraNet|0.918|null|[']']|2108.07368v3
+TransFuse-L|0.918|null|[']']|2102.08005v2
+TransFuse-S|0.918|null|[']']|2102.08005v2
+BDG-Net|0.915|null|[']']|2201.00767v2
+KDAS3|0.913|null|[']']|2312.08555v1
+HarDNet-MSEG|0.912|null|[']']|2101.07172v2
+UACANet-L|0.912|null|[']']|2107.02368v3
+ProMISe|0.911|null|[']']|2403.04164v2
+A-DenseUNet|0.9085|null|[']']|null
+UACANet-S|0.905|null|[']']|2107.02368v3
+COMMA (ResNet-50)|0.904|null|[']']|null
+Polyp-SAM++|0.902|null|[']']|2308.06623v1
+AG-CUResNeSt|0.902|null|[']']|2105.00402v3
+COMMA (Res2Net-50)|0.901|null|[']']|null
+TGA-Net|0.8982|null|[']']|2205.04280v1
+PraNet|0.898|null|[']']|2006.11392v4
+TransResU-Net|0.8884|null|[']']|2206.08985v1
+PEFNet|0.8818|null|[']']|2301.06673v2
+FANet|0.8803|null|[']']|2103.17235v3
+TransNetR|0.8706|null|[']']|2303.07428v1
+DDANet|0.8576|null|[']']|2012.15245v1
+DoubleUnet-DCA|0.8516|null|[']']|2303.17696v1
+ResUNet++ + TTA + CRF|0.8508|null|[']']|2107.12435v1
+U-Net++|0.8210|null|['UNet']|1807.10165v1
+ColonSegNet|0.8206|null|[']']|2011.07631v2
+U-Net|0.8180|null|['UNet']|1505.04597v1
+ResUNet++|0.8133|null|['UNet']|1911.07067v1
+ResUNet|0.7877|null|['UNet']|1911.07069v1
+RUPNet|0.7658|null|[']}]</script']|2301.02703v2

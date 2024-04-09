@@ -1,0 +1,38 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Generation,ImageNet 256x256,MDTv2,1.58,0.0,,"['VAE', 'Diffusion', 'Mask Prediction']",2303.14389v2
+Image Generation,ImageNet 256x256,DiT-XL/2 with CADS,1.7,0.011194029850746258,,[],2310.17347v2
+Image Generation,ImageNet 256x256,DiffiT,1.73,0.013992537313432826,,"['Vision Transformer', 'Diffusion']",2312.02139v2
+Image Generation,ImageNet 256x256,MAGVIT-v2,1.78,0.018656716417910443,,"['VAE/VQ-VAE', 'Mask Prediction', 'BERT']",2310.05737v3
+Image Generation,ImageNet 256x256,MDT,1.79,0.019589552238805964,,"['VAE', 'Mask Prediction', 'Diffusion']",2303.14389v2
+Image Generation,ImageNet 256x256,VAR (Visual Autoregressive),1.8,0.02052238805970149,,"['VAE/VQ-VAE', 'Autoregressive']",2404.02905v1
+Image Generation,ImageNet 256x256,Discriminator Guidance,1.83,0.023320895522388058,,['Diffusion'],2211.17091v4
+Image Generation,ImageNet 256x256,RDM,1.99,0.03824626865671641,,[],2309.03350v1
+Image Generation,ImageNet 256x256,StyleSAN-XL,2.14,0.05223880597014926,,['GAN'],2301.12811v3
+Image Generation,ImageNet 256x256,DiT-XL/2,2.27,0.06436567164179104,,['Diffusion'],2212.09748v2
+Image Generation,ImageNet 256x256,StyleGAN-XL,2.3,0.06716417910447758,,['GAN'],2202.00273v2
+Image Generation,ImageNet 256x256,Poly-INR,2.86,0.11940298507462684,,['GAN'],2303.11424v1
+Image Generation,ImageNet 256x256,ADM-G++ (FID),3.18,0.14925373134328357,,['Diffusion'],2211.17091v4
+Image Generation,ImageNet 256x256,Contextual RQ-Transformer,3.41,0.1707089552238806,,"['BERT', 'VAE/VQ-VAE', 'Mask Prediction']",2206.04452v1
+Image Generation,ImageNet 256x256,GigaGAN,3.45,0.17444029850746268,,['GAN'],2303.05511v2
+Image Generation,ImageNet 256x256,RCG-L (w/o guidance),3.49,0.17817164179104478,,"['VAE/VQ-VAE', 'Mask Prediction', 'BERT']",2312.03701v3
+Image Generation,ImageNet 256x256,BIGRoC-gt (Guided-Diffusion),3.63,0.19123134328358207,,['Diffusion'],2108.03702v4
+Image Generation,ImageNet 256x256,MAGVIT-v2 (w/o guidance),3.65,0.1930970149253731,,"['VAE/VQ-VAE', 'Mask Prediction', 'BERT']",2310.05737v3
+Image Generation,ImageNet 256x256,BIGRoC-pl (Guided-Diffusion),3.69,0.1968283582089552,,['Diffusion'],2108.03702v4
+Image Generation,ImageNet 256x256,simple diffusion (U-Net),3.71,0.19869402985074625,,['Diffusion'],2301.11093v2
+Image Generation,ImageNet 256x256,"simple diffusion (U-ViT, L)",3.75,0.20242537313432835,,['Diffusion'],2301.11093v2
+Image Generation,ImageNet 256x256,RQ-Transformer,3.83,0.20988805970149252,,"['VAE/VQ-VAE', 'Autoregressive']",2203.01941v2
+Image Generation,ImageNet 256x256,"ADM-G, ADM-U",3.94,0.22014925373134325,,['Diffusion'],2105.05233v4
+Image Generation,ImageNet 256x256,"ADM-G + EDS (ED-DPM, classifier_scale=0.75)",3.96,0.2220149253731343,,['Diffusion'],2206.11474v5
+Image Generation,ImageNet 256x256,MaskGIT (a=0.05),4.02,0.2276119402985074,,"['VAE/VQ-VAE', 'BERT', 'Mask Prediction']",2202.04200v1
+Image Generation,ImageNet 256x256,"ADM-G + EDS + ECT (ED-DPM, classifier_scale=1.0)",4.09,0.2341417910447761,,['Diffusion'],2206.11474v5
+Image Generation,ImageNet 256x256,ADM-G++ (Recall),4.45,0.2677238805970149,,['Diffusion'],2211.17091v4
+Image Generation,ImageNet 256x256,LFM,4.46,0.26865671641791045,,[],2307.08698v1
+Image Generation,ImageNet 256x256,RIN,4.51,0.27332089552238803,,[],2212.11972v2
+Image Generation,ImageNet 256x256,ADM-G,4.59,0.2807835820895522,,['Diffusion'],2105.05233v4
+Image Generation,ImageNet 256x256,CDM,4.88,0.30783582089552236,,['Diffusion'],2106.15282v3
+Image Generation,ImageNet 256x256,"VQGAN+Transformer (k=600, p=1.0, a=0.05)",5.2,0.3376865671641791,,"['VAE/VQ-VAE', 'Autoregressive']",2012.09841v3
+Image Generation,ImageNet 256x256,MaskGIT,6.18,0.42910447761194026,,"['BERT', 'Mask Prediction', 'VAE/VQ-VAE']",2202.04200v1
+Image Generation,ImageNet 256x256,"VQGAN+Transformer (k=mixed, p=1.0, a=0.005)",6.59,0.4673507462686567,,"['VAE/VQ-VAE', 'Autoregressive']",2012.09841v3
+Image Generation,ImageNet 256x256,Polarity-BigGAN,6.82,0.4888059701492537,,['GAN'],2203.01993v2
+Image Generation,ImageNet 256x256,BigGAN-deep,8.1,0.6082089552238805,,['GAN'],1809.11096v2
+Image Generation,ImageNet 256x256,Improved DDPM,12.3,1.0,,['Diffusion'],2102.09672v1

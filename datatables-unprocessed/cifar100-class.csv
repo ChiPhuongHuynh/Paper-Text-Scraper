@@ -1,0 +1,200 @@
+name|accuracy|params|tags|id
+EffNet-L2 (SAM)|96.08|null|[']']|2010.01412v3
+Swin-L + ML-Decoder|95.1|null|[']']|2111.12933v2
+\u00b52Net (ViT-L/16)|94.95|null|[']']|2205.12755v6
+ViT-B-16 (ImageNet-21K-P pretrain)|94.2|null|['Transformer']|2104.10972v4
+CvT-W24|94.09|null|['Transformer']|2103.15808v1
+ViT-B/16 (PUGD)|93.95%|null|[']']|2110.00199v2
+Heinsen Routing + BEiT-large 16 224|93.8%|309.8M|[']']|2211.11754v3
+BiT-L (ResNet)|93.51|null|['ResNet']|1912.11370v3
+Astroformer|93.36|null|[']']|2304.05350v2
+VIT-L/16|93.30|null|[']']|2305.03238v3
+CaiT-M-36 U 224|93.1|null|['Transformer']|2103.17239v2
+ViT-L (attn fine-tune)|93.0|null|[']']|2203.09795v1
+TResNet-L-V2|92.6|null|[']']|2003.13630v3
+EfficientNetV2-L|92.3|null|['EfficientNet']|2104.00298v3
+EfficientNetV2-M|92.2|null|['EfficientNet']|2104.00298v3
+BiT-M (ResNet)|92.17|null|['ResNet']|1912.11370v3
+CeiT-S|91.8|null|['Transformer']|2103.11816v2
+CeiT-S (384 finetune resolution)|91.8|null|['Transformer']|2103.11816v2
+EfficientNet-B7|91.7|64M|['EfficientNet']|1905.11946v5
+EfficientNetV2-S|91.5|null|['EfficientNet']|2104.00298v3
+GPIPE|91.3|null|[']']|1811.06965v5
+TNT-B|91.1|65.6M|['Transformer']|2103.00112v3
+DeiT-B|90.8|86M|['Transformer']|2012.12877v2
+GFNet-H-B|90.3|54M|[']']|2107.00645v2
+E2E-3M|90.27|null|[']']|2007.15161v3
+Bamboo (ViT-B/16)|90.2|null|[']']|2203.07845v2
+PyramidNet-272 (ASAM)|89.90|null|[']']|2102.11600v3
+PyramidNet (SAM)|89.7|null|[']']|2010.01412v3
+DVT (T2T-ViT-24)|89.63|null|['Transformer']|2105.15075v2
+ResMLP-24|89.5|null|[']']|2105.03404v2
+PyramidNet-272, S=4|89.46|32.8M|[']']|2011.14660v4
+CeiT-T|89.4|null|['Transformer']|2103.11816v2
+PyramidNet+ShakeDrop|89.3|null|[']']|1805.09501v3
+ViT-B/16- SAM|89.1|null|['Transformer']|2106.01548v3
+ConvMLP-M|89.1|null|[']']|2109.04454v2
+ConvMLP-L|88.6|null|[']']|2109.04454v2
+ResNet-152x4-AGC (ImageNet-21K)|88.54|null|[']']|2106.00116v4
+ColorNet|88.4|19.0M|[']']|1902.00267v1
+PyramidNet+ShakeDrop (Fast AA)|88.3|null|[']']|1905.00397v2
+NAT-M4|88.3|9.0M|[']']|2005.05859v2
+CeiT-T (384 finetune resolution)|88|null|['Transformer']|2103.11816v2
+NAT-M3|87.7|7.8M|[']']|2005.05859v2
+ViT-S/16- SAM|87.6|null|['Transformer']|2106.01548v3
+NAT-M2|87.5|6.4M|[']']|2005.05859v2
+Dynamics 1|87.48|null|[']']|2205.10456v3
+DenseNet-BC-190, S=4|87.44|26.3M|[']']|2011.14660v4
+ConvMLP-S|87.4|null|[']']|2109.04454v2
+ResMLP-12|87.0|null|[']']|2105.03404v2
+WRN-40-10, S=4|86.90|null|[']']|2011.14660v4
+ResNet50 (A1)|86.9|25M|[']']|2110.00476v1
+WRN-28-10 * 3|86.81|null|[']']|2103.06132v3
+PyramidNet + AA (AMP)|86.64|null|[']']|2010.04925v4
+PyramidNet-200 + Shakedrop + Cutmix + PS-KD|86.41|null|[']']|2006.12000v3
+Mixer-B/16- SAM|86.4|null|['Transformer']|2106.01548v3
+PyramidNet-200 + Shakedrop + Cutmix|86.19|null|[']']|1905.04899v2
+MUXNet-m|86.1|2.1M|[']']|2003.13880v2
+NAT-M1|86.0|3.8M|[']']|2005.05859v2
+WRN-28-10|85.77|null|[']']|2103.06132v3
+WRN-28-10, S=4|85.74|null|[']']|2011.14660v4
+PyramidNet|85.6|null|[']']|2205.09615v4
+WRN-28-8 (SAMix+DM)|85.59|null|[']']|null
+WRN-28-8 +SAMix|85.50|null|['ResNet']|2111.15454v3
+ASANas|85.42|null|[']']|1903.06236v1
+WRN-28-8 (AutoMix+DM)|85.38|null|[']']|null
+SparseSwin|85.35|17.58M|[']']|2309.05224v1
+WRN-28-8 (PuzzleMix+DM)|85.25|null|[']']|null
+ResNet-50-SAM|85.2|null|['ResNet']|2106.01548v3
+WRN-28-8 +AutoMix|85.16|null|['ResNet']|2103.13027v6
+WaveMixLite-256/7|85.09|null|[']']|2205.14375v5
+WRN 28-14|85.00|null|[']']|2007.12927v4
+R-Mix (WideResNet 28-10)|85|null|[']']|2212.04875v3
+EEEA-Net-C (b=5)+ CO|84.98|null|[']']|2108.06156v1
+RL-Mix (WideResNet 28-10)|84.9|null|[']']|2212.04875v3
+Wide-ResNet-28-10|84.89|null|[']']|2209.15031v2
+SENet + ShakeEven + Cutout|84.59|null|[']']|1709.01507v4
+ResNeXt-50(32x4d) + SAMix|84.42|null|['ResNet']|2111.15454v3
+WRN-28-10 with reSGHMC|84.38|null|[']']|2008.05367v3
+PyramidNet-272 + SWA|84.16|null|[']']|1803.05407v3
+WRN28-10|84.05|null|[']']|2009.06962v2
+HCGNet-A3|84.04|11.4M|[']']|1908.09699v3
+WideResNet 28-10 + CutMix (OneCycleLR scheduler)|83.97|null|[']']|2212.04875v3
+DenseNet-BC-190 + FMix|83.95|null|[']']|2002.12047v3
+ORN|83.85|null|[']']|1701.01833v2
+Grafit (ResNet-50)|83.7|null|['ResNet']|2011.12982v1
+ResNeXt-50(32x4d) + AutoMix|83.64|null|['ResNet']|2103.13027v6
+CCT-7/3x1+HTM+VTM|83.57|null|[']']|2210.07562v1
+HCGNet-A2|83.46|3.1M|[']']|1908.09699v3
+Res2NeXt-29|83.44|null|[']']|1904.01169v3
+DenseNet-BC-190 + Mixup|83.20|null|[']']|1710.09412v2
+SSAL-DenseNet 190-40|83.2|null|[']']|2101.03057v1
+EnAET|83.13|null|[']']|1911.09265v2
+WRN 28-10|83.06|null|[']']|2007.12927v4
+R-Mix (ResNeXt 29-4-24)|83.02|null|[']']|2212.04875v3
+Wide ResNet+Cutout+no BN scale/offset learning|82.95|null|['ResNet']|1907.06916v2
+WRN-16-8 with reSGHMC|82.95|null|[']']|2008.05367v3
+DenseNet-BC|82.82|null|[']']|1608.06993v5
+CCT-7/3x1*|82.72|null|['Transformer']|2104.05704v4
+SKNet-29 (ResNeXt-29, 16\u00d732d)|82.67|null|['ResNeXt']|1903.06586v2
+DenseNet|82.62|null|[']']|1608.06993v5
+Shared WRN|82.57|null|[']']|1902.09701v2
+Transformer local-attention (NesT-B)|82.56|null|['Transformer']|2105.12723v4
+RL-Mix (ResNeXt 29-4-24)|82.43|null|[']']|2212.04875v3
+Mixer-S/16- SAM|82.4|null|[']']|2106.01548v3
+R-Mix (WideResNet 16-8)|82.32|null|[']']|2212.04875v3
+ResNeXt 29-4-24 + CutMix (OneCycleLR scheduler)|82.3|null|[']']|2212.04875v3
+WARN|82.18|null|[']']|1807.07320v2
+RL-Mix (WideResNet 16-8)|82.16|null|[']']|2212.04875v3
+WRN+SWA|82.15|null|[']']|1803.05407v3
+Manifold Mixup|81.96|null|[']']|1806.05236v7
+HCGNet-A1|81.87|1.1M|[']']|1908.09699v3
+WideResNet 16-8 + CutMix (OneCycleLR scheduler)|81.79|null|[']']|2212.04875v3
+Residual Gates + WRN|81.73|null|[']']|1611.01260v2
+kNN-CLIP|81.7|null|['Memory-Centric', 'CLIP Pre-trained']|2204.01186v2
+AA-Wide-ResNet|81.6|null|[']']|1904.09925v5
+PDO-eConv (p8, 4.6M)|81.6|null|[']']|2007.10408v2
+SEER (RegNet10B)|81.53|null|[']']|2202.08360v2
+R-Mix (PreActResNet-18)|81.49|null|[']']|2212.04875v3
+Wide-ResNet-40-2|81.19|null|[']']|2209.15031v2
+Wide ResNet|81.15|null|['ResNet']|1605.07146v4
+CoPaNet-R-164|81.10|null|[']']|1709.10282v1
+RL-Mix (PreActResNet-18)|80.75|null|[']']|2212.04875v3
+PreActResNet-18 + CutMix (OneCycleLR scheduler)|80.6|null|[']']|2212.04875v3
+GAC-SNN|80.45|null|[']']|2308.06582v1
+SimpleNetv2|80.29|null|[']']|1802.06205v1
+UPANets|80.29|null|[']']|2103.08640v2
+PreActResNet-18 + SageMix|80.16|null|[']']|2210.06944v1
+ResNet56 with reSGHMC|80.14|null|['ResNet']|2008.05367v3
+PDO-eConv (p8, 2.62M)|79.99|null|[']']|2007.10408v2
+VGG11B(3x) + LocalLearning|79.9|null|[']']|1901.06656v2
+NNCLR|79|null|[']']|2104.14548v2
+PreActResNet18 (AMP)|78.49|null|[']']|2010.04925v4
+SimpleNetv1|78.37|null|[']']|1608.06037v8
+ViT (lightweight, MAE pre-trained)|78.27|3.64M|['Transformer']|2402.03752v1
+PDC|77.9|null|[']']|2104.07916v2
+MobileNetV3-large x1.0 (BSConv-U)|77.7|null|[']']|2003.13549v3
+CCT-6/3x1|77.31|3.17M|['Transformer']|2104.05704v4
+ResNet-1001|77.3|null|['ResNet']|1603.05027v3
+Evolution|77|null|[']']|1703.01041v2
+DIANet|76.98|null|[']']|1905.10671v2
+LP-BNN (ours) + cutout|76.85|null|[']']|2012.02818v2
+ResNet-18+MM+FRL|76.64|null|[']']|2011.10951v2
+ResNet32 with reSGHMC|76.55|null|['ResNet']|2008.05367v3
+MomentumNet|76.38 \u00b1 0.42|null|[']']|2102.07870v3
+SSCNN|75.7|null|[']']|1409.6070v1
+Exponential Linear Units|75.7|null|[']']|1511.07289v5
+ResNet-9|75.59|null|[']']|2203.15331v2
+Stochastic Depth|75.42|null|[']']|1603.09382v3
+ResNet v2-110 (Mish activation)|74.41|null|['ResNet']|1908.08681v3
+Dspike (ResNet-18)|74.24|null|['ResNet', 'SNN']|null
+ResNet20 with reSGHMC|74.14|null|['ResNet']|2008.05367v3
+MixMatch|74.1|null|[']']|1905.02249v2
+Fractional MP|73.6|null|[']']|1412.6071v4
+ResNet+ELU|73.5|null|['ResNet']|1604.04112v4
+PDO-eConv (p6m,0.37M)|73|null|[']']|2007.10408v2
+SOPCNN|72.96|4,252,298|[']']|2001.08856v1
+PDO-eConv (p6,0.36M)|72.87|null|[']']|2007.10408v2
+Tuned CNN|72.6|null|[']']|1502.05700v2
+CMsC|72.4|null|[']']|1511.05635v1
+Fitnet4-LSUV|72.3|null|[']']|1511.06422v7
+kMobileNet V3 Large 16ch|71.36|0.52M|[']']|null
+BNM NiN|71.1|null|[']']|1511.02583v1
+OTTT|71.05|null|['SNN']|2210.04195v2
+MIM|70.8|null|[']']|1508.00330v2
+WaveMix-Lite-256/7|70.20|null|[']']|2205.14375v5
+IM-Loss (VGG-16)|70.18|null|['VGG', 'SNN']|null
+NiN+APL|69.2|null|[']']|1412.6830v3
+SWWAE|69.1|null|[']']|1506.02351v8
+NiN+Superclass+CDJ|69|null|[']']|1706.02003v2
+Spectral Representations for Convolutional Neural Networks|68.4|null|[']']|1506.03767v1
+ReActNet-18|68.34|null|[']']|2104.08215v1
+VDN|67.8|null|[']']|1507.06228v2
+DCNN+GFE|67.7|null|['DCN']|1710.02286v1
+Tree+Max-Avg pooling|67.6|null|[']']|1509.08985v2
+HD-CNN|67.4|null|[']']|1410.0736v4
+Universum Prescription|67.2|null|[']']|1511.03719v7
+ResNet50 Without Transfer Learning|67.060|null|['ResNet']|null
+AlexNet (KP)|66.78|null|[']']|null
+ACN|66.3|null|[']']|1412.6806v3
+DLME (ResNet-18, linear)|66.1|null|[']']|2207.03160v2
+ResNet-18 (modified)|66|null|[']']|2210.16914v1
+DSN|65.4|null|[']']|1409.5185v2
+NiN|64.3|null|[']']|1312.4400v3
+Tree Priors|63.2|null|[']']|null
+DNN+Probabilistic Maxout|61.9|null|[']']|1312.6116v2
+Maxout Network (k=2)|61.43|null|[']']|1302.4389v4
+ResNet20+UnsharpMaskLayer|60.36|null|['ResNet']|null
+Convolutional Linear Transformer for Vision (CLTV)|60.11|null|[']']|2201.10271v1
+FatNet of ResNet-18|60|null|[']']|2210.16914v1
+Optical Simulation of FatNet|60|null|[']']|2210.16914v1
+RReLU|59.8|null|[']']|1505.00853v2
+Stochastic Pooling|57.5|null|[']']|1301.3557v1
+Sign-symmetry|48.75|null|[']']|1510.05067v4
+AlexNet (DFA)|48.03|null|['AlexNet']|null
+CNN39|42.64|null|[']']|2010.01412v3
+CNN36|36.07|null|[']']|2010.01412v3
+CNN37|35.05|null|[']']|2111.12273v5
+AlexNet (FA)|19.49|null|['AlexNet']|null
+efficient adaptive ensembling|null|null|[']']|2206.07394v3
+Beta-Rank|null|null|[']}]</script']|2304.07461v2
