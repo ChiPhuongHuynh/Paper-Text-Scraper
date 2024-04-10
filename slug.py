@@ -73,7 +73,7 @@ def eval_scrape(datatable):
 #url = "/paper/omnivec-learning-robust-representations-with/review/?hl=112988"
 efields = ["name", "accuracy", "params", "hardware_req","tags", "id"]
 erows = eval_scrape(eval)
-with open("table2_url.csv",'w') as csvfile:
+with open("clean/table2_url.csv", 'w') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter='|')
     csvwriter.writerow(efields)
     csvwriter.writerows(erows)

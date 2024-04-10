@@ -1,4 +1,4 @@
-Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Task,Dataset,name,accuracy,difficulty,params,tags,id
 Image Classification,CIFAR-10,ViT-H/14,99.0,0.9743891669119811,632M,['Transformer'],2010.11929v2
 Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,0.8860759493670884,,[],2010.01412v3
 Object Detection,COCO minivar,Co-DETR,65.9,0.0,,['Large'],2211.12860v5
