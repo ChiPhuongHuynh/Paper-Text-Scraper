@@ -1,8 +1,8 @@
 Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
-Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2
-Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3
-Object Detection,COCO minivar,Co-DETR,65.9,1.0,,['Large'],2211.12860v5
-Image Classification,ImageNet,OmniVec,92.4,1.0,0.0,0,2311.05709v1
-Image Generation,ImageNet 256x256,Feature Alignment,69.89,1.0,,[],2106.12562v2
+Image Classification,CIFAR-10,ViT-H/14,99.0,0.9743891669119811,632M,['Transformer'],2010.11929v2
+Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,0.8860759493670884,,[],2010.01412v3
+Object Detection,COCO minivar,Co-DETR,65.9,0.0,,['Large'],2211.12860v5
+Image Classification,ImageNet,OmniVec,92.4,0.7801000883132175,0.0,0,2311.05709v1
+Image Generation,ImageNet 256x256,Feature Alignment,69.89,0.11745657933470695,,[],2106.12562v2
 Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6
-Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5
+Image Classification,SVHN,Co-DETR,65.9,0.0,,['Large'],2211.12860v5

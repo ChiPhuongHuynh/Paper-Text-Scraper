@@ -32,8 +32,8 @@ def process(df, dataset, task):
 #cur = process(df, "ImageNet 256x256", "Image Generation")
 #cur.to_csv("imagenet-256-generation-processed.csv", index=False)
 """
-df = pd.read_csv("complete.csv", index_col= False)
-
-idx = df.groupby(['Dataset', 'Task'])['accuracy'].idxmax()
-max_scores = df.loc[idx]
-max_scores.to_csv("normalized-task-data.csv", index=False)
+df = pd.read_csv("normalized-task-data.csv", index_col= False)
+df["accuracy"] = df["accuracy"].astype(float)
+df["accuracy_norm"] = (df["accuracy"] - df["accuracy"].min()) / (df["accuracy"].max() - df["accuracy"].min())
+print(df)
+df.to_csv("normalized-task-data.csv", index=False)
