@@ -3,11 +3,13 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 from sklearn.model_selection import train_test_split
+from keras import ops
+from matplotlib import pyplot
 
 df = pd.read_csv("dataprocessed.csv", index_col=False)
 df.dropna(inplace=True)
-bool_cols = ['Dataset_CIFAR-10','Dataset_CIFAR-100','Dataset_COCO','Dataset_COCO minivar','Dataset_CityScapes','Dataset_ImageNet','Dataset_KITTI','Dataset_MNIST','Dataset_NYU Depth v2',
-        'Dataset_SVHN','Dataset_ShapeNet','Task_Depth Estimation','Task_Image Classification','Task_Object Detection','Task_Semantic Segmentation','Task_Text to Image']
+bool_cols = df.columns.to_list()[:-2]
+
 df[bool_cols] = df[bool_cols].astype(int)
 #print(df)
 round_cols = ['accuracy_norm', 'difficulty']
@@ -25,14 +27,28 @@ model = keras.Sequential([
     keras.layers.Dense(6, activation='relu'),
     keras.layers.Dense(1)
 ])
+#Optimizer and Metrics
 opt = keras.optimizers.Adam(learning_rate=0.0001)
-model.compile(optimizer=opt, loss='mean_squared_error')
+model.compile(optimizer=opt, loss='mean_squared_error', metrics = ['mse', 'mae','mape','cosine_similarity'])
 
 # Train the model
-model.fit(X_train, y_train, epochs=50, batch_size=32, validation_split=0.1)
+history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_split=0.1, verbose=2)
 
 # Evaluate the model on the test set
 loss= model.evaluate(X_test, y_test)
 print('Test loss:', loss)
 predictions = model.predict(X_test)
-#print(predictions)
+
+model.save('prediction.keras')
+
+#plot metrics
+pyplot.plot(history.history['mse'], "-b", label = "Mean Squared Error")
+pyplot.plot(history.history['mae'], "-r", label = "Mean Absolute Error")
+#pyplot.plot(history.history['mape'], "-g", label = "Mean Absolute Percentage Error")
+pyplot.plot(history.history['cosine_similarity'], "-y", label = "Cosine Similarity")
+pyplot.legend(loc="upper right")
+pyplot.ylim(-1.5, 2.0)
+pyplot.title("Metrics of Difficulty Estimation Model")
+pyplot.xlabel("Epoch")
+pyplot.savefig('data.png', bbox_inches='tight')
+pyplot.close()

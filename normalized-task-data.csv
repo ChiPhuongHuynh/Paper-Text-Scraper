@@ -6,6 +6,7 @@ Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,99.87,6
 Image Classification,ImageNet,OmniVec,92.4,1.0,0.0,0,2311.05709v1,99.87,65.9,0.7801000883132175
 Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,99.87,65.9,1.0
 Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,99.87,65.9,0.0
+Image Generation,ImageNet 256x256,Feature Alignment,69.89,1.0,,[],2106.12562v2,69.89,69.89,0.0
 Object Detection,COCO minivar,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,65.9,65.9,0.0
 Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,,[],2305.11172v1,86.4,60.8,0.08593750000000008
 Semantic Segmentation,CityScapes,VLTSeg,86.4,1.0,,[],2312.02021v2,86.4,60.8,1.0
