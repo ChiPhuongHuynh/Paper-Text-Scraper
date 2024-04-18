@@ -1,0 +1,52 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+3D Part Segmentation,ShapeNet,GeomGCNN,89.1,1.0,,[],2103.15226v1
+3D Part Segmentation,ShapeNet,SPoTr,87.2,0.7205882352941188,,[],2303.16450v1
+3D Part Segmentation,ShapeNet,PointNeXt,87.1,0.7058823529411763,,[],2206.04670v2
+3D Part Segmentation,ShapeNet,Diffusion Unit,87.1,0.7058823529411763,,[],2209.09483v3
+3D Part Segmentation,ShapeNet,PointMLP+TAP,86.9,0.6764705882352956,,[],2307.14971v2
+3D Part Segmentation,ShapeNet,DeltaConv (U-ResNet),86.9,0.6764705882352956,,[],2111.08799v5
+3D Part Segmentation,ShapeNet,PointVector-S(C=64),86.9,0.6764705882352956,,[],2205.10528v3
+3D Part Segmentation,ShapeNet,Spherical Kernel,86.8,0.6617647058823533,,[],1909.09287v2
+3D Part Segmentation,ShapeNet,Ps-CNN,86.8,0.6617647058823533,,[],1903.00343v1
+3D Part Segmentation,ShapeNet,CurveNet,86.8,0.6617647058823533,,[],2105.01288v2
+3D Part Segmentation,ShapeNet,MKConv,86.7,0.6470588235294129,,[],2107.12655v3
+3D Part Segmentation,ShapeNet,Feature Geometric Net (FG-Net),86.6,0.6323529411764705,,[],2012.09439v2
+3D Part Segmentation,ShapeNet,PointTransformer,86.6,0.6323529411764705,,[],2012.09164v2
+3D Part Segmentation,ShapeNet,DeltaNet,86.6,0.6323529411764705,,[],2111.08799v5
+3D Part Segmentation,ShapeNet,GDANet,86.5,0.6176470588235301,,[],2012.10921v3
+3D Part Segmentation,ShapeNet,ODFNet,86.5,0.6176470588235301,,[],2012.04708v2
+3D Part Segmentation,ShapeNet,Point Voxel Transformer,86.5,0.6176470588235301,,['Transformer'],2108.06076v4
+3D Part Segmentation,ShapeNet,P2P,86.5,0.6176470588235301,,[],2208.02812v2
+3D Part Segmentation,ShapeNet,KPConv,86.4,0.6029411764705898,,[],1904.08889v2
+3D Part Segmentation,ShapeNet,DensePoint,86.4,0.6029411764705898,,[],1909.03669v1
+3D Part Segmentation,ShapeNet,DRNet,86.4,0.6029411764705898,,[],2005.06734v2
+3D Part Segmentation,ShapeNet,Point Cloud Transformer,86.4,0.6029411764705898,,['Transformer'],2012.09688v4
+3D Part Segmentation,ShapeNet,point2vec,86.3,0.5882352941176473,,[],2303.16570v2
+3D Part Segmentation,ShapeNet,InterpCNN,86.3,0.5882352941176473,,[],1908.04512v1
+3D Part Segmentation,ShapeNet,PVCNN volumetric,86.2,0.573529411764707,,[],1907.03739v2
+3D Part Segmentation,ShapeNet,RS-CNN,86.2,0.573529411764707,,[],1904.07601v3
+3D Part Segmentation,ShapeNet,Ours,86.2,0.573529411764707,,[],2304.14124v1
+3D Part Segmentation,ShapeNet,PointCNN,86.14,0.564705882352942,,[],1801.07791v5
+3D Part Segmentation,ShapeNet,ASSANet,86.1,0.5588235294117645,,[],2110.10538v2
+3D Part Segmentation,ShapeNet,SSCN,86.0,0.5441176470588241,,[],1706.01307v1
+3D Part Segmentation,ShapeNet,Point Transformer,85.9,0.5294117647058838,,['Transformer'],2011.00931v2
+3D Part Segmentation,ShapeNet,DSPoint,85.8,0.5147058823529413,,[],2111.10332v4
+3D Part Segmentation,ShapeNet,APES (global_based downsample),85.8,0.5147058823529413,,['Point2Point Attention'],2302.14673v2
+3D Part Segmentation,ShapeNet,ConvPoint,85.8,0.5147058823529413,,[],1904.02375v5
+3D Part Segmentation,ShapeNet,SGPN,85.8,0.5147058823529413,,[],1711.08588v2
+3D Part Segmentation,ShapeNet,PointConv,85.7,0.500000000000001,,[],1811.07246v3
+3D Part Segmentation,ShapeNet,PointNet++ + SageMix,85.7,0.500000000000001,,[],2210.06944v1
+3D Part Segmentation,ShapeNet,APES (local_based downsample),85.6,0.4852941176470586,,['Neighbor2Point Attention'],2302.14673v2
+3D Part Segmentation,ShapeNet,DGCNN + MD,85.5,0.47058823529411825,,[],2109.00452v3
+3D Part Segmentation,ShapeNet,DGCNN + SageMix,85.4,0.4558823529411779,,[],2210.06944v1
+3D Part Segmentation,ShapeNet,SpiderCNN,85.3,0.4411764705882355,,[],1803.11527v3
+3D Part Segmentation,ShapeNet,DGCNN,85.2,0.42647058823529516,,['GCN'],1801.07829v2
+3D Part Segmentation,ShapeNet,P2Sequence,85.2,0.42647058823529516,,[],1811.02565v2
+3D Part Segmentation,ShapeNet,PointNet++,85.1,0.4117647058823527,,[],1706.02413v1
+3D Part Segmentation,ShapeNet,SO-Net,84.9,0.382352941176472,,[],1803.04249v4
+3D Part Segmentation,ShapeNet,SSCNN,84.7,0.3529411764705892,,[],1612.00606v1
+3D Part Segmentation,ShapeNet,SPLATNet 3D,84.6,0.3382352941176468,,[],1802.08275v4
+3D Part Segmentation,ShapeNet,3D-UNet [Cicek:2016un],84.6,0.3382352941176468,,[],1606.06650v1
+3D Part Segmentation,ShapeNet,3DmFV-Net,84.3,0.29411764705882365,,[],1711.08241v1
+3D Part Segmentation,ShapeNet,PointNet,83.7,0.2058823529411774,,[],1612.00593v2
+3D Part Segmentation,ShapeNet,Kd-net,82.3,0.0,,[],1704.01222v2

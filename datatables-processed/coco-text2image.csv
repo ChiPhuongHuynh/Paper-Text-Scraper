@@ -1,0 +1,68 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Text to Image,COCO,Parti Finetuned,3.22,1.0,,['Autoregressive'],2206.10789v1
+Text to Image,COCO,CM3Leon-7B,4.88,0.9765636029930821,,['Autoregressive'],2309.02591v1
+Text to Image,COCO,Re-Imagen (Finetuned),5.25,0.9713398277566003,,['Diffusion'],2209.14491v3
+Text to Image,COCO,U-ViT-S/2-Deep,5.48,0.9680926161231116,,[],2209.12152v4
+Text to Image,COCO,"GLIGEN (fine-tuned, Detection + Caption data)",5.61,0.9662572356346181,,[],2301.07093v2
+Text to Image,COCO,"GLIGEN (fine-tuned, Detection data only)",5.82,0.9632923902301284,,[],2301.07093v2
+Text to Image,COCO,U-ViT-S/2,5.95,0.9614570097416348,,[],2209.12152v4
+Text to Image,COCO,ConPreDiff,6.21,0.9577862487646478,,[],2401.02015v1
+Text to Image,COCO,TLDM,6.29,0.9566567838486516,,[],2202.09671v4
+Text to Image,COCO,"GLIGEN (fine-tuned, Grounding data)",6.38,0.9553861358181562,,[],2301.07093v2
+Text to Image,COCO,RAPHAEL (zero-shot),6.61,0.9521389241846675,,[],2305.18295v5
+Text to Image,COCO,ERNIE-ViLG 2.0 (zero-shot),6.75,0.9501623605816745,,[],2210.15257v2
+Text to Image,COCO,Re-Imagen,6.88,0.948326980093181,,[],2209.14491v3
+Text to Image,COCO,eDiff-I (zero-shot),6.95,0.9473386982916843,,[],2211.01324v5
+Text to Image,COCO,Swinv2-Imagen,7.21,0.9436679373146972,,[],2210.09549v1
+Text to Image,COCO,Parti,7.23,0.9433855710856981,,"['Autoregressive', 'zero-shot']",2206.10789v1
+Text to Image,COCO,Imagen (zero-shot),7.27,0.9428208386277002,,"['Diffusion', 'zero-shot']",2205.11487v1
+Text to Image,COCO,"GigaGAN (Zero-shot, 64x64)",7.28,0.9426796555132005,,[],2303.05511v2
+Text to Image,COCO,"StyleGAN-T (Zero-shot, 64x64)",7.3,0.9423972892842016,,[],2301.09515v1
+Text to Image,COCO,Make-a-Scene (unfiltered),7.55,0.938867711421714,,['Autoregressive'],2203.13131v1
+Text to Image,COCO,Kandinsky,8.03,0.9320909219257376,,[],2310.03502v1
+Text to Image,COCO,Lafite,8.12,0.930820273895242,,['GAN'],2111.13792v3
+Text to Image,COCO,simple diffusion (U-ViT),8.3,0.9282789778342511,,[],2301.11093v2
+Text to Image,COCO,"GigaGAN (Zero-shot, 256x256)",9.09,0.91712551178879,,[],2303.05511v2
+Text to Image,COCO,XMC-GAN (256 x 256),9.3,0.9141606663843005,,[],2111.12417v1
+Text to Image,COCO,XMC-GAN,9.33,0.913737117040802,,['GAN'],2101.04702v5
+Text to Image,COCO,DALL-E 2,10.39,0.8987717069038542,,"['Diffusion', 'zero-shot']",2204.06125v1
+Text to Image,COCO,Corgi-Semi,10.6,0.8958068614993646,,"['semi-supervised', 'zero-shot']",2211.15388v2
+Text to Image,COCO,Corgi,10.88,0.8918537342933784,,['zero-shot'],2211.15388v2
+Text to Image,COCO,"TR0N (StyleGAN-XL, LAION2BCLIP, BLIP-2, zero-shot)",10.9,0.8915713680643795,,['zero-shot'],2304.13742v1
+Text to Image,COCO,Make-a-Scene (unfiltered),11.84,0.8783001553014259,,[],2203.13131v1
+Text to Image,COCO,GLIDE (zero-shot),12.24,0.8726528307214456,,"['Diffusion', 'zero-shot']",2112.10741v3
+Text to Image,COCO,KNN-Diffusion,12.5,0.8689820697444586,,[],2204.02849v2
+Text to Image,COCO,GALIP (CC12m),12.54,0.8684173372864605,,[],2301.12959v1
+Text to Image,COCO,Latent Diffusion (LDM-KL-8-G),12.63,0.8671466892559649,,[],2112.10752v2
+Text to Image,COCO,Stable Diffusion,12.63,0.8671466892559649,,[],2211.12561v2
+Text to Image,COCO,N\u00dcWA (256 x 256),12.9,0.8633347451644783,,[],2111.12417v1
+Text to Image,COCO,VQ-Diffusion-F,13.86,0.8497811661725257,,['Diffusion'],2111.14822v3
+Text to Image,COCO,"StyleGAN-T (Zero-shot, 256x256)",13.9,0.8492164337145277,,[],2301.09515v1
+Text to Image,COCO,RAT-GAN,14.6,0.8393336156995623,,['GAN'],2204.10482v1
+Text to Image,COCO,ERNIE-ViLG,14.7,0.8379217845545672,,[],2112.15283v1
+Text to Image,COCO,RA-CM3 (2.7B),15.7,0.8238034731046167,,[],2211.12561v2
+Text to Image,COCO,"CogView2(6B, Finetuned)",17.7,0.7955668502047154,,[],2204.14217v2
+Text to Image,COCO,VQ-Diffusion-B,19.75,0.7666243117323168,,['Diffusion'],2111.14822v3
+Text to Image,COCO,DM-GAN+CL,20.79,0.7519412678243682,,['GAN'],2107.02423v2
+Text to Image,COCO,"FuseDream (few-shot, k=5)",21.16,0.7467174925878866,,['few-shot'],2112.01573v1
+Text to Image,COCO,"FuseDream (k=5, 256)",21.16,0.7467174925878866,,[],2112.01573v1
+Text to Image,COCO,"FuseDream (k=10, 256)",21.89,0.7364111252294225,,[],2112.01573v1
+Text to Image,COCO,AttnGAN+CL,23.93,0.7076097698715234,,['GAN'],2107.02423v2
+Text to Image,COCO,"CogView2(6B, Finetuned)",24.0,0.7066214880700268,,[],2204.14217v2
+Text to Image,COCO,OP-GAN,24.7,0.6967386700550614,,['GAN'],1910.13321v2
+Text to Image,COCO,DM-GAN (256 x 256),26.0,0.6783848651701256,,[],2111.12417v1
+Text to Image,COCO,Lafite (zero-shot),26.94,0.6651136524071721,,['zero-shot'],2111.13792v3
+Text to Image,COCO,CogView,27.1,0.66285472257518,,['zero-shot'],2105.13290v3
+Text to Image,COCO,CogView (256 x 256),27.1,0.66285472257518,,[],2111.12417v1
+Text to Image,COCO,DALL-E (256 x 256),27.5,0.6572073979951998,,[],2111.12417v1
+Text to Image,COCO,DALL-E (12B),28.0,0.6501482422702245,,[],2211.12561v2
+Text to Image,COCO,AttnGAN + VICTR,29.26,0.6323591698432867,,['GAN'],2010.03182v3
+Text to Image,COCO,Vanilla CM3,29.5,0.6289707750952985,,[],2211.12561v2
+Text to Image,COCO,DM-GAN + VICTR,32.37,0.5884512212339404,,['GAN'],2010.03182v3
+Text to Image,COCO,DM-GAN,32.64,0.5846392771424538,,['GAN'],1904.01310v1
+Text to Image,COCO,AttnGAN + OP,33.35,0.5746152760129888,,['GAN'],1901.00686v1
+Text to Image,COCO,AttnGAN (256 x 256),35.2,0.5484963998305802,,[],2111.12417v1
+Text to Image,COCO,L-Verse-CC,37.2,0.520259776930679,,[],2111.11133v10
+Text to Image,COCO,L-Verse,45.8,0.3988422984611041,,[],2111.11133v10
+Text to Image,COCO,StackGAN + OP,55.3,0.2647183396865735,,['GAN'],1901.00686v1
+Text to Image,COCO,StackGAN-v1,74.05,0.0,,[],1710.10916v3

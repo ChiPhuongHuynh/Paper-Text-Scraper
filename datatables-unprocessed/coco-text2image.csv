@@ -1,0 +1,71 @@
+name|accuracy|params|tags|id
+Parti Finetuned|3.22|null|['Autoregressive']|2206.10789v1
+CM3Leon-7B|4.88|null|['Autoregressive']|2309.02591v1
+Re-Imagen (Finetuned)|5.25|null|['Diffusion']|2209.14491v3
+U-ViT-S/2-Deep|5.48|null|[']']|2209.12152v4
+GLIGEN (fine-tuned, Detection + Caption data)|5.61|null|[']']|2301.07093v2
+GLIGEN (fine-tuned, Detection data only)|5.82|null|[']']|2301.07093v2
+U-ViT-S/2|5.95|null|[']']|2209.12152v4
+ConPreDiff|6.21|null|[']']|2401.02015v1
+TLDM|6.29|null|[']']|2202.09671v4
+GLIGEN (fine-tuned, Grounding data)|6.38|null|[']']|2301.07093v2
+RAPHAEL (zero-shot)|6.61|null|[']']|2305.18295v5
+ERNIE-ViLG 2.0 (zero-shot)|6.75|null|[']']|2210.15257v2
+Re-Imagen|6.88|null|[']']|2209.14491v3
+eDiff-I (zero-shot)|6.95|null|[']']|2211.01324v5
+Swinv2-Imagen|7.21|null|[']']|2210.09549v1
+Parti|7.23|null|['Autoregressive', 'zero-shot']|2206.10789v1
+Imagen (zero-shot)|7.27|null|['Diffusion', 'zero-shot']|2205.11487v1
+GigaGAN (Zero-shot, 64x64)|7.28|null|[']']|2303.05511v2
+StyleGAN-T (Zero-shot, 64x64)|7.3|null|[']']|2301.09515v1
+Make-a-Scene (unfiltered)|7.55|null|['Autoregressive']|2203.13131v1
+Kandinsky|8.03|null|[']']|2310.03502v1
+Lafite|8.12|null|['GAN']|2111.13792v3
+simple diffusion (U-ViT)|8.3|null|[']']|2301.11093v2
+GigaGAN (Zero-shot, 256x256)|9.09|null|[']']|2303.05511v2
+XMC-GAN (256 x 256)|9.3|null|[']']|2111.12417v1
+XMC-GAN|9.33|null|['GAN']|2101.04702v5
+DALL-E 2|10.39|null|['Diffusion', 'zero-shot']|2204.06125v1
+Corgi-Semi|10.6|null|['semi-supervised', 'zero-shot']|2211.15388v2
+Corgi|10.88|null|['zero-shot']|2211.15388v2
+TR0N (StyleGAN-XL, LAION2BCLIP, BLIP-2, zero-shot)|10.9|null|['zero-shot']|2304.13742v1
+Make-a-Scene (unfiltered)|11.84|null|[']']|2203.13131v1
+GLIDE (zero-shot)|12.24|null|['Diffusion', 'zero-shot']|2112.10741v3
+KNN-Diffusion|12.5|null|[']']|2204.02849v2
+GALIP (CC12m)|12.54|null|[']']|2301.12959v1
+Latent Diffusion (LDM-KL-8-G)|12.63|null|[']']|2112.10752v2
+Stable Diffusion|12.63|null|[']']|2211.12561v2
+N\u00dcWA (256 x 256)|12.9|null|[']']|2111.12417v1
+VQ-Diffusion-F|13.86|null|['Diffusion']|2111.14822v3
+StyleGAN-T (Zero-shot, 256x256)|13.9|null|[']']|2301.09515v1
+RAT-GAN|14.6|null|['GAN']|2204.10482v1
+ERNIE-ViLG|14.7|null|[']']|2112.15283v1
+RA-CM3 (2.7B)|15.7|null|[']']|2211.12561v2
+CogView2(6B, Finetuned)|17.7|null|[']']|2204.14217v2
+VQ-Diffusion-B|19.75|null|['Diffusion']|2111.14822v3
+DM-GAN+CL|20.79|null|['GAN']|2107.02423v2
+FuseDream (few-shot, k=5)|21.16|null|['few-shot']|2112.01573v1
+FuseDream (k=5, 256)|21.16|null|[']']|2112.01573v1
+FuseDream (k=10, 256)|21.89|null|[']']|2112.01573v1
+AttnGAN+CL|23.93|null|['GAN']|2107.02423v2
+CogView2(6B, Finetuned)|24|null|[']']|2204.14217v2
+OP-GAN|24.70|null|['GAN']|1910.13321v2
+DM-GAN (256 x 256)| 26.0|null|[']']|2111.12417v1
+Lafite (zero-shot)|26.94|null|['zero-shot']|2111.13792v3
+CogView|27.1|null|['zero-shot']|2105.13290v3
+CogView (256 x 256)| 27.1|null|[']']|2111.12417v1
+DALL-E (256 x 256)|27.5|null|[']']|2111.12417v1
+DALL-E (12B)|28|null|[']']|2211.12561v2
+AttnGAN + VICTR|29.26|null|['GAN']|2010.03182v3
+Vanilla CM3|29.5|null|[']']|2211.12561v2
+DM-GAN + VICTR|32.37|null|['GAN']|2010.03182v3
+DM-GAN|32.64|null|['GAN']|1904.01310v1
+AttnGAN + OP|33.35|null|['GAN']|1901.00686v1
+AttnGAN (256 x 256)| 35.2|null|[']']|2111.12417v1
+L-Verse-CC|37.2|null|[']']|2111.11133v10
+L-Verse|45.8|null|[']']|2111.11133v10
+StackGAN + OP|55.30|null|['GAN']|1901.00686v1
+StackGAN-v1|74.05|null|[']']|1710.10916v3
+DF-GAN (256 x 256)|null|null|[']']|2111.12417v1
+StackGAN + VICTR|null|null|['GAN']|2010.03182v3
+ChatPainter|null|null|[']}]</script']|1802.08216v1

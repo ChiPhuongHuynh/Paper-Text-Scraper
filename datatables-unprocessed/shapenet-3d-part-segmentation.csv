@@ -1,0 +1,62 @@
+name|accuracy|params|tags|id
+GeomGCNN|89.1|null|[']']|2103.15226v1
+SPoTr|87.2|null|[']']|2303.16450v1
+PointNeXt|87.1|null|[']']|2206.04670v2
+Diffusion Unit|87.1|null|[']']|2209.09483v3
+CurveNet+GAM|87.0|null|[']']|null
+AGCN|86.9|null|[']']|null
+PointMLP+TAP|86.9|null|[']']|2307.14971v2
+DeltaConv (U-ResNet)|86.9|null|[']']|2111.08799v5
+PointVector-S(C=64)|86.9|null|[']']|2205.10528v3
+Spherical Kernel|86.8|null|[']']|1909.09287v2
+Ps-CNN|86.8|null|[']']|1903.00343v1
+CurveNet|86.8|null|[']']|2105.01288v2
+MKConv|86.7|null|[']']|2107.12655v3
+Feature Geometric Net (FG-Net)|86.6|null|[']']|2012.09439v2
+PointGPT|86.6|null|[']']|null
+PointTransformer|86.6|null|[']']|2012.09164v2
+DeltaNet|86.6|null|[']']|2111.08799v5
+GDANet|86.5|null|[']']|2012.10921v3
+ODFNet|86.5|null|[']']|2012.04708v2
+Point Voxel Transformer|86.5|null|['Transformer']|2108.06076v4
+P2P|86.5|null|[']']|2208.02812v2
+KPConv|86.4|null|[']']|1904.08889v2
+DensePoint|86.4|null|[']']|1909.03669v1
+DRNet|86.4|null|[']']|2005.06734v2
+PointGrid|86.4|null|[']']|null
+Point Cloud Transformer|86.4|null|['Transformer']|2012.09688v4
+point2vec|86.3|null|[']']|2303.16570v2
+InterpCNN|86.3|null|[']']|1908.04512v1
+PVCNN volumetric|86.2|null|[']']|1907.03739v2
+RS-CNN|86.2|null|[']']|1904.07601v3
+Ours|86.2|null|[']']|2304.14124v1
+PointCNN|86.14|null|[']']|1801.07791v5
+ASSANet|86.1|null|[']']|2110.10538v2
+SSCN|86.0|null|[']']|1706.01307v1
+Point Transformer|85.9|null|['Transformer']|2011.00931v2
+DSPoint|85.8|null|[']']|2111.10332v4
+APES (global_based downsample)|85.8|null|['Point2Point Attention']|2302.14673v2
+ConvPoint|85.8|null|[']']|1904.02375v5
+SGPN|85.8|null|[']']|1711.08588v2
+PointConv|85.7|null|[']']|1811.07246v3
+PointNet++ + SageMix|85.7|null|[']']|2210.06944v1
+APES (local_based downsample)|85.6|null|['Neighbor2Point Attention']|2302.14673v2
+DGCNN + MD|85.5|null|[']']|2109.00452v3
+SFCNN|85.4|null|[']']|null
+DGCNN + SageMix|85.4|null|[']']|2210.06944v1
+SpiderCNN|85.3|null|[']']|1803.11527v3
+SRN|85.3|null|[']']|null
+DGCNN|85.2|null|['GCN']|1801.07829v2
+P2Sequence|85.2|null|[']']|1811.02565v2
+Point-PlaneNet|85.1|null|[']']|null
+3D-GCN|85.1|null|['GCN']|null
+PointNet++|85.1|null|[']']|1706.02413v1
+SO-Net|84.9|null|[']']|1803.04249v4
+SSCNN|84.7|null|[']']|1612.00606v1
+SPLATNet 3D|84.6|null|[']']|1802.08275v4
+3D-UNet [Cicek:2016un]|84.6|null|[']']|1606.06650v1
+3DmFV-Net|84.3|null|[']']|1711.08241v1
+PointNet|83.7|null|[']']|1612.00593v2
+Kd-net|82.3|null|[']']|1704.01222v2
+PartNet|null|null|[']']|1903.00709v5
+PointNet++ (ssg) + JM3D|null|null|[']}]</script']|2308.02982v2

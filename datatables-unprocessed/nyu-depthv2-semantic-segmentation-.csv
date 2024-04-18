@@ -1,0 +1,108 @@
+name|accuracy|params|tags|id
+OmniVec|60.8|null|[']']|2311.05709v1
+DPLNet|59.3|null|[']']|2312.00360v2
+EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)|59.02%|null|[']']|2309.13635v1
+SwinMTL|58.14%|null|[']']|2403.10662v1
+PolyMaX(ConvNeXt-L)|58.08%|null|[']']|2311.05770v1
+DFormer-L|57.2%|null|[']']|2309.09668v2
+CMX (B5)|56.9%|null|[']']|2203.04838v5
+CMNeXt (B4)|56.9%|null|[']']|2303.01480v1
+OMNIVORE (Swin-L, finetuned)|56.8%|null|[']']|2201.08377v2
+CMX (B4)|56.3%|null|[']']|2203.04838v5
+MultiMAE (ViT-B)|56.0%|null|[']']|2204.01678v1
+SMMCL (SegNeXt-B)|55.8%|null|[']']|2308.12320v2
+DFormer-B|55.6%|null|[']']|2309.09668v2
+ComPtr (Swin-B)|55.5%|null|[']']|2307.12349v1
+OMNIVORE (Swin-B, finetuned)|55.1%|null|[']']|2201.08377v2
+HAPNet|55.0|null|[']']|2404.03527v2
+CMX (B2)|54.4%|null|[']']|2203.04838v5
+TokenFusion (S)|54.2%|null|[']']|2204.08721v2
+AsymFormer|54.1%|null|[']']|2309.14065v6
+SMMCL (SegFormer-B2)|53.7%|null|[']']|2308.12320v2
+DFormer-S|53.6%|null|[']']|2309.09668v2
+InvPT|53.56%|null|[']']|2203.07997v3
+HS3-Fuse (ResNet-101)|53.5%|null|[']']|2111.02333v1
+PDCNet (ResNet-101)|53.5%|null|[']']|2302.11951v1
+EMSANet (2x ResNet-34 NBt1D, finetuned)|53.34%|null|[']']|2207.04526v1
+DCANet (ResNet-101)|53.3%|null|[']']|2210.06747v1
+TokenFusion (Ti)|53.3%|null|[']']|2204.08721v2
+InverseForm (ResNet-101)|53.1%|null|[']']|2104.02745v2
+CAINet (MobileNet-V2)|52.6%|null|[']']|2401.01624v1
+CEN-PSPNet (ResNet-152)|52.5%|null|[']']|2112.02252v2
+AMF (ResNet-50)|52.5%|null|[']']|2201.01427v2
+SMMCL (ResNet-101)|52.5%|null|[']']|2308.12320v2
+SA-Gate|52.4%|null|[']']|2007.09183v1
+Warp-Refine|52.2%|null|[']']|2109.13432v1
+FSFNet|52.0%|null|[']']|2105.04102v1
+VCD+ACNet (ResNet-50)|51.9%|null|[']']|null
+MIPANet (ResNet50)|51.9%|null|[']']|2311.11312v2
+DFormer-T|51.8%|null|[']']|2309.09668v2
+ShapeConv (ResNext-101)|51.3%|null|['ResNeXt']|2108.10528v1
+EMSAFormer (SwinV2-T-128-Multi-Aug)|51.26%|null|[']']|2306.05242v1
+Z-ACN (ResNet-101)|51.24%|null|[']']|2206.03939v1
+AsymFusion (ResNet-152)|51.2%|null|[']']|2108.05009v1
+DynMM (ResNet-50)|51.0%|null|[']']|2204.00102v2
+SGNet (ResNet-101)|51.0%|null|[']']|2004.04534v2
+PSD-ResNet50|51.0%|null|[']']|null
+Malleable 2.5D (ResNet-101)|50.9%|null|[']']|2007.09365v1
+ICM|50.70|null|[']']|null
+SANet|50.7%|null|[']']|2011.02572v1
+VCD+RedNet (ResNet-50)|50.7%|null|[']']|null
+HaarNet|50.7%|null|[']']|2310.07669v1
+PAP (ResNet-50)|50.4%|null|[']']|1906.03525v1
+Cerberus|50.4%|null|[']']|2111.12608v2
+ESANet (R34-NBt1D)|50.30|null|[']']|2011.06961v3
+Z-ACN (ResNet-50)|50.05%|null|[']']|2206.03939v1
+Malleable 2.5D (ResNet-50)|49.7%|null|[']']|2007.09365v1
+MMANet|49.62%|null|[']']|2304.08028v1
+SGACNet (R34-NBt1D)|49.4%|null|[']']|2308.06024v1
+ComPtr (Swin-T)|49.2%|null|[']']|2307.12349v1
+Z-ACN (ResNet-34)|49.15%|null|[']']|2206.03939v1
+UMT|49.14%|null|[']']|2106.11059v1
+MTI-Net (HRNet-48)|49.0|null|[']']|2001.06902v5
+ShapeConv (ResNet-101)|49.0%|null|[']']|2108.10528v1
+MKE|48.88%|null|[']']|2103.14431v3
+ShapeConv (ResNet-50)|48.8%|null|[']']|2108.10528v1
+mmFormer|48.45%|null|[']']|2206.02425v2
+ACNet|48.3%|null|[']']|1905.10089v1
+SGACNet (R18-NBt1D)|48.2%|null|[']']|2308.06024v1
+ESANet (R18-NBt1D )|48.17|null|[']']|2011.06961v3
+RFNet|48.13%|null|[']']|null
+TupleInfoNCE|48.1%|null|[']']|2107.02575v1
+DDSC (ResNet-101)|48.1%|null|[']']|null
+CFN|47.7%|null|[']']|null
+FDNet (DenseNet264)|47.4%|null|[']']|1905.08929v1
+RedNet|47.2%|null|[']']|1806.01054v2
+Z-ACN (ResNet-18)|47.02%|null|[']']|2206.03939v1
+TRL (ResNet-101)|46.8%|null|[']']|null
+RefineNet (ResNet-101)|46.5%|null|['ResNet']|1611.06612v3
+ATRC|46.33%|null|[']']|2104.13874v2
+LS-DeconvNet|45.9%|null|[']']|null
+VCD+DeepLab (VGG16)|45.3|null|[']']|null
+SOSD-Net|45.0%|null|[']']|2101.07422v1
+MMAF-Net-152|44.8%|null|[']']|1912.11691v1
+RecurrentSceneParsing|44.5%|null|[']']|1705.07238v2
+Light-Weight-RefineNet-152|44.4%|null|[']']|1810.03272v1
+Depth-aware CNN|43.9%|null|[']']|1803.06791v1
+Light-Weight-RefineNet-101|43.6%|null|[']']|1810.03272v1
+TD2-PSP50|43.5|null|[']']|2004.01800v2
+NDDR-CNN|43.3%|null|[']']|1801.08297v4
+3DGNN|43.1%|null|[']']|null
+CI-Net|42.6%|null|[']']|2107.13800v2
+Multi-Task Light-Weight-RefineNet|42.0%|null|[']']|1809.04766v2
+Light-Weight-RefineNet-50|41.7%|null|[']']|1810.03272v1
+MTML|41.51%|null|[']']|2210.06989v4
+RAN|41.2%|null|[']']|1707.06426v1
+DenseMTL|40.84%|null|[']']|2206.08927v1
+STD2P|40.1%|null|[']']|1604.02388v3
+MaskSup|39.31%|null|[']']|2210.00923v2
+HeMIS|37.77%|null|[']']|1607.05194v1
+TD4-PSP18|37.4|null|[']']|2004.01800v2
+Bayesian DenseNet|37.3%|null|[']']|1703.04977v2
+HN-network|33.49%|null|[']']|2002.02200v1
+CompL|33.48%|null|[']']|2210.07239v1
+Dilated FCN-2s RGB|32.3%|null|[']']|1707.08254v3
+AdaShare|29.6%|null|[']']|1911.12423v2
+EDNAS+JAReD|22.1%|null|[']']|2210.01384v1
+Cross-stitch|19.3%|null|[']']|1604.03539v1
+FCN-32s RGB-HHA|null|null|[']}]</script']|1605.06211v1

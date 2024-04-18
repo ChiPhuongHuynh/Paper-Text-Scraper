@@ -1,0 +1,70 @@
+name|accuracy|params|tags|id
+LightedDepth (Video Method)|0.041|null|[']']|null
+FutureDepth|0.041|null|[']']|2403.12953v1
+UniDepth (Zero-shot)|0.042|null|[']']|2403.18913v1
+SQLdepth (ConvNeXt-L)|0.043|null|[']']|2309.00526v1
+AFNet|0.044|null|[']']|2403.07535v1
+Depth Anything|0.046|null|[']']|2401.10891v2
+MetaPrompt-SD|0.047|null|[']']|2312.14733v1
+ECoDepth|0.048|null|[']']|2403.18807v3
+EVP|0.048|null|[']']|2312.08548v1
+GEDepth|0.048|null|[']']|2309.09975v1
+MAMo|0.049|null|[']']|2307.14336v2
+SwinV2-L 1K-MIM|0.050|null|[']']|2205.13543v2
+IEBins|0.050|null|[']']|2309.14137v1
+NDDepth|0.050|null|[']']|2309.10592v2
+URCDC-Depth|0.050|null|[']']|2302.08149v2
+iDisc|0.050|null|[']']|2304.06334v1
+DDP (Swin-L, step-3)|0.050|null|[']']|2303.17559v2
+PixelFormer|0.051|null|[']']|2210.09071v1
+SwinV2-B 1K-MIM|0.052|null|[']']|2205.13543v2
+BinsFormer|0.052|null|[']']|2204.00987v1
+NeWCRFs|0.052|null|[']']|2203.01502v2
+DepthFormer|0.052|null|[']']|2203.14211v1
+MonoDELSNet|0.053|null|[']']|2103.12209v3
+SfM-Revisited|0.055|null|[']']|2104.00556v1
+D-Net|0.056|null|[']']|null
+GLPDepth|0.057|null|[']']|2201.07436v3
+NVS-MonoDepth|0.057|null|[']']|2112.12577v1
+Depthformer|0.058|null|[']']|2207.04535v2
+AdaBins|0.058|null|[']']|2011.14141v1
+Metric3D (zero-shot)|0.058|null|[']']|2307.10984v1
+LapDepth|0.059|null|[']']|null
+DPT-Hybrid|0.062|null|[']']|2103.13413v1
+BTS|0.064|null|[']']|1907.10326v6
+DINOv2 (ViT-g/14 frozen, w/ DPT decoder)|0.0652|null|[']']|2304.07193v2
+LightDepth|0.070|null|[']']|2211.08608v2
+DORN|0.072|null|[']']|1806.02446v1
+VNL|0.072|null|[']']|1907.12209v2
+DSN|0.075|null|[']']|2010.06626v2
+Focal-WNet|0.082|null|[']']|null
+VOMonodepth|0.091|null|[']']|1908.03127v2
+DenseDepth|0.093|null|[']']|1812.11941v2
+SVS|0.094|null|[']']|1803.02612v2
+monoResMatch|0.096|null|[']']|1904.04144v1
+SemiDepth|0.096|null|[']']|1905.07542v1
+CFA|0.096|null|[']']|1803.08018v2
+Depth Hints|0.096|null|[']']|1909.09051v1
+SOM|0.097|null|[']']|1909.04594v1
+Marigold|0.099|null|[']']|2312.02145v2
+GCNDepth|0.104|null|[']']|2112.06782v1
+monodepth2 M|0.106|null|[']']|1806.01260v4
+DeepLabV3+ (F10)|0.110|null|[']']|2001.05036v1
+DiPE|0.112|null|[']']|2003.01360v3
+DNet|0.113|null|[']']|2004.05560v2
+LSIM|0.113|null|[']']|1905.00401v1
+SC-Depth (ResNet 50)|0.114|null|[']']|2105.11610v1
+SemanticAware|0.118|null|[']']|null
+SC-Depth (ResNet18)|0.119|null|[']']|2105.11610v1
+PackNet-SfM|0.12|null|[']']|1905.02693v4
+3Net|0.126|null|[']']|1808.01606v1
+SC-SfMLearner_CS+K|0.128|null|[']']|1908.10553v2
+SelfDepthNorm|0.133|null|[']']|1903.00112v1
+SIGNet|0.133|null|[']']|1812.05642v2
+struct2depth|0.135|null|[']']|1811.06152v1
+SC-SfMLearner|0.137|null|[']']|1908.10553v2
+CC|0.140|null|[']']|1805.09806v3
+SIW|0.14|null|[']']|2202.02002v1
+LeReS|0.149|null|[']']|2012.09365v1
+GASDA|0.149|null|[']']|1904.01870v1
+VDA|0.193|null|[']}]</script']|1903.10764v2

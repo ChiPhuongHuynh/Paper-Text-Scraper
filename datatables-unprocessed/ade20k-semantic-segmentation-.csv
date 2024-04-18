@@ -1,0 +1,224 @@
+name|accuracy|params|tags|id
+ONE-PEACE|63.0|null|[']']|2305.11172v1
+InternImage-H|62.9|null|[']']|2211.05778v4
+M3I Pre-training (InternImage-H)|62.9|null|[']']|2211.09807v2
+BEiT-3|62.8|null|['ViT-Giant']|2208.10442v2
+EVA|62.3|null|['ViT-Giant']|2211.07636v2
+ViT-Adapter-L (Mask2Former, BEiTv2 pretrain)|61.5|null|[']']|2205.08534v4
+FD-SwinV2-G|61.4|null|['Swin-Transformer']|2205.14141v3
+RevCol-H (Mask2Former)|61.0|null|['CNN']|2212.11696v3
+MasK DINO (SwinL, multi-scale)|60.8|null|[']']|2206.02777v3
+ViT-Adapter-L (Mask2Former, BEiT pretrain)|60.5|null|[']']|2205.08534v4
+DINOv2 (ViT-g/14 frozen model, w/ ViT-Adapter + Mask2former)|60.2|null|[']']|2304.07193v2
+SwinV2-G(UperNet)|59.9|null|['Swin-Transformer']|2111.09883v2
+FocalNet-L (Mask2Former)|58.5|null|[']']|2203.11926v3
+ViT-Adapter-L (UperNet, BEiT pretrain)|58.4|null|[']']|2205.08534v4
+RSSeg-ViT-L (BEiT pretrain)|58.4|null|[']']|2212.13764v1
+SegViT-v2 (BEiT-v2-Large)|58.2|null|[']']|2306.06289v2
+SeMask (SeMask Swin-L FaPN-Mask2Former)|58.2|null|['Swin-Transformer']|2112.12782v3
+SeMask (SeMask Swin-L MSFaPN-Mask2Former)|58.2|null|[']']|2112.12782v3
+DiNAT-L (Mask2Former)|58.1|null|['Transformer', 'Neighborhood Attention']|2209.15001v3
+HorNet-L (Mask2Former)|57.9|null|[']']|2207.14284v3
+Mask2Former (SwinL-FaPN)|57.7|null|[']']|2112.01527v3
+FASeg (SwinL)|57.7|null|[']']|2204.01244v3
+RR (BEiT-L)|57.7|null|[']']|2204.01969v1
+MOAT-4 (IN-22K pretraining, single-scale)|57.6|null|[']']|2210.01820v2
+Frozen Backbone, SwinV2-G-ext22K (Mask2Former)|57.6|null|[']']|2211.02043v1
+SeMask (SeMask Swin-L Mask2Former)|57.5|null|['Swin-Transformer']|2112.12782v3
+Mask2Former (SwinL)|57.3|null|[']']|2112.01527v3
+SenFormer (BEiT-L)|57.1|null|[']']|2111.13280v2
+BEiT-L (ViT+UperNet)|57.0|null|['Transformer']|2106.08254v2
+SeMask(SeMask Swin-L MSFaPN-Mask2Former, single-scale)|57.0|null|[']']|2112.12782v3
+MetaPrompt-SD|56.8|null|[']']|2312.14733v1
+FaPN (MaskFormer, Swin-L, ImageNet-22k pretrain)|56.7|null|['Swin-Transformer']|2108.07058v2
+MOAT-3 (IN-22K pretraining, single-scale)|56.5|null|[']']|2210.01820v2
+Mask2Former (Swin-L-FaPN)|56.4|null|[']']|2112.01527v3
+SeMask (SeMask Swin-L MaskFormer)|56.2|null|['Swin-Transformer']|2112.12782v3
+dBOT ViT-L (CLIP)|56.2|null|[']']|2209.03917v3
+Mask2Former+CBL(Swin-B)|56.1|null|[']']|null
+TADP|55.9|null|[']']|2310.00031v3
+CSWin-L (UperNet, ImageNet-22k pretrain)|55.70|null|['Transformer']|2107.00652v3
+UniRepLKNet-XL|55.6|null|[']']|2311.15599v2
+Focal-L (UperNet, ImageNet-22k pretrain)|55.40|null|['Focal-Transformer']|2107.00641v1
+InternImage-XL|55.3|null|[']']|2211.05778v4
+dBOT ViT-L|55.2|null|[']']|2209.03917v3
+Mask2Former(Swin-B)|55.1|null|[']']|2112.01527v3
+ConvNeXt V2-H (FCMAE)|55|null|[']']|2301.00808v1
+UniRepLKNet-L++|55|null|[']']|2311.15599v2
+DiNAT-Large (UperNet)|54.9|null|[']']|2209.15001v3
+MaskFormer+CBL(Swin-B)|54.9|null|[']']|null
+TransNeXt-Base (IN-1K pretrain, Mask2Former, 512)|54.7|null|[']']|2311.17132v2
+MOAT-2 (IN-22K pretraining, single-scale)|54.7|null|[']']|2210.01820v2
+CAE (ViT-L, UperNet)|54.7|null|[']']|2202.03026v3
+VAN-B6|54.7|null|[']']|2202.09741v5
+DiNAT_s-Large (UperNet)|54.6|null|[']']|2209.15001v3
+DDP (Swin-L, step-3)|54.4|null|[']']|2303.17559v2
+PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)|54.4|null|[']']|2104.12753v3
+VOLO-D5|54.3|null|[']']|2106.13112v2
+K-Net|54.3|null|[']']|2106.14855v2
+GPaCo (Swin-L)|54.3|null|[']']|2209.12400v2
+SenFormer (Swin-L)|54.2|null|[']']|2111.13280v2
+Swin V2-H|54.2|null|[']']|2301.00808v1
+InternImage-L|54.1|null|[']']|2211.05778v4
+TransNeXt-Small (IN-1K pretrain, Mask2Former, 512)|54.1|null|[']']|2311.17132v2
+ConvNeXt-XL++|54|null|[']']|2201.03545v2
+Sequential Ensemble (SegFormer)|54|null|['HRNet', 'Transformer', 'Ensemble']|2210.05387v1
+MogaNet-XL (UperNet)|54|null|[']']|2211.03295v3
+UniRepLKNet-B++|53.9|null|[']']|2311.15599v2
+MaskFormer(Swin-B)|53.8|null|[']']|2107.06278v2
+ConvNeXt-L++|53.7|null|[']']|2201.03545v2
+SwinV2-G-HTC++ Liu et al. ([2021a])|53.7|null|[']']|2111.09883v2
+ConvNeXt V2-L|53.7|null|[']']|2301.00808v1
+Seg-L-Mask/16 (MS)|53.63|null|['Transformer']|2105.05633v3
+MAE (ViT-L, UperNet)|53.6|null|[']']|2111.06377v2
+SeMask (SeMask Swin-L FPN)|53.52|null|[']']|2112.12782v3
+Swin-L (UperNet, ImageNet-22k pretrain)|53.50|null|['Swin-Transformer']|2103.14030v2
+Swin-L|53.5|null|[']']|2301.00808v1
+TransNeXt-Tiny (IN-1K pretrain, Mask2Former, 512)|53.4|null|[']']|2311.17132v2
+ConvNeXt-B++|53.1|null|[']']|2201.03545v2
+PatchConvNet-L120 (UperNet)|52.9|null|[']']|2112.13692v1
+dBOT ViT-B (CLIP)|52.9|null|[']']|2209.03917v3
+PatchConvNet-B120\n(UperNet)|52.8|null|[']']|2112.13692v1
+Swin-B|52.8|null|[']']|2301.00808v1
+UniRepLKNet-S++|52.7|null|[']']|2311.15599v2
+ConvNeXt V2-B|52.1|null|[']']|2301.00808v1
+LV-ViT-L (UperNet, MS)|51.8|null|['Transformer']|2104.10858v3
+SegFormer-B5|51.8|null|[']']|2105.15203v3
+BiFormer-B (IN1k pretrain, Upernet 160k)|51.7|null|[']']|2303.08810v1
+ConvNeXt V2-L (Supervised)|51.6|null|[']']|2301.00808v1
+Light-Ham (VAN-Huge)|51.5|null|[']']|2109.04553v2
+DAT-B++|51.5|null|[']']|2309.01430v1
+CrossFormer (ImageNet1k-pretrain, UPerNet, multi-scale test)|51.4|null|[']']|2108.00154v2
+InternImage-B|51.3|null|[']']|2211.05778v4
+DAT-S++|51.2|null|[']']|2309.01430v1
+ActiveMLP-L(UperNet)|51.1|null|[']']|2203.06108v2
+SegFormer-B4|51.1|null|[']']|2105.15203v3
+PatchConvNet-B60 (UperNet)|51.1|null|[']']|2112.13692v1
+Light-Ham (VAN-Large)|51.0|null|[']']|2109.04553v2
+TEC (Vit-B, Upernet)|51.0|null|[']']|2210.11016v1
+UniRepLKNet-S|51|null|[']']|2311.15599v2
+SeMask (SeMask Swin-B FPN)|50.98|null|[']']|2112.12782v3
+InternImage-S|50.9|null|[']']|2211.05778v4
+MogaNet-L (UperNet)|50.9|null|[']']|2211.03295v3
+dBOT ViT-B|50.8|null|[']']|2209.03917v3
+Upernet-BiFormer-S (IN1k pretrain, Upernet 160k)|50.8|null|[']']|2303.08810v1
+UperNet Shuffle-B|50.5|null|[']']|2106.03650v1
+ConvNeXt V1-L|50.5|null|[']']|2301.00808v1
+DiNAT-Base (UperNet)|50.4|null|[']']|2209.15001v3
+ELSA-Swin-S|50.3|null|[']']|2112.12786v1
+DAT-T++|50.3|null|[']']|2309.01430v1
+SETR-MLA (160k, MS)|50.28|null|[']']|2012.15840v3
+VAN-Large (HamNet)|50.2|null|[']']|2202.09741v5
+HRViT-b3 (SegFormer, SS)|50.2|null|['Transformer', 'multiscale']|2111.01236v2
+Twins-SVT-L (UperNet, ImageNet-1k pretrain)|50.2|null|[']']|2104.13840v4
+MogaNet-B (UperNet)|50.1|null|[']']|2211.03295v3
+Seg-B-Mask/16(MS, ViT-B)|50.0|null|[']']|2105.05633v3
+iBOT (ViT-B/16)|50.0|null|[']']|2111.07832v3
+ConvNeXt-B|49.9|null|[']']|2201.03545v2
+DiNAT-Small (UperNet)|49.9|null|[']']|2209.15001v3
+ConvNeXt V1-B|49.9|null|[']']|2301.00808v1
+NAT-Base|49.7|null|['NAT Transformer', 'Transformer', 'Neighborhood Attention']|2204.07143v5
+Swin-B (UperNet, ImageNet-1k pretrain)|49.7|null|[']']|2103.14030v2
+Seg-B/8 (MS, ViT-B)|49.61|null|[']']|2105.05633v3
+ConvNeXt-S|49.6|null|[']']|2201.03545v2
+Light-Ham (VAN-Base)|49.6|null|[']']|2109.04553v2
+NAT-Small|49.5|null|['NAT Transformer', 'Transformer', 'Neighborhood Attention']|2204.07143v5
+DaViT-B|49.4|null|[']']|2204.03645v1
+DAT-B (UperNet)|49.38|null|[']']|2201.00520v3
+PatchConvNet-S60 (UperNet)|49.3|null|[']']|2112.13692v1
+MogaNet-S (UperNet)|49.2|null|[']']|2211.03295v3
+Shift-B (UperNet)|49.2|null|[']']|2201.10801v1
+UniRepLKNet-T|49.1|null|[']']|2311.15599v2
+DPT-Hybrid|49.02|null|['Transformer']|2103.13413v1
+GC ViT-B|49|null|[']']|2206.09959v5
+A2MIM (ViT-B)|49|null|[']']|2205.13943v4
+EfficientViT-B3 (r512)|49|null|[']']|2205.14756v6
+DiNAT-Tiny (UperNet)|48.8|null|[']']|2209.15001v3
+HRViT-b2 (SegFormer, SS)|48.76|null|['Transformer', 'multiscale']|2111.01236v2
+NAT-Tiny|48.4|null|['NAT Transformer', 'Transformer', 'Neighborhood Attention']|2204.07143v5
+XCiT-M24/8 (UperNet)|48.4|null|['Transformer']|2106.09681v2
+ResNeSt-200|48.36|null|[']']|2004.08955v2
+DAT-S (UperNet)|48.31|null|[']']|2201.00520v3
+GC ViT-S|48.3|null|[']']|2206.09959v5
+InternImage-T|48.1|null|[']']|2211.05778v4
+VAN-Large|48.1|null|[']']|2202.09741v5
+XCiT-S24/8 (UperNet)|48.1|null|['Transformer']|2106.09681v2
+MaskFormer(ResNet-101)|48.1|null|[']']|2107.06278v2
+MAE (ViT-B, UperNet)|48.1|null|[']']|2111.06377v2
+HRNetV2 + OCR + RMI (PaddleClas pretrained)|47.98|null|[']']|1909.11065v6
+Shift-B|47.9|null|[']']|2201.10801v1
+Shift-S|47.8|null|[']']|2201.10801v1
+MogaNet-S (Semantic FPN)|47.7|null|[']']|2211.03295v3
+SeMask (SeMask Swin-S FPN)|47.63|null|[']']|2112.12782v3
+ResNeSt-269|47.60|null|[']']|2004.08955v2
+UperNet Shuffle-T|47.6|null|[']']|2106.03650v1
+CondNet(ResNest-101)|47.54|null|[']']|2109.10322v1
+tiny-MOAT-3 (IN-1K pretraining, single scale)|47.5|null|[']']|2210.01820v2
+CondNet(ResNet-101)|47.38|null|[']']|2109.10322v1
+DiNAT-Mini (UperNet)|47.2|null|[']']|2209.15001v3
+DCNAS|47.12|null|[']']|2003.11883v2
+XCiT-S24/8 (Semantic-FPN)|47.1|null|['Transformer']|2106.09681v2
+ResNeSt-101|46.91|null|[']']|2004.08955v2
+XCiT-M24/8 (Semantic-FPN)|46.9|null|['Transformer']|2106.09681v2
+HamNet (ResNet-101)|46.8|null|['ResNet']|2109.04553v2
+Sequential Ensemble (DeepLabv3+)|46.8|null|['ResNet-101', 'DeepLab v3+', 'Ensemble']|2210.05387v1
+ConvNeXt-T|46.7|null|[']']|2201.03545v2
+VAN-Base (Semantic-FPN)|46.7|null|[']']|2202.09741v5
+XCiT-S12/8 (UperNet)|46.6|null|['Transformer']|2106.09681v2
+GC ViT-T|46.5|null|[']']|2206.09959v5
+NAT-Mini|46.4|null|['NAT Transformer', 'Transformer', 'Neighborhood Attention']|2204.07143v5
+Shift-T|46.3|null|[']']|2201.10801v1
+DaViT-T|46.3|null|[']']|2204.03645v1
+CPN(ResNet-101)|46.27|null|['ResNet']|2004.01547v1
+MultiMAE (ViT-B)|46.2|null|[']']|2204.01678v1
+DRAN(ResNet-101)|46.18|null|['ResNet']|null
+PyConvSegNet-152|45.99|null|['CNN']|2006.11538v1
+DNL|45.97|null|[']']|2006.06668v2
+ACNet (ResNet-101)|45.90|null|[']']|1911.01664v1
+ACNet\n(ResNet-101)|45.90|null|[']']|1911.01664v1
+HRViT-b1 (SegFormer, SS)|45.88|null|['Transformer', 'multiscale']|2111.01236v2
+OCR(HRNetV2-W48)|45.66|null|[']']|1909.11065v6
+SPNet (ResNet-101)|45.6|null|['ResNet']|2003.13328v1
+Swin-T (UPerNet) MoBY|45.58|null|['Transformer', 'Swin-Transformer']|2105.04553v2
+DAT-T (UperNet)|45.54|null|[']']|2201.00520v3
+iBOT (ViT-S/16)|45.4|null|[']']|2111.07832v3
+EANet\n(ResNet-101)|45.33|null|[']']|2105.02358v2
+OCR (ResNet-101)|45.28|null|[']']|1909.11065v6
+Asymmetric ALNN|45.24|null|[']']|1908.07678v5
+Light-Ham (VAN-Small, D=256)|45.2|null|[']']|2109.04553v2
+LaU-regression-loss|45.02|null|['CNN']|1911.05250v2
+PSPNet|44.94|null|[']']|1612.01105v2
+tiny-MOAT-2 (IN-1K pretraining, single scale)|44.9|null|[']']|2210.01820v2
+CFNet(ResNet-101)|44.89|null|['ResNet']|null
+EncNet|44.65|null|[']']|1803.08904v1
+LaU-offset-loss|44.55|null|['CNN']|1911.05250v2
+EncNet + JPU|44.34|null|['CNN']|1903.11816v1
+SGR (ResNet-101)|44.32|null|[']']|null
+XCiT-S12/8 (Semantic-FPN)|44.2|null|['Transformer']|2106.09681v2
+Auto-DeepLab-L|43.98|null|[']']|1901.02985v2
+PSANet (ResNet-101)|43.77|null|[']']|null
+DSSPN (ResNet-101)|43.68|null|[']']|1803.06067v1
+PSPNet (ResNet-152)|43.51|null|[']']|1612.01105v2
+PSPNet\n(ResNet-101)|43.29|null|[']']|1612.01105v2
+HRNetV2|43.2|null|[']']|1904.04514v1
+SeMask (SeMask Swin-T FPN)|43.16|null|[']']|2112.12782v3
+tiny-MOAT-1 (IN-1K pretraining, single scale)|43.1|null|[']']|2210.01820v2
+VAN-Small|42.9|null|[']']|2202.09741v5
+PoolFormer-M48|42.7|null|[']']|2111.11418v3
+UperNet (ResNet-101)|42.66|null|[']']|1807.10221v1
+tiny-MOAT-0 (IN-1K pretraining, single scale)|41.2|null|[']']|2210.01820v2
+RefineNet|40.7|null|[']']|1611.06612v3
+FBNetV5|40.4|null|[']']|2111.10007v2
+ConvMLP-L|40|null|[']']|2109.04454v2
+ConvMLP-M|38.6|null|[']']|2109.04454v2
+VAN-Tiny|38.5|null|[']']|2202.09741v5
+A2MIM (ResNet-50)|38.3|null|[']']|2205.13943v4
+iBOT (ViT-B/16) (linear head)|38.3|null|[']']|2111.07832v3
+SegFormer-B0|37.4|null|[']']|2105.15203v3
+MUXNet-m + PPM|35.8|null|['CNN']|2003.13880v2
+ConvMLP-S|35.8|null|[']']|2109.04454v2
+MUXNet-m + C1|32.42|null|['CNN']|2003.13880v2
+DilatedNet|32.31|null|['CNN']|1511.07122v3
+FCN|29.39|null|['CNN']|1411.4038v2
+SegNet|21.64|null|['CNN']|1511.00561v3
+InternImage-H (M3I Pre-training)|null|null|['DCN', 'Deformable Convolution']|2211.05778v4

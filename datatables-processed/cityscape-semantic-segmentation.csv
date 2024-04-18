@@ -1,0 +1,100 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Semantic Segmentation,CityScapes,VLTSeg,86.4,1.0,,[],2312.02021v2
+Semantic Segmentation,CityScapes,MetaPrompt-SD,86.2,0.9954883825851567,,[],2312.14733v1
+Semantic Segmentation,CityScapes,InternImage-H,86.1,0.9932325738777349,,"['Deformable Convolution', 'DCN']",2211.05778v4
+Semantic Segmentation,CityScapes,HS3-Fuse,85.8,0.9864651477554701,,[],2111.02333v1
+Semantic Segmentation,CityScapes,InverseForm,85.6,0.9819535303406268,,[],2104.02745v2
+Semantic Segmentation,CityScapes,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",85.2,0.9729302955109406,,[],2205.08534v4
+Semantic Segmentation,CityScapes,SERNet-Former,84.83,0.9645838032934806,,[],2401.15741v4
+Semantic Segmentation,CityScapes,Depth Anything,84.8,0.9639070606812541,,[],2401.10891v2
+Semantic Segmentation,CityScapes,HRNetV2 + OCR +,84.5,0.9571396345589893,,['hrnet'],1909.11065v6
+Semantic Segmentation,CityScapes,EfficientPS,84.21,0.9505977893074664,,[],2004.02307v3
+Semantic Segmentation,CityScapes,Panoptic-DeepLab,84.2,0.9503722084367245,,[],1911.10194v3
+Semantic Segmentation,CityScapes,HRNetV2 + OCR (w/ ASP),83.7,0.9390931648996165,,['hrnet'],1909.11065v6
+Semantic Segmentation,CityScapes,DCNAS(coarse + Mapillary),83.6,0.9368373561921947,,[],2003.11883v2
+Semantic Segmentation,CityScapes,Euclidean Frank-Wolfe CRFs (backbon,83.6,0.9368373561921947,,[],2110.14759v2
+Semantic Segmentation,CityScapes,GALDNet(+Mapillary)++,83.3,0.9300699300699299,,[],1909.07229v1
+Semantic Segmentation,CityScapes,ResNeSt200 (Mapillary),83.3,0.9300699300699299,,[],2004.08955v2
+Semantic Segmentation,CityScapes,HANet (Height-driven Attention Networks by LGE A\u0026B)(coarse),83.2,0.9278141213625084,,[],2003.05128v3
+Semantic Segmentation,CityScapes,"kMaX-DeepLab (ConvNeXt-L, fine only)",83.2,0.9278141213625084,,[],2207.04044v5
+Semantic Segmentation,CityScapes,"SegFormer (MiT-B5, Mapillary)",83.1,0.9255583126550866,,['Transformer'],2105.15203v3
+Semantic Segmentation,CityScapes,"OCR (HRNetV2-W48, coarse)",83.0,0.9233025039476651,,['hrnet'],1909.11065v6
+Semantic Segmentation,CityScapes,MRFM(coarse),83.0,0.9233025039476651,,[],2011.08577v2
+Semantic Segmentation,CityScapes,DNL (coarse),83.0,0.9233025039476651,,[],2006.06668v2
+Semantic Segmentation,CityScapes,Gated-SCNN,82.8,0.9187908865328218,,[],1907.05740v1
+Semantic Segmentation,CityScapes,Dense Prediction Cell,82.7,0.9165350778254003,,[],1809.04184v1
+Semantic Segmentation,CityScapes,CAA (ResNet-101),82.6,0.9142792691179785,,['ResNet'],2101.07434v5
+Semantic Segmentation,CityScapes,"OCR (ResNet-101, coarse)",82.4,0.9097676517031356,,['ResNet'],1909.11065v6
+Semantic Segmentation,CityScapes,DDRNet-39 1.5x,82.4,0.9097676517031356,,[],2101.06085v2
+Semantic Segmentation,CityScapes,SSMA,82.3,0.9075118429957137,,[],1808.03833v3
+Semantic Segmentation,CityScapes,Gated Fully Fusion,82.3,0.9075118429957137,,[],1904.01803v2
+Semantic Segmentation,CityScapes,Auto-DeepLab-L,82.1,0.9030002255808705,,[],1901.02985v2
+Semantic Segmentation,CityScapes,DGCNet (ResNet-101),82.0,0.900744416873449,,"['GCN', 'ResNet']",1909.06121v3
+Semantic Segmentation,CityScapes,SPNet (ResNet-101),82.0,0.900744416873449,,['ResNet'],2003.13328v1
+Semantic Segmentation,CityScapes,OCR (ResNet-101),81.8,0.8962327994586057,,['ResNet'],1909.11065v6
+Semantic Segmentation,CityScapes,OCNet,81.7,0.8939769907511842,,[],1809.00916v4
+Semantic Segmentation,CityScapes,SETR-PUP++,81.64,0.8926235055267312,,[],2012.15840v3
+Semantic Segmentation,CityScapes,HRNet (HRNetV2-W48),81.6,0.8917211820437625,,[],1904.04514v1
+Semantic Segmentation,CityScapes,HRNetV2 (train+val),81.6,0.8917211820437625,,['hrnet'],1908.07919v2
+Semantic Segmentation,CityScapes,DANet (ResNet-101),81.5,0.889465373336341,,['ResNet'],1809.02983v4
+Semantic Segmentation,CityScapes,CCNet,81.4,0.8872095646289195,,[],1811.11721v2
+Semantic Segmentation,CityScapes,BFP,81.4,0.8872095646289195,,[],1909.00179v1
+Semantic Segmentation,CityScapes,"DeepLabv3 (ResNet-101, coarse)",81.3,0.8849537559214977,,['ResNet'],1706.05587v3
+Semantic Segmentation,CityScapes,CPN(ResNet-101),81.3,0.8849537559214977,,['ResNet'],2004.01547v1
+Semantic Segmentation,CityScapes,Asymmetric ALNN,81.3,0.8849537559214977,,[],1908.07678v5
+Semantic Segmentation,CityScapes,AdapNet++,81.24,0.8836002706970446,,[],1808.03833v3
+Semantic Segmentation,CityScapes,SVCNet (ResNet-101),81.0,0.878186329799233,,['ResNet'],1909.02651v1
+Semantic Segmentation,CityScapes,D3Net-L,80.8,0.8736747123843897,,['D3Net'],2011.11844v2
+Semantic Segmentation,CityScapes,Smooth Network with Channel Attention Block,80.3,0.8623956688472816,,[],1804.09337v1
+Semantic Segmentation,CityScapes,PSPNet++,80.2,0.8601398601398601,,[],1612.01105v2
+Semantic Segmentation,CityScapes,ESANet-R34-NBt1D,80.09,0.8576584705616963,,[],2011.06961v3
+Semantic Segmentation,CityScapes,DeepLabV3 with R-101,79.9,0.8533724340175953,,[],2307.14179v1
+Semantic Segmentation,CityScapes,DFN (ResNet-101),79.3,0.8398375817730654,,['ResNet'],1804.09337v1
+Semantic Segmentation,CityScapes,AAF (ResNet-101),79.1,0.8353259643582222,,['ResNet'],1803.10335v3
+Semantic Segmentation,CityScapes,ShelfNet-34,79.0,0.8330701556508007,,[],1811.11254v6
+Semantic Segmentation,CityScapes,BiSeNet (ResNet-101),78.9,0.8308143469433792,,['ResNet'],1808.00897v1
+Semantic Segmentation,CityScapes,ResNet-38,78.4,0.8195353034062711,,['ResNet'],1611.10080v1
+Semantic Segmentation,CityScapes,PSPNet,78.4,0.8195353034062711,,[],1612.01105v2
+Semantic Segmentation,CityScapes,DepthSeg (ResNet-101),78.2,0.8150236859914279,,['ResNet'],1705.07238v2
+Semantic Segmentation,CityScapes,DSSPN (ResNet-101),77.8,0.8060004511617413,,['ResNet'],1803.06067v1
+Semantic Segmentation,CityScapes,DUC-HDC (ResNet-101),77.6,0.801488833746898,,['ResNet'],1702.08502v3
+Semantic Segmentation,CityScapes,SaGe,76.9,0.785698172794947,,[],2111.13163v1
+Semantic Segmentation,CityScapes,SwiftNetRN-18,75.5,0.7541168508910443,,[],1903.08469v2
+Semantic Segmentation,CityScapes,RefineNet (ResNet-101),73.6,0.7112564854500336,,['ResNet'],1611.06612v3
+Semantic Segmentation,CityScapes,MobileNet V3-Large 1.0,72.6,0.6886983983758175,,[],1905.02244v5
+Semantic Segmentation,CityScapes,SqueezeNAS (LAT Large),72.5,0.686442589668396,,[],1908.01748v2
+Semantic Segmentation,CityScapes,Multi Scale Spatial Attention,72.4,0.6841867809609745,,[],2007.12685v3
+Semantic Segmentation,CityScapes,FRRN,71.8,0.6706519287164447,,[],1611.08323v2
+Semantic Segmentation,CityScapes,LRR-4x,71.8,0.6706519287164447,,[],1605.02264v2
+Semantic Segmentation,CityScapes,Context,71.6,0.6661403113016015,,[],1504.01013v4
+Semantic Segmentation,CityScapes,FasterSeg,71.5,0.66388450259418,,[],1912.10917v2
+Semantic Segmentation,CityScapes,DFANet A,71.3,0.6593728851793367,,[],1904.02216v1
+Semantic Segmentation,CityScapes,LDFNet,71.3,0.6593728851793367,,[],1809.09077v3
+Semantic Segmentation,CityScapes,LightSeg-DarkNet19,70.75,0.6469659372885178,,[],1912.06683v1
+Semantic Segmentation,CityScapes,ESNet,70.7,0.6458380329348071,,[],1906.09826v1
+Semantic Segmentation,CityScapes,ICNet,70.6,0.6435822242273853,,[],1704.08545v2
+Semantic Segmentation,CityScapes,LEDNet,70.6,0.6435822242273853,,[],1905.02423v3
+Semantic Segmentation,CityScapes,WASPnet (ours),70.5,0.6413264155199638,,[],1912.03183v1
+Semantic Segmentation,CityScapes,DeepLab-CRF (ResNet-101),70.4,0.6390706068125424,,['ResNet'],1606.00915v2
+Semantic Segmentation,CityScapes,Fast-SCNN,68.0,0.5849311978344236,,[],1902.04502v1
+Semantic Segmentation,CityScapes,LightSeg-MobileNet,67.81,0.5806451612903225,,[],1912.06683v1
+Semantic Segmentation,CityScapes,LiteSeg-MobileNet,67.81,0.5806451612903225,,[],1912.06683v1
+Semantic Segmentation,CityScapes,Template-Based NAS-arch1,67.8,0.5804195804195803,,[],1904.02365v2
+Semantic Segmentation,CityScapes,Template-Based NAS-arch0,67.7,0.5781637717121588,,[],1904.02365v2
+Semantic Segmentation,CityScapes,EDANet,67.3,0.5691405368824722,,[],1809.06323v3
+Semantic Segmentation,CityScapes,Dilation10,67.1,0.5646289194676289,,[],1511.07122v3
+Semantic Segmentation,CityScapes,DPN,66.8,0.5578614933453642,,[],1509.02634v2
+Semantic Segmentation,CityScapes,SqueezeNAS (LAT Small),66.8,0.5578614933453642,,[],1908.01748v2
+Semantic Segmentation,CityScapes,SINet,66.5,0.5510940672230994,,[],1911.09099v4
+Semantic Segmentation,CityScapes,ESPNetv2,66.2,0.5443266411008346,,[],1811.11431v3
+Semantic Segmentation,CityScapes,FCN,65.3,0.5240243627340401,,[],1605.06211v1
+Semantic Segmentation,CityScapes,LightSeg-ShuffleNet,65.17,0.521091811414392,,[],1912.06683v1
+Semantic Segmentation,CityScapes,LiteSeg-ShuffleNet,65.17,0.521091811414392,,[],1912.06683v1
+Semantic Segmentation,CityScapes,DeepLab,63.1,0.47439657117076467,,[],1412.7062v4
+Semantic Segmentation,CityScapes,ENet + Lov\u00e1sz-Softmax,63.06,0.4734942476877961,,[],1705.08790v2
+Semantic Segmentation,CityScapes,ESPNet,60.3,0.4112339273629595,,[],1803.06815v3
+Semantic Segmentation,CityScapes,ENet,58.3,0.3661177532145273,,[],1606.02147v1
+Semantic Segmentation,CityScapes,SegNet,57.0,0.3367922400180464,,[],1511.00561v3
+Semantic Segmentation,CityScapes,IkshanaNet-1,54.82,0.2876156101962553,,[],2101.10837v4
+Semantic Segmentation,CityScapes,IkshanaNet-2,45.02,0.06654635686893758,,[],2101.10837v4
+Semantic Segmentation,CityScapes,IkshanaNet-3,42.07,0.0,,[],2101.10837v4

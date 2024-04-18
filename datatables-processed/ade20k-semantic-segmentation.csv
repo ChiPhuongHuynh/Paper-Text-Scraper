@@ -1,0 +1,217 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,,[],2305.11172v1
+Semantic Segmentation,ADE20K,InternImage-H,62.9,0.9975822050290135,,[],2211.05778v4
+Semantic Segmentation,ADE20K,M3I Pre-training (InternImage-H),62.9,0.9975822050290135,,[],2211.09807v2
+Semantic Segmentation,ADE20K,BEiT-3,62.8,0.995164410058027,,['ViT-Giant'],2208.10442v2
+Semantic Segmentation,ADE20K,EVA,62.3,0.9830754352030947,,['ViT-Giant'],2211.07636v2
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (Mask2Former, BEiTv2 pretrain)",61.5,0.9637330754352031,,[],2205.08534v4
+Semantic Segmentation,ADE20K,FD-SwinV2-G,61.4,0.9613152804642165,,['Swin-Transformer'],2205.14141v3
+Semantic Segmentation,ADE20K,RevCol-H (Mask2Former),61.0,0.9516441005802708,,['CNN'],2212.11696v3
+Semantic Segmentation,ADE20K,"MasK DINO (SwinL, multi-scale)",60.8,0.9468085106382979,,[],2206.02777v3
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",60.5,0.9395551257253385,,[],2205.08534v4
+Semantic Segmentation,ADE20K,"DINOv2 (ViT-g/14 frozen model, w/ ViT-Adapter + Mask2former)",60.2,0.9323017408123792,,[],2304.07193v2
+Semantic Segmentation,ADE20K,SwinV2-G(UperNet),59.9,0.9250483558994197,,['Swin-Transformer'],2111.09883v2
+Semantic Segmentation,ADE20K,FocalNet-L (Mask2Former),58.5,0.8911992263056093,,[],2203.11926v3
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (UperNet, BEiT pretrain)",58.4,0.8887814313346228,,[],2205.08534v4
+Semantic Segmentation,ADE20K,RSSeg-ViT-L (BEiT pretrain),58.4,0.8887814313346228,,[],2212.13764v1
+Semantic Segmentation,ADE20K,SegViT-v2 (BEiT-v2-Large),58.2,0.88394584139265,,[],2306.06289v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L FaPN-Mask2Former),58.2,0.88394584139265,,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L MSFaPN-Mask2Former),58.2,0.88394584139265,,[],2112.12782v3
+Semantic Segmentation,ADE20K,DiNAT-L (Mask2Former),58.1,0.8815280464216635,,"['Transformer', 'Neighborhood Attention']",2209.15001v3
+Semantic Segmentation,ADE20K,HorNet-L (Mask2Former),57.9,0.8766924564796905,,[],2207.14284v3
+Semantic Segmentation,ADE20K,Mask2Former (SwinL-FaPN),57.7,0.8718568665377177,,[],2112.01527v3
+Semantic Segmentation,ADE20K,FASeg (SwinL),57.7,0.8718568665377177,,[],2204.01244v3
+Semantic Segmentation,ADE20K,RR (BEiT-L),57.7,0.8718568665377177,,[],2204.01969v1
+Semantic Segmentation,ADE20K,"MOAT-4 (IN-22K pretraining, single-scale)",57.6,0.8694390715667312,,[],2210.01820v2
+Semantic Segmentation,ADE20K,"Frozen Backbone, SwinV2-G-ext22K (Mask2Former)",57.6,0.8694390715667312,,[],2211.02043v1
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L Mask2Former),57.5,0.8670212765957447,,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,Mask2Former (SwinL),57.3,0.8621856866537717,,[],2112.01527v3
+Semantic Segmentation,ADE20K,SenFormer (BEiT-L),57.1,0.8573500967117988,,[],2111.13280v2
+Semantic Segmentation,ADE20K,BEiT-L (ViT+UperNet),57.0,0.8549323017408124,,['Transformer'],2106.08254v2
+Semantic Segmentation,ADE20K,"SeMask(SeMask Swin-L MSFaPN-Mask2Former, single-scale)",57.0,0.8549323017408124,,[],2112.12782v3
+Semantic Segmentation,ADE20K,MetaPrompt-SD,56.8,0.8500967117988394,,[],2312.14733v1
+Semantic Segmentation,ADE20K,"FaPN (MaskFormer, Swin-L, ImageNet-22k pretrain)",56.7,0.847678916827853,,['Swin-Transformer'],2108.07058v2
+Semantic Segmentation,ADE20K,"MOAT-3 (IN-22K pretraining, single-scale)",56.5,0.84284332688588,,[],2210.01820v2
+Semantic Segmentation,ADE20K,Mask2Former (Swin-L-FaPN),56.4,0.8404255319148936,,[],2112.01527v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L MaskFormer),56.2,0.8355899419729208,,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,dBOT ViT-L (CLIP),56.2,0.8355899419729208,,[],2209.03917v3
+Semantic Segmentation,ADE20K,TADP,55.9,0.8283365570599612,,[],2310.00031v3
+Semantic Segmentation,ADE20K,"CSWin-L (UperNet, ImageNet-22k pretrain)",55.7,0.8235009671179885,,['Transformer'],2107.00652v3
+Semantic Segmentation,ADE20K,UniRepLKNet-XL,55.6,0.821083172147002,,[],2311.15599v2
+Semantic Segmentation,ADE20K,"Focal-L (UperNet, ImageNet-22k pretrain)",55.4,0.816247582205029,,['Focal-Transformer'],2107.00641v1
+Semantic Segmentation,ADE20K,InternImage-XL,55.3,0.8138297872340425,,[],2211.05778v4
+Semantic Segmentation,ADE20K,dBOT ViT-L,55.2,0.8114119922630562,,[],2209.03917v3
+Semantic Segmentation,ADE20K,Mask2Former(Swin-B),55.1,0.8089941972920697,,[],2112.01527v3
+Semantic Segmentation,ADE20K,ConvNeXt V2-H (FCMAE),55.0,0.8065764023210832,,[],2301.00808v1
+Semantic Segmentation,ADE20K,UniRepLKNet-L++,55.0,0.8065764023210832,,[],2311.15599v2
+Semantic Segmentation,ADE20K,DiNAT-Large (UperNet),54.9,0.8041586073500967,,[],2209.15001v3
+Semantic Segmentation,ADE20K,"TransNeXt-Base (IN-1K pretrain, Mask2Former, 512)",54.7,0.7993230174081238,,[],2311.17132v2
+Semantic Segmentation,ADE20K,"MOAT-2 (IN-22K pretraining, single-scale)",54.7,0.7993230174081238,,[],2210.01820v2
+Semantic Segmentation,ADE20K,"CAE (ViT-L, UperNet)",54.7,0.7993230174081238,,[],2202.03026v3
+Semantic Segmentation,ADE20K,VAN-B6,54.7,0.7993230174081238,,[],2202.09741v5
+Semantic Segmentation,ADE20K,DiNAT_s-Large (UperNet),54.6,0.7969052224371374,,[],2209.15001v3
+Semantic Segmentation,ADE20K,"DDP (Swin-L, step-3)",54.4,0.7920696324951644,,[],2303.17559v2
+Semantic Segmentation,ADE20K,"PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",54.4,0.7920696324951644,,[],2104.12753v3
+Semantic Segmentation,ADE20K,VOLO-D5,54.3,0.7896518375241779,,[],2106.13112v2
+Semantic Segmentation,ADE20K,K-Net,54.3,0.7896518375241779,,[],2106.14855v2
+Semantic Segmentation,ADE20K,GPaCo (Swin-L),54.3,0.7896518375241779,,[],2209.12400v2
+Semantic Segmentation,ADE20K,SenFormer (Swin-L),54.2,0.7872340425531915,,[],2111.13280v2
+Semantic Segmentation,ADE20K,Swin V2-H,54.2,0.7872340425531915,,[],2301.00808v1
+Semantic Segmentation,ADE20K,InternImage-L,54.1,0.784816247582205,,[],2211.05778v4
+Semantic Segmentation,ADE20K,"TransNeXt-Small (IN-1K pretrain, Mask2Former, 512)",54.1,0.784816247582205,,[],2311.17132v2
+Semantic Segmentation,ADE20K,ConvNeXt-XL++,54.0,0.7823984526112185,,[],2201.03545v2
+Semantic Segmentation,ADE20K,Sequential Ensemble (SegFormer),54.0,0.7823984526112185,,"['HRNet', 'Transformer', 'Ensemble']",2210.05387v1
+Semantic Segmentation,ADE20K,MogaNet-XL (UperNet),54.0,0.7823984526112185,,[],2211.03295v3
+Semantic Segmentation,ADE20K,UniRepLKNet-B++,53.9,0.7799806576402321,,[],2311.15599v2
+Semantic Segmentation,ADE20K,MaskFormer(Swin-B),53.8,0.7775628626692456,,[],2107.06278v2
+Semantic Segmentation,ADE20K,ConvNeXt-L++,53.7,0.7751450676982593,,[],2201.03545v2
+Semantic Segmentation,ADE20K,SwinV2-G-HTC++ Liu et al. ([2021a]),53.7,0.7751450676982593,,[],2111.09883v2
+Semantic Segmentation,ADE20K,ConvNeXt V2-L,53.7,0.7751450676982593,,[],2301.00808v1
+Semantic Segmentation,ADE20K,Seg-L-Mask/16 (MS),53.63,0.7734526112185687,,['Transformer'],2105.05633v3
+Semantic Segmentation,ADE20K,"MAE (ViT-L, UperNet)",53.6,0.7727272727272727,,[],2111.06377v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L FPN),53.52,0.7707930367504836,,[],2112.12782v3
+Semantic Segmentation,ADE20K,"Swin-L (UperNet, ImageNet-22k pretrain)",53.5,0.7703094777562862,,['Swin-Transformer'],2103.14030v2
+Semantic Segmentation,ADE20K,Swin-L,53.5,0.7703094777562862,,[],2301.00808v1
+Semantic Segmentation,ADE20K,"TransNeXt-Tiny (IN-1K pretrain, Mask2Former, 512)",53.4,0.7678916827852997,,[],2311.17132v2
+Semantic Segmentation,ADE20K,ConvNeXt-B++,53.1,0.7606382978723405,,[],2201.03545v2
+Semantic Segmentation,ADE20K,PatchConvNet-L120 (UperNet),52.9,0.7558027079303674,,[],2112.13692v1
+Semantic Segmentation,ADE20K,dBOT ViT-B (CLIP),52.9,0.7558027079303674,,[],2209.03917v3
+Semantic Segmentation,ADE20K,PatchConvNet-B120\n(UperNet),52.8,0.7533849129593809,,[],2112.13692v1
+Semantic Segmentation,ADE20K,Swin-B,52.8,0.7533849129593809,,[],2301.00808v1
+Semantic Segmentation,ADE20K,UniRepLKNet-S++,52.7,0.7509671179883947,,[],2311.15599v2
+Semantic Segmentation,ADE20K,ConvNeXt V2-B,52.1,0.7364603481624759,,[],2301.00808v1
+Semantic Segmentation,ADE20K,"LV-ViT-L (UperNet, MS)",51.8,0.7292069632495164,,['Transformer'],2104.10858v3
+Semantic Segmentation,ADE20K,SegFormer-B5,51.8,0.7292069632495164,,[],2105.15203v3
+Semantic Segmentation,ADE20K,"BiFormer-B (IN1k pretrain, Upernet 160k)",51.7,0.72678916827853,,[],2303.08810v1
+Semantic Segmentation,ADE20K,ConvNeXt V2-L (Supervised),51.6,0.7243713733075435,,[],2301.00808v1
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Huge),51.5,0.721953578336557,,[],2109.04553v2
+Semantic Segmentation,ADE20K,DAT-B++,51.5,0.721953578336557,,[],2309.01430v1
+Semantic Segmentation,ADE20K,"CrossFormer (ImageNet1k-pretrain, UPerNet, multi-scale test)",51.4,0.7195357833655706,,[],2108.00154v2
+Semantic Segmentation,ADE20K,InternImage-B,51.3,0.7171179883945841,,[],2211.05778v4
+Semantic Segmentation,ADE20K,DAT-S++,51.2,0.7147001934235977,,[],2309.01430v1
+Semantic Segmentation,ADE20K,ActiveMLP-L(UperNet),51.1,0.7122823984526112,,[],2203.06108v2
+Semantic Segmentation,ADE20K,SegFormer-B4,51.1,0.7122823984526112,,[],2105.15203v3
+Semantic Segmentation,ADE20K,PatchConvNet-B60 (UperNet),51.1,0.7122823984526112,,[],2112.13692v1
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Large),51.0,0.7098646034816247,,[],2109.04553v2
+Semantic Segmentation,ADE20K,"TEC (Vit-B, Upernet)",51.0,0.7098646034816247,,[],2210.11016v1
+Semantic Segmentation,ADE20K,UniRepLKNet-S,51.0,0.7098646034816247,,[],2311.15599v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-B FPN),50.98,0.7093810444874273,,[],2112.12782v3
+Semantic Segmentation,ADE20K,InternImage-S,50.9,0.7074468085106382,,[],2211.05778v4
+Semantic Segmentation,ADE20K,MogaNet-L (UperNet),50.9,0.7074468085106382,,[],2211.03295v3
+Semantic Segmentation,ADE20K,dBOT ViT-B,50.8,0.7050290135396517,,[],2209.03917v3
+Semantic Segmentation,ADE20K,"Upernet-BiFormer-S (IN1k pretrain, Upernet 160k)",50.8,0.7050290135396517,,[],2303.08810v1
+Semantic Segmentation,ADE20K,UperNet Shuffle-B,50.5,0.6977756286266924,,[],2106.03650v1
+Semantic Segmentation,ADE20K,ConvNeXt V1-L,50.5,0.6977756286266924,,[],2301.00808v1
+Semantic Segmentation,ADE20K,DiNAT-Base (UperNet),50.4,0.6953578336557059,,[],2209.15001v3
+Semantic Segmentation,ADE20K,ELSA-Swin-S,50.3,0.6929400386847194,,[],2112.12786v1
+Semantic Segmentation,ADE20K,DAT-T++,50.3,0.6929400386847194,,[],2309.01430v1
+Semantic Segmentation,ADE20K,"SETR-MLA (160k, MS)",50.28,0.6924564796905223,,[],2012.15840v3
+Semantic Segmentation,ADE20K,VAN-Large (HamNet),50.2,0.6905222437137332,,[],2202.09741v5
+Semantic Segmentation,ADE20K,"HRViT-b3 (SegFormer, SS)",50.2,0.6905222437137332,,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,"Twins-SVT-L (UperNet, ImageNet-1k pretrain)",50.2,0.6905222437137332,,[],2104.13840v4
+Semantic Segmentation,ADE20K,MogaNet-B (UperNet),50.1,0.6881044487427467,,[],2211.03295v3
+Semantic Segmentation,ADE20K,"Seg-B-Mask/16(MS, ViT-B)",50.0,0.6856866537717602,,[],2105.05633v3
+Semantic Segmentation,ADE20K,iBOT (ViT-B/16),50.0,0.6856866537717602,,[],2111.07832v3
+Semantic Segmentation,ADE20K,ConvNeXt-B,49.9,0.6832688588007737,,[],2201.03545v2
+Semantic Segmentation,ADE20K,DiNAT-Small (UperNet),49.9,0.6832688588007737,,[],2209.15001v3
+Semantic Segmentation,ADE20K,ConvNeXt V1-B,49.9,0.6832688588007737,,[],2301.00808v1
+Semantic Segmentation,ADE20K,NAT-Base,49.7,0.6784332688588008,,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,"Swin-B (UperNet, ImageNet-1k pretrain)",49.7,0.6784332688588008,,[],2103.14030v2
+Semantic Segmentation,ADE20K,"Seg-B/8 (MS, ViT-B)",49.61,0.6762572533849129,,[],2105.05633v3
+Semantic Segmentation,ADE20K,ConvNeXt-S,49.6,0.6760154738878144,,[],2201.03545v2
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Base),49.6,0.6760154738878144,,[],2109.04553v2
+Semantic Segmentation,ADE20K,NAT-Small,49.5,0.6735976789168279,,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,DaViT-B,49.4,0.6711798839458414,,[],2204.03645v1
+Semantic Segmentation,ADE20K,DAT-B (UperNet),49.38,0.6706963249516441,,[],2201.00520v3
+Semantic Segmentation,ADE20K,PatchConvNet-S60 (UperNet),49.3,0.6687620889748549,,[],2112.13692v1
+Semantic Segmentation,ADE20K,MogaNet-S (UperNet),49.2,0.6663442940038685,,[],2211.03295v3
+Semantic Segmentation,ADE20K,Shift-B (UperNet),49.2,0.6663442940038685,,[],2201.10801v1
+Semantic Segmentation,ADE20K,UniRepLKNet-T,49.1,0.663926499032882,,[],2311.15599v2
+Semantic Segmentation,ADE20K,DPT-Hybrid,49.02,0.6619922630560929,,['Transformer'],2103.13413v1
+Semantic Segmentation,ADE20K,GC ViT-B,49.0,0.6615087040618955,,[],2206.09959v5
+Semantic Segmentation,ADE20K,A2MIM (ViT-B),49.0,0.6615087040618955,,[],2205.13943v4
+Semantic Segmentation,ADE20K,EfficientViT-B3 (r512),49.0,0.6615087040618955,,[],2205.14756v6
+Semantic Segmentation,ADE20K,DiNAT-Tiny (UperNet),48.8,0.6566731141199226,,[],2209.15001v3
+Semantic Segmentation,ADE20K,"HRViT-b2 (SegFormer, SS)",48.76,0.655705996131528,,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,NAT-Tiny,48.4,0.6470019342359767,,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,XCiT-M24/8 (UperNet),48.4,0.6470019342359767,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,ResNeSt-200,48.36,0.6460348162475822,,[],2004.08955v2
+Semantic Segmentation,ADE20K,DAT-S (UperNet),48.31,0.6448259187620891,,[],2201.00520v3
+Semantic Segmentation,ADE20K,GC ViT-S,48.3,0.6445841392649903,,[],2206.09959v5
+Semantic Segmentation,ADE20K,InternImage-T,48.1,0.6397485493230174,,[],2211.05778v4
+Semantic Segmentation,ADE20K,VAN-Large,48.1,0.6397485493230174,,[],2202.09741v5
+Semantic Segmentation,ADE20K,XCiT-S24/8 (UperNet),48.1,0.6397485493230174,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,MaskFormer(ResNet-101),48.1,0.6397485493230174,,[],2107.06278v2
+Semantic Segmentation,ADE20K,"MAE (ViT-B, UperNet)",48.1,0.6397485493230174,,[],2111.06377v2
+Semantic Segmentation,ADE20K,HRNetV2 + OCR + RMI (PaddleClas pretrained),47.98,0.6368471953578336,,[],1909.11065v6
+Semantic Segmentation,ADE20K,Shift-B,47.9,0.6349129593810444,,[],2201.10801v1
+Semantic Segmentation,ADE20K,Shift-S,47.8,0.6324951644100579,,[],2201.10801v1
+Semantic Segmentation,ADE20K,MogaNet-S (Semantic FPN),47.7,0.6300773694390717,,[],2211.03295v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-S FPN),47.63,0.6283849129593811,,[],2112.12782v3
+Semantic Segmentation,ADE20K,ResNeSt-269,47.6,0.6276595744680852,,[],2004.08955v2
+Semantic Segmentation,ADE20K,UperNet Shuffle-T,47.6,0.6276595744680852,,[],2106.03650v1
+Semantic Segmentation,ADE20K,CondNet(ResNest-101),47.54,0.6262088974854932,,[],2109.10322v1
+Semantic Segmentation,ADE20K,"tiny-MOAT-3 (IN-1K pretraining, single scale)",47.5,0.6252417794970987,,[],2210.01820v2
+Semantic Segmentation,ADE20K,CondNet(ResNet-101),47.38,0.6223404255319149,,[],2109.10322v1
+Semantic Segmentation,ADE20K,DiNAT-Mini (UperNet),47.2,0.6179883945841393,,[],2209.15001v3
+Semantic Segmentation,ADE20K,DCNAS,47.12,0.61605415860735,,[],2003.11883v2
+Semantic Segmentation,ADE20K,XCiT-S24/8 (Semantic-FPN),47.1,0.6155705996131529,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,ResNeSt-101,46.91,0.6109767891682785,,[],2004.08955v2
+Semantic Segmentation,ADE20K,XCiT-M24/8 (Semantic-FPN),46.9,0.6107350096711799,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,HamNet (ResNet-101),46.8,0.6083172147001934,,['ResNet'],2109.04553v2
+Semantic Segmentation,ADE20K,Sequential Ensemble (DeepLabv3+),46.8,0.6083172147001934,,"['ResNet-101', 'DeepLab v3+', 'Ensemble']",2210.05387v1
+Semantic Segmentation,ADE20K,ConvNeXt-T,46.7,0.605899419729207,,[],2201.03545v2
+Semantic Segmentation,ADE20K,VAN-Base (Semantic-FPN),46.7,0.605899419729207,,[],2202.09741v5
+Semantic Segmentation,ADE20K,XCiT-S12/8 (UperNet),46.6,0.6034816247582205,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,GC ViT-T,46.5,0.601063829787234,,[],2206.09959v5
+Semantic Segmentation,ADE20K,NAT-Mini,46.4,0.5986460348162476,,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,Shift-T,46.3,0.5962282398452611,,[],2201.10801v1
+Semantic Segmentation,ADE20K,DaViT-T,46.3,0.5962282398452611,,[],2204.03645v1
+Semantic Segmentation,ADE20K,CPN(ResNet-101),46.27,0.5955029013539652,,['ResNet'],2004.01547v1
+Semantic Segmentation,ADE20K,MultiMAE (ViT-B),46.2,0.5938104448742747,,[],2204.01678v1
+Semantic Segmentation,ADE20K,PyConvSegNet-152,45.99,0.5887330754352031,,['CNN'],2006.11538v1
+Semantic Segmentation,ADE20K,DNL,45.97,0.5882495164410058,,[],2006.06668v2
+Semantic Segmentation,ADE20K,ACNet (ResNet-101),45.9,0.5865570599613152,,[],1911.01664v1
+Semantic Segmentation,ADE20K,ACNet\n(ResNet-101),45.9,0.5865570599613152,,[],1911.01664v1
+Semantic Segmentation,ADE20K,"HRViT-b1 (SegFormer, SS)",45.88,0.5860735009671181,,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,OCR(HRNetV2-W48),45.66,0.5807543520309477,,[],1909.11065v6
+Semantic Segmentation,ADE20K,SPNet (ResNet-101),45.6,0.5793036750483559,,['ResNet'],2003.13328v1
+Semantic Segmentation,ADE20K,Swin-T (UPerNet) MoBY,45.58,0.5788201160541585,,"['Transformer', 'Swin-Transformer']",2105.04553v2
+Semantic Segmentation,ADE20K,DAT-T (UperNet),45.54,0.577852998065764,,[],2201.00520v3
+Semantic Segmentation,ADE20K,iBOT (ViT-S/16),45.4,0.5744680851063829,,[],2111.07832v3
+Semantic Segmentation,ADE20K,EANet\n(ResNet-101),45.33,0.5727756286266924,,[],2105.02358v2
+Semantic Segmentation,ADE20K,OCR (ResNet-101),45.28,0.5715667311411993,,[],1909.11065v6
+Semantic Segmentation,ADE20K,Asymmetric ALNN,45.24,0.5705996131528047,,[],1908.07678v5
+Semantic Segmentation,ADE20K,"Light-Ham (VAN-Small, D=256)",45.2,0.5696324951644102,,[],2109.04553v2
+Semantic Segmentation,ADE20K,LaU-regression-loss,45.02,0.5652804642166345,,['CNN'],1911.05250v2
+Semantic Segmentation,ADE20K,PSPNet,44.94,0.5633462282398451,,[],1612.01105v2
+Semantic Segmentation,ADE20K,"tiny-MOAT-2 (IN-1K pretraining, single scale)",44.9,0.5623791102514506,,[],2210.01820v2
+Semantic Segmentation,ADE20K,EncNet,44.65,0.5563346228239845,,[],1803.08904v1
+Semantic Segmentation,ADE20K,LaU-offset-loss,44.55,0.553916827852998,,['CNN'],1911.05250v2
+Semantic Segmentation,ADE20K,EncNet + JPU,44.34,0.5488394584139266,,['CNN'],1903.11816v1
+Semantic Segmentation,ADE20K,XCiT-S12/8 (Semantic-FPN),44.2,0.5454545454545455,,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,Auto-DeepLab-L,43.98,0.5401353965183752,,[],1901.02985v2
+Semantic Segmentation,ADE20K,DSSPN (ResNet-101),43.68,0.5328820116054158,,[],1803.06067v1
+Semantic Segmentation,ADE20K,PSPNet (ResNet-152),43.51,0.5287717601547388,,[],1612.01105v2
+Semantic Segmentation,ADE20K,PSPNet\n(ResNet-101),43.29,0.5234526112185687,,[],1612.01105v2
+Semantic Segmentation,ADE20K,HRNetV2,43.2,0.5212765957446809,,[],1904.04514v1
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-T FPN),43.16,0.5203094777562862,,[],2112.12782v3
+Semantic Segmentation,ADE20K,"tiny-MOAT-1 (IN-1K pretraining, single scale)",43.1,0.5188588007736944,,[],2210.01820v2
+Semantic Segmentation,ADE20K,VAN-Small,42.9,0.5140232108317214,,[],2202.09741v5
+Semantic Segmentation,ADE20K,PoolFormer-M48,42.7,0.5091876208897486,,[],2111.11418v3
+Semantic Segmentation,ADE20K,UperNet (ResNet-101),42.66,0.5082205029013539,,[],1807.10221v1
+Semantic Segmentation,ADE20K,"tiny-MOAT-0 (IN-1K pretraining, single scale)",41.2,0.4729206963249517,,[],2210.01820v2
+Semantic Segmentation,ADE20K,RefineNet,40.7,0.4608317214700194,,[],1611.06612v3
+Semantic Segmentation,ADE20K,FBNetV5,40.4,0.4535783365570599,,[],2111.10007v2
+Semantic Segmentation,ADE20K,ConvMLP-L,40.0,0.4439071566731141,,[],2109.04454v2
+Semantic Segmentation,ADE20K,ConvMLP-M,38.6,0.4100580270793037,,[],2109.04454v2
+Semantic Segmentation,ADE20K,VAN-Tiny,38.5,0.4076402321083172,,[],2202.09741v5
+Semantic Segmentation,ADE20K,A2MIM (ResNet-50),38.3,0.4028046421663442,,[],2205.13943v4
+Semantic Segmentation,ADE20K,iBOT (ViT-B/16) (linear head),38.3,0.4028046421663442,,[],2111.07832v3
+Semantic Segmentation,ADE20K,SegFormer-B0,37.4,0.3810444874274661,,[],2105.15203v3
+Semantic Segmentation,ADE20K,MUXNet-m + PPM,35.8,0.3423597678916827,,['CNN'],2003.13880v2
+Semantic Segmentation,ADE20K,ConvMLP-S,35.8,0.3423597678916827,,[],2109.04454v2
+Semantic Segmentation,ADE20K,MUXNet-m + C1,32.42,0.26063829787234044,,['CNN'],2003.13880v2
+Semantic Segmentation,ADE20K,DilatedNet,32.31,0.2579787234042554,,['CNN'],1511.07122v3
+Semantic Segmentation,ADE20K,FCN,29.39,0.18737911025145068,,['CNN'],1411.4038v2
+Semantic Segmentation,ADE20K,SegNet,21.64,0.0,,['CNN'],1511.00561v3

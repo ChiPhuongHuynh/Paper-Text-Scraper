@@ -6,7 +6,8 @@ from sklearn.model_selection import train_test_split
 
 df = pd.read_csv("dataprocessed.csv", index_col=False)
 df.dropna(inplace=True)
-bool_cols = ['Dataset_CIFAR-100', 'Dataset_COCO minivar', 'Dataset_ImageNet', 'Dataset_ImageNet 256x256', 'Dataset_MNIST', 'Dataset_SVHN', 'Task_Image Generation', 'Task_Object Detection']
+bool_cols = ['Dataset_CIFAR-10','Dataset_CIFAR-100','Dataset_COCO','Dataset_COCO minivar','Dataset_CityScapes','Dataset_ImageNet','Dataset_KITTI','Dataset_MNIST','Dataset_NYU Depth v2',
+        'Dataset_SVHN','Dataset_ShapeNet','Task_Depth Estimation','Task_Image Classification','Task_Object Detection','Task_Semantic Segmentation','Task_Text to Image']
 df[bool_cols] = df[bool_cols].astype(int)
 #print(df)
 round_cols = ['accuracy_norm', 'difficulty']
@@ -20,8 +21,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 print(X_train.shape[1])
 
 model = keras.Sequential([
-    keras.layers.Dense(1, activation='relu', input_shape=(X_train.shape[1],)),
-    #keras.layers.Dense(1, activation='relu'),
+    keras.layers.Dense(6, activation='relu', input_shape=(X_train.shape[1],)),
+    keras.layers.Dense(6, activation='relu'),
     keras.layers.Dense(1)
 ])
 opt = keras.optimizers.Adam(learning_rate=0.0001)
@@ -34,4 +35,4 @@ model.fit(X_train, y_train, epochs=50, batch_size=32, validation_split=0.1)
 loss= model.evaluate(X_test, y_test)
 print('Test loss:', loss)
 predictions = model.predict(X_test)
-print(predictions)
+#print(predictions)

@@ -1,0 +1,96 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Semantic Segmentation,NYU Depth v2,OmniVec,60.8,1.0,,[],2311.05709v1
+Semantic Segmentation,NYU Depth v2,DPLNet,59.3,0.963855421686747,,[],2312.00360v2
+Semantic Segmentation,NYU Depth v2,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",59.02,0.9571084337349397,,[],2309.13635v1
+Semantic Segmentation,NYU Depth v2,SwinMTL,58.14,0.9359036144578314,,[],2403.10662v1
+Semantic Segmentation,NYU Depth v2,PolyMaX(ConvNeXt-L),58.08,0.9344578313253012,,[],2311.05770v1
+Semantic Segmentation,NYU Depth v2,DFormer-L,57.2,0.9132530120481929,,[],2309.09668v2
+Semantic Segmentation,NYU Depth v2,CMX (B5),56.9,0.906024096385542,,[],2203.04838v5
+Semantic Segmentation,NYU Depth v2,CMNeXt (B4),56.9,0.906024096385542,,[],2303.01480v1
+Semantic Segmentation,NYU Depth v2,"OMNIVORE (Swin-L, finetuned)",56.8,0.9036144578313253,,[],2201.08377v2
+Semantic Segmentation,NYU Depth v2,CMX (B4),56.3,0.891566265060241,,[],2203.04838v5
+Semantic Segmentation,NYU Depth v2,MultiMAE (ViT-B),56.0,0.8843373493975905,,[],2204.01678v1
+Semantic Segmentation,NYU Depth v2,SMMCL (SegNeXt-B),55.8,0.8795180722891566,,[],2308.12320v2
+Semantic Segmentation,NYU Depth v2,DFormer-B,55.6,0.8746987951807228,,[],2309.09668v2
+Semantic Segmentation,NYU Depth v2,ComPtr (Swin-B),55.5,0.8722891566265061,,[],2307.12349v1
+Semantic Segmentation,NYU Depth v2,"OMNIVORE (Swin-B, finetuned)",55.1,0.8626506024096385,,[],2201.08377v2
+Semantic Segmentation,NYU Depth v2,HAPNet,55.0,0.8602409638554217,,[],2404.03527v2
+Semantic Segmentation,NYU Depth v2,CMX (B2),54.4,0.8457831325301204,,[],2203.04838v5
+Semantic Segmentation,NYU Depth v2,TokenFusion (S),54.2,0.8409638554216868,,[],2204.08721v2
+Semantic Segmentation,NYU Depth v2,AsymFormer,54.1,0.8385542168674698,,[],2309.14065v6
+Semantic Segmentation,NYU Depth v2,SMMCL (SegFormer-B2),53.7,0.8289156626506026,,[],2308.12320v2
+Semantic Segmentation,NYU Depth v2,DFormer-S,53.6,0.8265060240963855,,[],2309.09668v2
+Semantic Segmentation,NYU Depth v2,InvPT,53.56,0.8255421686746989,,[],2203.07997v3
+Semantic Segmentation,NYU Depth v2,HS3-Fuse (ResNet-101),53.5,0.8240963855421688,,[],2111.02333v1
+Semantic Segmentation,NYU Depth v2,PDCNet (ResNet-101),53.5,0.8240963855421688,,[],2302.11951v1
+Semantic Segmentation,NYU Depth v2,"EMSANet (2x ResNet-34 NBt1D, finetuned)",53.34,0.8202409638554219,,[],2207.04526v1
+Semantic Segmentation,NYU Depth v2,DCANet (ResNet-101),53.3,0.8192771084337349,,[],2210.06747v1
+Semantic Segmentation,NYU Depth v2,TokenFusion (Ti),53.3,0.8192771084337349,,[],2204.08721v2
+Semantic Segmentation,NYU Depth v2,InverseForm (ResNet-101),53.1,0.8144578313253011,,[],2104.02745v2
+Semantic Segmentation,NYU Depth v2,CAINet (MobileNet-V2),52.6,0.8024096385542168,,[],2401.01624v1
+Semantic Segmentation,NYU Depth v2,CEN-PSPNet (ResNet-152),52.5,0.8,,[],2112.02252v2
+Semantic Segmentation,NYU Depth v2,AMF (ResNet-50),52.5,0.8,,[],2201.01427v2
+Semantic Segmentation,NYU Depth v2,SMMCL (ResNet-101),52.5,0.8,,[],2308.12320v2
+Semantic Segmentation,NYU Depth v2,SA-Gate,52.4,0.797590361445783,,[],2007.09183v1
+Semantic Segmentation,NYU Depth v2,Warp-Refine,52.2,0.7927710843373496,,[],2109.13432v1
+Semantic Segmentation,NYU Depth v2,FSFNet,52.0,0.7879518072289158,,[],2105.04102v1
+Semantic Segmentation,NYU Depth v2,MIPANet (ResNet50),51.9,0.7855421686746986,,[],2311.11312v2
+Semantic Segmentation,NYU Depth v2,DFormer-T,51.8,0.7831325301204819,,[],2309.09668v2
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNext-101),51.3,0.7710843373493975,,['ResNeXt'],2108.10528v1
+Semantic Segmentation,NYU Depth v2,EMSAFormer (SwinV2-T-128-Multi-Aug),51.26,0.7701204819277108,,[],2306.05242v1
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-101),51.24,0.7696385542168676,,[],2206.03939v1
+Semantic Segmentation,NYU Depth v2,AsymFusion (ResNet-152),51.2,0.7686746987951808,,[],2108.05009v1
+Semantic Segmentation,NYU Depth v2,DynMM (ResNet-50),51.0,0.7638554216867469,,[],2204.00102v2
+Semantic Segmentation,NYU Depth v2,SGNet (ResNet-101),51.0,0.7638554216867469,,[],2004.04534v2
+Semantic Segmentation,NYU Depth v2,Malleable 2.5D (ResNet-101),50.9,0.7614457831325301,,[],2007.09365v1
+Semantic Segmentation,NYU Depth v2,SANet,50.7,0.7566265060240964,,[],2011.02572v1
+Semantic Segmentation,NYU Depth v2,HaarNet,50.7,0.7566265060240964,,[],2310.07669v1
+Semantic Segmentation,NYU Depth v2,PAP (ResNet-50),50.4,0.7493975903614457,,[],1906.03525v1
+Semantic Segmentation,NYU Depth v2,Cerberus,50.4,0.7493975903614457,,[],2111.12608v2
+Semantic Segmentation,NYU Depth v2,ESANet (R34-NBt1D),50.3,0.7469879518072289,,[],2011.06961v3
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-50),50.05,0.7409638554216866,,[],2206.03939v1
+Semantic Segmentation,NYU Depth v2,Malleable 2.5D (ResNet-50),49.7,0.7325301204819278,,[],2007.09365v1
+Semantic Segmentation,NYU Depth v2,MMANet,49.62,0.7306024096385542,,[],2304.08028v1
+Semantic Segmentation,NYU Depth v2,SGACNet (R34-NBt1D),49.4,0.7253012048192771,,[],2308.06024v1
+Semantic Segmentation,NYU Depth v2,ComPtr (Swin-T),49.2,0.7204819277108434,,[],2307.12349v1
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-34),49.15,0.7192771084337349,,[],2206.03939v1
+Semantic Segmentation,NYU Depth v2,UMT,49.14,0.7190361445783132,,[],2106.11059v1
+Semantic Segmentation,NYU Depth v2,MTI-Net (HRNet-48),49.0,0.7156626506024096,,[],2001.06902v5
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNet-101),49.0,0.7156626506024096,,[],2108.10528v1
+Semantic Segmentation,NYU Depth v2,MKE,48.88,0.7127710843373495,,[],2103.14431v3
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNet-50),48.8,0.7108433734939759,,[],2108.10528v1
+Semantic Segmentation,NYU Depth v2,mmFormer,48.45,0.7024096385542169,,[],2206.02425v2
+Semantic Segmentation,NYU Depth v2,ACNet,48.3,0.6987951807228915,,[],1905.10089v1
+Semantic Segmentation,NYU Depth v2,SGACNet (R18-NBt1D),48.2,0.6963855421686748,,[],2308.06024v1
+Semantic Segmentation,NYU Depth v2,ESANet (R18-NBt1D ),48.17,0.6956626506024096,,[],2011.06961v3
+Semantic Segmentation,NYU Depth v2,TupleInfoNCE,48.1,0.6939759036144578,,[],2107.02575v1
+Semantic Segmentation,NYU Depth v2,FDNet (DenseNet264),47.4,0.6771084337349397,,[],1905.08929v1
+Semantic Segmentation,NYU Depth v2,RedNet,47.2,0.6722891566265061,,[],1806.01054v2
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-18),47.02,0.6679518072289157,,[],2206.03939v1
+Semantic Segmentation,NYU Depth v2,RefineNet (ResNet-101),46.5,0.655421686746988,,['ResNet'],1611.06612v3
+Semantic Segmentation,NYU Depth v2,ATRC,46.33,0.6513253012048192,,[],2104.13874v2
+Semantic Segmentation,NYU Depth v2,SOSD-Net,45.0,0.619277108433735,,[],2101.07422v1
+Semantic Segmentation,NYU Depth v2,MMAF-Net-152,44.8,0.6144578313253011,,[],1912.11691v1
+Semantic Segmentation,NYU Depth v2,RecurrentSceneParsing,44.5,0.6072289156626506,,[],1705.07238v2
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-152,44.4,0.6048192771084336,,[],1810.03272v1
+Semantic Segmentation,NYU Depth v2,Depth-aware CNN,43.9,0.5927710843373494,,[],1803.06791v1
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-101,43.6,0.5855421686746988,,[],1810.03272v1
+Semantic Segmentation,NYU Depth v2,TD2-PSP50,43.5,0.5831325301204819,,[],2004.01800v2
+Semantic Segmentation,NYU Depth v2,NDDR-CNN,43.3,0.5783132530120481,,[],1801.08297v4
+Semantic Segmentation,NYU Depth v2,CI-Net,42.6,0.5614457831325301,,[],2107.13800v2
+Semantic Segmentation,NYU Depth v2,Multi-Task Light-Weight-RefineNet,42.0,0.5469879518072289,,[],1809.04766v2
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-50,41.7,0.5397590361445783,,[],1810.03272v1
+Semantic Segmentation,NYU Depth v2,MTML,41.51,0.5351807228915662,,[],2210.06989v4
+Semantic Segmentation,NYU Depth v2,RAN,41.2,0.527710843373494,,[],1707.06426v1
+Semantic Segmentation,NYU Depth v2,DenseMTL,40.84,0.5190361445783133,,[],2206.08927v1
+Semantic Segmentation,NYU Depth v2,STD2P,40.1,0.5012048192771085,,[],1604.02388v3
+Semantic Segmentation,NYU Depth v2,MaskSup,39.31,0.4821686746987952,,[],2210.00923v2
+Semantic Segmentation,NYU Depth v2,HeMIS,37.77,0.4450602409638555,,[],1607.05194v1
+Semantic Segmentation,NYU Depth v2,TD4-PSP18,37.4,0.436144578313253,,[],2004.01800v2
+Semantic Segmentation,NYU Depth v2,Bayesian DenseNet,37.3,0.43373493975903604,,[],1703.04977v2
+Semantic Segmentation,NYU Depth v2,HN-network,33.49,0.34192771084337353,,[],2002.02200v1
+Semantic Segmentation,NYU Depth v2,CompL,33.48,0.3416867469879517,,[],2210.07239v1
+Semantic Segmentation,NYU Depth v2,Dilated FCN-2s RGB,32.3,0.31325301204819267,,[],1707.08254v3
+Semantic Segmentation,NYU Depth v2,AdaShare,29.6,0.24819277108433738,,[],1911.12423v2
+Semantic Segmentation,NYU Depth v2,EDNAS+JAReD,22.1,0.0674698795180723,,[],2210.01384v1
+Semantic Segmentation,NYU Depth v2,Cross-stitch,19.3,0.0,,[],1604.03539v1

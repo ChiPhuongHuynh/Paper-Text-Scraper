@@ -1,0 +1,104 @@
+name|accuracy|params|tags|id
+VLTSeg|86.4|null|[']']|2312.02021v2
+MetaPrompt-SD|86.2|null|[']']|2312.14733v1
+InternImage-H|86.1%|null|['Deformable Convolution', 'DCN']|2211.05778v4
+HS3-Fuse|85.8%|null|[']']|2111.02333v1
+InverseForm|85.6%|null|[']']|2104.02745v2
+ViT-Adapter-L (Mask2Former, BEiT pretrain)|85.2%|null|[']']|2205.08534v4
+SERNet-Former|84.83|null|[']']|2401.15741v4
+Depth Anything|84.8%|null|[']']|2401.10891v2
+HRNetV2 + OCR +|84.5%|null|['hrnet']|1909.11065v6
+EfficientPS|84.21%|null|[']']|2004.02307v3
+Panoptic-DeepLab|84.2%|null|[']']|1911.10194v3
+HRNetV2 + OCR (w/ ASP)|83.7%|null|['hrnet']|1909.11065v6
+DCNAS(coarse + Mapillary)|83.6%|null|[']']|2003.11883v2
+Euclidean Frank-Wolfe CRFs (backbon|83.6%|null|[']']|2110.14759v2
+GALDNet(+Mapillary)++|83.3%|null|[']']|1909.07229v1
+ResNeSt200 (Mapillary)|83.3%|null|[']']|2004.08955v2
+HANet (Height-driven Attention Networks by LGE A\u0026B)(coarse)|83.2%|null|[']']|2003.05128v3
+kMaX-DeepLab (ConvNeXt-L, fine only)|83.2%|null|[']']|2207.04044v5
+SegFormer (MiT-B5, Mapillary)|83.1%|null|['Transformer']|2105.15203v3
+OCR (HRNetV2-W48, coarse)|83.0%|null|['hrnet']|1909.11065v6
+MRFM(coarse)|83.0%|null|[']']|2011.08577v2
+DNL (coarse)|83%|null|[']']|2006.06668v2
+DRAN(ResNet-101) WITH ONLY FINE ANNOTATED DATA|82.9%|null|['ResNet']|null
+Gated-SCNN|82.8%|null|[']']|1907.05740v1
+Dense Prediction Cell|82.7%|null|[']']|1809.04184v1
+CAA (ResNet-101)|82.6%|null|['ResNet']|2101.07434v5
+OCR (ResNet-101, coarse)|82.4%|null|['ResNet']|1909.11065v6
+DDRNet-39 1.5x|82.4%|null|[']']|2101.06085v2
+SSMA|82.3%|null|[']']|1808.03833v3
+Gated Fully Fusion|82.3%|null|[']']|1904.01803v2
+Auto-DeepLab-L|82.1%|null|[']']|1901.02985v2
+DGCNet (ResNet-101)|82%|null|['GCN', 'ResNet']|1909.06121v3
+SPNet (ResNet-101)|82.0%|null|['ResNet']|2003.13328v1
+OCR (ResNet-101)|81.8%|null|['ResNet']|1909.11065v6
+OCNet|81.7%|null|[']']|1809.00916v4
+SETR-PUP++|81.64%|null|[']']|2012.15840v3
+HRNet (HRNetV2-W48)|81.6%|null|[']']|1904.04514v1
+HRNetV2 (train+val)|81.6%|null|['hrnet']|1908.07919v2
+DANet (ResNet-101)|81.5%|null|['ResNet']|1809.02983v4
+CCNet|81.4%|null|[']']|1811.11721v2
+BFP|81.4%|null|[']']|1909.00179v1
+DeepLabv3 (ResNet-101, coarse)|81.3%|null|['ResNet']|1706.05587v3
+CPN(ResNet-101)|81.3%|null|['ResNet']|2004.01547v1
+Asymmetric ALNN|81.3%|null|[']']|1908.07678v5
+AdapNet++|81.24%|null|[']']|1808.03833v3
+SVCNet (ResNet-101)|81.0%|null|['ResNet']|1909.02651v1
+D3Net-L|80.8%|null|['D3Net']|2011.11844v2
+DenseASPP (DenseNet-161)|80.6%|null|[']']|null
+Smooth Network with Channel Attention Block|80.3%|null|[']']|1804.09337v1
+PSPNet++|80.2%|null|[']']|1612.01105v2
+PSANet (ResNet-101)|80.1%|null|['ResNet']|null
+ESANet-R34-NBt1D|80.09%|null|[']']|2011.06961v3
+DeepLabV3 with R-101|79.9%|null|[']']|2307.14179v1
+DFN (ResNet-101)|79.3%|null|['ResNet']|1804.09337v1
+AAF (ResNet-101)|79.1%|null|['ResNet']|1803.10335v3
+ShelfNet-34|79.0%|null|[']']|1811.11254v6
+BiSeNet (ResNet-101)|78.9%|null|['ResNet']|1808.00897v1
+ResNet-38|78.4%|null|['ResNet']|1611.10080v1
+PSPNet|78.4%|null|[']']|1612.01105v2
+DepthSeg (ResNet-101)|78.2%|null|['ResNet']|1705.07238v2
+DSSPN (ResNet-101)|77.8%|null|['ResNet']|1803.06067v1
+DUC-HDC (ResNet-101)|77.6%|null|['ResNet']|1702.08502v3
+SaGe|76.9|null|[']']|2111.13163v1
+SwiftNetRN-18|75.5%|null|[']']|1903.08469v2
+RefineNet (ResNet-101)|73.6%|null|['ResNet']|1611.06612v3
+MobileNet V3-Large 1.0|72.6%|null|[']']|1905.02244v5
+SqueezeNAS (LAT Large)|72.5%|null|[']']|1908.01748v2
+Multi Scale Spatial Attention|72.4%|null|[']']|2007.12685v3
+FRRN|71.8%|null|[']']|1611.08323v2
+LRR-4x|71.8%|null|[']']|1605.02264v2
+Context|71.6%|null|[']']|1504.01013v4
+FasterSeg|71.5%|null|[']']|1912.10917v2
+DFANet A|71.3%|null|[']']|1904.02216v1
+LDFNet|71.3|null|[']']|1809.09077v3
+LightSeg-DarkNet19|70.75%|null|[']']|1912.06683v1
+ESNet|70.7%|null|[']']|1906.09826v1
+ICNet|70.6%|null|[']']|1704.08545v2
+LEDNet|70.6%|null|[']']|1905.02423v3
+WASPnet (ours)|70.5%|null|[']']|1912.03183v1
+DeepLab-CRF (ResNet-101)|70.4%|null|['ResNet']|1606.00915v2
+ERFNet (PyTorch)|69.8%|null|[']']|null
+Fast-SCNN|68%|null|[']']|1902.04502v1
+LightSeg-MobileNet|67.81%|null|[']']|1912.06683v1
+LiteSeg-MobileNet|67.81%|null|[']']|1912.06683v1
+Template-Based NAS-arch1|67.8%|null|[']']|1904.02365v2
+Template-Based NAS-arch0|67.7%|null|[']']|1904.02365v2
+EDANet|67.3|null|[']']|1809.06323v3
+Dilation10|67.1%|null|[']']|1511.07122v3
+DPN|66.8%|null|[']']|1509.02634v2
+SqueezeNAS (LAT Small)|66.8%|null|[']']|1908.01748v2
+SINet|66.5%|null|[']']|1911.09099v4
+ESPNetv2|66.2%|null|[']']|1811.11431v3
+FCN|65.3%|null|[']']|1605.06211v1
+LightSeg-ShuffleNet|65.17%|null|[']']|1912.06683v1
+LiteSeg-ShuffleNet|65.17%|null|[']']|1912.06683v1
+DeepLab|63.1%|null|[']']|1412.7062v4
+ENet + Lov\u00e1sz-Softmax|63.06%|null|[']']|1705.08790v2
+ESPNet|60.3%|null|[']']|1803.06815v3
+ENet|58.3%|null|[']']|1606.02147v1
+SegNet|57.0%|null|[']']|1511.00561v3
+IkshanaNet-1|54.82%|null|[']']|2101.10837v4
+IkshanaNet-2|45.02%|null|[']']|2101.10837v4
+IkshanaNet-3|42.07%|null|[']}]</script']|2101.10837v4
