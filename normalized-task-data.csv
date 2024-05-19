@@ -1,14 +1,26 @@
 Task,Dataset,name,accuracy,accuracy_norm,params,tags,id,max,min,difficulty
-3D Part Segmentation,ShapeNet,GeomGCNN,89.1,1.0,,[],2103.15226v1,89.1,89.1,0.0
-Depth Estimation,KITTI,FutureDepth,0.041,1.0,,[],2403.12953v1,0.041,0.041,0.0
+3D Part Segmentation,Intra,3DMedPT,94.82,1.0,,['Transformer'],2112.04863v2,94.82,89.1,1.0
+3D Part Segmentation,ShapeNet,GeomGCNN,89.1,1.0,,[],2103.15226v1,94.82,89.1,0.0
+Depth Estimation,KITTI,FutureDepth,0.041,1.0,,[],2403.12953v1,0.2619,0.041,0.0
+Depth Estimation,Stanford 2D 3D,HiMODE,0.2619,1.0,,[],2204.05007v1,0.2619,0.041,1.0
 Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2,99.87,65.9,0.9743891669119811
 Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,99.87,65.9,0.8860759493670884
 Image Classification,ImageNet,OmniVec,92.4,1.0,0.0,0,2311.05709v1,99.87,65.9,0.7801000883132175
 Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,99.87,65.9,1.0
 Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,99.87,65.9,0.0
-Image Generation,ImageNet 256x256,Feature Alignment,69.89,1.0,,[],2106.12562v2,69.89,69.89,0.0
-Object Detection,COCO minivar,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,65.9,65.9,0.0
+Image Generation,CIFAR-10,StyleSAN-XL,1.36,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.008159564823209436
+Image Generation,Celeb-A 64x64,DDPM-IP,1.27,1.0,,"['unconditional', 'Diffusion']",2301.11706v3,12.3,1.27,0.0
+Image Generation,FFHQ 256x256,StyleSAN-XL,1.68,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.03717135086128739
+Image Generation,ImageNet 256x256,Improved DDPM,12.3,1.0,,['Diffusion'],2102.09672v1,12.3,1.27,1.0
+Object Detection,COCO 2017,"YOLOv6-L6(46 fps, V100, bs1)",57.2,1.0,,['YOLO'],2301.05586v1,97.2,57.2,0.0
+Object Detection,COCO minivar,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,97.2,57.2,0.21750000000000008
+Object Detection,COCO-O,EVA,57.8,1.0,,[],2211.07636v2,97.2,57.2,0.014999999999999857
+Object Detection,Crowd Human Full Body,InternImage-H,97.2,1.0,,[],2211.05778v4,97.2,57.2,1.0
+Object Detection,Pascal VOC,"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3,1.0,,"['FPN', 'single scale']",2012.07177v2,97.2,57.2,0.8024999999999999
 Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,,[],2305.11172v1,86.4,60.8,0.08593750000000008
 Semantic Segmentation,CityScapes,VLTSeg,86.4,1.0,,[],2312.02021v2,86.4,60.8,1.0
 Semantic Segmentation,NYU Depth v2,OmniVec,60.8,1.0,,[],2311.05709v1,86.4,60.8,0.0
-Text to Image,COCO,Parti Finetuned,3.22,1.0,,['Autoregressive'],2206.10789v1,3.22,3.22,0.0
+Text to Image,COCO,Parti Finetuned,3.22,1.0,,['Autoregressive'],2206.10789v1,14.1,3.22,0.0
+Text to Image,CUB,TLDM,6.72,1.0,,[],2202.09671v4,14.1,3.22,0.3216911764705882
+Text to Image,Multi Model Celeb-A,Swinv2-Imagen,10.31,1.0,,[],2210.09549v1,14.1,3.22,0.651654411764706
+Text to Image,Oxford 102,VQ-Diffusion-F,14.1,1.0,,[],2111.14822v3,14.1,3.22,1.0

@@ -1,0 +1,28 @@
+name,accuracy,params,tags,id
+"YOLOv6-L6(46 fps, V100, bs1)",57.2,null,['YOLO'],2301.05586v1
+Salience-DETR (Focal-L 1x),56.8,null,['DETR'],2403.16131v1
+Salience-DETR (Swin-L 1x),56.5,null,['DETR'],2403.16131v1
+MogaNet-XL (Cascade Mask R-CNN),56.2,null,[']'],2211.03295v3
+MogaNet-L (Cascade Mask R-CNN),53.3,null,[']'],2211.03295v3
+MogaNet-B (Cascade Mask R-CNN),52.6,null,[']'],2211.03295v3
+MogaNet-S (Cascade Mask R-CNN),51.6,null,[']'],2211.03295v3
+RF-ConvNeXt-T Cascade R-CNN,50.9,null,[']'],2206.06637v2
+Salience-DETR (ResNet50 1x),50.0,null,['DETR'],2403.16131v1
+SQR-Adamixer-R101,49.8,null,[']'],2212.07593v3
+MogaNet-L (Mask R-CNN 1x),49.4,null,[']'],2211.03295v3
+ViDT Swin-base,49.2,null,[']'],2110.03921v2
+SQR-Adamixer-R50,48.9,null,[']'],2212.07593v3
+MogaNet-L (RetinaNet 1x),48.7,null,[']'],2211.03295v3
+MogaNet-B (Mask R-CNN 1x),47.9,null,[']'],2211.03295v3
+MogaNet-B (RetinaNet 1x),47.7,null,[']'],2211.03295v3
+ViDT Swin-small,47.5,null,[']'],2110.03921v2
+MogaNet-S (Mask R-CNN 1x),46.7,null,[']'],2211.03295v3
+MogaNet-S (RetinaNet 1x),45.8,null,[']'],2211.03295v3
+ViDT Swin-tiny,44.8,null,[']'],2110.03921v2
+MogaNet-T (Mask R-CNN 1x),42.6,null,[']'],2211.03295v3
+MogaNet-T (RetinaNet 1x),41.4,null,[']'],2211.03295v3
+MogaNet-XT (Mask R-CNN 1x),40.7,null,[']'],2211.03295v3
+ViDT Swin-nano,40.4,null,[']'],2110.03921v2
+MogaNet-XT (RetinaNet 1x),39.7,null,[']'],2211.03295v3
+"DyHead (Swin-T, multi scale)",null,null,[']'],2106.08322v1
+"DINO-5scale (12 epochs, 900 queries)",null,null,[']}]</script'],2203.03605v4

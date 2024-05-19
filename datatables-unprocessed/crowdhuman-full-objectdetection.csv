@@ -1,0 +1,19 @@
+name,accuracy,params,tags,id
+InternImage-H,97.2,null,[']'],2211.05778v4
+Progressive DETR,94.1,null,[']'],2203.07669v3
+DDQ DETR (R50),93.8,null,['ResNet-50'],2303.12776v2
+DDQ R-CNN (R50),93.5,null,['ResNet-50'],2303.12776v2
+"Hulk(Finetune, ViT-L)",93,null,[']'],2312.01697v4
+DDQ FCN (R50 One-Stage),92.7,null,"['one-stage', 'ResNet-50']",2303.12776v2
+UniHCP (finetune),92.5,null,[']'],2303.02936v4
+"Hulk(Finetune, ViT-B)",92.4,null,[']'],2312.01697v4
+V2F-Net,91.03,null,[']'],2104.03106v1
+CrowdDet,90.7,null,['ResNet'],2003.09163v2
+Beta R-CNN,89.6,null,[']'],2210.12758v1
+NOH-NMS,89.0,null,[']'],2007.13376v1
+"IterDet (Faster RCNN, ResNet50, 2 iterations)",88.08,null,['ResNet'],2005.05708v2
+"PS-RCNN (Faster RCNN, ResNet50, COCO Instance Masks",87.94,null,[']'],2003.07080v1
+"PS-RCNN (Faster RCNN, ResNet50)",86.05,null,['ResNet'],2003.07080v1
+Faster RCNN (ResNet50),84.95,null,['ResNet'],1805.00123v1
+"Adaptive NMS (Faster RCNN, ResNet50)",84.71,null,['ResNet'],1904.03629v1
+"IterDet (Faster RCNN, ResNet50, 1 iteration)",84.43,null,['ResNet'],2005.05708v2

@@ -1,0 +1,32 @@
+name,accuracy,params,tags,id
+"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3%,null,"['FPN', 'single scale']",2012.07177v2
+YOLO-Former,86.01%,null,[']'],2401.06244v1
+DETReg (MDef-DETR),84.16%,null,[']'],2111.11430v6
+"HSD (VGG16, 512x512, single-scale test)",83.0%,null,['single scale'],null
+CoupleNet,82.7%,null,[']'],1708.02863v1
+EEEA-Net-C2 (YOLOv4),81.8%,null,[']'],2108.06156v1
+"HSD (VGG16, 320x320, single-scale test)",81.7%,null,['single scale'],null
+SSD512 (07+12+COCO),81.6%,null,[']'],1512.02325v5
+BlitzNet512 + seg (s8),81.5%,null,[']'],1708.02813v1
+Localize,81.5%,null,[']'],2009.14085v1
+"CenterNet(DLA34, Flip, 512x512)",80.7%,null,[']'],1904.07850v2
+"PS-KD (ResNet-152, CutMix)",79.7%,null,[']'],2006.12000v3
+DPNet,79.2%,null,[']'],2209.13933v1
+OHEM,78.9%,null,[']'],1604.03540v1
+YOLO v2,78.6%,null,['YOLO'],1612.08242v1
+ThunderNet SNet535 Backbone,78.6%,null,[']'],1903.11752v3
+DeNet-101 (skip),77.1%,null,[']'],1703.10295v3
+I+ORE,76.2%,null,[']'],1708.04896v2
+"Perona Malik (Perona and Malik, 1990)",74.37%,null,[']'],2011.01901v3
+FRCN,74.2%,null,[']'],1704.03414v1
+Faster R-CNN,73.2%,null,[']'],1506.01497v3
+VGG-16 + KL Loss + var voting + soft-NMS,71.6%,null,[']'],1809.08545v3
+Fast R-CNN,70.0%,null,[']'],1504.08083v2
+subCNN,68.5%,null,[']'],1604.04693v3
+YOLO,63.4%,null,['YOLO'],1506.02640v5
+SPP(combination),60.9%,null,[']'],1406.4729v4
+R-CNN,58.5%,null,[']'],1311.2524v5
+Deformable Parts Model (DeepPyramid),45.2%,null,[']'],1409.5403v2
+TinyissimoYOLO-v8,42.3%,null,[']'],2311.01057v2
+FemotoDet,22.90%,null,[']'],2301.06719v5
+YOLOv7+Inner-IoU,null,null,[']}]</script'],2311.02877v4

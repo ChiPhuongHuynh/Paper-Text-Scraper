@@ -1,0 +1,8 @@
+name,accuracy,params,tags,id
+3DMedPT,94.82,null,['Transformer'],2112.04863v2
+PointConv,94.65,null,[']'],1811.07246v3
+SO-Net,94.46,null,[']'],1803.04249v4
+PointCNN,93.59,null,[']'],1801.07791v5
+PointNet++,93.42,null,[']'],1706.02413v1
+SpiderCNN,90.16,null,[']'],1803.11527v3
+PointNet,75.23,null,[']}]</script'],1612.00593v2

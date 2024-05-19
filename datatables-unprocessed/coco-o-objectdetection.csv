@@ -1,0 +1,45 @@
+name,accuracy,params,tags,id
+EVA,57.8,null,[']'],2211.07636v2
+DETA\n(Swin-L),48.5,null,[']'],2212.06137v1
+GLIP-L\n(Swin-L),48.0,null,[']'],2112.03857v2
+GRiT\n(ViT-H),42.9,null,[']'],2212.00280v1
+DINO\n(Swin-L),42.1,null,[']'],2203.03605v4
+CBNetV2\n(Swin-L),39.0,null,[']'],2107.00420v7
+ConvNeXt-XL\n(Cascade Mask R-CNN),37.5,null,[']'],2201.03545v2
+InternImage-L (Cascade Mask R-CNN),37.0,null,[']'],2211.05778v4
+DyHead\n(Swin-L),35.3,null,[']'],2106.08322v1
+ViTDet\n(ViT-H),34.3,null,[']'],2203.16527v2
+ViT-Adapter (BEiTv2-L),34.25,null,[']'],2205.08534v4
+FIBER-B\n(Swin-B),33.7,null,[']'],2206.07643v2
+QueryInst\n(Swin-L),33.2,null,[']'],2105.01928v3
+YOLOv6-L6,32.5,null,[']'],2209.02976v1
+YOLOv7-E6E,32.0,null,[']'],2207.02696v1
+MViTV2-H\n(Cascade Mask R-CNN),30.9,null,[']'],2112.01526v2
+Det-AdvProp\n(EfficientNet-B5),30.8,null,[']'],2103.13886v2
+YOLOv4-P6,30.4,null,[']'],2004.10934v1
+YOLOX-X,30.3,null,[']'],2107.08430v2
+CenterNet2\n(R2-101-DCN),29.5,null,[']'],2103.07461v1
+GLIP-T\n(Swin-T),29.1,null,[']'],2112.03857v2
+EfficientDet-D5\n(EfficientNet-B5),28.5,null,[']'],1911.09070v7
+PVTv2-B5\n(Mask R-CNN),28.2,null,[']'],2106.13797v7
+VFNet\n(RX-101-64x4d),28.0,null,[']'],2008.13367v2
+GCNet\n(RX-101-32x4d-DCN),26.0,null,[']'],1904.11492v1
+GFLv2\n(R2-101-DCN),25.1,null,[']'],2011.12885v1
+RepPointsV2\n(RX-101-64x4d-DCN),24.9,null,[']'],2007.08508v1
+UniverseNet\n(R2-101-DCN),24.8,null,[']'],2103.14027v3
+YOLOX-S,20.6,null,[']'],2107.08430v2
+YOLOS-B\n(ViT-B),20.0,null,[']'],2106.00666v3
+DyHead\n(ResNet-50),19.3,null,[']'],2106.08322v1
+HTC\n(ResNet-50),19.1,null,[']'],1901.07518v2
+Deformable-DETR\n(ResNet-50),18.5,null,[']'],2010.04159v4
+Cascade R-CNN\n(ResNet-50),18.2,null,[']'],1906.09756v1
+Mask R-CNN\n(ResNet-50),17.1,null,[']'],1703.06870v3
+DETR\n(ResNet-50),17.1,null,[']'],2005.12872v3
+ATSS\n(ResNet-50),16.8,null,[']'],1912.02424v4
+FCOS\n(ResNet-50),16.7,null,[']'],1904.01355v5
+RetinaNet\n(ResNet-50),16.6,null,[']'],1708.02002v2
+Faster R-CNN\n(ResNet-50-FPN),16.4,null,[']'],1506.01497v3
+YOLOv3\n(DarkNet-53),14.8,null,[']'],1804.02767v1
+SSD (VGG-16),13.6,null,[']'],1512.02325v5
+DINO (Swin-L),null,null,[']'],2203.03605v4
+Faster R-CNN (ResNet-50-FPN),null,null,[']}]</script'],1506.01497v3

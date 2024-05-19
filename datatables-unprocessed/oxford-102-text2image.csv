@@ -1,0 +1,8 @@
+name,accuracy,params,tags,id
+VQ-Diffusion-F,14.1,null,[']'],2111.14822v3
+VQ-Diffusion-B,14.88,null,[']'],2111.14822v3
+VQ-Diffusion-S,14.95,null,[']'],2111.14822v3
+RAT-GAN,16.04,null,[']'],2204.10482v1
+StackGAN-v2,48.68,null,[']'],1710.10916v3
+StackGAN-v1,55.28,null,[']'],1710.10916v3
+StackGAN,null,null,[']}]</script'],1612.03242v2

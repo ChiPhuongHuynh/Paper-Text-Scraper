@@ -1,0 +1,11 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Text-to-Image,Multi Model Celeb-A,Swinv2-Imagen,10.31,1.0,,[],2210.09549v1
+Text-to-Image,Multi Model Celeb-A,Lafite,12.54,0.9824809490140625,,[],2111.13792v3
+Text-to-Image,Multi Model Celeb-A,Corgi,19.74,0.9259171969518423,,[],2211.15388v2
+Text-to-Image,Multi Model Celeb-A,Unite and Conquer,26.09,0.8760311100636342,,[],2212.00793v2
+Text-to-Image,Multi Model Celeb-A,TediGAN-B ,101.42,0.2842328541126561,,[],2104.08910v1
+Text-to-Image,Multi Model Celeb-A,TediGAN-A,106.37,0.24534527456987973,,[],2012.03308v3
+Text-to-Image,Multi Model Celeb-A,ControlGAN,116.32,0.16717731165056174,,[],1909.07083v2
+Text-to-Image,Multi Model Celeb-A,AttnGAN,125.98,0.09128761096708297,,[],1711.10485v1
+Text-to-Image,Multi Model Celeb-A,DM-GAN,131.05,0.051457302223269566,,[],1904.01310v1
+Text-to-Image,Multi Model Celeb-A,DFGAN,137.6,0.0,,[],2008.05865v4

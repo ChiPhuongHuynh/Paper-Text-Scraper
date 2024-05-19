@@ -1,0 +1,41 @@
+name,accuracy,params,tags,id
+StyleSAN-XL,1.68,null,['GAN'],2301.12811v4
+StyleNAT,2.05,null,"['GAN', 'Transformer', 'Neighborhood Attention']",2211.05770v2
+StyleGAN-XL,2.19,null,[']'],2202.00273v2
+HiT-L,2.58,null,['Transformer'],2106.07631v3
+Poly-INR,2.72,null,[']'],2303.11424v1
+StyleSwin,2.81,null,"['Transformer', 'Swin-Transformer']",2112.10762v2
+HiT-B,2.95,null,['Transformer'],2106.07631v3
+HiT-S,3.06,null,['Transformer'],2106.07631v3
+InsGen,3.31,null,[']'],2106.04566v1
+Anycost GAN,3.35,null,[']'],2103.03243v1
+Projected-GAN (Official),3.39,null,[']'],2111.01007v1
+LeCAM (StyleGAN2 + ADA),3.49,null,[']'],2104.03310v1
+StyleGAN2 + ADA,3.62,null,[']'],2006.06676v2
+Projected-GAN (Exposing),4.29,null,[']'],null
+CIPS,4.38,null,[']'],2011.13775v1
+LFM,4.55,null,[']'],2307.08698v1
+INR-GAN-bil,4.95,null,[']'],2011.12026v2
+SWAGAN-Bi,5.22,null,[']'],2102.06108v1
+UDM (RVE) + ST,5.54,null,[']'],2106.05527v5
+Unleashing Transformers,6.11,null,[']'],2111.12701v1
+GANFormer,7.42,null,[']'],2103.01209v4
+U-Net GAN,7.48,null,[']'],2002.12655v2
+GANFormer2,7.77,null,[']'],null
+LDM,8.11,null,[']'],null
+VQGAN+Transformer,9.6,null,[']'],2012.09841v3
+BigGAN,11.48,null,[']'],2002.12655v2
+VE (erel=0.01),15.67,null,[']'],2105.14080v1
+VE (erel=0.02),15.67,null,[']'],2105.14080v1
+Efficient-VDVAE,34.88,null,['VAE'],2203.13751v2
+LDM (DINOv2),null,null,[']'],null
+StyleNAT (DINOv2),null,null,[']'],2211.05770v2
+StyleGAN-XL (DINOv2),null,null,[']'],2202.00273v2
+StyleSwin (DINOv2),null,null,[']'],2112.10762v2
+Unleashing Transformers (DINOv2),null,null,[']'],2111.12701v1
+InsGen (DINOv2),null,null,[']'],2106.04566v1
+Efficient-VDVAE (DINOv2),null,null,[']'],2203.13751v2
+StyleGAN2 + ADA (DINOv2),null,null,[']'],2006.06676v2
+Projected-GAN (DINOv2),null,null,[']'],null
+Very Deep VAE,null,null,['VAE'],2011.10650v2
+NVAE w/ flow,null,null,[']}]</script'],2007.03898v3

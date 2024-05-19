@@ -7,7 +7,7 @@ from tqdm import tqdm
 #slug = "/image-classification-on-stl-10"
 #slug = "/image-classification-on-svhn"
 #slug = "/object-detection-on-coco-minival"
-slug = "/3d-part-segmentation-on-shapenet-part"
+slug = "/text-to-image-generation-on-oxford-102"
 #slug = "/language-modelling-on-wikitext-103"
 
 def scrapeurl_slug(slug):
@@ -101,8 +101,8 @@ fields = ["name", "accuracy", "params","tags", "id"]
 rows = eval_scrape(t2)
 
 
-with open("datatables-unprocessed/3d-part-estimation.csv", 'w') as csvfile:
-    csvwriter = csv.writer(csvfile, delimiter='|')
+with open("datatables-unprocessed/oxford-102-text2image.csv", 'w') as csvfile:
+    csvwriter = csv.writer(csvfile, delimiter=',')
     csvwriter.writerow(fields)
     csvwriter.writerows(rows)
     csvfile.close()

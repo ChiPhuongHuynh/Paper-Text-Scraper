@@ -1,0 +1,15 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Depth Estimation,Stanford 2D 3D,HiMODE,0.2619,1.0,,[],2204.05007v1
+Depth Estimation,Stanford 2D 3D,FreDSNet,0.2727,0.9694310784036231,,[],2210.01595v2
+Depth Estimation,Stanford 2D 3D,NLFB,0.2776,0.9555618454571186,,[],2109.10563v3
+Depth Estimation,Stanford 2D 3D,PanoFormer,0.3083,0.8686668553637136,,[],2203.09283v2
+Depth Estimation,Stanford 2D 3D,ACDNet,0.341,0.776110953863572,,[],2112.14440v2
+Depth Estimation,Stanford 2D 3D,OmniFusion (2-iter),0.3474,0.7579960373620154,,[],2203.00838v2
+Depth Estimation,Stanford 2D 3D,GLPanoDepth,0.3493,0.7526181715256156,,[],2202.02796v2
+Depth Estimation,Stanford 2D 3D,Neural Contourlet Network,0.3528,0.7427115765638268,,[],2208.01817v1
+Depth Estimation,Stanford 2D 3D,UniFuse with fusion,0.3691,0.6965751485989244,,[],2102.03550v2
+Depth Estimation,Stanford 2D 3D,BiFuse++,0.372,0.6883668270591565,,[],2209.02952v1
+Depth Estimation,Stanford 2D 3D,PanoDepth,0.3747,0.6807245966600624,,[],2202.01323v1
+Depth Estimation,Stanford 2D 3D,HoHoNet (ResNet-101),0.3834,0.6560996320407585,,[],2011.11498v3
+Depth Estimation,Stanford 2D 3D,SphereDepth,0.4512,0.46419473535239175,,[],2208.13714v3
+Depth Estimation,Stanford 2D 3D,OmniDepth,0.6152,0.0,,[],1807.09620v1

@@ -1,0 +1,27 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Generation,Celeb-A 64x64,DDPM-IP,1.27,1.0,,"['unconditional', 'Diffusion']",2301.11706v3
+Image Generation,Celeb-A 64x64,STDDPM-G++,1.34,0.9994491658797607,,[],2211.17091v4
+Image Generation,Celeb-A 64x64,Diffusion StyleGAN2,1.69,0.9966949952785646,,[],2206.02262v4
+Image Generation,Celeb-A 64x64,"INDM (VP, FID)",1.75,0.996222851746931,,[],2205.13699v3
+Image Generation,Celeb-A 64x64,LadaGAN,1.81,0.9957507082152974,,[],2401.09596v1
+Image Generation,Celeb-A 64x64,Soft Diffusion (Blur + Noise),1.85,0.995435945860875,,[],2209.05442v2
+Image Generation,Celeb-A 64x64,"DDPM++ (VP, FID) + ST",1.9,0.995042492917847,,['Score-based'],2106.05527v5
+Image Generation,Celeb-A 64x64,SciRE-Solver,2.02,0.9940982058545798,,[],2308.07896v3
+Image Generation,Celeb-A 64x64,"INDM (VE, FID)",2.54,0.9900062952470884,,[],2205.13699v3
+Image Generation,Celeb-A 64x64,PNDM,2.71,0.9886685552407932,,[],2202.09778v2
+Image Generation,Celeb-A 64x64,"DDPM++ (VP, NLL) + ST",2.9,0.9871734340572866,,['Score-based'],2106.05527v5
+Image Generation,Celeb-A 64x64,Blackout Diffusion,3.22,0.9846553352219074,,[],2305.11089v1
+Image Generation,Celeb-A 64x64,BigGAN-OBRS,3.74,0.9805634246144161,,[],2311.00460v2
+Image Generation,Celeb-A 64x64,DiffuseVAE,3.97,0.9787535410764873,,[],2201.00308v3
+Image Generation,Celeb-A 64x64,NCP-VAE,5.25,0.9686811457349701,,[],2010.02917v3
+Image Generation,Celeb-A 64x64,C^3G-NeRF,5.6,0.965926975133774,,[],2301.00950v3
+Image Generation,Celeb-A 64x64,EBM-DRL (T6),5.98,0.9629367327667611,,[],2012.08125v2
+Image Generation,Celeb-A 64x64,HDCGAN,8.44,0.9435788479697828,,[],1711.06491v12
+Image Generation,Celeb-A 64x64,FDP(UViT),11.0,0.9234340572867484,,"['Functional-Diffusion-Processes', 'Transformer']",2303.00800v3
+Image Generation,Celeb-A 64x64,FCE,12.21,0.9139124960654704,,[],1912.00589v2
+Image Generation,Celeb-A 64x64,TransGAN-XL,12.23,0.9137551148882593,,[],2102.07074v4
+Image Generation,Celeb-A 64x64,PeerGAN,13.95,0.9002203336480956,,[],2101.07524v3
+Image Generation,Celeb-A 64x64,BEGAN-CS,34.136,0.741375511488826,,[],1808.07258v1
+Image Generation,Celeb-A 64x64,FDP(MLP),35.0,0.7345766446333019,,"['Functional-Diffusion-Processes', 'MLP']",2303.00800v3
+Image Generation,Celeb-A 64x64,PAE,49.2,0.6228360088133459,,[],2006.05479v4
+Image Generation,Celeb-A 64x64,Feature Alignment,128.35,0.0,,[],2106.12562v2

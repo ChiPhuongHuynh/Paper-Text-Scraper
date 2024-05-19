@@ -1,0 +1,20 @@
+name,accuracy,params,tags,id
+TLDM,6.72,null,[']'],2202.09671v4
+Swinv2-Imagen,9.78,null,[']'],2210.09549v1
+GALIP,10.08,null,[']'],2301.12959v1
+RAT-GAN,10.21,null,[']'],2204.10482v1
+VQ-Diffusion-F,10.32,null,[']'],2111.14822v3
+Lafite,10.48,null,[']'],2111.13792v3
+VQ-Diffusion-B,11.94,null,[']'],2111.14822v3
+VQ-Diffusion-S,12.97,null,[']'],2111.14822v3
+DM-GAN+CL,14.38,null,[']'],2107.02423v2
+StackGAN-v2,15.3,null,[']'],1710.10916v3
+AttnGAN+CL,16.34,null,[']'],2107.02423v2
+StackGAN-v1,51.89,null,[']'],1710.10916v3
+GAWWN,67.22,null,[']'],1610.02454v1
+DF-GAN,null,null,[']'],2008.05865v4
+DM-GAN,null,null,[']'],1904.01310v1
+Attention-driven Generator (perceptual loss),null,null,[']'],1909.07083v2
+MirrorGAN,null,null,[']'],1903.05854v1
+AttnGAN,null,null,[']'],1711.10485v1
+StackGAN,null,null,[']}]</script'],1612.03242v2

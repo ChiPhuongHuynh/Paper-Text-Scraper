@@ -1,0 +1,29 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Object Detection,Pascal VOC,"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3,1.0,,"['FPN', 'single scale']",2012.07177v2
+Object Detection,Pascal VOC,YOLO-Former,86.01,0.9504518072289156,,[],2401.06244v1
+Object Detection,Pascal VOC,DETReg (MDef-DETR),84.16,0.922590361445783,,[],2111.11430v6
+Object Detection,Pascal VOC,CoupleNet,82.7,0.9006024096385542,,[],1708.02863v1
+Object Detection,Pascal VOC,EEEA-Net-C2 (YOLOv4),81.8,0.8870481927710843,,[],2108.06156v1
+Object Detection,Pascal VOC,SSD512 (07+12+COCO),81.6,0.8840361445783131,,[],1512.02325v5
+Object Detection,Pascal VOC,BlitzNet512 + seg (s8),81.5,0.8825301204819277,,[],1708.02813v1
+Object Detection,Pascal VOC,Localize,81.5,0.8825301204819277,,[],2009.14085v1
+Object Detection,Pascal VOC,"CenterNet(DLA34, Flip, 512x512)",80.7,0.8704819277108433,,[],1904.07850v2
+Object Detection,Pascal VOC,"PS-KD (ResNet-152, CutMix)",79.7,0.8554216867469879,,[],2006.12000v3
+Object Detection,Pascal VOC,DPNet,79.2,0.8478915662650602,,[],2209.13933v1
+Object Detection,Pascal VOC,OHEM,78.9,0.8433734939759037,,[],1604.03540v1
+Object Detection,Pascal VOC,YOLO v2,78.6,0.8388554216867469,,['YOLO'],1612.08242v1
+Object Detection,Pascal VOC,ThunderNet SNet535 Backbone,78.6,0.8388554216867469,,[],1903.11752v3
+Object Detection,Pascal VOC,DeNet-101 (skip),77.1,0.8162650602409637,,[],1703.10295v3
+Object Detection,Pascal VOC,I+ORE,76.2,0.802710843373494,,[],1708.04896v2
+Object Detection,Pascal VOC,"Perona Malik (Perona and Malik, 1990)",74.37,0.7751506024096386,,[],2011.01901v3
+Object Detection,Pascal VOC,FRCN,74.2,0.7725903614457831,,[],1704.03414v1
+Object Detection,Pascal VOC,Faster R-CNN,73.2,0.7575301204819277,,[],1506.01497v3
+Object Detection,Pascal VOC,VGG-16 + KL Loss + var voting + soft-NMS,71.6,0.7334337349397589,,[],1809.08545v3
+Object Detection,Pascal VOC,Fast R-CNN,70.0,0.7093373493975903,,[],1504.08083v2
+Object Detection,Pascal VOC,subCNN,68.5,0.6867469879518072,,[],1604.04693v3
+Object Detection,Pascal VOC,YOLO,63.4,0.6099397590361445,,['YOLO'],1506.02640v5
+Object Detection,Pascal VOC,SPP(combination),60.9,0.5722891566265059,,[],1406.4729v4
+Object Detection,Pascal VOC,R-CNN,58.5,0.536144578313253,,[],1311.2524v5
+Object Detection,Pascal VOC,Deformable Parts Model (DeepPyramid),45.2,0.3358433734939759,,[],1409.5403v2
+Object Detection,Pascal VOC,TinyissimoYOLO-v8,42.3,0.29216867469879515,,[],2311.01057v2
+Object Detection,Pascal VOC,FemotoDet,22.9,0.0,,[],2301.06719v5

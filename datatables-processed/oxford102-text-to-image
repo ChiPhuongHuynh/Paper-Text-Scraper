@@ -1,0 +1,7 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Text-to-Image,Oxford 102,VQ-Diffusion-F,14.1,1.0,,[],2111.14822v3
+Text-to-Image,Oxford 102,VQ-Diffusion-B,14.88,0.9810587663914522,,[],2111.14822v3
+Text-to-Image,Oxford 102,VQ-Diffusion-S,14.95,0.9793589120932491,,[],2111.14822v3
+Text-to-Image,Oxford 102,RAT-GAN,16.04,0.9528897523069452,,[],2204.10482v1
+Text-to-Image,Oxford 102,StackGAN-v2,48.68,0.1602719766877125,,[],1710.10916v3
+Text-to-Image,Oxford 102,StackGAN-v1,55.28,0.0,,[],1710.10916v3

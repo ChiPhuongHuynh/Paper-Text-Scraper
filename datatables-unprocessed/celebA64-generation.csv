@@ -1,0 +1,34 @@
+name,accuracy,params,tags,id
+DDPM-IP,1.27,null,"['unconditional', 'Diffusion']",2301.11706v3
+STDDPM-G++,1.34,null,[']'],2211.17091v4
+Diffusion StyleGAN2,1.69,null,[']'],2206.02262v4
+"INDM (VP, FID)",1.75,null,[']'],2205.13699v3
+Patch Diffusion,1.77,null,[']'],null
+LadaGAN,1.81,null,[']'],2401.09596v1
+Soft Diffusion (Blur + Noise),1.85,null,[']'],2209.05442v2
+"DDPM++ (VP, FID) + ST",1.9,null,['Score-based'],2106.05527v5
+SciRE-Solver,2.02,null,[']'],2308.07896v3
+"INDM (VE, FID)",2.54,null,[']'],2205.13699v3
+PNDM,2.71,null,[']'],2202.09778v2
+"DDPM++ (VP, NLL) + ST",2.9,null,['Score-based'],2106.05527v5
+Blackout Diffusion,3.22,null,[']'],2305.11089v1
+BigGAN-OBRS,3.74,null,[']'],2311.00460v2
+DiffuseVAE,3.97,null,[']'],2201.00308v3
+NCP-VAE,5.25,null,[']'],2010.02917v3
+C^3G-NeRF,5.6,null,[']'],2301.00950v3
+EBM-DRL (T6),5.98,null,[']'],2012.08125v2
+PR-BigGAN - Recall,6.03,null,[']'],null
+HDCGAN,8.44,null,[']'],1711.06491v12
+FDP(UViT),11,null,"['Functional-Diffusion-Processes', 'Transformer']",2303.00800v3
+FCE,12.21,null,[']'],1912.00589v2
+TransGAN-XL,12.23,null,[']'],2102.07074v4
+PeerGAN,13.95,null,[']'],2101.07524v3
+PR-BigGAN - Precision,22.45,null,[']'],null
+BEGAN-CS,34.136,null,[']'],1808.07258v1
+FDP(MLP),35,null,"['Functional-Diffusion-Processes', 'MLP']",2303.00800v3
+PAE,49.2,null,[']'],2006.05479v4
+Feature Alignment,128.35,null,[']'],2106.12562v2
+Efficient-VDVAE,null,null,['VAE'],2203.13751v2
+CR-NVAE,null,null,[']'],2105.14859v2
+UNCSN++ (RVE) + ST,null,null,[']'],2106.05527v5
+DenseFlow-74-10,null,null,[']}]</script'],2106.04627v3

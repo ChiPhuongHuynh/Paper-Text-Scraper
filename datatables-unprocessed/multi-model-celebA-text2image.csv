@@ -1,0 +1,11 @@
+name,accuracy,params,tags,id
+Swinv2-Imagen,10.31,null,[']'],2210.09549v1
+Lafite,12.54,null,[']'],2111.13792v3
+Corgi,19.74,null,[']'],2211.15388v2
+Unite and Conquer,26.09,null,[']'],2212.00793v2
+TediGAN-B ,101.42,null,[']'],2104.08910v1
+TediGAN-A,106.37,null,[']'],2012.03308v3
+ControlGAN,116.32,null,[']'],1909.07083v2
+AttnGAN,125.98,null,[']'],1711.10485v1
+DM-GAN,131.05,null,[']'],1904.01310v1
+DFGAN,137.60,null,[']}]</script'],2008.05865v4

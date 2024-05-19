@@ -1,0 +1,8 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+3D Part Segmentation,Intra,3DMedPT,94.82,1.0,,['Transformer'],2112.04863v2
+3D Part Segmentation,Intra,PointConv,94.65,0.9913221031138342,,[],1811.07246v3
+3D Part Segmentation,Intra,SO-Net,94.46,0.9816232771822359,,[],1803.04249v4
+3D Part Segmentation,Intra,PointCNN,93.59,0.9372128637059729,,[],1801.07791v5
+3D Part Segmentation,Intra,PointNet++,93.42,0.9285349668198064,,[],1706.02413v1
+3D Part Segmentation,Intra,SpiderCNN,90.16,0.7621235324144973,,[],1803.11527v3
+3D Part Segmentation,Intra,PointNet,75.23,0.0,,[],1612.00593v2

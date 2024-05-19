@@ -1,0 +1,26 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Object Detection,COCO 2017,"YOLOv6-L6(46 fps, V100, bs1)",57.2,1.0,,['YOLO'],2301.05586v1
+Object Detection,COCO 2017,Salience-DETR (Focal-L 1x),56.8,0.9771428571428569,,['DETR'],2403.16131v1
+Object Detection,COCO 2017,Salience-DETR (Swin-L 1x),56.5,0.9599999999999999,,['DETR'],2403.16131v1
+Object Detection,COCO 2017,MogaNet-XL (Cascade Mask R-CNN),56.2,0.9428571428571428,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-L (Cascade Mask R-CNN),53.3,0.7771428571428568,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-B (Cascade Mask R-CNN),52.6,0.7371428571428571,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-S (Cascade Mask R-CNN),51.6,0.6799999999999999,,[],2211.03295v3
+Object Detection,COCO 2017,RF-ConvNeXt-T Cascade R-CNN,50.9,0.6399999999999998,,[],2206.06637v2
+Object Detection,COCO 2017,Salience-DETR (ResNet50 1x),50.0,0.5885714285714284,,['DETR'],2403.16131v1
+Object Detection,COCO 2017,SQR-Adamixer-R101,49.8,0.5771428571428568,,[],2212.07593v3
+Object Detection,COCO 2017,MogaNet-L (Mask R-CNN 1x),49.4,0.554285714285714,,[],2211.03295v3
+Object Detection,COCO 2017,ViDT Swin-base,49.2,0.5428571428571428,,[],2110.03921v2
+Object Detection,COCO 2017,SQR-Adamixer-R50,48.9,0.5257142857142855,,[],2212.07593v3
+Object Detection,COCO 2017,MogaNet-L (RetinaNet 1x),48.7,0.5142857142857142,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-B (Mask R-CNN 1x),47.9,0.4685714285714283,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-B (RetinaNet 1x),47.7,0.45714285714285713,,[],2211.03295v3
+Object Detection,COCO 2017,ViDT Swin-small,47.5,0.44571428571428556,,[],2110.03921v2
+Object Detection,COCO 2017,MogaNet-S (Mask R-CNN 1x),46.7,0.4,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-S (RetinaNet 1x),45.8,0.34857142857142825,,[],2211.03295v3
+Object Detection,COCO 2017,ViDT Swin-tiny,44.8,0.2914285714285711,,[],2110.03921v2
+Object Detection,COCO 2017,MogaNet-T (Mask R-CNN 1x),42.6,0.16571428571428562,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-T (RetinaNet 1x),41.4,0.0971428571428569,,[],2211.03295v3
+Object Detection,COCO 2017,MogaNet-XT (Mask R-CNN 1x),40.7,0.05714285714285714,,[],2211.03295v3
+Object Detection,COCO 2017,ViDT Swin-nano,40.4,0.03999999999999976,,[],2110.03921v2
+Object Detection,COCO 2017,MogaNet-XT (RetinaNet 1x),39.7,0.0,,[],2211.03295v3

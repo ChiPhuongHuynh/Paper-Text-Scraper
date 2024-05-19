@@ -1,0 +1,19 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Object Detection,Crowd Human Full Body,InternImage-H,97.2,1.0,,[],2211.05778v4
+Object Detection,Crowd Human Full Body,Progressive DETR,94.1,0.7572435395458097,,[],2203.07669v3
+Object Detection,Crowd Human Full Body,DDQ DETR (R50),93.8,0.7337509788566948,,['ResNet-50'],2303.12776v2
+Object Detection,Crowd Human Full Body,DDQ R-CNN (R50),93.5,0.71025841816758,,['ResNet-50'],2303.12776v2
+Object Detection,Crowd Human Full Body,"Hulk(Finetune, ViT-L)",93.0,0.6711041503523881,,[],2312.01697v4
+Object Detection,Crowd Human Full Body,DDQ FCN (R50 One-Stage),92.7,0.6476115896632731,,"['one-stage', 'ResNet-50']",2303.12776v2
+Object Detection,Crowd Human Full Body,UniHCP (finetune),92.5,0.6319498825371962,,[],2303.02936v4
+Object Detection,Crowd Human Full Body,"Hulk(Finetune, ViT-B)",92.4,0.6241190289741583,,[],2312.01697v4
+Object Detection,Crowd Human Full Body,V2F-Net,91.03,0.5168363351605322,,[],2104.03106v1
+Object Detection,Crowd Human Full Body,CrowdDet,90.7,0.49099451840250574,,['ResNet'],2003.09163v2
+Object Detection,Crowd Human Full Body,Beta R-CNN,89.6,0.40485512920908295,,[],2210.12758v1
+Object Detection,Crowd Human Full Body,NOH-NMS,89.0,0.35787000783085315,,[],2007.13376v1
+Object Detection,Crowd Human Full Body,"IterDet (Faster RCNN, ResNet50, 2 iterations)",88.08,0.2858261550509,,['ResNet'],2005.05708v2
+Object Detection,Crowd Human Full Body,"PS-RCNN (Faster RCNN, ResNet50, COCO Instance Masks",87.94,0.2748629600626462,,[],2003.07080v1
+Object Detection,Crowd Human Full Body,"PS-RCNN (Faster RCNN, ResNet50)",86.05,0.1268598277212209,,['ResNet'],2003.07080v1
+Object Detection,Crowd Human Full Body,Faster RCNN (ResNet50),84.95,0.04072043852779923,,['ResNet'],1805.00123v1
+Object Detection,Crowd Human Full Body,"Adaptive NMS (Faster RCNN, ResNet50)",84.71,0.021926389976506422,,['ResNet'],1904.03629v1
+Object Detection,Crowd Human Full Body,"IterDet (Faster RCNN, ResNet50, 1 iteration)",84.43,0.0,,['ResNet'],2005.05708v2

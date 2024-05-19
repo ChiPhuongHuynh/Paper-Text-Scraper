@@ -1,0 +1,19 @@
+name,accuracy,params,tags,id
+HiMODE,0.2619,null,[']'],2204.05007v1
+FreDSNet,0.2727,null,[']'],2210.01595v2
+NLFB,0.2776,null,[']'],2109.10563v3
+PanoFormer,0.3083,null,[']'],2203.09283v2
+ACDNet,0.341,null,[']'],2112.14440v2
+OmniFusion (2-iter),0.3474,null,[']'],2203.00838v2
+GLPanoDepth,0.3493,null,[']'],2202.02796v2
+Neural Contourlet Network,0.3528,null,[']'],2208.01817v1
+SliceNet,0.3684,null,[']'],null
+DisConv,0.369,null,[']'],null
+UniFuse with fusion,0.3691,null,[']'],2102.03550v2
+BiFuse++,0.372,null,[']'],2209.02952v1
+PanoDepth,0.3747,null,[']'],2202.01323v1
+HoHoNet (ResNet-101),0.3834,null,[']'],2011.11498v3
+BiFuse with fusion,0.4142,null,[']'],null
+Jin et al.,0.421,null,[']'],null
+SphereDepth,0.4512,null,[']'],2208.13714v3
+OmniDepth,0.6152,null,[']}]</script'],1807.09620v1
