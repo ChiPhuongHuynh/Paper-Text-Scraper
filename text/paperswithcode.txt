@@ -7,7 +7,7 @@
    const GTAG_ENABLED =  true ;
     const GTAG_TRACKING_ID = "UA-121182717-1";
     const SENTRY_DSN_FRONTEND = "".trim();
-    const GLOBAL_CSRF_TOKEN = 'ifrSUj9qcwMBw6nesqS7gZ4GfhJX1pWyExCPmoBeuhnXarjaxR4LSO9d2rDsasZW';
+    const GLOBAL_CSRF_TOKEN = 'RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa';
     const MEDIA_URL = "https://production-media.paperswithcode.com/";
     const ASSETS_URL = "https://production-assets.paperswithcode.com";
     run_after_frontend_loaded = window.run_after_frontend_loaded || [];
@@ -34,21 +34,21 @@
   <link href="https://production-assets.paperswithcode.com/perf/sota.table.fe0fcc15.css" rel="stylesheet"/>
   <!-- Metadata -->
   <title>
-   Oxford 102 Flowers Benchmark (Text-to-Image Generation) | Papers With Code
+   Imbalanced CUB-200-2011 Benchmark (Image Classification) | Papers With Code
   </title>
-  <meta content="The current state-of-the-art on Oxford 102 Flowers is VQ-Diffusion-F. See a full comparison of 7 papers with code." name="description"/>
+  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." name="description"/>
   <!-- Open Graph protocol metadata -->
-  <meta content="Papers with Code - Oxford 102 Flowers Benchmark (Text-to-Image Generation)" property="og:title"/>
-  <meta content="The current state-of-the-art on Oxford 102 Flowers is VQ-Diffusion-F. See a full comparison of 7 papers with code." property="og:description"/>
-  <meta content="https://production-media.paperswithcode.com/sota-thumbs/text-to-image-generation-on-oxford-102-large_68b2f47e.png" property="og:image"/>
-  <meta content="https://paperswithcode.com/sota/text-to-image-generation-on-oxford-102" property="og:url"/>
+  <meta content="Papers with Code - Imbalanced CUB-200-2011 Benchmark (Image Classification)" property="og:title"/>
+  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." property="og:description"/>
+  <meta content="https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-imbalanced-cub-200-large_3e1438ea.png" property="og:image"/>
+  <meta content="https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200" property="og:url"/>
   <!-- Twitter metadata -->
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="@paperswithcode" name="twitter:site"/>
-  <meta content="Papers with Code - Oxford 102 Flowers Benchmark (Text-to-Image Generation)" name="twitter:title"/>
-  <meta content="The current state-of-the-art on Oxford 102 Flowers is VQ-Diffusion-F. See a full comparison of 7 papers with code." name="twitter:description"/>
+  <meta content="Papers with Code - Imbalanced CUB-200-2011 Benchmark (Image Classification)" name="twitter:title"/>
+  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." name="twitter:description"/>
   <meta content="@paperswithcode" name="twitter:creator"/>
-  <meta content="https://paperswithcode.com/sota/text-to-image-generation-on-oxford-102" name="twitter:url"/>
+  <meta content="https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200" name="twitter:url"/>
   <meta content="paperswithcode.com" name="twitter:domain"/>
   <!-- JSON LD -->
   <script type="application/ld+json">
@@ -56,10 +56,10 @@
     "@context": "http://schema.org",
     "@graph": {
         "@type": "ItemList",
-        "name": "Oxford 102 Flowers Benchmark (Text-to-Image Generation)",
-        "description": "The current state-of-the-art on Oxford 102 Flowers is VQ-Diffusion-F. See a full comparison of 7 papers with code.",
-        "url": "https://paperswithcode.com/sota/text-to-image-generation-on-oxford-102",
-        "image": "https://production-media.paperswithcode.com/sota-thumbs/text-to-image-generation-on-oxford-102-large_68b2f47e.png"
+        "name": "Imbalanced CUB-200-2011 Benchmark (Image Classification)",
+        "description": "The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code.",
+        "url": "https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200",
+        "image": "https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-imbalanced-cub-200-large_3e1438ea.png"
     }
 }
   </script>
@@ -164,7 +164,7 @@
       </a>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="/accounts/login?next=/sota/text-to-image-generation-on-oxford-102" id="signin-link">
+      <a class="nav-link" href="/accounts/login?next=/sota/image-classification-on-imbalanced-cub-200" id="signin-link">
        Sign In
       </a>
      </li>
@@ -195,7 +195,7 @@
          Read previous issues
         </a>
        </div>
-       <input name="csrfmiddlewaretoken" type="hidden" value="ifrSUj9qcwMBw6nesqS7gZ4GfhJX1pWyExCPmoBeuhnXarjaxR4LSO9d2rDsasZW"/>
+       <input name="csrfmiddlewaretoken" type="hidden" value="RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa"/>
        <input class="form-control pwc-email" id="id_address" max_length="100" name="address" placeholder="Enter your email" required="" type="email"/>
       </div>
       <div class="modal-footer">
@@ -223,13 +223,13 @@
      </div>
      <div class="login-modal-message">
       You need to
-      <a href="/accounts/login?next=/sota/text-to-image-generation-on-oxford-102">
+      <a href="/accounts/login?next=/sota/image-classification-on-imbalanced-cub-200">
        log in
       </a>
       to edit.
       <br/>
       You can
-      <a href="/accounts/register?next=/sota/text-to-image-generation-on-oxford-102">
+      <a href="/accounts/register?next=/sota/image-classification-on-imbalanced-cub-200">
        create a new account
       </a>
       if you don't have one.
@@ -241,11 +241,11 @@
   </div>
   <div class="container content content-buffer">
    <div class="leaderboard-header">
-    <a href="/task/text-to-image-generation">
+    <a href="/task/image-classification">
      <span class="badge badge-primary">
-      <img src="https://production-media.paperswithcode.com/thumbnails/task/d5f1e0b9-1215-4f4f-ab92-8ea1e4f036d7.jpg"/>
+      <img src="https://production-media.paperswithcode.com/thumbnails/task/7a146e71-bbf8-4137-bf25-a3618bd043a0.jpg"/>
       <span>
-       Text-to-Image Generation
+       Image Classification
       </span>
      </span>
     </a>
@@ -257,7 +257,7 @@
    </div>
    <link href="https://production-assets.paperswithcode.com/static/fonts/font-awesome/css/all.min.css" rel="stylesheet"/>
    <script type="application/javascript">
-    const CSRF_TOKEN = "ifrSUj9qcwMBw6nesqS7gZ4GfhJX1pWyExCPmoBeuhnXarjaxR4LSO9d2rDsasZW";
+    const CSRF_TOKEN = "RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa";
         const USER_IS_AUTHENTICATED = false;
         const LOGIN_REQUIRED = true;
    </script>
@@ -267,16 +267,16 @@
    </script>
    <!-- Start SOTA Table Generation -->
    <script id="evaluation-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 9.982, "maximum": 59.398}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2017-10-19", "y": 48.68, "name": "StackGAN-v2", "nameShort": "StackGAN-v2", "nameDetails": null, "paperSlug": "stackgan-realistic-image-synthesis-with", "usesAdditionalData": false}, {"x": "2021-11-29", "y": 14.1, "name": "VQ-Diffusion-F", "nameShort": "VQ-Diffusion-F", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": [{"x": "2017-10-19", "y": 55.28, "name": "StackGAN-v1", "nameShort": "StackGAN-v1", "nameDetails": null, "paperSlug": "stackgan-realistic-image-synthesis-with", "usesAdditionalData": false}, {"x": "2021-11-29", "y": 14.88, "name": "VQ-Diffusion-B", "nameShort": "VQ-Diffusion-B", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}, {"x": "2021-11-29", "y": 14.95, "name": "VQ-Diffusion-S", "nameShort": "VQ-Diffusion-S", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}, {"x": "2022-04-22", "y": 16.04, "name": "RAT-GAN", "nameShort": "RAT-GAN", "nameDetails": null, "paperSlug": "recurrent-affine-transformation-for-text-to", "usesAdditionalData": false}]}}}, "uses_additional_data": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 14.015, "maximum": 15.035}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2021-11-29", "y": 14.1, "name": "VQ-Diffusion-F", "nameShort": "VQ-Diffusion-F", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": [{"x": "2021-11-29", "y": 14.88, "name": "VQ-Diffusion-B", "nameShort": "VQ-Diffusion-B", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}, {"x": "2021-11-29", "y": 14.95, "name": "VQ-Diffusion-S", "nameShort": "VQ-Diffusion-S", "nameDetails": null, "paperSlug": "vector-quantized-diffusion-model-for-text-to", "usesAdditionalData": true}]}}}, "no_additional_data": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 12.116, "maximum": 59.204}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2017-10-19", "y": 48.68, "name": "StackGAN-v2", "nameShort": "StackGAN-v2", "nameDetails": null, "paperSlug": "stackgan-realistic-image-synthesis-with", "usesAdditionalData": false}, {"x": "2022-04-22", "y": 16.04, "name": "RAT-GAN", "nameShort": "RAT-GAN", "nameDetails": null, "paperSlug": "recurrent-affine-transformation-for-text-to", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": [{"x": "2017-10-19", "y": 55.28, "name": "StackGAN-v1", "nameShort": "StackGAN-v1", "nameDetails": null, "paperSlug": "stackgan-realistic-image-synthesis-with", "usesAdditionalData": false}]}}}}
+    {"all": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 88.736, "maximum": 100.664}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2019-11-15", "y": 89.73, "name": "PC-Softmax", "nameShort": "PC-Softmax", "nameDetails": null, "paperSlug": "rethinking-softmax-with-cross-entropy-neural", "usesAdditionalData": false}, {"x": "2020-11-24", "y": 99.67, "name": "Multi-task", "nameShort": "Multi-task", "nameDetails": null, "paperSlug": "ufpr-periocular-a-periocular-dataset", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 88.736, "maximum": 100.664}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2019-11-15", "y": 89.73, "name": "PC-Softmax", "nameShort": "PC-Softmax", "nameDetails": null, "paperSlug": "rethinking-softmax-with-cross-entropy-neural", "usesAdditionalData": false}, {"x": "2020-11-24", "y": 99.67, "name": "Multi-task", "nameShort": "Multi-task", "nameDetails": null, "paperSlug": "ufpr-periocular-a-periocular-dataset", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="evaluation-table-metrics" type="application/json">
-    [{"id": 508, "name": "FID", "is_loss": true, "is_fixed": false}, {"id": 512, "name": "Inception score", "is_loss": false, "is_fixed": false}]
+    [{"id": 2347, "name": "Accuracy", "is_loss": false, "is_fixed": false}, {"id": 2345, "name": "Average Per-Class Accuracy", "is_loss": false, "is_fixed": false}]
    </script>
    <script id="evaluation-table-data" type="application/json">
-    [{"table_id": 384, "row_id": 44745, "rank": 1, "method": "VQ-Diffusion-F", "mlmodel": {}, "method_short": "VQ-Diffusion-F", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2021-11-29", "metrics": {"FID": "14.1", "Inception score": null}, "raw_metrics": {"FID": 14.1, "Inception score": null}, "uses_additional_data": true, "paper": {"id": 921851, "title": "Vector Quantized Diffusion Model for Text-to-Image Synthesis", "url": "/paper/vector-quantized-diffusion-model-for-text-to", "published": "2021-11-29T00:00:00.000000", "code": true, "review_url": "/paper/vector-quantized-diffusion-model-for-text-to/review/?hl=44745"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 44742, "rank": 2, "method": "VQ-Diffusion-B", "mlmodel": {}, "method_short": "VQ-Diffusion-B", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2021-11-29", "metrics": {"FID": "14.88", "Inception score": null}, "raw_metrics": {"FID": 14.88, "Inception score": null}, "uses_additional_data": true, "paper": {"id": 921851, "title": "Vector Quantized Diffusion Model for Text-to-Image Synthesis", "url": "/paper/vector-quantized-diffusion-model-for-text-to", "published": "2021-11-29T00:00:00.000000", "code": true, "review_url": "/paper/vector-quantized-diffusion-model-for-text-to/review/?hl=44742"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 44739, "rank": 3, "method": "VQ-Diffusion-S", "mlmodel": {}, "method_short": "VQ-Diffusion-S", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2021-11-29", "metrics": {"FID": "14.95", "Inception score": null}, "raw_metrics": {"FID": 14.95, "Inception score": null}, "uses_additional_data": true, "paper": {"id": 921851, "title": "Vector Quantized Diffusion Model for Text-to-Image Synthesis", "url": "/paper/vector-quantized-diffusion-model-for-text-to", "published": "2021-11-29T00:00:00.000000", "code": true, "review_url": "/paper/vector-quantized-diffusion-model-for-text-to/review/?hl=44739"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 53809, "rank": 4, "method": "RAT-GAN", "mlmodel": {}, "method_short": "RAT-GAN", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2022-04-22", "metrics": {"FID": "16.04", "Inception score": "4.09"}, "raw_metrics": {"FID": 16.04, "Inception score": 4.09}, "uses_additional_data": false, "paper": {"id": 998395, "title": "Recurrent Affine Transformation for Text-to-image Synthesis", "url": "/paper/recurrent-affine-transformation-for-text-to", "published": "2022-04-22T00:00:00.000000", "code": true, "review_url": "/paper/recurrent-affine-transformation-for-text-to/review/?hl=53809"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 2772, "rank": 5, "method": "StackGAN-v2", "mlmodel": {}, "method_short": "StackGAN-v2", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2017-10-19", "metrics": {"FID": "48.68", "Inception score": "3.26"}, "raw_metrics": {"FID": 48.68, "Inception score": 3.26}, "uses_additional_data": false, "paper": {"id": 12544, "title": "StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks", "url": "/paper/stackgan-realistic-image-synthesis-with", "published": "2017-10-19T00:00:00.000000", "code": true, "review_url": "/paper/stackgan-realistic-image-synthesis-with/review/?hl=2772"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 85799, "rank": 6, "method": "StackGAN-v1", "mlmodel": {}, "method_short": "StackGAN-v1", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2017-10-19", "metrics": {"FID": "55.28", "Inception score": "3.2"}, "raw_metrics": {"FID": 55.28, "Inception score": 3.2}, "uses_additional_data": false, "paper": {"id": 12544, "title": "StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks", "url": "/paper/stackgan-realistic-image-synthesis-with", "published": "2017-10-19T00:00:00.000000", "code": true, "review_url": "/paper/stackgan-realistic-image-synthesis-with/review/?hl=85799"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 384, "row_id": 12050, "rank": 7, "method": "StackGAN", "mlmodel": {}, "method_short": "StackGAN", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2016-12-10", "metrics": {"FID": null, "Inception score": "3.2"}, "raw_metrics": {"FID": null, "Inception score": 3.2}, "uses_additional_data": false, "paper": {"id": 19249, "title": "StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks", "url": "/paper/stackgan-text-to-photo-realistic-image", "published": "2016-12-10T00:00:00.000000", "code": true, "review_url": "/paper/stackgan-text-to-photo-realistic-image/review/?hl=12050"}, "external_source_url": null, "tags": [], "reports": []}]
+    [{"table_id": 1593, "row_id": 28247, "rank": 1, "method": "Multi-task", "mlmodel": {}, "method_short": "Multi-task", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2020-11-24", "metrics": {"Accuracy": "99.67", "Average Per-Class Accuracy": null}, "raw_metrics": {"Accuracy": 99.67, "Average Per-Class Accuracy": null}, "uses_additional_data": false, "paper": {"id": 237473, "title": "A New Periocular Dataset Collected by Mobile Devices in Unconstrained Scenarios", "url": "/paper/ufpr-periocular-a-periocular-dataset", "published": "2020-11-24T00:00:00.000000", "code": false, "review_url": "/paper/ufpr-periocular-a-periocular-dataset/review/?hl=28247"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 1593, "row_id": 9282, "rank": 2, "method": "PC-Softmax", "mlmodel": {}, "method_short": "PC-Softmax", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2019-11-15", "metrics": {"Accuracy": "89.73", "Average Per-Class Accuracy": "87.69"}, "raw_metrics": {"Accuracy": 89.73, "Average Per-Class Accuracy": 87.69}, "uses_additional_data": false, "paper": {"id": 174145, "title": "Rethinking Softmax with Cross-Entropy: Neural Network Classifier as Mutual Information Estimator", "url": "/paper/rethinking-softmax-with-cross-entropy-neural", "published": "2019-11-25T00:00:00.000000", "code": true, "review_url": "/paper/rethinking-softmax-with-cross-entropy-neural/review/?hl=9282"}, "external_source_url": null, "tags": [], "reports": []}]
    </script>
    <script id="community-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "FID", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
+    {"all": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="community-table-metrics" type="application/json">
     []
@@ -285,10 +285,10 @@
     []
    </script>
    <script id="dataset-details" type="application/json">
-    [{"name": "Oxford 102 Flower", "fullName": "102 Category Flower Dataset", "url": "/dataset/oxford-102-flower", "description": "Oxford 102 Flower is an image classification dataset consisting of 102 flower categories. The flowers chosen to be flower commonly occurring in the United Kingdom. Each class consists of between 40 and 258 images.", "imagePath": "https://production-media.paperswithcode.com/datasets/flowers.jpg", "iconName": "images", "color": "#A395C6"}]
+    [{"name": "CUB-200-2011", "fullName": "Caltech-UCSD Birds-200-2011", "url": "/dataset/cub-200-2011", "description": "The Caltech-UCSD Birds-200-2011 (CUB-200-2011) dataset is the most widely-used dataset for fine-grained visual categorization task. It contains 11,788 images of 200 subcategories belonging to birds, 5,994 for training and 5,794 for testing. Each image has detailed annotations: 1 subcategory label, 15 part locations, 312 binary attributes and 1 bounding box. The textual information comes from Reed et al.. They expand the CUB-200-2011 dataset by collecting fine-grained natural language descriptions. Ten single-sentence descriptions are collected for each image. The natural language descriptions are collected through the Amazon Mechanical Turk (AMT) platform, and are required at least 10 words, without any information of subcategories and actions.", "imagePath": "https://production-media.paperswithcode.com/datasets/CUB-200-2011-0000000109-6e01ce73_vMleyYb.jpeg", "iconName": "images", "color": "#A395C6"}]
    </script>
    <script id="sota-page-details" type="application/json">
-    {"task_main_area_name": "Natural Language Processing", "task_name": "Text-to-Image Generation", "dataset_name": "Oxford 102 Flowers", "description": "", "mirror_url": null, "has_competition_entries": false}
+    {"task_main_area_name": "Computer Vision", "task_name": "Image Classification", "dataset_name": "Imbalanced CUB-200-2011", "description": "", "mirror_url": null, "has_competition_entries": false}
    </script>
    <script type="application/javascript">
     let evaluationChartData = JSON.parse(
@@ -327,17 +327,17 @@
                 
                 {
                     title: sotaPageDetails.task_main_area_name,
-                    url: "/area/natural-language-processing"
+                    url: "/area/computer-vision"
                 },
                 
                 {
                     title: sotaPageDetails.task_name,
-                    url: "/task/text-to-image-generation"
+                    url: "/task/image-classification"
                 },
                 
                 {
                     title: sotaPageDetails.dataset_name + " dataset",
-                    url: "/dataset/oxford-102-flowers"
+                    url: "/dataset/cub-200-2011"
                 }
                 
             ];

@@ -1,0 +1,7 @@
+name,accuracy,params,tags,id
+OmniVec(ViT),63.5},null,[']'],2311.05709v1
+InternImage-H\uff08CNN\uff09,61.2%},null,[']'],2211.05778v4
+MixMIM-L(ViT-L),60.3},null,[']'],2205.13137v4
+ViC-MAE (ViT-L),59.5%},null,[']'],2303.12001v2
+\u00b52Net+ (ViT-L/16),59.15},null,[']'],2209.07326v3
+MixMIM-B (ViT),58.9},null,[']}]</script'],2205.13137v4

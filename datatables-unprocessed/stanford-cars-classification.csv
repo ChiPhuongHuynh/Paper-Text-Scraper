@@ -1,0 +1,22 @@
+name,accuracy,params,tags,id
+efficient adaptive ensembling,99.847},null,[']'],2206.07394v3
+TResNet-L-V2,96.32},null,[']'],2104.10972v4
+EfficientNetV2-L,95.1},null,['EfficientNet'],2104.00298v3
+EfficientNetV2-M,94.6},null,['EfficientNet'],2104.00298v3
+CaiT-M-36 U 224,94.2},null,[']'],2103.17239v2
+ImageNet + iNat on WS-DAN,94.1},null,[']'],2010.03071v1
+CeiT-S (384 finetune resolution),94.1},null,[']'],2103.11816v2
+EfficientNetV2-S,93.8},null,['EfficientNet'],2104.00298v3
+CeiT-S,93.2},null,[']'],2103.11816v2
+GFNet-H-B,93.2},null,[']'],2107.00645v2
+CeiT-T (384 finetune resolution),93},null,[']'],2103.11816v2
+TransBoost-ResNet50,90.80%},null,[']'],2205.13331v4
+CeiT-T,90.5},null,[']'],2103.11816v2
+LeViT-192,89.8},null,[']'],2104.01136v2
+ResMLP-24,89.5},null,[']'],2105.03404v2
+LeViT-384,89.3},null,[']'],2104.01136v2
+LeViT-128,88.6},null,[']'],2104.01136v2
+LeViT-128S,88.4},null,[']'],2104.01136v2
+LeViT-256,88.2},null,[']'],2104.01136v2
+ResMLP-12,84.6},null,[']'],2105.03404v2
+NNCLR,67.1},null,[']}]</script'],2104.14548v2

@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Caltech 256,AG-Net,96.89,1.0,,[],2110.12183v1
+Image Classification,Caltech 256,Inceptionv4,85.94,0.7409510290986515,,[],2107.08585v2
+Image Classification,Caltech 256,Inceptionv4 (random initialization),67.2,0.2976105985332388,,[],2107.08585v2
+Image Classification,Caltech 256,WaveMixLite-256/7,54.62,0.0,,[],2205.14375v5

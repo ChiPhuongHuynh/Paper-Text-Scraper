@@ -1,0 +1,23 @@
+name,accuracy,params,tags,id
+NOAH-ViTB/16,47.6},null,"['pre-trained on ImageNet22K', 'parameter-efficient tuning', 'ViT']",2206.04673v2
+SwinTransformer,46.4},null,"['swin-transformer', 'Pre-trained on ImageNet', 'linear probing']",2103.14030v2
+Bamboo-R50,45.4},null,"['ResNet-50', 'pre-trained on Bamboo-CLS', 'linear probing']",2203.07845v2
+Adapter-ViTB/16,44.5},null,"['ViT', 'parameter-efficient tuning', 'pre-trained on ImageNet22K']",1902.00751v2
+CLIP-RN50,42.1},null,"['ResNet-50', 'linear probing', 'CLIP Pre-trained']",2103.00020v1
+IG-1B,40.4},null,"['ResNet-50', 'linear probing', 'Pre-trained on IG-1B \\u0026 ImageNet']",1905.00546v1
+BiT-M,40.4},null,"['ResNet-50', 'linear probing', 'pre-trained on ImageNet22K']",1912.11370v3
+DINO,38.9},null,"['Pre-trained on ImageNet', 'ResNet-50', 'linear probing', 'unsupervised']",2104.14294v2
+SwAV,38.3},null,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50', 'unsupervised']",2006.09882v5
+ResNet-101,37.4},null,"['linear probing', 'pre-trained on ImageNet22K', 'ResNet-101']",1512.03385v1
+MEAL-V2,36.6},null,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.08453v2
+MoPro-V2,36.1},null,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.07995v1
+EfficientNetB4,35.8},null,[']'],1905.11946v5
+MoCoV2,34.8},null,[']'],1911.05722v3
+ResNet-50,34.3},null,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50']",1512.03385v1
+InceptionV4,32.3},null,[']'],1602.07261v2
+MLP-Mixer,32.2},null,['MLP'],2105.01601v4
+Manifold,31.6},null,['augmentation'],1806.05236v7
+CutMix,31.1},null,['augmentation'],1905.04899v2
+ReLabel,30.8},null,['augmentation'],2101.05022v2
+MAE,30.6},null,"['linear probing', 'unsupervised']",2111.06377v2
+BeiT,30.1},null,"['linear probing', 'Unsupervised']",2106.08254v2

@@ -1,0 +1,6 @@
+name,accuracy,params,tags,id
+TWIST (ResNet-50),94.5,null,[']'],2110.07402v4
+ResNet-152x4-AGC (ImageNet-21K),93.21,null,[']'],2106.00116v4
+NNCLR,91.8,null,[']'],2104.14548v2
+kMobileNet V3 Large 16ch,60.4,0.36M,[']'],null
+kEffNet-B0,null,0.67M,[']}]</script'],null

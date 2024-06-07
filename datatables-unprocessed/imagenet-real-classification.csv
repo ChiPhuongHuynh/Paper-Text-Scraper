@@ -1,0 +1,58 @@
+name,accuracy,params,tags,id
+Baseline (ViT-G/14),91.78%,null,[']'],2203.05482v3
+"ViTAE-H\n(MAE, 512)",91.2%,null,['Transformer'],2202.10108v2
+Model soups (ViT-G/14),91.20%,null,['Transformer'],2203.05482v3
+Meta Pseudo Labels (EfficientNet-B6-Wide),91.12%,null,['EfficientNet'],2003.10580v4
+MAWS (ViT-6.5B),91.1%,null,[']'],2303.13496v3
+TokenLearner L/8 (24+11),91.05%,null,[']'],2106.11297v4
+Model soups (BASIC-L),91.03%,null,"['ALIGN', 'JFT-3B', 'Conv+Transformer']",2203.05482v3
+Meta Pseudo Labels (EfficientNet-L2),91.02%,null,['EfficientNet'],2003.10580v4
+MAWS (ViT-2B),90.9%,null,[']'],2303.13496v3
+FixEfficientNet-L2,90.9%,null,['EfficientNet'],2003.08237v5
+ViT-G/14,90.81%,null,['Transformer'],2106.04560v2
+MAWS (ViT-H),90.8%,null,[']'],2303.13496v3
+SWAG (RegNetY 128GF),90.7%,null,[']'],2201.08371v2
+"CvT-W24 (384 res, ImageNet-22k pretrain)",90.6%,277M,['Transformer'],2103.15808v1
+VOLO-D5,90.6%,null,[']'],2106.13112v2
+EfficientNet-L2,90.55%,null,['EfficientNet'],1911.04252v4
+BiT-L,90.54%,null,['Transformer'],1912.11370v3
+VOLO-D4,90.5%,null,[']'],2106.13112v2
+CAIT-M36-448,90.2%,null,['Transformer'],2103.17239v2
+Mixer-H/14- 448 (JFT-300M pre-train),90.18%,null,[']'],2105.01601v4
+FixEfficientNet-B8,90.0%,null,['EfficientNet'],2003.08237v5
+SEER (RegNet10B),89.8%,null,"['IG-1B', 'RegNet']",2202.08360v2
+FixResNeXt-101 32x48d,89.73%,null,['ResNeXt'],1906.06423v4
+DeiT-B-384,89.3%,null,['Transformer'],2012.12877v2
+BiT-M,89.02%,null,['Transformer'],1912.11370v3
+DeiT-B,88.7%,null,['Transformer'],2012.12877v2
+Assemble-ResNet152,88.65%,null,[']'],2001.06268v2
+CeiT-S (384 finetune res),88.1%,null,['Transformer'],2103.11816v2
+Sequencer2D-L,87.9,null,[']'],2205.01972v4
+Mixer-H/14 (JFT-300M pre-train),87.86%,null,[']'],2105.01601v4
+Assemble ResNet-50,87.82%,null,['ResNet'],2001.06268v2
+NASNet-A Large,87.56%,null,[']'],1707.07012v4
+LeViT-384,87.5%,null,[']'],2104.01136v2
+CeiT-S,87.3%,null,['Transformer'],2103.11816v2
+LeViT-256,86.9%,null,['Transformer'],2104.01136v2
+DeiT-S,86.8%,null,['Transformer'],2012.12877v2
+ResNet-152x2-SAM,86.4%,null,['ResNet'],2106.01548v3
+LeViT-192,85.8%,null,['Transformer'],2104.01136v2
+ResNet50 (A1),85.7%,null,[']'],2110.00476v1
+LeViT-128,85.6%,null,['Transformer'],2104.01136v2
+ResMLP-36,85.6%,null,[']'],2105.03404v2
+ResMLP-24,85.3%,null,[']'],2105.03404v2
+ViT-B/16-SAM,85.2%,null,['Transformer'],2106.01548v3
+ResMLP-12,84.6%,null,[']'],2105.03404v2
+Mixer-B/8-SAM,84.4%,null,['Transformer'],2106.01548v3
+kNN-CLIP,84%,null,"['CLIP Pre-trained', 'Memory-Centric']",2204.01186v2
+CeiT-T,83.6%,null,['Transformer'],2103.11816v2
+LeViT-128S,82.6%,null,['Transformer'],2104.01136v2
+DeiT-Ti,82.1%,null,['Transformer'],2012.12877v2
+NASNet-A Mobile,81.15%,null,[']'],1707.07012v4
+VGG-16 BN,80.60%,null,[']'],1409.1556v6
+VGG-16,79.01%,null,[']'],1409.1556v6
+AlexNet,62.88%,null,[']'],null
+"ViT-L @384 (DeiT III, 21k)",null,304M,[']'],2204.07118v1
+"ViT-H @224 (DeiT III, 21k)",null,632M,[']'],2204.07118v1
+"ViT-L @224 (DeiT III, 21k)",null,null,[']'],2204.07118v1
+ResMLP-B24/8 (22k),null,null,[']}]</script'],2105.03404v2

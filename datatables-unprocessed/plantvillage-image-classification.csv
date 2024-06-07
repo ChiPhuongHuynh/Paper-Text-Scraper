@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+adaptive minimal ensembling,100,null,[']'],null
+\u00b52Net+ (ViT-L/16),99.89,null,[']'],2209.07326v3
+Light-Chroma Inception V3,99.48%,5M,[']'],null
+Inception V3 20%L + 80%AB,99.48%,5M,[']}]</script'],null

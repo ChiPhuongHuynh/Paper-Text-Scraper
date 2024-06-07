@@ -1,0 +1,7 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Colored MNIST,MLP-DecAug,69.6,1.0,,[],2012.09382v1
+Image Classification,Colored MNIST,MLP-REx,68.7,0.9843993759750391,,[],2003.00688v5
+Image Classification,Colored MNIST,MLP-IRM,66.9,0.9531981279251172,,[],1907.02893v3
+Image Classification,Colored MNIST,F-IRMGames,59.91,0.8320332813312533,,[],2002.04692v2
+Image Classification,Colored MNIST,MLP-ERM,17.1,0.08996359854394179,,[],1702.02030v1
+Image Classification,Colored MNIST,JiGen,11.91,0.0,,[],1903.06864v2

@@ -1,0 +1,7 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Places 365,OmniVec(ViT),63.5,1.0,,[],2311.05709v1
+Image Classification,Places 365,InternImage-H\uff08CNN\uff09,61.2,0.5000000000000008,,[],2211.05778v4
+Image Classification,Places 365,MixMIM-L(ViT-L),60.3,0.3043478260869561,,[],2205.13137v4
+Image Classification,Places 365,ViC-MAE (ViT-L),59.5,0.13043478260869593,,[],2303.12001v2
+Image Classification,Places 365,\u00b52Net+ (ViT-L/16),59.15,0.054347826086956506,,[],2209.07326v3
+Image Classification,Places 365,MixMIM-B (ViT),58.9,0.0,,[],2205.13137v4

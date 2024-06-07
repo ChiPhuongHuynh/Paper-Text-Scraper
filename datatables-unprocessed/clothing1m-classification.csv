@@ -1,0 +1,51 @@
+name,accuracy,params,tags,id
+LRA-diffusion (CC),75.7%},null,[']'],2305.19518v2
+SANM (DivideMix),75.63%},null,[']'],2302.06805v2
+CC,75.4%},null,[']'],2207.14476v1
+CPC,75.40\u00b10.10%},null,[']'],2212.10766v1
+Jigsaw-ViT+NCT,75.4%},null,[']'],2207.11971v2
+MFRW,75.35%},null,[']'],2211.04177v1
+Knockoffs-SPR,75.20%},null,[']'],2301.00545v4
+PGDF,75.19%},null,[']'],2112.01197v3
+AugDesc,75.11%},null,[']'],2103.02130v3
+Nested+Co-teaching (ResNet-50),75%},null,[']'],2206.13140v1
+SSR,74.91},null,[']'],2111.11288v2
+NestedCoTeaching,74.9%},null,[']'],2104.13766v1
+ELR+,74.81%},null,[']'],2007.00151v2
+DivideMix,74.76%},null,[']'],2002.07394v1
+C2MT,74.61%},null,[']'],null
+ELR+ with C2D (ResNet-50),74.58\u2009\u00b1\u20090.15%},null,['ResNet'],2103.13646v2
+InstanceGM,74.40%},null,[']'],2209.00906v1
+LongReMix,74.38%},null,[']'],2103.04173v2
+FINE + DivideMix,74.37%},null,[']'],2102.11628v3
+Negative Label Smoothing (NLS),74.24%},null,[']'],2106.04149v6
+CAL,74.17%},null,[']'],2012.11854v2
+NoiseRank,73.82%},null,[']'],2003.06729v1
+FOCI,73.8%},null,[']'],2008.06218v1
+MW-Net,73.72%},null,[']'],1902.07379v6
+PENCIL,73.49%},null,[']'],1903.07788v1
+MLNT,73.47%},null,[']'],1812.05214v2
+HOC,73.39%},null,[']'],2102.05291v2
+MAE (SimCLR),73.36%},null,[']'],2104.08984v1
+Generalized CE (SimCLR),73.35%},null,[']'],2104.08984v1
+DM,73.3%},null,[']'],1905.11233v9
+CCE (SimCLR),73.27%},null,[']'],2104.08984v1
+CORES2,73.24%},null,[']'],2010.02347v2
+IMAE,73.2%},null,[']'],1903.12141v9
+Robust f-divergence,73.09%},null,[']'],2011.03687v3
+LCCN,73.07%},null,[']'],1903.02152v2
+DMI,72.46%},null,[']'],null
+DMI,72.46%},null,[']'],1909.03388v2
+BARE,72.28%},null,[']'],2106.15292v3
+Joint Opt.,72.23%},null,[']'],1803.11364v1
+LRT,71.74%},null,[']'],2011.10077v1
+SPR,71.16%},null,[']'],2203.07788v2
+MASKING,71.1%},null,[']'],1805.08193v2
+SCE,71.02%},null,[']'],1908.06112v1
+DY,71%},null,[']'],1904.11238v2
+SEAL,70.63%},null,[']'],2012.05458v1
+JoCoR,70.3%},null,[']'],2003.02752v3
+CoT,70.15%},null,[']'],1804.06872v3
+GCE,69.75%},null,[']'],1805.07836v4
+D2L,69.47%},null,[']'],1806.02612v2
+CCE,68.94%},null,[']}]</script'],2106.15292v3

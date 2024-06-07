@@ -3,11 +3,25 @@ Task,Dataset,name,accuracy,accuracy_norm,params,tags,id,max,min,difficulty
 3D Part Segmentation,ShapeNet,GeomGCNN,89.1,1.0,,[],2103.15226v1,94.82,89.1,0.0
 Depth Estimation,KITTI,FutureDepth,0.041,1.0,,[],2403.12953v1,0.2619,0.041,0.0
 Depth Estimation,Stanford 2D 3D,HiMODE,0.2619,1.0,,[],2204.05007v1,0.2619,0.041,1.0
-Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2,99.87,65.9,0.9743891669119811
-Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,99.87,65.9,0.8860759493670884
-Image Classification,ImageNet,OmniVec,92.4,1.0,0.0,0,2311.05709v1,99.87,65.9,0.7801000883132175
-Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,99.87,65.9,1.0
-Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,99.87,65.9,0.0
+Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2,99.87,30.1,0.9875304572165686
+Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,99.87,30.1,0.9445320338254264
+Image Classification,Clothing 1M,CCE,68.94,1.0,,[],2106.15292v3,99.87,30.1,0.5566862548373225
+Image Classification,DF20,ResNet-18,67.13,1.0,,[],2103.10107v4,99.87,30.1,0.5307438727246666
+Image Classification,DF20 mini,ResNet-18,62.91,1.0,,[],2103.10107v4,99.87,30.1,0.4702594238211264
+Image Classification,Fashion MNIST,Fine-Tuning DARTS,96.91,1.0,,[],2006.09042v1,99.87,30.1,0.9575748889207395
+Image Classification,ImageNet,OmniVec,92.4,1.0,0.0,0,2311.05709v1,99.87,30.1,0.8929339257560556
+Image Classification,ImageNet Real,VGG-16,79.01,1.0,,[],1409.1556v6,99.87,30.1,0.7010176293535904
+Image Classification,ImageNet V2,LeViT-128S,63.9,1.0,,['Transformer'],2104.01136v2,99.87,30.1,0.4844489035402034
+Image Classification,Kuzushiji MNIST,Complementary-Label Learning,67.1,1.0,,[],1810.04327v4,99.87,30.1,0.5303138884907551
+Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,99.87,30.1,1.0
+Image Classification,Omni Benchmark,BeiT,30.1,1.0,,"['linear probing', 'Unsupervised']",2106.08254v2,99.87,30.1,0.0
+Image Classification,Oxford Flowers 102,Mixer-S/16- SAM,87.9,1.0,,[],2106.01548v3,99.87,30.1,0.8284362906693421
+Image Classification,STL-10,M2-PWD,57.31,1.0,,[],2006.12456v1,99.87,30.1,0.38999570015766083
+Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,99.87,30.1,0.5131145191342984
+Image Classification,Stanford Cars,NNCLR,67.1,1.0,,[],2104.14548v2,99.87,30.1,0.5303138884907551
+Image Classification,Tiny Imagenet,Convolutional Nystromformer for Vision (CNV),49.56,1.0,,[],2201.10271v1,99.87,30.1,0.2789164397305432
+Image Classification,Vitab1k,WAE-UKL,31.0,1.0,,[],1910.04867v2,99.87,30.1,0.012899527017342675
+Image Classification,iNaturalist 2018,Barlow Twins (ResNet-50),46.5,1.0,,['ResNet'],2103.03230v3,99.87,30.1,0.235058047871578
 Image Generation,CIFAR-10,StyleSAN-XL,1.36,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.008159564823209436
 Image Generation,Celeb-A 64x64,DDPM-IP,1.27,1.0,,"['unconditional', 'Diffusion']",2301.11706v3,12.3,1.27,0.0
 Image Generation,FFHQ 256x256,StyleSAN-XL,1.68,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.03717135086128739

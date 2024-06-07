@@ -1,0 +1,34 @@
+name,accuracy,params,tags,id
+Model soups (BASIC-L),84.63},null,[']'],2203.05482v3
+ViT-e,84.3},null,[']'],2209.06794v4
+Model soups (ViT-G/14),84.22},null,[']'],2203.05482v3
+SwinV2-G,84.00%},null,[']'],2111.09883v2
+MAWS (ViT-6.5B),84.0},null,[']'],2303.13496v3
+ViT-G/14,83.33},null,['Transformer'],2106.04560v2
+MAWS (ViT-2B),83.0},null,[']'],2303.13496v3
+MOAT-4 (IN-22K pretraining),81.5},null,[']'],2210.01820v2
+SWAG (ViT H/14),81.1},null,[']'],2201.08371v2
+MOAT-3 (IN-22K pretraining),80.6},null,[']'],2210.01820v2
+MOAT-2 (IN-22K pretraining),79.3},null,[']'],2210.01820v2
+MOAT-1 (IN-22K pretraining),78.4},null,[']'],2210.01820v2
+SwinV2-B,78.08},null,[']'],2111.09883v2
+VOLO-D5,78},null,[']'],2106.13112v2
+VOLO-D4,77.8},null,[']'],2106.13112v2
+CAIT-M36-448,76.7},null,['Transformer'],2103.17239v2
+SEER (RegNet10B),76.2},null,"['IG-1B', 'RegNet']",2202.08360v2
+ResMLP-B24/8 22k,74.2},null,[']'],2105.03404v2
+ViT-B-36x1,73.9},null,[']'],2203.09795v1
+ResMLP-B24/8,73.4},null,[']'],2105.03404v2
+Sequencer2D-L,73.4},null,[']'],2205.01972v4
+"Discrete Adversarial Distillation (ViT-B, 224)",71.7},null,[']'],2311.01441v2
+LeViT-384,71.4},null,['Transformer'],2104.01136v2
+LeViT-256,69.9},null,['Transformer'],2104.01136v2
+ResMLP-S24/16,69.8},null,[']'],2105.03404v2
+ResNet-152x2-SAM,69.6},null,['ResNet'],2106.01548v3
+LeViT-192,68.7},null,['Transformer'],2104.01136v2
+ResNet50 (A1),68.7},null,[']'],2110.00476v1
+LeViT-128,67.5},null,['Transformer'],2104.01136v2
+ViT-B/16-SAM,67.5},null,['Transformer'],2106.01548v3
+ResMLP-S12/16,66.0},null,[']'],2105.03404v2
+Mixer-B/8-SAM,65.5},null,[']'],2106.01548v3
+LeViT-128S,63.9},null,['Transformer'],2104.01136v2

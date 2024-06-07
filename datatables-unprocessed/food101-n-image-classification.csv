@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+LRA-diffusion (CLIP ViT),93.42},null,[']'],2305.19518v2
+CleanNet,90.39},null,[']'],1711.07131v2
+SURE(ResNet-50),88.0},null,[']'],2403.00543v1
+LongReMix,87.39%},null,[']}]</script'],2103.04173v2

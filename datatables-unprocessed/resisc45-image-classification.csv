@@ -1,0 +1,15 @@
+name,accuracy,params,tags,id
+ResNet50,96.83},null,[']'],1911.06721v1
+SEER (RegNet10B),95.61},null,[']'],2202.08360v2
+AGOS,94.91},null,[']'],2205.03371v1
+SwAV (ResNet50-w5),94.73},null,[']'],2202.08360v2
+DINO (DeiT-B/16),93.97},null,[']'],2202.08360v2
+LSENet,93.49},null,[']'],null
+MoCo-v3 (ViT-B/16),93.35},null,[']'],2202.08360v2
+CLIP (ViT-B/16),92.7},null,[']'],2202.08360v2
+BYOL (ResNet200-w2),92.53},null,[']'],null
+DeiT-B/16,92.48},null,[']'],2202.08360v2
+SimCLR-v2 (ResNet152-w3 + SK),89.77},null,[']'],2202.08360v2
+ResNet50 (ImageNet-supervised),88.56},null,[']'],2202.08360v2
+MIDC-Net,87.99},null,[']'],null
+MoCo-v2 (ResNet50),85.4},null,[']}]</script'],2202.08360v2

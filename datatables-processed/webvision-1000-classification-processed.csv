@@ -1,0 +1,17 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,WebVision-1000,MAM (ViT-B/16),83.6,1.0,,[],2304.05173v1
+Image Classification,WebVision-1000,CurriculumNet (InceptionResNet-v2),79.3,0.6640625000000001,,[],1808.01097v4
+Image Classification,WebVision-1000,ERM + CMW-Net-SL (InceptionResNet-V2),77.9,0.5546875000000008,,[],2202.05613v3
+Image Classification,WebVision-1000,NCR+Mixup+DA (ResNet-50),76.8,0.4687500000000001,,['ResNet-50'],2202.02200v2
+Image Classification,WebVision-1000,Heteroscedastic (InceptionResNet-v2),76.6,0.4531249999999999,,[],2105.10305v1
+Image Classification,WebVision-1000,MILe (ResNet-50-D),76.5,0.44531250000000033,,[],2111.12172v1
+Image Classification,WebVision-1000,SCC (ResNet50-D),75.78,0.3890625000000004,,['ResNet'],2008.11894v1
+Image Classification,WebVision-1000,NCR (ResNet-50),75.7,0.38281250000000056,,['ResNet-50'],2202.02200v2
+Image Classification,WebVision-1000,VSGraph-LC (ResNet50),75.48,0.3656250000000006,,['ResNet'],2010.05864v1
+Image Classification,WebVision-1000,MILe (ResNet-50),75.2,0.3437500000000005,,[],2111.12172v1
+Image Classification,WebVision-1000,HAR (InceptionResNet-v2),75.0,0.3281250000000003,,[],2006.15766v2
+Image Classification,WebVision-1000,MentorMix (InceptionResNet-V2),74.3,0.27343750000000006,,[],1911.09781v3
+Image Classification,WebVision-1000,MoPro (ResNet-50),73.9,0.24218750000000072,,['ResNet'],2009.07995v1
+Image Classification,WebVision-1000,SOMNet (ResNet-50),72.2,0.10937500000000047,,['ResNet'],1906.12028v5
+Image Classification,WebVision-1000,CurriculumNet (Inception-v2\uff09,72.1,0.1015624999999998,,[],1808.01097v4
+Image Classification,WebVision-1000,MentorNet (InceptionResNet-V2),70.8,0.0,,[],1712.05055v2

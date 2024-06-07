@@ -1,0 +1,14 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,EUROSAT,IMP+MTP(IntenImage-XL),99.24,1.0,,[],2403.13430v2
+Image Classification,EUROSAT,\u00b52Net+ (ViT-L/16),99.22,0.9958677685950421,,[],2209.07326v3
+Image Classification,EUROSAT,\u00b52Net (ViT-L/16),99.2,0.9917355371900842,,[],2205.12755v6
+Image Classification,EUROSAT,ResNet50,99.2,0.9917355371900842,,[],1911.06721v1
+Image Classification,EUROSAT,"MoCo-v2 (ResNet18, fine tune)",98.9,0.9297520661157046,,[],2206.13188v2
+Image Classification,EUROSAT,DINO-MC (Wide ResNet),98.78,0.9049586776859515,,[],2303.06670v2
+Image Classification,EUROSAT,MAE+MTP(ViT-L+RVSA),98.78,0.9049586776859515,,[],2403.13430v2
+Image Classification,EUROSAT,MAE+MTP(ViT-B+RVSA),98.76,0.9008264462809936,,[],2403.13430v2
+Image Classification,EUROSAT,MSMatch Multispectral,98.65,0.8780991735537209,,[],2103.10368v2
+Image Classification,EUROSAT,MSMatch RGB,98.14,0.7727272727272734,,[],2103.10368v2
+Image Classification,EUROSAT,SEER (RegNet10B - linear eval),97.5,0.6404958677685954,,[],2202.08360v2
+Image Classification,EUROSAT,DINO-MC (WRN linear eval)),95.7,0.26859504132231404,,[],2303.06670v2
+Image Classification,EUROSAT,"MoCo-v2 (ResNet18, linear eval)",94.4,0.0,,[],2206.13188v2

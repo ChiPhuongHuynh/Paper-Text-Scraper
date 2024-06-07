@@ -1,0 +1,13 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Kuzushiji MNIST,VGG-5 (Spinal FC),99.15,1.0,,[],2007.03347v3
+Image Classification,Kuzushiji MNIST,CAMNet3,99.05,0.9968798751950075,,[],1907.11519v1
+Image Classification,Kuzushiji MNIST,VGG8B(2x) + LocalLearning + CO,99.01,0.9956318252730109,,[],1901.06656v2
+Image Classification,Kuzushiji MNIST,Resnet-152,98.79,0.9887675507020282,,['ResNet'],1905.09113v1
+Image Classification,Kuzushiji MNIST,ResNet-14,98.75,0.987519500780031,,[],2203.15331v2
+Image Classification,Kuzushiji MNIST,PreActResNet-18 + Input Mixup,98.41,0.9769110764430574,,[],1710.09412v2
+Image Classification,Kuzushiji MNIST,PreActResNet-18,97.82,0.9585023400936034,,[],1603.05027v3
+Image Classification,Kuzushiji MNIST,Convolutional Tsetlin Machine,96.3,0.9110764430577221,,[],1905.09688v5
+Image Classification,Kuzushiji MNIST,KerCNN,93.13,0.8121684867394693,,[],1910.08336v1
+Image Classification,Kuzushiji MNIST,linear/flexible model,79.9,0.3993759750390018,,[],2001.04243v3
+Image Classification,Kuzushiji MNIST,FWD,79.5,0.3868954758190328,,[],2001.04243v3
+Image Classification,Kuzushiji MNIST,Complementary-Label Learning,67.1,0.0,,[],1810.04327v4

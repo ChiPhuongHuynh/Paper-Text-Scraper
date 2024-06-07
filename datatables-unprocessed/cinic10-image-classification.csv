@@ -1,0 +1,10 @@
+name,accuracy,params,tags,id
+"VIT-L/16 (Spinal FC, Background)",95.80,null,[']'],2305.03238v4
+efficient adaptive ensembling,95.064,null,[']'],2206.07394v3
+NAT-M3,94.3,8.1M,[']'],2005.05859v2
+NAT-M2,94.1,6.2M,[']'],2005.05859v2
+NAT-M1,93.4,4.6M,[']'],2005.05859v2
+ResNeXt29_2x64d,91.45,null,[']'],1810.03505v1
+DenseNet-121,91.26,null,[']'],1810.03505v1
+ResNet-18,90.27,null,['ResNet'],1810.03505v1
+VGG-16,87.77,null,[']}]</script'],1810.03505v1

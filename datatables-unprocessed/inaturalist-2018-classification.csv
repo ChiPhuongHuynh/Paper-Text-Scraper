@@ -1,0 +1,56 @@
+name,accuracy,params,tags,id
+OmniVec,93.8},null,[']'],2311.05709v1
+InternImage-H,92.6%},null,[']'],2211.05778v4
+MAWS (ViT-2B),91.3%},null,[']'],2303.13496v3
+"MetaFormer\n(MetaFormer-2,384,extra_info)",88.7%},null,[']'],2203.02751v1
+Hiera-H (448px),87.3%},null,[']'],2306.00989v1
+"MAE (ViT-H, 448)",86.8%},null,[']'],2111.06377v2
+SWAG (ViT H/14),86.0%},null,[']'],2201.08371v2
+SEER (RegNet10B - finetuned - 384px),84.7%},null,"['IG-1B', 'RegNet']",2202.08360v2
+"MetaFormer\n(MetaFormer-2,384)",84.3%},null,[']'],2203.02751v1
+OMNIVORE (Swin-L),84.1%},null,[']'],2201.08377v2
+RegNet-8GF,81.2%},null,[']'],2011.12982v1
+VL-LTR (ViT-B-16),81.0%},null,[']'],2111.13579v4
+\u00b52Net+ (ViT-L/16),80.97},null,[']'],2209.07326v3
+MixMIM-L,80.3%},null,[']'],2205.13137v4
+DeiT-B,79.5%},null,[']'],2012.12877v2
+CeiT-S (384 finetune resolution),79.4%},null,[']'],2103.11816v2
+GPaCo (ResNet-152),78.1%},null,[']'],2209.12400v2
+CaiT-M-36 U 224,78%},null,[']'],2103.17239v2
+MixMIM-B,77.5%},null,[']'],2205.13137v4
+GPaCo (ResNet-50),75.4%},null,[']'],2209.12400v2
+CBD-ENS (ResNet-101),75.3%},null,[']'],2104.05279v2
+ViT-L (attn finetune),75.3%},null,[']'],2203.09795v1
+PaCo(ResNet-152),75.2%},null,['ResNet'],2107.12028v2
+VL-LTR (ResNet-50),74.6%},null,[']'],2111.13579v4
+BS-CMO (ResNet-50),74.0%},null,['ResNet-50'],2112.00412v3
+CBD-ENS (ResNet-50),73.6%},null,[']'],2104.05279v2
+CeiT-S,73.3%},null,[']'],2103.11816v2
+TADE (ResNet-50),72.9%},null,['ResNet'],2107.09249v4
+CeiT-T (384 finetune resolution),72.2%},null,[']'],2103.11816v2
+RIDE (ResNet-50),72.2%},null,['ResNet'],2010.01809v4
+ResNeXt-101 (SAMix),70.54%},null,['ResNet'],2111.15454v3
+ResNeXt-101 (AutoMix),70.49%},null,['ResNet'],2103.13027v6
+LADE,70.0%},null,['ResNet'],2012.00321v2
+ResNet-50,69.8%},null,['ResNet'],2011.12982v1
+ResNet-152,69.08%},null,['ResNet'],2008.03673v1
+ResNet-152,69.05%},null,['ResNet'],1901.05555v1
+MetaSAug,68.75%},null,[']'],2103.12579v3
+ResNet-101,68.39%},null,['ResNet'],2008.03673v1
+ResNet-101,67.98%},null,['ResNet'],1901.05555v1
+LeViT-384,66.9%},null,[']'],2104.01136v2
+LeViT-256,66.2%},null,[']'],2104.01136v2
+ResNet-50,65.91%},null,['ResNet'],2008.03673v1
+ResNet-50 (SAMix),64.84%},null,['ResNet'],2111.15454v3
+ResNet-50 (AutoMix),64.73%},null,['ResNet'],2103.13027v6
+CeiT-T,64.3%},null,[']'],2103.11816v2
+ResMLP-24,64.3},null,[']'],2105.03404v2
+ResNet-50,64.16%},null,['ResNet'],1901.05555v1
+LeViT-192,60.4%},null,[']'],2104.01136v2
+Inception-V3,60.20%},null,[']'],1707.06642v2
+ResMLP-12,60.2},null,[']'],2105.03404v2
+LeViT-128S,55.2%},null,[']'],2104.01136v2
+LeViT-128,54%},null,[']'],2104.01136v2
+ResNet-50,49.7%},null,['ResNet'],1912.03330v1
+ResNet-50,48.6},null,['ResNet'],2006.09882v5
+Barlow Twins (ResNet-50),46.5},null,['ResNet'],2103.03230v3

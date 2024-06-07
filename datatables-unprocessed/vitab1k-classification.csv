@@ -1,0 +1,35 @@
+name,accuracy,params,tags,id
+ALIGN (50 hypers/task),79.99},null,[']'],2102.05918v2
+BiT-L (50 hypers/task),78.72},null,[']'],1912.11370v3
+ViT-G/14,78.29},null,['Transformer'],2106.04560v2
+PVP(VIT-Base),78.02},null,[']'],2304.13639v1
+ExpertEnsembles R101,77.6},null,[']'],2010.06866v2
+BiT-L,76.3},null,[']'],1912.11370v3
+S4L-Exemplar-ResNet50-LargeHyperSweep,72.7},null,['ResNet'],1910.04867v2
+ScalableExperts (I21k+JFT),72.3},null,[']'],2009.13239v1
+S4L-Rotation-ResNet50-LargeHyperSweep,71.5},null,['ResNet'],1910.04867v2
+ImageNet-ResNet50-LargeHyperSweep,71.2},null,['ResNet'],1910.04867v2
+BiT-M,70.6},null,[']'],1912.11370v3
+VIVI-Ex4-Co,70.4},null,[']'],1912.02783v2
+S4L-Rotation-ResNet50,67.5},null,[']'],1910.04867v2
+S4L-Exemplar-ResNet50,67.0},null,[']'],1910.04867v2
+BiT-S,66.9},null,[']'],1912.11370v3
+ImageNet-ResNet50,65.6},null,['ResNet'],1910.04867v2
+S4L-10%-Rotation-ResNet50,64.8},null,[']'],1910.04867v2
+S4L-10%-Exemplar-ResNet50,63.9},null,[']'],1910.04867v2
+ImageNet-10%-ResNet50,61.6},null,[']'],1910.04867v2
+SelfSup-Rotation-ResNet50,59.5},null,[']'],1910.04867v2
+ResNet50-LargeHyperSweep,59.2},null,['ResNet'],1910.04867v2
+BigBiGAN-ResNet50,59.1},null,[']'],1910.04867v2
+UpperCaSE-EfficientNetB0,58.4},null,[']'],2206.09843v3
+SelfSup-Exemplar-ResNet50,57.5},null,[']'],1910.04867v2
+UpperCaSE-ResNet50,56.6},null,[']'],2206.09843v3
+SelfSup-Jigsaw-ResNet50,51.1},null,[']'],1910.04867v2
+SelfSup-RelativePatchLoc-ResNet50,50.8},null,[']'],1910.04867v2
+Unconditional-BigGAN-ResNet50,44.0},null,[']'],1910.04867v2
+ResNet50,42.1},null,['ResNet'],1910.04867v2
+VAE,37.5},null,[']'],1910.04867v2
+WAE-MMD,37.3},null,[']'],1910.04867v2
+Conditional-BigGAN,35.3},null,[']'],1910.04867v2
+WAE-GAN,32.0},null,[']'],1910.04867v2
+WAE-UKL,31.0},null,[']}]</script'],1910.04867v2

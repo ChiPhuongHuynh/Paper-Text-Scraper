@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Malaria,\u00b52Net+ (ViT-L/16),97.46,1.0,,[],2209.07326v3

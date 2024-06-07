@@ -1,0 +1,51 @@
+name,accuracy,params,tags,id
+CCT-14/7x2,99.76,null,[']'],2104.05704v4
+VIT-L/16 (Background),99.75,null,[']'],2305.03238v4
+CvT-W24,99.72,null,[']'],2103.15808v1
+Bamboo (ViT-B/16),99.7,null,[']'],2203.07845v2
+EffNet-L2 (SAM),99.65%,null,[']'],2010.01412v3
+ALIGN,99.65%,null,[']'],2102.05918v2
+BiT-L (ResNet),99.63,null,['ResNet'],1912.11370v3
+ConvMLP-S,99.5,null,[']'],2109.04454v2
+ConvMLP-L,99.5,null,[']'],2109.04454v2
+ResNet-152x4-AGC (ImageNet-21K),99.49,null,[']'],2106.00116v4
+BiT-M (ResNet),99.30,null,['ResNet'],1912.11370v3
+Wide-ResNet-101 (Spinal FC),99.30,null,[']'],2007.03347v3
+TResNet-L,99.1%,null,[']'],2003.13630v3
+Grafit (RegNet-8GF),99.1%,null,[']'],2011.12982v1
+CaiT-M-36 U 224,99.1,null,[']'],2103.17239v2
+DAT,98.9%,null,[']'],2010.03071v1
+EfficientNet-B7,98.8%,null,['EfficientNet'],1905.11946v5
+EfficientNetV2-L,98.8,null,['EfficientNet'],2104.00298v3
+GFNet-H-B,98.8,54M,[']'],2107.00645v2
+DeiT-B,98.8%,86M,[']'],2012.12877v2
+CeiT-S (384 finetune resolution),98.6,null,[']'],2103.11816v2
+EfficientNetV2-M,98.5,null,['EfficientNet'],2104.00298v3
+ViT-B (attn finetune),98.5,null,[']'],2203.09795v1
+LeViT-384,98.3,null,[']'],2104.01136v2
+NAT-M4,98.3%,4.2M,[']'],2005.05859v2
+ResNet-50x1-ACG (ImageNet-21K),98.21,null,[']'],2106.00116v4
+CeiT-S,98.2,null,[']'],2103.11816v2
+NAT-M3,98.1%,3.7M,[']'],2005.05859v2
+ResNet50 (A1),97.9,25M,[']'],2110.00476v1
+EfficientNetV2-S,97.9,null,['EfficientNet'],2104.00298v3
+ResMLP24,97.9,null,[']'],2105.03404v2
+NAT-M2,97.9%,3.4M,[']'],2005.05859v2
+TransBoost-ResNet50,97.85%,null,[']'],2205.13331v4
+CeiT-T (384 finetune resolution),97.8,null,[']'],2103.11816v2
+LeViT-192,97.8,null,[']'],2104.01136v2
+LeViT-256,97.7,null,[']'],2104.01136v2
+ResMLP12,97.4,null,[']'],2105.03404v2
+CS-Parts,96.9%,null,[']'],1909.07075v1
+CeiT-T,96.9,null,[']'],2103.11816v2
+LeViT-128S,96.8,null,[']'],2104.01136v2
+SEER (RegNet10B),96.3,null,[']'],2202.08360v2
+NNCLR,95.1,null,[']'],2104.14548v2
+ViT-B/16- SAM,91.8,null,[']'],2106.01548v3
+ViT-S/16- SAM,91.5,null,[']'],2106.01548v3
+ResNet-152-SAM,91.1,null,['ResNet'],2106.01548v3
+ResNet-50-SAM,90,null,['ResNet'],2106.01548v3
+Mixer-B/16- SAM,90,null,[']'],2106.01548v3
+Mixer-S/16- SAM,87.9,null,[']'],2106.01548v3
+Diffusion Classifier (zero-shot),null,null,[']'],2303.16203v3
+NAT-M1,null,3.3M,[']}]</script'],2005.05859v2

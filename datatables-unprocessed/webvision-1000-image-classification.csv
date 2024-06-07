@@ -1,0 +1,17 @@
+name,accuracy,params,tags,id
+MAM (ViT-B/16),83.6,null,[']'],2304.05173v1
+CurriculumNet (InceptionResNet-v2),79.3%,null,[']'],1808.01097v4
+ERM + CMW-Net-SL (InceptionResNet-V2),77.9%,null,[']'],2202.05613v3
+NCR+Mixup+DA (ResNet-50),76.8,null,['ResNet-50'],2202.02200v2
+Heteroscedastic (InceptionResNet-v2),76.6%,null,[']'],2105.10305v1
+MILe (ResNet-50-D),76.5%,null,[']'],2111.12172v1
+SCC (ResNet50-D),75.78%,null,['ResNet'],2008.11894v1
+NCR (ResNet-50),75.7%,null,['ResNet-50'],2202.02200v2
+VSGraph-LC (ResNet50),75.48%,null,['ResNet'],2010.05864v1
+MILe (ResNet-50),75.2%,null,[']'],2111.12172v1
+HAR (InceptionResNet-v2),75.0%,null,[']'],2006.15766v2
+MentorMix (InceptionResNet-V2),74.3%,null,[']'],1911.09781v3
+MoPro (ResNet-50),73.9%,null,['ResNet'],2009.07995v1
+SOMNet (ResNet-50),72.2%,null,['ResNet'],1906.12028v5
+CurriculumNet (Inception-v2\uff09,72.1%,null,[']'],1808.01097v4
+MentorNet (InceptionResNet-V2),70.8%,null,[']}]</script'],1712.05055v2

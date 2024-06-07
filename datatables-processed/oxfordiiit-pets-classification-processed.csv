@@ -1,0 +1,4 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Oxford IIIt Pets,TWIST (ResNet-50),94.5,1.0,,[],2110.07402v4
+Image Classification,Oxford IIIt Pets,ResNet-152x4-AGC (ImageNet-21K),93.21,0.5222222222222204,,[],2106.00116v4
+Image Classification,Oxford IIIt Pets,NNCLR,91.8,0.0,,[],2104.14548v2

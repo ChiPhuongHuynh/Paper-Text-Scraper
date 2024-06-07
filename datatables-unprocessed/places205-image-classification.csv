@@ -1,0 +1,16 @@
+name,accuracy,params,tags,id
+InternImage-H,71.7%},null,[']'],2211.05778v4
+MixMIM-L,69.3},null,[']'],2205.13137v4
+SEER (RegNet10B - finetuned - 384px),69.0},null,"['IG-1B', 'RegNet']",2202.08360v2
+MixMIM-B,68.3},null,[']'],2205.13137v4
+"MAE (ViT-H, 448)",66.8},null,[']'],2111.06377v2
+SEER,66.0},null,"['IG-1B', 'RegNet']",2103.01988v2
+SAMix (ResNet-50 Supervised),64.3},null,['ResNet'],2111.15454v3
+AutoMix (ResNet-50 Supervised),64.1},null,['ResNet'],2103.13027v6
+RegNetY-128GF (Supervised),62.7},null,[']'],2103.01988v2
+SwAV,56.7%},null,[']'],2006.09882v5
+Barlow Twins (ResNet-50),54.1%},null,['ResNet'],2103.03230v3
+BYOL,54.0},null,[']'],2006.07733v3
+SimCLR,53.3},null,[']'],2002.05709v3
+ResNet-50 (Supervised),53.2%},null,[']'],2006.09882v5
+MoCo v2,52.9},null,[']}]</script'],2003.04297v1

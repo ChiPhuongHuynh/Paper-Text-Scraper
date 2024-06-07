@@ -1,0 +1,23 @@
+name,accuracy,params,tags,id
+Astroformer,92.98},null,[']'],2304.05350v2
+DeiT-B/16-D + OCD(5),92.0%},null,[']'],2210.00471v5
+SwinV2-B + GradMatch,91.90},null,[']'],2303.02095v2
+Swin-L,91.35%},null,[']'],2205.10660v1
+DeiT-B/16 (PUGD),91.02%},null,[']'],2110.00199v2
+DeiT-B/16-D + OCD,90.8%},null,[']'],2210.00471v5
+ViT-B/16 (PUGD),90.74%},null,[']'],2110.00199v2
+EfficientNet-B1+DCL,84.39%},null,['EfficientNet'],1912.08136v2
+WaveMixLite-144/7,77.47%},null,[']'],2205.14375v5
+Context-Aware Pipeline,73.6%},null,[']'],null
+ResNeXt-50 (SAMix+DM),72.39},null,[']'],null
+ResNeXt-50 (SAMix),72.18%},null,['ResNet'],2111.15454v3
+ResNeXt-50 (AutoMix+DM),71.56},null,[']'],null
+ResNeXt-50 (AutoMix),70.72%},null,['ResNet'],2103.13027v6
+PreActResNet-18-3,70.24%},null,['ResNet'],2103.06132v3
+ResNet18 (SAMix),68.89%},null,['ResNet'],2111.15454v3
+ResNeXt-50 (PuzzleMix+DM),68.04},null,[']'],null
+UPANets,67.67},null,[']'],2103.08640v2
+ResNet18 (AutoMix),67.33%},null,['ResNet'],2103.13027v6
+DenseNet + Residual Networks,60%},null,[']'],1904.10429v2
+WaveMixLite-160/13,54.76},null,[']'],null
+Convolutional Nystromformer for Vision (CNV),49.56},null,[']}]</script'],2201.10271v1

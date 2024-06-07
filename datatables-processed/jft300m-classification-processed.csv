@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,JFT 300M,V-MoE-H/14 (Every-2),60.62,1.0,,['Transformer'],2106.05974v1
+Image Classification,JFT 300M,V-MoE-H/14 (Last-5),60.12,0.8730964467005076,,['Transformer'],2106.05974v1
+Image Classification,JFT 300M,V-MoE-L/16 (Every-2),57.65,0.24619289340101508,,['Transformer'],2106.05974v1
+Image Classification,JFT 300M,VIT-H/14,56.68,0.0,,['Transformer'],2106.05974v1

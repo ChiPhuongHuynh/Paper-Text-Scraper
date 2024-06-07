@@ -1,0 +1,9 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,GasHisSDB,CoAtNet-1,98.74,1.0,,[],2106.04803v2
+Image Classification,GasHisSDB,Res2Net-50,98.68,0.9673913043478324,,[],1904.01169v3
+Image Classification,GasHisSDB,ResNeXt-50-32x4d,98.59,0.9184782608695694,,[],1611.05431v2
+Image Classification,GasHisSDB,ResNet-50,98.56,0.9021739130434817,,[],1512.03385v1
+Image Classification,GasHisSDB,ResNet-18,98.47,0.8532608695652187,,[],1512.03385v1
+Image Classification,GasHisSDB,EfficientNet-b0,98.11,0.6576086956521744,,[],1905.11946v5
+Image Classification,GasHisSDB,RegNetY-3.2GF,97.48,0.3152173913043487,,[],2101.00590v1
+Image Classification,GasHisSDB,DenseNet-169,96.9,0.0,,[],1608.06993v5

@@ -1,4 +1,493 @@
 Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Vitab1k,ALIGN (50 hypers/task),79.99,0.0,,[],2102.05918v2
+Image Classification,Vitab1k,BiT-L (50 hypers/task),78.72,0.025923657889365,,[],1912.11370v3
+Image Classification,Vitab1k,ViT-G/14,78.29,0.0347009593794649,,['Transformer'],2106.04560v2
+Image Classification,Vitab1k,PVP(VIT-Base),78.02,0.0402122882220861,,[],2304.13639v1
+Image Classification,Vitab1k,ExpertEnsembles R101,77.6,0.0487854664217187,,[],2010.06866v2
+Image Classification,Vitab1k,BiT-L,76.3,0.0753214941824861,,[],1912.11370v3
+Image Classification,Vitab1k,S4L-Exemplar-ResNet50-LargeHyperSweep,72.7,0.1488058787507653,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,ScalableExperts (I21k+JFT),72.3,0.1569708103694631,,[],2009.13239v1
+Image Classification,Vitab1k,S4L-Rotation-ResNet50-LargeHyperSweep,71.5,0.1733006736068584,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,ImageNet-ResNet50-LargeHyperSweep,71.2,0.1794243723208816,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,BiT-M,70.6,0.1916717697489283,,[],1912.11370v3
+Image Classification,Vitab1k,VIVI-Ex4-Co,70.4,0.195754235558277,,[],1912.02783v2
+Image Classification,Vitab1k,S4L-Rotation-ResNet50,67.5,0.2549499897938354,,[],1910.04867v2
+Image Classification,Vitab1k,S4L-Exemplar-ResNet50,67.0,0.2651561543172075,,[],1910.04867v2
+Image Classification,Vitab1k,BiT-S,66.9,0.2671973872218818,,[],1912.11370v3
+Image Classification,Vitab1k,ImageNet-ResNet50,65.6,0.2937334149826495,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,S4L-10%-Rotation-ResNet50,64.8,0.3100632782200448,,[],1910.04867v2
+Image Classification,Vitab1k,S4L-10%-Exemplar-ResNet50,63.9,0.3284343743621147,,[],1910.04867v2
+Image Classification,Vitab1k,ImageNet-10%-ResNet50,61.6,0.3753827311696263,,[],1910.04867v2
+Image Classification,Vitab1k,SelfSup-Rotation-ResNet50,59.5,0.4182486221677893,,[],1910.04867v2
+Image Classification,Vitab1k,ResNet50-LargeHyperSweep,59.2,0.4243723208818125,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,BigBiGAN-ResNet50,59.1,0.4264135537864869,,[],1910.04867v2
+Image Classification,Vitab1k,UpperCaSE-EfficientNetB0,58.4,0.440702184119208,,[],2206.09843v3
+Image Classification,Vitab1k,SelfSup-Exemplar-ResNet50,57.5,0.4590732802612777,,[],1910.04867v2
+Image Classification,Vitab1k,UpperCaSE-ResNet50,56.6,0.4774443764033475,,[],2206.09843v3
+Image Classification,Vitab1k,SelfSup-Jigsaw-ResNet50,51.1,0.5897121861604409,,[],1910.04867v2
+Image Classification,Vitab1k,SelfSup-RelativePatchLoc-ResNet50,50.8,0.5958358848744642,,[],1910.04867v2
+Image Classification,Vitab1k,Unconditional-BigGAN-ResNet50,44.0,0.7346397223923249,,[],1910.04867v2
+Image Classification,Vitab1k,ResNet50,42.1,0.773423147581139,,['ResNet'],1910.04867v2
+Image Classification,Vitab1k,VAE,37.5,0.8673198611961624,,[],1910.04867v2
+Image Classification,Vitab1k,WAE-MMD,37.3,0.8714023270055113,,[],1910.04867v2
+Image Classification,Vitab1k,Conditional-BigGAN,35.3,0.9122269850989998,,[],1910.04867v2
+Image Classification,Vitab1k,WAE-GAN,32.0,0.9795876709532556,,[],1910.04867v2
+Image Classification,Vitab1k,WAE-UKL,31.0,1.0,,[],1910.04867v2
+Image Classification,Tiny Imagenet,Astroformer,92.98,0.0,,[],2304.05350v2
+Image Classification,Tiny Imagenet,DeiT-B/16-D + OCD(5),92.0,0.0225702441271304,,[],2210.00471v5
+Image Classification,Tiny Imagenet,SwinV2-B + GradMatch,91.9,0.0248733302625517,,[],2303.02095v2
+Image Classification,Tiny Imagenet,Swin-L,91.35,0.03754030400737,,[],2205.10660v1
+Image Classification,Tiny Imagenet,DeiT-B/16 (PUGD),91.02,0.0451404882542608,,[],2110.00199v2
+Image Classification,Tiny Imagenet,DeiT-B/16-D + OCD,90.8,0.050207277752188,,[],2210.00471v5
+Image Classification,Tiny Imagenet,ViT-B/16 (PUGD),90.74,0.051589129433441,,[],2110.00199v2
+Image Classification,Tiny Imagenet,EfficientNet-B1+DCL,84.39,0.1978350990327038,,['EfficientNet'],1912.08136v2
+Image Classification,Tiny Imagenet,WaveMixLite-144/7,77.47,0.3572086596038692,,[],2205.14375v5
+Image Classification,Tiny Imagenet,ResNeXt-50 (SAMix),72.18,0.4790419161676645,,['ResNet'],2111.15454v3
+Image Classification,Tiny Imagenet,ResNeXt-50 (AutoMix),70.72,0.5126669737448182,,['ResNet'],2103.13027v6
+Image Classification,Tiny Imagenet,PreActResNet-18-3,70.24,0.5237217871948413,,['ResNet'],2103.06132v3
+Image Classification,Tiny Imagenet,ResNet18 (SAMix),68.89,0.554813450023031,,['ResNet'],2111.15454v3
+Image Classification,Tiny Imagenet,UPANets,67.67,0.5829111008751727,,[],2103.08640v2
+Image Classification,Tiny Imagenet,ResNet18 (AutoMix),67.33,0.5907415937356059,,['ResNet'],2103.13027v6
+Image Classification,Tiny Imagenet,DenseNet + Residual Networks,60.0,0.7595578074619992,,[],1904.10429v2
+Image Classification,Tiny Imagenet,Convolutional Nystromformer for Vision (CNV),49.56,1.0,,[],2201.10271v1
+Image Classification,STL-10,VIT-L/16 (Spinal FC),99.71,0.0,,[],2305.03238v4
+Image Classification,STL-10,\u00b52Net+ (ViT-L/16),99.64,0.0016509433962262,,[],2209.07326v3
+Image Classification,STL-10,kNN-CLIP,99.6,0.0025943396226414,,"['Memory-Centric', 'CLIP Pre-trained']",2204.01186v2
+Image Classification,STL-10,Wide-ResNet-101 (Spinal FC),98.66,0.0247641509433961,,[],2007.03347v3
+Image Classification,STL-10,NAT-M4,97.9,0.0426886792452827,7.5M,[],2005.05859v2
+Image Classification,STL-10,NAT-M3,97.8,0.0450471698113206,7.5M,[],2005.05859v2
+Image Classification,STL-10,SEER (RegNet10B),97.3,0.0568396226415093,10000M,"['IG-1B', 'Self-Supervised Learning', 'RegNet']",2202.08360v2
+Image Classification,STL-10,NAT-M2,97.2,0.0591981132075469,5.1M,[],2005.05859v2
+Image Classification,STL-10,NAT-M1,96.7,0.0709905660377356,4.4M,[],2005.05859v2
+Image Classification,STL-10,EnAET,95.48,0.099764150943396,,[],1911.09265v2
+Image Classification,STL-10,VGG-19bn,95.44,0.1007075471698112,,[],2007.03347v3
+Image Classification,STL-10,Diffusion Classifier (zero-shot),95.4,0.1016509433962261,,[],2303.16203v3
+Image Classification,STL-10,FixMatch (CTA),94.83,0.1150943396226414,,[],2001.07685
+Image Classification,STL-10,ReMixMatch,94.77,0.1165094339622641,,[],2001.07685
+Image Classification,STL-10,AMDIM,94.5,0.1228773584905659,,[],1906.00910v2
+Image Classification,STL-10,MixMatch,94.41,0.1249999999999999,,[],1905.02249v2
+Image Classification,STL-10,ReMixMatch (K=4),93.82,0.1389150943396226,,[],1911.09785v2
+Image Classification,STL-10,AMDIM,93.8,0.1393867924528301,,[],2009.00104v1
+Image Classification,STL-10,ReMixMatch (K=1),93.23,0.152830188679245,,[],1911.09785v2
+Image Classification,STL-10,MP*,93.19,0.1537735849056603,,[],2007.01472v1
+Image Classification,STL-10,UDA,92.34,0.1738207547169809,,[],2001.07685
+Image Classification,STL-10,YADIM,92.15,0.1783018867924526,,[],2009.00104v1
+Image Classification,STL-10,FixMatch (RA),92.02,0.1813679245283018,,[],2001.07685
+Image Classification,STL-10,NSGANetV2,92.0,0.1818396226415093,,[],2007.10396v1
+Image Classification,STL-10,SESN,91.49,0.1938679245283019,,[],1910.11093v2
+Image Classification,STL-10,Harmonic WRN-16-8,90.45,0.2183962264150941,,[],1905.00135v1
+Image Classification,STL-10,wrn16/8 D8 D4 D1,90.2,0.2242924528301885,,[],1911.08251v2
+Image Classification,STL-10,"DLME (ResNet-50, linear)",90.1,0.2266509433962264,,[],2207.03160v2
+Image Classification,STL-10,MixMatch,89.82,0.2332547169811321,,[],1911.09785v2
+Image Classification,STL-10,MixMatch,89.59,0.2386792452830186,,[],2001.07685
+Image Classification,STL-10,wrn16/8* D8 D4 D1,89.43,0.242452830188679,,[],1911.08251v2
+Image Classification,STL-10,wrn16/8* D1 D1 D1,88.95,0.2537735849056602,,[],1911.08251v2
+Image Classification,STL-10,wrn16/8 D1 D1 D1,88.83,0.2566037735849056,,[],1911.08251v2
+Image Classification,STL-10,IIC,88.8,0.2573113207547169,,[],1807.06653v4
+Image Classification,STL-10,IIC,88.8,0.2573113207547169,,[],1905.02249v2
+Image Classification,STL-10,SOPCNN,88.08,0.2742924528301886,,[],2001.08856v1
+Image Classification,STL-10,TS,88.03,0.2754716981132074,,[],2007.01472v1
+Image Classification,STL-10,CutOut,87.36,0.2912735849056603,,[],1905.02249v2
+Image Classification,STL-10,Cutout,87.26,0.2936320754716979,,[],1708.04552v2
+Image Classification,STL-10,wrn16/8,87.26,0.2936320754716979,,[],1911.08251v2
+Image Classification,STL-10,Hamiltonian,85.5,0.3351415094339622,,[],1709.03698v2
+Image Classification,STL-10,ResNet-18+MM+FRL,85.42,0.3370283018867923,,[],2011.10951v2
+Image Classification,STL-10,MidPoint,84.6,0.3563679245283019,,[],1709.03698v2
+Image Classification,STL-10,HybridNet,84.1,0.3681603773584906,,[],1807.11407v1
+Image Classification,STL-10,Leapfrog,83.7,0.3775943396226414,,[],1709.03698v2
+Image Classification,STL-10,ResNet baseline,82.0,0.4176886792452829,,['ResNet'],1807.11407v1
+Image Classification,STL-10,Greedy InfoMax (GIM),81.9,0.4200471698113205,,[],1905.11786v3
+Image Classification,STL-10,"ResNet18(BN, 4)",81.04,0.440330188679245,,['ResNet'],2003.05569v1
+Image Classification,STL-10,VGG8B + LocalLearning + CO,80.75,0.4471698113207547,,[],1901.06656v2
+Image Classification,STL-10,"ResNet18(GN, 4)",79.3,0.4813679245283019,,['ResNet'],2003.05569v1
+Image Classification,STL-10,"ResNet18(BN, 128)",78.65,0.496698113207547,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Mean Teacher,78.57,0.4985849056603775,,[],2001.07685
+Image Classification,STL-10,CPC\u2020,78.36,0.5035377358490566,,[],2009.00104v1
+Image Classification,STL-10,Hamiltonian,78.3,0.5049528301886793,,[],1804.04272v2
+Image Classification,STL-10,CC-GAN\u00b2,77.8,0.5167452830188679,,[],1611.06430v1
+Image Classification,STL-10,CC-GAN,77.8,0.5167452830188679,,[],1911.09785v2
+Image Classification,STL-10,Parabolic,77.0,0.5356132075471698,,[],1804.04272v2
+Image Classification,STL-10,Scat + WRN 20-8,76.6,0.5450471698113208,,[],1703.08961v2
+Image Classification,STL-10,"ResNet18(EBN, 4)",76.49,0.5476415094339624,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Exemplar CNN,75.7,0.5662735849056603,,[],1703.08961v2
+Image Classification,STL-10,"ResNet18(EBN, 128)",75.57,0.5693396226415096,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Stacked what-where AE,74.33,0.5985849056603774,,[],1703.08961v2
+Image Classification,STL-10,SWWAE,74.33,0.5985849056603774,,[],1807.11407v1
+Image Classification,STL-10,SWWAE,74.3,0.5992924528301887,,[],1911.09785v2
+Image Classification,STL-10,SWWAE,74.3,0.5992924528301887,,[],1506.02351v8
+Image Classification,STL-10,Second-order,74.3,0.5992924528301887,,[],1804.04272v2
+Image Classification,STL-10,Convolutional Clustering,74.1,0.6040094339622643,,[],1511.06241v2
+Image Classification,STL-10,\u03a0-Model,73.77,0.6117924528301888,,[],2001.07685
+Image Classification,STL-10,"ResNet18(GN, 128)",72.66,0.6379716981132076,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Pseudo-Labeling,72.01,0.6533018867924527,,[],2001.07685
+Image Classification,STL-10,Entropy,71.65,0.6617924528301885,,[],2007.01472v1
+Image Classification,STL-10,BDW,71.12,0.6742924528301886,,[],2006.12360
+Image Classification,STL-10,MP,71.05,0.6759433962264152,,[],2007.01472v1
+Image Classification,STL-10,WaveMixLite-256/7,70.88,0.6799528301886794,,[],2205.14375v5
+Image Classification,STL-10,CNN,70.7,0.6841981132075471,,[],1703.08961v2
+Image Classification,STL-10,An Analysis of Unsupervised Pre-training in Light of Recent Advances,70.2,0.6959905660377358,,[],1412.6597v4
+Image Classification,STL-10,NN-Weighter,69.15,0.7207547169811319,,[],2006.12360
+Image Classification,STL-10,Accuracy Monitoring,68.62,0.733254716981132,,[],2007.01472v1
+Image Classification,STL-10,C-SVDDNet,68.2,0.7431603773584905,,[],1412.7259v3
+Image Classification,STL-10,RotNet,68.19,0.7433962264150944,,[],2006.12360
+Image Classification,STL-10,DFF Committees,68.0,0.747877358490566,,[],1406.5947v1
+Image Classification,STL-10,Hierarchical Matching Pursuit (HMP),64.6,0.8280660377358492,,[],1703.08961v2
+Image Classification,STL-10,L2RW,63.13,0.8627358490566037,,[],2006.12360
+Image Classification,STL-10,CKN,62.3,0.8823113207547171,,[],1406.3332v2
+Image Classification,STL-10,S-CNN,61.94,0.8908018867924529,,[],1606.02210v1
+Image Classification,STL-10,Simulated Fixations,61.0,0.9129716981132076,,[],2009.00104v1
+Image Classification,STL-10,No more meta-parameter tuning in unsupervised sparse feature learning,61.0,0.9129716981132076,,[],1402.5766v1
+Image Classification,STL-10,Convolutional K-means Network,60.2,0.9318396226415094,,[],1703.08961v2
+Image Classification,STL-10,PWD,59.45,0.9495283018867924,,[],2006.12456v1
+Image Classification,STL-10,GVD,59.33,0.9523584905660378,,[],2006.12456v1
+Image Classification,STL-10,VR,59.13,0.9570754716981132,,[],2006.12456v1
+Image Classification,STL-10,Core SET,58.93,0.9617924528301888,,[],2006.12456v1
+Image Classification,STL-10,GE,58.84,0.9639150943396226,,[],2006.12456v1
+Image Classification,STL-10,DFAL,58.81,0.964622641509434,,[],2006.12456v1
+Image Classification,STL-10,Random,58.15,0.9801886792452832,,[],2006.12456v1
+Image Classification,STL-10,BALD-MCD,57.35,0.999056603773585,,[],2006.12456v1
+Image Classification,STL-10,Sign-symmetry,57.32,0.9997641509433964,,[],1510.05067v4
+Image Classification,STL-10,M2-PWD,57.31,1.0,,[],2006.12456v1
+Image Classification,Stanford Cars,efficient adaptive ensembling,99.84,0.0,,[],2206.07394v3
+Image Classification,Stanford Cars,TResNet-L-V2,96.32,0.1075137446548567,,[],2104.10972v4
+Image Classification,Stanford Cars,EfficientNetV2-L,95.1,0.1447770311545512,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,EfficientNetV2-M,94.6,0.1600488698839342,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,CaiT-M-36 U 224,94.2,0.1722663408674404,,[],2103.17239v2
+Image Classification,Stanford Cars,ImageNet + iNat on WS-DAN,94.1,0.1753207086133172,,[],2010.03071v1
+Image Classification,Stanford Cars,CeiT-S (384 finetune resolution),94.1,0.1753207086133172,,[],2103.11816v2
+Image Classification,Stanford Cars,EfficientNetV2-S,93.8,0.184483811850947,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,CeiT-S,93.2,0.2028100183262064,,[],2103.11816v2
+Image Classification,Stanford Cars,GFNet-H-B,93.2,0.2028100183262064,,[],2107.00645v2
+Image Classification,Stanford Cars,CeiT-T (384 finetune resolution),93.0,0.2089187538179597,,[],2103.11816v2
+Image Classification,Stanford Cars,TransBoost-ResNet50,90.8,0.2761148442272451,,[],2205.13331v4
+Image Classification,Stanford Cars,CeiT-T,90.5,0.2852779474648748,,[],2103.11816v2
+Image Classification,Stanford Cars,LeViT-192,89.8,0.3066585216860111,,[],2104.01136v2
+Image Classification,Stanford Cars,ResMLP-24,89.5,0.3158216249236408,,[],2105.03404v2
+Image Classification,Stanford Cars,LeViT-384,89.3,0.3219303604153941,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-128,88.6,0.3433109346365304,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-128S,88.4,0.3494196701282833,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-256,88.2,0.3555284056200365,,[],2104.01136v2
+Image Classification,Stanford Cars,ResMLP-12,84.6,0.4654856444715945,,[],2105.03404v2
+Image Classification,Stanford Cars,NNCLR,67.1,1.0,,[],2104.14548v2
+Image Classification,Oxford Flowers 102,CCT-14/7x2,99.76,0.0,,[],2104.05704v4
+Image Classification,Oxford Flowers 102,VIT-L/16 (Background),99.75,0.0008431703204051,,[],2305.03238v4
+Image Classification,Oxford Flowers 102,CvT-W24,99.72,0.0033726812816194,,[],2103.15808v1
+Image Classification,Oxford Flowers 102,Bamboo (ViT-B/16),99.7,0.0050590219224285,,[],2203.07845v2
+Image Classification,Oxford Flowers 102,EffNet-L2 (SAM),99.65,0.0092748735244518,,[],2010.01412v3
+Image Classification,Oxford Flowers 102,ALIGN,99.65,0.0092748735244518,,[],2102.05918v2
+Image Classification,Oxford Flowers 102,BiT-L (ResNet),99.63,0.0109612141652621,,['ResNet'],1912.11370v3
+Image Classification,Oxford Flowers 102,ConvMLP-S,99.5,0.0219224283305231,,[],2109.04454v2
+Image Classification,Oxford Flowers 102,ConvMLP-L,99.5,0.0219224283305231,,[],2109.04454v2
+Image Classification,Oxford Flowers 102,ResNet-152x4-AGC (ImageNet-21K),99.49,0.0227655986509283,,[],2106.00116v4
+Image Classification,Oxford Flowers 102,BiT-M (ResNet),99.3,0.0387858347386178,,['ResNet'],1912.11370v3
+Image Classification,Oxford Flowers 102,Wide-ResNet-101 (Spinal FC),99.3,0.0387858347386178,,[],2007.03347v3
+Image Classification,Oxford Flowers 102,TResNet-L,99.1,0.0556492411467125,,[],2003.13630v3
+Image Classification,Oxford Flowers 102,Grafit (RegNet-8GF),99.1,0.0556492411467125,,[],2011.12982v1
+Image Classification,Oxford Flowers 102,CaiT-M-36 U 224,99.1,0.0556492411467125,,[],2103.17239v2
+Image Classification,Oxford Flowers 102,DAT,98.9,0.072512647554806,,[],2010.03071v1
+Image Classification,Oxford Flowers 102,EfficientNet-B7,98.8,0.0809443507588539,,['EfficientNet'],1905.11946v5
+Image Classification,Oxford Flowers 102,EfficientNetV2-L,98.8,0.0809443507588539,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers 102,GFNet-H-B,98.8,0.0809443507588539,54M,[],2107.00645v2
+Image Classification,Oxford Flowers 102,DeiT-B,98.8,0.0809443507588539,86M,[],2012.12877v2
+Image Classification,Oxford Flowers 102,CeiT-S (384 finetune resolution),98.6,0.0978077571669486,,[],2103.11816v2
+Image Classification,Oxford Flowers 102,EfficientNetV2-M,98.5,0.1062394603709953,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers 102,ViT-B (attn finetune),98.5,0.1062394603709953,,[],2203.09795v1
+Image Classification,Oxford Flowers 102,LeViT-384,98.3,0.12310286677909,,[],2104.01136v2
+Image Classification,Oxford Flowers 102,NAT-M4,98.3,0.12310286677909,4.2M,[],2005.05859v2
+Image Classification,Oxford Flowers 102,ResNet-50x1-ACG (ImageNet-21K),98.21,0.1306913996627328,,[],2106.00116v4
+Image Classification,Oxford Flowers 102,CeiT-S,98.2,0.1315345699831367,,[],2103.11816v2
+Image Classification,Oxford Flowers 102,NAT-M3,98.1,0.1399662731871847,3.7M,[],2005.05859v2
+Image Classification,Oxford Flowers 102,ResNet50 (A1),97.9,0.1568296795952782,25M,[],2110.00476v1
+Image Classification,Oxford Flowers 102,EfficientNetV2-S,97.9,0.1568296795952782,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers 102,ResMLP24,97.9,0.1568296795952782,,[],2105.03404v2
+Image Classification,Oxford Flowers 102,NAT-M2,97.9,0.1568296795952782,3.4M,[],2005.05859v2
+Image Classification,Oxford Flowers 102,TransBoost-ResNet50,97.85,0.1610455311973027,,[],2205.13331v4
+Image Classification,Oxford Flowers 102,CeiT-T (384 finetune resolution),97.8,0.1652613827993261,,[],2103.11816v2
+Image Classification,Oxford Flowers 102,LeViT-192,97.8,0.1652613827993261,,[],2104.01136v2
+Image Classification,Oxford Flowers 102,LeViT-256,97.7,0.1736930860033728,,[],2104.01136v2
+Image Classification,Oxford Flowers 102,ResMLP12,97.4,0.1989881956155142,,[],2105.03404v2
+Image Classification,Oxford Flowers 102,CS-Parts,96.9,0.2411467116357503,,[],1909.07075v1
+Image Classification,Oxford Flowers 102,CeiT-T,96.9,0.2411467116357503,,[],2103.11816v2
+Image Classification,Oxford Flowers 102,LeViT-128S,96.8,0.2495784148397983,,[],2104.01136v2
+Image Classification,Oxford Flowers 102,SEER (RegNet10B),96.3,0.2917369308600344,,[],2202.08360v2
+Image Classification,Oxford Flowers 102,NNCLR,95.1,0.3929173693086012,,[],2104.14548v2
+Image Classification,Oxford Flowers 102,ViT-B/16- SAM,91.8,0.6711635750421592,,[],2106.01548v3
+Image Classification,Oxford Flowers 102,ViT-S/16- SAM,91.5,0.6964586846543006,,[],2106.01548v3
+Image Classification,Oxford Flowers 102,ResNet-152-SAM,91.1,0.73018549747049,,['ResNet'],2106.01548v3
+Image Classification,Oxford Flowers 102,ResNet-50-SAM,90.0,0.8229342327150089,,['ResNet'],2106.01548v3
+Image Classification,Oxford Flowers 102,Mixer-B/16- SAM,90.0,0.8229342327150089,,[],2106.01548v3
+Image Classification,Oxford Flowers 102,Mixer-S/16- SAM,87.9,1.0,,[],2106.01548v3
+Image Classification,Omni Benchmark,NOAH-ViTB/16,47.6,0.0,,"['pre-trained on ImageNet22K', 'parameter-efficient tuning', 'ViT']",2206.04673v2
+Image Classification,Omni Benchmark,SwinTransformer,46.4,0.0685714285714287,,"['swin-transformer', 'Pre-trained on ImageNet', 'linear probing']",2103.14030v2
+Image Classification,Omni Benchmark,Bamboo-R50,45.4,0.1257142857142859,,"['ResNet-50', 'pre-trained on Bamboo-CLS', 'linear probing']",2203.07845v2
+Image Classification,Omni Benchmark,Adapter-ViTB/16,44.5,0.1771428571428572,,"['ViT', 'parameter-efficient tuning', 'pre-trained on ImageNet22K']",1902.00751v2
+Image Classification,Omni Benchmark,CLIP-RN50,42.1,0.3142857142857143,,"['ResNet-50', 'linear probing', 'CLIP Pre-trained']",2103.00020v1
+Image Classification,Omni Benchmark,IG-1B,40.4,0.4114285714285716,,"['ResNet-50', 'linear probing', 'Pre-trained on IG-1B \\u0026 ImageNet']",1905.00546v1
+Image Classification,Omni Benchmark,BiT-M,40.4,0.4114285714285716,,"['ResNet-50', 'linear probing', 'pre-trained on ImageNet22K']",1912.11370v3
+Image Classification,Omni Benchmark,DINO,38.9,0.4971428571428573,,"['Pre-trained on ImageNet', 'ResNet-50', 'linear probing', 'unsupervised']",2104.14294v2
+Image Classification,Omni Benchmark,SwAV,38.3,0.5314285714285717,,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50', 'unsupervised']",2006.09882v5
+Image Classification,Omni Benchmark,ResNet-101,37.4,0.5828571428571431,,"['linear probing', 'pre-trained on ImageNet22K', 'ResNet-101']",1512.03385v1
+Image Classification,Omni Benchmark,MEAL-V2,36.6,0.6285714285714286,,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.08453v2
+Image Classification,Omni Benchmark,MoPro-V2,36.1,0.6571428571428571,,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.07995v1
+Image Classification,Omni Benchmark,EfficientNetB4,35.8,0.6742857142857145,,[],1905.11946v5
+Image Classification,Omni Benchmark,MoCoV2,34.8,0.7314285714285716,,[],1911.05722v3
+Image Classification,Omni Benchmark,ResNet-50,34.3,0.7600000000000002,,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50']",1512.03385v1
+Image Classification,Omni Benchmark,InceptionV4,32.3,0.8742857142857146,,[],1602.07261v2
+Image Classification,Omni Benchmark,MLP-Mixer,32.2,0.8799999999999999,,['MLP'],2105.01601v4
+Image Classification,Omni Benchmark,Manifold,31.6,0.9142857142857144,,['augmentation'],1806.05236v7
+Image Classification,Omni Benchmark,CutMix,31.1,0.9428571428571428,,['augmentation'],1905.04899v2
+Image Classification,Omni Benchmark,ReLabel,30.8,0.96,,['augmentation'],2101.05022v2
+Image Classification,Omni Benchmark,MAE,30.6,0.9714285714285714,,"['linear probing', 'unsupervised']",2111.06377v2
+Image Classification,Omni Benchmark,BeiT,30.1,1.0,,"['linear probing', 'Unsupervised']",2106.08254v2
+Image Classification,Kuzushiji MNIST,VGG-5 (Spinal FC),99.15,0.0,,[],2007.03347v3
+Image Classification,Kuzushiji MNIST,CAMNet3,99.05,0.0031201248049924,,[],1907.11519v1
+Image Classification,Kuzushiji MNIST,VGG8B(2x) + LocalLearning + CO,99.01,0.004368174726989,,[],1901.06656v2
+Image Classification,Kuzushiji MNIST,Resnet-152,98.79,0.0112324492979718,,['ResNet'],1905.09113v1
+Image Classification,Kuzushiji MNIST,ResNet-14,98.75,0.0124804992199689,,[],2203.15331v2
+Image Classification,Kuzushiji MNIST,PreActResNet-18 + Input Mixup,98.41,0.0230889235569425,,[],1710.09412v2
+Image Classification,Kuzushiji MNIST,PreActResNet-18,97.82,0.0414976599063966,,[],1603.05027v3
+Image Classification,Kuzushiji MNIST,Convolutional Tsetlin Machine,96.3,0.0889235569422779,,[],1905.09688v5
+Image Classification,Kuzushiji MNIST,KerCNN,93.13,0.1878315132605306,,[],1910.08336v1
+Image Classification,Kuzushiji MNIST,linear/flexible model,79.9,0.6006240249609982,,[],2001.04243v3
+Image Classification,Kuzushiji MNIST,FWD,79.5,0.6131045241809672,,[],2001.04243v3
+Image Classification,Kuzushiji MNIST,Complementary-Label Learning,67.1,1.0,,[],1810.04327v4
+Image Classification,iNaturalist 2018,OmniVec,93.8,0.0,,[],2311.05709v1
+Image Classification,iNaturalist 2018,InternImage-H,92.6,0.025369978858351,,[],2211.05778v4
+Image Classification,iNaturalist 2018,MAWS (ViT-2B),91.3,0.0528541226215644,,[],2303.13496v3
+Image Classification,iNaturalist 2018,"MetaFormer\n(MetaFormer-2,384,extra_info)",88.7,0.1078224101479914,,[],2203.02751v1
+Image Classification,iNaturalist 2018,Hiera-H (448px),87.3,0.1374207188160676,,[],2306.00989v1
+Image Classification,iNaturalist 2018,"MAE (ViT-H, 448)",86.8,0.1479915433403805,,[],2111.06377v2
+Image Classification,iNaturalist 2018,SWAG (ViT H/14),86.0,0.1649048625792811,,[],2201.08371v2
+Image Classification,iNaturalist 2018,SEER (RegNet10B - finetuned - 384px),84.7,0.1923890063424946,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,iNaturalist 2018,"MetaFormer\n(MetaFormer-2,384)",84.3,0.200845665961945,,[],2203.02751v1
+Image Classification,iNaturalist 2018,OMNIVORE (Swin-L),84.1,0.2050739957716702,,[],2201.08377v2
+Image Classification,iNaturalist 2018,RegNet-8GF,81.2,0.2663847780126849,,[],2011.12982v1
+Image Classification,iNaturalist 2018,VL-LTR (ViT-B-16),81.0,0.2706131078224101,,[],2111.13579v4
+Image Classification,iNaturalist 2018,\u00b52Net+ (ViT-L/16),80.97,0.2712473572938689,,[],2209.07326v3
+Image Classification,iNaturalist 2018,MixMIM-L,80.3,0.2854122621564482,,[],2205.13137v4
+Image Classification,iNaturalist 2018,DeiT-B,79.5,0.3023255813953488,,[],2012.12877v2
+Image Classification,iNaturalist 2018,CeiT-S (384 finetune resolution),79.4,0.3044397463002112,,[],2103.11816v2
+Image Classification,iNaturalist 2018,GPaCo (ResNet-152),78.1,0.331923890063425,,[],2209.12400v2
+Image Classification,iNaturalist 2018,CaiT-M-36 U 224,78.0,0.3340380549682875,,[],2103.17239v2
+Image Classification,iNaturalist 2018,MixMIM-B,77.5,0.3446088794926004,,[],2205.13137v4
+Image Classification,iNaturalist 2018,GPaCo (ResNet-50),75.4,0.3890063424947144,,[],2209.12400v2
+Image Classification,iNaturalist 2018,CBD-ENS (ResNet-101),75.3,0.3911205073995772,,[],2104.05279v2
+Image Classification,iNaturalist 2018,ViT-L (attn finetune),75.3,0.3911205073995772,,[],2203.09795v1
+Image Classification,iNaturalist 2018,PaCo(ResNet-152),75.2,0.3932346723044396,,['ResNet'],2107.12028v2
+Image Classification,iNaturalist 2018,VL-LTR (ResNet-50),74.6,0.4059196617336153,,[],2111.13579v4
+Image Classification,iNaturalist 2018,BS-CMO (ResNet-50),74.0,0.4186046511627906,,['ResNet-50'],2112.00412v3
+Image Classification,iNaturalist 2018,CBD-ENS (ResNet-50),73.6,0.4270613107822411,,[],2104.05279v2
+Image Classification,iNaturalist 2018,CeiT-S,73.3,0.4334038054968288,,[],2103.11816v2
+Image Classification,iNaturalist 2018,TADE (ResNet-50),72.9,0.4418604651162789,,['ResNet'],2107.09249v4
+Image Classification,iNaturalist 2018,CeiT-T (384 finetune resolution),72.2,0.456659619450317,,[],2103.11816v2
+Image Classification,iNaturalist 2018,RIDE (ResNet-50),72.2,0.456659619450317,,['ResNet'],2010.01809v4
+Image Classification,iNaturalist 2018,ResNeXt-101 (SAMix),70.54,0.4917547568710357,,['ResNet'],2111.15454v3
+Image Classification,iNaturalist 2018,ResNeXt-101 (AutoMix),70.49,0.4928118393234673,,['ResNet'],2103.13027v6
+Image Classification,iNaturalist 2018,LADE,70.0,0.5031712473572938,,['ResNet'],2012.00321v2
+Image Classification,iNaturalist 2018,ResNet-50,69.8,0.5073995771670191,,['ResNet'],2011.12982v1
+Image Classification,iNaturalist 2018,ResNet-152,69.08,0.5226215644820296,,['ResNet'],2008.03673v1
+Image Classification,iNaturalist 2018,ResNet-152,69.05,0.5232558139534884,,['ResNet'],1901.05555v1
+Image Classification,iNaturalist 2018,MetaSAug,68.75,0.5295983086680761,,[],2103.12579v3
+Image Classification,iNaturalist 2018,ResNet-101,68.39,0.5372093023255814,,['ResNet'],2008.03673v1
+Image Classification,iNaturalist 2018,ResNet-101,67.98,0.5458773784355179,,['ResNet'],1901.05555v1
+Image Classification,iNaturalist 2018,LeViT-384,66.9,0.5687103594080337,,[],2104.01136v2
+Image Classification,iNaturalist 2018,LeViT-256,66.2,0.5835095137420718,,[],2104.01136v2
+Image Classification,iNaturalist 2018,ResNet-50,65.91,0.5896405919661734,,['ResNet'],2008.03673v1
+Image Classification,iNaturalist 2018,ResNet-50 (SAMix),64.84,0.6122621564482028,,['ResNet'],2111.15454v3
+Image Classification,iNaturalist 2018,ResNet-50 (AutoMix),64.73,0.6145877378435517,,['ResNet'],2103.13027v6
+Image Classification,iNaturalist 2018,CeiT-T,64.3,0.623678646934461,,[],2103.11816v2
+Image Classification,iNaturalist 2018,ResMLP-24,64.3,0.623678646934461,,[],2105.03404v2
+Image Classification,iNaturalist 2018,ResNet-50,64.16,0.6266384778012686,,['ResNet'],1901.05555v1
+Image Classification,iNaturalist 2018,LeViT-192,60.4,0.7061310782241015,,[],2104.01136v2
+Image Classification,iNaturalist 2018,Inception-V3,60.2,0.7103594080338266,,[],1707.06642v2
+Image Classification,iNaturalist 2018,ResMLP-12,60.2,0.7103594080338266,,[],2105.03404v2
+Image Classification,iNaturalist 2018,LeViT-128S,55.2,0.8160676532769555,,[],2104.01136v2
+Image Classification,iNaturalist 2018,LeViT-128,54.0,0.8414376321353065,,[],2104.01136v2
+Image Classification,iNaturalist 2018,ResNet-50,49.7,0.9323467230443974,,['ResNet'],1912.03330v1
+Image Classification,iNaturalist 2018,ResNet-50,48.6,0.9556025369978858,,['ResNet'],2006.09882v5
+Image Classification,iNaturalist 2018,Barlow Twins (ResNet-50),46.5,1.0,,['ResNet'],2103.03230v3
+Image Classification,ImageNet V2,Model soups (BASIC-L),84.63,0.0,,[],2203.05482v3
+Image Classification,ImageNet V2,ViT-e,84.3,0.0159189580318378,,[],2209.06794v4
+Image Classification,ImageNet V2,Model soups (ViT-G/14),84.22,0.0197780993728893,,[],2203.05482v3
+Image Classification,ImageNet V2,SwinV2-G,84.0,0.0303907380607812,,[],2111.09883v2
+Image Classification,ImageNet V2,MAWS (ViT-6.5B),84.0,0.0303907380607812,,[],2303.13496v3
+Image Classification,ImageNet V2,ViT-G/14,83.33,0.0627110467920886,,['Transformer'],2106.04560v2
+Image Classification,ImageNet V2,MAWS (ViT-2B),83.0,0.0786300048239264,,[],2303.13496v3
+Image Classification,ImageNet V2,MOAT-4 (IN-22K pretraining),81.5,0.1509889049686442,,[],2210.01820v2
+Image Classification,ImageNet V2,SWAG (ViT H/14),81.1,0.1702846116739026,,[],2201.08371v2
+Image Classification,ImageNet V2,MOAT-3 (IN-22K pretraining),80.6,0.1944042450554752,,[],2210.01820v2
+Image Classification,ImageNet V2,MOAT-2 (IN-22K pretraining),79.3,0.2571152918475639,,[],2210.01820v2
+Image Classification,ImageNet V2,MOAT-1 (IN-22K pretraining),78.4,0.3005306319343941,,[],2210.01820v2
+Image Classification,ImageNet V2,SwinV2-B,78.08,0.3159671972986009,,[],2111.09883v2
+Image Classification,ImageNet V2,VOLO-D5,78.0,0.3198263386396525,,[],2106.13112v2
+Image Classification,ImageNet V2,VOLO-D4,77.8,0.3294741919922817,,[],2106.13112v2
+Image Classification,ImageNet V2,CAIT-M36-448,76.7,0.3825373854317411,,['Transformer'],2103.17239v2
+Image Classification,ImageNet V2,SEER (RegNet10B),76.2,0.4066570188133137,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,ImageNet V2,ResMLP-B24/8 22k,74.2,0.5031355523396042,,[],2105.03404v2
+Image Classification,ImageNet V2,ViT-B-36x1,73.9,0.5176073323685476,,[],2203.09795v1
+Image Classification,ImageNet V2,ResMLP-B24/8,73.4,0.5417269657501201,,[],2105.03404v2
+Image Classification,ImageNet V2,Sequencer2D-L,73.4,0.5417269657501201,,[],2205.01972v4
+Image Classification,ImageNet V2,"Discrete Adversarial Distillation (ViT-B, 224)",71.7,0.6237337192474671,,[],2311.01441v2
+Image Classification,ImageNet V2,LeViT-384,71.4,0.6382054992764106,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,LeViT-256,69.9,0.7105643994211284,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ResMLP-S24/16,69.8,0.7153883260974433,,[],2105.03404v2
+Image Classification,ImageNet V2,ResNet-152x2-SAM,69.6,0.7250361794500725,,['ResNet'],2106.01548v3
+Image Classification,ImageNet V2,LeViT-192,68.7,0.7684515195369028,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ResNet50 (A1),68.7,0.7684515195369028,,[],2110.00476v1
+Image Classification,ImageNet V2,LeViT-128,67.5,0.8263386396526772,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ViT-B/16-SAM,67.5,0.8263386396526772,,['Transformer'],2106.01548v3
+Image Classification,ImageNet V2,ResMLP-S12/16,66.0,0.898697539797395,,[],2105.03404v2
+Image Classification,ImageNet V2,Mixer-B/8-SAM,65.5,0.9228171731789676,,[],2106.01548v3
+Image Classification,ImageNet V2,LeViT-128S,63.9,1.0,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,Baseline (ViT-G/14),91.78,0.0,,[],2203.05482v3
+Image Classification,ImageNet Real,"ViTAE-H\n(MAE, 512)",91.2,0.0454189506656224,,['Transformer'],2202.10108v2
+Image Classification,ImageNet Real,Model soups (ViT-G/14),91.2,0.0454189506656224,,['Transformer'],2203.05482v3
+Image Classification,ImageNet Real,Meta Pseudo Labels (EfficientNet-B6-Wide),91.12,0.051683633516053,,['EfficientNet'],2003.10580v4
+Image Classification,ImageNet Real,MAWS (ViT-6.5B),91.1,0.0532498042286614,,[],2303.13496v3
+Image Classification,ImageNet Real,TokenLearner L/8 (24+11),91.05,0.0571652310101804,,[],2106.11297v4
+Image Classification,ImageNet Real,Model soups (BASIC-L),91.03,0.0587314017227878,,"['ALIGN', 'JFT-3B', 'Conv+Transformer']",2203.05482v3
+Image Classification,ImageNet Real,Meta Pseudo Labels (EfficientNet-L2),91.02,0.059514487079092,,['EfficientNet'],2003.10580v4
+Image Classification,ImageNet Real,MAWS (ViT-2B),90.9,0.0689115113547373,,[],2303.13496v3
+Image Classification,ImageNet Real,FixEfficientNet-L2,90.9,0.0689115113547373,,['EfficientNet'],2003.08237v5
+Image Classification,ImageNet Real,ViT-G/14,90.81,0.0759592795614721,,['Transformer'],2106.04560v2
+Image Classification,ImageNet Real,MAWS (ViT-H),90.8,0.0767423649177763,,[],2303.13496v3
+Image Classification,ImageNet Real,SWAG (RegNetY 128GF),90.7,0.0845732184808143,,[],2201.08371v2
+Image Classification,ImageNet Real,"CvT-W24 (384 res, ImageNet-22k pretrain)",90.6,0.0924040720438533,277M,['Transformer'],2103.15808v1
+Image Classification,ImageNet Real,VOLO-D5,90.6,0.0924040720438533,,[],2106.13112v2
+Image Classification,ImageNet Real,EfficientNet-L2,90.55,0.0963194988253723,,['EfficientNet'],1911.04252v4
+Image Classification,ImageNet Real,BiT-L,90.54,0.0971025841816754,,['Transformer'],1912.11370v3
+Image Classification,ImageNet Real,VOLO-D4,90.5,0.1002349256068912,,[],2106.13112v2
+Image Classification,ImageNet Real,CAIT-M36-448,90.2,0.1237274862960061,,['Transformer'],2103.17239v2
+Image Classification,ImageNet Real,Mixer-H/14- 448 (JFT-300M pre-train),90.18,0.1252936570086135,,[],2105.01601v4
+Image Classification,ImageNet Real,FixEfficientNet-B8,90.0,0.1393891934220831,,['EfficientNet'],2003.08237v5
+Image Classification,ImageNet Real,SEER (RegNet10B),89.8,0.1550509005481601,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,ImageNet Real,FixResNeXt-101 32x48d,89.73,0.1605324980422864,,['ResNeXt'],1906.06423v4
+Image Classification,ImageNet Real,DeiT-B-384,89.3,0.1942051683633519,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,BiT-M,89.02,0.2161315583398595,,['Transformer'],1912.11370v3
+Image Classification,ImageNet Real,DeiT-B,88.7,0.2411902897415817,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,Assemble-ResNet152,88.65,0.2451057165231007,,[],2001.06268v2
+Image Classification,ImageNet Real,CeiT-S (384 finetune res),88.1,0.2881754111198127,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,Sequencer2D-L,87.9,0.3038371182458885,,[],2205.01972v4
+Image Classification,ImageNet Real,Mixer-H/14 (JFT-300M pre-train),87.86,0.3069694596711044,,[],2105.01601v4
+Image Classification,ImageNet Real,Assemble ResNet-50,87.82,0.3101018010963202,,['ResNet'],2001.06268v2
+Image Classification,ImageNet Real,NASNet-A Large,87.56,0.3304620203602192,,[],1707.07012v4
+Image Classification,ImageNet Real,LeViT-384,87.5,0.3351605324980425,,[],2104.01136v2
+Image Classification,ImageNet Real,CeiT-S,87.3,0.3508222396241194,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,LeViT-256,86.9,0.3821456538762722,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,DeiT-S,86.8,0.3899765074393113,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,ResNet-152x2-SAM,86.4,0.4212999216914641,,['ResNet'],2106.01548v3
+Image Classification,ImageNet Real,LeViT-192,85.8,0.468285043069695,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,ResNet50 (A1),85.7,0.4761158966327329,,[],2110.00476v1
+Image Classification,ImageNet Real,LeViT-128,85.6,0.483946750195772,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,ResMLP-36,85.6,0.483946750195772,,[],2105.03404v2
+Image Classification,ImageNet Real,ResMLP-24,85.3,0.5074393108848869,,[],2105.03404v2
+Image Classification,ImageNet Real,ViT-B/16-SAM,85.2,0.5152701644479248,,['Transformer'],2106.01548v3
+Image Classification,ImageNet Real,ResMLP-12,84.6,0.5622552858261558,,[],2105.03404v2
+Image Classification,ImageNet Real,Mixer-B/8-SAM,84.4,0.5779169929522316,,['Transformer'],2106.01548v3
+Image Classification,ImageNet Real,kNN-CLIP,84.0,0.6092404072043855,,"['CLIP Pre-trained', 'Memory-Centric']",2204.01186v2
+Image Classification,ImageNet Real,CeiT-T,83.6,0.6405638214565395,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,LeViT-128S,82.6,0.7188723570869232,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,DeiT-Ti,82.1,0.7580266249021151,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,NASNet-A Mobile,81.15,0.8324197337509788,,[],1707.07012v4
+Image Classification,ImageNet Real,VGG-16 BN,80.6,0.8754894283476907,,[],1409.1556v6
+Image Classification,ImageNet Real,VGG-16,79.01,1.0,,[],1409.1556v6
+Image Classification,Fashion MNIST,Fine-Tuning DARTS,3.09,1.0,,[],2006.09042v1
+Image Classification,Fashion MNIST,PreAct-ResNet18 + FMix,3.64,0.937641723356009,,[],2002.12047v3
+Image Classification,Fashion MNIST,Random Erasing,3.65,0.9365079365079364,,[],1708.04896v2
+Image Classification,Fashion MNIST,E2E-3M,4.08,0.8877551020408163,,[],2007.15161v3
+Image Classification,Fashion MNIST,VGG8B(2x) + LocalLearning + CO,4.14,0.8809523809523809,,[],1901.06656v2
+Image Classification,Fashion MNIST,Inception v3,5.56,0.7199546485260772,,[],2203.15331v2
+Image Classification,Fashion MNIST,WaveMixLite,5.68,0.7063492063492064,,[],2205.14375v5
+Image Classification,Fashion MNIST,Local Mixup DenseNet,5.97,0.673469387755102,,[],2201.04368v1
+Image Classification,Fashion MNIST,TextCaps,6.29,0.63718820861678,,[],1904.08095v1
+Image Classification,Fashion MNIST,StiDi-BP in R-CSNN,7.2,0.5340136054421768,,['SNN'],2108.13621v1
+Image Classification,Fashion MNIST,NeuPDE,7.6,0.4886621315192744,,[],1908.03190v1
+Image Classification,Fashion MNIST,Star Algorithm on LeNet,7.7,0.4773242630385487,,[],2206.00255v1
+Image Classification,Fashion MNIST,Convolutional Tsetlin Machine,8.6,0.3752834467120182,,[],1905.09688v5
+Image Classification,Fashion MNIST,OTTT,9.6,0.261904761904762,,['SNN'],2210.04195v2
+Image Classification,Fashion MNIST,GECCO,11.91,0.0,,[],2402.00564v2
+Image Classification,DF20 mini,ViT-Large/16 (384),75.85,0.0,,[],2103.10107v4
+Image Classification,DF20 mini,ViT-Base/16 (384),74.23,0.1251931993817612,,[],2103.10107v4
+Image Classification,DF20 mini,SE-ResNeXt-101-32x4d,72.23,0.2797527047913439,,[],2103.10107v4
+Image Classification,DF20 mini,ViT-Large/16 (224),71.04,0.3717156105100455,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B3 (299),69.59,0.4837712519319932,,[],2103.10107v4
+Image Classification,DF20 mini,SE-ResNeXt-101-32x4d (224),68.87,0.5394126738794429,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B5 (299),68.76,0.54791344667697,,[],2103.10107v4
+Image Classification,DF20 mini,ResNet-50 (299),68.49,0.5687789799072643,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B1 (299),68.35,0.5795981452859352,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B0 (299),67.94,0.6112828438948994,,[],2103.10107v4
+Image Classification,DF20 mini,Inception-V4 (299),67.45,0.6491499227202467,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B3 (224),67.39,0.6537867078825345,,[],2103.10107v4
+Image Classification,DF20 mini,Inception-V3 (299),65.91,0.7681607418856259,,[],2103.10107v4
+Image Classification,DF20 mini,EfficientNet-B0 (224),65.66,0.7874806800618238,,[],2103.10107v4
+Image Classification,DF20 mini,MobileNet-V2 (299),65.58,0.793663060278207,,[],2103.10107v4
+Image Classification,DF20 mini,Inception-ResNet-V2 (299),64.67,0.8639876352395668,,[],2103.10107v4
+Image Classification,DF20 mini,ResNet-18,62.91,1.0,,[],2103.10107v4
+Image Classification,DF20,ViT-Large/16 (384),80.45,0.0,,[],2103.10107v4
+Image Classification,DF20,ViT-Base/16 (384),79.48,0.0728228228228227,,[],2103.10107v4
+Image Classification,DF20,SE-ResNeXt-101-32x4d,77.13,0.2492492492492496,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B5 (299),76.1,0.326576576576577,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B3 (299),75.69,0.3573573573573575,,[],2103.10107v4
+Image Classification,DF20,ViT-Large/16 (224),75.29,0.3873873873873869,,[],2103.10107v4
+Image Classification,DF20,SE-ResNeXt-101-32x4d (224),74.26,0.4647147147147142,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B1 (299),74.08,0.4782282282282283,,[],2103.10107v4
+Image Classification,DF20,Inception-ResNet-V2 (299),74.01,0.483483483483483,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B0 (299),73.65,0.51051051051051,,[],2103.10107v4
+Image Classification,DF20,ResNet-50 (299),73.49,0.5225225225225228,,[],2103.10107v4
+Image Classification,DF20,Inception-V4 (299),73.0,0.5593093093093092,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B3 (224),72.51,0.5960960960960956,,[],2103.10107v4
+Image Classification,DF20,Inception-V3 (299),72.1,0.6268768768768772,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B0 (224),70.33,0.7597597597597597,,[],2103.10107v4
+Image Classification,DF20,MobileNet-V2 (299),69.77,0.8018018018018018,,[],2103.10107v4
+Image Classification,DF20,ResNet-18,67.13,1.0,,[],2103.10107v4
+Image Classification,Clothing 1M,LRA-diffusion (CC),75.7,0.0,,[],2305.19518v2
+Image Classification,Clothing 1M,SANM (DivideMix),75.63,0.0103550295857999,,[],2302.06805v2
+Image Classification,Clothing 1M,CC,75.4,0.0443786982248516,,[],2207.14476v1
+Image Classification,Clothing 1M,CPC,75.4,0.0443786982248516,,[],2212.10766v1
+Image Classification,Clothing 1M,Jigsaw-ViT+NCT,75.4,0.0443786982248516,,[],2207.11971v2
+Image Classification,Clothing 1M,MFRW,75.35,0.0517751479289953,,[],2211.04177v1
+Image Classification,Clothing 1M,Knockoffs-SPR,75.2,0.07396449704142,,[],2301.00545v4
+Image Classification,Clothing 1M,PGDF,75.19,0.0754437869822492,,[],2112.01197v3
+Image Classification,Clothing 1M,AugDesc,75.11,0.0872781065088761,,[],2103.02130v3
+Image Classification,Clothing 1M,Nested+Co-teaching (ResNet-50),75.0,0.1035502958579885,,[],2206.13140v1
+Image Classification,Clothing 1M,SSR,74.91,0.1168639053254446,,[],2111.11288v2
+Image Classification,Clothing 1M,NestedCoTeaching,74.9,0.1183431952662716,,[],2104.13766v1
+Image Classification,Clothing 1M,ELR+,74.81,0.1316568047337278,,[],2007.00151v2
+Image Classification,Clothing 1M,DivideMix,74.76,0.1390532544378694,,[],2002.07394v1
+Image Classification,Clothing 1M,ELR+ with C2D (ResNet-50),74.58,0.1656804733727816,,['ResNet'],2103.13646v2
+Image Classification,Clothing 1M,InstanceGM,74.4,0.1923076923076917,,[],2209.00906v1
+Image Classification,Clothing 1M,LongReMix,74.38,0.19526627218935,,[],2103.04173v2
+Image Classification,Clothing 1M,FINE + DivideMix,74.37,0.1967455621301771,,[],2102.11628v3
+Image Classification,Clothing 1M,Negative Label Smoothing (NLS),74.24,0.2159763313609477,,[],2106.04149v6
+Image Classification,Clothing 1M,CAL,74.17,0.2263313609467455,,[],2012.11854v2
+Image Classification,Clothing 1M,NoiseRank,73.82,0.2781065088757408,,[],2003.06729v1
+Image Classification,Clothing 1M,FOCI,73.8,0.281065088757397,,[],2008.06218v1
+Image Classification,Clothing 1M,MW-Net,73.72,0.292899408284024,,[],1902.07379v6
+Image Classification,Clothing 1M,PENCIL,73.49,0.3269230769230778,,[],1903.07788v1
+Image Classification,Clothing 1M,MLNT,73.47,0.3298816568047341,,[],1812.05214v2
+Image Classification,Clothing 1M,HOC,73.39,0.341715976331361,,[],2102.05291v2
+Image Classification,Clothing 1M,MAE (SimCLR),73.36,0.3461538461538464,,[],2104.08984v1
+Image Classification,Clothing 1M,Generalized CE (SimCLR),73.35,0.3476331360946755,,[],2104.08984v1
+Image Classification,Clothing 1M,DM,73.3,0.3550295857988171,,[],1905.11233v9
+Image Classification,Clothing 1M,CCE (SimCLR),73.27,0.3594674556213025,,[],2104.08984v1
+Image Classification,Clothing 1M,CORES2,73.24,0.3639053254437879,,[],2010.02347v2
+Image Classification,Clothing 1M,IMAE,73.2,0.3698224852071003,,[],1903.12141v9
+Image Classification,Clothing 1M,Robust f-divergence,73.09,0.3860946745562126,,[],2011.03687v3
+Image Classification,Clothing 1M,LCCN,73.07,0.389053254437871,,[],1903.02152v2
+Image Classification,Clothing 1M,DMI,72.46,0.4792899408284033,,[],1909.03388v2
+Image Classification,Clothing 1M,BARE,72.28,0.5059171597633135,,[],2106.15292v3
+Image Classification,Clothing 1M,Joint Opt.,72.23,0.5133136094674551,,[],1803.11364v1
+Image Classification,Clothing 1M,LRT,71.74,0.5857988165680481,,[],2011.10077v1
+Image Classification,Clothing 1M,SPR,71.16,0.6715976331360951,,[],2203.07788v2
+Image Classification,Clothing 1M,MASKING,71.1,0.6804733727810658,,[],1805.08193v2
+Image Classification,Clothing 1M,SCE,71.02,0.6923076923076928,,[],1908.06112v1
+Image Classification,Clothing 1M,DY,71.0,0.695266272189349,,[],1904.11238v2
+Image Classification,Clothing 1M,SEAL,70.63,0.7500000000000006,,[],2012.05458v1
+Image Classification,Clothing 1M,JoCoR,70.3,0.7988165680473375,,[],2003.02752v3
+Image Classification,Clothing 1M,CoT,70.15,0.8210059171597622,,[],1804.06872v3
+Image Classification,Clothing 1M,GCE,69.75,0.8801775147928992,,[],1805.07836v4
+Image Classification,Clothing 1M,D2L,69.47,0.9215976331360946,,[],1806.02612v2
+Image Classification,Clothing 1M,CCE,68.94,1.0,,[],2106.15292v3
 Image Generation,CIFAR-10,StyleSAN-XL,1.36,1.0,,['GAN'],2301.12811v4
 Image Generation,CIFAR-10,CTM,1.63,0.9960601196556254,,['Diffusion'],2310.02279v3
 Image Generation,CIFAR-10,Discriminator Guidance,1.64,0.9959141981613892,,"['Diffusion', 'Score-based']",2211.17091v4

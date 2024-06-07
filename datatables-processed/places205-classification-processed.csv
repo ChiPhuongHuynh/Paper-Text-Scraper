@@ -1,0 +1,16 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Places205,InternImage-H,71.7,1.0,,[],2211.05778v4
+Image Classification,Places205,MixMIM-L,69.3,0.8723404255319146,,[],2205.13137v4
+Image Classification,Places205,SEER (RegNet10B - finetuned - 384px),69.0,0.8563829787234042,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,Places205,MixMIM-B,68.3,0.8191489361702124,,[],2205.13137v4
+Image Classification,Places205,"MAE (ViT-H, 448)",66.8,0.7393617021276593,,[],2111.06377v2
+Image Classification,Places205,SEER,66.0,0.6968085106382977,,"['IG-1B', 'RegNet']",2103.01988v2
+Image Classification,Places205,SAMix (ResNet-50 Supervised),64.3,0.6063829787234041,,['ResNet'],2111.15454v3
+Image Classification,Places205,AutoMix (ResNet-50 Supervised),64.1,0.5957446808510635,,['ResNet'],2103.13027v6
+Image Classification,Places205,RegNetY-128GF (Supervised),62.7,0.521276595744681,,[],2103.01988v2
+Image Classification,Places205,SwAV,56.7,0.20212765957446827,,[],2006.09882v5
+Image Classification,Places205,Barlow Twins (ResNet-50),54.1,0.06382978723404269,,['ResNet'],2103.03230v3
+Image Classification,Places205,BYOL,54.0,0.058510638297872404,,[],2006.07733v3
+Image Classification,Places205,SimCLR,53.3,0.02127659574468077,,[],2002.05709v3
+Image Classification,Places205,ResNet-50 (Supervised),53.2,0.015957446808510863,,[],2006.09882v5
+Image Classification,Places205,MoCo v2,52.9,0.0,,[],2003.04297v1

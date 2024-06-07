@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+STS-ResNet,99.6},null,[']'],2003.12346v2
+SNN,99.4},null,[']'],2302.06279v3
+FastSNN,95.91},null,[']'],2205.15286v2
+Sparse Spiking Gradient Descent,92.7},null,[']}]</script'],2105.08810v2

@@ -1,0 +1,7 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,smallNORB,Heinsen Routing,99.1,1.0,,[],1911.00792v6
+Image Classification,smallNORB,Efficient-CapsNet,98.77,0.9293361884368309,,[],2101.12491v2
+Image Classification,smallNORB,VB-Routing,98.71,0.9164882226980728,,[],1905.11455v3
+Image Classification,smallNORB,FRMS,97.8,0.721627408993576,,[],1805.10807v2
+Image Classification,smallNORB,CapsNet,96.23,0.385438972162741,,[],1710.09829v2
+Image Classification,smallNORB,DCNet,94.43,0.0,,['DCN'],1805.04001v1

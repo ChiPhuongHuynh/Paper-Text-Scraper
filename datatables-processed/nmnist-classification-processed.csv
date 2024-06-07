@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,NMNIST,STS-ResNet,99.6,1.0,,[],2003.12346v2
+Image Classification,NMNIST,SNN,99.4,0.9710144927536248,,[],2302.06279v3
+Image Classification,NMNIST,FastSNN,95.91,0.46521739130434747,,[],2205.15286v2
+Image Classification,NMNIST,Sparse Spiking Gradient Descent,92.7,0.0,,[],2105.08810v2

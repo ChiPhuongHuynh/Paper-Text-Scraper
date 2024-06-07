@@ -1,0 +1,24 @@
+name,accuracy,params,tags,id
+VGG-5 (Spinal FC),99.15,null,[']'],2007.03347v3
+CAMNet3,99.05,null,[']'],1907.11519v1
+VGG8B(2x) + LocalLearning + CO,99.01,null,[']'],1901.06656v2
+CN(d=32),98.84,null,[']'],null
+NSRL (log D) (d=16),98.81,null,[']'],null
+CN(d=16),98.80,null,[']'],null
+Resnet-152,98.79,null,['ResNet'],1905.09113v1
+ResNet-14,98.75,null,[']'],2203.15331v2
+NSRL (WGAN) (d=32),98.72,null,[']'],null
+NSRL (WGAN) (d=8),98.68,null,[']'],null
+NSRL (WGAN) (d=16),98.66,null,[']'],null
+NSRL (log D) (d=32),98.63,null,[']'],null
+NSRL (log D) (d=8),98.61,null,[']'],null
+CN(d=8),98.60,null,[']'],null
+Efficient Capsnet,98.43,null,[']'],null
+PreActResNet-18 + Input Mixup,98.41,null,[']'],1710.09412v2
+PreActResNet-18,97.82,null,[']'],1603.05027v3
+Convolutional Tsetlin Machine,96.3,null,[']'],1905.09688v5
+KerCNN,93.13,null,[']'],1910.08336v1
+linear/flexible model,79.90,null,[']'],2001.04243v3
+FWD,79.5,null,[']'],2001.04243v3
+Complementary-Label Learning,67.1,null,[']'],1810.04327v4
+ResNet18 + VGG Ensemble,null,null,['ResNet'],1812.01718v1

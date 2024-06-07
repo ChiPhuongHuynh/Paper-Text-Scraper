@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Food-101 N,LRA-diffusion (CLIP ViT),93.42,1.0,,[],2305.19518v2
+Image Classification,Food-101 N,CleanNet,90.39,0.4975124378109452,,[],1711.07131v2
+Image Classification,Food-101 N,SURE(ResNet-50),88.0,0.10116086235489209,,[],2403.00543v1
+Image Classification,Food-101 N,LongReMix,87.39,0.0,,[],2103.04173v2

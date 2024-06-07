@@ -1,0 +1,53 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,ImageNet Real,Baseline (ViT-G/14),91.78,1.0,,[],2203.05482v3
+Image Classification,ImageNet Real,"ViTAE-H\n(MAE, 512)",91.2,0.9545810493343776,,['Transformer'],2202.10108v2
+Image Classification,ImageNet Real,Model soups (ViT-G/14),91.2,0.9545810493343776,,['Transformer'],2203.05482v3
+Image Classification,ImageNet Real,Meta Pseudo Labels (EfficientNet-B6-Wide),91.12,0.948316366483947,,['EfficientNet'],2003.10580v4
+Image Classification,ImageNet Real,MAWS (ViT-6.5B),91.1,0.9467501957713386,,[],2303.13496v3
+Image Classification,ImageNet Real,TokenLearner L/8 (24+11),91.05,0.9428347689898195,,[],2106.11297v4
+Image Classification,ImageNet Real,Model soups (BASIC-L),91.03,0.9412685982772122,,"['ALIGN', 'JFT-3B', 'Conv+Transformer']",2203.05482v3
+Image Classification,ImageNet Real,Meta Pseudo Labels (EfficientNet-L2),91.02,0.940485512920908,,['EfficientNet'],2003.10580v4
+Image Classification,ImageNet Real,MAWS (ViT-2B),90.9,0.9310884886452626,,[],2303.13496v3
+Image Classification,ImageNet Real,FixEfficientNet-L2,90.9,0.9310884886452626,,['EfficientNet'],2003.08237v5
+Image Classification,ImageNet Real,ViT-G/14,90.81,0.9240407204385279,,['Transformer'],2106.04560v2
+Image Classification,ImageNet Real,MAWS (ViT-H),90.8,0.9232576350822236,,[],2303.13496v3
+Image Classification,ImageNet Real,SWAG (RegNetY 128GF),90.7,0.9154267815191857,,[],2201.08371v2
+Image Classification,ImageNet Real,"CvT-W24 (384 res, ImageNet-22k pretrain)",90.6,0.9075959279561466,277M,['Transformer'],2103.15808v1
+Image Classification,ImageNet Real,VOLO-D5,90.6,0.9075959279561466,,[],2106.13112v2
+Image Classification,ImageNet Real,EfficientNet-L2,90.55,0.9036805011746277,,['EfficientNet'],1911.04252v4
+Image Classification,ImageNet Real,BiT-L,90.54,0.9028974158183246,,['Transformer'],1912.11370v3
+Image Classification,ImageNet Real,VOLO-D4,90.5,0.8997650743931087,,[],2106.13112v2
+Image Classification,ImageNet Real,CAIT-M36-448,90.2,0.8762725137039938,,['Transformer'],2103.17239v2
+Image Classification,ImageNet Real,Mixer-H/14- 448 (JFT-300M pre-train),90.18,0.8747063429913865,,[],2105.01601v4
+Image Classification,ImageNet Real,FixEfficientNet-B8,90.0,0.8606108065779169,,['EfficientNet'],2003.08237v5
+Image Classification,ImageNet Real,SEER (RegNet10B),89.8,0.8449490994518399,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,ImageNet Real,FixResNeXt-101 32x48d,89.73,0.8394675019577136,,['ResNeXt'],1906.06423v4
+Image Classification,ImageNet Real,DeiT-B-384,89.3,0.805794831636648,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,BiT-M,89.02,0.7838684416601405,,['Transformer'],1912.11370v3
+Image Classification,ImageNet Real,DeiT-B,88.7,0.7588097102584183,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,Assemble-ResNet152,88.65,0.7548942834768992,,[],2001.06268v2
+Image Classification,ImageNet Real,CeiT-S (384 finetune res),88.1,0.7118245888801873,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,Sequencer2D-L,87.9,0.6961628817541115,,[],2205.01972v4
+Image Classification,ImageNet Real,Mixer-H/14 (JFT-300M pre-train),87.86,0.6930305403288957,,[],2105.01601v4
+Image Classification,ImageNet Real,Assemble ResNet-50,87.82,0.6898981989036798,,['ResNet'],2001.06268v2
+Image Classification,ImageNet Real,NASNet-A Large,87.56,0.6695379796397807,,[],1707.07012v4
+Image Classification,ImageNet Real,LeViT-384,87.5,0.6648394675019575,,[],2104.01136v2
+Image Classification,ImageNet Real,CeiT-S,87.3,0.6491777603758806,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,LeViT-256,86.9,0.6178543461237277,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,DeiT-S,86.8,0.6100234925606887,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,ResNet-152x2-SAM,86.4,0.5787000783085359,,['ResNet'],2106.01548v3
+Image Classification,ImageNet Real,LeViT-192,85.8,0.5317149569303049,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,ResNet50 (A1),85.7,0.523884103367267,,[],2110.00476v1
+Image Classification,ImageNet Real,LeViT-128,85.6,0.516053249804228,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,ResMLP-36,85.6,0.516053249804228,,[],2105.03404v2
+Image Classification,ImageNet Real,ResMLP-24,85.3,0.4925606891151131,,[],2105.03404v2
+Image Classification,ImageNet Real,ViT-B/16-SAM,85.2,0.48472983555207516,,['Transformer'],2106.01548v3
+Image Classification,ImageNet Real,ResMLP-12,84.6,0.43774471417384425,,[],2105.03404v2
+Image Classification,ImageNet Real,Mixer-B/8-SAM,84.4,0.4220830070477684,,['Transformer'],2106.01548v3
+Image Classification,ImageNet Real,kNN-CLIP,84.0,0.39075959279561445,,"['CLIP Pre-trained', 'Memory-Centric']",2204.01186v2
+Image Classification,ImageNet Real,CeiT-T,83.6,0.3594361785434605,,['Transformer'],2103.11816v2
+Image Classification,ImageNet Real,LeViT-128S,82.6,0.2811276429130768,,['Transformer'],2104.01136v2
+Image Classification,ImageNet Real,DeiT-Ti,82.1,0.2419733750978849,,['Transformer'],2012.12877v2
+Image Classification,ImageNet Real,NASNet-A Mobile,81.15,0.16758026624902125,,[],1707.07012v4
+Image Classification,ImageNet Real,VGG-16 BN,80.6,0.12451057165230929,,[],1409.1556v6
+Image Classification,ImageNet Real,VGG-16,79.01,0.0,,[],1409.1556v6

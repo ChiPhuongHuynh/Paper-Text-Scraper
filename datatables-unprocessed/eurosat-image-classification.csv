@@ -1,0 +1,14 @@
+name,accuracy,params,tags,id
+IMP+MTP(IntenImage-XL),99.24},null,[']'],2403.13430v2
+\u00b52Net+ (ViT-L/16),99.22},null,[']'],2209.07326v3
+\u00b52Net (ViT-L/16),99.2},null,[']'],2205.12755v6
+ResNet50,99.2},null,[']'],1911.06721v1
+"MoCo-v2 (ResNet18, fine tune)",98.9},null,[']'],2206.13188v2
+DINO-MC (Wide ResNet),98.78},null,[']'],2303.06670v2
+MAE+MTP(ViT-L+RVSA),98.78},null,[']'],2403.13430v2
+MAE+MTP(ViT-B+RVSA),98.76},null,[']'],2403.13430v2
+MSMatch Multispectral,98.65},null,[']'],2103.10368v2
+MSMatch RGB,98.14},null,[']'],2103.10368v2
+SEER (RegNet10B - linear eval),97.5},null,[']'],2202.08360v2
+DINO-MC (WRN linear eval)),95.7},null,[']'],2303.06670v2
+"MoCo-v2 (ResNet18, linear eval)",94.4},null,[']}]</script'],2206.13188v2

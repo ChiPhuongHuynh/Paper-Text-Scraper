@@ -1,0 +1,49 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Clothing1M,LRA-diffusion (CC),75.7,1.0,,[],2305.19518v2
+Image Classification,Clothing1M,SANM (DivideMix),75.63,0.9896449704142001,,[],2302.06805v2
+Image Classification,Clothing1M,CC,75.4,0.9556213017751484,,[],2207.14476v1
+Image Classification,Clothing1M,CPC,75.4,0.9556213017751484,,[],2212.10766v1
+Image Classification,Clothing1M,Jigsaw-ViT+NCT,75.4,0.9556213017751484,,[],2207.11971v2
+Image Classification,Clothing1M,MFRW,75.35,0.9482248520710047,,[],2211.04177v1
+Image Classification,Clothing1M,Knockoffs-SPR,75.2,0.92603550295858,,[],2301.00545v4
+Image Classification,Clothing1M,PGDF,75.19,0.9245562130177508,,[],2112.01197v3
+Image Classification,Clothing1M,AugDesc,75.11,0.9127218934911239,,[],2103.02130v3
+Image Classification,Clothing1M,Nested+Co-teaching (ResNet-50),75.0,0.8964497041420115,,[],2206.13140v1
+Image Classification,Clothing1M,SSR,74.91,0.8831360946745553,,[],2111.11288v2
+Image Classification,Clothing1M,NestedCoTeaching,74.9,0.8816568047337283,,[],2104.13766v1
+Image Classification,Clothing1M,ELR+,74.81,0.8683431952662722,,[],2007.00151v2
+Image Classification,Clothing1M,DivideMix,74.76,0.8609467455621306,,[],2002.07394v1
+Image Classification,Clothing1M,ELR+ with C2D (ResNet-50),74.58,0.8343195266272184,,['ResNet'],2103.13646v2
+Image Classification,Clothing1M,InstanceGM,74.4,0.8076923076923083,,[],2209.00906v1
+Image Classification,Clothing1M,LongReMix,74.38,0.8047337278106499,,[],2103.04173v2
+Image Classification,Clothing1M,FINE + DivideMix,74.37,0.8032544378698229,,[],2102.11628v3
+Image Classification,Clothing1M,Negative Label Smoothing (NLS),74.24,0.7840236686390523,,[],2106.04149v6
+Image Classification,Clothing1M,CAL,74.17,0.7736686390532544,,[],2012.11854v2
+Image Classification,Clothing1M,NoiseRank,73.82,0.7218934911242592,,[],2003.06729v1
+Image Classification,Clothing1M,FOCI,73.8,0.7189349112426029,,[],2008.06218v1
+Image Classification,Clothing1M,MW-Net,73.72,0.707100591715976,,[],1902.07379v6
+Image Classification,Clothing1M,PENCIL,73.49,0.6730769230769221,,[],1903.07788v1
+Image Classification,Clothing1M,MLNT,73.47,0.670118343195266,,[],1812.05214v2
+Image Classification,Clothing1M,HOC,73.39,0.658284023668639,,[],2102.05291v2
+Image Classification,Clothing1M,MAE (SimCLR),73.36,0.6538461538461536,,[],2104.08984v1
+Image Classification,Clothing1M,Generalized CE (SimCLR),73.35,0.6523668639053244,,[],2104.08984v1
+Image Classification,Clothing1M,DM,73.3,0.6449704142011828,,[],1905.11233v9
+Image Classification,Clothing1M,CCE (SimCLR),73.27,0.6405325443786974,,[],2104.08984v1
+Image Classification,Clothing1M,CORES2,73.24,0.6360946745562122,,[],2010.02347v2
+Image Classification,Clothing1M,IMAE,73.2,0.6301775147928997,,[],1903.12141v9
+Image Classification,Clothing1M,Robust f-divergence,73.09,0.6139053254437874,,[],2011.03687v3
+Image Classification,Clothing1M,LCCN,73.07,0.610946745562129,,[],1903.02152v2
+Image Classification,Clothing1M,DMI,72.46,0.5207100591715966,,[],1909.03388v2
+Image Classification,Clothing1M,BARE,72.28,0.4940828402366865,,[],2106.15292v3
+Image Classification,Clothing1M,Joint Opt.,72.23,0.4866863905325449,,[],1803.11364v1
+Image Classification,Clothing1M,LRT,71.74,0.41420118343195195,,[],2011.10077v1
+Image Classification,Clothing1M,SPR,71.16,0.3284023668639049,,[],2203.07788v2
+Image Classification,Clothing1M,MASKING,71.1,0.31952662721893416,,[],1805.08193v2
+Image Classification,Clothing1M,SCE,71.02,0.3076923076923072,,[],1908.06112v1
+Image Classification,Clothing1M,DY,71.0,0.304733727810651,,[],1904.11238v2
+Image Classification,Clothing1M,SEAL,70.63,0.24999999999999947,,[],2012.05458v1
+Image Classification,Clothing1M,JoCoR,70.3,0.20118343195266247,,[],2003.02752v3
+Image Classification,Clothing1M,CoT,70.15,0.17899408284023774,,[],1804.06872v3
+Image Classification,Clothing1M,GCE,69.75,0.11982248520710084,,[],1805.07836v4
+Image Classification,Clothing1M,D2L,69.47,0.07840236686390543,,[],1806.02612v2
+Image Classification,Clothing1M,CCE,68.94,0.0,,[],2106.15292v3

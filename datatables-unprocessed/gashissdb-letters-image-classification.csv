@@ -1,0 +1,9 @@
+name,accuracy,params,tags,id
+CoAtNet-1,98.74,null,[']'],2106.04803v2
+Res2Net-50,98.68,null,[']'],1904.01169v3
+ResNeXt-50-32x4d,98.59,null,[']'],1611.05431v2
+ResNet-50,98.56,null,[']'],1512.03385v1
+ResNet-18,98.47,null,[']'],1512.03385v1
+EfficientNet-b0,98.11,null,[']'],1905.11946v5
+RegNetY-3.2GF,97.48,null,[']'],2101.00590v1
+DenseNet-169,96.90,null,[']}]</script'],1608.06993v5

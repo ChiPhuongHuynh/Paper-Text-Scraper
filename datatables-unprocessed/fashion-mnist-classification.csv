@@ -1,0 +1,21 @@
+name,accuracy,params,tags,id
+Fine-Tuning DARTS,3.09,null,[']'],2006.09042v1
+PreAct-ResNet18 + FMix,3.64,null,[']'],2002.12047v3
+Random Erasing,3.65,null,[']'],1708.04896v2
+E2E-3M,4.08,null,[']'],2007.15161v3
+VGG8B(2x) + LocalLearning + CO,4.14,null,[']'],1901.06656v2
+Inception v3,5.56,null,[']'],2203.15331v2
+WaveMixLite,5.68,null,[']'],2205.14375v5
+Local Mixup DenseNet,5.97,null,[']'],2201.04368v1
+TextCaps,6.29,null,[']'],1904.08095v1
+StiDi-BP in R-CSNN,7.2,null,['SNN'],2108.13621v1
+NeuPDE,7.6,null,[']'],1908.03190v1
+Star Algorithm on LeNet,7.7,null,[']'],2206.00255v1
+Convolutional Tsetlin Machine,8.6,null,[']'],1905.09688v5
+OTTT,9.6,null,['SNN'],2210.04195v2
+GECCO,11.91,null,[']'],2402.00564v2
+pFedBreD_ns_mg,null,null,[']'],2211.10684v2
+FastSNN (CNN),null,null,['SNN'],2205.15286v2
+FastSNN (MLP),null,null,['SNN'],2205.15286v2
+Sparse Spiking Gradient Descent (CNN),null,null,[']'],2105.08810v2
+Sparse Spiking Gradient Descent (MLP),null,null,[']}]</script'],2105.08810v2

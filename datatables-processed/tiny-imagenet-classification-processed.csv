@@ -1,0 +1,18 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Tiny ImageNet,Astroformer,92.98,1.0,,[],2304.05350v2
+Image Classification,Tiny ImageNet,DeiT-B/16-D + OCD(5),92.0,0.9774297558728695,,[],2210.00471v5
+Image Classification,Tiny ImageNet,SwinV2-B + GradMatch,91.9,0.9751266697374482,,[],2303.02095v2
+Image Classification,Tiny ImageNet,Swin-L,91.35,0.9624596959926299,,[],2205.10660v1
+Image Classification,Tiny ImageNet,DeiT-B/16 (PUGD),91.02,0.9548595117457391,,[],2110.00199v2
+Image Classification,Tiny ImageNet,DeiT-B/16-D + OCD,90.8,0.9497927222478119,,[],2210.00471v5
+Image Classification,Tiny ImageNet,ViT-B/16 (PUGD),90.74,0.9484108705665589,,[],2110.00199v2
+Image Classification,Tiny ImageNet,EfficientNet-B1+DCL,84.39,0.8021649009672961,,['EfficientNet'],1912.08136v2
+Image Classification,Tiny ImageNet,WaveMixLite-144/7,77.47,0.6427913403961307,,[],2205.14375v5
+Image Classification,Tiny ImageNet,ResNeXt-50 (SAMix),72.18,0.5209580838323354,,['ResNet'],2111.15454v3
+Image Classification,Tiny ImageNet,ResNeXt-50 (AutoMix),70.72,0.4873330262551818,,['ResNet'],2103.13027v6
+Image Classification,Tiny ImageNet,PreActResNet-18-3,70.24,0.47627821280515875,,['ResNet'],2103.06132v3
+Image Classification,Tiny ImageNet,ResNet18 (SAMix),68.89,0.4451865499769691,,['ResNet'],2111.15454v3
+Image Classification,Tiny ImageNet,UPANets,67.67,0.4170888991248272,,[],2103.08640v2
+Image Classification,Tiny ImageNet,ResNet18 (AutoMix),67.33,0.4092584062643942,,['ResNet'],2103.13027v6
+Image Classification,Tiny ImageNet,DenseNet + Residual Networks,60.0,0.24044219253800087,,[],1904.10429v2
+Image Classification,Tiny ImageNet,Convolutional Nystromformer for Vision (CNV),49.56,0.0,,[],2201.10271v1

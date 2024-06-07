@@ -1,0 +1,49 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Oxford Flowers,CCT-14/7x2,99.76,1.0,,[],2104.05704v4
+Image Classification,Oxford Flowers,VIT-L/16 (Background),99.75,0.9991568296795948,,[],2305.03238v4
+Image Classification,Oxford Flowers,CvT-W24,99.72,0.9966273187183806,,[],2103.15808v1
+Image Classification,Oxford Flowers,Bamboo (ViT-B/16),99.7,0.9949409780775714,,[],2203.07845v2
+Image Classification,Oxford Flowers,EffNet-L2 (SAM),99.65,0.9907251264755481,,[],2010.01412v3
+Image Classification,Oxford Flowers,ALIGN,99.65,0.9907251264755481,,[],2102.05918v2
+Image Classification,Oxford Flowers,BiT-L (ResNet),99.63,0.9890387858347378,,['ResNet'],1912.11370v3
+Image Classification,Oxford Flowers,ConvMLP-S,99.5,0.9780775716694768,,[],2109.04454v2
+Image Classification,Oxford Flowers,ConvMLP-L,99.5,0.9780775716694768,,[],2109.04454v2
+Image Classification,Oxford Flowers,ResNet-152x4-AGC (ImageNet-21K),99.49,0.9772344013490717,,[],2106.00116v4
+Image Classification,Oxford Flowers,BiT-M (ResNet),99.3,0.9612141652613821,,['ResNet'],1912.11370v3
+Image Classification,Oxford Flowers,Wide-ResNet-101 (Spinal FC),99.3,0.9612141652613821,,[],2007.03347v3
+Image Classification,Oxford Flowers,TResNet-L,99.1,0.9443507588532875,,[],2003.13630v3
+Image Classification,Oxford Flowers,Grafit (RegNet-8GF),99.1,0.9443507588532875,,[],2011.12982v1
+Image Classification,Oxford Flowers,CaiT-M-36 U 224,99.1,0.9443507588532875,,[],2103.17239v2
+Image Classification,Oxford Flowers,DAT,98.9,0.927487352445194,,[],2010.03071v1
+Image Classification,Oxford Flowers,EfficientNet-B7,98.8,0.919055649241146,,['EfficientNet'],1905.11946v5
+Image Classification,Oxford Flowers,EfficientNetV2-L,98.8,0.919055649241146,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers,GFNet-H-B,98.8,0.919055649241146,54M,[],2107.00645v2
+Image Classification,Oxford Flowers,DeiT-B,98.8,0.919055649241146,86M,[],2012.12877v2
+Image Classification,Oxford Flowers,CeiT-S (384 finetune resolution),98.6,0.9021922428330513,,[],2103.11816v2
+Image Classification,Oxford Flowers,EfficientNetV2-M,98.5,0.8937605396290046,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers,ViT-B (attn finetune),98.5,0.8937605396290046,,[],2203.09795v1
+Image Classification,Oxford Flowers,LeViT-384,98.3,0.8768971332209099,,[],2104.01136v2
+Image Classification,Oxford Flowers,NAT-M4,98.3,0.8768971332209099,4.2M,[],2005.05859v2
+Image Classification,Oxford Flowers,ResNet-50x1-ACG (ImageNet-21K),98.21,0.8693086003372672,,[],2106.00116v4
+Image Classification,Oxford Flowers,CeiT-S,98.2,0.8684654300168632,,[],2103.11816v2
+Image Classification,Oxford Flowers,NAT-M3,98.1,0.8600337268128153,3.7M,[],2005.05859v2
+Image Classification,Oxford Flowers,ResNet50 (A1),97.9,0.8431703204047218,25M,[],2110.00476v1
+Image Classification,Oxford Flowers,EfficientNetV2-S,97.9,0.8431703204047218,,['EfficientNet'],2104.00298v3
+Image Classification,Oxford Flowers,ResMLP24,97.9,0.8431703204047218,,[],2105.03404v2
+Image Classification,Oxford Flowers,NAT-M2,97.9,0.8431703204047218,3.4M,[],2005.05859v2
+Image Classification,Oxford Flowers,TransBoost-ResNet50,97.85,0.8389544688026972,,[],2205.13331v4
+Image Classification,Oxford Flowers,CeiT-T (384 finetune resolution),97.8,0.8347386172006739,,[],2103.11816v2
+Image Classification,Oxford Flowers,LeViT-192,97.8,0.8347386172006739,,[],2104.01136v2
+Image Classification,Oxford Flowers,LeViT-256,97.7,0.8263069139966271,,[],2104.01136v2
+Image Classification,Oxford Flowers,ResMLP12,97.4,0.8010118043844857,,[],2105.03404v2
+Image Classification,Oxford Flowers,CS-Parts,96.9,0.7588532883642496,,[],1909.07075v1
+Image Classification,Oxford Flowers,CeiT-T,96.9,0.7588532883642496,,[],2103.11816v2
+Image Classification,Oxford Flowers,LeViT-128S,96.8,0.7504215851602016,,[],2104.01136v2
+Image Classification,Oxford Flowers,SEER (RegNet10B),96.3,0.7082630691399656,,[],2202.08360v2
+Image Classification,Oxford Flowers,NNCLR,95.1,0.6070826306913988,,[],2104.14548v2
+Image Classification,Oxford Flowers,ViT-B/16- SAM,91.8,0.32883642495784077,,[],2106.01548v3
+Image Classification,Oxford Flowers,ViT-S/16- SAM,91.5,0.3035413153456994,,[],2106.01548v3
+Image Classification,Oxford Flowers,ResNet-152-SAM,91.1,0.26981450252951,,['ResNet'],2106.01548v3
+Image Classification,Oxford Flowers,ResNet-50-SAM,90.0,0.1770657672849911,,['ResNet'],2106.01548v3
+Image Classification,Oxford Flowers,Mixer-B/16- SAM,90.0,0.1770657672849911,,[],2106.01548v3
+Image Classification,Oxford Flowers,Mixer-S/16- SAM,87.9,0.0,,[],2106.01548v3

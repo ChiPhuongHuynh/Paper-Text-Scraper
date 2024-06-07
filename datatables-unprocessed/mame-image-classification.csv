@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+EfficientNet-B3,88.95},null,['EfficientNet'],2007.13693v3
+EfficientNet-B0,88.25},null,['EfficientNet'],2007.13693v3
+Resnet18,88.15},null,['ResNet'],2007.13693v3
+VGG11,85.42},null,[']}]</script'],2007.13693v3

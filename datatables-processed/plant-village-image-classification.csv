@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Plant Village,\u00b52Net+ (ViT-L/16),99.89,1.0,,[],2209.07326v3

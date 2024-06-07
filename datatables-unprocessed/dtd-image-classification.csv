@@ -1,0 +1,12 @@
+name,accuracy,params,tags,id
+Linear FT(ViT-L/14),90.0},null,[']'],2305.12827v3
+RADAM (ConvNeXt-L),84.0},null,[']'],2303.04554v1
+\u00b52Net+ (ViT-L/16),82.23},null,[']'],2209.07326v3
+Bamboo (ViT-B/16),81.9},null,[']'],2203.07845v2
+\u00b52Net (ViT-L/16),81.0},null,[']'],2205.12755v6
+SEER (RegNet10B - linear eval),80.5},null,"['IG-1B', 'RegNet']",2202.08360v2
+Inceptionv4,79.79},null,[']'],2107.08585v2
+TWIST (ResNet-50),76.6},null,[']'],2110.07402v4
+TransBoost-ResNet50,76.49},null,[']'],2205.13331v4
+NNCLR,75.5},null,[']'],2104.14548v2
+Inceptionv4 (random initialization),66.8},null,[']}]</script'],2107.08585v2

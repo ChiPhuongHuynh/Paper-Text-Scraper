@@ -1,0 +1,10 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,CINIC-10,"VIT-L/16 (Spinal FC, Background)",95.8,1.0,,[],2305.03238v4
+Image Classification,CINIC-10,efficient adaptive ensembling,95.06,0.9078455790784564,,[],2206.07394v3
+Image Classification,CINIC-10,NAT-M3,94.3,0.813200498132005,8.1M,[],2005.05859v2
+Image Classification,CINIC-10,NAT-M2,94.1,0.7882938978829387,6.2M,[],2005.05859v2
+Image Classification,CINIC-10,NAT-M1,93.4,0.7011207970112091,4.6M,[],2005.05859v2
+Image Classification,CINIC-10,ResNeXt29_2x64d,91.45,0.4582814445828152,,[],1810.03505v1
+Image Classification,CINIC-10,DenseNet-121,91.26,0.4346201743462028,,[],1810.03505v1
+Image Classification,CINIC-10,ResNet-18,90.27,0.311332503113325,,['ResNet'],1810.03505v1
+Image Classification,CINIC-10,VGG-16,87.77,0.0,,[],1810.03505v1

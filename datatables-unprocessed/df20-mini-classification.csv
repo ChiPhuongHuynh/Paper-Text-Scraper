@@ -1,0 +1,20 @@
+name,accuracy,params,tags,id
+ViT-Large/16 (384),75.85,null,[']'],2103.10107v4
+ViT-Base/16 (384),74.23,null,[']'],2103.10107v4
+SE-ResNeXt-101-32x4d,72.23,null,[']'],2103.10107v4
+ViT-Large/16 (224),71.04,null,[']'],2103.10107v4
+EfficientNet-B3 (299),69.59,null,[']'],2103.10107v4
+SE-ResNeXt-101-32x4d (224),68.87,null,[']'],2103.10107v4
+EfficientNet-B5 (299),68.76,null,[']'],2103.10107v4
+ResNet-50 (299),68.49,null,[']'],2103.10107v4
+EfficientNet-B1 (299),68.35,null,[']'],2103.10107v4
+EfficientNet-B0 (299),67.94,null,[']'],2103.10107v4
+Inception-V4 (299),67.45,null,[']'],2103.10107v4
+EfficientNet-B3 (224),67.39,null,[']'],2103.10107v4
+Inception-V3 (299),65.91,null,[']'],2103.10107v4
+EfficientNet-B0 (224),65.66,null,[']'],2103.10107v4
+MobileNet-V2 (299),65.58,null,[']'],2103.10107v4
+Inception-ResNet-V2 (299),64.67,null,[']'],2103.10107v4
+ResNet-18,62.91,null,[']'],2103.10107v4
+SE-ResNeXt-101-32x4d (299),null,null,[']'],2103.10107v4
+ResNet-34 (299),null,null,[']}]</script'],2103.10107v4

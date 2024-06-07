@@ -1,0 +1,12 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,RESISC45,ResNet50,96.83,1.0,,[],1911.06721v1
+Image Classification,RESISC45,SEER (RegNet10B),95.61,0.8932633420822398,,[],2202.08360v2
+Image Classification,RESISC45,AGOS,94.91,0.8320209973753279,,[],2205.03371v1
+Image Classification,RESISC45,SwAV (ResNet50-w5),94.73,0.8162729658792655,,[],2202.08360v2
+Image Classification,RESISC45,DINO (DeiT-B/16),93.97,0.7497812773403324,,[],2202.08360v2
+Image Classification,RESISC45,MoCo-v3 (ViT-B/16),93.35,0.6955380577427817,,[],2202.08360v2
+Image Classification,RESISC45,CLIP (ViT-B/16),92.7,0.6386701662292215,,[],2202.08360v2
+Image Classification,RESISC45,DeiT-B/16,92.48,0.619422572178478,,[],2202.08360v2
+Image Classification,RESISC45,SimCLR-v2 (ResNet152-w3 + SK),89.77,0.38232720909886203,,[],2202.08360v2
+Image Classification,RESISC45,ResNet50 (ImageNet-supervised),88.56,0.2764654418197724,,[],2202.08360v2
+Image Classification,RESISC45,MoCo-v2 (ResNet50),85.4,0.0,,[],2202.08360v2

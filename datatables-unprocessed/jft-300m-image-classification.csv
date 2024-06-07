@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+V-MoE-H/14 (Every-2),60.62},null,['Transformer'],2106.05974v1
+V-MoE-H/14 (Last-5),60.12},null,['Transformer'],2106.05974v1
+V-MoE-L/16 (Every-2),57.65},null,['Transformer'],2106.05974v1
+VIT-H/14,56.68},null,['Transformer'],2106.05974v1

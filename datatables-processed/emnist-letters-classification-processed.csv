@@ -1,0 +1,8 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,EMNIST Letters,WaveMixLite-112/16,95.96,1.0,,[],2205.14375v5
+Image Classification,EMNIST Letters,VGG-5(Spinal FC),95.88,0.9980089596814335,,[],2007.03347v3
+Image Classification,EMNIST Letters,VGG-5,95.86,0.9975111996017921,,[],2007.03347v3
+Image Classification,EMNIST Letters,TextCaps,95.39,0.9858138377302142,,[],1904.08095v1
+Image Classification,EMNIST Letters,\u00b52Net+ (ViT-L/16),95.03,0.9768541562966652,,[],2209.07326v3
+Image Classification,EMNIST Letters,OPIUM Classifier,85.27,0.733947237431558,,[],1702.05373v2
+Image Classification,EMNIST Letters,Linear Classifier,55.78,0.0,,[],1702.05373v2

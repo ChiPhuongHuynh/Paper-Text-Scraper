@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Visual Wake Words,HyT-NAS-BA,92.25,1.0,,[],2303.04440v2
+Image Classification,Visual Wake Words,ProxylessNAS,86.55,0.33333333333333276,,[],2303.04440v2
+Image Classification,Visual Wake Words,MobileNetV2 (x0.35),86.34,0.3087719298245616,,[],2303.04440v2
+Image Classification,Visual Wake Words,MobileNetV1,83.7,0.0,,[],2303.04440v2

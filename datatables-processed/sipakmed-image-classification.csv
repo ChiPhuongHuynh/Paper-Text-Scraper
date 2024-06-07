@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,SipakMed,DL+PCA+GWO,97.87,1.0,,[],2106.04919v1

@@ -1,0 +1,8 @@
+name,accuracy,params,tags,id
+Heinsen Routing,0.90},null,[']'],1911.00792v6
+Efficient-CapsNet,1.23},null,[']'],2101.12491v2
+VB-Routing,1.29},null,[']'],1905.11455v3
+Matrix-CapsNet with EM routing,1.8},null,[']'],null
+FRMS,2.2},null,[']'],1805.10807v2
+CapsNet,3.77},null,[']'],1710.09829v2
+DCNet,5.57},null,['DCN'],1805.04001v1

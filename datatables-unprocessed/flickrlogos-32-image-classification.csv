@@ -1,0 +1,4 @@
+name,accuracy,params,tags,id
+TC-VII (with outside data),96.0},null,[']'],1701.02620v2
+TC-VII (without outside data),91.7},null,[']'],1701.02620v2
+DeepLogo (GoogLeNet-GP),89.6},null,[']}]</script'],1510.02131v1

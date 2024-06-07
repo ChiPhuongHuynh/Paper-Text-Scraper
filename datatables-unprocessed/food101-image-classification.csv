@@ -1,0 +1,8 @@
+name,accuracy,params,tags,id
+Bamboo (ViTB/16),92.9,null,[']'],2203.07845v2
+SEER (RegNet10B - linear eval),90.3,null,"['IG-1B', 'RegNet']",2202.08360v2
+TWIST (ResNet-50),89.3,null,[']'],2110.07402v4
+TransBoost-ResNet50,84.30,null,[']'],2205.13331v4
+NNCLR,76.7,null,[']'],2104.14548v2
+Inception V3,71.67,null,[']'],null
+efficient adaptive ensembling,null,null,[']}]</script'],2206.07394v3

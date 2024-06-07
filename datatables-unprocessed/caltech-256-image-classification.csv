@@ -1,0 +1,6 @@
+name,accuracy,params,tags,id
+AG-Net,96.89%},null,[']'],2110.12183v1
+Inceptionv4,85.94},null,[']'],2107.08585v2
+swin-transformer,77},null,[']'],null
+Inceptionv4 (random initialization),67.2},null,[']'],2107.08585v2
+WaveMixLite-256/7,54.62},null,[']}]</script'],2205.14375v5

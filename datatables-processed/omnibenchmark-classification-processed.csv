@@ -1,0 +1,23 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,OMNIBenchmark,NOAH-ViTB/16,47.6,1.0,,"['pre-trained on ImageNet22K', 'parameter-efficient tuning', 'ViT']",2206.04673v2
+Image Classification,OMNIBenchmark,SwinTransformer,46.4,0.9314285714285713,,"['swin-transformer', 'Pre-trained on ImageNet', 'linear probing']",2103.14030v2
+Image Classification,OMNIBenchmark,Bamboo-R50,45.4,0.8742857142857141,,"['ResNet-50', 'pre-trained on Bamboo-CLS', 'linear probing']",2203.07845v2
+Image Classification,OMNIBenchmark,Adapter-ViTB/16,44.5,0.8228571428571427,,"['ViT', 'parameter-efficient tuning', 'pre-trained on ImageNet22K']",1902.00751v2
+Image Classification,OMNIBenchmark,CLIP-RN50,42.1,0.6857142857142857,,"['ResNet-50', 'linear probing', 'CLIP Pre-trained']",2103.00020v1
+Image Classification,OMNIBenchmark,IG-1B,40.4,0.5885714285714284,,"['ResNet-50', 'linear probing', 'Pre-trained on IG-1B \\u0026 ImageNet']",1905.00546v1
+Image Classification,OMNIBenchmark,BiT-M,40.4,0.5885714285714284,,"['ResNet-50', 'linear probing', 'pre-trained on ImageNet22K']",1912.11370v3
+Image Classification,OMNIBenchmark,DINO,38.9,0.5028571428571427,,"['Pre-trained on ImageNet', 'ResNet-50', 'linear probing', 'unsupervised']",2104.14294v2
+Image Classification,OMNIBenchmark,SwAV,38.3,0.4685714285714283,,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50', 'unsupervised']",2006.09882v5
+Image Classification,OMNIBenchmark,ResNet-101,37.4,0.417142857142857,,"['linear probing', 'pre-trained on ImageNet22K', 'ResNet-101']",1512.03385v1
+Image Classification,OMNIBenchmark,MEAL-V2,36.6,0.37142857142857144,,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.08453v2
+Image Classification,OMNIBenchmark,MoPro-V2,36.1,0.34285714285714286,,"['linear probing', 'Pre-trained on ImageNet', 'ResNet-50', 'augmentation']",2009.07995v1
+Image Classification,OMNIBenchmark,EfficientNetB4,35.8,0.32571428571428546,,[],1905.11946v5
+Image Classification,OMNIBenchmark,MoCoV2,34.8,0.26857142857142835,,[],1911.05722v3
+Image Classification,OMNIBenchmark,ResNet-50,34.3,0.23999999999999977,,"['Pre-trained on ImageNet', 'linear probing', 'ResNet-50']",1512.03385v1
+Image Classification,OMNIBenchmark,InceptionV4,32.3,0.12571428571428547,,[],1602.07261v2
+Image Classification,OMNIBenchmark,MLP-Mixer,32.2,0.12000000000000008,,['MLP'],2105.01601v4
+Image Classification,OMNIBenchmark,Manifold,31.6,0.08571428571428572,,['augmentation'],1806.05236v7
+Image Classification,OMNIBenchmark,CutMix,31.1,0.05714285714285714,,['augmentation'],1905.04899v2
+Image Classification,OMNIBenchmark,ReLabel,30.8,0.03999999999999996,,['augmentation'],2101.05022v2
+Image Classification,OMNIBenchmark,MAE,30.6,0.02857142857142857,,"['linear probing', 'unsupervised']",2111.06377v2
+Image Classification,OMNIBenchmark,BeiT,30.1,0.0,,"['linear probing', 'Unsupervised']",2106.08254v2

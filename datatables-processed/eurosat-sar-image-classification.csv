@@ -1,0 +1,4 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,EUROSAT SAR,FG-MAE (ViT-S/16),85.9,1.0,,[],2310.18653v1
+Image Classification,EUROSAT SAR,MAE (ViT-S/16),81.0,0.3466666666666659,,[],2310.18653v1
+Image Classification,EUROSAT SAR,ViT-S/16,78.4,0.0,,[],2310.18653v1

@@ -1,0 +1,34 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,ImageNet V2,Model soups (BASIC-L),84.63,1.0,,[],2203.05482v3
+Image Classification,ImageNet V2,ViT-e,84.3,0.9840810419681622,,[],2209.06794v4
+Image Classification,ImageNet V2,Model soups (ViT-G/14),84.22,0.9802219006271107,,[],2203.05482v3
+Image Classification,ImageNet V2,SwinV2-G,84.0,0.9696092619392187,,[],2111.09883v2
+Image Classification,ImageNet V2,MAWS (ViT-6.5B),84.0,0.9696092619392187,,[],2303.13496v3
+Image Classification,ImageNet V2,ViT-G/14,83.33,0.9372889532079114,,['Transformer'],2106.04560v2
+Image Classification,ImageNet V2,MAWS (ViT-2B),83.0,0.9213699951760735,,[],2303.13496v3
+Image Classification,ImageNet V2,MOAT-4 (IN-22K pretraining),81.5,0.8490110950313557,,[],2210.01820v2
+Image Classification,ImageNet V2,SWAG (ViT H/14),81.1,0.8297153883260974,,[],2201.08371v2
+Image Classification,ImageNet V2,MOAT-3 (IN-22K pretraining),80.6,0.8055957549445247,,[],2210.01820v2
+Image Classification,ImageNet V2,MOAT-2 (IN-22K pretraining),79.3,0.7428847081524361,,[],2210.01820v2
+Image Classification,ImageNet V2,MOAT-1 (IN-22K pretraining),78.4,0.6994693680656059,,[],2210.01820v2
+Image Classification,ImageNet V2,SwinV2-B,78.08,0.684032802701399,,[],2111.09883v2
+Image Classification,ImageNet V2,VOLO-D5,78.0,0.6801736613603475,,[],2106.13112v2
+Image Classification,ImageNet V2,VOLO-D4,77.8,0.6705258080077183,,[],2106.13112v2
+Image Classification,ImageNet V2,CAIT-M36-448,76.7,0.6174626145682589,,['Transformer'],2103.17239v2
+Image Classification,ImageNet V2,SEER (RegNet10B),76.2,0.5933429811866863,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,ImageNet V2,ResMLP-B24/8 22k,74.2,0.49686444766039584,,[],2105.03404v2
+Image Classification,ImageNet V2,ViT-B-36x1,73.9,0.48239266763145244,,[],2203.09795v1
+Image Classification,ImageNet V2,ResMLP-B24/8,73.4,0.4582730342498798,,[],2105.03404v2
+Image Classification,ImageNet V2,Sequencer2D-L,73.4,0.4582730342498798,,[],2205.01972v4
+Image Classification,ImageNet V2,"Discrete Adversarial Distillation (ViT-B, 224)",71.7,0.3762662807525328,,[],2311.01441v2
+Image Classification,ImageNet V2,LeViT-384,71.4,0.3617945007235894,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,LeViT-256,69.9,0.2894356005788716,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ResMLP-S24/16,69.8,0.28461167390255665,,[],2105.03404v2
+Image Classification,ImageNet V2,ResNet-152x2-SAM,69.6,0.27496382054992746,,['ResNet'],2106.01548v3
+Image Classification,ImageNet V2,LeViT-192,68.7,0.2315484804630972,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ResNet50 (A1),68.7,0.2315484804630972,,[],2110.00476v1
+Image Classification,ImageNet V2,LeViT-128,67.5,0.17366136034732282,,['Transformer'],2104.01136v2
+Image Classification,ImageNet V2,ViT-B/16-SAM,67.5,0.17366136034732282,,['Transformer'],2106.01548v3
+Image Classification,ImageNet V2,ResMLP-S12/16,66.0,0.101302460202605,,[],2105.03404v2
+Image Classification,ImageNet V2,Mixer-B/8-SAM,65.5,0.0771828268210324,,[],2106.01548v3
+Image Classification,ImageNet V2,LeViT-128S,63.9,0.0,,['Transformer'],2104.01136v2

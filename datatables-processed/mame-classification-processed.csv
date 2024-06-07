@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,MAME,EfficientNet-B3,88.95,1.0,,['EfficientNet'],2007.13693v3
+Image Classification,MAME,EfficientNet-B0,88.25,0.8016997167138803,,['EfficientNet'],2007.13693v3
+Image Classification,MAME,Resnet18,88.15,0.7733711048158649,,['ResNet'],2007.13693v3
+Image Classification,MAME,VGG11,85.42,0.0,,[],2007.13693v3

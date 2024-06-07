@@ -1,0 +1,4 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Flickrlogos-32,TC-VII (with outside data),96.0,1.0,,[],1701.02620v2
+Image Classification,Flickrlogos-32,TC-VII (without outside data),91.7,0.32812500000000105,,[],1701.02620v2
+Image Classification,Flickrlogos-32,DeepLogo (GoogLeNet-GP),89.6,0.0,,[],1510.02131v1

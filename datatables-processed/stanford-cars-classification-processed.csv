@@ -1,0 +1,22 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Stanford Cars,efficient adaptive ensembling,99.84,1.0,,[],2206.07394v3
+Image Classification,Stanford Cars,TResNet-L-V2,96.32,0.8924862553451433,,[],2104.10972v4
+Image Classification,Stanford Cars,EfficientNetV2-L,95.1,0.8552229688454488,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,EfficientNetV2-M,94.6,0.8399511301160657,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,CaiT-M-36 U 224,94.2,0.8277336591325596,,[],2103.17239v2
+Image Classification,Stanford Cars,ImageNet + iNat on WS-DAN,94.1,0.8246792913866827,,[],2010.03071v1
+Image Classification,Stanford Cars,CeiT-S (384 finetune resolution),94.1,0.8246792913866827,,[],2103.11816v2
+Image Classification,Stanford Cars,EfficientNetV2-S,93.8,0.815516188149053,,['EfficientNet'],2104.00298v3
+Image Classification,Stanford Cars,CeiT-S,93.2,0.7971899816737935,,[],2103.11816v2
+Image Classification,Stanford Cars,GFNet-H-B,93.2,0.7971899816737935,,[],2107.00645v2
+Image Classification,Stanford Cars,CeiT-T (384 finetune resolution),93.0,0.7910812461820402,,[],2103.11816v2
+Image Classification,Stanford Cars,TransBoost-ResNet50,90.8,0.7238851557727549,,[],2205.13331v4
+Image Classification,Stanford Cars,CeiT-T,90.5,0.7147220525351252,,[],2103.11816v2
+Image Classification,Stanford Cars,LeViT-192,89.8,0.6933414783139888,,[],2104.01136v2
+Image Classification,Stanford Cars,ResMLP-24,89.5,0.6841783750763591,,[],2105.03404v2
+Image Classification,Stanford Cars,LeViT-384,89.3,0.6780696395846059,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-128,88.6,0.6566890653634696,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-128S,88.4,0.6505803298717168,,[],2104.01136v2
+Image Classification,Stanford Cars,LeViT-256,88.2,0.6444715943799634,,[],2104.01136v2
+Image Classification,Stanford Cars,ResMLP-12,84.6,0.5345143555284054,,[],2105.03404v2
+Image Classification,Stanford Cars,NNCLR,67.1,0.0,,[],2104.14548v2

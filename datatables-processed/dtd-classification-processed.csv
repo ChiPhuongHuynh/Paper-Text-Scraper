@@ -1,0 +1,12 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,DTD,Linear FT(ViT-L/14),90.0,1.0,,[],2305.12827v3
+Image Classification,DTD,RADAM (ConvNeXt-L),84.0,0.7413793103448276,,[],2303.04554v1
+Image Classification,DTD,\u00b52Net+ (ViT-L/16),82.23,0.665086206896552,,[],2209.07326v3
+Image Classification,DTD,Bamboo (ViT-B/16),81.9,0.6508620689655176,,[],2203.07845v2
+Image Classification,DTD,\u00b52Net (ViT-L/16),81.0,0.6120689655172414,,[],2205.12755v6
+Image Classification,DTD,SEER (RegNet10B - linear eval),80.5,0.5905172413793104,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,DTD,Inceptionv4,79.79,0.5599137931034486,,[],2107.08585v2
+Image Classification,DTD,TWIST (ResNet-50),76.6,0.4224137931034481,,[],2110.07402v4
+Image Classification,DTD,TransBoost-ResNet50,76.49,0.4176724137931033,,[],2205.13331v4
+Image Classification,DTD,NNCLR,75.5,0.37500000000000006,,[],2104.14548v2
+Image Classification,DTD,Inceptionv4 (random initialization),66.8,0.0,,[],2107.08585v2

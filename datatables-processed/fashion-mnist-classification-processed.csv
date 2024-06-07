@@ -1,0 +1,16 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Fashion MNIST,Fine-Tuning DARTS,96.91,1.0,,[],2006.09042v1
+Image Classification,Fashion MNIST,PreAct-ResNet18 + FMix,96.36,0.937641723356009,,[],2002.12047v3
+Image Classification,Fashion MNIST,Random Erasing,96.35,0.9365079365079364,,[],1708.04896v2
+Image Classification,Fashion MNIST,E2E-3M,95.92,0.8877551020408163,,[],2007.15161v3
+Image Classification,Fashion MNIST,VGG8B(2x) + LocalLearning + CO,95.86,0.8809523809523809,,[],1901.06656v2
+Image Classification,Fashion MNIST,Inception v3,94.44,0.7199546485260772,,[],2203.15331v2
+Image Classification,Fashion MNIST,WaveMixLite,94.32,0.7063492063492064,,[],2205.14375v5
+Image Classification,Fashion MNIST,Local Mixup DenseNet,94.03,0.673469387755102,,[],2201.04368v1
+Image Classification,Fashion MNIST,TextCaps,93.71,0.63718820861678,,[],1904.08095v1
+Image Classification,Fashion MNIST,StiDi-BP in R-CSNN,92.8,0.5340136054421768,,['SNN'],2108.13621v1
+Image Classification,Fashion MNIST,NeuPDE,92.4,0.4886621315192744,,[],1908.03190v1
+Image Classification,Fashion MNIST,Star Algorithm on LeNet,92.3,0.47732426303854875,,[],2206.00255v1
+Image Classification,Fashion MNIST,Convolutional Tsetlin Machine,91.4,0.3752834467120182,,[],1905.09688v5
+Image Classification,Fashion MNIST,OTTT,90.4,0.261904761904762,,['SNN'],2210.04195v2
+Image Classification,Fashion MNIST,GECCO,88.09,0.0,,[],2402.00564v2

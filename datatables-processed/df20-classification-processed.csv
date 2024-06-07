@@ -1,0 +1,18 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,DF20,ViT-Large/16 (384),80.45,1.0,,[],2103.10107v4
+Image Classification,DF20,ViT-Base/16 (384),79.48,0.9271771771771773,,[],2103.10107v4
+Image Classification,DF20,SE-ResNeXt-101-32x4d,77.13,0.7507507507507504,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B5 (299),76.1,0.673423423423423,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B3 (299),75.69,0.6426426426426425,,[],2103.10107v4
+Image Classification,DF20,ViT-Large/16 (224),75.29,0.6126126126126131,,[],2103.10107v4
+Image Classification,DF20,SE-ResNeXt-101-32x4d (224),74.26,0.5352852852852857,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B1 (299),74.08,0.5217717717717717,,[],2103.10107v4
+Image Classification,DF20,Inception-ResNet-V2 (299),74.01,0.516516516516517,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B0 (299),73.65,0.48948948948949,,[],2103.10107v4
+Image Classification,DF20,ResNet-50 (299),73.49,0.47747747747747715,,[],2103.10107v4
+Image Classification,DF20,Inception-V4 (299),73.0,0.4406906906906908,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B3 (224),72.51,0.4039039039039044,,[],2103.10107v4
+Image Classification,DF20,Inception-V3 (299),72.1,0.37312312312312285,,[],2103.10107v4
+Image Classification,DF20,EfficientNet-B0 (224),70.33,0.24024024024024032,,[],2103.10107v4
+Image Classification,DF20,MobileNet-V2 (299),69.77,0.19819819819819814,,[],2103.10107v4
+Image Classification,DF20,ResNet-18,67.13,0.0,,[],2103.10107v4

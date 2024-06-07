@@ -1,0 +1,10 @@
+name,accuracy,params,tags,id
+WaveMixLite-112/16,95.96},null,[']'],2205.14375v5
+VGG-5(Spinal FC),95.88},null,[']'],2007.03347v3
+VGG-5,95.86},null,[']'],2007.03347v3
+TextCaps,95.39},null,[']'],1904.08095v1
+\u00b52Net+ (ViT-L/16),95.03},null,[']'],2209.07326v3
+OptConv+Log+Perc,93.65},null,[']'],null
+DWT-DCT + SVM,89.51},null,[']'],null
+OPIUM Classifier,85.27},null,[']'],1702.05373v2
+Linear Classifier,55.78},null,[']}]</script'],1702.05373v2

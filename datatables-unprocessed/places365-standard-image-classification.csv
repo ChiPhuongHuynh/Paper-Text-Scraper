@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+SWAG (ViT H/14),60.7},null,[']'],2201.08371v2
+Hiera-H (448px),60.6},null,[']'],2306.00989v1
+"MAE (ViT-H, 448)",60.3},null,[']'],2111.06377v2
+WaveMix-240/12 (level 4),56.45},null,[']}]</script'],2205.14375v5

@@ -1,0 +1,7 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,EMNIST Balanced,WaveMixLite-128/7,91.06,1.0,,[],2205.14375v5
+Image Classification,EMNIST Balanced,VGG-5(Spinal FC),91.05,0.9997508098679291,,[],2007.03347v3
+Image Classification,EMNIST Balanced,VGG-5,91.04,0.9995016197358586,,[],2007.03347v3
+Image Classification,EMNIST Balanced,TextCaps,90.46,0.9850485920757536,,[],1710.09829v2
+Image Classification,EMNIST Balanced,OPIUM Classifier,78.94,0.6979815599302267,,[],1702.05373v2
+Image Classification,EMNIST Balanced,Linear Classifier,50.93,0.0,,[],1702.05373v2

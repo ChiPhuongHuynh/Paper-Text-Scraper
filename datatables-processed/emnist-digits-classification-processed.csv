@@ -1,0 +1,6 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,EMNIST Digits,WaveMixLite-112/16,99.82,1.0,,[],2205.14375v5
+Image Classification,EMNIST Digits,\u00b52Net (ViT-L/16),99.82,1.0,,[],2205.12755v6
+Image Classification,EMNIST Digits,VGG-5(Spinal FC),99.75,0.9953703703703708,,[],2007.03347v3
+Image Classification,EMNIST Digits,OPIUM Classifier,96.3,0.7671957671957673,,[],1702.05373v2
+Image Classification,EMNIST Digits,Linear Classifier,84.7,0.0,,[],1702.05373v2

@@ -1,0 +1,99 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,STL-10,VIT-L/16 (Spinal FC),99.71,1.0,,[],2305.03238v4
+Image Classification,STL-10,\u00b52Net+ (ViT-L/16),99.64,0.9983490566037737,,[],2209.07326v3
+Image Classification,STL-10,kNN-CLIP,99.6,0.9974056603773584,,"['Memory-Centric', 'CLIP Pre-trained']",2204.01186v2
+Image Classification,STL-10,Wide-ResNet-101 (Spinal FC),98.66,0.9752358490566039,,[],2007.03347v3
+Image Classification,STL-10,NAT-M4,97.9,0.9573113207547173,7.5M,[],2005.05859v2
+Image Classification,STL-10,NAT-M3,97.8,0.9549528301886793,7.5M,[],2005.05859v2
+Image Classification,STL-10,SEER (RegNet10B),97.3,0.9431603773584907,10000M,"['IG-1B', 'Self-Supervised Learning', 'RegNet']",2202.08360v2
+Image Classification,STL-10,NAT-M2,97.2,0.940801886792453,5.1M,[],2005.05859v2
+Image Classification,STL-10,NAT-M1,96.7,0.9290094339622643,4.4M,[],2005.05859v2
+Image Classification,STL-10,EnAET,95.48,0.900235849056604,,[],1911.09265v2
+Image Classification,STL-10,VGG-19bn,95.44,0.8992924528301888,,[],2007.03347v3
+Image Classification,STL-10,Diffusion Classifier (zero-shot),95.4,0.8983490566037738,,[],2303.16203v3
+Image Classification,STL-10,FixMatch (CTA),94.83,0.8849056603773586,,[],2001.07685
+Image Classification,STL-10,ReMixMatch,94.77,0.8834905660377359,,[],2001.07685
+Image Classification,STL-10,AMDIM,94.5,0.8771226415094341,,[],1906.00910v2
+Image Classification,STL-10,MixMatch,94.41,0.875,,[],1905.02249v2
+Image Classification,STL-10,ReMixMatch (K=4),93.82,0.8610849056603773,,[],1911.09785v2
+Image Classification,STL-10,AMDIM,93.8,0.8606132075471699,,[],2009.00104v1
+Image Classification,STL-10,ReMixMatch (K=1),93.23,0.847169811320755,,[],1911.09785v2
+Image Classification,STL-10,MP*,93.19,0.8462264150943397,,[],2007.01472v1
+Image Classification,STL-10,UDA,92.34,0.8261792452830191,,[],2001.07685
+Image Classification,STL-10,YADIM,92.15,0.8216981132075474,,[],2009.00104v1
+Image Classification,STL-10,FixMatch (RA),92.02,0.8186320754716981,,[],2001.07685
+Image Classification,STL-10,NSGANetV2,92.0,0.8181603773584907,,[],2007.10396v1
+Image Classification,STL-10,SESN,91.49,0.8061320754716981,,[],1910.11093v2
+Image Classification,STL-10,Harmonic WRN-16-8,90.45,0.7816037735849058,,[],1905.00135v1
+Image Classification,STL-10,wrn16/8 D8 D4 D1,90.2,0.7757075471698115,,[],1911.08251v2
+Image Classification,STL-10,"DLME (ResNet-50, linear)",90.1,0.7733490566037735,,[],2207.03160v2
+Image Classification,STL-10,MixMatch,89.82,0.7667452830188679,,[],1911.09785v2
+Image Classification,STL-10,MixMatch,89.59,0.7613207547169814,,[],2001.07685
+Image Classification,STL-10,wrn16/8* D8 D4 D1,89.43,0.757547169811321,,[],1911.08251v2
+Image Classification,STL-10,wrn16/8* D1 D1 D1,88.95,0.7462264150943397,,[],1911.08251v2
+Image Classification,STL-10,wrn16/8 D1 D1 D1,88.83,0.7433962264150944,,[],1911.08251v2
+Image Classification,STL-10,IIC,88.8,0.742688679245283,,[],1807.06653v4
+Image Classification,STL-10,IIC,88.8,0.742688679245283,,[],1905.02249v2
+Image Classification,STL-10,SOPCNN,88.08,0.7257075471698113,,[],2001.08856v1
+Image Classification,STL-10,TS,88.03,0.7245283018867926,,[],2007.01472v1
+Image Classification,STL-10,CutOut,87.36,0.7087264150943396,,[],1905.02249v2
+Image Classification,STL-10,Cutout,87.26,0.7063679245283021,,[],1708.04552v2
+Image Classification,STL-10,wrn16/8,87.26,0.7063679245283021,,[],1911.08251v2
+Image Classification,STL-10,Hamiltonian,85.5,0.6648584905660379,,[],1709.03698v2
+Image Classification,STL-10,ResNet-18+MM+FRL,85.42,0.6629716981132077,,[],2011.10951v2
+Image Classification,STL-10,MidPoint,84.6,0.6436320754716981,,[],1709.03698v2
+Image Classification,STL-10,HybridNet,84.1,0.6318396226415094,,[],1807.11407v1
+Image Classification,STL-10,Leapfrog,83.7,0.6224056603773587,,[],1709.03698v2
+Image Classification,STL-10,ResNet baseline,82.0,0.582311320754717,,['ResNet'],1807.11407v1
+Image Classification,STL-10,Greedy InfoMax (GIM),81.9,0.5799528301886795,,[],1905.11786v3
+Image Classification,STL-10,"ResNet18(BN, 4)",81.04,0.5596698113207549,,['ResNet'],2003.05569v1
+Image Classification,STL-10,VGG8B + LocalLearning + CO,80.75,0.5528301886792454,,[],1901.06656v2
+Image Classification,STL-10,"ResNet18(GN, 4)",79.3,0.5186320754716981,,['ResNet'],2003.05569v1
+Image Classification,STL-10,"ResNet18(BN, 128)",78.65,0.503301886792453,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Mean Teacher,78.57,0.5014150943396225,,[],2001.07685
+Image Classification,STL-10,CPC\u2020,78.36,0.4964622641509434,,[],2009.00104v1
+Image Classification,STL-10,Hamiltonian,78.3,0.49504716981132074,,[],1804.04272v2
+Image Classification,STL-10,CC-GAN\u00b2,77.8,0.48325471698113204,,[],1611.06430v1
+Image Classification,STL-10,CC-GAN,77.8,0.48325471698113204,,[],1911.09785v2
+Image Classification,STL-10,Parabolic,77.0,0.4643867924528302,,[],1804.04272v2
+Image Classification,STL-10,Scat + WRN 20-8,76.6,0.45495283018867916,,[],1703.08961v2
+Image Classification,STL-10,"ResNet18(EBN, 4)",76.49,0.45235849056603766,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Exemplar CNN,75.7,0.43372641509433973,,[],1703.08961v2
+Image Classification,STL-10,"ResNet18(EBN, 128)",75.57,0.43066037735849044,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Stacked what-where AE,74.33,0.40141509433962264,,[],1703.08961v2
+Image Classification,STL-10,SWWAE,74.33,0.40141509433962264,,[],1807.11407v1
+Image Classification,STL-10,SWWAE,74.3,0.4007075471698113,,[],1911.09785v2
+Image Classification,STL-10,SWWAE,74.3,0.4007075471698113,,[],1506.02351v8
+Image Classification,STL-10,Second-order,74.3,0.4007075471698113,,[],1804.04272v2
+Image Classification,STL-10,Convolutional Clustering,74.1,0.39599056603773575,,[],1511.06241v2
+Image Classification,STL-10,\u03a0-Model,73.77,0.38820754716981126,,[],2001.07685
+Image Classification,STL-10,"ResNet18(GN, 128)",72.66,0.3620283018867924,,['ResNet'],2003.05569v1
+Image Classification,STL-10,Pseudo-Labeling,72.01,0.3466981132075473,,[],2001.07685
+Image Classification,STL-10,Entropy,71.65,0.3382075471698115,,[],2007.01472v1
+Image Classification,STL-10,BDW,71.12,0.32570754716981143,,[],2006.12360
+Image Classification,STL-10,MP,71.05,0.32405660377358486,,[],2007.01472v1
+Image Classification,STL-10,WaveMixLite-256/7,70.88,0.32004716981132064,,[],2205.14375v5
+Image Classification,STL-10,CNN,70.7,0.3158018867924529,,[],1703.08961v2
+Image Classification,STL-10,An Analysis of Unsupervised Pre-training in Light of Recent Advances,70.2,0.3040094339622642,,[],1412.6597v4
+Image Classification,STL-10,NN-Weighter,69.15,0.2792452830188681,,[],2006.12360
+Image Classification,STL-10,Accuracy Monitoring,68.62,0.266745283018868,,[],2007.01472v1
+Image Classification,STL-10,C-SVDDNet,68.2,0.2568396226415095,,[],1412.7259v3
+Image Classification,STL-10,RotNet,68.19,0.2566037735849056,,[],2006.12360
+Image Classification,STL-10,DFF Committees,68.0,0.252122641509434,,[],1406.5947v1
+Image Classification,STL-10,Hierarchical Matching Pursuit (HMP),64.6,0.17193396226415078,,[],1703.08961v2
+Image Classification,STL-10,L2RW,63.13,0.13726415094339625,,[],2006.12360
+Image Classification,STL-10,CKN,62.3,0.11768867924528292,,[],1406.3332v2
+Image Classification,STL-10,S-CNN,61.94,0.10919811320754709,,[],1606.02210v1
+Image Classification,STL-10,Simulated Fixations,61.0,0.08702830188679242,,[],2009.00104v1
+Image Classification,STL-10,No more meta-parameter tuning in unsupervised sparse feature learning,61.0,0.08702830188679242,,[],1402.5766v1
+Image Classification,STL-10,Convolutional K-means Network,60.2,0.06816037735849059,,[],1703.08961v2
+Image Classification,STL-10,PWD,59.45,0.05047169811320757,,[],2006.12456v1
+Image Classification,STL-10,GVD,59.33,0.04764150943396218,,[],2006.12456v1
+Image Classification,STL-10,VR,59.13,0.04292452830188681,,[],2006.12456v1
+Image Classification,STL-10,Core SET,58.93,0.03820754716981127,,[],2006.12456v1
+Image Classification,STL-10,GE,58.84,0.03608490566037739,,[],2006.12456v1
+Image Classification,STL-10,DFAL,58.81,0.035377358490566044,,[],2006.12456v1
+Image Classification,STL-10,Random,58.15,0.019811320754716897,,[],2006.12456v1
+Image Classification,STL-10,BALD-MCD,57.35,0.0009433962264150744,,[],2006.12456v1
+Image Classification,STL-10,Sign-symmetry,57.32,0.00023584905660372672,,[],1510.05067v4
+Image Classification,STL-10,M2-PWD,57.31,0.0,,[],2006.12456v1

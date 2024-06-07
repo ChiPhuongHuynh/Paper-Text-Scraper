@@ -1,0 +1,5 @@
+name,accuracy,params,tags,id
+BiT-L (ResNet),85.1},null,['ResNet'],1912.11370v3
+BiT-M (ResNet),76.0},null,['ResNet'],1912.11370v3
+BiT-S (ResNet),64.4},null,['ResNet'],1912.11370v3
+ResNet-152,61.5},null,['ResNet'],2004.02042v1

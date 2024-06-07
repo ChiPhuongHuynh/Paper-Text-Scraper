@@ -1,0 +1,6 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Food101,Bamboo (ViTB/16),92.9,1.0,,[],2203.07845v2
+Image Classification,Food101,SEER (RegNet10B - linear eval),90.3,0.8395061728395057,,"['IG-1B', 'RegNet']",2202.08360v2
+Image Classification,Food101,TWIST (ResNet-50),89.3,0.7777777777777772,,[],2110.07402v4
+Image Classification,Food101,TransBoost-ResNet50,84.3,0.4691358024691354,,[],2205.13331v4
+Image Classification,Food101,NNCLR,76.7,0.0,,[],2104.14548v2
