@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,HErlev,DL+PCA+GWO,98.32,1.0,,[],2106.04919v1

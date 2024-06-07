@@ -1,0 +1,3 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Causal 3Dident,SimCLR,100.0,1.0,,[],2106.04619v4
+Image Classification,Causal 3Dident,Barlow Twins,99.0,0.0,,[],2106.04619v4

@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,Cub 200 2011,Sparse-CBM,80.02,,,[],2404.03323v1

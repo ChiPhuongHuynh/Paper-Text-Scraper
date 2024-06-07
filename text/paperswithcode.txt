@@ -7,7 +7,7 @@
    const GTAG_ENABLED =  true ;
     const GTAG_TRACKING_ID = "UA-121182717-1";
     const SENTRY_DSN_FRONTEND = "".trim();
-    const GLOBAL_CSRF_TOKEN = 'RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa';
+    const GLOBAL_CSRF_TOKEN = 'uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p';
     const MEDIA_URL = "https://production-media.paperswithcode.com/";
     const ASSETS_URL = "https://production-assets.paperswithcode.com";
     run_after_frontend_loaded = window.run_after_frontend_loaded || [];
@@ -34,21 +34,21 @@
   <link href="https://production-assets.paperswithcode.com/perf/sota.table.fe0fcc15.css" rel="stylesheet"/>
   <!-- Metadata -->
   <title>
-   Imbalanced CUB-200-2011 Benchmark (Image Classification) | Papers With Code
+   CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification) | Papers With Code
   </title>
-  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." name="description"/>
+  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." name="description"/>
   <!-- Open Graph protocol metadata -->
-  <meta content="Papers with Code - Imbalanced CUB-200-2011 Benchmark (Image Classification)" property="og:title"/>
-  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." property="og:description"/>
-  <meta content="https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-imbalanced-cub-200-large_3e1438ea.png" property="og:image"/>
-  <meta content="https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200" property="og:url"/>
+  <meta content="Papers with Code - CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)" property="og:title"/>
+  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." property="og:description"/>
+  <meta content="https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-cifar-10-40-labels-large_b56a8d92.png" property="og:image"/>
+  <meta content="https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels" property="og:url"/>
   <!-- Twitter metadata -->
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="@paperswithcode" name="twitter:site"/>
-  <meta content="Papers with Code - Imbalanced CUB-200-2011 Benchmark (Image Classification)" name="twitter:title"/>
-  <meta content="The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code." name="twitter:description"/>
+  <meta content="Papers with Code - CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)" name="twitter:title"/>
+  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." name="twitter:description"/>
   <meta content="@paperswithcode" name="twitter:creator"/>
-  <meta content="https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200" name="twitter:url"/>
+  <meta content="https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels" name="twitter:url"/>
   <meta content="paperswithcode.com" name="twitter:domain"/>
   <!-- JSON LD -->
   <script type="application/ld+json">
@@ -56,10 +56,10 @@
     "@context": "http://schema.org",
     "@graph": {
         "@type": "ItemList",
-        "name": "Imbalanced CUB-200-2011 Benchmark (Image Classification)",
-        "description": "The current state-of-the-art on Imbalanced CUB-200-2011 is Multi-task. See a full comparison of 2 papers with code.",
-        "url": "https://paperswithcode.com/sota/image-classification-on-imbalanced-cub-200",
-        "image": "https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-imbalanced-cub-200-large_3e1438ea.png"
+        "name": "CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)",
+        "description": "The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code.",
+        "url": "https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels",
+        "image": "https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-cifar-10-40-labels-large_b56a8d92.png"
     }
 }
   </script>
@@ -164,7 +164,7 @@
       </a>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="/accounts/login?next=/sota/image-classification-on-imbalanced-cub-200" id="signin-link">
+      <a class="nav-link" href="/accounts/login?next=/sota/image-classification-on-cifar-10-40-labels" id="signin-link">
        Sign In
       </a>
      </li>
@@ -195,7 +195,7 @@
          Read previous issues
         </a>
        </div>
-       <input name="csrfmiddlewaretoken" type="hidden" value="RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa"/>
+       <input name="csrfmiddlewaretoken" type="hidden" value="uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p"/>
        <input class="form-control pwc-email" id="id_address" max_length="100" name="address" placeholder="Enter your email" required="" type="email"/>
       </div>
       <div class="modal-footer">
@@ -223,13 +223,13 @@
      </div>
      <div class="login-modal-message">
       You need to
-      <a href="/accounts/login?next=/sota/image-classification-on-imbalanced-cub-200">
+      <a href="/accounts/login?next=/sota/image-classification-on-cifar-10-40-labels">
        log in
       </a>
       to edit.
       <br/>
       You can
-      <a href="/accounts/register?next=/sota/image-classification-on-imbalanced-cub-200">
+      <a href="/accounts/register?next=/sota/image-classification-on-cifar-10-40-labels">
        create a new account
       </a>
       if you don't have one.
@@ -257,7 +257,7 @@
    </div>
    <link href="https://production-assets.paperswithcode.com/static/fonts/font-awesome/css/all.min.css" rel="stylesheet"/>
    <script type="application/javascript">
-    const CSRF_TOKEN = "RLkDbY246gkbdEAZDuxLBnwfMjO2oe5VeX2X5mq7y1rtY4hSkNTUJhPmGRVjkeqa";
+    const CSRF_TOKEN = "uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p";
         const USER_IS_AUTHENTICATED = false;
         const LOGIN_REQUIRED = true;
    </script>
@@ -267,16 +267,16 @@
    </script>
    <!-- Start SOTA Table Generation -->
    <script id="evaluation-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 88.736, "maximum": 100.664}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2019-11-15", "y": 89.73, "name": "PC-Softmax", "nameShort": "PC-Softmax", "nameDetails": null, "paperSlug": "rethinking-softmax-with-cross-entropy-neural", "usesAdditionalData": false}, {"x": "2020-11-24", "y": 99.67, "name": "Multi-task", "nameShort": "Multi-task", "nameDetails": null, "paperSlug": "ufpr-periocular-a-periocular-dataset", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 88.736, "maximum": 100.664}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2019-11-15", "y": 89.73, "name": "PC-Softmax", "nameShort": "PC-Softmax", "nameDetails": null, "paperSlug": "rethinking-softmax-with-cross-entropy-neural", "usesAdditionalData": false}, {"x": "2020-11-24", "y": 99.67, "name": "Multi-task", "nameShort": "Multi-task", "nameDetails": null, "paperSlug": "ufpr-periocular-a-periocular-dataset", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
+    {"all": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 28.772000000000002, "maximum": 54.188}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2022-03-04", "y": 30.89, "name": "CCSSL", "nameShort": "CCSSL", "nameDetails": null, "paperSlug": "class-aware-contrastive-semi-supervised", "usesAdditionalData": false}, {"x": "2023-06-02", "y": 52.07, "name": "UnMixMatch", "nameShort": "UnMixMatch", "nameDetails": null, "paperSlug": "scaling-up-semi-supervised-learning-with", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 28.772000000000002, "maximum": 54.188}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2022-03-04", "y": 30.89, "name": "CCSSL", "nameShort": "CCSSL", "nameDetails": null, "paperSlug": "class-aware-contrastive-semi-supervised", "usesAdditionalData": false}, {"x": "2023-06-02", "y": 52.07, "name": "UnMixMatch", "nameShort": "UnMixMatch", "nameDetails": null, "paperSlug": "scaling-up-semi-supervised-learning-with", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="evaluation-table-metrics" type="application/json">
-    [{"id": 2347, "name": "Accuracy", "is_loss": false, "is_fixed": false}, {"id": 2345, "name": "Average Per-Class Accuracy", "is_loss": false, "is_fixed": false}]
+    [{"id": 66847, "name": "Accuarcy", "is_loss": false, "is_fixed": false}]
    </script>
    <script id="evaluation-table-data" type="application/json">
-    [{"table_id": 1593, "row_id": 28247, "rank": 1, "method": "Multi-task", "mlmodel": {}, "method_short": "Multi-task", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2020-11-24", "metrics": {"Accuracy": "99.67", "Average Per-Class Accuracy": null}, "raw_metrics": {"Accuracy": 99.67, "Average Per-Class Accuracy": null}, "uses_additional_data": false, "paper": {"id": 237473, "title": "A New Periocular Dataset Collected by Mobile Devices in Unconstrained Scenarios", "url": "/paper/ufpr-periocular-a-periocular-dataset", "published": "2020-11-24T00:00:00.000000", "code": false, "review_url": "/paper/ufpr-periocular-a-periocular-dataset/review/?hl=28247"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 1593, "row_id": 9282, "rank": 2, "method": "PC-Softmax", "mlmodel": {}, "method_short": "PC-Softmax", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2019-11-15", "metrics": {"Accuracy": "89.73", "Average Per-Class Accuracy": "87.69"}, "raw_metrics": {"Accuracy": 89.73, "Average Per-Class Accuracy": 87.69}, "uses_additional_data": false, "paper": {"id": 174145, "title": "Rethinking Softmax with Cross-Entropy: Neural Network Classifier as Mutual Information Estimator", "url": "/paper/rethinking-softmax-with-cross-entropy-neural", "published": "2019-11-25T00:00:00.000000", "code": true, "review_url": "/paper/rethinking-softmax-with-cross-entropy-neural/review/?hl=9282"}, "external_source_url": null, "tags": [], "reports": []}]
+    [{"table_id": 26770, "row_id": 120151, "rank": 1, "method": "UnMixMatch", "mlmodel": {}, "method_short": "UnMixMatch", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2023-06-02", "metrics": {"Accuarcy": "52.07"}, "raw_metrics": {"Accuarcy": 52.07}, "uses_additional_data": false, "paper": {"id": 1222246, "title": "Scaling Up Semi-supervised Learning with Unconstrained Unlabelled Data", "url": "/paper/scaling-up-semi-supervised-learning-with", "published": "2023-06-02T00:00:00.000000", "code": true, "review_url": "/paper/scaling-up-semi-supervised-learning-with/review/?hl=120151"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 26770, "row_id": 120164, "rank": 2, "method": "CCSSL", "mlmodel": {}, "method_short": "CCSSL", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2022-03-04", "metrics": {"Accuarcy": "30.89"}, "raw_metrics": {"Accuarcy": 30.89}, "uses_additional_data": false, "paper": {"id": 971741, "title": "Class-Aware Contrastive Semi-Supervised Learning", "url": "/paper/class-aware-contrastive-semi-supervised", "published": "2022-03-04T00:00:00.000000", "code": true, "review_url": "/paper/class-aware-contrastive-semi-supervised/review/?hl=120164"}, "external_source_url": null, "tags": [], "reports": []}]
    </script>
    <script id="community-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuracy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
+    {"all": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="community-table-metrics" type="application/json">
     []
@@ -285,10 +285,10 @@
     []
    </script>
    <script id="dataset-details" type="application/json">
-    [{"name": "CUB-200-2011", "fullName": "Caltech-UCSD Birds-200-2011", "url": "/dataset/cub-200-2011", "description": "The Caltech-UCSD Birds-200-2011 (CUB-200-2011) dataset is the most widely-used dataset for fine-grained visual categorization task. It contains 11,788 images of 200 subcategories belonging to birds, 5,994 for training and 5,794 for testing. Each image has detailed annotations: 1 subcategory label, 15 part locations, 312 binary attributes and 1 bounding box. The textual information comes from Reed et al.. They expand the CUB-200-2011 dataset by collecting fine-grained natural language descriptions. Ten single-sentence descriptions are collected for each image. The natural language descriptions are collected through the Amazon Mechanical Turk (AMT) platform, and are required at least 10 words, without any information of subcategories and actions.", "imagePath": "https://production-media.paperswithcode.com/datasets/CUB-200-2011-0000000109-6e01ce73_vMleyYb.jpeg", "iconName": "images", "color": "#A395C6"}]
+    []
    </script>
    <script id="sota-page-details" type="application/json">
-    {"task_main_area_name": "Computer Vision", "task_name": "Image Classification", "dataset_name": "Imbalanced CUB-200-2011", "description": "", "mirror_url": null, "has_competition_entries": false}
+    {"task_main_area_name": "Computer Vision", "task_name": "Image Classification", "dataset_name": "CIFAR-10 (40 Labels, ImageNet-100 Unlabeled)", "description": "", "mirror_url": null, "has_competition_entries": false}
    </script>
    <script type="application/javascript">
     let evaluationChartData = JSON.parse(
@@ -337,7 +337,7 @@
                 
                 {
                     title: sotaPageDetails.dataset_name + " dataset",
-                    url: "/dataset/cub-200-2011"
+                    url: "/sota/image-classification-on-cifar-10-40-labels"
                 }
                 
             ];

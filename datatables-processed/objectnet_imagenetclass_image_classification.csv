@@ -1,0 +1,5 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,ObjectNet (ImageNet Classes),BiT-L (ResNet),85.1,1.0,,['ResNet'],1912.11370v3
+Image Classification,ObjectNet (ImageNet Classes),BiT-M (ResNet),76.0,0.6144067796610171,,['ResNet'],1912.11370v3
+Image Classification,ObjectNet (ImageNet Classes),BiT-S (ResNet),64.4,0.12288135593220366,,['ResNet'],1912.11370v3
+Image Classification,ObjectNet (ImageNet Classes),ResNet-152,61.5,0.0,,['ResNet'],2004.02042v1

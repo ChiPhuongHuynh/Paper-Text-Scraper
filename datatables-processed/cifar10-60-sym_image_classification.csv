@@ -1,0 +1,3 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,"CIFAR-10, 60% Symmetric Noise",MentorMix,91.3,1.0,,[],2104.15092v1
+Image Classification,"CIFAR-10, 60% Symmetric Noise",FaMUS,26.42,0.0,,[],2104.15092v1

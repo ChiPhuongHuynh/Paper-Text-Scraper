@@ -1,0 +1,2 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,LIMUC,Inception-v3,86.7,1.0,,[],2202.05167v2

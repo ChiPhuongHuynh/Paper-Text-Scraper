@@ -4,7 +4,7 @@ import pandas as pd
 
 #cols = ['Task', 'Dataset', 'name', 'accuracy', 'accuracy_norm', 'params', 'tags', 'id']
 #df = df[cols]
-df = pd.read_csv("datatables-unprocessed/imbalanced-cub-200-image-classification.csv", delimiter=",", index_col=False)
+df = pd.read_csv("datatables-unprocessed/", delimiter=",", index_col=False)
 def process(df, dataset, task, max = True):
     df["Dataset"] = dataset
     df["Task"] = task
@@ -29,12 +29,13 @@ def process(df, dataset, task, max = True):
 
     cols = ['Task', 'Dataset', 'name', 'accuracy', 'accuracy_norm', 'params', 'tags', 'id']
     df = df[cols]
-    if df.shape[0] == 1: df['accuracy_norm'][1] = 1.0
+    if df.shape[0] == 1: df['accuracy_norm'][0] = 1.0
+    df['accuracy'] = 100*df['accuracy']
     return df
 
-cur = process(df, "Imbalanced CUB 200", "Image Classification", True)
+cur = process(df, "LIMUC", "Image Classification", True)
 print(cur.head())
-cur.to_csv("datatables-processed/imbalanced-cub-image-classification.csv", index = False)
+cur.to_csv("datatables-processed/limuc_image_classification.csv", index = False)
 
 """
 df = pd.read_csv("normalized-task-data.csv", index_col= False)
