@@ -1,0 +1,73 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Real-Time Object Detection,MS COCO,YOLOv6-L6(1280),57.2,1.0,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,PRB-FPN6-E-ELAN(1280),56.9,0.9897260273972601,null,['ELAN'],2012.01724v5
+Real-Time Object Detection,MS COCO,YOLOv7-E6E(1280),56.8,0.9863013698630135,null,['YOLO'],2207.02696v1
+Real-Time Object Detection,MS COCO,YOLOv7-D6(1280),56.6,0.9794520547945205,null,['YOLO'],2207.02696v1
+Real-Time Object Detection,MS COCO,RT-DETR-H(640),56.3,0.9691780821917806,null,['DETR'],2304.08069v3
+Real-Time Object Detection,MS COCO,YOLOv7-E6(1280),56.0,0.958904109589041,null,['YOLO'],2207.02696v1
+Real-Time Object Detection,MS COCO,YOLOv9-E,55.6,0.9452054794520548,null,['YOLO'],2402.13616v2
+Real-Time Object Detection,MS COCO,YOLOR-D6,55.4,0.9383561643835615,null,['YOLO'],2105.04206v1
+Real-Time Object Detection,MS COCO,GELAN-E,55.0,0.9246575342465753,null,['ELAN'],2402.13616v2
+Real-Time Object Detection,MS COCO,YOLOv7-W6(1280),54.9,0.9212328767123287,null,['YOLO'],2207.02696v1
+Real-Time Object Detection,MS COCO,YOLOR-E6,54.8,0.917808219178082,null,"['single scale', 'YOLO']",2105.04206v1
+Real-Time Object Detection,MS COCO,RT-DETR-X,54.8,0.917808219178082,null,['DETR'],2304.08069v3
+Real-Time Object Detection,MS COCO,PP-YOLOE+_X,54.7,0.9143835616438356,null,['YOLO'],2203.16250v3
+Real-Time Object Detection,MS COCO,YOLOv10-X,54.4,0.9041095890410957,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,RT-DETR-R101,54.3,0.9006849315068491,null,['DETR'],2304.08069v3
+Real-Time Object Detection,MS COCO,YOLOR-W6,54.1,0.8938356164383561,null,"['single scale', 'YOLO']",2105.04206v1
+Real-Time Object Detection,MS COCO,PP-YOLOE+_L(distillation),54.0,0.8904109589041095,null,['YOLO'],2203.16250v3
+Real-Time Object Detection,MS COCO,YOLOv10-L,53.4,0.86986301369863,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,PRB-FPN-MSP,53.3,0.8664383561643834,null,[']'],2012.01724v5
+Real-Time Object Detection,MS COCO,YOLOv7-X,53.1,0.8595890410958904,null,['YOLO'],2207.02696v1
+Real-Time Object Detection,MS COCO,YOLOR-P6D,53.0,0.8561643835616437,null,['YOLO'],2105.04206v1
+Real-Time Object Detection,MS COCO,RT-DETR-L,53.0,0.8561643835616437,null,['DETR'],2304.08069v3
+Real-Time Object Detection,MS COCO,YOLOv9-C,53.0,0.8561643835616437,null,['YOLO'],2402.13616v2
+Real-Time Object Detection,MS COCO,PP-YOLOE+_L,52.9,0.8527397260273971,null,['YOLO'],2203.16250v3
+Real-Time Object Detection,MS COCO,YOLOv6-L,52.8,0.8493150684931505,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,RTMDet,52.8,0.8493150684931505,null,['YOLO'],2212.07784v2
+Real-Time Object Detection,MS COCO,YOLOv10-B,52.7,0.8458904109589042,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,YOLOR-P6,52.6,0.8424657534246575,null,['YOLO'],2105.04206v1
+Real-Time Object Detection,MS COCO,PRB-FPN-ELAN,52.5,0.8390410958904109,null,['ELAN'],2012.01724v5
+Real-Time Object Detection,MS COCO,GELAN-C,52.5,0.8390410958904109,null,['ELAN'],2402.13616v2
+Real-Time Object Detection,MS COCO,PRB-FPN-CSP,51.8,0.8150684931506847,null,[']'],2012.01724v5
+Real-Time Object Detection,MS COCO,YOLOv9-M,51.4,0.8013698630136985,null,['YOLO'],2402.13616v2
+Real-Time Object Detection,MS COCO,YOLOv10-M,51.3,0.7979452054794519,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,GELAN-M,51.1,0.7910958904109588,null,['ELAN'],2402.13616v2
+Real-Time Object Detection,MS COCO,YOLOv3,51.0,0.7876712328767123,null,['YOLO'],2203.16250v3
+Real-Time Object Detection,MS COCO,DAMO-YOLO-L,50.8,0.780821917808219,null,['YOLO'],2211.15444v4
+Real-Time Object Detection,MS COCO,YOLOv5-X,50.4,0.7671232876712327,null,['YOLO'],2107.08430v2
+Real-Time Object Detection,MS COCO,YOLOv6-S6(1280),50.3,0.7636986301369861,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,YOLOv6-M,50.0,0.7534246575342465,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,PP-YOLOE+_M,49.8,0.7465753424657533,null,['YOLO'],2203.16250v3
+Real-Time Object Detection,MS COCO,DAMO-YOLO-M,49.2,0.726027397260274,null,['YOLO'],2211.15444v4
+Real-Time Object Detection,MS COCO,YOLOv9-S,46.8,0.643835616438356,null,['YOLO'],2402.13616v2
+Real-Time Object Detection,MS COCO,YOLOv10-S,46.8,0.643835616438356,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,GELAN-S,46.7,0.6404109589041096,null,['ELAN'],2402.13616v2
+Real-Time Object Detection,MS COCO,DAMO-YOLO-S,46.0,0.6164383561643835,null,['YOLO'],2211.15444v4
+Real-Time Object Detection,MS COCO,Mask R-CNN X-152-32x8d,45.2,0.589041095890411,null,[']'],1703.06870v3
+Real-Time Object Detection,MS COCO,YOLOv6-S,45.0,0.5821917808219178,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,YOLOv4-L,43.5,0.5308219178082191,null,[']'],2004.10934v1
+Real-Time Object Detection,MS COCO,YOLOv4-M,43.0,0.5136986301369862,null,[']'],2004.10934v1
+Real-Time Object Detection,MS COCO,DAMO-YOLO-T,42.0,0.4794520547945205,null,['YOLO'],2211.15444v4
+Real-Time Object Detection,MS COCO,Faster RCNN-FPN+,42.0,0.4794520547945205,null,[']'],2005.12872v3
+Real-Time Object Detection,MS COCO,YOLOv4-S,41.2,0.452054794520548,null,['YOLO'],2004.10934v1
+Real-Time Object Detection,MS COCO,YOLOv10-N,39.5,0.39383561643835613,null,[']'],2405.14458v1
+Real-Time Object Detection,MS COCO,YOLOv6-N,37.5,0.3253424657534246,null,['YOLO'],2301.05586v1
+Real-Time Object Detection,MS COCO,YOLOv3-L,33.0,0.17123287671232876,null,[']'],1804.02767v1
+Real-Time Object Detection,MS COCO,YOLOv5n,28.0,0.0,null,[']}]</script'],null
+Real-Time Object Detection,PASCAL VOC 2007,YOLO,46.0,1.0,null,['YOLO'],1506.02640v5
+Real-Time Object Detection,PASCAL VOC 2007,BlitzNet512 (s4),24.0,0.4358974358974359,null,[']'],1708.02813v1
+Real-Time Object Detection,PASCAL VOC 2007,BlitzNet512 (s8),19.5,0.32051282051282054,null,[']'],1708.02813v1
+Real-Time Object Detection,PASCAL VOC 2007,R-FCN,9.0,0.05128205128205128,null,[']'],1605.06409v2
+Real-Time Object Detection,PASCAL VOC 2007,Faster R-CNN,7.0,0.0,null,[']}]</script'],1506.01497v3
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Val)",RL-Based Dynamic-Online Policy,26.01,1.0,null,[']'],null
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Val)",Official challenge baseline,21.06,0.0,null,[']'],2005.10420v2
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Val)",YOLOX,47.42,1.0,null,[']'],2107.08430v2
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Val)",Official challenge baseline,14.91,0.0,null,[']}]</script'],2005.10420v2
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Test)",YOLOX,41.1,1.0,null,[']'],2107.08430v2
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Test)",RL-Based Dynamic-Online Policy,17.98,0.15896689705347403,null,[']'],null
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Test)",Official challenge baseline,13.61,0.0,null,[']}]</script'],2005.10420v2
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Test)",YOLOX,41.1,1.0,null,[']'],2107.08430v2
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Test)",RL-Based Dynamic-Online Policy,26.99,0.29590818363273447,null,[']'],null
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Test)",Official challenge baseline,21.06,0.0,null,[']}]</script'],2005.10420v2
+Real-Time Object Detection,COCO 2017 val,"DINO-5scale (12 epochs, 900 queries)",10.0,1.0,null,[']}]</script'],2203.03605v4

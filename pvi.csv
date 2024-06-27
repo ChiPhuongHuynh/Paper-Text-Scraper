@@ -1,0 +1,8 @@
+Task,Dataset,PVI
+Image Classification,ImageNet,-8.59
+Image Classification,CIFAR-10,-3.39
+Image Classification,CIFAR-100,-5.67
+Image Classification,MNIST,-0.444
+Image Classification,SVHN,-0.497
+Image Classification,FashionMNIST,-1.97
+Image Classification,STL-10,-4.08

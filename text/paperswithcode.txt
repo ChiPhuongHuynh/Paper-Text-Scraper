@@ -7,7 +7,7 @@
    const GTAG_ENABLED =  true ;
     const GTAG_TRACKING_ID = "UA-121182717-1";
     const SENTRY_DSN_FRONTEND = "".trim();
-    const GLOBAL_CSRF_TOKEN = 'uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p';
+    const GLOBAL_CSRF_TOKEN = 'm3f4vDBCRlnzbfgVTrSZGxZu5T70EP8nLLJzFJTzquWSFKaiQZ1rvuG8ibMRCEuL';
     const MEDIA_URL = "https://production-media.paperswithcode.com/";
     const ASSETS_URL = "https://production-assets.paperswithcode.com";
     run_after_frontend_loaded = window.run_after_frontend_loaded || [];
@@ -34,21 +34,21 @@
   <link href="https://production-assets.paperswithcode.com/perf/sota.table.fe0fcc15.css" rel="stylesheet"/>
   <!-- Metadata -->
   <title>
-   CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification) | Papers With Code
+   BTS3.1 Benchmark (Face Recognition) | Papers With Code
   </title>
-  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." name="description"/>
+  <meta content="The current state-of-the-art on BTS3.1 is MCN. See a full comparison of 1 papers with code." name="description"/>
   <!-- Open Graph protocol metadata -->
-  <meta content="Papers with Code - CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)" property="og:title"/>
-  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." property="og:description"/>
-  <meta content="https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-cifar-10-40-labels-large_b56a8d92.png" property="og:image"/>
-  <meta content="https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels" property="og:url"/>
+  <meta content="Papers with Code - BTS3.1 Benchmark (Face Recognition)" property="og:title"/>
+  <meta content="The current state-of-the-art on BTS3.1 is MCN. See a full comparison of 1 papers with code." property="og:description"/>
+  <meta content="https://production-media.paperswithcode.com/sota-thumbs/face-recognition-on-bts3-1-large_dac6ad5e.png" property="og:image"/>
+  <meta content="https://paperswithcode.com/sota/face-recognition-on-bts3-1" property="og:url"/>
   <!-- Twitter metadata -->
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="@paperswithcode" name="twitter:site"/>
-  <meta content="Papers with Code - CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)" name="twitter:title"/>
-  <meta content="The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code." name="twitter:description"/>
+  <meta content="Papers with Code - BTS3.1 Benchmark (Face Recognition)" name="twitter:title"/>
+  <meta content="The current state-of-the-art on BTS3.1 is MCN. See a full comparison of 1 papers with code." name="twitter:description"/>
   <meta content="@paperswithcode" name="twitter:creator"/>
-  <meta content="https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels" name="twitter:url"/>
+  <meta content="https://paperswithcode.com/sota/face-recognition-on-bts3-1" name="twitter:url"/>
   <meta content="paperswithcode.com" name="twitter:domain"/>
   <!-- JSON LD -->
   <script type="application/ld+json">
@@ -56,10 +56,10 @@
     "@context": "http://schema.org",
     "@graph": {
         "@type": "ItemList",
-        "name": "CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) Benchmark (Image Classification)",
-        "description": "The current state-of-the-art on CIFAR-10 (40 Labels, ImageNet-100 Unlabeled) is UnMixMatch. See a full comparison of 2 papers with code.",
-        "url": "https://paperswithcode.com/sota/image-classification-on-cifar-10-40-labels",
-        "image": "https://production-media.paperswithcode.com/sota-thumbs/image-classification-on-cifar-10-40-labels-large_b56a8d92.png"
+        "name": "BTS3.1 Benchmark (Face Recognition)",
+        "description": "The current state-of-the-art on BTS3.1 is MCN. See a full comparison of 1 papers with code.",
+        "url": "https://paperswithcode.com/sota/face-recognition-on-bts3-1",
+        "image": "https://production-media.paperswithcode.com/sota-thumbs/face-recognition-on-bts3-1-large_dac6ad5e.png"
     }
 }
   </script>
@@ -164,7 +164,7 @@
       </a>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="/accounts/login?next=/sota/image-classification-on-cifar-10-40-labels" id="signin-link">
+      <a class="nav-link" href="/accounts/login?next=/sota/face-recognition-on-bts3-1" id="signin-link">
        Sign In
       </a>
      </li>
@@ -195,7 +195,7 @@
          Read previous issues
         </a>
        </div>
-       <input name="csrfmiddlewaretoken" type="hidden" value="uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p"/>
+       <input name="csrfmiddlewaretoken" type="hidden" value="m3f4vDBCRlnzbfgVTrSZGxZu5T70EP8nLLJzFJTzquWSFKaiQZ1rvuG8ibMRCEuL"/>
        <input class="form-control pwc-email" id="id_address" max_length="100" name="address" placeholder="Enter your email" required="" type="email"/>
       </div>
       <div class="modal-footer">
@@ -223,13 +223,13 @@
      </div>
      <div class="login-modal-message">
       You need to
-      <a href="/accounts/login?next=/sota/image-classification-on-cifar-10-40-labels">
+      <a href="/accounts/login?next=/sota/face-recognition-on-bts3-1">
        log in
       </a>
       to edit.
       <br/>
       You can
-      <a href="/accounts/register?next=/sota/image-classification-on-cifar-10-40-labels">
+      <a href="/accounts/register?next=/sota/face-recognition-on-bts3-1">
        create a new account
       </a>
       if you don't have one.
@@ -241,11 +241,11 @@
   </div>
   <div class="container content content-buffer">
    <div class="leaderboard-header">
-    <a href="/task/image-classification">
+    <a href="/task/face-recognition">
      <span class="badge badge-primary">
-      <img src="https://production-media.paperswithcode.com/thumbnails/task/7a146e71-bbf8-4137-bf25-a3618bd043a0.jpg"/>
+      <img src="https://production-media.paperswithcode.com/thumbnails/task/task-0000000458-a47f7d65.jpg"/>
       <span>
-       Image Classification
+       Face Recognition
       </span>
      </span>
     </a>
@@ -257,7 +257,7 @@
    </div>
    <link href="https://production-assets.paperswithcode.com/static/fonts/font-awesome/css/all.min.css" rel="stylesheet"/>
    <script type="application/javascript">
-    const CSRF_TOKEN = "uxSIj9ktADnrsSEUjY8IGnED6nb3BShl73ZDeMlz7NU1YXxDHw61mv8Sq8leDU9p";
+    const CSRF_TOKEN = "m3f4vDBCRlnzbfgVTrSZGxZu5T70EP8nLLJzFJTzquWSFKaiQZ1rvuG8ibMRCEuL";
         const USER_IS_AUTHENTICATED = false;
         const LOGIN_REQUIRED = true;
    </script>
@@ -267,16 +267,16 @@
    </script>
    <!-- Start SOTA Table Generation -->
    <script id="evaluation-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 28.772000000000002, "maximum": 54.188}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2022-03-04", "y": 30.89, "name": "CCSSL", "nameShort": "CCSSL", "nameDetails": null, "paperSlug": "class-aware-contrastive-semi-supervised", "usesAdditionalData": false}, {"x": "2023-06-02", "y": 52.07, "name": "UnMixMatch", "nameShort": "UnMixMatch", "nameDetails": null, "paperSlug": "scaling-up-semi-supervised-learning-with", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": "", "minimum": 28.772000000000002, "maximum": 54.188}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2022-03-04", "y": 30.89, "name": "CCSSL", "nameShort": "CCSSL", "nameDetails": null, "paperSlug": "class-aware-contrastive-semi-supervised", "usesAdditionalData": false}, {"x": "2023-06-02", "y": 52.07, "name": "UnMixMatch", "nameShort": "UnMixMatch", "nameDetails": null, "paperSlug": "scaling-up-semi-supervised-learning-with", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
+    {"all": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2023-07-16", "y": 0.5425, "name": "MCN", "nameShort": "MCN", "nameDetails": null, "paperSlug": "multicolumn-networks-for-face-recognition", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": [{"x": "2023-07-16", "y": 0.5425, "name": "MCN", "nameShort": "MCN", "nameDetails": null, "paperSlug": "multicolumn-networks-for-face-recognition", "usesAdditionalData": false}]}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="evaluation-table-metrics" type="application/json">
-    [{"id": 66847, "name": "Accuarcy", "is_loss": false, "is_fixed": false}]
+    [{"id": 67689, "name": "TAR @ FAR=0.01", "is_loss": false, "is_fixed": false}]
    </script>
    <script id="evaluation-table-data" type="application/json">
-    [{"table_id": 26770, "row_id": 120151, "rank": 1, "method": "UnMixMatch", "mlmodel": {}, "method_short": "UnMixMatch", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2023-06-02", "metrics": {"Accuarcy": "52.07"}, "raw_metrics": {"Accuarcy": 52.07}, "uses_additional_data": false, "paper": {"id": 1222246, "title": "Scaling Up Semi-supervised Learning with Unconstrained Unlabelled Data", "url": "/paper/scaling-up-semi-supervised-learning-with", "published": "2023-06-02T00:00:00.000000", "code": true, "review_url": "/paper/scaling-up-semi-supervised-learning-with/review/?hl=120151"}, "external_source_url": null, "tags": [], "reports": []}, {"table_id": 26770, "row_id": 120164, "rank": 2, "method": "CCSSL", "mlmodel": {}, "method_short": "CCSSL", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2022-03-04", "metrics": {"Accuarcy": "30.89"}, "raw_metrics": {"Accuarcy": 30.89}, "uses_additional_data": false, "paper": {"id": 971741, "title": "Class-Aware Contrastive Semi-Supervised Learning", "url": "/paper/class-aware-contrastive-semi-supervised", "published": "2022-03-04T00:00:00.000000", "code": true, "review_url": "/paper/class-aware-contrastive-semi-supervised/review/?hl=120164"}, "external_source_url": null, "tags": [], "reports": []}]
+    [{"table_id": 27107, "row_id": 122185, "rank": 1, "method": "MCN", "mlmodel": {}, "method_short": "MCN", "method_details": null, "mlmodel_short": null, "mlmodeldetails": null, "evaluation_date": "2023-07-16", "metrics": {"TAR @ FAR=0.01": "0.5425"}, "raw_metrics": {"TAR @ FAR=0.01": 0.5425}, "uses_additional_data": false, "paper": {"id": 53373, "title": "Multicolumn Networks for Face Recognition", "url": "/paper/multicolumn-networks-for-face-recognition", "published": "2018-07-24T00:00:00.000000", "code": true, "review_url": null}, "external_source_url": null, "tags": [], "reports": []}]
    </script>
    <script id="community-chart-data" type="application/json">
-    {"all": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "Accuarcy", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
+    {"all": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "uses_additional_data": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}, "no_additional_data": {"yAxis": {"title": "TAR @ FAR=0.01", "includeZero": false, "gridColor": "#ddd", "valueFormatString": ""}, "data": {"trend": {"name": "State-of-the-art methods", "type": "line", "showInLegend": true, "markerSize": 10, "toolTipContent": "{name}: {y}", "color": "#21ccc7", "dataPoints": []}, "other": {"name": "Other methods", "type": "scatter", "showInLegend": true, "color": "#ddd", "markerSize": 10, "toolTipContent": "{name}: {y}", "dataPoints": []}}}}
    </script>
    <script id="community-table-metrics" type="application/json">
     []
@@ -285,10 +285,10 @@
     []
    </script>
    <script id="dataset-details" type="application/json">
-    []
+    [{"name": "BTS3.1", "fullName": "Expanding Accurate Person Recognition to New Altitudes and Ranges: The BRIAR Dataset", "url": "/dataset/bts3-1", "description": "Large, multimodal biometric dataset: It contains still images and videos of over 1,000 people captured at various ranges (up to 1,000 meters) and elevations (up to 400 meters) using a diverse set of cameras (commercial, military-grade, specialized).", "imagePath": null, "iconName": "film", "color": "#F37668"}]
    </script>
    <script id="sota-page-details" type="application/json">
-    {"task_main_area_name": "Computer Vision", "task_name": "Image Classification", "dataset_name": "CIFAR-10 (40 Labels, ImageNet-100 Unlabeled)", "description": "", "mirror_url": null, "has_competition_entries": false}
+    {"task_main_area_name": "Computer Vision", "task_name": "Face Recognition", "dataset_name": "BTS3.1", "description": "", "mirror_url": null, "has_competition_entries": false}
    </script>
    <script type="application/javascript">
     let evaluationChartData = JSON.parse(
@@ -332,12 +332,12 @@
                 
                 {
                     title: sotaPageDetails.task_name,
-                    url: "/task/image-classification"
+                    url: "/task/face-recognition"
                 },
                 
                 {
                     title: sotaPageDetails.dataset_name + " dataset",
-                    url: "/sota/image-classification-on-cifar-10-40-labels"
+                    url: "/dataset/bts3-1"
                 }
                 
             ];

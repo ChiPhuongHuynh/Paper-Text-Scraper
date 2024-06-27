@@ -1,0 +1,939 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Image Classification,ImageNet,OmniVec(ViT),92.4,1.0,,[],2311.05709v1
+Image Classification,ImageNet,Model soups (BASIC-L),90.98,0.9576119402985074,2440M,"['ALIGN', 'JFT-3B', 'Conv+Transformer']",2203.05482v3
+Image Classification,ImageNet,Model soups (ViT-G/14),90.94,0.9564179104477609,1843M,"['JFT-3B', 'Transformer']",2203.05482v3
+Image Classification,ImageNet,ViT-e,90.9,0.9552238805970149,3900M,"['Transformer', 'JFT-3B']",2209.06794v4
+Image Classification,ImageNet,CoAtNet-7,90.88,0.9546268656716415,2440M,"['Conv+Transformer', 'JFT-3B']",2106.04803v2
+Image Classification,ImageNet,CoAtNet-6,90.45,0.9417910447761193,1470M,"['Conv+Transformer', 'JFT-3B']",2106.04803v2
+Image Classification,ImageNet,ViT-G/14,90.45,0.9417910447761193,1843M,['Transformer'],2106.04560v2
+Image Classification,ImageNet,DaViT-G,90.4,0.9402985074626866,1437M,['Transformer'],2204.03645v1
+Image Classification,ImageNet,DaViT-H,90.2,0.9343283582089551,362M,['Transformer'],2204.03645v1
+Image Classification,ImageNet,Meta Pseudo Labels (EfficientNet-L2),90.2,0.9343283582089551,480M,"['JFT-300M', 'EfficientNet']",2003.10580v4
+Image Classification,ImageNet,SwinV2-G,90.17,0.9334328358208954,3000M,['Transformer'],2111.09883v2
+Image Classification,ImageNet,InternImage-DCNv3-G (M3I Pre-training),90.1,0.9313432835820892,3000M,[],2211.05778v4
+Image Classification,ImageNet,MAWS (ViT-6.5B),90.1,0.9313432835820892,6500M,[],2303.13496v3
+Image Classification,ImageNet,Florence-CoSwin-H,90.05,0.9298507462686565,893M,"['FLD-900M', 'Transformer']",2111.11432v1
+Image Classification,ImageNet,Meta Pseudo Labels (EfficientNet-B6-Wide),90.0,0.9283582089552237,390M,"['JFT-300M', 'EfficientNet']",2003.10580v4
+Image Classification,ImageNet,RevCol-H,90.0,0.9283582089552237,2158M,"['Pure CNN', 'Reversible', 'CNN']",2212.11696v3
+Image Classification,ImageNet,ONE-PEACE,89.8,0.9223880597014923,1520M,[],2305.11172v1
+Image Classification,ImageNet,MAWS (ViT-2B),89.8,0.9223880597014923,2000M,[],2303.13496v3
+Image Classification,ImageNet,EVA,89.7,0.9194029850746268,1000M,[],2211.07636v2
+Image Classification,ImageNet,M3I Pre-training (InternImage-H),89.6,0.9164179104477609,,"['YFCC-15M', 'Laion-400M']",2211.09807v2
+Image Classification,ImageNet,"ViT-L/16 (384res, distilled from ViT-22B)",89.6,0.9164179104477609,307M,[],2302.05442v1
+Image Classification,ImageNet,InternImage-H,89.6,0.9164179104477609,1080M,[],2211.05778v4
+Image Classification,ImageNet,"MaxViT-XL (512res, JFT)",89.53,0.9143283582089551,,['JFT-300M'],2204.01697v4
+Image Classification,ImageNet,MAWS (ViT-H),89.5,0.9134328358208954,650M,[],2303.13496v3
+Image Classification,ImageNet,"MaxViT-XL (384res, JFT)",89.41,0.9107462686567162,,['JFT-300M'],2204.01697v4
+Image Classification,ImageNet,"MaxViT-L (512res, JFT)",89.41,0.9107462686567162,,['JFT-300M'],2204.01697v4
+Image Classification,ImageNet,NFNet-F4+,89.2,0.9044776119402984,527M,"['CNN', 'JFT-300M']",2102.06171v1
+Image Classification,ImageNet,"MaxViT-L (384res, JFT)",89.12,0.9020895522388059,,['JFT-300M'],2204.01697v4
+Image Classification,ImageNet,MOAT-4 22K+1K,89.1,0.9014925373134325,483.2M,['ImageNet-22k'],2210.01820v2
+Image Classification,ImageNet,FD (CLIP ViT-L-336),89.0,0.898507462686567,307M,"['ImageNet-22k', 'CLIP data ']",2205.14141v3
+Image Classification,ImageNet,Last Layer Tuning with Newton Step (ViT-G/14)),88.9,0.8955223880597015,,[],2211.13403v1
+Image Classification,ImageNet,TokenLearner L/8 (24+11),88.87,0.8946268656716417,460M,"['Transformer', 'JFT-300M']",2106.11297v4
+Image Classification,ImageNet,"MaxViT-B (512res, JFT)",88.82,0.8931343283582086,,['JFT-300M'],2204.01697v4
+Image Classification,ImageNet,MAWS (ViT-L),88.8,0.8925373134328356,,[],2303.13496v3
+Image Classification,ImageNet,"MViTv2-H (512 res, ImageNet-21k pretrain)",88.8,0.8925373134328356,667M,['ImageNet-22k'],2112.01526v2
+Image Classification,ImageNet,"MaxViT-XL (512res, 21K)",88.7,0.8895522388059701,,[],2204.01697v4
+Image Classification,ImageNet,"MaxViT-B (384res, JFT)",88.69,0.8892537313432833,,[],2204.01697v4
+Image Classification,ImageNet,ALIGN (EfficientNet-L2),88.64,0.8877611940298507,480M,"['ALIGN', 'EfficientNet']",2102.05918v2
+Image Classification,ImageNet,EfficientNet-L2-475 (SAM),88.61,0.8868656716417909,480M,"['JFT-300M', 'EfficientNet']",2010.01412v3
+Image Classification,ImageNet,ViT-B/16,88.6,0.8865671641791042,86M,[],2302.05442v1
+Image Classification,ImageNet,BEiT-L (ViT; ImageNet-22K pretrain),88.6,0.8865671641791042,331M,"['ImageNet-22k', 'Transformer']",2106.08254v2
+Image Classification,ImageNet,SWAG (ViT H/14),88.6,0.8865671641791042,633.5M,[],2201.08371v2
+Image Classification,ImageNet,ViT-H/14,88.55,0.8850746268656714,,"['JFT-300M', 'Transformer']",2010.11929v2
+Image Classification,ImageNet,CoAtNet-3 @384,88.52,0.8841791044776117,168M,[],2106.04803v2
+Image Classification,ImageNet,"MaxViT-XL (384res, 21K)",88.51,0.8838805970149254,,['ImageNet-22k'],2204.01697v4
+Image Classification,ImageNet,mPLUG-2,88.5,0.8835820895522387,,[],2302.00402v1
+Image Classification,ImageNet,OpenCLIP ViT-H/14,88.5,0.8835820895522387,,[],2212.07143v1
+Image Classification,ImageNet,FixEfficientNet-L2,88.5,0.8835820895522387,480M,"['JFT-300M', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,ViTAE-H + MAE (448),88.5,0.8835820895522387,644M,[],2202.10108v2
+Image Classification,ImageNet,"MaxViT-L (512res, 21K)",88.46,0.8823880597014923,,[],2204.01697v4
+Image Classification,ImageNet,"MViTv2-L (384 res, ImageNet-21k pretrain)",88.4,0.8805970149253731,218M,['ImageNet-22k'],2112.01526v2
+Image Classification,ImageNet,NoisyStudent (EfficientNet-L2),88.4,0.8805970149253731,480M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,"MaxViT-B (512res, 21K)",88.38,0.8799999999999997,,['ImageNet-22k'],2204.01697v4
+Image Classification,ImageNet,Top-k DiffSortNets (EfficientNet-L2),88.37,0.8797014925373134,,"['EfficientNet', 'JFT-300M']",2206.07290v1
+Image Classification,ImageNet,Adlik-ViT-SG+Swin_large+Convnext_xlarge(384),88.36,0.8794029850746267,1827M,[],2201.03545v2
+Image Classification,ImageNet,V-MoE-H/14 (Every-2),88.36,0.8794029850746267,7200M,"['JFT-300M', 'Transformer']",2106.05974v1
+Image Classification,ImageNet,"MaxViT-L (384res, 21K)",88.32,0.8782089552238802,,['ImageNet-22k'],2204.01697v4
+Image Classification,ImageNet,Unicom (ViT-L/14@336px) (Finetuned),88.3,0.8776119402985072,,[],2304.05884v1
+Image Classification,ImageNet,"PeCo (ViT-H, 448)",88.3,0.8776119402985072,656M,"['Transformer', 'ImageNet-1k only']",2111.12710v3
+Image Classification,ImageNet,"MaxViT-B (384res, 21K)",88.24,0.8758208955223877,,['ImageNet-22k'],2204.01697v4
+Image Classification,ImageNet,V-MoE-H/14 (Last-5),88.23,0.8755223880597015,2700M,"['JFT-300M', 'Transformer']",2106.05974v1
+Image Classification,ImageNet,dBOT ViT-H (CLIP as Teacher),88.2,0.8746268656716417,,['CLIP data '],2209.03917v3
+Image Classification,ImageNet,"CAFormer-B36 (384 res, 21K)",88.1,0.8716417910447758,99M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,VIT-H/14,88.08,0.8710447761194028,656M,"['JFT-300M', 'Transformer']",2106.05974v1
+Image Classification,ImageNet,ViT-H@224 (cosub),88.0,0.8686567164179103,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,UniRepLKNet-XL++,88.0,0.8686567164179103,,[],2311.15599v2
+Image Classification,ImageNet,InternImage-XL,88.0,0.8686567164179103,335M,[],2211.05778v4
+Image Classification,ImageNet,MViTv2-H (mageNet-21k pretrain),88.0,0.8686567164179103,667M,['ImageNet-22k'],2112.01526v2
+Image Classification,ImageNet,Mixer-H/14 (JFT-300M pre-train),87.94,0.8668656716417908,,"['JFT-300M', 'MLP']",2105.01601v4
+Image Classification,ImageNet,UniRepLKNet-L++,87.9,0.8656716417910448,,[],2311.15599v2
+Image Classification,ImageNet,dBOT ViT-L (CLIP as Teacher),87.8,0.8626865671641789,,['CLIP data '],2209.03917v3
+Image Classification,ImageNet,MogaNet-XL (384res),87.8,0.8626865671641789,181M,[],2211.03295v3
+Image Classification,ImageNet,"VAN-B6 (22K, 384res)",87.8,0.8626865671641789,200M,['ImageNet-22k'],2202.09741v5
+Image Classification,ImageNet,RepLKNet-XL,87.8,0.8626865671641789,335M,['ImageNet-22k'],2203.06717v4
+Image Classification,ImageNet,ConvNeXt-XL (ImageNet-22k),87.8,0.8626865671641789,350M,"['CNN', 'ImageNet-22k']",2201.03545v2
+Image Classification,ImageNet,"MAE (ViT-H, 448)",87.8,0.8626865671641789,656M,"['Transformer', 'ImageNet-1k only']",2111.06377v2
+Image Classification,ImageNet,ViT-L/16,87.76,0.8614925373134329,,"['JFT-300M', 'Transformer']",2010.11929v2
+Image Classification,ImageNet,HorNet-L (GF),87.7,0.8597014925373134,,['ImageNet-22k'],2207.14284v3
+Image Classification,ImageNet,"CvT-W24 (384 res, ImageNet-22k pretrain)",87.7,0.8597014925373134,,"['ImageNet-22k', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,InternImage-L,87.7,0.8597014925373134,223M,[],2211.05778v4
+Image Classification,ImageNet,"ConvFormer-B36 (384 res, 21K)",87.6,0.8567164179104475,100M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,BiT-L (ResNet),87.54,0.8549253731343284,,"['ImageNet-22k', 'ResNet']",1912.11370v3
+Image Classification,ImageNet,"PeCo (ViT-H, 224)",87.5,0.8537313432835819,,"['Transformer', 'ImageNet-1k only']",2111.12710v3
+Image Classification,ImageNet,ViT-L@224 (cosub),87.5,0.8537313432835819,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,"CAFormer-M36 (384 res, 21K)",87.5,0.8537313432835819,56M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,"CSWin-L (384 res,ImageNet-22k pretrain)",87.5,0.8537313432835819,173M,"['ImageNet-22k', 'Transformer']",2107.00652v3
+Image Classification,ImageNet,DaViT-L (ImageNet-22k),87.5,0.8537313432835819,196.8M,['ImageNet-22k'],2204.03645v1
+Image Classification,ImageNet,DiNAT-Large (11x11ks; 384res; Pretrained on IN22K@224),87.5,0.8537313432835819,200M,['ImageNet-22k'],2209.15001v3
+Image Classification,ImageNet,V-MoE-L/16 (Every-2),87.41,0.8510447761194028,3400M,"['JFT-300M', 'Transformer']",2106.05974v1
+Image Classification,ImageNet,DiNAT-Large (384x384; Pretrained on ImageNet-22K @ 224x224),87.4,0.8507462686567164,,['ImageNet-22k'],2209.15001v3
+Image Classification,ImageNet,data2vec 2.0,87.4,0.8507462686567164,,['ImageNet-1k only'],2212.07525v2
+Image Classification,ImageNet,UniRepLKNet-B++,87.4,0.8507462686567164,,[],2311.15599v2
+Image Classification,ImageNet,"CAFormer-B36 (224 res, 21K)",87.4,0.8507462686567164,99M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,UniNet-B6,87.4,0.8507462686567164,117M,['ImageNet-22k'],2207.05420v2
+Image Classification,ImageNet,DiNAT_s-Large (384res; Pretrained on IN22K@224),87.4,0.8507462686567164,197M,['ImageNet-22k'],2209.15001v3
+Image Classification,ImageNet,Swin-L,87.3,0.8477611940298505,197M,['Transformer'],2103.14030v2
+Image Classification,ImageNet,VOLO-D5+HAT,87.3,0.8477611940298505,295.5M,"['ImageNet-1k only', 'Transformer']",2204.00993v3
+Image Classification,ImageNet,EfficientNetV2 (PolyLoss),87.2,0.844776119402985,,[],2204.12511v2
+Image Classification,ImageNet,ELSA-VOLO-D5 (512*512),87.2,0.844776119402985,298M,"['Transformer', 'ImageNet-1k only']",2112.12786v1
+Image Classification,ImageNet,Bamboo (Bamboo-H),87.1,0.8417910447761191,,['ImageNet-1k only'],2205.10505v3
+Image Classification,ImageNet,Swin-L@224 (cosub),87.1,0.8417910447761191,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,FixEfficientNet-B7,87.1,0.8417910447761191,66M,"['JFT-300M', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,FAN-L-Hybrid++,87.1,0.8417910447761191,76.8M,[],2204.12451v4
+Image Classification,ImageNet,SwinV2-B,87.1,0.8417910447761191,88M,[],2111.09883v2
+Image Classification,ImageNet,VOLO-D5,87.1,0.8417910447761191,296M,['ImageNet-1k only'],2106.13112v2
+Image Classification,ImageNet,PatchConvNet-L120-21k-384,87.1,0.8417910447761191,334.3M,"['PatchConvnet', 'ImageNet-22k']",2112.13692v1
+Image Classification,ImageNet,16-TokenLearner B/16 (21),87.07,0.8408955223880593,,"['Transformer', 'JFT-300M']",2106.11297v4
+Image Classification,ImageNet,MAE+DAT (ViT-H),87.02,0.8394029850746266,,[],2209.07735v1
+Image Classification,ImageNet,UniNet-B5,87.0,0.8388059701492536,72.9M,['ImageNet-22k'],2207.05420v2
+Image Classification,ImageNet,"VAN-B5 (22K, 384res)",87.0,0.8388059701492536,90M,[],2202.09741v5
+Image Classification,ImageNet,"ConvFormer-B36 (224 res, 21K)",87.0,0.8388059701492536,100M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,MAE (ViT-H),86.9,0.8358208955223881,,"['Transformer', 'ImageNet-1k only']",2111.06377v2
+Image Classification,ImageNet,Hiera-H,86.9,0.8358208955223881,,"['ImageNet-1k only', 'Transformer']",2306.00989v1
+Image Classification,ImageNet,"CAFormer-S36 (384 res, 21K)",86.9,0.8358208955223881,39M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,"ConvFormer-M36 (384 res, 21K)",86.9,0.8358208955223881,57M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B7),86.9,0.8358208955223881,66M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,DaViT-B (ImageNet-22k),86.9,0.8358208955223881,87.9M,[],2204.03645v1
+Image Classification,ImageNet,MAWS (ViT-B),86.8,0.8328358208955222,,[],2303.13496v3
+Image Classification,ImageNet,EfficientNetV2L,86.8,0.8328358208955222,121M,"['ImageNet-22k', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,VOLO-D4,86.8,0.8328358208955222,193M,['ImageNet-1k only'],2106.13112v2
+Image Classification,ImageNet,NFNet-F5 w/ SAM w/ augmult=16,86.78,0.8322388059701491,377.2M,"['CNN', 'ImageNet-1k only']",2105.13343v2
+Image Classification,ImageNet,\u00b52Net (ViT-L/16),86.74,0.8310447761194028,,['ImageNet-22k'],2205.12755v6
+Image Classification,ImageNet,"ViT-B @384 (DeiT III, 21k)",86.7,0.8298507462686566,,['ImageNet-22k'],2204.07118v1
+Image Classification,ImageNet,MaxViT-L (512res),86.7,0.8298507462686566,,[],2204.01697v4
+Image Classification,ImageNet,FixEfficientNet-B6,86.7,0.8298507462686566,43M,"['JFT-300M', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,MOAT-3 1K only,86.7,0.8298507462686566,190M,[],2210.01820v2
+Image Classification,ImageNet,Heinsen Routing + BEiT-large 16 224,86.7,0.8298507462686566,312.8M,"['Transformer', 'ImageNet-1k only']",2211.11754v3
+Image Classification,ImageNet,CLCNet (S:ViT+D:EffNet-B7) (retrain),86.61,0.8271641791044775,,['ImageNet-1k only'],2205.09612v5
+Image Classification,ImageNet,"CAFormer-M36 (224 res, 21K)",86.6,0.8268656716417907,56M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,"VAN-B4 (22K, 384res)",86.6,0.8268656716417907,60M,[],2202.09741v5
+Image Classification,ImageNet,data2vec (ViT-H),86.6,0.8268656716417907,656M,['ImageNet-1k only'],2202.03555v3
+Image Classification,ImageNet,DiNAT_s-Large (224x224; Pretrained on ImageNet-22K @ 224x224),86.5,0.8238805970149252,,['ImageNet-22k'],2209.15001v3
+Image Classification,ImageNet,MKD ViT-L,86.5,0.8238805970149252,,"['Teacher-22k', 'ImageNet-22k']",2202.07940v1
+Image Classification,ImageNet,"TinyViT-21M-512-distill (512 res, 21k)",86.5,0.8238805970149252,21M,"['ImageNet-22k', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,PatchConvNet-B60-21k-384,86.5,0.8238805970149252,99.4M,"['PatchConvnet', 'ImageNet-22k']",2112.13692v1
+Image Classification,ImageNet,CaiT-M-48-448,86.5,0.8238805970149252,438M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,NFNet-F6 w/ SAM,86.5,0.8238805970149252,438.4M,['ImageNet-1k only'],2102.06171v1
+Image Classification,ImageNet,CLCNet (S:ViT+D:VOLO-D3) (retrain),86.46,0.8226865671641788,,['ImageNet-1k only'],2205.09612v5
+Image Classification,ImageNet,CLCNet (S:ConvNeXt-L+D:EffNet-B7) (retrain),86.42,0.8214925373134327,,['ImageNet-1k only'],2205.09612v5
+Image Classification,ImageNet,MaxViT-L (384res),86.4,0.8208955223880597,,[],2204.01697v4
+Image Classification,ImageNet,UniRepLKNet-S++,86.4,0.8208955223880597,,[],2311.15599v2
+Image Classification,ImageNet,FixEfficientNet-B5,86.4,0.8208955223880597,30M,"['JFT-300M', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,"ConvFormer-S36 (384 res, 21K)",86.4,0.8208955223880597,40M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B6),86.4,0.8208955223880597,43M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,Swin-B,86.4,0.8208955223880597,88M,"['ImageNet-22k', 'Transformer']",2103.14030v2
+Image Classification,ImageNet,CAFormer-B36 (384 res),86.4,0.8208955223880597,99M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,LV-ViT-L,86.4,0.8208955223880597,151M,"['ImageNet-1k only', 'Transformer']",2104.10858v3
+Image Classification,ImageNet,FixResNeXt-101 32x48d,86.4,0.8208955223880597,829M,['ResNeXt'],1906.06423v4
+Image Classification,ImageNet,MaxViT-B (384res),86.34,0.8191044776119403,,[],2204.01697v4
+Image Classification,ImageNet,Bamboo (Bamboo-L),86.3,0.8179104477611938,,['ImageNet-1k only'],2205.10505v3
+Image Classification,ImageNet,ViT-B@224 (cosub),86.3,0.8179104477611938,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,Our SP-ViT-L|384,86.3,0.8179104477611938,,[],2206.07662v1
+Image Classification,ImageNet,BEiT-L (ViT; ImageNet 1k pretrain),86.3,0.8179104477611938,86M,"['Transformer', 'ImageNet-1k only']",2106.08254v2
+Image Classification,ImageNet,VOLO-D3,86.3,0.8179104477611938,86M,['ImageNet-1k only'],2106.13112v2
+Image Classification,ImageNet,VAN-B5 (22K),86.3,0.8179104477611938,90M,[],2202.09741v5
+Image Classification,ImageNet,UniFormer-L (384 res),86.3,0.8179104477611938,100M,[],2201.09450v3
+Image Classification,ImageNet,MViTv2-L (384 res),86.3,0.8179104477611938,218M,[],2112.01526v2
+Image Classification,ImageNet,CAIT-M36-448,86.3,0.8179104477611938,271M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,NFNet-F5 w/ SAM,86.3,0.8179104477611938,377.2M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,"TinySaver(ConvNeXtV2_h, 0.01 Acc drop)",86.24,0.8161194029850743,,"['MoE', 'Early Exit', 'Dynamic Model Arch']",2403.17726v1
+Image Classification,ImageNet,Swin-B@224 (cosub),86.2,0.8149253731343283,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,"TinyViT-21M-384-distill (384 res, 21k)",86.2,0.8149253731343283,21M,"['ImageNet-22k', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,CAFormer-M36 (384 res),86.2,0.8149253731343283,56M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,"TransNeXt-Base (IN-1K supervised, 384)",86.2,0.8149253731343283,89.7M,"['Transformer', 'ImageNet-1k only']",2311.17132v3
+Image Classification,ImageNet,MIRL (ViT-B-48),86.2,0.8149253731343283,341M,"['Transformer', 'ImageNet-1k only']",2309.14136v3
+Image Classification,ImageNet,MaxViT-S (512res),86.19,0.8146268656716416,,[],2204.01697v4
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B5),86.1,0.8119402985074624,30M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,EfficientNetV2-M (21k),86.1,0.8119402985074624,55M,"['ImageNet-22k', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,"ConvFormer-M36 (224 res, 21K)",86.1,0.8119402985074624,57M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,CAIT-M-36,86.1,0.8119402985074624,270.9M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,Refiner-ViT-L,86.03,0.8098507462686566,81M,"['ImageNet-1k only', 'Transformer']",2106.03714v1
+Image Classification,ImageNet,GPaCo (ViT-L),86.01,0.8092537313432836,,"['Contrastive', 'Transformer', 'ImageNet-1k only']",2209.12400v2
+Image Classification,ImageNet,Omnivore (Swin-L),86.0,0.8089552238805969,,[],2201.08377v2
+Image Classification,ImageNet,Our SP-ViT-M|384,86.0,0.8089552238805969,,[],2206.07662v1
+Image Classification,ImageNet,"TransNeXt-Small (IN-1K supervised, 384)",86.0,0.8089552238805969,49.7M,"['Transformer', 'ImageNet-1k only']",2311.17132v3
+Image Classification,ImageNet,VOLO-D2,86.0,0.8089552238805969,59M,['ImageNet-1k only'],2106.13112v2
+Image Classification,ImageNet,XCiT-L24,86.0,0.8089552238805969,189M,"['Transformer', 'ImageNet-1k only']",2106.09681v2
+Image Classification,ImageNet,"SparK (ConvNeXt-Large, 384)",86.0,0.8089552238805969,198M,"['ConvNeXt', 'CNN', 'ImageNet-1k only']",2301.03580v2
+Image Classification,ImageNet,NFNet-F5,86.0,0.8089552238805969,377.2M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,MAE (ViT-L),85.9,0.8059701492537313,,"['Transformer', 'ImageNet-1k only']",2111.06377v2
+Image Classification,ImageNet,DAT-B++ (384x384),85.9,0.8059701492537313,,[],2309.01430v1
+Image Classification,ImageNet,FixEfficientNet-B4,85.9,0.8059701492537313,19M,"['JFT-300M', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,NFNet-F4,85.9,0.8059701492537313,316.1M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,ConvNeXt-B@224 (cosub),85.8,0.8029850746268654,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,PiT-B@224 (cosub),85.8,0.8029850746268654,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,GTP-ViT-B-Patch8/P20,85.8,0.8029850746268654,,[],2311.03035v2
+Image Classification,ImageNet,"CAFormer-S36 (224 res, 21K)",85.8,0.8029850746268654,39M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,XCiT-M24,85.8,0.8029850746268654,84M,"['ImageNet-1k only', 'Transformer']",2106.09681v2
+Image Classification,ImageNet,Fix-EfficientNet-B8 (MaxUp + CutMix),85.8,0.8029850746268654,87.42M,"['ImageNet-1k only', 'EfficientNet']",2002.09024v1
+Image Classification,ImageNet,KDforAA (EfficientNet-B8),85.8,0.8029850746268654,88M,"['ImageNet-1k only', 'EfficientNet']",2003.11342v1
+Image Classification,ImageNet,CAIT-M-24,85.8,0.8029850746268654,185.9M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,ViT-L,85.8,0.8029850746268654,304.8M,['ImageNet-1k only'],2204.07118v1
+Image Classification,ImageNet,SEER (RG-10B),85.8,0.8029850746268654,10000M,"['Self-Supervised Learning', 'RegNet', 'IG-1B']",2202.08360v2
+Image Classification,ImageNet,"TinySaver(ConvNeXtV2_h, 0.5 Acc drop)",85.75,0.8014925373134327,,"['MoE', 'Early Exit', 'Dynamic Model Arch']",2403.17726v1
+Image Classification,ImageNet,"TinySaver(Swin_large, 0.5 Acc drop)",85.74,0.801194029850746,,"['MoE', 'Early Exit', 'Dynamic Model Arch']",2403.17726v1
+Image Classification,ImageNet,MaxViT-T(512res),85.72,0.8005970149253729,,[],2204.01697v4
+Image Classification,ImageNet,FixEfficientNet-B8,85.7,0.7999999999999999,,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,EfficientNetV2-L,85.7,0.7999999999999999,,"['ImageNet-1k only', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,"ViT-B @224 (DeiT III, 21k)",85.7,0.7999999999999999,,['ImageNet-22k'],2204.07118v1
+Image Classification,ImageNet,dBOT ViT-B (CLIP as Teacher),85.7,0.7999999999999999,,['CLIP data '],2209.03917v3
+Image Classification,ImageNet,CAFormer-S36 (384 res),85.7,0.7999999999999999,39M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,VAN-B4 (22K),85.7,0.7999999999999999,60M,[],2202.09741v5
+Image Classification,ImageNet,ConvFormer-B36 (384 res),85.7,0.7999999999999999,100M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,NFNet-F3,85.7,0.7999999999999999,254.9M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,ViT-H @224 (DeiT-III + AugSub),85.7,0.7999999999999999,632M,[],2306.11339v2
+Image Classification,ImageNet,XCiT-S24,85.6,0.797014925373134,48M,"['Transformer', 'ImageNet-1k only']",2106.09681v2
+Image Classification,ImageNet,ConvFormer-M36 (384 res),85.6,0.797014925373134,57M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,UniFormer-L,85.6,0.797014925373134,100M,[],2201.09450v3
+Image Classification,ImageNet,ViT-L@384 (attn finetune),85.5,0.7940298507462685,,['ImageNet-1k only'],2203.09795v1
+Image Classification,ImageNet,Our SP-ViT-L,85.5,0.7940298507462685,,[],2206.07662v1
+Image Classification,ImageNet,Mini-Swin-B@384,85.5,0.7940298507462685,47M,"['Conv+Transformer', 'ImageNet-1k only', 'Transformer']",2204.07154v1
+Image Classification,ImageNet,Wave-ViT-L,85.5,0.7940298507462685,57.5M,[],2207.04978v1
+Image Classification,ImageNet,KDforAA (EfficientNet-B7),85.5,0.7940298507462685,66M,"['ImageNet-1k only', 'EfficientNet']",2003.11342v1
+Image Classification,ImageNet,"HaloNet4 (base 128, Conv-12)",85.5,0.7940298507462685,87M,"['Transformer', 'ImageNet-1k only']",2103.12731v3
+Image Classification,ImageNet,AdvProp (EfficientNet-B8),85.5,0.7940298507462685,88M,"['ImageNet-1k only', 'EfficientNet']",1911.09665v2
+Image Classification,ImageNet,CAFormer-B36 (224 res),85.5,0.7940298507462685,99M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,ConvNeXt-L (384 res),85.5,0.7940298507462685,198M,[],2201.03545v2
+Image Classification,ImageNet,EfficientNet-B8 (RandAugment),85.4,0.791044776119403,,"['ImageNet-1k only', 'EfficientNet']",1909.13719v2
+Image Classification,ImageNet,BiFormer-B* (IN1k ptretrain),85.4,0.791044776119403,,[],2303.08810v1
+Image Classification,ImageNet,GTP-EVA-L/P8,85.4,0.791044776119403,,[],2311.03035v2
+Image Classification,ImageNet,PatchConvNet-S60-21k-512,85.4,0.791044776119403,25.2M,"['ImageNet-22k', 'PatchConvnet']",2112.13692v1
+Image Classification,ImageNet,"CAFormer-S18 (384 res, 21K)",85.4,0.791044776119403,26M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,"ConvFormer-S36 (224 res, 21K)",85.4,0.791044776119403,40M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,ConvFormer-S36 (384 res),85.4,0.791044776119403,40M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,CAIT-S-36,85.4,0.791044776119403,68.2M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,ResNeXt-101 32x48d,85.4,0.791044776119403,829M,"['IG-1B', 'ResNeXt']",1805.00932v1
+Image Classification,ImageNet,BiT-M (ResNet),85.39,0.7907462686567163,928M,"['ImageNet-22k', 'ResNet']",1912.11370v3
+Image Classification,ImageNet,ViT-L/16 Dosovitskiy et al. (2021),85.3,0.7880597014925371,,"['JFT-300M', 'Transformer']",2105.01601v4
+Image Classification,ImageNet,Omnivore (Swin-B),85.3,0.7880597014925371,,[],2201.08377v2
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B4),85.3,0.7880597014925371,19M,['EfficientNet'],1911.04252v4
+Image Classification,ImageNet,CAIT-S-48,85.3,0.7880597014925371,89.5M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,ViT-L @224 (DeiT-III + AugSub),85.3,0.7880597014925371,304M,[],2306.11339v2
+Image Classification,ImageNet,CLCNet (S:D1+D:D5),85.28,0.7874626865671641,,['ImageNet-1k only'],2205.09612v5
+Image Classification,ImageNet,MaxViT-T (384res),85.24,0.7862686567164177,,[],2204.01697v4
+Image Classification,ImageNet,"TinySaver(Swin_large, 1.0 Acc drop)",85.24,0.7862686567164177,,"['MoE', 'Early Exit', 'Dynamic Model Arch']",2403.17726v1
+Image Classification,ImageNet,ViT-H @224 (DeiT III),85.2,0.7850746268656716,,['ImageNet-1k only'],2204.07118v1
+Image Classification,ImageNet,VOLO-D1,85.2,0.7850746268656716,27M,['ImageNet-1k only'],2106.13112v2
+Image Classification,ImageNet,CAFormer-M36 (224 res),85.2,0.7850746268656716,56M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,AdvProp (EfficientNet-B7),85.2,0.7850746268656716,66M,"['ImageNet-1k only', 'EfficientNet']",1911.09665v2
+Image Classification,ImageNet,UniNet-B5,85.2,0.7850746268656716,73.5M,[],2110.04035v1
+Image Classification,ImageNet,DeiT-B 384,85.2,0.7850746268656716,87M,"['ImageNet-1k only', 'Transformer']",2012.12877v2
+Image Classification,ImageNet,EfficientNetV2-M,85.1,0.7820895522388057,,"['ImageNet-1k only', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,MKD ViT-B,85.1,0.7820895522388057,,"['Teacher-22k', 'ImageNet-22k']",2202.07940v1
+Image Classification,ImageNet,SP-ViT-S|384,85.1,0.7820895522388057,,[],2206.07662v1
+Image Classification,ImageNet,XCiT-S12,85.1,0.7820895522388057,26M,"['Transformer', 'ImageNet-1k only']",2106.09681v2
+Image Classification,ImageNet,CAIT-S-24,85.1,0.7820895522388057,46.9M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,ResNet200_vd_26w_4s_ssld,85.1,0.7820895522388057,76M,['ResNet'],2006.10702v1
+Image Classification,ImageNet,MixMIM-B,85.1,0.7820895522388057,88M,[],2205.13137v4
+Image Classification,ImageNet,NFNet-F2,85.1,0.7820895522388057,193.8M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,ResNeXt-101 32x32d,85.1,0.7820895522388057,466M,['ResNeXt'],1805.00932v1
+Image Classification,ImageNet,DiscreteViT,85.07,0.7811940298507459,,"['Transformer', 'ImageNet-1k only']",2111.10493v2
+Image Classification,ImageNet,EfficientNetV2-S (21k),85.0,0.7791044776119401,,"['ImageNet-22k', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,ViT-M@224 (cosub),85.0,0.7791044776119401,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,ViC-MAE (ViT-L),85.0,0.7791044776119401,,[],2303.12001v2
+Image Classification,ImageNet,FixEfficientNet-B3,85.0,0.7791044776119401,12M,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,CAFormer-S18 (384 res),85.0,0.7791044776119401,26M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,"ConvFormer-S18 (384 res, 21K)",85.0,0.7791044776119401,27M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,EfficientNet-B7 (RandAugment),85.0,0.7791044776119401,66M,"['ImageNet-1k only', 'EfficientNet']",1909.13719v2
+Image Classification,ImageNet,ViT-B @384 (DeiT III),85.0,0.7791044776119401,87M,['ImageNet-1k only'],2204.07118v1
+Image Classification,ImageNet,MaxViT-B (224res),84.95,0.7776119402985074,,[],2204.01697v4
+Image Classification,ImageNet,CaiT-S24,84.91,0.776417910447761,,[],2308.09372v2
+Image Classification,ImageNet,ViT-L @224 (DeiT III),84.9,0.7761194029850746,,['ImageNet-1k only'],2204.07118v1
+Image Classification,ImageNet,Our SP-ViT-M,84.9,0.7761194029850746,,[],2206.07662v1
+Image Classification,ImageNet,DAT-B++ (224x224),84.9,0.7761194029850746,,[],2309.01430v1
+Image Classification,ImageNet,"CvT-21 (384 res, ImageNet-22k pretrain)",84.9,0.7761194029850746,32M,"['ImageNet-22k', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,InternImage-B,84.9,0.7761194029850746,97M,[],2211.05778v4
+Image Classification,ImageNet,TinyViT-21M-distill (21k),84.8,0.7731343283582087,21M,"['ImageNet-22k', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,Wave-ViT-B,84.8,0.7731343283582087,33.5M,[],2207.04978v1
+Image Classification,ImageNet,CAIT-XS-36,84.8,0.7731343283582087,38.6M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,"SReT-B (384 res, ImageNet-1K only)",84.8,0.7731343283582087,71.2M,"['ImageNet-1k only', 'Transformer']",2111.05297v3
+Image Classification,ImageNet,MViT-B-24,84.8,0.7731343283582087,72.9M,"['Transformer', 'ImageNet-1k only']",2104.11227v1
+Image Classification,ImageNet,ActiveMLP-L,84.8,0.7731343283582087,76.4M,[],2203.06108v2
+Image Classification,ImageNet,"NoisyViT-B (384res, ImageNet-21k pretrain)",84.8,0.7731343283582087,86M,[],2309.10625v3
+Image Classification,ImageNet,"DAT-B (384 res, IN-1K only)",84.8,0.7731343283582087,88M,['Transformer'],2201.00520v3
+Image Classification,ImageNet,MIRL(ViT-S-54),84.8,0.7731343283582087,96M,"['Transformer', 'ImageNet-1k only']",2309.14136v3
+Image Classification,ImageNet,ConvFormer-B36 (224 res),84.8,0.7731343283582087,100M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,ResNeXt-101 32x16d (semi-weakly sup.),84.8,0.7731343283582087,193M,"['IG-1B', 'ResNeXt']",1905.00546v1
+Image Classification,ImageNet,ELSA-VOLO-D1,84.7,0.7701492537313432,27M,['ImageNet-1k only'],2112.12786v1
+Image Classification,ImageNet,"TransNeXt-Small (IN-1K supervised, 224)",84.7,0.7701492537313432,49.7M,"['Transformer', 'ImageNet-1k only']",2311.17132v3
+Image Classification,ImageNet,Next-ViT-L @384,84.7,0.7701492537313432,57.8M,[],2207.05501v4
+Image Classification,ImageNet,BoTNet T7,84.7,0.7701492537313432,75.1M,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,MogaNet-L,84.7,0.7701492537313432,83M,['CNN'],2211.03295v3
+Image Classification,ImageNet,LITv2-B|384,84.7,0.7701492537313432,87M,[],2205.13213v5
+Image Classification,ImageNet,NFNet-F1,84.7,0.7701492537313432,132.6M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,DAT-S++,84.6,0.7671641791044773,,[],2309.01430v1
+Image Classification,ImageNet,Sequencer2D-L\u2191392,84.6,0.7671641791044773,54M,[],2205.01972v4
+Image Classification,ImageNet,SE-CoTNetD-152,84.6,0.7671641791044773,55.8M,[],2107.12292v1
+Image Classification,ImageNet,AMD(ViT-B/16),84.6,0.7671641791044773,87M,"['Vision Transformer', 'ImageNet-1k only']",2311.03149v2
+Image Classification,ImageNet,DaViT-B,84.6,0.7671641791044773,87.9M,"['ImageNet-1k only', 'Transformer']",2204.03645v1
+Image Classification,ImageNet,ReXNet-R_3.0,84.5,0.7641791044776118,34.8M,[],2007.00992v3
+Image Classification,ImageNet,CAFormer-S36 (224 res),84.5,0.7641791044776118,39M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,ConvFormer-M36 (224 res),84.5,0.7641791044776118,57M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,GC ViT-B,84.5,0.7641791044776118,90M,[],2206.09959v5
+Image Classification,ImageNet,ResNeSt-269,84.5,0.7641791044776118,111M,"['CNN', 'ImageNet-1k only']",2004.08955v2
+Image Classification,ImageNet,MaxViT-S (224res),84.45,0.762686567164179,,[],2204.01697v4
+Image Classification,ImageNet,GPIPE,84.4,0.7611940298507464,,['ImageNet-1k only'],1811.06965v5
+Image Classification,ImageNet,ConvFormer-S18 (384 res),84.4,0.7611940298507464,27M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,EfficientNet-B7,84.4,0.7611940298507464,66M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,DiNAT-Base,84.4,0.7611940298507464,90M,"['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']",2209.15001v3
+Image Classification,ImageNet,ResNet-RS-50 (160 image res),84.4,0.7611940298507464,192M,"['ImageNet-1k only', 'ResNet']",2103.07579v1
+Image Classification,ImageNet,ColorNet (RHYLH with Conv Layer),84.32,0.7588059701492534,,[],1902.00267v1
+Image Classification,ImageNet,ViT-B@384 (attn finetune),84.3,0.7582089552238804,,['ImageNet-1k only'],2203.09795v1
+Image Classification,ImageNet,BiFormer-S* (IN1k ptretrain),84.3,0.7582089552238804,,[],2303.08810v1
+Image Classification,ImageNet,"SReT-S (512 res, ImageNet-1K only)",84.3,0.7582089552238804,21.3M,"['ImageNet-1k only', 'Transformer']",2111.05297v3
+Image Classification,ImageNet,LambdaResNet200,84.3,0.7582089552238804,42M,"['CNN', 'ImageNet-1k only']",2102.08602v1
+Image Classification,ImageNet,MogaNet-B,84.3,0.7582089552238804,44M,['CNN'],2211.03295v3
+Image Classification,ImageNet,TResNet-XL,84.3,0.7582089552238804,77M,"['CNN', 'ImageNet-1k only']",2003.13630v3
+Image Classification,ImageNet,ResNeXt-101 32x8d (semi-weakly sup.),84.3,0.7582089552238804,88M,['ResNeXt'],1905.00546v1
+Image Classification,ImageNet,NAT-Base,84.3,0.7582089552238804,90M,"['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']",2204.07143v5
+Image Classification,ImageNet,Assemble-ResNet152,84.2,0.7552238805970148,,"['ImageNet-1k only', 'ResNet']",2001.06268v2
+Image Classification,ImageNet,BoTNet T7-320,84.2,0.7552238805970148,,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,ViP-B|384,84.2,0.7552238805970148,,"['Transformer', 'ImageNet-1k only']",2107.05790v2
+Image Classification,ImageNet,Bamboo (Bamboo-B),84.2,0.7552238805970148,,['ImageNet-1k only'],2205.10505v3
+Image Classification,ImageNet,RegnetY16GF@224 (cosub),84.2,0.7552238805970148,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,EfficientViT-B3 (r288),84.2,0.7552238805970148,,[],2205.14756v6
+Image Classification,ImageNet,InternImage-S,84.2,0.7552238805970148,50M,[],2211.05778v4
+Image Classification,ImageNet,UniNet-B4,84.2,0.7552238805970148,73.5M,[],2110.04035v1
+Image Classification,ImageNet,DeiT-B,84.2,0.7552238805970148,86M,"['ImageNet-1k only', 'Transformer']",2012.12877v2
+Image Classification,ImageNet,ViT-B @224 (DeiT-III + AugSub),84.2,0.7552238805970148,86.6M,[],2306.11339v2
+Image Classification,ImageNet,RevBiFPN-S6,84.2,0.7552238805970148,142.3M,"['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,ResNeXt-101 32\u00d716d,84.2,0.7552238805970148,194M,[],1805.00932v1
+Image Classification,ImageNet,FBNetV5-F-CLS,84.1,0.7522388059701489,,[],2111.10007v2
+Image Classification,ImageNet,ViT-B-36x1,84.1,0.7522388059701489,,['ImageNet-1k only'],2203.09795v1
+Image Classification,ImageNet,ViT-B-18x2,84.1,0.7522388059701489,,['ImageNet-1k only'],2203.09795v1
+Image Classification,ImageNet,XCiT-M (+MixPro),84.1,0.7522388059701489,,[],2304.12043v2
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B3),84.1,0.7522388059701489,12M,"['ImageNet-1k only', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,"CAFormer-S18 (224 res, 21K)",84.1,0.7522388059701489,26M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,CAIT-XS-24,84.1,0.7522388059701489,26.6M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,ConvFormer-S36 (224 res),84.1,0.7522388059701489,40M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,LV-ViT-M,84.1,0.7522388059701489,56M,"['ImageNet-1k only', 'Transformer']",2104.10858v3
+Image Classification,ImageNet,Conformer-B,84.1,0.7522388059701489,83.3M,"['ImageNet-1k only', 'Transformer']",2105.03889v1
+Image Classification,ImageNet,PatchConvNet-B120,84.1,0.7522388059701489,188.6M,"['ImageNet-1k only', 'PatchConvnet']",2112.13692v1
+Image Classification,ImageNet,GPaCo (Vit-B),84.0,0.7492537313432834,,[],2209.12400v2
+Image Classification,ImageNet,AIM-7B,84.0,0.7492537313432834,,[],2401.08541v1
+Image Classification,ImageNet,FixEfficientNetB4,84.0,0.7492537313432834,19M,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,Fix_ResNet50_vd_ssld,84.0,0.7492537313432834,25.58M,['ResNet'],2006.10702v1
+Image Classification,ImageNet,"TransNeXt-Tiny (IN-1K supervised, 224)",84.0,0.7492537313432834,28.2M,"['Transformer', 'ImageNet-1k only']",2311.17132v3
+Image Classification,ImageNet,LambdaResNet152,84.0,0.7492537313432834,35M,"['ImageNet-1k only', 'ResNet']",2102.08602v1
+Image Classification,ImageNet,EfficientNet-B6,84.0,0.7492537313432834,43M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,GC ViT-S,84.0,0.7492537313432834,51M,[],2206.09959v5
+Image Classification,ImageNet,BoTNet T6,84.0,0.7492537313432834,53.9M,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,PiT-B,84.0,0.7492537313432834,73.8M,"['ImageNet-1k only', 'Transformer']",2103.16302v2
+Image Classification,ImageNet,DeepMAD-89M,84.0,0.7492537313432834,89M,"['ImageNet-1k only', 'CNN']",2303.02165v3
+Image Classification,ImageNet,Our SP-ViT-S,83.9,0.746268656716418,,[],2206.07662v1
+Image Classification,ImageNet,UniRepLKNet-S,83.9,0.746268656716418,,[],2311.15599v2
+Image Classification,ImageNet,DAT-T++,83.9,0.746268656716418,,[],2309.01430v1
+Image Classification,ImageNet,Wave-ViT-S,83.9,0.746268656716418,22.7M,[],2207.04978v1
+Image Classification,ImageNet,EfficientNetV2-S,83.9,0.746268656716418,24M,"['ImageNet-1k only', 'EfficientNet']",2104.00298v3
+Image Classification,ImageNet,ASF-former-B,83.9,0.746268656716418,56.7M,[],2204.12196v2
+Image Classification,ImageNet,DynamicViT-LV-M/0.8,83.9,0.746268656716418,57.1M,"['ImageNet-1k only', 'Transformer']",2106.02034v2
+Image Classification,ImageNet,TNT-B,83.9,0.746268656716418,65.6M,"['ImageNet-1k only', 'Transformer']",2103.00112v3
+Image Classification,ImageNet,ResNeSt-200,83.9,0.746268656716418,70M,"['CNN', 'ImageNet-1k only']",2004.08955v2
+Image Classification,ImageNet,AmoebaNet-A,83.9,0.746268656716418,469M,"['CNN', 'ImageNet-1k only']",1802.01548v7
+Image Classification,ImageNet,CLCNet (S:B4+D:B7),83.88,0.7456716417910445,,['ImageNet-1k only'],2205.09612v5
+Image Classification,ImageNet,ResNet-RS-270 (256 image res),83.8,0.743283582089552,,"['ImageNet-1k only', 'ResNet']",2103.07579v1
+Image Classification,ImageNet,SENet-350,83.8,0.743283582089552,,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,ViT-B @224 (DeiT III),83.8,0.743283582089552,,['ImageNet-1k only'],2204.07118v1
+Image Classification,ImageNet,"SReT-S (384 res, ImageNet-1K only)",83.8,0.743283582089552,21M,"['ImageNet-1k only', 'Transformer']",2111.05297v3
+Image Classification,ImageNet,DiNAT-Small,83.8,0.743283582089552,51M,"['Neighborhood Attention', 'NAT Transformer', 'Transformer', 'ImageNet-1k only']",2209.15001v3
+Image Classification,ImageNet,Transformer local-attention (NesT-B),83.8,0.743283582089552,68M,"['ImageNet-1k only', 'Transformer']",2105.12723v4
+Image Classification,ImageNet,PVTv2-B4,83.8,0.743283582089552,82M,"['Transformer', 'ImageNet-1k only']",2106.13797v7
+Image Classification,ImageNet,CA-Swin-S (+MixPro),83.7,0.7402985074626866,,[],2304.12043v2
+Image Classification,ImageNet,GTP-ViT-L/P8,83.7,0.7402985074626866,,[],2311.03035v2
+Image Classification,ImageNet,"ConvFormer-S18 (224 res, 21K)",83.7,0.7402985074626866,27M,['ImageNet-22k'],2210.13452v3
+Image Classification,ImageNet,DAT-S,83.7,0.7402985074626866,50M,[],2201.00520v3
+Image Classification,ImageNet,NAT-Small,83.7,0.7402985074626866,51M,"['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']",2204.07143v5
+Image Classification,ImageNet,QnA-ViT-Base,83.7,0.7402985074626866,56M,[],2112.11435v2
+Image Classification,ImageNet,RevBiFPN-S5,83.7,0.7402985074626866,82M,"['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,Pyramid ViG-B,83.7,0.7402985074626866,92.6M,[],2206.00272v3
+Image Classification,ImageNet,Twins-SVT-L,83.7,0.7402985074626866,99.2M,"['ImageNet-1k only', 'Transformer']",2104.13840v4
+Image Classification,ImageNet,TransBoost-ViT-S,83.67,0.7394029850746268,22.05M,[],2205.13331v4
+Image Classification,ImageNet,XCiT-S,83.65,0.7388059701492538,,[],2308.09372v2
+Image Classification,ImageNet,MaxViT-T (224res),83.62,0.7379104477611941,,[],2204.01697v4
+Image Classification,ImageNet,Wave-ViT-S,83.61,0.7376119402985073,,[],2308.09372v2
+Image Classification,ImageNet,LITv2-B,83.6,0.7373134328358206,,[],2205.13213v5
+Image Classification,ImageNet,MultiGrain PNASNet (500px),83.6,0.7373134328358206,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,MAE (ViT-L),83.6,0.7373134328358206,,"['Transformer', 'ImageNet-1k only']",2111.06377v2
+Image Classification,ImageNet,PAT-B,83.6,0.7373134328358206,,[],2211.16961v5
+Image Classification,ImageNet,FixEfficientNet-B2,83.6,0.7373134328358206,9.2M,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,CAFormer-S18 (224 res),83.6,0.7373134328358206,26M,[],2210.13452v3
+Image Classification,ImageNet,IPT-B,83.6,0.7373134328358206,39.3M,[],2212.03035v1
+Image Classification,ImageNet,ViTAE-B-Stage,83.6,0.7373134328358206,48.5M,"['Transformer', 'ImageNet-1k only']",2106.03348v4
+Image Classification,ImageNet,ResT-Large,83.6,0.7373134328358206,51.63M,"['ImageNet-1k only', 'Transformer']",2105.13677v5
+Image Classification,ImageNet,NFNet-F0,83.6,0.7373134328358206,71.5M,"['CNN', 'ImageNet-1k only']",2102.06171v1
+Image Classification,ImageNet,"SE-ResNeXt-101, 64x4d, S=2(320px)",83.6,0.7373134328358206,98M,[],2011.14660v4
+Image Classification,ImageNet,ResMLP-B24/8,83.6,0.7373134328358206,116M,"['ImageNet-1k only', 'MLP']",2105.03404v2
+Image Classification,ImageNet,"TinySaver(EfficientFormerV2_l, 0.01 Acc drop)",83.52,0.7349253731343282,,"['MoE', 'Early Exit', 'Dynamic Model Arch']",2403.17726v1
+Image Classification,ImageNet,BoTNet T5,83.5,0.7343283582089551,,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,InternImage-T,83.5,0.7343283582089551,30M,[],2211.05778v4
+Image Classification,ImageNet,PatchConvNet-B60,83.5,0.7343283582089551,99.4M,"['ImageNet-1k only', 'PatchConvnet']",2112.13692v1
+Image Classification,ImageNet,ViT-B (hMLP + BeiT),83.4,0.7313432835820896,,[],2203.09795v1
+Image Classification,ImageNet,UniFormer-S,83.4,0.7313432835820896,22M,[],2201.09450v3
+Image Classification,ImageNet,ViT-S @384 (DeiT III),83.4,0.7313432835820896,22M,[],2204.07118v1
+Image Classification,ImageNet,MogaNet-S,83.4,0.7313432835820896,25M,['CNN'],2211.03295v3
+Image Classification,ImageNet,GC ViT-T,83.4,0.7313432835820896,28M,[],2206.09959v5
+Image Classification,ImageNet,ResNeXt-101 32x4d (semi-weakly sup.),83.4,0.7313432835820896,42M,['ResNeXt'],1905.00546v1
+Image Classification,ImageNet,Sequencer2D-L,83.4,0.7313432835820896,54M,[],2205.01972v4
+Image Classification,ImageNet,sMLPNet-B (ImageNet-1k),83.4,0.7313432835820896,65.9M,"['ImageNet-1k only', 'MLP']",2109.05422v2
+Image Classification,ImageNet,"SE-ResNeXt-101, 64x4d, S=2(416px)",83.34,0.7295522388059701,98M,"['ImageNet-1k only', 'ResNeXt']",2011.14660v4
+Image Classification,ImageNet,CvT-21 (384 res),83.3,0.7283582089552236,,"['ImageNet-1k only', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,T2T-ViT-14|384,83.3,0.7283582089552236,,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,CeiT-S (384 finetune res),83.3,0.7283582089552236,24.2M,"['ImageNet-1k only', 'Transformer']",2103.11816v2
+Image Classification,ImageNet,LV-ViT-S,83.3,0.7283582089552236,26M,[],2104.10858v3
+Image Classification,ImageNet,MOAT-0 1K only,83.3,0.7283582089552236,27.8M,[],2210.01820v2
+Image Classification,ImageNet,EfficientNet-B5,83.3,0.7283582089552236,30M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,Transformer local-attention (NesT-S),83.3,0.7283582089552236,38M,"['ImageNet-1k only', 'Transformer']",2105.12723v4
+Image Classification,ImageNet,ViL-Medium-D,83.3,0.7283582089552236,39.7M,"['ImageNet-1k only', 'Transformer']",2103.15358v2
+Image Classification,ImageNet,LITv2-M,83.3,0.7283582089552236,49M,[],2205.13213v5
+Image Classification,ImageNet,Shift-B,83.3,0.7283582089552236,88M,[],2201.10801v1
+Image Classification,ImageNet,MultiGrain PNASNet (450px),83.2,0.7253731343283581,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,Meta Pseudo Labels (ResNet-50),83.2,0.7253731343283581,,[],2003.10580v4
+Image Classification,ImageNet,UniRepLKNet-T,83.2,0.7253731343283581,,[],2311.15599v2
+Image Classification,ImageNet,TinyViT-11M-distill (21k),83.2,0.7253731343283581,11M,"['ImageNet-22k', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,ReXNet-R_2.0,83.2,0.7253731343283581,16.5M,[],2007.00992v3
+Image Classification,ImageNet,QnA-ViT-Small,83.2,0.7253731343283581,25M,[],2112.11435v2
+Image Classification,ImageNet,NAT-Tiny,83.2,0.7253731343283581,28M,"['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']",2204.07143v5
+Image Classification,ImageNet,SE-CoTNetD-101,83.2,0.7253731343283581,40.9M,[],2107.12292v1
+Image Classification,ImageNet,Next-ViT-B,83.2,0.7253731343283581,44.8M,[],2207.05501v4
+Image Classification,ImageNet,PVTv2-B3,83.2,0.7253731343283581,45.2M,"['Transformer', 'ImageNet-1k only']",2106.13797v7
+Image Classification,ImageNet,PatchConvNet-S120,83.2,0.7253731343283581,47.7M,"['ImageNet-1k only', 'PatchConvnet']",2112.13692v1
+Image Classification,ImageNet,ViL-Base-D,83.2,0.7253731343283581,55.7M,"['ImageNet-1k only', 'Transformer']",2103.15358v2
+Image Classification,ImageNet,CycleMLP-B5,83.2,0.7253731343283581,76M,"['ImageNet-1k only', 'MLP']",2107.10224v4
+Image Classification,ImageNet,MultiGrain SENet154 (450px),83.1,0.7223880597014922,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,DeepVit-L* (DeiT training recipe),83.1,0.7223880597014922,,"['ImageNet-1k only', 'Transformer']",2103.11886v4
+Image Classification,ImageNet,"ViT-S @224 (DeiT III, 21k)",83.1,0.7223880597014922,,[],2204.07118v1
+Image Classification,ImageNet,MKD ViT-S,83.1,0.7223880597014922,,[],2202.07940v1
+Image Classification,ImageNet,ViT-S@224 (cosub),83.1,0.7223880597014922,,['ImageNet-22k'],2212.04884v1
+Image Classification,ImageNet,PAT-S,83.1,0.7223880597014922,,[],2211.16961v5
+Image Classification,ImageNet,TinyViT-21M,83.1,0.7223880597014922,21M,"['ImageNet-1k only', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,sMLPNet-S (ImageNet-1k),83.1,0.7223880597014922,48.6M,"['ImageNet-1k only', 'MLP']",2109.05422v2
+Image Classification,ImageNet,Pyramid ViG-M,83.1,0.7223880597014922,51.7M,[],2206.00272v3
+Image Classification,ImageNet,SwinV2-Ti,83.09,0.722089552238806,,[],2308.09372v2
+Image Classification,ImageNet,gSwin-S,83.01,0.7197014925373135,39.8M,"['ImageNet-1k only', 'Swin-Transformer', 'MLP']",2208.11718v1
+Image Classification,ImageNet,MultiGrain SENet154 (400px),83.0,0.7194029850746267,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,CvT-13 (384 res),83.0,0.7194029850746267,20M,"['ImageNet-1k only', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,ResNet50_vd_ssld,83.0,0.7194029850746267,25.58M,"['ImageNet-1k only', 'ResNet']",2006.10702v1
+Image Classification,ImageNet,ConvFormer-S18 (224 res),83.0,0.7194029850746267,27M,['ImageNet-1k only'],2210.13452v3
+Image Classification,ImageNet,MViT-B-16,83.0,0.7194029850746267,37.0M,"['Transformer', 'ImageNet-1k only']",2104.11227v1
+Image Classification,ImageNet,ResNeSt-101,83.0,0.7194029850746267,48M,"['CNN', 'ImageNet-1k only']",2004.08955v2
+Image Classification,ImageNet,RevBiFPN-S4,83.0,0.7194029850746267,48.7M,"['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,ZenNAS (0.8ms),83.0,0.7194029850746267,183M,[],2102.01063v4
+Image Classification,ImageNet,DeiT-B (+MixPro),82.9,0.7164179104477613,,[],2304.12043v2
+Image Classification,ImageNet,IPT-S,82.9,0.7164179104477613,24.3M,[],2212.03035v1
+Image Classification,ImageNet,ViL-Medium-W,82.9,0.7164179104477613,39.8M,"['ImageNet-1k only', 'Transformer']",2103.15358v2
+Image Classification,ImageNet,GFNet-H-B,82.9,0.7164179104477613,54M,"['Transformer', 'ImageNet-1k only']",2107.00645v2
+Image Classification,ImageNet,Oct-ResNet-152 (SE),82.9,0.7164179104477613,66.8M,"['CNN', 'ImageNet-1k only']",1904.05049v3
+Image Classification,ImageNet,PNASNet-5,82.9,0.7164179104477613,86.1M,"['CNN', 'ImageNet-1k only']",1712.00559v3
+Image Classification,ImageNet,"Harm-SE-RNX-101 64x4d (320x320, Mean-Max Pooling)",82.85,0.714925373134328,88.2M,"['CNN', 'ImageNet-1k only']",2001.06570v3
+Image Classification,ImageNet,GTP-LV-ViT-M/P8,82.8,0.7134328358208953,,[],2311.03035v2
+Image Classification,ImageNet,FunMatch - T384+224 (ResNet-50),82.8,0.7134328358208953,,"['CNN', 'ImageNet-1k only']",2106.05237v2
+Image Classification,ImageNet,CA-Swin-T (+MixPro),82.8,0.7134328358208953,,[],2304.12043v2
+Image Classification,ImageNet,VAN-B2,82.8,0.7134328358208953,26.6M,[],2202.09741v5
+Image Classification,ImageNet,DaViT-T,82.8,0.7134328358208953,28.3M,"['ImageNet-1k only', 'Transformer']",2204.03645v1
+Image Classification,ImageNet,ReXNet_3.0,82.8,0.7134328358208953,34.7M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,Sequencer2D-M,82.8,0.7134328358208953,38M,[],2205.01972v4
+Image Classification,ImageNet,CrossViT-18+,82.8,0.7134328358208953,44.3M,"['ImageNet-1k only', 'Transformer']",2103.14899v2
+Image Classification,ImageNet,Shift-S,82.8,0.7134328358208953,50M,[],2201.10801v1
+Image Classification,ImageNet,HRFormer-B,82.8,0.7134328358208953,50.3M,[],2110.09408v3
+Image Classification,ImageNet,BoTNet T4,82.8,0.7134328358208953,54.7M,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,CCT-14/7x2 | 384,82.71,0.7107462686567161,,"['Transformer', 'ImageNet-1k only']",2104.05704v4
+Image Classification,ImageNet,MultiGrain SENet154 (500px),82.7,0.7104477611940299,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,PVT-M (+MixPro),82.7,0.7104477611940299,,[],2304.12043v2
+Image Classification,ImageNet,ASF-former-S,82.7,0.7104477611940299,19.3M,[],2204.12196v2
+Image Classification,ImageNet,Container Container,82.7,0.7104477611940299,22.1M,[],2106.01401v2
+Image Classification,ImageNet,UniNet-B2,82.7,0.7104477611940299,22.5M,[],2110.04035v1
+Image Classification,ImageNet,DiNAT-Tiny,82.7,0.7104477611940299,28M,"['Neighborhood Attention', 'Transformer', 'NAT Transformer', 'ImageNet-1k only']",2209.15001v3
+Image Classification,ImageNet,ELSA-Swin-T,82.7,0.7104477611940299,28M,[],2112.12786v1
+Image Classification,ImageNet,NASNET-A(6),82.7,0.7104477611940299,88.9M,"['CNN', 'ImageNet-1k only']",1707.07012v4
+Image Classification,ImageNet,RVT-B*,82.7,0.7104477611940299,91.8M,"['ImageNet-1k only', 'Transformer']",2105.07926v4
+Image Classification,ImageNet,FBNetV5-C-CLS,82.6,0.7074626865671639,,[],2111.10007v2
+Image Classification,ImageNet,MultiGrain PNASNet (400px),82.6,0.7074626865671639,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,ViT-S-24x2,82.6,0.7074626865671639,,[],2203.09795v1
+Image Classification,ImageNet,FixEfficientNet-B1,82.6,0.7074626865671639,7.8M,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,EfficientNet-B4,82.6,0.7074626865671639,19M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,DeiT-B,82.6,0.7074626865671639,22M,"['ImageNet-1k only', 'Transformer']",2012.12877v2
+Image Classification,ImageNet,T2T-ViTt-24,82.6,0.7074626865671639,64.4M,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,ViT-S,82.54,0.7056716417910448,,[],2308.09372v2
+Image Classification,ImageNet,CvT-21,82.5,0.7044776119402985,,"['ImageNet-1k only', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,"TransNeXt-Micro (IN-1K supervised, 224)",82.5,0.7044776119402985,12.8M,"['Transformer', 'ImageNet-1k only']",2311.17132v3
+Image Classification,ImageNet,FixResNet-50 Billion-scale@224,82.5,0.7044776119402985,25.6M,[],1906.06423v4
+Image Classification,ImageNet,Next-ViT-S,82.5,0.7044776119402985,31.7M,[],2207.05501v4
+Image Classification,ImageNet,LeViT-384,82.5,0.7044776119402985,39.4M,"['ImageNet-1k only', 'Transformer']",2104.01136v2
+Image Classification,ImageNet,CrossViT-18,82.5,0.7044776119402985,43.3M,"['ImageNet-1k only', 'Transformer']",2103.14899v2
+Image Classification,ImageNet,MetaFormer PoolFormer-M48,82.5,0.7044776119402985,73M,"['Transformer', 'ImageNet-1k only']",2111.11418v3
+Image Classification,ImageNet,ConViT-B+,82.5,0.7044776119402985,152M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,TransBoost-ConvNext-T,82.46,0.703283582089552,28.59M,[],2205.13331v4
+Image Classification,ImageNet,ReViT-B,82.4,0.7014925373134329,,[],2402.11301v1
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B2),82.4,0.7014925373134329,9.2M,"['ImageNet-1k only', 'JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,AutoFormer-base,82.4,0.7014925373134329,54M,"['ImageNet-1k only', 'Transformer']",2107.00651v1
+Image Classification,ImageNet,ResNet-152 (A2 + reg),82.4,0.7014925373134329,60.2M,"['CNN', 'ImageNet-1k only']",2110.00476v1
+Image Classification,ImageNet,ConViT-B,82.4,0.7014925373134329,86M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,DeiT-B with iRPE-K,82.4,0.7014925373134329,87M,"['ImageNet-1k only', 'Transformer']",2107.14222v1
+Image Classification,ImageNet,Mega,82.4,0.7014925373134329,90M,[],2209.10655v3
+Image Classification,ImageNet,ViT-B/16-224+HTM,82.37,0.7005970149253732,,[],2210.07562v1
+Image Classification,ImageNet,ColorNet,82.35,0.6999999999999997,,"['CNN', 'ImageNet-1k only']",1902.00267v1
+Image Classification,ImageNet,T2T-ViT-24,82.3,0.6985074626865669,,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,ViT-S-48x1,82.3,0.6985074626865669,,[],2203.09795v1
+Image Classification,ImageNet,MViTv2-T,82.3,0.6985074626865669,24M,[],2112.01526v2
+Image Classification,ImageNet,SCARLET-A4,82.3,0.6985074626865669,27.8M,"['CNN', 'ImageNet-1k only']",1908.06022v6
+Image Classification,ImageNet,Sequencer2D-S,82.3,0.6985074626865669,28M,[],2205.01972v4
+Image Classification,ImageNet,CrossViT-15+,82.3,0.6985074626865669,28.2M,"['ImageNet-1k only', 'Transformer']",2103.14899v2
+Image Classification,ImageNet,GLiT-Bases,82.3,0.6985074626865669,96.1M,"['Transformer', 'ImageNet-1k only']",2107.02960v3
+Image Classification,ImageNet,EViT (delete),82.29,0.6982089552238807,,[],2308.09372v2
+Image Classification,ImageNet,STViT-Swin-Ti,82.22,0.6961194029850745,,[],2308.09372v2
+Image Classification,ImageNet,BossNet-T1,82.2,0.6955223880597015,,[],2103.12424v3
+Image Classification,ImageNet,CAIT-XXS-36,82.2,0.6955223880597015,17.3M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,CvT-13-NAS,82.2,0.6955223880597015,18M,"['ImageNet-1k only', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,ViTAE-S-Stage,82.2,0.6955223880597015,19.2M,"['Transformer', 'ImageNet-1k only']",2106.03348v4
+Image Classification,ImageNet,T2T-ViTt-19,82.2,0.6955223880597015,39.2M,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,Evo-LeViT-384*,82.2,0.6955223880597015,39.6M,"['Transformer', 'ImageNet-1k only']",2108.01390v5
+Image Classification,ImageNet,Visformer-S,82.2,0.6955223880597015,40.2M,"['ImageNet-1k only', 'Transformer']",2104.12533v4
+Image Classification,ImageNet,ConViT-S+,82.2,0.6955223880597015,48M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,ConvMixer-1536/20,82.2,0.6955223880597015,51.6M,"['Mixer', 'ImageNet-1k only']",2201.09792v1
+Image Classification,ImageNet,DeepVit-L,82.2,0.6955223880597015,55M,"['ImageNet-1k only', 'Transformer']",2103.11886v4
+Image Classification,ImageNet,SENet-152,82.2,0.6955223880597015,66.6M,"['Transformer', 'ImageNet-1k only']",2101.11605v2
+Image Classification,ImageNet,ResNeXt-101 32x8d,82.2,0.6955223880597015,88M,"['ImageNet-1k only', 'ResNeXt']",1805.00932v1
+Image Classification,ImageNet,TransBoost-Swin-T,82.16,0.694328358208955,71.71M,[],2205.13331v4
+Image Classification,ImageNet,"ResNeXt-101, 64x4d, S=2(224px)",82.13,0.6934328358208953,88.6M,"['ImageNet-1k only', 'ResNeXt']",2011.14660v4
+Image Classification,ImageNet,ToMe-ViT-S,82.11,0.6928358208955223,,[],2308.09372v2
+Image Classification,ImageNet,AMD(ViT-S/16),82.1,0.6925373134328355,22M,"['Vision Transformer', 'ImageNet-1k only']",2311.03149v2
+Image Classification,ImageNet,PatchConvNet-S60,82.1,0.6925373134328355,25.2M,"['ImageNet-1k only', 'PatchConvnet']",2112.13692v1
+Image Classification,ImageNet,Pyramid ViG-S,82.1,0.6925373134328355,27.3M,[],2206.00272v3
+Image Classification,ImageNet,ConvNeXt-T,82.1,0.6925373134328355,29M,[],2201.03545v2
+Image Classification,ImageNet,CeiT-S,82.0,0.68955223880597,,"['ImageNet-1k only', 'Transformer']",2103.11816v2
+Image Classification,ImageNet,DIFFQ (\u03bb=1e\u22122),82.0,0.68955223880597,,"['CNN', 'ImageNet-1k only']",2104.09987v3
+Image Classification,ImageNet,NEXcepTion-S,82.0,0.68955223880597,,[],2212.08448v2
+Image Classification,ImageNet,GC ViT-XT,82.0,0.68955223880597,20M,[],2206.09959v5
+Image Classification,ImageNet,Container-Light,82.0,0.68955223880597,20M,"['CNN', 'Transformer', 'ImageNet-1k only']",2106.01401v2
+Image Classification,ImageNet,ViL-Small,82.0,0.68955223880597,24.6M,"['ImageNet-1k only', 'Transformer']",2103.15358v2
+Image Classification,ImageNet,PVTv2-B2,82.0,0.68955223880597,25.4M,"['Transformer', 'ImageNet-1k only']",2106.13797v7
+Image Classification,ImageNet,ActiveMLP-T,82.0,0.68955223880597,27.2M,[],2203.06108v2
+Image Classification,ImageNet,LITv2-S,82.0,0.68955223880597,28M,[],2205.13213v5
+Image Classification,ImageNet,DAT-T,82.0,0.68955223880597,29M,[],2201.00520v3
+Image Classification,ImageNet,EViT (fuse),81.96,0.6883582089552236,,[],2308.09372v2
+Image Classification,ImageNet,GTP-LV-ViT-S/P8,81.9,0.6865671641791046,,[],2311.03035v2
+Image Classification,ImageNet,T2T-ViT-19,81.9,0.6865671641791046,,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,"ResNet-101 (224 res, Fast Knowledge Distillation)",81.9,0.6865671641791046,,"['ImageNet-1k only', 'ResNet']",2112.01528v1
+Image Classification,ImageNet,"Discrete Adversarial Distillation (ViT-B, 224)",81.9,0.6865671641791046,,[],2311.01441v2
+Image Classification,ImageNet,RVT-S*,81.9,0.6865671641791046,23.3M,"['ImageNet-1k only', 'Transformer']",2105.07926v4
+Image Classification,ImageNet,PiT-S,81.9,0.6865671641791046,23.5M,"['ImageNet-1k only', 'Transformer']",2103.16302v2
+Image Classification,ImageNet,sMLPNet-T (ImageNet-1k),81.9,0.6865671641791046,24.1M,"['ImageNet-1k only', 'MLP']",2109.05422v2
+Image Classification,ImageNet,ViL-Base-W,81.9,0.6865671641791046,79M,"['ImageNet-1k only', 'Transformer']",2103.15358v2
+Image Classification,ImageNet,Swin-T+SSA,81.89,0.6862686567164178,,[],2306.01705v1
+Image Classification,ImageNet,AOGNet-40M-AN,81.87,0.6856716417910448,,['ImageNet-1k only'],1908.01259v3
+Image Classification,ImageNet,FBNetV5,81.8,0.6835820895522386,,"['Transformer', 'ImageNet-1k only']",2111.10007v2
+Image Classification,ImageNet,ResNet-200,81.8,0.6835820895522386,,"['ImageNet-1k only', 'ResNet']",2107.12028v2
+Image Classification,ImageNet,RepMLPNet-L256,81.8,0.6835820895522386,,"['MLP', 'ImageNet-1k only']",2112.11081v2
+Image Classification,ImageNet,NEXcepTion-TP,81.8,0.6835820895522386,,[],2212.08448v2
+Image Classification,ImageNet,NAT-Mini,81.8,0.6835820895522386,20M,"['Transformer', 'ImageNet-1k only', 'Neighborhood Attention', 'NAT Transformer']",2204.07143v5
+Image Classification,ImageNet,DiNAT-Mini,81.8,0.6835820895522386,20M,"['Neighborhood Attention', 'NAT Transformer', 'ImageNet-1k only', 'Transformer']",2209.15001v3
+Image Classification,ImageNet,ResNet-152 (A2),81.8,0.6835820895522386,60.2M,['ImageNet-1k only'],2110.00476v1
+Image Classification,ImageNet,MEAL V2 (ResNet-50) (380 res),81.72,0.6811940298507462,25.6M,[],2009.08453v2
+Image Classification,ImageNet,gSwin-T,81.71,0.6808955223880594,21.8M,"['ImageNet-1k only', 'Swin-Transformer', 'MLP']",2208.11718v1
+Image Classification,ImageNet,FBNetV5-A-CLS,81.7,0.6805970149253732,,[],2111.10007v2
+Image Classification,ImageNet,T2T-ViT-14,81.7,0.6805970149253732,,"['ImageNet-1k only', 'Transformer']",2105.02358v2
+Image Classification,ImageNet,QnA-ViT-Tiny,81.7,0.6805970149253732,16M,[],2112.11435v2
+Image Classification,ImageNet,AutoFormer-small,81.7,0.6805970149253732,22.9M,"['ImageNet-1k only', 'Transformer']",2107.00651v1
+Image Classification,ImageNet,Shift-T,81.7,0.6805970149253732,28M,[],2201.10801v1
+Image Classification,ImageNet,BoTNet T3,81.7,0.6805970149253732,33.5M,"['ImageNet-1k only', 'Transformer']",2101.11605v2
+Image Classification,ImageNet,CvT-13,81.6,0.6776119402985072,,"['ImageNet-1k only', 'Transformer']",2103.15808v1
+Image Classification,ImageNet,ResNet-152 (SAM),81.6,0.6776119402985072,,"['ImageNet-1k only', 'ResNet']",2010.01412v3
+Image Classification,ImageNet,UniRepLKNet-N,81.6,0.6776119402985072,,[],2311.15599v2
+Image Classification,ImageNet,CloFormer-S,81.6,0.6776119402985072,12.3M,[],2303.17803v5
+Image Classification,ImageNet,LeViT-256,81.6,0.6776119402985072,17.8M,"['ImageNet-1k only', 'Transformer']",2104.01136v2
+Image Classification,ImageNet,ReXNet_2.0,81.6,0.6776119402985072,19M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,SE-CoTNetD-50,81.6,0.6776119402985072,23.1M,[],2107.12292v1
+Image Classification,ImageNet,gMLP-B,81.6,0.6776119402985072,73M,"['ImageNet-1k only', 'MLP']",2105.08050v2
+Image Classification,ImageNet,CoE-Large + CondConv,81.5,0.6746268656716417,,[],2107.03815v2
+Image Classification,ImageNet,GTP-DeiT-B/P8,81.5,0.6746268656716417,,[],2311.03035v2
+Image Classification,ImageNet,NEXcepTion-T,81.5,0.6746268656716417,,[],2212.08448v2
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B1),81.5,0.6746268656716417,7.8M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,TinyViT-11M,81.5,0.6746268656716417,11M,"['ImageNet-1k only', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,Transformer local-attention (NesT-T),81.5,0.6746268656716417,17M,"['ImageNet-1k only', 'Transformer']",2105.12723v4
+Image Classification,ImageNet,T2T-ViT-14,81.5,0.6746268656716417,21.5M,"['ImageNet-1k only', 'Transformer']",2101.11986v3
+Image Classification,ImageNet,CrossViT-15,81.5,0.6746268656716417,27.4M,"['ImageNet-1k only', 'Transformer']",2103.14899v2
+Image Classification,ImageNet,PyConvResNet-101,81.49,0.674328358208955,42.3M,"['CNN', 'ImageNet-1k only']",2006.11538v1
+Image Classification,ImageNet,DeiT-S with iRPE-QKV,81.4,0.6716417910447762,,"['ImageNet-1k only', 'Transformer']",2107.14222v1
+Image Classification,ImageNet,ViT-S @224 (DeiT III),81.4,0.6716417910447762,,[],2204.07118v1
+Image Classification,ImageNet,BiFormer-T (IN1k ptretrain),81.4,0.6716417910447762,,[],2303.08810v1
+Image Classification,ImageNet,MobileOne-S4 (distill),81.4,0.6716417910447762,14.8M,[],2206.04040v2
+Image Classification,ImageNet,SENet-101,81.4,0.6716417910447762,49.2M,"['Transformer', 'ImageNet-1k only']",2101.11605v2
+Image Classification,ImageNet,CCT-14/7x2,81.34,0.6698507462686567,22.36M,[],2104.05704v4
+Image Classification,ImageNet,GFNet-S,81.33,0.66955223880597,,[],2308.09372v2
+Image Classification,ImageNet,ResNet-200 (Adversarial Autoaugment),81.32,0.6692537313432833,,"['ImageNet-1k only', 'ResNet']",1912.11188v1
+Image Classification,ImageNet,MultiGrain PNASNet (300px),81.3,0.6686567164179102,,"['CNN', 'ImageNet-1k only']",1902.05509v2
+Image Classification,ImageNet,ResNet-152,81.3,0.6686567164179102,,"['ImageNet-1k only', 'ResNet']",2107.12028v2
+Image Classification,ImageNet,ConViT-S,81.3,0.6686567164179102,27M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,Swin-T,81.3,0.6686567164179102,29M,[],2103.14030v2
+Image Classification,ImageNet,SimpleNetV1-9m-correct-labels,81.24,0.6668656716417908,9.5M,[],1608.06037v8
+Image Classification,ImageNet,Res2Net-101,81.23,0.6665671641791044,,"['CNN', 'ImageNet-1k only']",1904.01169v3
+Image Classification,ImageNet,ResNeXt-101 (Debiased+CutMix),81.2,0.6656716417910448,,"['ImageNet-1k only', 'ResNeXt']",2010.05981v2
+Image Classification,ImageNet,PVT-S (+MixPro),81.2,0.6656716417910448,,[],2304.12043v2
+Image Classification,ImageNet,TransBoost-ResNet50-StrikesBack,81.15,0.664179104477612,25.56M,[],2205.13331v4
+Image Classification,ImageNet,ResNeSt-50,81.13,0.6635820895522385,27.5M,[],2004.08955v2
+Image Classification,ImageNet,DeiT-S with iRPE-QK,81.1,0.6626865671641788,,"['ImageNet-1k only', 'Transformer']",2107.14222v1
+Image Classification,ImageNet,EfficientNet-B3,81.1,0.6626865671641788,12M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,VAN-B1,81.1,0.6626865671641788,13.9M,[],2202.09741v5
+Image Classification,ImageNet,RevBiFPN-S3,81.1,0.6626865671641788,19.6M,"['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,ResNet-152x2-SAM,81.1,0.6626865671641788,236M,"['ImageNet-1k only', 'ResNet']",2106.01548v3
+Image Classification,ImageNet,DynamicViT-S,81.09,0.6623880597014925,,[],2308.09372v2
+Image Classification,ImageNet,ResNet-101 (SAMix),81.08,0.6620895522388058,44.6M,"['ImageNet-1k only', 'ResNet']",2111.15454v3
+Image Classification,ImageNet,ViTAE-13M,81.0,0.6597014925373134,13.2M,"['Transformer', 'ImageNet-1k only']",2106.03348v4
+Image Classification,ImageNet,ResNet-101 (AutoMix),80.98,0.6591044776119404,44.6M,"['ImageNet-1k only', 'ResNet']",2103.13027v6
+Image Classification,ImageNet,ResNet-101,80.9,0.6567164179104479,,"['ImageNet-1k only', 'ResNet']",2107.12028v2
+Image Classification,ImageNet,CAIT-XXS-24,80.9,0.6567164179104479,12M,"['ImageNet-1k only', 'Transformer']",2103.17239v2
+Image Classification,ImageNet,DeiT-S with iRPE-K,80.9,0.6567164179104479,22M,"['ImageNet-1k only', 'Transformer']",2107.14222v1
+Image Classification,ImageNet,"CentroidViT-S (arXiv, 2021-02)",80.9,0.6567164179104479,22.3M,[],2102.08606v2
+Image Classification,ImageNet,ResNeXt-101  64x4,80.9,0.6567164179104479,83.6M,"['ImageNet-1k only', 'ResNeXt']",1611.05431v2
+Image Classification,ImageNet,AlphaNet-A6,80.8,0.653731343283582,,[],2102.07954v2
+Image Classification,ImageNet,ResNet-200 (Supervised Contrastive),80.8,0.653731343283582,,"['ImageNet-1k only', 'ResNet']",2004.11362v5
+Image Classification,ImageNet,UniNet-B0,80.8,0.653731343283582,11.5M,[],2207.05420v2
+Image Classification,ImageNet,LocalViT-S,80.8,0.653731343283582,22.4M,"['ImageNet-1k only', 'Transformer']",2104.05707v1
+Image Classification,ImageNet,ResMLP-S24,80.8,0.653731343283582,30M,"['MLP', 'ImageNet-1k only']",2105.03404v2
+Image Classification,ImageNet,TinyViT-5M-distill (21k),80.7,0.6507462686567164,5.4M,"['ImageNet-22k', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,CoE-Large,80.7,0.6507462686567164,95.3M,[],2107.03815v2
+Image Classification,ImageNet,MEAL V2 (ResNet-50) (224 res),80.67,0.6498507462686567,,[],2009.08453v2
+Image Classification,ImageNet,TokenLearner-ViT-8,80.66,0.6495522388059699,,[],2308.09372v2
+Image Classification,ImageNet,ResNeSt-50-fast,80.64,0.6489552238805969,27.5M,[],2004.08955v2
+Image Classification,ImageNet,TransBoost-ResNet152,80.64,0.6489552238805969,60.19M,[],2205.13331v4
+Image Classification,ImageNet,ResNet-200 (Fast AA),80.6,0.6477611940298504,,"['ImageNet-1k only', 'ResNet']",1905.00397v2
+Image Classification,ImageNet,CaiT-XXS (+MixPro),80.6,0.6477611940298504,,[],2304.12043v2
+Image Classification,ImageNet,ResNeXt-101 (CutMix),80.53,0.6456716417910447,,"['ImageNet-1k only', 'ResNeXt']",1905.04899v2
+Image Classification,ImageNet,Attention-92,80.5,0.644776119402985,,"['CNN', 'ImageNet-1k only']",1704.06904v1
+Image Classification,ImageNet,NAT-M4,80.5,0.644776119402985,9.1M,"['CNN', 'ImageNet-1k only']",2005.05859v2
+Image Classification,ImageNet,IPT-T,80.5,0.644776119402985,14.0M,[],2212.03035v1
+Image Classification,ImageNet,GLiT-Smalls,80.5,0.644776119402985,24.6M,"['Transformer', 'ImageNet-1k only']",2107.02960v3
+Image Classification,ImageNet,HCGNet-C,80.5,0.644776119402985,42.2M,"['CNN', 'ImageNet-1k only']",1908.09699v3
+Image Classification,ImageNet,DVT (T2T-ViT-12),80.43,0.6426865671641793,,"['ImageNet-1k only', 'Transformer']",2105.15075v2
+Image Classification,ImageNet,UniNet-B1,80.4,0.6417910447761195,14M,[],2110.04035v1
+Image Classification,ImageNet,DeiT-S (T2),80.4,0.6417910447761195,22M,"['Transformer', 'ImageNet-1k only']",2110.00476v1
+Image Classification,ImageNet,ResNet50 (A1),80.4,0.6417910447761195,25M,"['CNN', 'ImageNet-1k only']",2110.00476v1
+Image Classification,ImageNet,gSwin-VT,80.32,0.6394029850746266,15.5M,"['ImageNet-1k only', 'Swin-Transformer', 'MLP']",2208.11718v1
+Image Classification,ImageNet,AlphaNet-A5,80.3,0.6388059701492536,,[],2102.07954v2
+Image Classification,ImageNet,ResNet-50+AutoDropout+RandAugment,80.3,0.6388059701492536,,"['ImageNet-1k only', 'ResNet']",2101.01761v1
+Image Classification,ImageNet,ReXNet_1.5,80.3,0.6388059701492536,9.7M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,CCT-16/7x2,80.28,0.6382089552238805,,"['Transformer', 'ImageNet-1k only']",2104.05704v4
+Image Classification,ImageNet,iAFF-ResNeXt-50-32x4d,80.22,0.6364179104477611,34.7M,"['ImageNet-1k only', 'ResNeXt']",2009.14082v2
+Image Classification,ImageNet,UniRepLKNet-P,80.2,0.6358208955223881,,[],2311.15599v2
+Image Classification,ImageNet,FixEfficientNet-B0,80.2,0.6358208955223881,5.3M,"['ImageNet-1k only', 'EfficientNet']",2003.08237v5
+Image Classification,ImageNet,ConvMLP-L,80.2,0.6358208955223881,42.7M,"['CNN', 'MLP', 'ImageNet-1k only']",2109.04454v2
+Image Classification,ImageNet,"ResNet-50 (224 res, Fast Knowledge Distillation)",80.1,0.6328358208955221,,"['ImageNet-1k only', 'ResNet']",2112.01528v1
+Image Classification,ImageNet,Inception ResNet V2,80.1,0.6328358208955221,55.8M,"['ImageNet-1k only', 'ResNet']",1602.07261v2
+Image Classification,ImageNet,RandWire-WS,80.1,0.6328358208955221,61.5M,"['CNN', 'ImageNet-1k only']",1904.01569v2
+Image Classification,ImageNet,WideNet-H,80.09,0.6325373134328358,63M,"['Transformer', 'ImageNet-1k only']",2107.11817v3
+Image Classification,ImageNet,CoE-Small + CondConv + PWLU,80.0,0.6298507462686567,,[],2107.03815v2
+Image Classification,ImageNet,BasisNet-MV3,80.0,0.6298507462686567,,[],2105.03014v1
+Image Classification,ImageNet,AlphaNet-A4,80.0,0.6298507462686567,,[],2102.07954v2
+Image Classification,ImageNet,MogaNet-T (256res),80.0,0.6298507462686567,5.2M,['CNN'],2211.03295v3
+Image Classification,ImageNet,MobileOne-S3 (distill),80.0,0.6298507462686567,10.1M,[],2206.04040v2
+Image Classification,ImageNet,LeViT-192,80.0,0.6298507462686567,10.4M,"['ImageNet-1k only', 'Transformer']",2104.01136v2
+Image Classification,ImageNet,ResNet-101,80.0,0.6298507462686567,44.4M,"['ImageNet-1k only', 'ResNet']",2101.11605v2
+Image Classification,ImageNet,ResNet-200,79.9,0.6268656716417911,,"['ImageNet-1k only', 'ResNet']",1603.05027v3
+Image Classification,ImageNet,RegNetY-8.0GF,79.9,0.6268656716417911,39.2M,"['CNN', 'ImageNet-1k only']",2003.13678v1
+Image Classification,ImageNet,ViT-B/16-SAM,79.9,0.6268656716417911,87M,"['ImageNet-1k only', 'Transformer']",2106.01548v3
+Image Classification,ImageNet,TransBoost-ResNet101,79.86,0.6256716417910446,44.55M,[],2205.13331v4
+Image Classification,ImageNet,SKNet-101,79.81,0.6241791044776119,48.9M,"['CNN', 'ImageNet-1k only']",1903.06586v2
+Image Classification,ImageNet,FixResNet-50 CutMix,79.8,0.6238805970149252,,"['ImageNet-1k only', 'ResNet']",1906.06423v4
+Image Classification,ImageNet,CSPResNeXt-50 + Mish,79.8,0.6238805970149252,,"['CNN', 'ImageNet-1k only']",1908.08681v3
+Image Classification,ImageNet,kNN-CLIP,79.8,0.6238805970149252,,"['Memory-Centric', 'CLIP Pre-trained']",2204.01186v2
+Image Classification,ImageNet,CloFormer-XS,79.8,0.6238805970149252,7.2M,[],2303.17803v5
+Image Classification,ImageNet,EfficientNet-B2,79.8,0.6238805970149252,9.2M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,GC ViT-XXT,79.8,0.6238805970149252,12M,[],2206.09959v5
+Image Classification,ImageNet,CSPResNeXt-50 (Mish+Aug),79.8,0.6238805970149252,20.5M,"['CNN', 'ImageNet-1k only']",1911.11929v1
+Image Classification,ImageNet,DVT (T2T-ViT-10),79.74,0.6220895522388057,,"['ImageNet-1k only', 'Transformer']",2105.15075v2
+Image Classification,ImageNet,GPaCo (ResNet-50),79.7,0.6208955223880597,,[],2209.12400v2
+Image Classification,ImageNet,ResMLP-36,79.7,0.6208955223880597,45M,"['MLP', 'ImageNet-1k only']",2105.03404v2
+Image Classification,ImageNet,Grafit (ResNet-50),79.6,0.6179104477611937,,"['ImageNet-1k only', 'ResNet']",2011.12982v1
+Image Classification,ImageNet,LeViT-128,79.6,0.6179104477611937,8.8M,"['ImageNet-1k only', 'Transformer']",2104.01136v2
+Image Classification,ImageNet,ResT-Small,79.6,0.6179104477611937,13.66M,[],2105.13677v5
+Image Classification,ImageNet,GTP-DeiT-S/P8,79.5,0.6149253731343283,,[],2311.03035v2
+Image Classification,ImageNet,ReXNet_1.3,79.5,0.6149253731343283,7.6M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,WideNet-L,79.49,0.6146268656716416,40M,['ImageNet-1k only'],2107.11817v3
+Image Classification,ImageNet,ResNet-50 (SAMix),79.41,0.612238805970149,25.6M,"['ImageNet-1k only', 'ResNet']",2111.15454v3
+Image Classification,ImageNet,AlphaNet-A3,79.4,0.6119402985074628,,[],2102.07954v2
+Image Classification,ImageNet,MultiGrain R50-AA-500,79.4,0.6119402985074628,,['ImageNet-1k only'],1902.05509v2
+Image Classification,ImageNet,ResNet-50 (Adversarial Autoaugment),79.4,0.6119402985074628,,"['ImageNet-1k only', 'ResNet']",1912.11188v1
+Image Classification,ImageNet,ResMLP-24,79.4,0.6119402985074628,,"['CNN', 'ImageNet-1k only']",2105.03404v2
+Image Classification,ImageNet,EdgeNeXt-S,79.4,0.6119402985074628,5.6M,"['CrossCovarianceAttention', 'Transformer', 'CNN', 'ImageNet-1k only']",2206.10589v3
+Image Classification,ImageNet,TinyNet (GhostNet-A),79.4,0.6119402985074628,11.9M,[],2010.14819v2
+Image Classification,ImageNet,MobileOne-S4,79.4,0.6119402985074628,14.8M,[],2206.04040v2
+Image Classification,ImageNet,RegNetY-4.0GF,79.4,0.6119402985074628,20.6M,"['CNN', 'ImageNet-1k only']",2003.13678v1
+Image Classification,ImageNet,SENet-50,79.4,0.6119402985074628,28.02M,"['Transformer', 'ImageNet-1k only']",2101.11605v2
+Image Classification,ImageNet,ScaleNet-152,79.38,0.6113432835820893,,"['CNN', 'ImageNet-1k only']",1904.09460v1
+Image Classification,ImageNet,LIP-ResNet-101,79.33,0.6098507462686565,42.9M,"['CNN', 'ImageNet-1k only']",1908.04156v3
+Image Classification,ImageNet,MobileViTv3-S,79.3,0.6089552238805969,5.8M,"['Transformer', 'CNN+Transformer', 'ImageNet-1k only']",2209.15159v2
+Image Classification,ImageNet,RedNet-152,79.3,0.6089552238805969,34M,"['Transformer', 'ImageNet-1k only']",2103.06255v2
+Image Classification,ImageNet,ResNet-50 (AutoMix),79.25,0.6074626865671641,25.6M,"['ImageNet-1k only', 'ResNet']",2103.13027v6
+Image Classification,ImageNet,PS-KD (ResNet-152 + CutMix),79.24,0.6071641791044774,,"['ImageNet-1k only', 'ResNet']",2006.12000v3
+Image Classification,ImageNet,ResNet-101 (JFT-300M Finetuning),79.2,0.6059701492537314,,"['JFT-300M', 'ResNet']",1707.02968v2
+Image Classification,ImageNet,RVT-Ti*,79.2,0.6059701492537314,10.9M,"['ImageNet-1k only', 'Transformer']",2105.07926v4
+Image Classification,ImageNet,Multiscale DEQ (MDEQ-XL),79.2,0.6059701492537314,81M,['ImageNet-1k only'],2006.08656v2
+Image Classification,ImageNet,SimpleNetV1-5m-correct-labels,79.12,0.6035820895522389,5.7M,[],1608.06037v8
+Image Classification,ImageNet,AlphaNet-A2,79.1,0.6029850746268655,,[],2102.07954v2
+Image Classification,ImageNet,AA-ResNet-152,79.1,0.6029850746268655,,['ImageNet-1k only'],1904.09925v5
+Image Classification,ImageNet,FixResNet-50,79.1,0.6029850746268655,,"['ImageNet-1k only', 'ResNet']",1906.06423v4
+Image Classification,ImageNet,Diffusion Classifier,79.1,0.6029850746268655,,[],2303.16203v3
+Image Classification,ImageNet,TinyViT-5M,79.1,0.6029850746268655,5.4M,"['ImageNet-1k only', 'Transformer']",2207.10666v1
+Image Classification,ImageNet,MobileOne-S2 (distill),79.1,0.6029850746268655,7.8M,[],2206.04040v2
+Image Classification,ImageNet,PiT-XS,79.1,0.6029850746268655,10.6M,"['ImageNet-1k only', 'Transformer']",2103.16302v2
+Image Classification,ImageNet,UniNet-B0,79.1,0.6029850746268655,11.9M,[],2110.04035v1
+Image Classification,ImageNet,RedNet-101,79.1,0.6029850746268655,25.6M,['ImageNet-1k only'],2103.06255v2
+Image Classification,ImageNet,ResNet-50 (UDA),79.04,0.6011940298507463,,"['ImageNet-1k only', 'ResNet']",1904.12848v6
+Image Classification,ImageNet,ScaleNet-101,79.03,0.6008955223880597,,['ImageNet-1k only'],1904.09460v1
+Image Classification,ImageNet,TransBoost-ResNet50,79.03,0.6008955223880597,,[],2205.13331v4
+Image Classification,ImageNet,Co-ResNet-152,79.03,0.6008955223880597,60M,[],2108.07387v1
+Image Classification,ImageNet,MobileNetV3_large_x1_0_ssld,79.0,0.5999999999999999,5.47M,['ImageNet-1k only'],2006.10702v1
+Image Classification,ImageNet,RevBiFPN-S2,79.0,0.5999999999999999,10.6M,"['Reversible', 'FPN', 'CNN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,ConvMLP-M,79.0,0.5999999999999999,17.4M,['ImageNet-1k only'],2109.04454v2
+Image Classification,ImageNet,Xception,79.0,0.5999999999999999,22.855952M,['ImageNet-1k only'],1610.02357v3
+Image Classification,ImageNet,SpineNet-143,79.0,0.5999999999999999,60.5M,['ImageNet-1k only'],1912.05027v3
+Image Classification,ImageNet,Mixer-B/8-SAM,79.0,0.5999999999999999,64M,['ImageNet-1k only'],2106.01548v3
+Image Classification,ImageNet,InceptionV3 (FRN layer),78.95,0.5985074626865672,,['ImageNet-1k only'],1911.09737v2
+Image Classification,ImageNet,ResNet-152 + SWA,78.94,0.5982089552238804,,"['ImageNet-1k only', 'ResNet']",1803.05407v3
+Image Classification,ImageNet,ECA-Net (ResNet-152),78.92,0.5976119402985074,57.40M,"['ImageNet-1k only', 'ResNet']",1910.03151v4
+Image Classification,ImageNet,AlphaNet-A1,78.9,0.5970149253731344,,[],2102.07954v2
+Image Classification,ImageNet,MixNet-L,78.9,0.5970149253731344,7.3M,['ImageNet-1k only'],1907.09595v3
+Image Classification,ImageNet,CeiT-T (384 finetune res),78.8,0.5940298507462685,,"['ImageNet-1k only', 'Transformer']",2103.11816v2
+Image Classification,ImageNet,NoisyStudent (EfficientNet-B0),78.8,0.5940298507462685,5.3M,"['JFT-300M', 'EfficientNet']",1911.04252v4
+Image Classification,ImageNet,EfficientNet-B1,78.8,0.5940298507462685,7.8M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,ResNet-50,78.8,0.5940298507462685,25.5M,['ResNet'],2101.11605v2
+Image Classification,ImageNet,SGE-ResNet101,78.79,0.5937313432835822,44.55M,['ImageNet-1k only'],1905.09646v2
+Image Classification,ImageNet,RepVGG-B2,78.78,0.5934328358208955,80.31M,"['CNN', 'ImageNet-1k only']",2101.03697v3
+Image Classification,ImageNet,ResNet-50,78.76,0.5928358208955224,,"['ImageNet-1k only', 'ResNet']",2009.06962v2
+Image Classification,ImageNet,ResNet-50,78.7,0.591044776119403,,"['ImageNet-1k only', 'ResNet']",2101.01761v1
+Image Classification,ImageNet,SReT-LT (Fast Knowledge Distillation),78.7,0.591044776119403,5M,"['ImageNet-1k only', 'Transformer']",2112.01528v1
+Image Classification,ImageNet,PVTv2-B1,78.7,0.591044776119403,13.1M,['ImageNet-1k only'],2106.13797v7
+Image Classification,ImageNet,ECA-Net (ResNet-101),78.65,0.5895522388059702,42.49M,"['ImageNet-1k only', 'ResNet']",1910.03151v4
+Image Classification,ImageNet,MobileViTv3-1.0,78.64,0.5892537313432835,,"['Transformer', 'CNN+Transformer', 'ImageNet-1k only']",2209.15159v2
+Image Classification,ImageNet,EdgeFormer-S,78.63,0.5889552238805968,5M,[],2203.03952v5
+Image Classification,ImageNet,UniRepLKNet-F,78.6,0.5880597014925371,,[],2311.15599v2
+Image Classification,ImageNet,TransBoost-EfficientNetB0,78.6,0.5880597014925371,5.29M,[],2205.13331v4
+Image Classification,ImageNet,Visformer-Ti,78.6,0.5880597014925371,10.3M,"['ImageNet-1k only', 'Transformer']",2104.12533v4
+Image Classification,ImageNet,"ResMLP-12 (distilled, class-MLP)",78.6,0.5880597014925371,17.7M,[],2105.03404v2
+Image Classification,ImageNet,RepMLP-Res50,78.6,0.5880597014925371,52.77M,['ImageNet-1k only'],2105.01883v3
+Image Classification,ImageNet,Res2Net-50-299,78.59,0.5877611940298507,,['ImageNet-1k only'],1904.01169v3
+Image Classification,ImageNet,ResNet-152,78.57,0.5871641791044774,,[],1512.03385v1
+Image Classification,ImageNet,ResNet-50-DW (Deformable Kernels),78.5,0.5850746268656716,,"['ImageNet-1k only', 'ResNet']",1910.02940v2
+Image Classification,ImageNet,HRFormer-T,78.5,0.5850746268656716,8.0M,[],2110.09408v3
+Image Classification,ImageNet,HCGNet-B,78.5,0.5850746268656716,12.9M,['ImageNet-1k only'],1908.09699v3
+Image Classification,ImageNet,RepVGG-B2g4,78.5,0.5850746268656716,55.77M,"['CNN', 'ImageNet-1k only']",2101.03697v3
+Image Classification,ImageNet,DVT (T2T-ViT-7),78.48,0.5844776119402986,,"['ImageNet-1k only', 'Transformer']",2105.15075v2
+Image Classification,ImageNet,SRM-ResNet-101,78.47,0.5841791044776118,,['ImageNet-1k only'],1903.10829v1
+Image Classification,ImageNet,DenseNet-161 + SWA,78.44,0.5832835820895521,,['ImageNet-1k only'],1803.05407v3
+Image Classification,ImageNet,CoaT-Ti,78.42,0.5826865671641791,,[],2308.09372v2
+Image Classification,ImageNet,FBNetV5-AC-CLS,78.4,0.5820895522388061,,[],2111.10007v2
+Image Classification,ImageNet,ResNet-50 (CutMix),78.4,0.5820895522388061,,"['ImageNet-1k only', 'ResNet']",1905.04899v2
+Image Classification,ImageNet,ReXNet_1.0-relabel,78.4,0.5820895522388061,4.8M,['ImageNet-1k only'],2101.05022v2
+Image Classification,ImageNet,MobileViT-S,78.4,0.5820895522388061,5.6M,"['Transformer', 'ImageNet-1k only']",2110.02178v2
+Image Classification,ImageNet,RedNet-50,78.4,0.5820895522388061,15.5M,['ImageNet-1k only'],2103.06255v2
+Image Classification,ImageNet,"ResNet-50 + DropBlock (0.9 kp, 0.1 label smoothing)",78.35,0.5805970149253729,,"['ImageNet-1k only', 'ResNet']",1810.12890v1
+Image Classification,ImageNet,Poly-SA-ViT-S,78.34,0.5802985074626866,,[],2308.09372v2
+Image Classification,ImageNet,EfficientNet-B0 (CondConv),78.3,0.5791044776119402,,"['ImageNet-1k only', 'EfficientNet']",1904.04971v3
+Image Classification,ImageNet,ResNet-101,78.25,0.5776119402985074,40M,"['ImageNet-1k only', 'ResNet']",1512.03385v1
+Image Classification,ImageNet,MultiGrain R50-AA-224,78.2,0.5761194029850746,,['ImageNet-1k only'],1902.05509v2
+Image Classification,ImageNet,Pyramid ViG-Ti,78.2,0.5761194029850746,10.7M,[],2206.00272v3
+Image Classification,ImageNet,LocalViT-PVT,78.2,0.5761194029850746,13.5M,['Transformer'],2104.05707v1
+Image Classification,ImageNet,ResNet-50 (LIP Bottleneck-256),78.15,0.5746268656716419,25.8M,"['ImageNet-1k only', 'ResNet']",1908.04156v3
+Image Classification,ImageNet,WRN-50-2-bottleneck,78.1,0.5731343283582087,,['ImageNet-1k only'],1605.07146v4
+Image Classification,ImageNet,MobileOne-S3,78.1,0.5731343283582087,10.1M,[],2206.04040v2
+Image Classification,ImageNet,ResNet50 (A3),78.1,0.5731343283582087,25M,['ImageNet-1k only'],2110.00476v1
+Image Classification,ImageNet,ZenNet-400M-SE,78.0,0.5701492537313432,5.7M,[],2102.01063v4
+Image Classification,ImageNet,RegNetY-1.6GF,78.0,0.5701492537313432,11.2M,['ImageNet-1k only'],2003.13678v1
+Image Classification,ImageNet,HVT-S-1,78.0,0.5701492537313432,21.74M,"['Transformer', 'ImageNet-1k only']",2103.10619v2
+Image Classification,ImageNet,Perceiver (FF),78.0,0.5701492537313432,44.9M,[],2103.03206v2
+Image Classification,ImageNet,ReXNet_1.0,77.9,0.5671641791044777,4.8M,"['', 'ImageNet-1k only']",2007.00992v3
+Image Classification,ImageNet,ViTAE-6M,77.9,0.5671641791044777,6.5M,['ImageNet-1k only'],2106.03348v4
+Image Classification,ImageNet,DenseNet-264,77.85,0.5656716417910446,,['ImageNet-1k only'],1608.06993v5
+Image Classification,ImageNet,AlphaNet-A0,77.8,0.5641791044776118,,[],2102.07954v2
+Image Classification,ImageNet,ScaleNet-50,77.8,0.5641791044776118,,[],1904.09460v1
+Image Classification,ImageNet,ResMLP-S12,77.8,0.5641791044776118,15.4M,[],2105.03404v2
+Image Classification,ImageNet,TinyNet-A + RA,77.7,0.5611940298507463,5.1M,[],2010.14819v2
+Image Classification,ImageNet,ResNet-50 (Fast AA),77.6,0.5582089552238804,,"['ImageNet-1k only', 'ResNet']",1905.00397v2
+Image Classification,ImageNet,SReT-T,77.6,0.5582089552238804,4.8M,[],2111.05297v3
+Image Classification,ImageNet,RedNet-38,77.6,0.5582089552238804,12.4M,['ImageNet-1k only'],2103.06255v2
+Image Classification,ImageNet,SGE-ResNet50,77.58,0.5576119402985074,25.56M,[],1905.09646v2
+Image Classification,ImageNet,WideNet-B,77.54,0.5564179104477613,29M,['ImageNet-1k only'],2107.11817v3
+Image Classification,ImageNet,EfficientNet-B0,77.5,0.5552238805970149,,"['ImageNet-1k only', 'EfficientNet']",2101.01761v1
+Image Classification,ImageNet,ACNet (ResNet-50),77.5,0.5552238805970149,29.38M,"['ImageNet-1k only', 'ResNet']",1904.03579v1
+Image Classification,ImageNet,ECA-Net (ResNet-50),77.48,0.5546268656716419,24.37M,"['ImageNet-1k only', 'ResNet']",1910.03151v4
+Image Classification,ImageNet,DenseNet-201,77.42,0.5528358208955224,,['ImageNet-1k only'],1608.06993v5
+Image Classification,ImageNet,MobileOne-S2,77.4,0.5522388059701493,7.8,[],2206.04040v2
+Image Classification,ImageNet,MobileOne-S1 (distill),77.4,0.5522388059701493,4.8M,[],2206.04040v2
+Image Classification,ImageNet,R-Mix (ResNet-50),77.39,0.5519402985074626,,[],2212.04875v3
+Image Classification,ImageNet,ResnetV2 50 (FRN layer),77.21,0.5465671641791042,,"['ImageNet-1k only', 'ResNet']",1911.09737v2
+Image Classification,ImageNet,FBNetV5-AR-CLS,77.2,0.5462686567164179,,[],2111.10007v2
+Image Classification,ImageNet,MogaNet-XT (256res),77.2,0.5462686567164179,3M,[],2211.03295v3
+Image Classification,ImageNet,ReXNet_0.9,77.2,0.5462686567164179,4.1M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,Prodpoly,77.17,0.5453731343283582,,['ImageNet-1k only'],2006.13026v2
+Image Classification,ImageNet,ResNet-50-D,77.16,0.5450746268656714,25M,"['ImageNet-1k only', 'ResNet']",1812.01187v2
+Image Classification,ImageNet,Inception v3,77.12,0.5438805970149254,,['ImageNet-1k only'],1803.08337v1
+Image Classification,ImageNet,MKD ViT-T,77.1,0.543283582089552,,[],2202.07940v1
+Image Classification,ImageNet,GreedyNAS-A,77.1,0.543283582089552,6.5M,['ImageNet-1k only'],2003.11236v1
+Image Classification,ImageNet,SkipblockNet-L,77.1,0.543283582089552,7.1M,[],2107.11170v3
+Image Classification,ImageNet,SSAL-Resnet50,77.0,0.5402985074626865,,"['ImageNet-1k only', 'ResNet']",2101.03057v1
+Image Classification,ImageNet,UniRepLKNet-A,77.0,0.5402985074626865,,[],2311.15599v2
+Image Classification,ImageNet,CloFormer-XXS,77.0,0.5402985074626865,4.2M,[],2303.17803v5
+Image Classification,ImageNet,MixNet-M,77.0,0.5402985074626865,5.0M,['ImageNet-1k only'],1907.09595v3
+Image Classification,ImageNet,SCARLET-A,76.9,0.537313432835821,6.7M,['ImageNet-1k only'],1908.06022v6
+Image Classification,ImageNet,TransBoost-MobileNetV3-L,76.81,0.5346268656716417,5.48M,[],2205.13331v4
+Image Classification,ImageNet,ViTAE-T-Stage,76.8,0.5343283582089551,4.8M,['ImageNet-1k only'],2106.03348v4
+Image Classification,ImageNet,GreedyNAS-B,76.8,0.5343283582089551,5.2M,['ImageNet-1k only'],2003.11236v1
+Image Classification,ImageNet,ConvMLP-S,76.8,0.5343283582089551,9M,['ImageNet-1k only'],2109.04454v2
+Image Classification,ImageNet,"Perona Malik (Perona and Malik, 1990)",76.71,0.5316417910447758,,"['CNN', 'ImageNet-1k only']",2011.01901v3
+Image Classification,ImageNet,PVT-T (+MixPro),76.7,0.5313432835820896,,[],2304.12043v2
+Image Classification,ImageNet,MobileViTv3-XS,76.7,0.5313432835820896,2.5M,"['Transformer', 'CNN+Transformer', 'ImageNet-1k only']",2209.15159v2
+Image Classification,ImageNet,MnasNet-A3,76.7,0.5313432835820896,5.2M,['ImageNet-1k only'],1807.11626v3
+Image Classification,ImageNet,ViL-Tiny-RPB,76.7,0.5313432835820896,6.7M,[],2103.15358v2
+Image Classification,ImageNet,ConViT-Ti+,76.7,0.5313432835820896,10M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,TransBoost-ResNet34,76.7,0.5313432835820896,21.8M,[],2205.13331v4
+Image Classification,ImageNet,LIP-DenseNet-BC-121,76.64,0.5295522388059701,8.7M,['ImageNet-1k only'],1908.04156v3
+Image Classification,ImageNet,"ResNet-50 (X-volution, stage3)",76.6,0.5283582089552237,,"['ImageNet-1k only', 'ResNet']",2106.02253v2
+Image Classification,ImageNet,MUXNet-l,76.6,0.5283582089552237,4.0M,['ImageNet-1k only'],2003.13880v2
+Image Classification,ImageNet,DeiT-B,76.6,0.5283582089552237,5M,"['ImageNet-1k only', 'Transformer']",2012.12877v2
+Image Classification,ImageNet,MobileViTv3-0.75,76.55,0.5268656716417909,3M,['ImageNet-1k only'],2209.15159v2
+Image Classification,ImageNet,Mixer-B/16,76.44,0.5235820895522386,46M,['ImageNet-1k only'],2105.01601v4
+Image Classification,ImageNet,Perceiver,76.4,0.5223880597014926,,"['Transformer', 'ImageNet-1k only']",2103.03206v2
+Image Classification,ImageNet,CeiT-T,76.4,0.5223880597014926,6.4M,"['ImageNet-1k only', 'Transformer']",2103.11816v2
+Image Classification,ImageNet,ResNet-34 (SAMix),76.35,0.5208955223880595,21.8M,"['ImageNet-1k only', 'ResNet']",2111.15454v3
+Image Classification,ImageNet,EfficientNet-B0,76.3,0.5194029850746267,5.3M,"['ImageNet-1k only', 'EfficientNet']",1905.11946v5
+Image Classification,ImageNet,RegNetY-800MF,76.3,0.5194029850746267,6.3M,['ImageNet-1k only'],2003.13678v1
+Image Classification,ImageNet,SCARLET-B,76.3,0.5194029850746267,6.5M,['ImageNet-1k only'],1908.06022v6
+Image Classification,ImageNet,GLiT-Tinys,76.3,0.5194029850746267,7.2M,['ImageNet-1k only'],2107.02960v3
+Image Classification,ImageNet,DenseNet-169,76.2,0.5164179104477612,,['ImageNet-1k only'],1608.06993v5
+Image Classification,ImageNet,GreedyNAS-C,76.2,0.5164179104477612,4.7M,['ImageNet-1k only'],2003.11236v1
+Image Classification,ImageNet,SkipblockNet-M,76.2,0.5164179104477612,5.5M,"['CNN', 'ImageNet-1k only']",2107.11170v3
+Image Classification,ImageNet,ResNet-34 (AutoMix),76.1,0.5134328358208953,21.8M,"['ImageNet-1k only', 'ResNet']",2103.13027v6
+Image Classification,ImageNet,ResNet-50 MLPerf v0.7 - 2512 steps,75.92,0.5080597014925373,,"['ImageNet-1k only', 'ResNet']",2102.06356v3
+Image Classification,ImageNet,RedNet-26,75.9,0.5074626865671643,9.2,['ImageNet-1k only'],2103.06255v2
+Image Classification,ImageNet,DenseNAS-A,75.9,0.5074626865671643,,['ImageNet-1k only'],1906.09607v3
+Image Classification,ImageNet,MobileOne-S1,75.9,0.5074626865671643,4.8M,[],2206.04040v2
+Image Classification,ImageNet,MoGA-A,75.9,0.5074626865671643,5.1M,['ImageNet-1k only'],1908.01314v4
+Image Classification,ImageNet,RevBiFPN-S1,75.9,0.5074626865671643,5.11M,"['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,LocalViT-TNT,75.9,0.5074626865671643,6.3M,"['ImageNet-1k only', 'Transformer']",2104.05707v1
+Image Classification,ImageNet,SALG-ST,75.9,0.5074626865671643,6.5M,[],2211.14705v1
+Image Classification,ImageNet,FractalNet-34,75.88,0.5068656716417909,,['ImageNet-1k only'],1605.07648v4
+Image Classification,ImageNet,MixNet-S,75.8,0.5044776119402984,4.1M,['ImageNet-1k only'],1907.09595v3
+Image Classification,ImageNet,CoordConv ResNet-50,75.74,0.5026865671641789,,"['ImageNet-1k only', 'ResNet']",1807.03247v2
+Image Classification,ImageNet,LeViT-128S,75.7,0.5014925373134329,4.7M,"['ImageNet-1k only', 'Transformer']",2104.01136v2
+Image Classification,ImageNet,GhostNet \u00d71.3,75.7,0.5014925373134329,7.3M,[],1911.11907v2
+Image Classification,ImageNet,LR-Net-26,75.7,0.5014925373134329,14.7M,['ImageNet-1k only'],1904.11491v1
+Image Classification,ImageNet,SimpleNetV1-small-075-correct-labels,75.66,0.5002985074626864,3M,[],1608.06037v8
+Image Classification,ImageNet,MnasNet-A2,75.6,0.4985074626865669,4.8M,['ImageNet-1k only'],1807.11626v3
+Image Classification,ImageNet,SCARLET-C,75.6,0.4985074626865669,6M,['ImageNet-1k only'],1908.06022v6
+Image Classification,ImageNet,"PAWS (ResNet-50, 10% labels)",75.5,0.49552238805970145,,"['ImageNet-1k only', 'ResNet']",2104.13963v3
+Image Classification,ImageNet,RegNetY-600MF,75.5,0.49552238805970145,6.1M,['ImageNet-1k only'],2003.13678v1
+Image Classification,ImageNet,ShuffleNet V2,75.4,0.4925373134328359,,[],1807.11164v1
+Image Classification,ImageNet,VAN-B0,75.4,0.4925373134328359,4.1M,[],2202.09741v5
+Image Classification,ImageNet,AsymmNet-Large \u00d71.0,75.4,0.4925373134328359,5.99M,[],2104.07770v1
+Image Classification,ImageNet,FairNAS-A,75.34,0.49074626865671644,4.6M,[],1907.01845v5
+Image Classification,ImageNet,ViTAE-T,75.3,0.48955223880597,,['ImageNet-1k only'],2106.03348v4
+Image Classification,ImageNet,MUXNet-m,75.3,0.48955223880597,3.4M,['ImageNet-1k only'],2003.13880v2
+Image Classification,ImageNet,ResNet-50,75.3,0.48955223880597,25M,"['ImageNet-1k only', 'ResNet']",1512.03385v1
+Image Classification,ImageNet,MnasNet-A1,75.2,0.4865671641791045,3.9M,['ImageNet-1k only'],1807.11626v3
+Image Classification,ImageNet,MobileNet V3-Large 1.0,75.2,0.4865671641791045,5.4M,['ImageNet-1k only'],1905.02244v5
+Image Classification,ImageNet,DiCENet,75.1,0.4835820895522386,,[],1906.03516v3
+Image Classification,ImageNet,MultiGrain NASNet-A-Mobile (350px),75.1,0.4835820895522386,,[],1902.05509v2
+Image Classification,ImageNet,FairNAS-B,75.1,0.4835820895522386,4.5M,[],1907.01845v5
+Image Classification,ImageNet,"ResNet-34 (X-volution, stage3)",75.0,0.4805970149253731,,"['ImageNet-1k only', 'ResNet']",2106.02253v2
+Image Classification,ImageNet,Ghost-ResNet-50 (s=2),75.0,0.4805970149253731,13M,[],1911.11907v2
+Image Classification,ImageNet,DenseNet-121,74.98,0.48000000000000004,,['ImageNet-1k only'],1608.06993v5
+Image Classification,ImageNet,Single-Path NAS,74.96,0.47940298507462664,,['ImageNet-1k only'],1904.02877v1
+Image Classification,ImageNet,WaveMix-192/16 (level 3),74.93,0.4785074626865673,,[],2205.14375v5
+Image Classification,ImageNet,FF,74.9,0.47761194029850756,,['ImageNet-1k only'],2105.02723v1
+Image Classification,ImageNet,FBNet-C,74.9,0.47761194029850756,5.5M,['ImageNet-1k only'],1812.03443v3
+Image Classification,ImageNet,ESPNetv2,74.9,0.47761194029850756,5.9M,['ImageNet-1k only'],1811.11431v3
+Image Classification,ImageNet,MobileViT-XS,74.8,0.47462686567164164,2.3M,[],2110.02178v2
+Image Classification,ImageNet,LocalViT-T,74.8,0.47462686567164164,5.9M,"['ImageNet-1k only', 'Transformer']",2104.05707v1
+Image Classification,ImageNet,RandWire-WS (small),74.7,0.47164179104477616,5.6M,[],1904.01569v2
+Image Classification,ImageNet,AutoFormer-tiny,74.7,0.47164179104477616,5.7M,"['ImageNet-1k only', 'Transformer']",2107.00651v1
+Image Classification,ImageNet,MobileNetV2 (1.4),74.7,0.47164179104477616,6.9M,['ImageNet-1k only'],1801.04381v4
+Image Classification,ImageNet,FairNAS-C,74.69,0.47134328358208943,4.4M,[],1907.01845v5
+Image Classification,ImageNet,ReXNet_0.6,74.6,0.46865671641791024,2.7M,['ImageNet-1k only'],2007.00992v3
+Image Classification,ImageNet,Proxyless,74.6,0.46865671641791024,4.0M,['ImageNet-1k only'],1812.00332v2
+Image Classification,ImageNet,PiT-Ti,74.6,0.46865671641791024,4.9M,"['ImageNet-1k only', 'Transformer']",2103.16302v2
+Image Classification,ImageNet,DY-MobileNetV2 \u00d71.0,74.4,0.4626865671641792,11.1M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,SimpleNetV1-9m,74.17,0.4558208955223881,9.5M,[],1608.06037v8
+Image Classification,ImageNet,RegNetY-400MF,74.1,0.4537313432835819,4.3M,[],2003.13678v1
+Image Classification,ImageNet,Ghost-ResNet-50 (s=4),74.1,0.4537313432835819,6.5M,[],1911.11907v2
+Image Classification,ImageNet,SReT-ExT,74.0,0.45074626865671635,4M,[],2111.05297v3
+Image Classification,ImageNet,GhostNet \u00d71.0,73.9,0.4477611940298509,5.2M,[],1911.11907v2
+Image Classification,ImageNet,DeiT-T (+MixPro),73.8,0.44477611940298495,,[],2304.12043v2
+Image Classification,ImageNet,DeiT-Ti with iRPE-K,73.7,0.4417910447761194,6M,"['ImageNet-1k only', 'Transformer']",2107.14222v1
+Image Classification,ImageNet,TransBoost-ResNet18,73.36,0.43164179104477607,11.69M,[],2205.13331v4
+Image Classification,ImageNet,Wide ResNet-50 (edge-popup),73.3,0.4298507462686566,20.6M,"['ImageNet-1k only', 'ResNet']",1911.13299v2
+Image Classification,ImageNet,ResNet-18 (MEAL V2),73.19,0.42656716417910434,,['ImageNet-1k only'],2009.08453v2
+Image Classification,ImageNet,ConViT-Ti,73.1,0.42388059701492514,6M,"['ImageNet-1k only', 'Transformer']",2103.10697v2
+Image Classification,ImageNet,RevBiFPN-S0,72.8,0.4149253731343282,3.42M,"['Reversible', 'CNN', 'FPN', 'ImageNet-1k only']",2206.14098v2
+Image Classification,ImageNet,DY-MobileNetV2 \u00d70.75,72.8,0.4149253731343282,7M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,DY-ResNet-18,72.7,0.4119402985074627,42.7M,"['ImageNet-1k only', 'ResNet']",1912.03458v2
+Image Classification,ImageNet,ECA-Net (MobileNetV2),72.56,0.4077611940298508,3.34M,['ImageNet-1k only'],1910.03151v4
+Image Classification,ImageNet,MobileNet-224 (CGD),72.56,0.4077611940298508,4.26M,['ImageNet-1k only'],1907.09665v10
+Image Classification,ImageNet,MobileOne-S0 (distill),72.5,0.4059701492537313,2.1M,[],2206.04040v2
+Image Classification,ImageNet,LocalViT-T2T,72.5,0.4059701492537313,4.3M,"['ImageNet-1k only', 'Transformer']",2104.05707v1
+Image Classification,ImageNet,MobileViTv3-0.5,72.33,0.4008955223880596,1.4M,"['Transformer', 'CNN+Transformer', 'ImageNet-1k only']",2209.15159v2
+Image Classification,ImageNet,ResNet-18 (SAMix),72.33,0.4008955223880596,11.7M,"['ImageNet-1k only', 'ResNet']",2111.15454v3
+Image Classification,ImageNet,ResNet-50,72.1,0.39402985074626845,,"['ImageNet-1k only', 'ResNet']",1910.04209v3
+Image Classification,ImageNet,ResNet-18 (AutoMix),72.05,0.3925373134328357,11.7M,"['ImageNet-1k only', 'ResNet']",2103.13027v6
+Image Classification,ImageNet,MobileNetV2,72.0,0.39104477611940297,3.4M,['CNN'],1801.04381v4
+Image Classification,ImageNet,Ours,71.97,0.3901492537313432,,[],2009.04626v1
+Image Classification,ImageNet,SimpleNetV1-5m,71.94,0.38925373134328345,5.7M,['CNN'],1608.06037v8
+Image Classification,ImageNet,ResNet-18 (PAD-L2 w/ ResNet-34 teacher),71.71,0.3823880597014923,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,MUXNet-s,71.6,0.3791044776119401,2.4M,['ImageNet-1k only'],2003.13880v2
+Image Classification,ImageNet,PDC,71.6,0.3791044776119401,11.51M,[],2104.07916v2
+Image Classification,ImageNet,ResNet-18 (FT w/ ResNet-34 teacher),71.56,0.37791044776119403,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,EfficientFormer-V2-S0,71.53,0.3770149253731343,,[],2308.09372v2
+Image Classification,ImageNet,MobileOne-S0,71.4,0.3731343283582091,2.1M,[],2206.04040v2
+Image Classification,ImageNet,ResNet-18 (KD w/ ResNet-34 teacher),71.37,0.37223880597014936,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,EdgeNeXt-XXS,71.2,0.3671641791044777,1.3M,"['Transformer', 'ImageNet-1k only']",2206.10589v3
+Image Classification,ImageNet,ResNet-18 (L2 w/ ResNet-34 teacher),71.08,0.3635820895522387,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,MobileViTv3-XXS,70.98,0.3605970149253732,1.2M,"['CNN+Transformer', 'Transformer', 'ImageNet-1k only']",2209.15159v2
+Image Classification,ImageNet,ResNet-18 (CRD w/ ResNet-34 teacher),70.93,0.3591044776119405,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,ShuffleNet,70.9,0.35820895522388074,,['ImageNet-1k only'],1707.01083v2
+Image Classification,ImageNet,MobileNet-224 \u00d71.25,70.6,0.34925373134328336,,[],1704.04861v1
+Image Classification,ImageNet,ResNet-18 (tf-KD w/ ResNet-18 teacher),70.52,0.3468656716417909,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,PVTv2-B0,70.5,0.3462686567164179,3.4M,['ImageNet-1k only'],2106.13797v7
+Image Classification,ImageNet,GAC-SNN MS-ResNet-34,70.42,0.3438805970149254,,[],2308.06582v2
+Image Classification,ImageNet,ResNet-18 (SSKD w/ ResNet-34 teacher),70.09,0.33402985074626873,,"['ImageNet-1k only', 'ResNet']",2011.12913v2
+Image Classification,ImageNet,DY-MobileNetV3-Small,69.7,0.3223880597014926,4.8M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,HVT-Ti-1,69.64,0.3205970149253731,5.74M,"['ImageNet-1k only', 'Transformer']",2103.10619v2
+Image Classification,ImageNet,DY-MobileNetV2 \u00d70.5,69.4,0.31343283582089565,4M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,AsymmNet-Large \u00d70.5,69.2,0.30746268656716425,2.8M,[],2104.07770v1
+Image Classification,ImageNet,SimpleNetV1-small-05-correct-labels,69.11,0.30477611940298505,1.5M,[],1608.06037v8
+Image Classification,ImageNet,Heteroscedastic (InceptionResNet-v2),68.6,0.28955223880597,,['ImageNet-1k only'],2105.10305v1
+Image Classification,ImageNet,AsymmNet-Small \u00d71.0,68.4,0.28358208955223896,3.1M,[],2104.07770v1
+Image Classification,ImageNet,FireCaffe (GoogLeNet),68.3,0.28059701492537303,,['ImageNet-1k only'],1511.00175v2
+Image Classification,ImageNet,Graph-RISE (40M),68.29,0.28029850746268675,,['ImageNet-1k only'],1902.10814v1
+Image Classification,ImageNet,SimpleNetV1-small-075,68.15,0.27611940298507476,3M,[],1608.06037v8
+Image Classification,ImageNet,ReActNet-A (BN-Free),68.0,0.2716417910447761,,"['CNN', 'ImageNet-1k only']",2104.08215v1
+Image Classification,ImageNet,DY-ResNet-10,67.7,0.26268656716417915,18.6M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,MUXNet-xs,66.7,0.23283582089552246,1.8M,['ImageNet-1k only'],2003.13880v2
+Image Classification,ImageNet,"PAWS (ResNet-50, 1% labels)",66.5,0.22686567164179103,,"['ImageNet-1k only', 'ResNet']",2104.13963v3
+Image Classification,ImageNet,GhostNet \u00d70.5,66.2,0.21791044776119411,2.6M,[],1911.11907v2
+Image Classification,ImageNet,OTTT,65.15,0.18656716417910466,,['SNN'],2210.04195v2
+Image Classification,ImageNet,DY-MobileNetV2 \u00d70.35,64.9,0.17910447761194048,2.8M,['ImageNet-1k only'],1912.03458v2
+Image Classification,ImageNet,BBG (ResNet-34),62.6,0.11044776119402991,,"['ImageNet-1k only', 'ResNet']",1909.12117v2
+Image Classification,ImageNet,SimpleNetV1-small-05,61.52,0.07820895522388072,1.5M,[],1608.06037v8
+Image Classification,ImageNet,BBG (ResNet-18),59.4,0.014925373134328354,,"['ImageNet-1k only', 'ResNet']",1909.12117v2
+Image Classification,ImageNet,FireCaffe (AlexNet),58.9,0.0,,['ImageNet-1k only'],1511.00175v2

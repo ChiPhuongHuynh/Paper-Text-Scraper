@@ -1,0 +1,9 @@
+,Task,Dataset,name,accuracy,accuracy_norm,params,tags,id,max,min,difficulty
+4,Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2,100.0,47.6,0.9809160305343512
+7,Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,100.0,47.6,0.9236641221374046
+25,Image Classification,Fashion MNIST,Fine-Tuning DARTS,96.91,1.0,,[],2006.09042v1,100.0,47.6,0.9410305343511448
+33,Image Classification,ImageNet,OmniVec(ViT),92.4,1.0,,[],2311.05709v1,100.0,47.6,0.8549618320610688
+43,Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,100.0,47.6,0.9975190839694658
+59,Image Classification,STL-10,VIT-L/16 (Spinal FC),99.71,1.0,,[],2305.03238v4,100.0,47.6,0.9944656488549616
+60,Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,100.0,47.6,0.3492366412213741
+70,Image Generation,CIFAR-10,StyleSAN-XL,1.36,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.0081595648232094

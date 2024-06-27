@@ -1,0 +1,697 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Visual Question Answering (VQA),VQA v2 test-dev,PaLI,84.3,1.0,null,[']'],2209.06794v4
+Visual Question Answering (VQA),VQA v2 test-dev,BEiT-3,84.19,0.9972361809045226,null,[']'],2208.10442v2
+Visual Question Answering (VQA),VQA v2 test-dev,VLMo,82.78,0.9618090452261308,null,[']'],2111.02358v2
+Visual Question Answering (VQA),VQA v2 test-dev,ONE-PEACE,82.6,0.9572864321608039,null,[']'],2305.11172v1
+Visual Question Answering (VQA),VQA v2 test-dev,mPLUG (Huge),82.43,0.9530150753768847,null,[']'],2205.12005v2
+Visual Question Answering (VQA),VQA v2 test-dev,CuMo-7B,82.2,0.9472361809045228,null,[']'],2405.05949v1
+Visual Question Answering (VQA),VQA v2 test-dev,X2-VLM (large),81.9,0.9396984924623117,null,[']'],2211.12402v2
+Visual Question Answering (VQA),VQA v2 test-dev,MMU,81.26,0.9236180904522615,null,[']'],2111.08896v3
+Visual Question Answering (VQA),VQA v2 test-dev,Lyrics,81.2,0.9221105527638193,null,[']'],2312.05278v2
+Visual Question Answering (VQA),VQA v2 test-dev,InternVL-C,81.2,0.9221105527638193,null,[']'],2312.14238v3
+Visual Question Answering (VQA),VQA v2 test-dev,mPLUG-2,81.11,0.9198492462311558,null,[']'],2302.00402v1
+Visual Question Answering (VQA),VQA v2 test-dev,X2-VLM (base),80.4,0.9020100502512565,null,[']'],2211.12402v2
+Visual Question Answering (VQA),VQA v2 test-dev,XFM (base),80.4,0.9020100502512565,null,[']'],2301.05065v2
+Visual Question Answering (VQA),VQA v2 test-dev,VAST,80.23,0.8977386934673368,null,[']'],null
+Visual Question Answering (VQA),VQA v2 test-dev,Florence,80.16,0.8959798994974875,null,[']'],2111.11432v1
+Visual Question Answering (VQA),VQA v2 test-dev,SimVLM,80.03,0.8927135678391961,null,[']'],2108.10904v3
+Visual Question Answering (VQA),VQA v2 test-dev,VALOR,78.46,0.8532663316582914,null,[']'],2304.08345v1
+Visual Question Answering (VQA),VQA v2 test-dev,Prismer,78.43,0.8525125628140706,null,[']'],2303.02506v3
+Visual Question Answering (VQA),VQA v2 test-dev,X-VLM (base),78.22,0.8472361809045227,null,[']'],2111.08276v3
+Visual Question Answering (VQA),VQA v2 test-dev,VK-OOD,77.9,0.8391959798994977,null,[']'],null
+Visual Question Answering (VQA),VQA v2 test-dev,ALBEF (14M),75.84,0.7874371859296484,null,[']'],2107.07651v2
+Visual Question Answering (VQA),VQA v2 test-dev,Oscar,73.82,0.7366834170854271,null,[']'],2004.06165v5
+Visual Question Answering (VQA),VQA v2 test-dev,UNITER (Large),73.24,0.722110552763819,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VQA v2 test-dev,X-101 grid features + MCAN,72.59,0.705778894472362,null,[']'],2001.03615v2
+Visual Question Answering (VQA),VQA v2 test-dev,CFR,72.5,0.7035175879396985,null,[']'],2110.02526v2
+Visual Question Answering (VQA),VQA v2 test-dev,VL-BERTLARGE,71.79,0.6856783919597992,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VQA v2 test-dev,ViLT-B/32,71.26,0.6723618090452264,null,[']'],2102.03334v2
+Visual Question Answering (VQA),VQA v2 test-dev,MCAN+VC,71.21,0.6711055276381909,null,[']'],2002.12204v3
+Visual Question Answering (VQA),VQA v2 test-dev,VL-BERTBASE,71.16,0.6698492462311557,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VQA v2 test-dev,VisualBERT,70.8,0.6608040201005025,null,[']'],1908.03557v1
+Visual Question Answering (VQA),VQA v2 test-dev,MCANed-6,70.63,0.6565326633165829,null,[']'],1906.10770v1
+Visual Question Answering (VQA),VQA v2 test-dev,ViLBERT,70.55,0.6545226130653267,null,[']'],1908.02265v1
+Visual Question Answering (VQA),VQA v2 test-dev,BAN+Glove+Counter,70.04,0.641708542713568,null,[']'],1805.07932v2
+Visual Question Answering (VQA),VQA v2 test-dev,LXMERT (Pre-train + scratch),69.9,0.6381909547738696,null,[']'],1908.07490v3
+Visual Question Answering (VQA),VQA v2 test-dev,"Image features from bottom-up attention (adaptive K, ensemble)",69.87,0.6374371859296484,null,[']'],1708.02711v1
+Visual Question Answering (VQA),VQA v2 test-dev,Pythia v0.3 + LoRRA,69.21,0.6208542713567838,null,[']'],1904.08920v2
+Visual Question Answering (VQA),VQA v2 test-dev,DMN,68.09,0.5927135678391962,null,[']'],1802.05766v1
+Visual Question Answering (VQA),VQA v2 test-dev,LaKo,68.07,0.5922110552763817,null,[']'],2207.12888v2
+Visual Question Answering (VQA),VQA v2 test-dev,MuRel,68.03,0.5912060301507538,null,[']'],1902.09487v1
+Visual Question Answering (VQA),VQA v2 test-dev,BLOCK,67.58,0.5798994974874372,null,[']'],1902.00038v2
+Visual Question Answering (VQA),VQA v2 test-dev,MUTAN,67.42,0.5758793969849247,null,[']'],1705.06676v1
+Visual Question Answering (VQA),VQA v2 test-dev,BAN2-CTI,67.4,0.5753768844221108,null,[']'],1909.11874v1
+Visual Question Answering (VQA),VQA v2 test-dev,2D continuous softmax,65.96,0.5391959798994974,null,[']'],2006.07214v3
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-G FlanT5 XXL (zero-shot),65.0,0.5150753768844222,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,"N2NMN (ResNet-152, policy search)",64.9,0.512562814070352,null,['ResNet'],1704.05526v3
+Visual Question Answering (VQA),VQA v2 test-dev,PNP-VQA,64.8,0.5100502512562813,null,['zero-shot'],2210.08773v3
+Visual Question Answering (VQA),VQA v2 test-dev,MCB,64.7,0.5075376884422111,null,[']'],1606.01847v3
+Visual Question Answering (VQA),VQA v2 test-dev,RUBi,63.18,0.46934673366834173,null,[']'],1906.10169v2
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-G FlanT5 XL (zero-shot),63.0,0.4648241206030151,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-L FlanT5 XL (zero-shot),62.3,0.44723618090452255,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,Flamingo 80B,56.3,0.29648241206030146,null,[']'],2204.14198v2
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-G OPT 6.7B (zero-shot),52.6,0.20351758793969854,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-G OPT 2.7B (zero-shot),52.3,0.19597989949748737,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,Flamingo 9B,51.8,0.1834170854271356,null,[']'],2204.14198v2
+Visual Question Answering (VQA),VQA v2 test-dev,KOSMOS-1 1.6B (zero-shot),51.0,0.16331658291457288,null,[']'],null
+Visual Question Answering (VQA),VQA v2 test-dev,BLIP-2 ViT-L OPT 2.7B (zero-shot),49.7,0.13065326633165839,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 test-dev,Flamingo 3B,49.2,0.11809045226130661,null,[']'],2204.14198v2
+Visual Question Answering (VQA),VQA v2 test-dev,VLKD,44.5,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),VQA v2 test-std,BEiT-3,84.03,1.0,null,[']'],2208.10442v2
+Visual Question Answering (VQA),VQA v2 test-std,mPLUG-Huge,83.62,0.9929371231696814,null,[']'],2205.12005v2
+Visual Question Answering (VQA),VQA v2 test-std,ONE-PEACE,82.52,0.9739879414298018,null,[']'],2305.11172v1
+Visual Question Answering (VQA),VQA v2 test-std,X2-VLM (large),81.8,0.961584840654608,null,[']'],2211.12402v2
+Visual Question Answering (VQA),VQA v2 test-std,VLMo,81.3,0.9529715762273901,null,[']'],2111.02358v2
+Visual Question Answering (VQA),VQA v2 test-std,Florence,80.36,0.9367786391042204,null,[']'],2111.11432v1
+Visual Question Answering (VQA),VQA v2 test-std,SimVLM,80.34,0.9364341085271318,null,[']'],2108.10904v3
+Visual Question Answering (VQA),VQA v2 test-std,X2-VLM (base),80.2,0.9340223944875108,null,[']'],2211.12402v2
+Visual Question Answering (VQA),VQA v2 test-std,VAST,80.19,0.9338501291989664,null,[']'],null
+Visual Question Answering (VQA),VQA v2 test-std,VALOR,78.62,0.9068044788975022,null,[']'],2304.08345v1
+Visual Question Answering (VQA),VQA v2 test-std,Prompt Tuning,78.53,0.905254091300603,null,[']'],2208.02532v1
+Visual Question Answering (VQA),VQA v2 test-std,Prismer,78.49,0.9045650301464254,null,[']'],2303.02506v3
+Visual Question Answering (VQA),VQA v2 test-std,"MSR + MS Cog. Svcs., X10 models",77.45,0.8866494401378122,null,[']'],2101.00529v2
+Visual Question Answering (VQA),VQA v2 test-std,MSR + MS Cog. Svcs.,76.63,0.8725236864771747,null,[']'],2101.00529v2
+Visual Question Answering (VQA),VQA v2 test-std,ALBEF (14M),76.04,0.8623600344530578,null,[']'],2107.07651v2
+Visual Question Answering (VQA),VQA v2 test-std,"BGN, ensemble",75.92,0.8602928509905254,null,[']'],1907.09815v2
+Visual Question Answering (VQA),VQA v2 test-std,ERNIE-ViL-single model,74.93,0.843238587424634,null,[']'],2006.16934v3
+Visual Question Answering (VQA),VQA v2 test-std,"Single, w/o VLP",74.16,0.8299741602067182,null,[']'],2001.03615v2
+Visual Question Answering (VQA),VQA v2 test-std,"Single, w/o VLP",73.86,0.8248062015503875,null,[']'],2004.12070v2
+Visual Question Answering (VQA),VQA v2 test-std,UNITER (Large),73.4,0.8168819982773472,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VQA v2 test-std,X-101 grid features + MCAN,72.71,0.8049956933677862,null,[']'],2001.03615v2
+Visual Question Answering (VQA),VQA v2 test-std,LXMERT,72.5,0.8013781223083548,null,[']'],1908.07490v3
+Visual Question Answering (VQA),VQA v2 test-std,VL-BERTLARGE,72.2,0.7962101636520241,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VQA v2 test-std,MCAN+VC,71.49,0.7839793281653745,null,[']'],2002.12204v3
+Visual Question Answering (VQA),VQA v2 test-std,VisualBERT,71.0,0.7755383290267011,null,[']'],1908.03557v1
+Visual Question Answering (VQA),VQA v2 test-std,MCANed-6,70.9,0.7738156761412576,null,[']'],1906.10770v1
+Visual Question Answering (VQA),VQA v2 test-std,Unified VLP,70.7,0.7703703703703704,null,[']'],1909.11059v3
+Visual Question Answering (VQA),VQA v2 test-std,BAN+Glove+Counter,70.4,0.7652024117140397,null,[']'],1805.07932v2
+Visual Question Answering (VQA),VQA v2 test-std,Up-Down,70.34,0.7641688199827735,null,[']'],1707.07998v3
+Visual Question Answering (VQA),VQA v2 test-std,"Image features from bottom-up attention (adaptive K, ensemble)",70.3,0.763479758828596,null,[']'],1708.02711v1
+Visual Question Answering (VQA),VQA v2 test-std,Caption VQA,69.7,0.7531438415159346,null,[']'],1906.00513v3
+Visual Question Answering (VQA),VQA v2 test-std,MuRel,68.4,0.730749354005168,null,[']'],1902.09487v1
+Visual Question Answering (VQA),VQA v2 test-std,DMN,68.4,0.730749354005168,null,[']'],1802.05766v1
+Visual Question Answering (VQA),VQA v2 test-std,BLOCK,67.9,0.7221360895779501,null,[']'],1902.00038v2
+Visual Question Answering (VQA),VQA v2 test-std,MUTAN,67.4,0.7135228251507322,null,[']'],1705.06676v1
+Visual Question Answering (VQA),VQA v2 test-std,2D continuous softmax,66.27,0.6940568475452196,null,[']'],2006.07214v3
+Visual Question Answering (VQA),VQA v2 test-std,"MCB [11, 12]",62.27,0.6251507321274764,null,[']'],1612.00837v3
+Visual Question Answering (VQA),VQA v2 test-std,Language-only,44.26,0.314900947459087,null,[']'],1612.00837v3
+Visual Question Answering (VQA),VQA v2 test-std,Prior,25.98,0.0,null,[']}]</script'],1612.00837v3
+Visual Question Answering (VQA),MSVD-QA,VLAB,0.61,1.0,null,[']'],2305.13167v1
+Visual Question Answering (VQA),MSVD-QA,MA-LMM,0.606,0.9865319865319865,null,[']'],2404.05726v2
+Visual Question Answering (VQA),MSVD-QA,MaMMUT (ours),0.602,0.9730639730639731,null,[']'],2303.16839v3
+Visual Question Answering (VQA),MSVD-QA,VALOR,0.6,0.9663299663299663,null,[']'],2304.08345v1
+Visual Question Answering (VQA),MSVD-QA,VAST,0.6,0.9663299663299663,null,[']'],2305.18500v2
+Visual Question Answering (VQA),MSVD-QA,COSA,0.6,0.9663299663299663,null,[']'],2306.09085v1
+Visual Question Answering (VQA),MSVD-QA,mPLUG-2,0.581,0.9023569023569022,null,[']'],2302.00402v1
+Visual Question Answering (VQA),MSVD-QA,VideoCoCa,0.569,0.8619528619528618,null,[']'],2212.04979v3
+Visual Question Answering (VQA),MSVD-QA,GIT,0.568,0.8585858585858585,null,[']'],2205.14100v5
+Visual Question Answering (VQA),MSVD-QA,FrozenBiLM+,0.558,0.8249158249158252,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSVD-QA,HiTeA,0.556,0.8181818181818183,null,[']'],2212.14546v1
+Visual Question Answering (VQA),MSVD-QA,InternVideo,0.555,0.814814814814815,null,[']'],2212.03191v2
+Visual Question Answering (VQA),MSVD-QA,UMT-L (ViT-L/16),0.552,0.8047138047138049,null,[']'],2303.16058v2
+Visual Question Answering (VQA),MSVD-QA,vid-TLDR (UMT-L),0.549,0.7946127946127948,null,[']'],2403.13347v2
+Visual Question Answering (VQA),MSVD-QA,VIOLETv2,0.547,0.7878787878787881,null,[']'],2209.01540v5
+Visual Question Answering (VQA),MSVD-QA,MuLTI,0.547,0.7878787878787881,null,[']'],2303.05707v2
+Visual Question Answering (VQA),MSVD-QA,X2-VLM (large),0.546,0.7845117845117847,null,[']'],2211.12402v2
+Visual Question Answering (VQA),MSVD-QA,X2-VLM (base),0.528,0.723905723905724,null,[']'],2211.12402v2
+Visual Question Answering (VQA),MSVD-QA,Clover,0.524,0.7104377104377105,null,[']'],2207.07885v3
+Visual Question Answering (VQA),MSVD-QA,VIOLET + MELTR,0.517,0.686868686868687,null,[']'],2303.13009v1
+Visual Question Answering (VQA),MSVD-QA,OmniVL,0.51,0.6632996632996634,null,[']'],2209.07526v2
+Visual Question Answering (VQA),MSVD-QA,VIOLET+,0.495,0.6127946127946128,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSVD-QA,Co-Tokenization,0.486,0.5824915824915825,null,[']'],2208.00934v1
+Visual Question Answering (VQA),MSVD-QA,All-in-one-B,0.483,0.5723905723905723,null,[']'],2203.07303v1
+Visual Question Answering (VQA),MSVD-QA,LRCE,0.478,0.5555555555555555,null,[']'],null
+Visual Question Answering (VQA),MSVD-QA,JustAsk+,0.477,0.5521885521885521,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSVD-QA,GIT+MDF,0.469,0.5252525252525252,null,[']'],2307.04192v4
+Visual Question Answering (VQA),MSVD-QA,AIO+MIF,0.467,0.5185185185185186,null,[']'],2307.04192v4
+Visual Question Answering (VQA),MSVD-QA,ALPRO,0.459,0.4915824915824917,null,[']'],2112.09583v2
+Visual Question Answering (VQA),MSVD-QA,All-in-one+,0.438,0.4208754208754209,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSVD-QA,DualVGR,0.39,0.2592592592592593,null,[']'],2107.04768v1
+Visual Question Answering (VQA),MSVD-QA,HCRN,0.361,0.16161616161616157,null,[']'],2002.10698v3
+Visual Question Answering (VQA),MSVD-QA,SSML,0.351,0.1279461279461279,null,[']'],2003.03186v3
+Visual Question Answering (VQA),MSVD-QA,HMEMA,0.337,0.08080808080808088,null,[']'],1904.04357v1
+Visual Question Answering (VQA),MSVD-QA,Co-Mem,0.317,0.013468013468013481,null,[']'],1803.10906v1
+Visual Question Answering (VQA),MSVD-QA,ST-VQA,0.313,0.0,null,[']}]</script'],1704.04497v3
+Visual Question Answering (VQA),OK-VQA,PaLI-X-VPD,66.8,1.0,null,[']'],2312.03052v2
+Visual Question Answering (VQA),OK-VQA,PaLM-E-562B,66.1,0.9885057471264367,null,[']'],2303.03378v1
+Visual Question Answering (VQA),OK-VQA,PaLI-X (Single-task FT),66.1,0.9885057471264367,null,[']'],2305.18565v1
+Visual Question Answering (VQA),OK-VQA,PaLI 17B,64.5,0.9622331691297209,null,[']'],2209.06794v4
+Visual Question Answering (VQA),OK-VQA,Prophet,62.5,0.929392446633826,null,[']'],2303.01903v3
+Visual Question Answering (VQA),OK-VQA,RA-VQA-v2 (BLIP 2),62.08,0.922495894909688,null,[']'],2309.17133v2
+Visual Question Answering (VQA),OK-VQA,A Simple Baseline for KB-VQA,61.2,0.9080459770114944,null,[']'],2310.13570v2
+Visual Question Answering (VQA),OK-VQA,PromptCap,60.4,0.8949096880131363,null,[']'],2211.09699v4
+Visual Question Answering (VQA),OK-VQA,ReVeaL WIT + CC12M + Wikidata + VQA-2,59.1,0.8735632183908046,null,[']'],2212.05221v2
+Visual Question Answering (VQA),OK-VQA,Lyrics,58.2,0.858784893267652,null,[']'],2312.05278v2
+Visual Question Answering (VQA),OK-VQA,REVIVE (Ensemble),58.0,0.8555008210180625,null,[']'],2206.01201v2
+Visual Question Answering (VQA),OK-VQA,REVIVE (Single),56.6,0.832512315270936,null,[']'],2206.01201v2
+Visual Question Answering (VQA),OK-VQA,RA-VQA-v2 (T5-large),54.85,0.803776683087028,null,[']'],2309.17133v2
+Visual Question Answering (VQA),OK-VQA,RA-VQA (T5-large),54.48,0.7977011494252874,null,[']'],2210.03809v2
+Visual Question Answering (VQA),OK-VQA,VK-OOD,52.4,0.7635467980295567,null,[']'],2302.05608v1
+Visual Question Answering (VQA),OK-VQA,VK-OOD,52.4,0.7635467980295567,null,[']'],null
+Visual Question Answering (VQA),OK-VQA,RA-VQA-FrDPR (T5-large),51.22,0.7441707717569787,null,[']'],2210.03809v2
+Visual Question Answering (VQA),OK-VQA,Flamingo80B,50.6,0.7339901477832513,null,[']'],2204.14198v2
+Visual Question Answering (VQA),OK-VQA,TRiG (T5-Large),50.5,0.7323481116584565,null,[']'],null
+Visual Question Answering (VQA),OK-VQA,PICa,48.0,0.6912972085385879,null,[']'],2109.05014v2
+Visual Question Answering (VQA),OK-VQA,LaKo,47.01,0.6750410509031198,null,[']'],2207.12888v2
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-G FlanT5 XXL (zero-shot),45.9,0.6568144499178982,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,Flamingo9B,44.7,0.6371100164203614,null,[']'],2204.14198v2
+Visual Question Answering (VQA),OK-VQA,VLC-BERT,43.1,0.6108374384236454,null,[']'],2210.13626v1
+Visual Question Answering (VQA),OK-VQA,"T5(Tan and Bansal, 2019) + Prefixes",42.03,0.5932676518883416,null,[']'],2207.12888v2
+Visual Question Answering (VQA),OK-VQA,Flamingo3B,41.2,0.5796387520525452,null,[']'],2204.14198v2
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-G FlanT5 XL (zero-shot),40.7,0.5714285714285715,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-L FlanT5 XL (zero-shot),39.4,0.5500821018062397,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-G OPT 6.7B (zero-shot),36.4,0.5008210180623974,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,PNP-VQA,35.9,0.49261083743842365,null,['zero-shot'],2210.08773v3
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-G OPT 2.7B (zero-shot),31.7,0.4236453201970443,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,BLIP-2 ViT-L OPT 2.7B (zero-shot),30.2,0.3990147783251231,null,[']'],2301.12597v3
+Visual Question Answering (VQA),OK-VQA,FewVLM,16.5,0.17405582922824303,null,[']'],2110.08484v2
+Visual Question Answering (VQA),OK-VQA,MetaLM,11.4,0.090311986863711,null,['zero-shot'],2206.06336v1
+Visual Question Answering (VQA),OK-VQA,VLKD(ViT-B/16),10.5,0.07553366174055828,null,['zero-shot'],null
+Visual Question Answering (VQA),OK-VQA,Frozen,5.9,0.0,null,['zero-shot'],2106.13884v2
+Visual Question Answering (VQA),MSRVTT-QA,VLAB,0.496,1.0,null,[']'],2305.13167v1
+Visual Question Answering (VQA),MSRVTT-QA,MaMMUT,0.495,0.9968944099378882,null,[']'],2303.16839v3
+Visual Question Answering (VQA),MSRVTT-QA,mPLUG-2,0.48,0.9503105590062111,null,[']'],2302.00402v1
+Visual Question Answering (VQA),MSRVTT-QA,MuLTI,0.478,0.9440993788819876,null,[']'],2303.05707v2
+Visual Question Answering (VQA),MSRVTT-QA,Flamingo,0.474,0.9316770186335404,null,[']'],2204.14198v2
+Visual Question Answering (VQA),MSRVTT-QA,InternVideo,0.471,0.9223602484472049,null,[']'],2212.03191v2
+Visual Question Answering (VQA),MSRVTT-QA,UMT-L (ViT-L/16),0.471,0.9223602484472049,null,[']'],2303.16058v2
+Visual Question Answering (VQA),MSRVTT-QA,FrozenBiLM+,0.47,0.9192546583850931,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSRVTT-QA,vid-TLDR (UMT-L),0.47,0.9192546583850931,null,[']'],2403.13347v2
+Visual Question Answering (VQA),MSRVTT-QA,VideoCoCa,0.463,0.8975155279503106,null,[']'],2212.04979v3
+Visual Question Answering (VQA),MSRVTT-QA,HBI,0.462,0.8944099378881989,null,[']'],2303.14369v1
+Visual Question Answering (VQA),MSRVTT-QA,HiTeA,0.459,0.8850931677018634,null,[']'],2212.14546v1
+Visual Question Answering (VQA),MSRVTT-QA,EMCL-Net,0.458,0.8819875776397517,null,[']'],2211.11427v1
+Visual Question Answering (VQA),MSRVTT-QA,Co-Tokenization,0.457,0.8788819875776398,null,[']'],2208.00934v1
+Visual Question Answering (VQA),MSRVTT-QA,X2-VLM (large),0.455,0.8726708074534162,null,[']'],2211.12402v2
+Visual Question Answering (VQA),MSRVTT-QA,X2-VLM (base),0.45,0.8571428571428572,null,[']'],2211.12402v2
+Visual Question Answering (VQA),MSRVTT-QA,All-in-one-B,0.443,0.8354037267080746,null,[']'],2203.07303v1
+Visual Question Answering (VQA),MSRVTT-QA,OmniVL,0.441,0.829192546583851,null,[']'],2209.07526v2
+Visual Question Answering (VQA),MSRVTT-QA,Clover,0.441,0.829192546583851,null,[']'],2207.07885v3
+Visual Question Answering (VQA),MSRVTT-QA,AIO+MIF,0.44,0.8260869565217391,null,[']'],2307.04192v4
+Visual Question Answering (VQA),MSRVTT-QA,AIO+MDF,0.438,0.8198757763975155,null,[']'],2307.04192v4
+Visual Question Answering (VQA),MSRVTT-QA,GIT+MDF,0.423,0.7732919254658385,null,[']'],2307.04192v4
+Visual Question Answering (VQA),MSRVTT-QA,ALPRO,0.421,0.7670807453416149,null,[']'],2112.09583v2
+Visual Question Answering (VQA),MSRVTT-QA,LRCE,0.42,0.7639751552795031,null,[']'],null
+Visual Question Answering (VQA),MSRVTT-QA,JustAsk+,0.418,0.7577639751552795,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSRVTT-QA,All-in-one+,0.395,0.6863354037267082,null,[']'],2308.09363v1
+Visual Question Answering (VQA),MSRVTT-QA,CLIPBERT,0.374,0.6211180124223603,null,[']'],2102.06183v1
+Visual Question Answering (VQA),MSRVTT-QA,HCRN,0.356,0.5652173913043478,null,[']'],2002.10698v3
+Visual Question Answering (VQA),MSRVTT-QA,DualVGR,0.355,0.562111801242236,null,[']'],2107.04768v1
+Visual Question Answering (VQA),MSRVTT-QA,HMEMA,0.33,0.4844720496894411,null,[']'],1904.04357v1
+Visual Question Answering (VQA),MSRVTT-QA,Co-Mem,0.32,0.453416149068323,null,[']'],1803.10906v1
+Visual Question Answering (VQA),MSRVTT-QA,Flamingo (32-shot),0.31,0.422360248447205,null,[']'],2204.14198v2
+Visual Question Answering (VQA),MSRVTT-QA,ST-VQA,0.309,0.4192546583850932,null,[']'],1704.04497v3
+Visual Question Answering (VQA),MSRVTT-QA,Flamingo (0-shot),0.174,0.0,null,[']}]</script'],2204.14198v2
+Visual Question Answering (VQA),DocVQA test,Human,0.981,1.0,null,['Human'],2007.00398v3
+Visual Question Answering (VQA),DocVQA test,SMoLA-PaLI-X Specialist,0.908,0.7943661971830988,null,[']'],2312.00968v2
+Visual Question Answering (VQA),DocVQA test,SMoLA-PaLI-X Generalist,0.906,0.7887323943661972,null,[']'],2312.00968v2
+Visual Question Answering (VQA),DocVQA test,Qwen-VL-Plus,0.902,0.7774647887323944,null,[']'],2308.12966v3
+Visual Question Answering (VQA),DocVQA test,"ScreenAI 5B (4.62 B params, w/OCR)",0.898,0.7661971830985916,null,[']'],2402.04615v2
+Visual Question Answering (VQA),DocVQA test,PaLI-3 (w/ OCR),0.886,0.7323943661971831,null,[']'],2310.09199v2
+Visual Question Answering (VQA),DocVQA test,ERNIE-Layout large (ensemble),0.884,0.7267605633802817,null,"['Multiple-Models', 'Ensemble']",2210.06155v2
+Visual Question Answering (VQA),DocVQA test,GPT-4,0.884,0.7267605633802817,null,[']'],2306.00526v4
+Visual Question Answering (VQA),DocVQA test,DocFormerv2-large,0.878,0.7098591549295775,null,[']'],2306.01733v1
+Visual Question Answering (VQA),DocVQA test,UDOP (aux),0.878,0.7098591549295775,null,[']'],2212.02623v3
+Visual Question Answering (VQA),DocVQA test,PaLI-3,0.876,0.7042253521126761,null,[']'],2310.09199v2
+Visual Question Answering (VQA),DocVQA test,TILT-Large,0.87,0.6873239436619718,null,['Multiple-Models'],2102.09550v3
+Visual Question Answering (VQA),DocVQA test,PaLI-X (Single-task FT w/ OCR),0.868,0.6816901408450704,null,['Multiple-Models'],2305.18565v1
+Visual Question Answering (VQA),DocVQA test,LayoutLMv2LARGE,0.867,0.6788732394366197,null,['Multiple-Models'],2012.14740v4
+Visual Question Answering (VQA),DocVQA test,ERNIE-Layout large,0.848,0.6253521126760563,null,['Multiple-Models'],2210.06155v2
+Visual Question Answering (VQA),DocVQA test,UDOP,0.847,0.6225352112676056,null,['Multiple-Models'],2212.02623v3
+Visual Question Answering (VQA),DocVQA test,TILT-Base,0.839,0.6,null,['Multiple-Models'],2102.09550v3
+Visual Question Answering (VQA),DocVQA test,Claude + LATIN-Prompt,0.833,0.5830985915492957,null,[']'],2306.00526v4
+Visual Question Answering (VQA),DocVQA test,GPT-3.5 + LATIN-Prompt,0.825,0.5605633802816901,null,[']'],2306.00526v4
+Visual Question Answering (VQA),DocVQA test,PaLI-X (Multi-task FT),0.809,0.5154929577464791,null,[']'],2305.18565v1
+Visual Question Answering (VQA),DocVQA test,DUBLIN (variable resolution),0.803,0.4985915492957748,null,[']'],2305.14218v4
+Visual Question Answering (VQA),DocVQA test,PaLI-X (Single-task FT),0.8,0.49014084507042266,null,[']'],2305.18565v1
+Visual Question Answering (VQA),DocVQA test,DUBLIN,0.782,0.43943661971830994,null,[']'],2305.14218v4
+Visual Question Answering (VQA),DocVQA test,LayoutLMv2BASE,0.78,0.43380281690140854,null,['Multiple-Models'],2012.14740v4
+Visual Question Answering (VQA),DocVQA test,Pix2Struct-large,0.766,0.3943661971830986,null,[']'],2210.03347v2
+Visual Question Answering (VQA),DocVQA test,MatCha,0.742,0.3267605633802817,null,[']'],2212.09662v2
+Visual Question Answering (VQA),DocVQA test,Pix2Struct-base,0.721,0.2676056338028168,null,[']'],2210.03347v2
+Visual Question Answering (VQA),DocVQA test,Donut,0.675,0.13802816901408463,null,[']'],2111.15664v5
+Visual Question Answering (VQA),DocVQA test,BERT_LARGE_SQUAD_DOCVQA_FINETUNED_Baseline,0.665,0.10985915492957757,null,[']'],2007.00398v3
+Visual Question Answering (VQA),DocVQA test,Qwen-VL,0.651,0.07042253521126768,null,['Not fine-tuned'],2308.12966v3
+Visual Question Answering (VQA),DocVQA test,Dessurt,0.632,0.01690140845070424,null,[']'],2203.16618v3
+Visual Question Answering (VQA),DocVQA test,Qwen-VL-Chat,0.626,0.0,null,['Not fine-tuned'],2308.12966v3
+Visual Question Answering (VQA),InfographicVQA,Gemini Ultra (pixel only),80.3,1.0,null,[']'],2312.11805v4
+Visual Question Answering (VQA),InfographicVQA,SMoLA-PaLI-X Specialist,66.2,0.6757129714811408,null,[']'],2312.00968v2
+Visual Question Answering (VQA),InfographicVQA,"ScreenAI 5B (4.62 B params, w/ OCR)",65.9,0.6688132474701014,null,[']'],2402.04615v2
+Visual Question Answering (VQA),InfographicVQA,SMoLA-PaLI-X Generalist,65.6,0.6619135234590615,null,[']'],2312.00968v2
+Visual Question Answering (VQA),InfographicVQA,UDOP (aux),63.0,0.6021159153633855,null,[']'],2212.02623v3
+Visual Question Answering (VQA),InfographicVQA,PaLI-3 (w/ OCR),62.4,0.5883164673413064,null,[']'],2310.09199v2
+Visual Question Answering (VQA),InfographicVQA,TILT-Large,61.2,0.5607175712971482,null,[']'],2102.09550v3
+Visual Question Answering (VQA),InfographicVQA,PaLI-3,57.8,0.4825206991720331,null,[']'],2310.09199v2
+Visual Question Answering (VQA),InfographicVQA,PaLI-X (Single-task FT w/ OCR),54.8,0.4135234590616375,null,[']'],2305.18565v1
+Visual Question Answering (VQA),InfographicVQA,Claude + LATIN-Prompt,54.51,0.40685372585096596,null,[']'],2306.00526v4
+Visual Question Answering (VQA),InfographicVQA,PaLI-X (Multi-task FT),50.7,0.31922723091076366,null,[']'],2305.18565v1
+Visual Question Answering (VQA),InfographicVQA,PaLI-X (Single-task FT),49.2,0.28472861085556583,null,[']'],2305.18565v1
+Visual Question Answering (VQA),InfographicVQA,GPT-3.5 + LATIN-Prompt,48.98,0.27966881324747006,null,[']'],2306.00526v4
+Visual Question Answering (VQA),InfographicVQA,DocFormerv2-large,48.8,0.2755289788408463,null,[']'],2306.01733v1
+Visual Question Answering (VQA),InfographicVQA,UDOP,47.4,0.2433302667893284,null,[']'],2212.02623v3
+Visual Question Answering (VQA),InfographicVQA,DUBLIN (variable resolution),42.6,0.13293468261269553,null,[']'],2305.14218v4
+Visual Question Answering (VQA),InfographicVQA,Pix2Struct-large,40.0,0.07313707451701931,null,[']'],2210.03347v2
+Visual Question Answering (VQA),InfographicVQA,Pix2Struct-base,38.2,0.03173873045078203,null,[']'],2210.03347v2
+Visual Question Answering (VQA),InfographicVQA,MatCha,37.2,0.0087396504139835,null,[']'],2212.09662v2
+Visual Question Answering (VQA),InfographicVQA,DUBLIN,36.82,0.0,null,[']}]</script'],2305.14218v4
+Visual Question Answering (VQA),GQA test-dev,CFR,72.1,1.0,null,[']'],2110.02526v2
+Visual Question Answering (VQA),GQA test-dev,PaLI-X-VPD,67.3,0.8878504672897197,null,[']'],2312.03052v2
+Visual Question Answering (VQA),GQA test-dev,CuMo-7B,64.9,0.8317757009345796,null,[']'],2405.05949v1
+Visual Question Answering (VQA),GQA test-dev,Video-LaVIT,64.4,0.8200934579439255,null,[']'],2402.03161v3
+Visual Question Answering (VQA),GQA test-dev,NSM,62.95,0.7862149532710282,null,[']'],1907.03950v4
+Visual Question Answering (VQA),GQA test-dev,Lyrics,62.4,0.7733644859813084,null,[']'],2312.05278v2
+Visual Question Answering (VQA),GQA test-dev,LXMERT (Pre-train + scratch),60.0,0.7172897196261683,null,[']'],1908.07490v3
+Visual Question Answering (VQA),GQA test-dev,single-hop + LCGN (ours),55.8,0.6191588785046729,null,[']'],1905.04405v2
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-G FlanT5 XXL (zero-shot),44.7,0.35981308411214963,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-L FlanT5 XL (zero-shot),44.4,0.35280373831775697,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-G FlanT5 XL (zero-shot),44.2,0.3481308411214954,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,PNP-VQA,41.9,0.29439252336448596,null,['zero-shot'],2210.08773v3
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-G OPT 6.7B (zero-shot),36.4,0.16588785046728968,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-G OPT 2.7B (zero-shot),34.6,0.12383177570093461,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,BLIP-2 ViT-L OPT 2.7B (zero-shot),33.9,0.10747663551401865,null,[']'],2301.12597v3
+Visual Question Answering (VQA),GQA test-dev,FewVLM (zero-shot),29.3,0.0,null,[']}]</script'],2110.08484v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,MCB 7 att.,66.5,1.0,null,[']'],1606.01847v3
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,Dual-MFA,66.09,0.9613207547169814,null,[']'],1711.06794v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,QGHC+Att+Concat,65.9,0.9433962264150949,null,[']'],1808.02632v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,RelAtt,65.69,0.9235849056603772,null,[']'],1805.09701v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,joint-loss,63.2,0.6886792452830192,null,[']'],1606.03647v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,HQI+ResNet,62.1,0.5849056603773587,null,[']'],1606.00061v5
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,MRN + global features,61.8,0.5566037735849054,null,[']'],1606.01455v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,DMN+ [xiong2016dynamic],60.4,0.4245283018867924,null,[']'],1603.01417v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,CNN-RNN,59.5,0.33962264150943405,null,[']'],1603.02814v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,FDA,59.5,0.33962264150943405,null,[']'],1604.01485v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,SAN,58.9,0.28301886792452824,null,[']'],1511.02274v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,LSTM Q+I,58.2,0.21698113207547207,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,SMem-VQA,58.2,0.21698113207547207,null,[']'],1511.05234v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 open ended,iBOWIMG baseline,55.9,0.0,null,[']}]</script'],1512.02167v2
+Visual Question Answering (VQA),CLEVR,NS-VQA (1K programs),99.8,1.0,null,[']'],1810.02338v2
+Visual Question Answering (VQA),CLEVR,MDETR,99.7,0.9970501474926255,null,[']'],2104.12763v2
+Visual Question Answering (VQA),CLEVR,OCCAM (ours),99.4,0.9882005899705018,null,[']'],2011.11603v2
+Visual Question Answering (VQA),CLEVR,TbD + reg + hres,99.1,0.9793510324483775,null,[']'],1803.05268v2
+Visual Question Answering (VQA),CLEVR,NS-CL,98.9,0.9734513274336286,null,[']'],1904.12584v1
+Visual Question Answering (VQA),CLEVR,MAC,98.9,0.9734513274336286,null,[']'],1803.03067v2
+Visual Question Answering (VQA),CLEVR,CNN + LSTM + RN + HAN,98.8,0.9705014749262537,null,['LSTM'],1808.00300v1
+Visual Question Answering (VQA),CLEVR,DDRprog*,98.3,0.9557522123893806,null,[']'],1803.11361v1
+Visual Question Answering (VQA),CLEVR,single-hop + LCGN (ours),97.9,0.9439528023598822,null,[']'],1905.04405v2
+Visual Question Answering (VQA),CLEVR,CNN+GRU+FiLM,97.7,0.9380530973451329,null,[']'],1709.07871v2
+Visual Question Answering (VQA),CLEVR,XNM-Det supervised,97.7,0.9380530973451329,null,[']'],1812.01855v2
+Visual Question Answering (VQA),CLEVR,IEP-700K,96.9,0.9144542772861359,null,[']'],1705.03633v1
+Visual Question Answering (VQA),CLEVR,CNN + LSTM + RN,95.5,0.873156342182891,null,['LSTM'],1706.01427v1
+Visual Question Answering (VQA),CLEVR,QGHC+Att+Concat,65.9,0.0,null,[']}]</script'],1808.02632v1
+Visual Question Answering (VQA),A-OKVQA,SMoLA-PaLI-X Specialist Model,83.75,1.0,null,[']'],2312.00968v2
+Visual Question Answering (VQA),A-OKVQA,PaLI-X-VPD,80.4,0.9325276938569991,null,[']'],2312.03052v2
+Visual Question Answering (VQA),A-OKVQA,Prophet,75.1,0.8257804632426988,null,[']'],2303.01903v3
+Visual Question Answering (VQA),A-OKVQA,PromptCap,73.2,0.7875125881168178,null,[']'],2211.09699v4
+Visual Question Answering (VQA),A-OKVQA,MC-CoT,71.0,0.743202416918429,null,[']'],2311.14109v1
+Visual Question Answering (VQA),A-OKVQA,GPV-2,53.7,0.39476334340382685,null,[']'],2202.02317v2
+Visual Question Answering (VQA),A-OKVQA,KRISP,42.2,0.16314199395770396,null,[']'],2012.11014v1
+Visual Question Answering (VQA),A-OKVQA,ViLBERT - VQA,42.1,0.16112789526686808,null,[']'],1908.02265v1
+Visual Question Answering (VQA),A-OKVQA,LXMERT,41.6,0.1510574018126888,null,[']'],1908.07490v3
+Visual Question Answering (VQA),A-OKVQA,ViLBERT,41.5,0.14904330312185296,null,[']'],1908.02265v1
+Visual Question Answering (VQA),A-OKVQA,Pythia,40.1,0.12084592145015106,null,[']'],1807.09956v2
+Visual Question Answering (VQA),A-OKVQA,ViLBERT - OK-VQA,34.1,0.0,null,[']'],1908.02265v1
+Visual Question Answering (VQA),InfiMM-Eval,GPT-4V,74.44,1.0,null,[']'],2303.08774v5
+Visual Question Answering (VQA),InfiMM-Eval,SPHINX v2,39.48,0.4829931972789115,null,[']'],2311.07575v1
+Visual Question Answering (VQA),InfiMM-Eval,Qwen-VL-Chat,37.39,0.45208518189884644,null,[']'],2308.12966v3
+Visual Question Answering (VQA),InfiMM-Eval,CogVLM-Chat,37.16,0.4486838213546287,null,[']'],2311.03079v2
+Visual Question Answering (VQA),InfiMM-Eval,LLaVA-1.5,32.62,0.38154392191659264,null,[']'],2310.03744v2
+Visual Question Answering (VQA),InfiMM-Eval,LLaMA-Adapter V2 ,30.46,0.34960070984915703,null,[']'],2304.15010v1
+Visual Question Answering (VQA),InfiMM-Eval,Emu,28.24,0.31677018633540366,null,[']'],2307.05222v2
+Visual Question Answering (VQA),InfiMM-Eval,InstructBLIP,28.02,0.31351671103223894,null,[']'],2305.06500v2
+Visual Question Answering (VQA),InfiMM-Eval,InternLM-XComposer-VL,26.84,0.2960662525879917,null,[']'],2309.15112v5
+Visual Question Answering (VQA),InfiMM-Eval,Otter,22.69,0.23469387755102042,null,[']'],2305.03726v1
+Visual Question Answering (VQA),InfiMM-Eval,mPLUG-Owl2,20.05,0.19565217391304346,null,[']'],2311.04257v2
+Visual Question Answering (VQA),InfiMM-Eval,BLIP-2-OPT2.7B,19.31,0.18470866607512568,null,[']'],2301.12597v3
+Visual Question Answering (VQA),InfiMM-Eval,MiniGPT-v2,10.43,0.053386572020112384,null,[']'],2304.10592v2
+Visual Question Answering (VQA),InfiMM-Eval,OpenFlamingo-v2,6.82,0.0,null,[']}]</script'],2308.01390v2
+Visual Question Answering (VQA),IconQA,Patch-TRM,82.66,1.0,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,ViLT,79.67,0.9272506082725062,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,ViT,79.15,0.9145985401459856,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,UNITER,78.71,0.9038929440389294,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,DFAF,77.72,0.8798053527980536,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,MCAN,77.36,0.8710462287104623,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,ViLBERT,76.66,0.8540145985401459,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,BAN,76.33,0.845985401459854,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,Top-Down,75.92,0.8360097323600975,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,Random,41.7,0.0034063260340632747,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,Q-Only,41.64,0.0019464720194646789,null,[']'],2110.13214v4
+Visual Question Answering (VQA),IconQA,I-Only,41.56,0.0,null,[']}]</script'],2110.13214v4
+Visual Question Answering (VQA),VCR (Q-A) test,GPT4RoI,89.4,1.0,null,[']'],2307.03601v3
+Visual Question Answering (VQA),VCR (Q-A) test,ERNIE-ViL-large(ensemble of 15 models),81.6,0.7153284671532844,null,[']'],2006.16934v3
+Visual Question Answering (VQA),VCR (Q-A) test,UNITER-large (10 ensemble),79.8,0.6496350364963501,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VCR (Q-A) test,"MAD (Single Model, Formerly CLIP-TD)",79.6,0.6423357664233573,null,[']'],2204.10496v2
+Visual Question Answering (VQA),VCR (Q-A) test,UNITER (Large),77.3,0.5583941605839414,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VCR (Q-A) test,KVL-BERTLARGE,76.4,0.5255474452554746,null,[']'],2012.07000v1
+Visual Question Answering (VQA),VCR (Q-A) test,VL-BERTLARGE,75.8,0.5036496350364962,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-A) test,VL-T5,75.3,0.4854014598540144,null,[']'],2102.02779v2
+Visual Question Answering (VQA),VCR (Q-A) test,VisualBERT,71.6,0.3503649635036494,null,[']'],1908.03557v1
+Visual Question Answering (VQA),VCR (Q-A) test,OFA-X,71.2,0.33576642335766427,null,[']'],2212.04231v2
+Visual Question Answering (VQA),VCR (Q-A) test,OFA-X-MT,62.0,0.0,null,[']}]</script'],2212.04231v2
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-G FlanT5 XXL (zero-shot),65.2,1.0,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,PNP-VQA,63.3,0.9467787114845937,null,['zero-shot'],2210.08773v3
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-G FlanT5 XL (zero-shot),63.1,0.9411764705882353,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-L FlanT5 XL (zero-shot),62.6,0.9271708683473389,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-G OPT 6.7B (zero-shot),54.3,0.6946778711484592,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-G OPT 2.7B (zero-shot),53.5,0.6722689075630252,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,BLIP-2 ViT-L OPT 2.7B (zero-shot),50.1,0.5770308123249299,null,[']'],2301.12597v3
+Visual Question Answering (VQA),VQA v2 val,Few VLM (zero-shot),47.7,0.5098039215686275,null,[']'],2110.08484v2
+Visual Question Answering (VQA),VQA v2 val,MetaLM,41.1,0.32492997198879553,null,['zero-shot'],2206.06336v1
+Visual Question Answering (VQA),VQA v2 val,VLKD(ViT-B/16),38.6,0.25490196078431376,null,['zero-shot'],null
+Visual Question Answering (VQA),VQA v2 val,Frozen,29.5,0.0,null,['zero-shot'],2106.13884v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,MCB 7 att.,70.1,1.0,null,[']'],1606.01847v3
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,Dual-MFA,70.04,0.992592592592594,null,[']'],1711.06794v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,RelAtt,69.6,0.9382716049382716,null,[']'],1805.09701v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,3-Modalitie,69.3,0.9012345679012348,null,['ResNet'],1711.04323v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,joint-loss,67.3,0.6543209876543211,null,[']'],1606.03647v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,MRN,66.3,0.5308641975308642,null,[']'],1606.01455v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,HQI+ResNet,66.1,0.5061728395061725,null,[']'],1606.00061v5
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,FDA,64.2,0.2716049382716055,null,[']'],1604.01485v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,LSTM Q+I,63.1,0.13580246913580274,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 1.0 multiple choice,iBOWIMG baseline,62.0,0.0,null,[']}]</script'],1512.02167v2
+Visual Question Answering (VQA),VQA-CP,CSS,58.95,1.0,null,[']'],2003.06576v1
+Visual Question Answering (VQA),VQA-CP,GGE-DQ,57.32,0.9462046204620461,null,[']'],2107.12651v4
+Visual Question Answering (VQA),VQA-CP,LMH+Entropy regularization (Ensemble),56.74,0.927062706270627,null,[']'],2010.10802v1
+Visual Question Answering (VQA),VQA-CP,LMH+Entropy regularization,54.55,0.8547854785478546,null,[']'],2010.10802v1
+Visual Question Answering (VQA),VQA-CP,Learned-Mixin +H,52.05,0.7722772277227721,null,[']'],1909.03683v1
+Visual Question Answering (VQA),VQA-CP,UpDn+SCR (VQA-X),49.45,0.6864686468646866,null,[']'],1905.09998v3
+Visual Question Answering (VQA),VQA-CP,RUBi,47.11,0.6092409240924092,null,[']'],1906.10169v2
+Visual Question Answering (VQA),VQA-CP,NSM,45.8,0.5660066006600659,null,[']'],1907.03950v4
+Visual Question Answering (VQA),VQA-CP,MuRel,39.54,0.3594059405940594,null,[']'],1902.09487v1
+Visual Question Answering (VQA),VQA-CP,HAN,28.65,0.0,null,[']}]</script'],1808.00300v1
+Visual Question Answering (VQA),VQA-CE,RandImg,34.41,1.0,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,LMH + CSS,34.36,0.9768518518518531,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,LFF,34.27,0.9351851851851881,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,LMH,34.26,0.9305555555555561,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,UpDown,33.91,0.7685185185185182,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,ESR,33.26,0.4675925925925924,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,LMH + RMFE,33.14,0.4120370370370379,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,BLOCK,32.91,0.30555555555555447,null,[']'],2104.03149v3
+Visual Question Answering (VQA),VQA-CE,RUBi,32.25,0.0,null,[']}]</script'],2104.03149v3
+Visual Question Answering (VQA),VCR (QA-R) test,GPT4RoI,91.0,1.0,null,[']'],2307.03601v3
+Visual Question Answering (VQA),VCR (QA-R) test,ERNIE-ViL-large(ensemble of 15 models),86.1,0.7247191011235952,null,[']'],2006.16934v3
+Visual Question Answering (VQA),VCR (QA-R) test,UNITER-large (ensemble of 10 models),83.4,0.5730337078651688,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VCR (QA-R) test,UNITER (Large),80.8,0.4269662921348312,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VCR (QA-R) test,KVL-BERTLARGE,78.6,0.3033707865168535,null,[']'],2012.07000v1
+Visual Question Answering (VQA),VCR (QA-R) test,VL-BERTLARGE,78.4,0.29213483146067437,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (QA-R) test,VL-T5,77.8,0.2584269662921346,null,[']'],2102.02779v2
+Visual Question Answering (VQA),VCR (QA-R) test,VisualBERT,73.2,0.0,null,[']}]</script'],1908.03557v1
+Visual Question Answering (VQA),VCR (Q-AR) test,GPT4RoI,81.6,1.0,null,[']'],2307.03601v3
+Visual Question Answering (VQA),VCR (Q-AR) test,ERNIE-ViL-large(ensemble of 15 models),70.5,0.6198630136986303,null,[']'],2006.16934v3
+Visual Question Answering (VQA),VCR (Q-AR) test,UNITER (Large),62.8,0.3561643835616438,null,[']'],1909.11740v3
+Visual Question Answering (VQA),VCR (Q-AR) test,KVL-BERTLARGE,60.3,0.2705479452054794,null,[']'],2012.07000v1
+Visual Question Answering (VQA),VCR (Q-AR) test,VL-BERTLARGE,59.7,0.25000000000000017,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-AR) test,VL-T5,58.9,0.22260273972602743,null,[']'],2102.02779v2
+Visual Question Answering (VQA),VCR (Q-AR) test,VisualBERT,52.4,0.0,null,[']}]</script'],1908.03557v1
+Visual Question Answering (VQA),GQA test-std,ProTo,65.14,1.0,null,[']'],2110.00804v2
+Visual Question Answering (VQA),GQA test-std,NSM,63.17,0.8940290478752018,null,[']'],1907.03950v4
+Visual Question Answering (VQA),GQA test-std,MDETR-ENB5,62.45,0.85529854760624,null,[']'],2104.12763v2
+Visual Question Answering (VQA),GQA test-std,LXMERT,60.3,0.7396449704142011,null,[']'],1908.07490v3
+Visual Question Answering (VQA),GQA test-std,single-hop + LCGN (ours),56.1,0.5137170521785908,null,[']'],1905.04405v2
+Visual Question Answering (VQA),GQA test-std,MAC,54.06,0.40398063474986573,null,[']'],1902.09506v3
+Visual Question Answering (VQA),GQA test-std,CNN+LSTM,46.55,0.0,null,['LSTM'],1902.09506v3
+Visual Question Answering (VQA),VQA v1 test-dev,SAAA (ResNet),64.5,1.0,null,['ResNet'],1704.03162v2
+Visual Question Answering (VQA),VQA v1 test-dev,DAN (ResNet),64.3,0.9661016949152538,null,['ResNet'],1611.00471v2
+Visual Question Answering (VQA),VQA v1 test-dev,MCB (ResNet),64.2,0.9491525423728818,null,['ResNet'],1606.01847v3
+Visual Question Answering (VQA),VQA v1 test-dev,RAU (ResNet),63.3,0.7966101694915249,null,['ResNet'],1606.03647v2
+Visual Question Answering (VQA),VQA v1 test-dev,HieCoAtt (ResNet),61.8,0.5423728813559316,null,['ResNet'],1606.00061v5
+Visual Question Answering (VQA),VQA v1 test-dev,DMN+,60.3,0.2881355932203383,null,[']'],1603.01417v1
+Visual Question Answering (VQA),VQA v1 test-dev,NMN+LSTM+FT,58.6,0.0,null,['LSTM'],1511.02799v4
+Visual Question Answering (VQA),IllusionVQA,GPT4-Vision 4-shot,62.99,1.0,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,GPT4-Vision,58.85,0.8559498956158664,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,Gemini-Pro 4-shot,52.87,0.6478775226165622,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,Gemini-Pro,51.26,0.591858037578288,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,LLaVA-1.5-13B,40.0,0.20006958942240777,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,CogVLM,38.16,0.13604732080723717,null,[']'],2403.15952v2
+Visual Question Answering (VQA),IllusionVQA,InstructBLIP-13B,34.25,0.0,null,[']}]</script'],2403.15952v2
+Visual Question Answering (VQA),VQA v1 test-std,SAAA (ResNet),64.6,1.0,null,['ResNet'],1704.03162v2
+Visual Question Answering (VQA),VQA v1 test-std,RAU (ResNet),63.2,0.7627118644067807,null,['ResNet'],1606.03647v2
+Visual Question Answering (VQA),VQA v1 test-std,HieCoAtt (ResNet),62.1,0.5762711864406785,null,['ResNet'],1606.00061v5
+Visual Question Answering (VQA),VQA v1 test-std,DMN+,60.4,0.28813559322033866,null,[']'],1603.01417v1
+Visual Question Answering (VQA),VQA v1 test-std,SAN (VGG),58.9,0.03389830508474509,null,[']'],1511.02274v2
+Visual Question Answering (VQA),VQA v1 test-std,NMN+LSTM+FT,58.7,0.0,null,['LSTM'],1511.02799v4
+Visual Question Answering (VQA),GQA Test2019,human,89.3,1.0,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,DREAM+Unicoder-VL (MSRA),76.04,0.8144935646334641,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,TRRNet (Ensemble),74.03,0.7863738108561836,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MIL-nbgao,73.81,0.7832960268606605,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Kakao Brain,73.33,0.7765808617795188,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,"Coarse-to-Fine Reasoning, Single Model",72.14,0.7599328483491887,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,270,70.23,0.7332120872971463,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,NSM ensemble (updated),67.55,0.6957190822607723,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,VinVL-DPT,64.92,0.6589255735870174,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,VinVL+L,64.85,0.6579462786793508,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Single Model,64.65,0.6551482932288754,null,[']'],2101.00529v2
+Visual Question Answering (VQA),GQA Test2019,Wayne,63.94,0.6452154448796866,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Single,63.2,0.6348628987129268,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,NSM single (updated),63.17,0.6344432008953554,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,"LXR955, Ensemble",62.71,0.6280078343592614,null,[']'],1908.07490v3
+Visual Question Answering (VQA),GQA Test2019,MDETR,62.45,0.6243704532736432,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,1-gqa,62.44,0.6242305540011193,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,UCM,61.49,0.6109401231113599,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,GRN,61.22,0.6071628427532177,null,[']'],1907.09815v2
+Visual Question Answering (VQA),GQA Test2019,lxmert-adv-txt,61.12,0.6057638500279799,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,lxmert-adv-txt,61.1,0.6054840514829324,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MSM@MSRA,61.09,0.6053441522104086,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,mlmbert,61.05,0.6047845551203134,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,fisher,60.98,0.6038052602126469,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,ckpt 19 exp 90,60.95,0.6033855623950757,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,45,60.93,0.603105763850028,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,IQA (single),60.89,0.6025461667599329,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Ensemble10,60.87,0.6022663682148853,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,"Meta Module, Single",60.83,0.6017067711247902,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,xpj,60.7,0.5998880805819811,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,fbe20v3.json,60.67,0.5994683827644097,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LININ,60.59,0.5983491885842195,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,prompt IMT-16,60.51,0.5972299944040291,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,vv69,60.42,0.5959709009513151,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,bert_v1,60.37,0.5952714045886962,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,"LXR955, Single Model",60.33,0.5947118074986011,null,[']'],1908.07490v3
+Visual Question Answering (VQA),GQA Test2019,IIE_Morningstar,60.28,0.5940123111359822,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,full_nsp_ft_results_submit_predict.json,60.27,0.5938724118634584,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,TESTOVQA007,60.18,0.5926133184107444,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,test gqa,60.18,0.5926133184107444,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Future_Test_team,60.17,0.5924734191382206,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,tmp,60.14,0.5920537213206493,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Inspur,60.07,0.5910744264129827,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,full_nsp_mlm_ft_joint_results_submit_predict.json,60.02,0.5903749300503639,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,SSRP,60.01,0.59023503077784,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Musan,59.93,0.5891158365976498,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,gaochongyang9,59.84,0.5878567431449357,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,PVR,59.81,0.5874370453273644,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,BgTest,59.8,0.5872971460548405,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,DAM,59.72,0.5861779518746503,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,DL16,59.54,0.5836597649692222,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,mcmi,59.43,0.5821208729714606,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,rishabh_test,59.37,0.5812814773363179,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,UNITER + MAC + Graph Networks,59.29,0.5801622831561276,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LXMERT-S,59.12,0.5777839955232233,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,QGCRGN,59.06,0.5769445998880807,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,gbert1,58.91,0.5748461108002239,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,glimple_all,58.88,0.5744264129826526,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,ours-4-gqa_el_tag_v4__pretrain_rel_tag_dist_tc_v7_checkpoint-47-157510-best-4.json,58.72,0.572188024622272,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Partial-MSP,58.42,0.5679910464465586,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,UCAS-SARI,58.2,0.5649132624510353,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,stu09e,58.12,0.563794068270845,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,happyTeam,58.06,0.5629546726357024,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,graphRepresentation\uff0c Single,57.89,0.560576385002798,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,VqaStar-UCAS-SARI,57.79,0.5591773922775602,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,REX,57.77,0.5588975937325127,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MLVQA (single),57.65,0.5572188024622272,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,rsa-14word,57.35,0.5530218242865138,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,result_run_2647872_epoch11,57.21,0.5510632344711809,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,DeeTee,57.14,0.5500839395635143,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,BAN,57.1,0.5495243424734192,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LCGN,57.07,0.5491046446558479,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,RSN (Single Model),57.01,0.5482652490207052,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,GM6_9_2_train,56.96,0.5475657526580863,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,wcf-fight,56.95,0.5474258533855625,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,total14,56.95,0.5474258533855625,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Testify,56.65,0.543228875209849,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,F205,56.59,0.5423894795747063,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Feb_ft2_mergeadd_weightalllstm_picklocw_box5_prep,56.38,0.5394515948517069,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MMT-VQA,56.28,0.538052602126469,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,IWantADonut,56.18,0.5366536094012312,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,GIN,56.16,0.5363738108561835,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LOGNet+VLR,56.11,0.5356743144935647,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Improved SNMN,56.09,0.5353945159485172,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,ST_VQA,56.0,0.5341354224958031,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,RD,55.93,0.5331561275881366,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Deepblue_Semantics,55.7,0.5299384443200896,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LW,55.65,0.5292389479574706,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,RSN (Single Model)_v6,55.57,0.5281197537772805,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,nogg,55.41,0.5258813654168999,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,abc_test,55.35,0.5250419697817572,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,KU,55.0,0.5201454952434248,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Eden_test,54.94,0.5193060996082821,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,HDU_ZWF,54.79,0.5172076105204253,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,vips,54.15,0.5082540570789033,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MAC,54.06,0.5069949636261892,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,5TMT-qe+o,53.89,0.5046166759932849,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,ZhaoLab,53.85,0.5040570789031897,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,test,53.57,0.5001398992725239,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Sorbonne,53.31,0.49650251818690555,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,UJCNN,52.3,0.48237269166200336,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MJ,52.19,0.4808337996642418,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,mac_qin,52.02,0.47845551203133757,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Mithrandir,51.87,0.4763570229434807,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,happy,51.51,0.47132064913262456,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Space Cat,51.22,0.4672635702294349,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,BottomUp,49.74,0.446558477895915,null,[']'],1707.07998v3
+Visual Question Answering (VQA),GQA Test2019,RAM_BUGGY,49.28,0.440123111359821,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,sparsemax15,49.27,0.43998321208729724,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,mfb+bert,48.97,0.4357862339115837,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,RES,48.44,0.4283715724678232,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LAS,47.72,0.41829882484611086,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,test,47.38,0.4135422495803023,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LSTM+CNN,46.55,0.40193060996082824,null,['LSTM'],null
+Visual Question Answering (VQA),GQA Test2019,113,45.86,0.39227756015668724,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Ediburgh-Mila-UCLA,44.06,0.36709569110240636,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,bear,43.84,0.36401790710688314,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,CHAIR,42.75,0.34876888640179077,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,MReaL,41.63,0.3331001678791271,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LSTM,41.07,0.32526580861779525,null,['LSTM'],null
+Visual Question Answering (VQA),GQA Test2019,Academia Sinica,40.3,0.3144935646334639,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Fj,37.03,0.26874650251818694,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,Mycsulb,36.75,0.26482932288752103,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,LocalPrior,31.24,0.18774482372691662,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,GlobalPrior,28.9,0.15500839395635144,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,muc_ai,26.45,0.12073307218802462,null,[']'],null
+Visual Question Answering (VQA),GQA Test2019,CNN,17.82,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),WHOOPS!,BLIP2 FlanT5-XXL (Fine-tuned),21,1.0,null,[']'],2303.07274v4
+Visual Question Answering (VQA),WHOOPS!,BLIP2 FlanT5-XL (Fine-tuned),20,0.9411764705882353,null,[']'],2303.07274v4
+Visual Question Answering (VQA),WHOOPS!,BLIP2 FlanT5-XXL (Zero-shot),15,0.6470588235294118,null,[']'],2303.07274v4
+Visual Question Answering (VQA),WHOOPS!,OFA Large,8,0.23529411764705882,null,[']'],2303.07274v4
+Visual Question Answering (VQA),WHOOPS!,BLIP Large,6,0.11764705882352941,null,[']'],2303.07274v4
+Visual Question Answering (VQA),WHOOPS!,BLIP2 FlanT5-XXL (Text-only FT),4,0.0,null,[']}]</script'],2303.07274v4
+Visual Question Answering (VQA),InfoSeek,RA-VQAv2 w/ PreFLMR,30.65,1.0,null,[']'],2402.08327v2
+Visual Question Answering (VQA),InfoSeek,PaLI-X,24.0,0.5882352941176471,null,[']'],2305.18565v1
+Visual Question Answering (VQA),InfoSeek,CLIP + FiD,20.9,0.3962848297213622,null,[']'],2302.11713v5
+Visual Question Answering (VQA),InfoSeek,CLIP + PaLM (540B),20.4,0.36532507739938075,null,[']'],2302.11713v5
+Visual Question Answering (VQA),InfoSeek,PaLI,19.7,0.3219814241486068,null,[']'],2302.11713v5
+Visual Question Answering (VQA),InfoSeek,BLIP2,14.6,0.0061919504643962635,null,[']'],2301.12597v3
+Visual Question Answering (VQA),InfoSeek,InstructBLIP,14.5,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),CLEVR-Humans,MDETR,81.7,1.0,null,[']'],2104.12763v2
+Visual Question Answering (VQA),CLEVR-Humans,MAC,81.5,0.986754966887417,null,[']'],1803.03067v2
+Visual Question Answering (VQA),CLEVR-Humans,CNN+GRU+FiLM,75.9,0.6158940397350997,null,[']'],1709.07871v2
+Visual Question Answering (VQA),CLEVR-Humans,NS-VQA (1K programs),67.8,0.07947019867549683,null,[']'],1810.02338v2
+Visual Question Answering (VQA),CLEVR-Humans,IEP-18K,66.6,0.0,null,[']}]</script'],1705.03633v1
+Visual Question Answering (VQA),QLEVR,MAC,66.5,1.0,null,[']'],2205.03075v1
+Visual Question Answering (VQA),QLEVR, CNN+LSTM,65.9,0.963636363636364,null,[']'],2205.03075v1
+Visual Question Answering (VQA),QLEVR,BERT,65.8,0.9575757575757574,null,[']'],2205.03075v1
+Visual Question Answering (VQA),QLEVR, LSTM,64.6,0.8848484848484846,null,[']'],2205.03075v1
+Visual Question Answering (VQA),QLEVR,Q-type,50.0,0.0,null,[']}]</script'],2205.03075v1
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract images 1.0 open ended,Graph VQA,70.42,1.0,null,[']'],1609.05600v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract images 1.0 open ended,Dualnet ensemble,69.73,0.9478458049886623,null,[']'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract images 1.0 open ended,LSTM + global features,65.02,0.5918367346938772,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract images 1.0 open ended,LSTM blind,57.19,0.0,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,Graph VQA,74.37,1.0,null,[']'],1609.05600v2
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,Dualnet ensemble,71.18,0.7538580246913583,null,[']'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,LSTM + global features,69.21,0.6018518518518513,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,LSTM blind,61.41,0.0,null,['LSTM'],1505.00468v7
+Visual Question Answering (VQA),Visual7W,CMN,72.53,1.0,null,[']'],1611.09978v1
+Visual Question Answering (VQA),Visual7W,CTI (with Boxes),72.3,0.9777347531461758,null,[']'],1909.11874v1
+Visual Question Answering (VQA),Visual7W,CFR,71.9,0.9390125847047439,null,[']'],2110.02526v2
+Visual Question Answering (VQA),Visual7W,MCB+Att.,62.2,0.0,null,[']}]</script'],1606.01847v3
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 2.0 open ended,HDU-USYD-UNCC,68.16,1.0,null,[']'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 2.0 open ended,DLAIT,68.07,0.9935437589670012,null,[']'],1505.00468v7
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 2.0 open ended,MCB,62.27,0.5774748923959832,null,[']'],1612.00837v3
+Visual Question Answering (VQA),COCO Visual Question Answering (VQA) real images 2.0 open ended,d-LSTM+nI,54.22,0.0,null,['LSTM'],1612.00837v3
+Visual Question Answering (VQA),VizWiz 2020 VQA,PaLI,73.3,1.0,null,[']'],2209.06794v4
+Visual Question Answering (VQA),VizWiz 2020 VQA,CLIP-Ensemble,61.64,0.8260999254287845,null,[']'],2206.05281v1
+Visual Question Answering (VQA),VizWiz 2020 VQA,CLIP-Single,60.66,0.8114839671886651,null,[']'],2206.05281v1
+Visual Question Answering (VQA),VizWiz 2020 VQA,HSSLab,56.33,0.7469052945563013,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,Video-LaVIT,56.0,0.7419835943325876,null,[']'],2402.03161v3
+Visual Question Answering (VQA),VizWiz 2020 VQA,sudoku,55.93,0.7409395973154362,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,Katya,54.76,0.723489932885906,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,Modified Attention,49.58,0.646234153616704,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,shaunakh,48.39,0.6284862043251306,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,e50,44.9,0.5764354958985831,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,SKP,44.62,0.5722595078299776,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,knight777,44.01,0.5631618195376584,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,pk,41.92,0.5319910514541387,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,Tartans,34.96,0.42818791946308726,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,VWTest1,34.13,0.4158090976882924,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 VQA,BERT-RG,6.25,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),PMC-VQA,MedVInT,42.3,1.0,null,"['supervised', 'test-clean']",2305.10415v5
+Visual Question Answering (VQA),PMC-VQA,Open-Flamingo,26.4,0.11666666666666657,null,"['zero-shot', 'test-clean']",2204.14198v2
+Visual Question Answering (VQA),PMC-VQA,PMC-CLIP,24.7,0.022222222222222147,null,"['zero-shot', 'test-clean']",2303.07240v1
+Visual Question Answering (VQA),PMC-VQA,BLIP-2,24.3,0.0,null,"['zero-shot', 'test-clean']",2301.12597v3
+Visual Question Answering (VQA),AI2D,SMoLA-PaLI-X Specialist Model,82.5,1.0,null,[']'],2312.00968v2
+Visual Question Answering (VQA),AI2D,SMoLA-PaLI-X Generalist Model,81.4,0.964956992672826,null,[']'],2312.00968v2
+Visual Question Answering (VQA),AI2D,Gemini Ultra,79.5,0.9044281618349793,null,[']'],2312.11805v4
+Visual Question Answering (VQA),AI2D,DUBLIN,51.11,0.0,null,[']}]</script'],2305.14218v4
+Visual Question Answering (VQA),VCR (Q-A) dev,VL-BERTLARGE,75.5,1.0,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-A) dev,VL-BERTBASE,73.8,0.6382978723404251,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-A) dev,VisualBERT,70.8,0.0,null,[']}]</script'],1908.03557v1
+Visual Question Answering (VQA),VCR (QA-R) dev,VL-BERTLARGE,77.9,1.0,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (QA-R) dev,VL-BERTBASE,74.4,0.25531914893617064,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (QA-R) dev,VisualBERT,73.2,0.0,null,[']}]</script'],1908.03557v1
+Visual Question Answering (VQA),VCR (Q-AR) dev,VL-BERTLARGE,58.9,1.0,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-AR) dev,VL-BERTBASE,55.2,0.44776119402985104,null,[']'],1908.08530v4
+Visual Question Answering (VQA),VCR (Q-AR) dev,VisualBERT,52.2,0.0,null,[']}]</script'],1908.03557v1
+Visual Question Answering (VQA),VizWiz 2018,"LXR955, No Ensemble",55.4,1.0,null,[']'],1908.07490v3
+Visual Question Answering (VQA),VizWiz 2018,fw_vqa_,54.93,0.9523809523809524,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,Pythia v0.3 ,54.72,0.9311043566362716,null,[']'],1904.08920v2
+Visual Question Answering (VQA),VizWiz 2018,B-Ultra,53.68,0.8257345491388045,null,[']'],1909.02097v1
+Visual Question Answering (VQA),VizWiz 2018,DVW,52.23,0.6788247213779126,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,DVizWiz,51.71,0.6261398176291795,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,BAN,51.61,0.6160081053698074,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,ss,47.6,0.20972644376899705,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,hdhs,47.32,0.1813576494427558,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2018,Colin,45.53,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),PlotQA-D1,CRCT,76.94,1.0,null,[']'],2111.14792v2
+Visual Question Answering (VQA),PlotQA-D1,PReFIL,57.91,0.17188859878154902,null,[']'],1908.01801v2
+Visual Question Answering (VQA),PlotQA-D1,PlotQA,53.96,0.0,null,[']}]</script'],1909.00997v3
+Visual Question Answering (VQA),FigureQA - test 1,PReFIL,94.88,1.0,null,[']'],1908.01801v2
+Visual Question Answering (VQA),FigureQA - test 1,CRCT,94.23,0.964596949891068,null,[']'],2111.14792v2
+Visual Question Answering (VQA),FigureQA - test 1,RN,76.52,0.0,null,[']}]</script'],1710.07300v2
+Visual Question Answering (VQA),PlotQA-D2,CRCT,34.44,1.0,null,[']'],2111.14792v2
+Visual Question Answering (VQA),PlotQA-D2,PlotQA,22.52,0.5047777316161196,null,[']'],1909.00997v3
+Visual Question Answering (VQA),PlotQA-D2,PReFIL,10.37,0.0,null,[']}]</script'],1908.01801v2
+Visual Question Answering (VQA),F-VQA,ZS-F-VQA,58.27,1.0,null,[']'],2107.05348v4
+Visual Question Answering (VQA),F-VQA,F-VQA (top-3-QQmaping),56.91,0.7618213660245173,null,[']'],1606.05433v4
+Visual Question Answering (VQA),F-VQA,F-VQA (top-1-QQmaping),52.56,0.0,null,[']}]</script'],1606.05433v4
+Visual Question Answering (VQA),HallusionBench,GPT-4V,12.2,1.0,null,[']'],2310.14566v5
+Visual Question Answering (VQA),HallusionBench,LLaVA-1.5,4.33,0.2596425211665099,null,[']'],null
+Visual Question Answering (VQA),HallusionBench,LRV-Instruct,1.57,0.0,null,[']'],2306.14565v4
+Visual Question Answering (VQA),TDIUC,Accuracy,88.2,1.0,null,[']'],1902.09487v1
+Visual Question Answering (VQA),TDIUC,BAN2-CTI,87.0,0.0,null,[']}]</script'],1909.11874v1
+Visual Question Answering (VQA),VizWiz 2020 Answerability,CLIP-Ensemble,84.13,1.0,null,[']'],2206.05281v1
+Visual Question Answering (VQA),VizWiz 2020 Answerability,CLIP-Single,82.86,0.9778320823878514,null,[']'],2206.05281v1
+Visual Question Answering (VQA),VizWiz 2020 Answerability,VT-Transformer (MUL),76.96,0.8748472682841683,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 Answerability,VT-Transformer (CAT),74.91,0.8390644091464479,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 Answerability,BERT-RG-Regression,52.22,0.44300925117821616,null,[']'],null
+Visual Question Answering (VQA),VizWiz 2020 Answerability,VWTest1,26.84,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),TextVQA test-standard,PaLI,73.1,1.0,null,[']'],2209.06794v4
+Visual Question Answering (VQA),TextVQA test-standard,TAP,53.97,0.5292814960629921,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,TAG,53.69,0.5223917322834646,null,[']'],2208.01813v3
+Visual Question Answering (VQA),TextVQA test-standard,ssbaseline,45.66,0.32480314960629914,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,SMA single model,45.51,0.32111220472440943,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,SAM (Single Model),44.8,0.3036417322834645,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,colab_buaa,44.73,0.30191929133858264,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,CRN (Single Model),40.96,0.20915354330708666,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,CIG,40.77,0.204478346456693,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,M4C,40.46,0.19685039370078744,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,Shuai,39.95,0.1843011811023623,null,[']'],null
+Visual Question Answering (VQA),TextVQA test-standard,mmgnn,32.46,0.0,null,[']}]</script'],null
+Visual Question Answering (VQA),GQA,PEVL+,77.0,1.0,null,[']'],2205.11169v2
+Visual Question Answering (VQA),GQA,RelViT,65.54,0.0,null,[']}]</script'],2204.11167v2
+Visual Question Answering (VQA),GRIT,Unified-IOXL,74.5,1.0,null,[']'],2206.08916v2
+Visual Question Answering (VQA),GRIT,GPV-2,63.5,0.0,null,[']}]</script'],2202.02317v2
+Visual Question Answering (VQA),TGIF-QA,HiTeA,0.732,1.0,null,[']'],2212.14546v1
+Visual Question Answering (VQA),TGIF-QA,InternVideo,0.722,0.0,null,[']}]</script'],2212.03191v2
+Visual Question Answering (VQA),VQA-X,OFA-X-MT,92.6,1.0,null,[']'],2212.04231v2
+Visual Question Answering (VQA),VQA-X,OFA-X,91.2,0.0,null,[']}]</script'],2212.04231v2
+Visual Question Answering (VQA),Visual Genome (pairs),CMN,28.52,1.0,null,[']}]</script'],1611.09978v1
+Visual Question Answering (VQA),Visual Genome (subjects),CMN,44.24,1.0,null,[']}]</script'],1611.09978v1
+Visual Question Answering (VQA),DocVQA val,BERT LARGE Baseline,0.655,1.0,null,[']}]</script'],2007.00398v3
+Visual Question Answering (VQA),ZS-F-VQA,SAN \u2020 - hard mask,29.39,1.0,null,[']}]</script'],2107.05348v4
+Visual Question Answering (VQA),WebSRC,DUBLIN,77.75,1.0,null,[']}]</script'],2305.14218v4
+Visual Question Answering (VQA),DeepForm,DUBLIN,62.23,1.0,null,[']}]</script'],2305.14218v4
+Visual Question Answering (VQA),SciGraphQA,SciGraphQA-baseline,0.268,1.0,null,[']}]</script'],2308.03349v1
+Visual Question Answering (VQA),DVQA test-familiar,PReFIL (Oracle OCR),96.37,1.0,null,[']}]</script'],1908.01801v2
+Visual Question Answering (VQA),CORE-MM,GPT-4V,77.88,1.0,null,[']}]</script'],2303.08774v5
+Visual Question Answering (VQA),ImageNet,BLIP-2 OPT,57.1,1.0,null,[']}]</script'],2402.07270v2
+Visual Question Answering (VQA),OVAD benchmark,BLIP,45.7,1.0,null,[']}]</script'],2402.07270v2
+Visual Question Answering (VQA),COCO,InstructBLIP Vicuna,59.58,1.0,null,[']}]</script'],2402.07270v2
+Visual Question Answering (VQA),ActivityNet,BLIP-2 T5,53.39,1.0,null,[']}]</script'],2402.07270v2
+Visual Question Answering (VQA),VizWiz 2018 Answerability,ensemble_two_best,82.78,1.0,null,[']}]</script'],null

@@ -1,0 +1,364 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Domain Adaptation,Office-31,PMTrans,95.3,1.0,null,['Transformer'],2303.13434v2
+Domain Adaptation,Office-31,CMKD,94.4,0.9587155963302756,null,[']'],null
+Domain Adaptation,Office-31,CDTrans,92.6,0.8761467889908255,null,[']'],2109.06165v4
+Domain Adaptation,Office-31,CoVi,91.8,0.8394495412844036,null,['ResNet-50'],2111.13353v3
+Domain Adaptation,Office-31,GSDE,91.7,0.8348623853211011,null,['ResNet-50'],2311.09599v1
+Domain Adaptation,Office-31,FixBi,91.4,0.8211009174311931,null,['ResNet-50'],2011.09230v2
+Domain Adaptation,Office-31,Contrastive Adaptation Network,90.6,0.7844036697247705,null,[']'],1901.00976v2
+Domain Adaptation,Office-31,BIWAA,90.5,0.779816513761468,null,['ResNet-50'],null
+Domain Adaptation,Office-31,DALN,90.4,0.7752293577981655,null,[']'],2204.03838v1
+Domain Adaptation,Office-31,ELS,90.4,0.7752293577981655,null,['ResNet-50'],2302.00194v1
+Domain Adaptation,Office-31,dSNE,90.01,0.7573394495412847,null,[']'],null
+Domain Adaptation,Office-31,ASAN,90.0,0.7568807339449543,null,[']'],null
+Domain Adaptation,Office-31,CPGA,89.9,0.7522935779816518,null,[']'],2106.15326v1
+Domain Adaptation,Office-31,SFDA2,89.9,0.7522935779816518,null,['ResNet-50'],2403.10834v1
+Domain Adaptation,Office-31,MDAIR,89.8,0.7477064220183486,null,[']'],1904.02322v2
+Domain Adaptation,Office-31,SPL,89.6,0.7385321100917429,null,[']'],1911.07982v1
+Domain Adaptation,Office-31,CADA-P,89.5,0.7339449541284404,null,[']'],1906.03502v2
+Domain Adaptation,Office-31,MEDM,89.2,0.7201834862385323,null,[']'],2002.01690v1
+Domain Adaptation,Office-31,DADA,89.0,0.7110091743119267,null,[']'],1911.12036v2
+Domain Adaptation,Office-31,SHOT,88.6,0.6926605504587154,null,[']'],2002.08546v6
+Domain Adaptation,Office-31,DADA,88.0,0.6651376146788992,null,[']'],2001.00153v1
+Domain Adaptation,Office-31,IAFN+ENT,87.1,0.6238532110091741,null,[']'],1811.07456v2
+Domain Adaptation,Office-31,MRKLD + LRENT,86.8,0.610091743119266,null,[']'],1908.09822v3
+Domain Adaptation,Office-31,GTA,86.5,0.5963302752293579,null,[']'],1704.01705v4
+Domain Adaptation,Office-31,MEDA (ResNet50),85.7,0.559633027522936,null,['ResNet'],1909.08531v1
+Domain Adaptation,Office-31,DAOD,85.4,0.5458715596330278,null,[']'],1907.08375v2
+Domain Adaptation,Office-31,MADA,85.2,0.5366972477064222,null,[']'],1809.02176v1
+Domain Adaptation,Office-31,DAGE-LDA,82.77,0.425229357798165,null,[']'],2004.11262v4
+Domain Adaptation,Office-31,CCSA,82.17,0.39770642201834877,null,[']'],2004.11262v4
+Domain Adaptation,Office-31,d-SNE,81.63,0.3729357798165136,null,[']'],2004.11262v4
+Domain Adaptation,Office-31,rRevGrad+CAT,80.1,0.30275229357798145,null,[']'],1903.09980v2
+Domain Adaptation,Office-31,CD3A,79.5,0.27522935779816515,null,[']'],1907.10628v2
+Domain Adaptation,Office-31,IDDA(Alexnet),78.5,0.22935779816513766,null,[']'],1904.01341v1
+Domain Adaptation,Office-31,IDDA (AlexNet),78.5,0.22935779816513766,null,[']'],1904.01341v1
+Domain Adaptation,Office-31,CAADA,78.3,0.220183486238532,null,[']'],1911.12983v1
+Domain Adaptation,Office-31,ResNet-50,76.1,0.11926605504587132,null,['ResNet'],1512.03385v1
+Domain Adaptation,Office-31,SRDA (RAN),73.5,0.0,null,[']}]</script'],1905.10748v4
+Domain Adaptation,SYNTHIA-to-Cityscapes,HALO,78.1,1.0,null,[']'],2306.11180v5
+Domain Adaptation,SYNTHIA-to-Cityscapes,ILM-ASSL,76.6,0.9644549763033176,null,"['DeepLab v3+', 'ResNet-101']",2301.13361v4
+Domain Adaptation,SYNTHIA-to-Cityscapes,DCF,69.3,0.7914691943127963,null,['Transformer'],2311.12682v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,HRDA+PiPa,68.2,0.7654028436018959,null,['Transformer'],2211.07609v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,MIC,67.3,0.7440758293838863,null,['Transformer'],2212.01322v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,FREDOM - Transformer,67.0,0.7369668246445499,null,[']'],2304.02135v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,HRDA,65.8,0.7085308056872038,null,['Transformer'],2204.13132v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,SePiCo,64.3,0.6729857819905214,null,['Transformer'],2204.08808v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,MIC + Guidance Training,63.8,0.6611374407582938,null,"['DeepLabv2', 'ResNet-101']",2403.14995v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,DAFormer + ProCST,61.6,0.609004739336493,null,['Transformer'],2204.11891v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,DAFormer,60.9,0.5924170616113744,null,['Transformer'],2111.14887v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,GtA-SFDA (DeepLabv2-ResNet101),60.1,0.5734597156398106,null,"['ResNet-101', 'DeepLab v2']",2108.11249v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,FREDOM - DeepLabV2,59.1,0.5497630331753556,null,[']'],2304.02135v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,SePiCo (DeepLabv2-ResNet-101),58.1,0.5260663507109006,null,"['ResNet-101', 'DeepLab v2']",2204.08808v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,ProDA+CRA,56.9,0.49763033175355453,null,[']'],2109.06422v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,CorDA (ResNet-101),55.0,0.4526066350710901,null,['ResNet'],2104.13613v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,SAC (ResNet-101),52.6,0.3957345971563982,null,['ResNet'],2105.00097v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,RPT (ResNet-101),51.2,0.3625592417061613,null,['ResNet'],2006.06570v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,IAST (ResNet-101),49.8,0.3293838862559242,null,['ResNet'],2008.12197v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,SAC (VGG-16),49.1,0.3127962085308058,null,[']'],2105.00097v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,PyCDA (ResNet-101),46.7,0.2559241706161139,null,['ResNet'],1908.09547v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,BiMaL,46.2,0.2440758293838864,null,[']'],2108.03267v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,FADA (ResNet-101),45.2,0.2203791469194314,null,['ResNet'],2007.09222v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,PIT (ResNet-101),44.0,0.19194312796208537,null,['ResNet'],null
+Domain Adaptation,SYNTHIA-to-Cityscapes,SA-I2I (VGG-16),41.5,0.1327014218009479,null,[']'],2009.01166v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,ADVENT (ResNet-101),41.2,0.12559241706161148,null,['ResNet'],1811.12833v2
+Domain Adaptation,SYNTHIA-to-Cityscapes,LDR (VGG-16),41.1,0.12322274881516596,null,[']'],2003.04614v3
+Domain Adaptation,SYNTHIA-to-Cityscapes,CD-AM (VGG-16),40.8,0.11611374407582936,null,[']'],2003.04010v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,FDA (VGG-16),40.5,0.10900473933649293,null,[']'],2004.05498v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,FADA (VGG-16),39.5,0.08530805687203796,null,[']'],2007.09222v1
+Domain Adaptation,SYNTHIA-to-Cityscapes,PIT (VGG-16),38.1,0.05213270142180102,null,[']'],null
+Domain Adaptation,SYNTHIA-to-Cityscapes,PyCDA (VGG-16),35.9,0.0,null,[']}]</script'],1908.09547v1
+Domain Adaptation,VisDA2017,RCL,93.2,1.0,null,[']'],2405.18376v1
+Domain Adaptation,VisDA2017,MIC,92.8,0.9885386819484239,null,[']'],2212.01322v2
+Domain Adaptation,VisDA2017,CMKD,91.8,0.9598853868194841,null,[']'],null
+Domain Adaptation,VisDA2017,SKD,91.2,0.9426934097421203,null,"['ViT-B/16', 'CLIP']",2312.04066v2
+Domain Adaptation,VisDA2017,DePT,90.7,0.9283667621776505,null,[']'],2210.04831v2
+Domain Adaptation,VisDA2017,SDAT(ViT),89.8,0.9025787965616044,null,[']'],2206.08213v1
+Domain Adaptation,VisDA2017,SFDA2++,89.6,0.8968481375358164,null,['ResNet-101'],2403.10834v1
+Domain Adaptation,VisDA2017,PMtrans,88.8,0.8739255014326646,null,[']'],2303.13434v2
+Domain Adaptation,VisDA2017,CoVi,88.5,0.8653295128939827,null,['ResNet-101'],2111.13353v3
+Domain Adaptation,VisDA2017,CDTrans,88.4,0.8624641833810889,null,[']'],2109.06165v4
+Domain Adaptation,VisDA2017,SFDA2,88.1,0.8538681948424066,null,['ResNet-101'],2403.10834v1
+Domain Adaptation,VisDA2017,FixBi,87.2,0.828080229226361,null,['ResNet-101'],2011.09230v2
+Domain Adaptation,VisDA2017,CAN,87.2,0.828080229226361,null,[']'],1901.00976v2
+Domain Adaptation,VisDA2017,dSNE,86.15,0.7979942693409743,null,[']'],null
+Domain Adaptation,VisDA2017,CPGA,86.0,0.7936962750716332,null,[']'],2106.15326v1
+Domain Adaptation,VisDA2017,Mean teacher,85.4,0.7765042979942695,null,[']'],1706.05208v4
+Domain Adaptation,VisDA2017,MCC+NWD,83.7,0.7277936962750716,null,[']'],2204.03838v1
+Domain Adaptation,VisDA2017,SHOT,82.9,0.7048710601719199,null,[']'],2002.08546v6
+Domain Adaptation,VisDA2017,DTA,81.5,0.664756446991404,null,[']'],1910.05562v1
+Domain Adaptation,VisDA2017,MRKLD + LRENT,78.1,0.5673352435530085,null,[']'],1908.09822v3
+Domain Adaptation,VisDA2017,CRST,78.1,0.5673352435530085,null,[']'],1908.09822v3
+Domain Adaptation,VisDA2017,SENTRY (ResNet50),76.7,0.5272206303724929,null,[']'],2012.11460v2
+Domain Adaptation,VisDA2017,SWD,76.4,0.5186246418338111,null,[']'],1903.04064v1
+Domain Adaptation,VisDA2017,IAFN,76.1,0.5100286532951288,null,[']'],1811.07456v2
+Domain Adaptation,VisDA2017,CDAN,73.7,0.44126074498567347,null,[']'],1705.10667v4
+Domain Adaptation,VisDA2017,DeepJDOT,66.9,0.24641833810888272,null,[']'],1803.10081v3
+Domain Adaptation,VisDA2017,JAN,58.3,0.0,null,[']}]</script'],1605.06636v2
+Domain Adaptation,Office-Home,RCL,90.0,1.0,null,[']'],2405.18376v1
+Domain Adaptation,Office-Home,SKD,89.2,0.9808658215737862,null,"['ViT-B/16', 'CLIP']",2312.04066v2
+Domain Adaptation,Office-Home,PMTrans,89.0,0.9760822769672327,null,[']'],2303.13434v2
+Domain Adaptation,Office-Home,CMKD,89.0,0.9760822769672327,null,[']'],null
+Domain Adaptation,Office-Home,MIC,86.2,0.9091126524754845,null,[']'],2212.01322v2
+Domain Adaptation,Office-Home,ELS,84.6,0.8708442956230565,null,[']'],2302.00194v1
+Domain Adaptation,Office-Home,SDAT (ViT-B/16),84.3,0.8636689787132265,null,[']'],2206.08213v1
+Domain Adaptation,Office-Home,CDTrans (DeiT-B),80.5,0.7727816311887108,null,[']'],2109.06165v4
+Domain Adaptation,Office-Home,PCL,74.5,0.6292752929921072,null,[']'],2111.06021v5
+Domain Adaptation,Office-Home,EvoADA,73.9,0.614924659172447,null,[']'],2103.13561v1
+Domain Adaptation,Office-Home,GSDE,73.6,0.6077493422626165,null,['ResNet-50'],2311.09599v1
+Domain Adaptation,Office-Home,CoVi,73.1,0.5957904807462329,null,[']'],2111.13353v3
+Domain Adaptation,Office-Home,FixBi,72.7,0.5862233915331261,null,[']'],2011.09230v2
+Domain Adaptation,Office-Home,MCC+NWD,72.6,0.5838316192298492,null,[']'],2204.03838v1
+Domain Adaptation,Office-Home,SENTRY (ResNet50),72.2,0.5742645300167425,null,[']'],2012.11460v2
+Domain Adaptation,Office-Home,SHOT,71.8,0.5646974408036355,null,[']'],2002.08546v6
+Domain Adaptation,Office-Home,CPGA,71.6,0.5599138961970819,null,[']'],2106.15326v1
+Domain Adaptation,Office-Home,BIWAA,71.5,0.5575221238938053,null,['ResNet-50'],null
+Domain Adaptation,Office-Home,SPL,71.0,0.5455632623774217,null,[']'],1911.07982v1
+Domain Adaptation,Office-Home,CADA,70.2,0.5264290839512079,null,[']'],1906.03502v2
+Domain Adaptation,Office-Home,DAOD,69.8,0.5168619947381009,null,[']'],1907.08375v2
+Domain Adaptation,Office-Home,MEDM,69.5,0.5096866778282708,null,[']'],2002.01690v1
+Domain Adaptation,Office-Home,ASAN,68.6,0.4881607270987801,null,[']'],null
+Domain Adaptation,Office-Home,MEDA (ResNet50),67.6,0.4642430040660128,null,['ResNet'],1909.08531v1
+Domain Adaptation,Office-Home,IDDA,49.46,0.03037550825161452,null,[']'],1904.01341v1
+Domain Adaptation,Office-Home,CAADA,48.19,0.0,null,[']}]</script'],1911.12983v1
+Domain Adaptation,GTA5 to Cityscapes,HALO,77.8,1.0,null,[']'],2306.11180v5
+Domain Adaptation,GTA5 to Cityscapes,DCF,77.7,0.9966101694915256,null,[']'],2311.12682v1
+Domain Adaptation,GTA5 to Cityscapes,ILM-ASSL,76.1,0.9423728813559321,null,"['DeepLab v3+', 'ResNet-101']",2301.13361v4
+Domain Adaptation,GTA5 to Cityscapes,MIC,75.9,0.9355932203389833,null,['MixTransformer'],2212.01322v2
+Domain Adaptation,GTA5 to Cityscapes,HRDA+PiPa,75.6,0.9254237288135593,null,['MixTransformer'],2211.07609v1
+Domain Adaptation,GTA5 to Cityscapes,HRDA,73.8,0.864406779661017,null,['MixTransformer'],2204.13132v2
+Domain Adaptation,GTA5 to Cityscapes,FREDOM - Transformer,73.6,0.8576271186440677,null,[']'],2304.02135v1
+Domain Adaptation,GTA5 to Cityscapes,SePiCo,70.3,0.7457627118644068,null,['MixTransformer'],2204.08808v2
+Domain Adaptation,GTA5 to Cityscapes,DAFormer + ProCST,69.4,0.7152542372881359,null,['MixTransformer'],2204.11891v2
+Domain Adaptation,GTA5 to Cityscapes,DAFormer,68.3,0.6779661016949152,null,['MixTransformer'],2111.14887v2
+Domain Adaptation,GTA5 to Cityscapes,MIC + Guidance Training,67.0,0.6338983050847459,null,['ResNet-101'],2403.14995v1
+Domain Adaptation,GTA5 to Cityscapes,TransDA-B,63.9,0.528813559322034,null,['Vision Transformer'],2203.07988v1
+Domain Adaptation,GTA5 to Cityscapes,DDB,62.7,0.48813559322033917,null,['ResNet-101'],2209.07695v3
+Domain Adaptation,GTA5 to Cityscapes,EHTDI*,62.0,0.46440677966101707,null,"['no-distilling', 'one-stage', 'ResNet-101']",2208.06100v1
+Domain Adaptation,GTA5 to Cityscapes,FREDOM - DeepLabV2,61.3,0.4406779661016949,null,[']'],2304.02135v1
+Domain Adaptation,GTA5 to Cityscapes,BiSMAP,61.2,0.43728813559322055,null,['ResNet-101'],2204.07730v2
+Domain Adaptation,GTA5 to Cityscapes,G2L,59.7,0.3864406779661019,null,['ResNet-101'],null
+Domain Adaptation,GTA5 to Cityscapes,FAFS,58.8,0.3559322033898305,null,['ResNet-101'],null
+Domain Adaptation,GTA5 to Cityscapes,ProDA+CRA,58.6,0.3491525423728815,null,['ResNet-101'],2109.06422v2
+Domain Adaptation,GTA5 to Cityscapes,ProDA,57.5,0.3118644067796611,null,['ResNet-101'],2101.10979v2
+Domain Adaptation,GTA5 to Cityscapes,ProCA,56.3,0.2711864406779661,null,['ResNet-101'],2207.06654v1
+Domain Adaptation,GTA5 to Cityscapes,GtA-SFDA (DeepLabv2-ResNet101),53.4,0.17288135593220344,null,['ResNet-101'],2108.11249v1
+Domain Adaptation,GTA5 to Cityscapes,MRNet + Rectifying Label,50.3,0.06779661016949153,null,[']'],2003.03773v3
+Domain Adaptation,GTA5 to Cityscapes,CCM,49.9,0.05423728813559327,null,['ResNet-101'],null
+Domain Adaptation,GTA5 to Cityscapes,MRNet + Adaboost,49.0,0.02372881355932213,null,[']'],2103.15685v3
+Domain Adaptation,GTA5 to Cityscapes,MRNet,48.3,0.0,null,[']}]</script'],1912.11164v3
+Domain Adaptation,ImageCLEF-DA,CMKD,94.3,1.0,null,[']'],null
+Domain Adaptation,ImageCLEF-DA,MCC+NWD,90.7,0.7931034482758623,null,[']'],2204.03838v1
+Domain Adaptation,ImageCLEF-DA,SPL,90.3,0.7701149425287355,null,[']'],1911.07982v1
+Domain Adaptation,ImageCLEF-DA,DFA-SAFN,90.2,0.7643678160919543,null,[']'],2006.12770v5
+Domain Adaptation,ImageCLEF-DA,DADA,89.3,0.7126436781609194,null,[']'],2001.00153v1
+Domain Adaptation,ImageCLEF-DA,DFA-ENT,89.1,0.701149425287356,null,[']'],2006.12770v5
+Domain Adaptation,ImageCLEF-DA,MEDM,88.9,0.6896551724137935,null,[']'],2002.01690v1
+Domain Adaptation,ImageCLEF-DA,IAFN+ENT,88.9,0.6896551724137935,null,[']'],1811.07456v2
+Domain Adaptation,ImageCLEF-DA,DDA,88.9,0.6896551724137935,null,[']'],1909.08531v1
+Domain Adaptation,ImageCLEF-DA,ASAN,88.6,0.672413793103448,null,[']'],null
+Domain Adaptation,ImageCLEF-DA,CADA-P,88.3,0.6551724137931033,null,[']'],1906.03502v2
+Domain Adaptation,ImageCLEF-DA,EasyTL,88.2,0.649425287356322,null,[']'],1904.01376v2
+Domain Adaptation,ImageCLEF-DA,rRevGrad+CAT,80.7,0.2183908045977011,null,[']'],1903.09980v2
+Domain Adaptation,ImageCLEF-DA,IDDA (Alexnet),80.6,0.212643678160919,null,[']'],1904.01341v1
+Domain Adaptation,ImageCLEF-DA,CAADA,80.2,0.18965517241379304,null,[']'],1911.12983v1
+Domain Adaptation,ImageCLEF-DA,DAN,76.9,0.0,null,[']}]</script'],1502.02791v2
+Domain Adaptation,Cityscapes to ACDC,Rein,77.6,1.0,null,[']'],2312.04265v5
+Domain Adaptation,Cityscapes to ACDC,CoDA,72.6,0.8626373626373626,null,[']'],2403.17369v2
+Domain Adaptation,Cityscapes to ACDC,Refign (HRDA),72.1,0.8489010989010989,null,[']'],2207.06825v3
+Domain Adaptation,Cityscapes to ACDC,HALO,71.9,0.8434065934065936,null,[']'],2306.11180v5
+Domain Adaptation,Cityscapes to ACDC,MIC,70.4,0.8021978021978025,null,[']'],2212.01322v2
+Domain Adaptation,Cityscapes to ACDC,HRDA,68.0,0.7362637362637363,null,[']'],2204.13132v2
+Domain Adaptation,Cityscapes to ACDC,Refign (DAFormer),65.5,0.6675824175824177,null,[']'],2207.06825v3
+Domain Adaptation,Cityscapes to ACDC,VBLC (DAFormer),64.2,0.6318681318681321,null,[']'],2211.12256v1
+Domain Adaptation,Cityscapes to ACDC,CMFormer,60.1,0.5192307692307693,null,[']'],2307.00371v5
+Domain Adaptation,Cityscapes to ACDC,DAFormer,55.4,0.3901098901098901,null,[']'],2111.14887v2
+Domain Adaptation,Cityscapes to ACDC,DANNet,50.0,0.24175824175824173,null,[']'],2104.10834v1
+Domain Adaptation,Cityscapes to ACDC,MGCDA,48.7,0.2060439560439561,null,[']'],2005.14553v2
+Domain Adaptation,Cityscapes to ACDC,VBLC (DeepLabv2),47.8,0.1813186813186812,null,[']'],2211.12256v1
+Domain Adaptation,Cityscapes to ACDC,FDA (DeepLabv2),45.7,0.12362637362637366,null,[']'],2004.05498v1
+Domain Adaptation,Cityscapes to ACDC,DACS (DeepLabv2),41.2,0.0,null,[']}]</script'],2007.08702v2
+Domain Adaptation,MNIST-to-USPS,FACT,98.8,1.0,null,[']'],2306.00607v2
+Domain Adaptation,MNIST-to-USPS,DFA-MCD,98.6,0.9770114942528733,null,[']'],2006.12770v5
+Domain Adaptation,MNIST-to-USPS,Mean teacher,98.26,0.9379310344827596,null,[']'],1706.05208v4
+Domain Adaptation,MNIST-to-USPS,DRANet,98.2,0.9310344827586213,null,[']'],2103.13447v2
+Domain Adaptation,MNIST-to-USPS,SHOT,98.0,0.9080459770114946,null,[']'],2002.08546v6
+Domain Adaptation,MNIST-to-USPS,DFA-ENT,97.9,0.896551724137932,null,[']'],2006.12770v5
+Domain Adaptation,MNIST-to-USPS,CyCleGAN (Light-weight Calibrator),97.1,0.804597701149425,null,[']'],1911.12796v2
+Domain Adaptation,MNIST-to-USPS,3CATN,96.1,0.6896551724137929,null,[']'],1909.07618v1
+Domain Adaptation,MNIST-to-USPS,rRevGrad+CAT,96.0,0.6781609195402303,null,[']'],1903.09980v2
+Domain Adaptation,MNIST-to-USPS,DeepJDOT,95.7,0.643678160919541,null,[']'],1803.10081v3
+Domain Adaptation,MNIST-to-USPS,SRDA (RAN),94.76,0.535632183908047,null,[']'],1905.10748v4
+Domain Adaptation,MNIST-to-USPS,MCD,93.8,0.4252873563218393,null,[']'],1712.02560v4
+Domain Adaptation,MNIST-to-USPS,ADDN,90.1,0.0,null,[']}]</script'],1702.05464v1
+Domain Adaptation,USPS-to-MNIST,FACT,98.6,1.0,null,[']'],2306.00607v2
+Domain Adaptation,USPS-to-MNIST,SHOT,98.4,0.9439775910364177,null,[']'],2002.08546v6
+Domain Adaptation,USPS-to-MNIST,CyCleGAN (Light-weight Calibrator),98.3,0.9159663865546225,null,[']'],1911.12796v2
+Domain Adaptation,USPS-to-MNIST,3CATN,98.3,0.9159663865546225,null,[']'],1909.07618v1
+Domain Adaptation,USPS-to-MNIST,Mean teacher,98.07,0.851540616246498,null,[']'],1706.05208v4
+Domain Adaptation,USPS-to-MNIST,CDAN,98.0,0.831932773109245,null,[']'],1705.10667v4
+Domain Adaptation,USPS-to-MNIST,DRANet,97.8,0.7759103641456586,null,[']'],2103.13447v2
+Domain Adaptation,USPS-to-MNIST,DFA-MCD,96.6,0.4397759103641446,null,[']'],2006.12770v5
+Domain Adaptation,USPS-to-MNIST,DeepJDOT,96.4,0.38375350140056225,null,[']'],1803.10081v3
+Domain Adaptation,USPS-to-MNIST,MCD+CAT,96.3,0.3557422969187671,null,[']'],1903.09980v2
+Domain Adaptation,USPS-to-MNIST,DFA-ENT,96.2,0.3277310924369759,null,[']'],2006.12770v5
+Domain Adaptation,USPS-to-MNIST,MCD,95.7,0.18767507002801204,null,[']'],1712.02560v4
+Domain Adaptation,USPS-to-MNIST,SRDA (RAN),95.03,0.0,null,[']}]</script'],1905.10748v4
+Domain Adaptation,SVHN-to-MNIST,Mean teacher,99.18,1.0,null,[']'],1706.05208v4
+Domain Adaptation,SVHN-to-MNIST,SHOT,98.9,0.9878682842287695,null,[']'],2002.08546v6
+Domain Adaptation,SVHN-to-MNIST,DFA-MCD,98.9,0.9878682842287695,null,[']'],2006.12770v5
+Domain Adaptation,SVHN-to-MNIST,DFA-ENT,98.2,0.957538994800693,null,[']'],2006.12770v5
+Domain Adaptation,SVHN-to-MNIST,CyCleGAN (Light-weight Calibrator),97.5,0.9272097053726167,null,[']'],1911.12796v2
+Domain Adaptation,SVHN-to-MNIST,MCD,95.8,0.8535528596187172,null,[']'],1712.02560v4
+Domain Adaptation,SVHN-to-MNIST,PFA,93.9,0.7712305025996534,null,[']'],1811.08585v2
+Domain Adaptation,SVHN-to-MNIST,MSTN,93.3,0.7452339688041592,null,[']'],null
+Domain Adaptation,SVHN-to-MNIST,FACT,90.6,0.6282495667244364,null,[']'],2306.00607v2
+Domain Adaptation,SVHN-to-MNIST,CYCADA,90.4,0.6195840554592723,null,[']'],1711.03213v3
+Domain Adaptation,SVHN-to-MNIST,CDAN,89.2,0.5675909878682843,null,[']'],1705.10667v4
+Domain Adaptation,SVHN-to-MNIST,ADDN,80.1,0.1733102253032928,null,[']'],1702.05464v1
+Domain Adaptation,SVHN-to-MNIST,SBADA,76.1,0.0,null,[']}]</script'],1705.08824v2
+Domain Adaptation,SVNH-to-MNIST,SRDA (RAN),98.91,1.0,null,[']'],1905.10748v4
+Domain Adaptation,SVNH-to-MNIST,SHOT,98.9,0.9996455157745484,null,[']'],2002.08546v6
+Domain Adaptation,SVNH-to-MNIST,rRevGrad+CAT,98.8,0.9961006735200284,null,[']'],1903.09980v2
+Domain Adaptation,SVNH-to-MNIST,dSNE,97.6,0.9535625664657922,null,[']'],null
+Domain Adaptation,SVNH-to-MNIST,DeepJDOT,96.7,0.9216589861751154,null,[']'],1803.10081v3
+Domain Adaptation,SVNH-to-MNIST,3CATN,92.5,0.772775611485289,null,[']'],1909.07618v1
+Domain Adaptation,SVNH-to-MNIST,DSN (DANN),82.7,0.42538107054236096,null,[']'],1608.06019v1
+Domain Adaptation,SVNH-to-MNIST,MMD [tzeng2015ddc]; [long2015learning],71.1,0.014179369018078397,null,[']'],1502.02791v2
+Domain Adaptation,SVNH-to-MNIST,DANN [ganin2016domain],70.7,0.0,null,[']}]</script'],1505.07818v4
+Domain Adaptation,Office-Caltech,SPL,93.0,1.0,null,[']'],1911.07982v1
+Domain Adaptation,Office-Caltech,MEDA[[Wang et al.2018]],92.8,0.975903614457831,null,[']'],1807.07258v2
+Domain Adaptation,Office-Caltech,"CAPLS [[Wang, Bu, and Breckon2019]]",91.8,0.8554216867469876,null,[']'],1903.10601v2
+Domain Adaptation,Office-Caltech,DAN[[Long et al.2015]],90.1,0.6506024096385534,null,[']'],1502.02791v2
+Domain Adaptation,Office-Caltech,"JGSA[[Zhang, Li, and Ogunbona2017]]",90.0,0.6385542168674697,null,[']'],1705.05498v1
+Domain Adaptation,Office-Caltech,DDC[[Tzeng et al.2014]],88.2,0.42168674698795194,null,[']'],1412.3474v1
+Domain Adaptation,Office-Caltech,SCA[[Ghifary et al.2016]],85.9,0.14457831325301243,null,[']'],1510.04373v2
+Domain Adaptation,Office-Caltech,"CORAL[[Sun, Feng, and Saenko2017]]",84.7,0.0,null,[']}]</script'],1612.01939v1
+Domain Adaptation,MoLane,UFLD-SGPCS-ResNet18,93.94,1.0,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-SGADA-ResNet18,93.82,0.9809220985691567,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-SGPCS-ResNet32,93.53,0.9348171701112882,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-SGADA-ResNet32,93.31,0.8998410174880769,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-ADDA-ResNet18,92.85,0.8267090620031788,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-ADDA-ResNet32,92.39,0.7535771065182831,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-DANN-ResNet32,90.91,0.5182829888712234,null,[']'],2206.08083v4
+Domain Adaptation,MoLane,UFLD-DANN-ResNet18,87.65,0.0,null,[']}]</script'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-SGPCS-ResNet32,93.29,1.0,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-SGADA-ResNet32,92.04,0.7252747252747259,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-SGADA-ResNet18,91.7,0.6505494505494507,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-SGPCS-ResNet18,91.55,0.6175824175824165,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-ADDA-ResNet32,91.39,0.5824175824175822,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-DANN-ResNet32,91.06,0.5098901098901102,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-ADDA-ResNet18,90.72,0.43516483516483495,null,[']'],2206.08083v4
+Domain Adaptation,TuLane,UFLD-DANN-ResNet18,88.74,0.0,null,[']}]</script'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-SGADA-ResNet32,91.63,1.0,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-SGPCS-ResNet18,91.57,0.9893238434163697,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-SGPCS-ResNet32,91.55,0.9857651245551604,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-SGADA-ResNet18,90.71,0.836298932384341,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-ADDA-ResNet32,90.22,0.7491103202846977,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-ADDA-ResNet18,89.83,0.6797153024911031,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-DANN-ResNet32,88.76,0.489323843416371,null,[']'],2206.08083v4
+Domain Adaptation,MuLane,UFLD-DANN-ResNet18,86.01,0.0,null,[']}]</script'],2206.08083v4
+Domain Adaptation,SYNSIG-to-GTSRB,DFA-MCD,97.5,1.0,null,[']'],2006.12770v5
+Domain Adaptation,SYNSIG-to-GTSRB,DFA-ENT,96.8,0.9523809523809522,null,[']'],2006.12770v5
+Domain Adaptation,SYNSIG-to-GTSRB,MCD,94.4,0.7891156462585038,null,[']'],1712.02560v4
+Domain Adaptation,SYNSIG-to-GTSRB,SRDA (RAN),93.61,0.7353741496598639,null,[']'],1905.10748v4
+Domain Adaptation,SYNSIG-to-GTSRB,DAN,91.1,0.5646258503401358,null,[']'],1502.02791v2
+Domain Adaptation,SYNSIG-to-GTSRB,ASSC,82.8,0.0,null,[']}]</script'],1708.00938v1
+Domain Adaptation,Cityscapes-to-FoggyZurich,CoDA,60.9,1.0,null,[']'],2403.17369v2
+Domain Adaptation,Cityscapes-to-FoggyZurich,BWG,51.3,0.3191489361702127,null,[']'],null
+Domain Adaptation,Cityscapes-to-FoggyZurich,FogAdapt+,50.6,0.26950354609929106,null,[']'],2201.02588v3
+Domain Adaptation,Cityscapes-to-FoggyZurich,CuDA-Net,49.1,0.16312056737588682,null,[']'],2112.00484v1
+Domain Adaptation,Cityscapes-to-FoggyZurich,FIFO,48.4,0.11347517730496463,null,[']'],2204.01587v1
+Domain Adaptation,Cityscapes-to-FoggyZurich,CMAda3+,46.8,0.0,null,[']}]</script'],1901.01415v2
+Domain Adaptation,GTAV+Synscapes to Cityscapes,DDB,69.0,1.0,null,[']'],2209.07695v3
+Domain Adaptation,GTAV+Synscapes to Cityscapes,MSCL,59.0,0.5327102803738317,null,[']'],2103.04717v3
+Domain Adaptation,GTAV+Synscapes to Cityscapes,MADAN,55.7,0.37850467289719636,null,[']'],1910.12181v1
+Domain Adaptation,GTAV+Synscapes to Cityscapes,MDAN,55.2,0.35514018691588795,null,[']'],null
+Domain Adaptation,GTAV+Synscapes to Cityscapes,MRNet+Adaboost,50.8,0.14953271028037365,null,[']'],2103.15685v3
+Domain Adaptation,GTAV+Synscapes to Cityscapes,MRNet,47.6,0.0,null,[']}]</script'],1912.11164v3
+Domain Adaptation,MNIST-to-MNIST-M,DRANet,98.7,1.0,null,[']'],2103.13447v2
+Domain Adaptation,MNIST-to-MNIST-M,DeepJDOT,92.4,0.7110091743119267,null,[']'],1803.10081v3
+Domain Adaptation,MNIST-to-MNIST-M,DSN (DANN),83.2,0.2889908256880733,null,[']'],1608.06019v1
+Domain Adaptation,MNIST-to-MNIST-M,DANN [ganin2016domain],77.4,0.022935779816513763,null,[']'],1505.07818v4
+Domain Adaptation,MNIST-to-MNIST-M,MMD [tzeng2015ddc]; [long2015learning],76.9,0.0,null,[']}]</script'],1502.02791v2
+Domain Adaptation,Cityscapes-to-FoggyDriving,CoDA,61.0,1.0,null,[']'],2403.17369v2
+Domain Adaptation,Cityscapes-to-FoggyDriving,BWG,54.2,0.39285714285714324,null,[']'],null
+Domain Adaptation,Cityscapes-to-FoggyDriving,FogAdapt+,53.4,0.32142857142857145,null,[']'],2201.02588v3
+Domain Adaptation,Cityscapes-to-FoggyDriving,FIFO,50.7,0.08035714285714335,null,[']'],2204.01587v1
+Domain Adaptation,Cityscapes-to-FoggyDriving,CMAda3+,49.8,0.0,null,[']}]</script'],1901.01415v2
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MSCL,59.0,1.0,null,[']'],2103.04717v3
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MADAN,55.7,0.7105263157894739,null,[']'],1910.12181v1
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MDAN,55.2,0.6666666666666669,null,[']'],null
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MRNet + Adaboost,50.8,0.28070175438596456,null,[']'],2103.15685v3
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MRNet,47.6,0.0,null,[']}]</script'],1912.11164v3
+Domain Adaptation,UCF-to-HMDBfull,TA3N,78.33,1.0,null,[']'],1905.10861v5
+Domain Adaptation,UCF-to-HMDBfull,JAN,74.72,0.18693693693693664,null,[']'],1605.06636v2
+Domain Adaptation,UCF-to-HMDBfull,RevGrad,74.44,0.1238738738738733,null,[']'],1409.7495v2
+Domain Adaptation,UCF-to-HMDBfull,MCD,73.89,0.0,null,[']}]</script'],1712.02560v4
+Domain Adaptation,HMDBfull-to-UCF,TA3N,81.79,1.0,null,[']'],1905.10861v5
+Domain Adaptation,HMDBfull-to-UCF,JAN,79.69,0.7142857142857134,null,[']'],1605.06636v2
+Domain Adaptation,HMDBfull-to-UCF,MCD,79.34,0.6666666666666666,null,[']'],1712.02560v4
+Domain Adaptation,HMDBfull-to-UCF,RevGrad,74.44,0.0,null,[']}]</script'],1409.7495v2
+Domain Adaptation,Synth Digits-to-SVHN,DSN (DANN),91.2,1.0,null,[']'],1608.06019v1
+Domain Adaptation,Synth Digits-to-SVHN,DANN [ganin2016domain],90.3,0.8499999999999991,null,[']'],1505.07818v4
+Domain Adaptation,Synth Digits-to-SVHN,MMD [tzeng2015ddc]; [long2015learning],88.0,0.4666666666666662,null,[']'],1502.02791v2
+Domain Adaptation,Synth Digits-to-SVHN,CORAL [sun2015return],85.2,0.0,null,[']}]</script'],1511.05547v2
+Domain Adaptation,Synth Signs-to-GTSRB,Mean teacher,98.66,1.0,null,[']'],1706.05208v4
+Domain Adaptation,Synth Signs-to-GTSRB,DSN (DANN),93.1,0.527210884353741,null,[']'],1608.06019v1
+Domain Adaptation,Synth Signs-to-GTSRB,MMD [tzeng2015ddc]; [long2015learning],91.1,0.35714285714285643,null,[']'],1502.02791v2
+Domain Adaptation,Synth Signs-to-GTSRB,CORAL [sun2015return],86.9,0.0,null,[']}]</script'],1511.05547v2
+Domain Adaptation,GTAV to Cityscapes+Mapillary,Rein,63.3,1.0,null,[']'],2312.04265v5
+Domain Adaptation,GTAV to Cityscapes+Mapillary,DDB,58.6,0.7151515151515154,null,[']'],2209.07695v3
+Domain Adaptation,GTAV to Cityscapes+Mapillary,ADAS,47.5,0.04242424242424259,null,[']'],2203.06811v1
+Domain Adaptation,GTAV to Cityscapes+Mapillary,CCL,46.8,0.0,null,[']}]</script'],2106.03418v1
+Domain Adaptation,Panoptic SYNTHIA-to-Cityscapes,EDAPS,41.2,1.0,null,[']'],2304.14291v2
+Domain Adaptation,Panoptic SYNTHIA-to-Cityscapes,UniDAformer,33.0,0.3740458015267174,null,[']'],2206.15083v2
+Domain Adaptation,Panoptic SYNTHIA-to-Cityscapes,CVRN,32.1,0.30534351145038163,null,[']'],2103.02584v1
+Domain Adaptation,Panoptic SYNTHIA-to-Cityscapes,ADVENT,28.1,0.0,null,[']}]</script'],1811.12833v2
+Domain Adaptation,Panoptic SYNTHIA-to-Mapillary,EDAPS,36.6,1.0,null,[']'],2304.14291v2
+Domain Adaptation,Panoptic SYNTHIA-to-Mapillary,CVRN,21.3,0.16393442622950818,null,[']'],2103.02584v1
+Domain Adaptation,Panoptic SYNTHIA-to-Mapillary,FDA,19.1,0.043715846994535554,null,[']'],2004.05498v1
+Domain Adaptation,Panoptic SYNTHIA-to-Mapillary,ADVENT,18.3,0.0,null,[']}]</script'],1811.12833v2
+Domain Adaptation,UCF --> HMDB (full),TranSVAE,87.78,1.0,null,[']'],null
+Domain Adaptation,UCF --> HMDB (full),CoMix,86.66,0.8814814814814811,null,[']'],2110.15128v1
+Domain Adaptation,UCF --> HMDB (full),SAVA,82.22,0.4116402116402116,null,[']'],null
+Domain Adaptation,UCF --> HMDB (full),TA3N,78.33,0.0,null,[']}]</script'],1907.12743v6
+Domain Adaptation,UCF-to-Olympic,TA3N,98.15,1.0,null,[']'],1905.10861v5
+Domain Adaptation,UCF-to-Olympic,TemPooling + RevGrad,98.15,1.0,null,[']'],1409.7495v2
+Domain Adaptation,UCF-to-Olympic,W. Sultani et al.,33.33,0.0,null,[']}]</script'],null
+Domain Adaptation,Olympic-to-HMDBsmall,TA3N,92.92,1.0,null,[']'],1905.10861v5
+Domain Adaptation,Olympic-to-HMDBsmall,TemPooling + RevGrad,90.0,0.9351255276605198,null,[']'],1409.7495v2
+Domain Adaptation,Olympic-to-HMDBsmall,W. Sultani et al.,47.91,0.0,null,[']}]</script'],null
+Domain Adaptation,UCF-to-HMDBsmall,TA3N,99.33,1.0,null,[']'],1905.10861v5
+Domain Adaptation,UCF-to-HMDBsmall,TemPooling + RevGrad,99.33,1.0,null,[']'],1409.7495v2
+Domain Adaptation,UCF-to-HMDBsmall,W. Sultani et al.,68.7,0.0,null,[']}]</script'],null
+Domain Adaptation,HMDBsmall-to-UCF,TA3N,99.47,1.0,null,[']'],1905.10861v5
+Domain Adaptation,HMDBsmall-to-UCF,TemPooling + RevGrad,98.41,0.9655844155844155,null,[']'],1409.7495v2
+Domain Adaptation,HMDBsmall-to-UCF,W. Sultani et al.,68.67,0.0,null,[']}]</script'],null
+Domain Adaptation,Synscapes-to-Cityscapes,ProDA+CRA,60.2,1.0,null,[']'],2109.06422v2
+Domain Adaptation,Synscapes-to-Cityscapes,IntraDA,54.2,0.2,null,[']'],2004.07703v4
+Domain Adaptation,Synscapes-to-Cityscapes,AdaptSegNet,52.7,0.0,null,[']}]</script'],1802.10349v3
+Domain Adaptation,HMDB --> UCF (full),TranSVAE,98.95,1.0,null,[']'],null
+Domain Adaptation,HMDB --> UCF (full),ABG,85.11,0.1934731934731931,null,[']'],2007.15829v1
+Domain Adaptation,HMDB --> UCF (full),TA3N,81.79,0.0,null,[']}]</script'],1907.12743v6
+Domain Adaptation,Rotating MNIST,PCIDA,87.1,1.0,null,[']'],2007.01807v2
+Domain Adaptation,Rotating MNIST,CIDA,85.7,0.0,null,[']}]</script'],2007.01807v2
+Domain Adaptation,DomainNet,SFDA2,68.3,1.0,null,[']'],2403.10834v1
+Domain Adaptation,DomainNet,PMTrans,52.4,0.0,null,[']}]</script'],2303.13434v2
+Domain Adaptation,Synth Objects-to-LINEMOD,DSN (DANN),100,1.0,null,[']}]</script'],1608.06019v1
+Domain Adaptation,Office-Caltech-10,MEDA,92.8,1.0,null,[']}]</script'],1807.07258v2
+Domain Adaptation,MNIST-M-to-MNIST,DRANet,99.3,1.0,null,[']}]</script'],2103.13447v2
+Domain Adaptation,Noisy-MNIST-to-SYND,Butterfly,42.45,1.0,null,[']}]</script'],1905.07720v3
+Domain Adaptation,Noisy-SYND-to-MNIST,Butterfly,5.909999999999997,1.0,null,[']}]</script'],1905.07720v3
+Domain Adaptation,Noisy-Amazon (20%),Butterfly,28.47,1.0,null,[']}]</script'],1905.07720v3
+Domain Adaptation,Noisy-Amazon (45%),Butterfly,43.99,1.0,null,[']}]</script'],1905.07720v3
+Domain Adaptation,MSDA,MetaSelf-Learning,42,1.0,null,[']}]</script'],2108.10840v1
+Domain Adaptation,SYNTHIA-to-Cityscapes Labels,MRNet,46.5,1.0,null,[']}]</script'],1912.11164v3
+Domain Adaptation,GTA-to-FoggyCityscapes,FogAdapt+,45,1.0,null,[']}]</script'],2201.02588v3
+Domain Adaptation,SYNTHIA-to-FoggyCityscapes,FogAdapt+,45.2,1.0,null,[']}]</script'],2201.02588v3
+Domain Adaptation,PACS,SSGEN,88.09,1.0,null,[']}]</script'],2202.08045v1
+Domain Adaptation,Nikon RAW Low Light,FSDA-LL Sony -\u003E Nikon,30.3,1.0,null,[']}]</script'],2303.15528v1
+Domain Adaptation,Canon RAW Low Light,FSDA-LL Sony -\u003E Canon,33.22,1.0,null,[']}]</script'],2303.15528v1
+Domain Adaptation,Foggy Cityscapes,MILA,50.6,1.0,null,[']}]</script'],2309.01086v1
+Domain Adaptation,Comic2k,MILA,44.6,1.0,null,[']}]</script'],2309.01086v1
+Domain Adaptation,Sim10k,MILA,57.4,1.0,null,[']}]</script'],2309.01086v1

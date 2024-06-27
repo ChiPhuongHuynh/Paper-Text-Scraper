@@ -1,0 +1,205 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Pose Estimation,MPII Human Pose,"PCT (swin-l, test set)",94.3,1.0,null,[']'],2303.11638v1
+Pose Estimation,MPII Human Pose,Soft-gated Skip Connections,94.1,0.9850746268656714,null,[']'],2002.11098v1
+Pose Estimation,MPII Human Pose,Cascade Feature Aggregation,93.9,0.9701492537313439,null,[']'],1902.07837v3
+Pose Estimation,MPII Human Pose,"PCT (swin-b, test set)",93.8,0.9626865671641791,null,[']'],2303.11638v1
+Pose Estimation,MPII Human Pose,TransPose,93.5,0.9402985074626867,null,['Transformer'],2012.14214v5
+Pose Estimation,MPII Human Pose,UniHCP (FT),93.2,0.9179104477611943,null,[']'],2303.02936v4
+Pose Estimation,MPII Human Pose,4xRSN-50,93.0,0.9029850746268658,null,"['COCO Best Paper Award', 'COCO Keypoint Challenge Winner', 'ECCV 2020']",2003.04030v3
+Pose Estimation,MPII Human Pose,UniPose,92.7,0.8805970149253735,null,['ResNet'],2001.08095v1
+Pose Estimation,MPII Human Pose,MSPN,92.6,0.8731343283582087,null,[']'],1901.00148v4
+Pose Estimation,MPII Human Pose,Spatial Context,92.5,0.8656716417910449,null,[']'],1901.01760v1
+Pose Estimation,MPII Human Pose,HRNet-W32,92.3,0.8507462686567163,null,[']'],1902.09212v1
+Pose Estimation,MPII Human Pose,DLCM,92.3,0.8507462686567163,null,[']'],null
+Pose Estimation,MPII Human Pose,Multi-Scale Structure-Aware Network,92.1,0.8358208955223877,null,['multiscale'],1803.09894v3
+Pose Estimation,MPII Human Pose,Pyramid Residual Modules (PRMs),92.0,0.8283582089552239,null,[']'],1708.01101v1
+Pose Estimation,MPII Human Pose,Chen et al. ICCV'17,91.9,0.8208955223880602,null,[']'],1705.00389v2
+Pose Estimation,MPII Human Pose,Chou et al. arXiv'17,91.8,0.8134328358208954,null,[']'],1707.02439v2
+Pose Estimation,MPII Human Pose,Multi-Context Attention,91.5,0.791044776119403,null,[']'],1702.07432v1
+Pose Estimation,MPII Human Pose,Residual Hourglass +ASR+AHO,91.5,0.791044776119403,null,[']'],1805.09707v1
+Pose Estimation,MPII Human Pose,DU-Net,91.2,0.7686567164179108,null,[']'],1808.02194v2
+Pose Estimation,MPII Human Pose,Stacked hourglass + Inception-resnet,91.2,0.7686567164179108,null,[']'],1705.02407v2
+Pose Estimation,MPII Human Pose,EfficientPose IV,91.2,0.7686567164179108,null,[']'],2004.12186v2
+Pose Estimation,MPII Human Pose,FPD,91.1,0.7611940298507459,null,[']'],1811.05419v2
+Pose Estimation,MPII Human Pose,Integral Regression,91.0,0.7537313432835822,null,[']'],1711.08229v4
+Pose Estimation,MPII Human Pose,Stacked Hourglass Networks,90.9,0.7462686567164184,null,[']'],1603.06937v2
+Pose Estimation,MPII Human Pose,DarkPose,90.6,0.723880597014925,null,[']'],1910.06278v1
+Pose Estimation,MPII Human Pose,TFPose(ResNet-50),90.4,0.7089552238805975,null,[']'],2103.15320v1
+Pose Estimation,MPII Human Pose,Human Pose Estimation,89.7,0.656716417910448,null,[']'],1609.01743v1
+Pose Estimation,MPII Human Pose,Part heatmap regression (ResNet-152),89.7,0.656716417910448,null,['ResNet'],1609.01743v1
+Pose Estimation,MPII Human Pose,DSNTr ResNet-50@28px,89.5,0.6417910447761194,null,['ResNet'],1801.07372v2
+Pose Estimation,MPII Human Pose,CU-Net,89.4,0.6343283582089556,null,[']'],1808.06521v1
+Pose Estimation,MPII Human Pose,OpenPose,88.8,0.5895522388059699,null,[']'],2004.12186v2
+Pose Estimation,MPII Human Pose,Convolutional Pose Machines,88.52,0.56865671641791,null,[']'],1602.00134v4
+Pose Estimation,MPII Human Pose,ResNet-152 + intermediate supervision,88.52,0.56865671641791,null,['ResNet'],1605.03170v3
+Pose Estimation,MPII Human Pose,Dite-HRNet-30,87.6,0.49999999999999944,null,[']'],2204.10762v3
+Pose Estimation,MPII Human Pose,Tucker T-Net,87.5,0.4925373134328357,null,[']'],1904.02698v1
+Pose Estimation,MPII Human Pose,CHPR,86.4,0.4104477611940301,null,[']'],1704.00159v3
+Pose Estimation,MPII Human Pose,Lifshitz et al.,85.0,0.3059701492537311,null,[']'],1603.08212v1
+Pose Estimation,MPII Human Pose,EfficientPose RT,84.8,0.29104477611940255,null,[']'],2004.12186v2
+Pose Estimation,MPII Human Pose,Matrix,82.5,0.11940298507462652,null,[']'],1904.07852v1
+Pose Estimation,MPII Human Pose,DeepCut,82.4,0.11194029850746276,null,[']'],1511.06645v2
+Pose Estimation,MPII Human Pose,QP2,82.4,0.11194029850746276,null,[']'],1507.05699v5
+Pose Estimation,MPII Human Pose,Tompson et al.,82.0,0.0820895522388056,null,[']'],1411.4280v3
+Pose Estimation,MPII Human Pose,x,81.3,0.0298507462686561,null,[']'],1808.04803v1
+Pose Estimation,MPII Human Pose,IEF,81.3,0.0298507462686561,null,[']'],1507.06550v3
+Pose Estimation,MPII Human Pose,QP1,81.1,0.01492537313432752,null,[']'],1507.05699v5
+Pose Estimation,MPII Human Pose,Improved Binary Network (HourGlass),80.9,0.0,null,[']}]</script'],1904.05868v1
+Pose Estimation,COCO test-dev,"ViTPose (ViTAE-G, ensemble)",81.1,1.0,null,['Vision Transformer'],2204.12484v3
+Pose Estimation,COCO test-dev,ViTPose (ViTAE-G),80.9,0.9896373056994825,null,['Vision Transformer'],2204.12484v3
+Pose Estimation,COCO test-dev,UDP-Pose-PSA(384x288),79.5,0.9170984455958552,null,[']'],2107.00782v2
+Pose Estimation,COCO test-dev,4xRSN-50 (ensemble),79.2,0.9015544041450781,null,"['ECCV 2020', 'COCO Keypoint Challenge Winner']",2003.04030v3
+Pose Estimation,COCO test-dev,CCM+,78.9,0.8860103626943011,null,[']'],2002.00537v2
+Pose Estimation,COCO test-dev,UDP-Pose-PSA(256x192),78.9,0.8860103626943011,null,[']'],2107.00782v2
+Pose Estimation,COCO test-dev,4xRSN-50,78.6,0.8704663212435233,null,"['ECCV 2020', 'COCO Keypoint Challenge Winner']",2003.04030v3
+Pose Estimation,COCO test-dev,PCT (256x256),78.3,0.8549222797927463,null,[']'],2303.11638v1
+Pose Estimation,COCO test-dev,HRNet-W48+DARK,77.4,0.808290155440415,null,[']'],1910.06278v1
+Pose Estimation,COCO test-dev,SwinV2-L 1K-MIM,77.2,0.7979274611398968,null,[']'],2205.13543v2
+Pose Estimation,COCO test-dev,HRNet-W48 + extra data,77.0,0.7875647668393785,null,[']'],1902.09212v1
+Pose Estimation,COCO test-dev,EvoPose2D-L,76.8,0.7772020725388602,null,[']'],2011.08446v2
+Pose Estimation,COCO test-dev,SwinV2-B 1K-MIM,76.7,0.7720207253886014,null,[']'],2205.13543v2
+Pose Estimation,COCO test-dev,HRNet-W48+UDP,76.5,0.7616580310880832,null,[']'],1911.07524v2
+Pose Estimation,COCO test-dev,OmniPose (WASPv2),76.4,0.7564766839378244,null,[']'],2103.10180v1
+Pose Estimation,COCO test-dev,HRFormer-B,76.2,0.7461139896373061,null,[']'],2110.09408v3
+Pose Estimation,COCO test-dev,MSPN,76.1,0.7409326424870466,null,[']'],1901.00148v4
+Pose Estimation,COCO test-dev,MIPNet,75.7,0.7202072538860108,null,"['single scale', 'hrnet', 'multi-instance pose']",2101.11223v3
+Pose Estimation,COCO test-dev,PPE (ResNeXt-101),75.7,0.7202072538860108,null,[']'],2206.07510v2
+Pose Estimation,COCO test-dev,TransPose-H-A6,75.0,0.6839378238341971,null,['Transformer'],2012.14214v5
+Pose Estimation,COCO test-dev,PoseFix,74.7,0.6683937823834201,null,[']'],1812.03595v3
+Pose Estimation,COCO test-dev,DPIT-L,74.6,0.6632124352331605,null,[']'],2209.02431v1
+Pose Estimation,COCO test-dev,S-ViPNAS-HRNetW32,73.9,0.6269430051813477,null,[']'],2105.10154v1
+Pose Estimation,COCO test-dev,Flow-based (ResNet-152),73.7,0.6165803108808294,null,['ResNet'],1804.06208v2
+Pose Estimation,COCO test-dev,"CPN+ [6, 9]",73.0,0.5803108808290158,null,[']'],1711.07319v2
+Pose Estimation,COCO test-dev,RMPE++,72.3,0.5440414507772021,null,[']'],1612.00137v5
+Pose Estimation,COCO test-dev,TFPose (ND=6 ResNet-50),72.2,0.5388601036269434,null,[']'],2103.15320v1
+Pose Estimation,COCO test-dev,CPN,72.1,0.5336787564766838,null,[']'],1711.07319v2
+Pose Estimation,COCO test-dev,LOGO-CAP (Ours) HRNet-W48,70.8,0.4663212435233161,null,[']'],null
+Pose Estimation,COCO test-dev,Dite-HRNet-30,70.6,0.4559585492227978,null,[']'],2204.10762v3
+Pose Estimation,COCO test-dev,KAPAO-L,70.3,0.4404145077720208,null,[']'],2111.08557v4
+Pose Estimation,COCO test-dev,S-ViPNAS-Res50,70.3,0.4404145077720208,null,[']'],2105.10154v1
+Pose Estimation,COCO test-dev,Lite-HRNet-30,69.7,0.40932642487046667,null,[']'],2104.06403v1
+Pose Estimation,COCO test-dev,KAPAO-M,68.8,0.3626943005181348,null,[']'],2111.08557v4
+Pose Estimation,COCO test-dev,Simple Pose,68.1,0.3264248704663211,null,['Hourglass Networks'],1911.10529v1
+Pose Estimation,COCO test-dev,Lite-HRNet-18,66.9,0.26424870466321293,null,[']'],2104.06403v1
+Pose Estimation,COCO test-dev,G-RMI,64.9,0.16062176165803155,null,[']'],1701.01779v2
+Pose Estimation,COCO test-dev,Faster R-CNN (ImageNet+300M),64.4,0.1347150259067362,null,[']'],1707.02968v2
+Pose Estimation,COCO test-dev,OpenPose,64.2,0.12435233160621793,null,[']'],1812.08008v2
+Pose Estimation,COCO test-dev,KAPAO-S,63.8,0.10362694300518137,null,[']'],2111.08557v4
+Pose Estimation,COCO test-dev,DirectPose (ResNet-101),63.3,0.07772020725388602,null,[']'],1911.07451v2
+Pose Estimation,COCO test-dev,Mask-RCNN,63.1,0.0673575129533681,null,[']'],1703.06870v3
+Pose Estimation,COCO test-dev,CMU-Pose,61.8,0.0,null,[']'],1611.08050v2
+Pose Estimation,COCO test-dev,RMPE,61.8,0.0,null,[']'],1612.00137v5
+Pose Estimation,Leeds Sports Poses,OmniPose,99.5,1.0,null,[']'],2103.10180v1
+Pose Estimation,Leeds Sports Poses,Soft-gated Skip Connections,94.8,0.8199233716475094,null,[']'],2002.11098v1
+Pose Estimation,Leeds Sports Poses,UniPose,94.5,0.8084291187739463,null,[']'],2001.08095v1
+Pose Estimation,Leeds Sports Poses,Residual Hourglass + ASR + AHO,94.5,0.8084291187739463,null,[']'],1805.09707v1
+Pose Estimation,Leeds Sports Poses,Chou et al. arXiv'17,94.0,0.789272030651341,null,[']'],1707.02439v2
+Pose Estimation,Leeds Sports Poses,Pyramid Residual Modules (PRMs),93.9,0.7854406130268201,null,[']'],1708.01101v1
+Pose Estimation,Leeds Sports Poses,Stacked hourglass + Inception-resnet,93.9,0.7854406130268201,null,[']'],1705.02407v2
+Pose Estimation,Leeds Sports Poses,Multi-Context Attention,92.6,0.7356321839080457,null,[']'],1702.07432v1
+Pose Estimation,Leeds Sports Poses,FPD,90.8,0.6666666666666665,null,[']'],1811.05419v2
+Pose Estimation,Leeds Sports Poses,Part heatmap regression (ResNet-152),90.7,0.6628352490421456,null,['ResNet'],1609.01743v1
+Pose Estimation,Leeds Sports Poses,Convolutional Pose Machines,90.5,0.6551724137931034,null,[']'],1602.00134v4
+Pose Estimation,Leeds Sports Poses,Soft-argmax + contextual information,90.5,0.6551724137931034,null,[']'],1710.02322v1
+Pose Estimation,Leeds Sports Poses,ResNet-152 + intermediate supervision,90.1,0.6398467432950189,null,['ResNet'],1605.03170v3
+Pose Estimation,Leeds Sports Poses,DG-Net (T=4),87.5,0.5402298850574712,null,[']'],2109.07353v1
+Pose Estimation,Leeds Sports Poses,Trajectory Space Factorization (F=25),83.6,0.39080459770114906,null,[']'],1908.08289v1
+Pose Estimation,Leeds Sports Poses,VNect (ResNet 50),79.4,0.22988505747126442,null,[']'],1705.01583v1
+Pose Estimation,Leeds Sports Poses,Mehta,75.7,0.08812260536398459,null,[']'],1611.09813v5
+Pose Estimation,Leeds Sports Poses,"Chen\u0026Yuille, NIPS'14",73.4,0.0,null,[']}]</script'],1407.3399v2
+Pose Estimation,OCHuman,"ViTPose (ViTAE-G, GT bounding boxes)",93.3,1.0,null,[']'],2204.12484v3
+Pose Estimation,OCHuman,UniHCP (direct eval),87.4,0.9151079136690649,null,[']'],2303.02936v4
+Pose Estimation,OCHuman,"RTMPose(RTMPose-l, GT bounding boxes)",80.3,0.8129496402877698,null,[']'],2303.07399v2
+Pose Estimation,OCHuman,BUCTD (CID-W32),47.2,0.33669064748201444,null,['No Extra Data'],2306.07879v2
+Pose Estimation,OCHuman,MIPNet (HRNet-W48),42.5,0.26906474820143883,null,"['hrnet', 'multi-instance pose', 'single scale']",2101.11223v3
+Pose Estimation,OCHuman,HRNet-W48,37.2,0.19280575539568348,null,"['hrnet', 'single scale']",2101.11223v3
+Pose Estimation,OCHuman,HGG (AE+),36.0,0.17553956834532372,null,['multiscale'],2007.11864v1
+Pose Estimation,OCHuman,ResNet-152,33.3,0.13669064748201434,null,['ResNet-152'],1804.06208v2
+Pose Estimation,OCHuman,Associative Embedding+,32.8,0.12949640287769779,null,[']'],1611.05424v2
+Pose Estimation,OCHuman,RMPE,30.7,0.09928057553956833,null,[']'],1612.00137v5
+Pose Estimation,OCHuman,ResNet-50,29.5,0.08201438848920863,null,['ResNet-50'],1804.06208v2
+Pose Estimation,OCHuman,Associative Embedding,29.5,0.08201438848920863,null,[']'],1611.05424v2
+Pose Estimation,OCHuman,Pose2Seg,23.8,0.0,null,"['ResNet-50', 'FPN', 'single scale']",1803.10683v3
+Pose Estimation,CrowdPose,"BUCTD-W48 (w/cond. input from PETR, and generative sampling)",78.5,1.0,null,[']'],2306.07879v2
+Pose Estimation,CrowdPose,ViTPose-G,78.3,0.986394557823129,null,[']'],2204.12484v3
+Pose Estimation,CrowdPose,BUCTD-W48 (w/cond. input from PETR),76.7,0.8775510204081635,null,[']'],2306.07879v2
+Pose Estimation,CrowdPose,SwinV2-L 1K-MIM,75.5,0.7959183673469388,null,[']'],2205.13543v2
+Pose Estimation,CrowdPose,SwinV2-B 1K-MIM,74.9,0.7551020408163269,null,[']'],2205.13543v2
+Pose Estimation,CrowdPose,BUCTD-W48,72.9,0.6190476190476195,null,[']'],2306.07879v2
+Pose Estimation,CrowdPose,OpenPifPaf,70.5,0.4557823129251702,null,[']'],2103.02440v2
+Pose Estimation,CrowdPose,MIPNet (HRNet-W48),70.0,0.42176870748299333,null,[']'],2101.11223v3
+Pose Estimation,CrowdPose,KAPAO-L,68.9,0.3469387755102046,null,[']'],2111.08557v4
+Pose Estimation,CrowdPose,KAPAO-M,67.1,0.2244897959183671,null,[']'],2111.08557v4
+Pose Estimation,CrowdPose,Hourglass-104,65.2,0.09523809523809561,null,[']'],2107.03098v2
+Pose Estimation,CrowdPose,KAPAO-S,63.8,0.0,null,[']}]</script'],2111.08557v4
+Pose Estimation,MS COCO,OmniPose (WASPv2),79.5,1.0,null,[']'],2103.10180v1
+Pose Estimation,MS COCO,MetaPrompt-SD,79.0,0.927536231884058,null,[']'],2312.14733v1
+Pose Estimation,MS COCO,"Hulk(Finetune, ViT-L)",78.7,0.8840579710144932,null,[']'],2312.01697v4
+Pose Estimation,MS COCO,"BUCTD (PETR,  with generative sampling)",77.8,0.7536231884057969,null,[']'],2306.07879v2
+Pose Estimation,MS COCO,"Hulk(Finetune, ViT-B)",77.5,0.7101449275362322,null,[']'],2312.01697v4
+Pose Estimation,MS COCO,I\u00b2R-Net (1st stage:HRFormer-B),77.3,0.6811594202898549,null,[']'],2206.10892v2
+Pose Estimation,MS COCO,PATH (Partial FT),77.1,0.6521739130434777,null,[']'],2303.05675v1
+Pose Estimation,MS COCO,SOLIDER (swin-B),76.6,0.5797101449275358,null,[']'],2303.17602v1
+Pose Estimation,MS COCO,PEFORMER-Xcit-dino-p8,72.6,0.0,null,[']'],2112.04981v1
+Pose Estimation,AIC,"Hulk(Finetune, ViT-L)",37.1,1.0,null,[']'],2312.01697v4
+Pose Estimation,AIC,"Hulk(Finetune, ViT-B)",35.6,0.8351648351648352,null,[']'],2312.01697v4
+Pose Estimation,AIC,HRFormer (HRFomer-B),34.4,0.703296703296703,null,[']'],2110.09408v3
+Pose Estimation,AIC,UniHCP (finetune),33.6,0.6153846153846154,null,[']'],2303.02936v4
+Pose Estimation,AIC,HRNet (HRNet-w48\t),33.5,0.6043956043956042,null,[']'],1902.09212v1
+Pose Estimation,AIC,HRNet (HRNet-w32),32.3,0.4725274725274721,null,[']'],1902.09212v1
+Pose Estimation,AIC,HRFormer (HRFomer-S),31.6,0.3956043956043957,null,[']'],2110.09408v3
+Pose Estimation,AIC,SimpleBaseline (ResNet-152),29.9,0.2087912087912086,null,[']'],1804.06208v2
+Pose Estimation,AIC,SimpleBaseline (ResNet-101),29.4,0.15384615384615366,null,[']'],1804.06208v2
+Pose Estimation,AIC,SimpleBaseline (ResNet-50),28.0,0.0,null,[']}]</script'],1804.06208v2
+Pose Estimation,ITOP front-view,AdaPose,93.38,1.0,null,[']'],null
+Pose Estimation,ITOP front-view,DECA-D3,88.75,0.7102628285356697,null,[']'],2108.08557v1
+Pose Estimation,ITOP front-view,V2V-PoseNet,88.74,0.7096370463078846,null,[']'],1711.07399v3
+Pose Estimation,ITOP front-view,A2J,88.0,0.6633291614518149,null,[']'],1908.09999v1
+Pose Estimation,ITOP front-view,REN,84.9,0.46933667083854846,null,[']'],1707.07248v1
+Pose Estimation,ITOP front-view,Multi-task learning + viewpoint invariance,77.4,0.0,null,[']}]</script'],1603.07076v3
+Pose Estimation,ITOP top-view,DECA-D3,86.92,1.0,null,[']'],2108.08557v1
+Pose Estimation,ITOP top-view,DECA-D3,86.92,1.0,null,[']'],2108.08557v1
+Pose Estimation,ITOP top-view,V2V-PoseNet,83.44,0.6952714535901924,null,[']'],1711.07399v3
+Pose Estimation,ITOP top-view,Multi-task learning + viewpoint invariance,75.5,0.0,null,[']'],1603.07076v3
+Pose Estimation,ITOP top-view,REN,75.5,0.0,null,[']}]</script'],1707.07248v1
+Pose Estimation,UPenn Action,OmniPose,99.4,1.0,null,[']'],2103.10180v1
+Pose Estimation,UPenn Action,UniPose-LSTM,99.3,0.9945355191256826,null,['LSTM'],2001.08095v1
+Pose Estimation,UPenn Action,LSTM PM,97.7,0.9071038251366119,null,['LSTM'],1712.06316v4
+Pose Estimation,UPenn Action,Thin-Slicing,96.5,0.8415300546448086,null,[']'],1703.10898v1
+Pose Estimation,UPenn Action,Iqbal et al.,81.1,0.0,null,[']}]</script'],1603.04037v2
+Pose Estimation,J-HMDB,SimpleBaseline + HANet,99.6,1.0,null,[']'],2211.15868v1
+Pose Estimation,J-HMDB,DeciWatch,99.0,0.9685863874345553,null,[']'],2203.08713v2
+Pose Estimation,J-HMDB,LSTM PM,93.6,0.6858638743455496,null,['LSTM'],1712.06316v4
+Pose Estimation,J-HMDB,CPM,91.9,0.596858638743456,null,[']'],1602.00134v4
+Pose Estimation,J-HMDB,UniTrack_i18,80.5,0.0,null,[']}]</script'],2107.02156v2
+Pose Estimation,MPII Single Person,4xRSN-50,93.0,1.0,null,"['COCO Keypoint Challenge Winner', 'COCO Best Paper Award', 'ECCV 2020']",2003.04030v3
+Pose Estimation,MPII Single Person,Refine,92.1,0.7954545454545444,null,[']'],1804.07909v1
+Pose Estimation,MPII Single Person,EfficientPose IV,91.2,0.590909090909092,null,[']'],2004.12186v2
+Pose Estimation,MPII Single Person,OpenPose,88.8,0.04545454545454604,null,[']'],1812.08008v2
+Pose Estimation,MPII Single Person,Adversarial Learning,88.6,0.0,null,[']}]</script'],1803.09722v2
+Pose Estimation,COCO val2017,MogaNet-B (384x288),77.3,1.0,null,[']'],2211.03295v3
+Pose Estimation,COCO val2017,MogaNet-S (384x288),76.4,0.7804878048780506,null,[']'],2211.03295v3
+Pose Estimation,COCO val2017,MogaNet-S (256x192),74.9,0.41463414634146467,null,[']'],2211.03295v3
+Pose Estimation,COCO val2017,MogaNet-T (256x192),73.2,0.0,null,[']}]</script'],2211.03295v3
+Pose Estimation,300W (Full),SPIGA,98.71,1.0,null,[']'],2210.07233v1
+Pose Estimation,300W (Full),MNN,98.44,0.0,null,[']'],2202.02299v1
+Pose Estimation,DensePose-COCO,Parsing R-CNN + ResNext101,61.6,1.0,null,[']'],1811.12596v1
+Pose Estimation,DensePose-COCO,DensePose + keypoints,55.8,0.0,null,[']}]</script'],1802.00434v1
+Pose Estimation,FLIC Elbows,Stacked Hourglass Networks,99.0,1.0,null,[']'],1603.06937v2
+Pose Estimation,FLIC Elbows,Convolutional Pose Machines,97.59,0.0,null,[']}]</script'],1602.00134v4
+Pose Estimation,FLIC Wrists,Stacked Hourglass Networks,97.0,1.0,null,[']'],1603.06937v2
+Pose Estimation,FLIC Wrists,Convolutional Pose Machines,95.0,0.0,null,[']}]</script'],1602.00134v4
+Pose Estimation,UAV-Human,AlphaPose,56.9,1.0,null,[']'],1612.00137v5
+Pose Estimation,UAV-Human,HigherHRNet,56.5,0.0,null,[']}]</script'],1908.10357v3
+Pose Estimation,BRACE,HRNet fine-tuned on BRACE,0.357,1.0,null,[']'],1902.09212v1
+Pose Estimation,BRACE,HRNet pre-trained on COCO,0.158,0.0,null,[']}]</script'],1902.09212v1
+Pose Estimation,COCO minival,MSPN,75.9,1.0,null,[']}]</script'],1901.00148v4
+Pose Estimation,3DPW,HybridCap,94.6,1.0,null,[']}]</script'],2203.09287v2
+Pose Estimation,MPII,OmniPose (WASPv2),92.3,1.0,null,[']}]</script'],2103.10180v1
+Pose Estimation,ApolloCar3D,GSNet,20.21,1.0,null,[']}]</script'],2007.13124v1
+Pose Estimation,Pix3D,Mid-Level based,74.55,1.0,null,[']}]</script'],2203.01449v1
+Pose Estimation,KITTI 2015,GeoNet,89.19,1.0,null,[']}]</script'],1803.02276v2
+Pose Estimation,MERL-RAV,SPIGA,97.61,1.0,null,[']}]</script'],2210.07233v1
+Pose Estimation,MS-COCO,UniHCP (finetune),76.5,1.0,null,[']}]</script'],2303.02936v4
+Pose Estimation,COCO 2017 val,LOGO-CAP (Ours) HRNet-W48,72.2,1.0,null,[']'],null
+Pose Estimation,COCO 2017 val,LOGO-CAP (Ours) HRNet-W32,69.6,0.0,null,[']}]</script'],null

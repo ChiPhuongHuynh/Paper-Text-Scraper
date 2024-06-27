@@ -1,0 +1,856 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Object Detection,COCO test-dev,Co-DETR,66.0,1.0,null,['Large'],2211.12860v5
+Object Detection,COCO test-dev,InternImage-H,65.4,0.9871520342612421,null,[']'],2211.05778v4
+Object Detection,COCO test-dev,M3I Pre-training (InternImage-H),65.4,0.9871520342612421,null,[']'],2211.09807v2
+Object Detection,COCO test-dev,MoCaE,65.1,0.9807280513918628,null,[']'],2309.14976v4
+Object Detection,COCO test-dev,Co-DETR (Swin-L),64.8,0.9743040685224839,null,[']'],2211.12860v5
+Object Detection,COCO test-dev,Focal-Stable-DINO (without TTA),64.8,0.9743040685224839,null,"['FocalNet', 'DINO']",2304.13027v1
+Object Detection,COCO test-dev,EVA,64.7,0.9721627408993576,null,['ViT-Giant'],2211.07636v2
+Object Detection,COCO test-dev,Group DETR v2,64.5,0.9678800856531049,null,"['Group DETR', 'DINO', 'ViT-Huge']",2211.03594v1
+Object Detection,COCO test-dev,FocalNet-H (DINO),64.4,0.9657387580299787,null,"['DINO', 'FocalNet']",2203.11926v3
+Object Detection,COCO test-dev,InternImage-XL,64.3,0.9635974304068522,null,[']'],2211.05778v4
+Object Detection,COCO test-dev,FD-SwinV2-G,64.2,0.961456102783726,null,['Giant'],2205.14141v3
+Object Detection,COCO test-dev,RevCol-H(DINO),63.8,0.9528907922912205,null,[']'],2212.11696v3
+Object Detection,COCO test-dev,BEiT-3,63.7,0.9507494646680943,null,['Giant'],2208.10442v2
+Object Detection,COCO test-dev,DETA (Swin-L),63.5,0.9464668094218416,null,[']'],2212.06137v1
+Object Detection,COCO test-dev,"DINO (Swin-L,multi-scale, TTA)",63.3,0.9421841541755888,null,[']'],2203.03605v4
+Object Detection,COCO test-dev,SwinV2-G (HTC++),63.1,0.937901498929336,null,"['multiscale', 'Swin-Transformer']",2111.09883v2
+Object Detection,COCO test-dev,Grounding DINO,63.0,0.9357601713062098,null,[']'],2303.05499v4
+Object Detection,COCO test-dev,Florence-CoSwin-H,62.4,0.9229122055674517,null,['Swin-Transformer'],2111.11432v1
+Object Detection,COCO test-dev,"GLIPv2 (CoSwin-H, multi-scale)",62.4,0.9229122055674517,null,"['multiscale', 'BERT', 'Vision Language', 'CLIP']",2206.05836v2
+Object Detection,COCO test-dev,GLEE-Pro,62.3,0.9207708779443254,null,[']'],2312.09158v1
+Object Detection,COCO test-dev,"GLIP (Swin-L, multi-scale)",61.5,0.9036402569593148,null,"['multiscale', 'Vision Language', 'Dynamic Head', 'BERT-Base']",2112.03857v2
+Object Detection,COCO test-dev,"Soft Teacher + Swin-L (HTC++, multi-scale)",61.3,0.899357601713062,null,"['multiscale', 'Swin-Transformer']",2106.09018v3
+Object Detection,COCO test-dev,"ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)",60.9,0.8907922912205566,null,[']'],2205.08534v4
+Object Detection,COCO test-dev,"DyHead (Swin-L, multi scale, self-training)",60.6,0.8843683083511776,null,"['multiscale', 'Swin-Transformer']",2106.08322v1
+Object Detection,COCO test-dev,GLEE-Plus,60.6,0.8843683083511776,null,[']'],2312.09158v1
+Object Detection,COCO test-dev,"ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)",60.4,0.8800856531049249,null,[']'],2205.08534v4
+Object Detection,COCO test-dev,"GRiT (ViT-H, single-scale testing)",60.4,0.8800856531049249,null,[']'],2212.00280v1
+Object Detection,COCO test-dev,"CBNetV2 (Dual-Swin-L HTC, multi-scale)",60.1,0.873661670235546,null,['Swin-Transformer'],2107.00420v7
+Object Detection,COCO test-dev,"CBNetV2 (Dual-Swin-L HTC, single-scale)",59.4,0.8586723768736615,null,['Swin-Transformer'],2107.00420v7
+Object Detection,COCO test-dev,"Focal-L (DyHead, multi-scale)",58.9,0.8479657387580298,null,"['Focal-Transformer', 'multiscale']",2107.00641v1
+Object Detection,COCO test-dev,"DyHead (Swin-L, multi scale)",58.7,0.8436830835117773,null,"['Swin-Transformer', 'multiscale']",2106.08322v1
+Object Detection,COCO test-dev,"Swin-L (HTC++, multi scale)",58.7,0.8436830835117773,null,"['multiscale', 'Swin-Transformer']",2103.14030v2
+Object Detection,COCO test-dev,"Swin-L (HTC++, single scale)",57.7,0.822269807280514,null,[']'],2103.14030v2
+Object Detection,COCO test-dev,"Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",57.3,0.8137044967880085,null,['NAS-FPN'],2012.07177v2
+Object Detection,COCO test-dev,"PyCenterNet (Swin-L, multi-scale)",57.1,0.8094218415417558,null,"['End-to-End', 'Swin-Transformer', 'multiscale']",2204.08394v1
+Object Detection,COCO test-dev,dBOT ViT-L (CLIP),56.8,0.8029978586723768,null,[']'],2209.03917v3
+Object Detection,COCO test-dev,YOLOv7-D6 (44 fps),56.6,0.7987152034261241,null,['YOLO'],2207.02696v1
+Object Detection,COCO test-dev,"SOLQ (Swin-L, single scale)",56.5,0.7965738758029979,null,"['Swin-Transformer', 'single scale', 'Transformer']",2106.02351v3
+Object Detection,COCO test-dev,"CenterNet2 (Res2Net-101-DCN-BiFPN, self-training, 1560 single-scale)",56.4,0.7944325481798713,null,"['DCN', 'FPN']",2103.07461v1
+Object Detection,COCO test-dev,QueryInst (single-scale),56.1,0.7880085653104923,null,[']'],2105.01928v3
+Object Detection,COCO test-dev,dBOT ViT-L,56.1,0.7880085653104923,null,[']'],2209.03917v3
+Object Detection,COCO test-dev,YOLOv7-E6 (56 fps),56.0,0.7858672376873662,null,"['YOLO', 'single scale']",2207.02696v1
+Object Detection,COCO test-dev,YOLOv4-P7 with TTA,55.8,0.7815845824411134,null,"['YOLO', 'multiscale']",2011.08036v2
+Object Detection,COCO test-dev,"DetectoRS (ResNeXt-101-64x4d, multi-scale)",55.7,0.7794432548179873,null,"['multiscale', 'ResNeXt']",2006.02334v2
+Object Detection,COCO test-dev,"YOLOR-D6 (1280, single-scale, 30 fps)",55.4,0.773019271948608,null,"['YOLO', 'single scale']",2105.04206v1
+Object Detection,COCO test-dev,YOLOv4-P6 with TTA,54.9,0.7623126338329763,null,"['YOLO', 'multiscale']",2011.08036v2
+Object Detection,COCO test-dev,YOLOv7-W6 (84 fps),54.9,0.7623126338329763,null,"['YOLO', 'single scale']",2207.02696v1
+Object Detection,COCO test-dev,Cascade Eff-B7 NAS-FPN (1280),54.8,0.7601713062098501,null,"['NAS-FPN', 'single scale']",2012.07177v2
+Object Detection,COCO test-dev,"DetectoRS (ResNeXt-101-32x4d, multi-scale)",54.7,0.7580299785867238,null,"['multiscale', 'ResNeXt']",2006.02334v2
+Object Detection,COCO test-dev,GLEE-Lite,54.7,0.7580299785867238,null,[']'],2312.09158v1
+Object Detection,COCO test-dev,"YOLOv4-P6 CSP-P6 (single-scale, 32 fps)",54.3,0.7494646680942184,null,"['YOLO', 'single scale']",2011.08036v2
+Object Detection,COCO test-dev,"SpineNet-190 (1280, with Self-training on OpenImages, single-scale)",54.3,0.7494646680942184,null,['single scale'],2006.06882v2
+Object Detection,COCO test-dev,"UniverseNet-20.08d (Res2Net-101, DCN, multi-scale)",54.1,0.7451820128479656,null,"['DCN', 'multiscale']",2103.14027v3
+Object Detection,COCO test-dev,"DyHead (ResNeXt-64x4d-101-DCN, multi scale)",54.0,0.7430406852248395,null,[']'],2106.08322v1
+Object Detection,COCO test-dev,dBOT ViT-B (CLIP),53.6,0.7344753747323339,null,[']'],2209.03917v3
+Object Detection,COCO test-dev,"PAA (ResNext-152-32x8d + DCN, multi-scale)",53.5,0.7323340471092077,null,"['DCN', 'multiscale', 'ResNeXt']",2007.08103v2
+Object Detection,COCO test-dev,"LSNet (Res2Net-101+ DCN, multi-scale)",53.5,0.7323340471092077,null,"['DCN', 'multiscale']",2104.04899v1
+Object Detection,COCO test-dev,dBOT ViT-B,53.5,0.7323340471092077,null,[']'],2209.03917v3
+Object Detection,COCO test-dev,ResNeSt-200 (multi-scale),53.3,0.728051391862955,null,['multiscale'],2004.08955v2
+Object Detection,COCO test-dev,"Cascade Mask R-CNN (Triple-ResNeXt152, multi-scale)",53.3,0.728051391862955,null,['multiscale'],1909.03625v1
+Object Detection,COCO test-dev,"DetectoRS (ResNeXt-101-32x4d, single-scale)",53.3,0.728051391862955,null,"['single scale', 'ResNeXt']",2006.02334v2
+Object Detection,COCO test-dev,"GFLV2 (Res2Net-101, DCN, multiscale)",53.3,0.728051391862955,null,"['DCN', 'multiscale']",2011.12885v1
+Object Detection,COCO test-dev,YOLOv7-X (114 fps),53.1,0.7237687366167023,null,"['YOLO', 'single scale']",2207.02696v1
+Object Detection,COCO test-dev,RelationNet++ (ResNeXt-64x4d-101-DCN),52.7,0.7152034261241971,null,"['DCN', 'ResNeXt']",2010.15831v1
+Object Detection,COCO test-dev,EfficientDet-D7 (1536),52.6,0.7130620985010706,null,[']'],1911.09070v7
+Object Detection,COCO test-dev,YOLOv4-P5 with TTA,52.5,0.7109207708779444,null,"['YOLO', 'multiscale']",2011.08036v2
+Object Detection,COCO test-dev,Deformable DETR (ResNeXt-101+DCN),52.3,0.7066381156316917,null,"['DCN', 'ResNeXt']",2010.04159v4
+Object Detection,COCO test-dev,GCNet (ResNeXt-101 + DCN + cascade + GC r4),52.3,0.7066381156316917,null,"['GCN', 'DCN', 'ResNeXt']",2012.13375v1
+Object Detection,COCO test-dev,"PP-YOLOE-x(CSPRepResNet-x, 640x640, single-scale )",52.2,0.7044967880085654,null,"['single scale', 'YOLO', 'CSPRepResNet', 'TAL', 'ET-head']",2203.16250v3
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-190, 1280x1280)",52.1,0.7023554603854388,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,"RepPoints v2 (ResNeXt-101, DCN, multi-scale)",52.1,0.7023554603854388,null,"['DCN', 'multiscale', 'ResNeXt']",2007.08508v1
+Object Detection,COCO test-dev,"AC-FPN Cascade R-CNN (X-152-32x8d-FPN-IN5k, multi scale, only CEM)",51.9,0.6980728051391861,null,"['FPN', 'ResNeXt', 'multiscale']",2005.11475v1
+Object Detection,COCO test-dev,"OTA (ResNeXt-101+DCN, multiscale)",51.5,0.6895074946466809,null,[']'],2103.14259v1
+Object Detection,COCO test-dev,"YOLOX-x(Modified CSP v5, 640x640, single-scale)",51.5,0.6895074946466809,null,['YOLO'],2107.08430v2
+Object Detection,COCO test-dev,"PP-YOLOE-l(CSPRepResNet-l, 640x640, single-scale )",51.4,0.6873661670235545,null,"['single scale', 'ET-head', 'TAL', 'CSPRepResNet']",2203.16250v3
+Object Detection,COCO test-dev,YOLOv7 (161 fps),51.4,0.6873661670235545,null,"['single scale', 'YOLO']",2207.02696v1
+Object Detection,COCO test-dev,"UniverseNet-20.08d (Res2Net-101, DCN, single-scale)",51.3,0.6852248394004281,null,"['DCN', 'single scale']",2103.14027v3
+Object Detection,COCO test-dev,"TSD(SENet154-DCN,multi-scale)",51.2,0.683083511777302,null,"['DCN', 'multiscale']",2003.07540v1
+Object Detection,COCO test-dev,YOLOX-X (Modified CSP v5),51.2,0.683083511777302,null,['YOLO'],2107.08430v2
+Object Detection,COCO test-dev,iBOT (ViT-B/16),51.2,0.683083511777302,null,[']'],2111.07832v3
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-143, 1280x1280)",50.7,0.6723768736616702,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,"ATSS (ResNetXt-64x4d-101+DCN,multi-scale)",50.7,0.6723768736616702,null,"['ResNeXt', 'multiscale', 'DCN']",1912.02424v4
+Object Detection,COCO test-dev,"NAS-FPN (AmoebaNet-D, learned aug)",50.7,0.6723768736616702,null,['FPN'],1906.11172v1
+Object Detection,COCO test-dev,Boosting R-CNN*,50.7,0.6723768736616702,null,[']'],2206.13728v3
+Object Detection,COCO test-dev,"GFLV2 (Res2Net-101, DCN)",50.6,0.6702355460385439,null,['DCN'],2011.12885v1
+Object Detection,COCO test-dev,"aLRP Loss (ResNext-101-64x4d, DCN, multiscale test)",50.2,0.6616702355460385,null,"['DCN', 'multiscale', 'ResNeXt']",2009.13592v4
+Object Detection,COCO test-dev,"FreeAnchor + SEPC (DCN, ResNext-101-64x4d)",50.1,0.6595289079229122,null,"['DCN', 'ResNeXt']",2005.03101v1
+Object Detection,COCO test-dev,"D2Det (ResNet-101-DCN, multi-scale test)",50.1,0.6595289079229122,null,[']'],null
+Object Detection,COCO test-dev,"Dynamic R-CNN (ResNet-101-DCN, multi-scale)",50.1,0.6595289079229122,null,[']'],2004.06002v2
+Object Detection,COCO test-dev,"TSD(ResNet-101-Deformable, Image Pyramid)",49.4,0.6445396145610277,null,[']'],2003.07540v1
+Object Detection,COCO test-dev,"RepPoints v2 (ResNeXt-101, DCN)",49.4,0.6445396145610277,null,"['DCN', 'ResNeXt']",2007.08508v1
+Object Detection,COCO test-dev,A2MIM (ViT-B),49.4,0.6445396145610277,null,[']'],2205.13943v4
+Object Detection,COCO test-dev,iBOT (ViT-S/16),49.4,0.6445396145610277,null,[']'],2111.07832v3
+Object Detection,COCO test-dev,"CPNDet (Hourglass-104, multi-scale)",49.2,0.6402569593147752,null,['multiscale'],2007.13816v1
+Object Detection,COCO test-dev,"GFLV2 (ResNeXt-101, 32x4d, DCN)",49.0,0.6359743040685224,null,"['DCN', 'ResNeXt']",2011.12885v1
+Object Detection,COCO test-dev,"aLRP Loss (ResNext-101-64x4d, DCN, single scale)",48.9,0.633832976445396,null,"['DCN', 'single scale', 'ResNeXt']",2009.13592v4
+Object Detection,COCO test-dev,"PP-YOLOE-m(CSPRepResNet-m, 640x640, single-scale )",48.9,0.633832976445396,null,"['single scale', 'ET-head', 'TAL', 'CSPRepResNet']",2203.16250v3
+Object Detection,COCO test-dev,"UniverseNet-20.08 (Res2Net-50, DCN, single-scale)",48.8,0.6316916488222697,null,"['DCN', 'single scale']",2103.14027v3
+Object Detection,COCO test-dev,"SOLQ (ResNet101, single scale)",48.7,0.6295503211991434,null,"['single scale', 'Transformer']",2106.02351v3
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-96, 1024x1024)",48.6,0.6274089935760171,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,"TridentNet (ResNet-101-Deformable, Image Pyramid)",48.4,0.6231263383297644,null,[']'],1901.01892v2
+Object Detection,COCO test-dev,GCNet (ResNeXt-101 + DCN + cascade + GC r4),48.4,0.6231263383297644,null,"['GCN', 'DCN', 'ResNeXt']",1904.11492v1
+Object Detection,COCO test-dev,GFLV2 (ResNet-101-DCN),48.3,0.620985010706638,null,['DCN'],2011.12885v1
+Object Detection,COCO test-dev,"GFL (X-101-32x4d-DCN, single-scale)",48.2,0.6188436830835118,null,"['DCN', 'ResNeXt', 'single scale']",2006.04388v1
+Object Detection,COCO test-dev,"ISTR (ResNet101-FPN-3x, single-scale)",48.1,0.6167023554603854,null,[']'],2105.00637v2
+Object Detection,COCO test-dev,"YOLOX-Darknet53(Darknet53, 640x640, single-scale)",48.0,0.6145610278372591,null,['YOLO'],2107.08430v2
+Object Detection,COCO test-dev,DAT-S (RetinaNet),47.9,0.6124197002141327,null,[']'],2201.00520v3
+Object Detection,COCO test-dev,"aLRP Loss (ResNext-101-64x4d, single scale)",47.8,0.6102783725910063,null,"['single scale', 'ResNeXt']",2009.13592v4
+Object Detection,COCO test-dev,"MatrixNet Corners (ResNet-152, multi-scale)",47.8,0.6102783725910063,null,[']'],1908.04646v2
+Object Detection,COCO test-dev,"SOLQ (ResNet50, single scale)",47.8,0.6102783725910063,null,"['single scale', 'Transformer']",2106.02351v3
+Object Detection,COCO test-dev,DyHead (ResNeXt-64x4d-101),47.7,0.6081370449678801,null,[']'],2106.08322v1
+Object Detection,COCO test-dev,"SAPD (ResNeXt-101, single-scale)",47.4,0.601713062098501,null,"['single scale', 'ResNeXt']",1911.12448v2
+Object Detection,COCO test-dev,"PANet (ResNeXt-101, multi-scale)",47.4,0.601713062098501,null,"['multiscale', 'ResNeXt']",1803.01534v4
+Object Detection,COCO test-dev,HTC (HRNetV2p-W48),47.3,0.5995717344753746,null,[']'],1908.07919v2
+Object Detection,COCO test-dev,HTC (ResNeXt-101-FPN),47.1,0.595289079229122,null,"['FPN', 'ResNeXt']",1901.07518v2
+Object Detection,COCO test-dev,"CenterNet511 (Hourglass-104, multi-scale)",47.0,0.5931477516059956,null,['multiscale'],1904.08189v3
+Object Detection,COCO test-dev,"MAL (ResNeXt101, multi-scale)",47.0,0.5931477516059956,null,"['multiscale', 'ResNeXt']",1912.02252v1
+Object Detection,COCO test-dev,ISTR (ResNet50-FPN-3x),46.8,0.5888650963597429,null,[']'],2105.00637v2
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-49, 896x896)",46.7,0.5867237687366167,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,"RPDet (ResNet-101-DCN, multi-scale)",46.5,0.582441113490364,null,[']'],1904.11490v2
+Object Detection,COCO test-dev,HoughNet (MS),46.4,0.5802997858672376,null,['multiscale'],2007.02355v3
+Object Detection,COCO test-dev,"PPDet (ResNeXt-101-FPN, multiscale)",46.3,0.5781584582441113,null,"['FPN', 'multiscale', 'ResNeXt']",2008.01167v2
+Object Detection,COCO test-dev,GFLV2 (ResNet-101),46.2,0.576017130620985,null,[']'],2011.12885v1
+Object Detection,COCO test-dev,SNIPER (ResNet-101),46.1,0.5738758029978587,null,[']'],1805.09300v3
+Object Detection,COCO test-dev,Mask R-CNN (HRNetV2p-W48 + cascade),46.1,0.5738758029978587,null,[']'],1908.07919v2
+Object Detection,COCO test-dev,ResNeXt-64x4d-101 NAS-FCOS @128-256 w/improvements,46.1,0.5738758029978587,null,[']'],1906.04423v4
+Object Detection,COCO test-dev,"DCNv2 (ResNet-101, multi-scale)",46.0,0.5717344753747323,null,[']'],1811.11168v2
+Object Detection,COCO test-dev,Gaussian-FCOS,46.0,0.5717344753747323,null,[']'],2006.15607v6
+Object Detection,COCO test-dev,"Cascade R-CNN-FPN (ResNet-101, map-guided)",45.9,0.569593147751606,null,[']'],1908.07801v1
+Object Detection,COCO test-dev,"MAL (ResNeXt101, single-scale)",45.9,0.569593147751606,null,"['single scale', 'ResNeXt']",1912.02252v1
+Object Detection,COCO test-dev,CenterMask+VoVNetV2-99 (single-scale),45.8,0.5674518201284795,null,['single scale'],1911.06667v6
+Object Detection,COCO test-dev,"D-RFCN + SNIP (DPN-98 with flip, multi-scale)",45.7,0.5653104925053534,null,['multiscale'],1711.08189v2
+Object Detection,COCO test-dev,YOLOv4 (CD53),45.5,0.5610278372591005,null,"['single scale', 'YOLO']",2011.08036v2
+Object Detection,COCO test-dev,PP-YOLO (608x608),45.2,0.5546038543897216,null,[']'],2007.12099v3
+Object Detection,COCO test-dev,"AC-FPN Cascade R-CNN(ResNet-101, single scale)",45.0,0.5503211991434689,null,[']'],2005.11475v1
+Object Detection,COCO test-dev,FreeAnchor (ResNeXt-101),44.8,0.5460385438972162,null,['ResNeXt'],1909.02466v2
+Object Detection,COCO test-dev,FCOS (ResNeXt-64x4d-101-FPN 4 + improvements),44.7,0.5438972162740899,null,"['FPN', 'ResNeXt']",1904.01355v5
+Object Detection,COCO test-dev,CenterMask+VoVNet2-57 (single-scale),44.7,0.5438972162740899,null,['single scale'],1911.06667v6
+Object Detection,COCO test-dev,"FSAF (ResNeXt-101, multi-scale)",44.6,0.5417558886509636,null,"['multiscale', 'ResNeXt']",1903.00621v1
+Object Detection,COCO test-dev,"aLRP Loss (ResNext-101, DCN, 500 scale)",44.6,0.5417558886509636,null,"['DCN', 'ResNeXt']",2009.13592v4
+Object Detection,COCO test-dev,CenterMask + X-101-32x8d (single-scale),44.6,0.5417558886509636,null,['single scale'],1911.06667v6
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-49, 640x640)",44.3,0.5353319057815845,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,YOLOF-DC5,44.3,0.5353319057815845,null,[']'],2103.09460v1
+Object Detection,COCO test-dev,GFLV2 (ResNet-50),44.3,0.5353319057815845,null,[']'],2011.12885v1
+Object Detection,COCO test-dev,"InterNet (ResNet-101-FPN, multi-scale)",44.2,0.5331905781584583,null,[']'],1903.11851v1
+Object Detection,COCO test-dev,"M2Det (VGG-16, multi-scale)",44.2,0.5331905781584583,null,['multiscale'],1811.04533v3
+Object Detection,COCO test-dev,Faster R-CNN (LIP-ResNet-101-MD w FPN),43.9,0.5267665952890791,null,['FPN'],1908.04156v3
+Object Detection,COCO test-dev,"M2Det (ResNet-101, multi-scale)",43.9,0.5267665952890791,null,[']'],1811.04533v3
+Object Detection,COCO test-dev,YOLOv3 @800 + ASFF* (Darknet-53),43.9,0.5267665952890791,null,['YOLO'],1911.09516v2
+Object Detection,COCO test-dev,FoveaBox (ResNeXt-101),43.9,0.5267665952890791,null,['ResNeXt'],1904.03797v2
+Object Detection,COCO test-dev,"ExtremeNet (Hourglass-104, multi-scale)",43.7,0.5224839400428266,null,['multiscale'],1901.08043v3
+Object Detection,COCO test-dev,YOLOv4-608,43.5,0.5182012847965738,null,['single scale'],2004.10934v1
+Object Detection,COCO test-dev,SNIPER (ResNet-50),43.5,0.5182012847965738,null,[']'],1805.09300v3
+Object Detection,COCO test-dev,CenterNet (HRNetV2-W48),43.5,0.5182012847965738,null,[']'],1908.07919v2
+Object Detection,COCO test-dev,"D-RFCN + SNIP (ResNet-101, multi-scale)",43.4,0.5160599571734474,null,[']'],1711.08189v2
+Object Detection,COCO test-dev,Grid R-CNN (ResNeXt-101-FPN),43.2,0.5117773019271948,null,"['FPN', 'ResNeXt']",1811.12030v1
+Object Detection,COCO test-dev,FCOS (ResNeXt-101-64x4d-FPN),43.2,0.5117773019271948,null,"['FPN', 'ResNeXt']",1904.01355v5
+Object Detection,COCO test-dev,"CornerNet-Saccade (Hourglass-104, multi-scale)",43.2,0.5117773019271948,null,['multiscale'],1904.08900v2
+Object Detection,COCO test-dev,"PP-YOLOE-s(CSPRepResNet-s, 640x640, single-scale )",43.1,0.5096359743040685,null,"['single scale', 'ET-head', 'TAL', 'CSPRepResNet']",2203.16250v3
+Object Detection,COCO test-dev,Libra R-CNN (ResNeXt-101-FPN),43.0,0.5074946466809421,null,"['FPN', 'ResNeXt']",1904.02701v1
+Object Detection,COCO test-dev,DyHead (ResNet-50),43.0,0.5074946466809421,null,[']'],2106.08322v1
+Object Detection,COCO test-dev,RPDet (ResNet-101-DCN),42.8,0.5032119914346894,null,[']'],1904.11490v2
+Object Detection,COCO test-dev,"SpineNet-49 (640, RetinaNet, single-scale)",42.8,0.5032119914346894,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,"Cascade R-CNN (ResNet-101-FPN+, cascade)",42.8,0.5032119914346894,null,[']'],1712.00726v1
+Object Detection,COCO test-dev,Cascade R-CNN,42.8,0.5032119914346894,null,[']'],1906.09756v1
+Object Detection,COCO test-dev,TridentNet (ResNet-101),42.7,0.5010706638115632,null,[']'],1901.01892v2
+Object Detection,COCO test-dev,FCOS (ResNeXt-32x8d-101-FPN),42.7,0.5010706638115632,null,"['FPN', 'ResNeXt']",1904.01355v5
+Object Detection,COCO test-dev,RetinaMask (ResNeXt-101-FPN-GN),42.6,0.4989293361884368,null,"['FPN', 'ResNeXt']",1901.03353v1
+Object Detection,COCO test-dev,TAL + TAP,42.5,0.49678800856531047,null,[']'],2108.07755v3
+Object Detection,COCO test-dev,Faster R-CNN (HRNetV2p-W48),42.4,0.49464668094218406,null,[']'],1908.07919v2
+Object Detection,COCO test-dev,"HSD (Rest101, 768x768, single-scale test)",42.3,0.4925053533190577,null,['single scale'],null
+Object Detection,COCO test-dev,"CornerNet511 (Hourglass-104, multi-scale)",42.1,0.4882226980728051,null,['multiscale'],1808.01244v2
+Object Detection,COCO test-dev,FoveaBox (ResNeXt-101),42.1,0.4882226980728051,null,['ResNeXt'],1904.03797v2
+Object Detection,COCO test-dev,FCOS (HRNet-W32-5l),42.0,0.48608137044967875,null,[']'],1904.01355v5
+Object Detection,COCO test-dev,RefineDet512+ (ResNet-101),41.8,0.48179871520342604,null,[']'],1711.06897v3
+Object Detection,COCO test-dev,GHM-C + GHM-R (RetinaNet-FPN-ResNeXt-101),41.6,0.47751605995717344,null,['FPN'],1811.05181v1
+Object Detection,COCO test-dev,"CenterNet-DLA (DLA-34, multi-scale)",41.6,0.47751605995717344,null,['multiscale'],1904.07850v2
+Object Detection,COCO test-dev,"RetinaNet (SpineNet-49S, 640x640)",41.5,0.4753747323340471,null,[']'],1912.05027v3
+Object Detection,COCO test-dev,RPDet (ResNet-101),41.0,0.4646680942184154,null,[']'],1904.11490v2
+Object Detection,COCO test-dev,"M2Det (VGG-16, single-scale)",41.0,0.4646680942184154,null,['single scale'],1811.04533v3
+Object Detection,COCO test-dev,LeYOLO-Large,41.0,0.4646680942184154,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,"FSAF (ResNet-101, single-scale)",40.9,0.462526766595289,null,[']'],1903.00621v1
+Object Detection,COCO test-dev,RetinaNet (ResNeXt-101-FPN),40.8,0.46038543897216266,null,"['FPN', 'ResNeXt']",1708.02002v2
+Object Detection,COCO test-dev,"Cascade R-CNN (ResNet-50-FPN+, cascade)",40.6,0.45610278372591007,null,[']'],1712.00726v1
+Object Detection,COCO test-dev,Faster R-CNN (Cascade RPN),40.6,0.45610278372591007,null,[']'],1909.06720v2
+Object Detection,COCO test-dev,ResNet-50-DW-DPN (Deformable Kernels),40.6,0.45610278372591007,null,[']'],1910.02940v2
+Object Detection,COCO test-dev,IoU-Net,40.6,0.45610278372591007,null,[']'],1807.11590v1
+Object Detection,COCO test-dev,FCOS (HRNetV2p-W48),40.5,0.45396145610278366,null,[']'],1908.07919v2
+Object Detection,COCO test-dev,ResNet-50-FPN Mask R-CNN + KL Loss + var voting + soft-NMS,40.4,0.4518201284796573,null,[']'],1809.08545v3
+Object Detection,COCO test-dev,"RDSNet (ResNet-101, RetinaNet, mask, MBRM)",40.3,0.44967880085653095,null,['ResNet'],1912.05070v1
+Object Detection,COCO test-dev,"ExtremeNet (Hourglass-104, single-scale)",40.2,0.4475374732334047,null,[']'],1901.08043v3
+Object Detection,COCO test-dev,"Mask R-CNN (ResNet-101-FPN, CBN)",40.1,0.44539614561027835,null,"['FPN', 'ResNet']",2002.05712v3
+Object Detection,COCO test-dev,Fast R-CNN (Cascade RPN),40.1,0.44539614561027835,null,[']'],1909.06720v2
+Object Detection,COCO test-dev,Mask R-CNN (ResNeXt-101-FPN),39.8,0.43897216274089923,null,"['FPN', 'ResNeXt']",1703.06870v3
+Object Detection,COCO test-dev,GA-Faster-RCNN,39.8,0.43897216274089923,null,[']'],1901.03278v2
+Object Detection,COCO test-dev,ResNet-50 NAS-FCOS @256,39.8,0.43897216274089923,null,[']'],1906.04423v4
+Object Detection,COCO test-dev,A2MIM (ResNet-50 2x),39.8,0.43897216274089923,null,[']'],2205.13943v4
+Object Detection,COCO test-dev,FPN (ResNet101 backbone),39.5,0.4325481798715203,null,['FPN'],1708.08169v1
+Object Detection,COCO test-dev,RetinaMask (ResNet-50-FPN),39.4,0.4304068522483939,null,['FPN'],1901.03353v1
+Object Detection,COCO test-dev,PP-YOLO (320x320),39.3,0.42826552462526757,null,[']'],2007.12099v3
+Object Detection,COCO test-dev,LeYOLO-Medium,39.3,0.42826552462526757,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,AA-ResNet-10 + RetinaNet,39.2,0.4261241970021413,null,[']'],1904.09925v5
+Object Detection,COCO test-dev,"MAL (ResNet50, single-scale)",39.2,0.4261241970021413,null,"['ResNet', 'single scale']",1912.02252v1
+Object Detection,COCO test-dev,RetinaNet (ResNet-101-FPN),39.1,0.42398286937901497,null,['FPN'],1708.02002v2
+Object Detection,COCO test-dev,Cascade R-CNN (ResNet-101-FPN+),38.8,0.41755888650963585,null,['FPN'],1712.00726v1
+Object Detection,COCO test-dev,"M2Det (ResNet-101, single-scale)",38.8,0.41755888650963585,null,[']'],1811.04533v3
+Object Detection,COCO test-dev,SaccadeNet (DLA-34-DCN),38.5,0.4111349036402569,null,['DCN'],2003.12125v1
+Object Detection,COCO test-dev,Mask R-CNN (ResNet-101-FPN),38.2,0.40471092077087795,null,"['FPN', 'ResNet']",1703.06870v3
+Object Detection,COCO test-dev,LeYOLO-Small,38.2,0.40471092077087795,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,WSMA-Seg,38.1,0.4025695931477516,null,[']'],1904.13300v3
+Object Detection,COCO test-dev,Faster R-CNN + FPN + CGD,37.9,0.3982869379014989,null,['FPN'],1907.09665v10
+Object Detection,COCO test-dev,"CornerNet511 (Hourglass-52, single-scale)",37.8,0.3961456102783725,null,[']'],1808.01244v2
+Object Detection,COCO test-dev,RefineDet512+ (VGG-16),37.6,0.39186295503211993,null,[']'],1711.06897v3
+Object Detection,COCO test-dev,DeformConv-R-FCN (Aligned-Inception-ResNet),37.5,0.3897216274089935,null,[']'],1703.06211v3
+Object Detection,COCO test-dev,Faster R-CNN (ImageNet+300M),37.4,0.38758029978586717,null,[']'],1707.02968v2
+Object Detection,COCO test-dev,"Mask R-CNN (Bottleneck-injected ResNet-50, FPN)",36.9,0.3768736616702355,null,"['FPN', 'ResNet']",2011.12913v2
+Object Detection,COCO test-dev,Faster R-CNN + TDM,36.8,0.3747323340471091,null,[']'],1612.06851v2
+Object Detection,COCO test-dev,Cascade R-CNN (ResNet-50-FPN+),36.5,0.36830835117773014,null,['FPN'],1712.00726v1
+Object Detection,COCO test-dev,RefineDet512 (ResNet-101),36.4,0.3661670235546038,null,[']'],1711.06897v3
+Object Detection,COCO test-dev,LeYOLO-Medium@480,36.4,0.3661670235546038,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,Faster R-CNN + FPN,36.2,0.3618843683083512,null,['FPN'],1612.03144v2
+Object Detection,COCO test-dev,Faster R-CNN (Bottleneck-injected ResNet-50 and FPN),35.9,0.35546038543897207,null,"['FPN', 'ResNet']",2011.12913v2
+Object Detection,COCO test-dev,LeYOLO-Small@480,35.2,0.3404710920770878,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,"Faster R-CNN (box refinement, context, multi-scale testing)",34.9,0.3340471092077087,null,['multiscale'],1512.03385v1
+Object Detection,COCO test-dev,MobileNetV2 NAS-FCOS @256,34.7,0.32976445396145615,null,[']'],1906.04423v4
+Object Detection,COCO test-dev,Faster R-CNN,34.7,0.32976445396145615,null,[']'],1611.10012v3
+Object Detection,COCO test-dev,CornerNet-Squeeze,34.4,0.32334047109207703,null,[']'],1904.08900v2
+Object Detection,COCO test-dev,MultiPath Network,33.2,0.29764453961456105,null,[']'],1604.02135v2
+Object Detection,COCO test-dev,ION,33.1,0.2955032119914347,null,[']'],1512.04143v1
+Object Detection,COCO test-dev,RefineDet512 (VGG-16),33.0,0.29336188436830835,null,[']'],1711.06897v3
+Object Detection,COCO test-dev,YOLOv3 + Darknet-53,33.0,0.29336188436830835,null,['YOLO'],1804.02767v1
+Object Detection,COCO test-dev,"YOLOX-Tiny(416x416, single-scale)",32.8,0.2890792291220556,null,['YOLO'],2107.08430v2
+Object Detection,COCO test-dev,LeYOLO-Nano@480,31.3,0.2569593147751606,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,LeYOLO-Small@320,29.0,0.20770877944325478,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,SSD512,28.8,0.20342612419700212,null,[']'],1512.02325v5
+Object Detection,COCO test-dev,EdgeNeXt,27.9,0.18415417558886504,null,"['CNN', 'Transformer']",2206.10589v3
+Object Detection,COCO test-dev,MnasFPN (MobileNetV2),26.1,0.14561027837259102,null,['FPN'],1912.01106v2
+Object Detection,COCO test-dev,ESPNetv2-512,26.0,0.14346895074946464,null,[']'],1811.11431v3
+Object Detection,COCO test-dev,"YOLOX-Nano(416x416, single-scale)",25.8,0.139186295503212,null,[']'],2107.08430v2
+Object Detection,COCO test-dev,MnasFPN (MobileNetV3),25.5,0.13276231263383295,null,['FPN'],1912.01106v2
+Object Detection,COCO test-dev,LeYOLO-Nano@320,25.2,0.12633832976445392,null,[']'],2406.14239v1
+Object Detection,COCO test-dev,MnasFPN (MNASNet-B1),24.6,0.11349036402569594,null,['FPN'],1912.01106v2
+Object Detection,COCO test-dev,MnasFPN x0.7 (MobileNetV2),23.8,0.09635974304068522,null,['FPN'],1912.01106v2
+Object Detection,COCO test-dev,MobielNet-v1-SSD-300x300+CGD,21.4,0.044967880085653056,null,[']'],1907.09665v10
+Object Detection,COCO test-dev,Fast-RCNN,19.7,0.008565310492505323,null,[']'],1504.08083v2
+Object Detection,COCO test-dev,MobileNet,19.3,0.0,null,[']'],1704.04861v1
+Object Detection,COCO minival,Co-DETR,65.9,1.0,null,['Large'],2211.12860v5
+Object Detection,COCO minival,M3I Pre-training (InternImage-H),65.0,0.9724770642201833,null,[']'],2211.09807v2
+Object Detection,COCO minival,InternImage-H,65.0,0.9724770642201833,null,[']'],2211.05778v4
+Object Detection,COCO minival,Co-DETR (Swin-L),64.7,0.9633027522935779,null,[']'],2211.12860v5
+Object Detection,COCO minival,Focal-Stable-DINO (without TTA),64.6,0.9602446483180425,null,[']'],2304.13027v1
+Object Detection,COCO minival,EVA,64.5,0.9571865443425075,null,"['ViT-Giant', 'ViT']",2211.07636v2
+Object Detection,COCO minival,ViT-CoMer,64.3,0.951070336391437,null,['ViT-L'],2403.07392
+Object Detection,COCO minival,FocalNet-H (DINO),64.2,0.948012232415902,null,"['DINO', 'FocalNet']",2203.11926v3
+Object Detection,COCO minival,InternImage-XL,64.2,0.948012232415902,null,[']'],2211.05778v4
+Object Detection,COCO minival,RevCol-H(DINO),63.8,0.9357798165137612,null,[']'],2212.11696v3
+Object Detection,COCO minival,DINO(Swin-L),63.2,0.9174311926605504,null,[']'],2203.03605v4
+Object Detection,COCO minival,Grounding DINO,63.0,0.9113149847094799,null,[']'],2303.05499v4
+Object Detection,COCO minival,SwinV2-G (HTC++),62.5,0.8960244648318041,null,[']'],2111.09883v2
+Object Detection,COCO minival,Florence-CoSwin-H,62.0,0.8807339449541283,null,[']'],2111.11432v1
+Object Detection,COCO minival,GLEE-Pro,62.0,0.8807339449541283,null,[']'],2312.09158v1
+Object Detection,COCO minival,"ViTDet, ViT-H Cascade (multiscale)",61.3,0.859327217125382,null,['ViT'],2203.16527v2
+Object Detection,COCO minival,"GLIP (Swin-L, multi-scale)",60.8,0.8440366972477061,null,"['multiscale', 'Vision Language', 'Dynamic Head', 'BERT-Base']",2112.03857v2
+Object Detection,COCO minival,"Soft Teacher + Swin-L (HTC++, multi-scale)",60.7,0.8409785932721712,null,"['multiscale', 'Swin-Transformer']",2106.09018v3
+Object Detection,COCO minival,UNINEXT-H,60.6,0.837920489296636,null,[']'],2303.06674v2
+Object Detection,COCO minival,"ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)",60.5,0.8348623853211008,null,['ViT'],2205.08534v4
+Object Detection,COCO minival,"ViTDet, ViT-H Cascade",60.4,0.8318042813455655,null,['ViT'],2203.16527v2
+Object Detection,COCO minival,GLEE-Plus,60.4,0.8318042813455655,null,[']'],2312.09158v1
+Object Detection,COCO minival,"DyHead (Swin-L, multi scale, self-training)",60.3,0.8287461773700303,null,"['Swin-Transformer', 'multiscale']",2106.08322v1
+Object Detection,COCO minival,"ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)",60.2,0.8256880733944953,null,['ViT'],2205.08534v4
+Object Detection,COCO minival,"Soft Teacher+Swin-L(HTC++, single scale)",60.1,0.8226299694189602,null,"['swin-transformer', 'single scale']",2106.09018v3
+Object Detection,COCO minival,"CBNetV2 (Dual-Swin-L HTC, multi-scale)",59.6,0.8073394495412843,null,[']'],2107.00420v7
+Object Detection,COCO minival,"Frozen Backbone, SwinV2-G-ext22K (HTC)",59.3,0.7981651376146787,null,[']'],2211.02043v1
+Object Detection,COCO minival,HorNet-L,59.2,0.7951070336391437,null,[']'],2207.14284v3
+Object Detection,COCO minival,"MOAT-3 (IN-22K pretraining, single-scale)",59.2,0.7951070336391437,null,[']'],2210.01820v2
+Object Detection,COCO minival,"CBNetV2 (Dual-Swin-L HTC, single-scale)",59.1,0.7920489296636084,null,[']'],2107.00420v7
+Object Detection,COCO minival,"Focal-L (DyHead, multi-scale)",58.7,0.7798165137614678,null,"['Focal-Transformer', 'multiscale']",2107.00641v1
+Object Detection,COCO minival,"MViTv2-L (Cascade Mask R-CNN, multi-scale, IN21k pre-train)",58.7,0.7798165137614678,null,[']'],2112.01526v2
+Object Detection,COCO minival,"MOAT-2 (IN-22K pretraining, single-scale)",58.5,0.7737003058103974,null,[']'],2210.01820v2
+Object Detection,COCO minival,"DyHead (Swin-L, multi scale)",58.4,0.7706422018348622,null,"['Swin-Transformer', 'multiscale']",2106.08322v1
+Object Detection,COCO minival,"Swin-L (HTC++, multi scale)",58.0,0.7584097859327216,null,"['Swin-Transformer', 'multiscale']",2103.14030v2
+Object Detection,COCO minival,"MOAT-1 (IN-1K pretraining, single-scale)",57.7,0.7492354740061161,null,[']'],2210.01820v2
+Object Detection,COCO minival,"UM-MAE(HTC++, Swin-L, IN1K)",57.4,0.7400611620795106,null,"['Self-Supervised Learning', 'Swin-Transformer', 'single scale']",2205.10063v1
+Object Detection,COCO minival,"YOLOv6-L6(46 fps, 1280, V100)",57.2,0.7339449541284403,null,['YOLO'],2301.05586v1
+Object Detection,COCO minival,"Swin-L (HTC++, single scale)",57.1,0.7308868501529051,null,[']'],2103.14030v2
+Object Detection,COCO minival,"TransNeXt-Base (IN-1K pretrain, DINO 1x)",57.1,0.7308868501529051,null,[']'],2311.17132v3
+Object Detection,COCO minival,"Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",57.0,0.7278287461773699,null,"['EfficientNet', 'single scale', 'NAS-FPN']",2012.07177v2
+Object Detection,COCO minival,"TransNeXt-Small (IN-1K pretrain, DINO 1x)",56.6,0.7155963302752293,null,[']'],2311.17132v3
+Object Detection,COCO minival,QueryInst (single scale),56.1,0.7003058103975535,null,['single scale'],2105.01928v3
+Object Detection,COCO minival,"MViTv2-H (Cascade Mask R-CNN, single-scale, IN21k pre-train)",56.1,0.7003058103975535,null,[']'],2112.01526v2
+Object Detection,COCO minival,"MOAT-0 (IN-1K pretraining, single-scale)",55.9,0.694189602446483,null,[']'],2210.01820v2
+Object Detection,COCO minival,"TransNeXt-Tiny (IN-1K pretrain, DINO 1x)",55.7,0.6880733944954128,null,[']'],2311.17132v3
+Object Detection,COCO minival,"YOLOv4-P7 CSP-P7 (single-scale, 16 fps)",55.4,0.6788990825688072,null,[']'],2011.08036v2
+Object Detection,COCO minival,"tiny-MOAT-3 (IN-1K pretraining, single-scale)",55.2,0.6727828746177369,null,[']'],2210.01820v2
+Object Detection,COCO minival,FAN-L-Hybrid,55.1,0.6697247706422017,null,[']'],2204.12451v4
+Object Detection,COCO minival,Hiera-L,55.0,0.6666666666666665,null,[']'],2306.00989v1
+Object Detection,COCO minival,GLEE-Lite,55.0,0.6666666666666665,null,[']'],2312.09158v1
+Object Detection,COCO minival,"TEC(VIT-B, Mask-RCNN)",54.6,0.6544342507645259,null,"['Self-Supervised Learning', 'Transformer']",2210.11016v1
+Object Detection,COCO minival,Cascade Eff-B7 NAS-FPN (1280),54.5,0.6513761467889907,null,[']'],2012.07177v2
+Object Detection,COCO minival,"CAE (ViT-L, Mask R-CNN, 1x schedule)",54.5,0.6513761467889907,null,['1x schedule'],2202.03026v3
+Object Detection,COCO minival,"MViTv2-L (Cascade Mask R-CNN, single-scale)",54.3,0.6452599388379202,null,[']'],2112.01526v2
+Object Detection,COCO minival,"SpineNet-190 (1280, with Self-training on OpenImages, single-scale)",54.2,0.6422018348623852,null,['single scale'],2006.06882v2
+Object Detection,COCO minival,"Cascade RCNN-RS (SpineNet-143L, single scale)",53.6,0.6238532110091742,null,[']'],2107.00057v1
+Object Detection,COCO minival,"UniverseNet-20.08d (Res2Net-101, DCN, multi-scale)",53.5,0.620795107033639,null,"['DCN', 'multiscale']",2103.14027v3
+Object Detection,COCO minival,"MAE (ViT-L, Mask R-CNN)",53.3,0.6146788990825686,null,[']'],2111.06377v2
+Object Detection,COCO minival,"Cascade RCNN-RS (ResNet-200, single scale)",53.1,0.6085626911314984,null,[']'],2107.00057v1
+Object Detection,COCO minival,"tiny-MOAT-2 (IN-1K pretraining, single-scale)",53.0,0.6055045871559631,null,[']'],2210.01820v2
+Object Detection,COCO minival,"MViT-L (Mask R-CNN, single-scale, IN21k pre-train)",52.7,0.5963302752293578,null,['MViT'],2112.01526v2
+Object Detection,COCO minival,ResNeSt-200 (multi-scale),52.47,0.5892966360856268,null,['multiscale'],2004.08955v2
+Object Detection,COCO minival,ActiveMLP-B (Cascade Mask R-CNN),52.3,0.5840978593272169,null,[']'],2203.06108v2
+Object Detection,COCO minival,"RetinaNet (SpineNet-190, 1536x1536)",52.2,0.581039755351682,null,[']'],1912.05027v3
+Object Detection,COCO minival,EfficientDet-D7 (1536),52.1,0.5779816513761467,null,[']'],1911.09070v7
+Object Detection,COCO minival,"tiny-MOAT-1 (IN-1K pretraining, single-scale)",51.9,0.5718654434250763,null,[']'],2210.01820v2
+Object Detection,COCO minival,GCNet (ResNeXt-101 + DCN + cascade + GC r4),51.8,0.5688073394495411,null,"['GCN', 'DCN', 'ResNeXt']",2012.13375v1
+Object Detection,COCO minival,ELSA-S (Cascade Mask RCNN),51.6,0.5626911314984708,null,[']'],2112.12786v1
+Object Detection,COCO minival,"FocalNet-T (LRF, Cascade Mask R-CNN)",51.5,0.5596330275229356,null,[']'],2203.11926v3
+Object Detection,COCO minival,ResNeSt-200-DCN (single-scale),50.91,0.541590214067278,null,"['DCN', 'single scale']",2004.08955v2
+Object Detection,COCO minival,"UniverseNet-20.08d (Res2Net-101, DCN, single-scale)",50.9,0.5412844036697246,null,"['DCN', 'single scale']",2103.14027v3
+Object Detection,COCO minival,ResNeSt-200 (single-scale),50.54,0.530275229357798,null,['single scale'],2004.08955v2
+Object Detection,COCO minival,"tiny-MOAT-0 (IN-1K pretraining, single-scale)",50.5,0.529051987767584,null,[']'],2210.01820v2
+Object Detection,COCO minival,"MAE (ViT-B, Mask R-CNN)",50.3,0.5229357798165135,null,[']'],2111.06377v2
+Object Detection,COCO minival,Sparse R-CNN (PVTv2-B2),50.1,0.5168195718654434,null,[']'],2106.13797v7
+Object Detection,COCO minival,Pix2seq (ViT-L),50.0,0.5137614678899082,null,[']'],2109.10852v2
+Object Detection,COCO minival,"BoTNet 200 (Mask R-CNN, single scale, 72 epochs)",49.7,0.5045871559633027,null,"['Transformer', 'single scale']",2101.11605v2
+Object Detection,COCO minival,"BoTNet 152 (Mask R-CNN, single scale, 72 epochs)",49.5,0.4984709480122323,null,"['Transformer', 'single scale']",2101.11605v2
+Object Detection,COCO minival,REGO-Deformable DETR-X101,49.1,0.48623853211009166,null,[']'],2112.04632v2
+Object Detection,COCO minival,CenterMask+VoVNet99 (multi-scale),48.6,0.47094801223241584,null,['multiscale'],1911.06667v6
+Object Detection,COCO minival,"Mask R-CNN (ResNeXt-152-FPN, cascade)",48.6,0.47094801223241584,null,"['FPN', 'ResNeXt']",1811.08883v1
+Object Detection,COCO minival,"UniverseNet-20.08 (Res2Net-50, DCN, single-scale)",48.5,0.4678899082568806,null,"['DCN', 'single scale']",2103.14027v3
+Object Detection,COCO minival,XCiT-M24/8,48.5,0.4678899082568806,null,[']'],2106.09681v2
+Object Detection,COCO minival,ELSA-S (Mask RCNN),48.3,0.46177370030581016,null,[']'],2112.12786v1
+Object Detection,COCO minival,XCiT-S24/8,48.1,0.45565749235473996,null,[']'],2106.09681v2
+Object Detection,COCO minival,GCNet (ResNeXt-101 + DCN + cascade + GC r16),47.9,0.4495412844036695,null,"['GCN', 'DCN', 'ResNeXt']",1904.11492v1
+Object Detection,COCO minival,MAE-Det(MAE-Det-L+GFLV2),47.8,0.44648318042813434,null,[']'],2111.13336v5
+Object Detection,COCO minival,Res2Net101+HTC,47.5,0.43730886850152895,null,[']'],1904.01169v3
+Object Detection,COCO minival,"Mask R-CNN (ResNet-101-FPN, GN, Cascade)",47.4,0.4342507645259937,null,"['FPN', 'ResNet']",1811.08883v1
+Object Detection,COCO minival,Pix2seq (R50-C4),47.3,0.4311926605504585,null,[']'],2109.10852v2
+Object Detection,COCO minival,Pix2seq (ViT-B),47.1,0.4250764525993883,null,[']'],2109.10852v2
+Object Detection,COCO minival,HTC (HRNetV2p-W48),47.0,0.42201834862385307,null,[']'],1908.07919v2
+Object Detection,COCO minival,PatchConvNet-S120 (Mask R-CNN),47.0,0.42201834862385307,null,[']'],2112.13692v1
+Object Detection,COCO minival,"RPDet (ResNeXt-101-DCN, multi-scale)",46.8,0.41590214067278264,null,"['DCN', 'multiscale', 'ResNeXt']",1904.11490v2
+Object Detection,COCO minival,DyHead (ResNet-101),46.5,0.40672782874617724,null,[']'],2106.08322v1
+Object Detection,COCO minival,Mask R-CNN (ResNeXt-152-FPN),46.4,0.40366972477064206,null,"['FPN', 'ResNeXt']",1811.08883v1
+Object Detection,COCO minival,"RPDet (ResNet-101-DCN, multi-scale)",46.4,0.40366972477064206,null,"['DCN', 'multiscale', 'ResNet']",1904.11490v2
+Object Detection,COCO minival,PatchConvNet-S60 (Mask R-CNN),46.4,0.40366972477064206,null,[']'],2112.13692v1
+Object Detection,COCO minival,Cascade Mask R-CNN (ResNet-50),46.3,0.4006116207951068,null,[']'],1512.03385v1
+Object Detection,COCO minival,"HoughNet (HG-104, MS)",46.1,0.3944954128440366,null,[']'],2007.02355v3
+Object Detection,COCO minival,"Mask R-CNN (HRNetV2p-W48, cascade)",46.0,0.3914373088685014,null,[']'],1908.07919v2
+Object Detection,COCO minival,BoTNet 50 (72 epochs),45.9,0.3883792048929662,null,['Transformer'],2101.11605v2
+Object Detection,COCO minival,"Sparse R-CNN (ResNet-101, learnable proposals, random crop aug, FPN)",45.6,0.3792048929663608,null,"['FPN', 'ResNet']",2011.12450v2
+Object Detection,COCO minival,CenterMask+VoVNetV2-99 (single-scale),45.6,0.3792048929663608,null,['single scale'],1911.06667v6
+Object Detection,COCO minival,HTC (HRNetV2p-W32),45.3,0.37003058103975517,null,[']'],1908.07919v2
+Object Detection,COCO minival,Mask R-CNN (ResNeXt-152 + 1 NL),45.0,0.3608562691131497,null,['ResNeXt'],1711.07971v3
+Object Detection,COCO minival,Pix2seq (R101-DC5),45.0,0.3608562691131497,null,['ResNet-101'],2109.10852v2
+Object Detection,COCO minival,Mask R-CNN-FPN (AOGNet-40M),44.9,0.35779816513761453,null,['FPN'],1908.01259v3
+Object Detection,COCO minival,DETR-DC5 (ResNet-101),44.9,0.35779816513761453,null,['ResNet'],2005.12872v3
+Object Detection,COCO minival,"Mask R-CNN (VoVNetV2-99, single-scale)",44.9,0.35779816513761453,null,['single scale'],1911.06667v6
+Object Detection,COCO minival,"R3-CNN (ResNet-50-FPN, DCN)",44.8,0.3547400611620793,null,"['DCN', 'FPN', 'ResNet']",2104.01329v2
+Object Detection,COCO minival,"RPDet (ResNet-101-DCN, multi-scale train)",44.8,0.3547400611620793,null,"['DCN', 'multiscale', 'ResNet']",1904.11490v2
+Object Detection,COCO minival,"RetinaNet (ViL-Base, multi-scale, 3x)",44.7,0.3516819571865443,null,"['Transformer', 'multiscale']",2103.15358v2
+Object Detection,COCO minival,Cascade R-CNN (HRNetV2p-W48),44.6,0.3486238532110091,null,[']'],1908.07919v2
+Object Detection,COCO minival,CenterMask+VoVNetV2-57 (single-scale),44.6,0.3486238532110091,null,['single scale'],1911.06667v6
+Object Detection,COCO minival,"Sparse R-CNN (ResNet-50, learnable proposals, random crop aug, FPN)",44.5,0.3455657492354739,null,"['FPN', 'ResNet']",2011.12450v2
+Object Detection,COCO minival,GFL (ResNet-50),44.5,0.3455657492354739,null,[']'],1512.03385v1
+Object Detection,COCO minival,RPDet (ResNeXt-101-DCN),44.5,0.3455657492354739,null,"['DCN', 'ResNeXt']",1904.11490v2
+Object Detection,COCO minival,CenterMask+X101-32x8d (single-scale),44.4,0.34250764525993865,null,['single scale'],1911.06667v6
+Object Detection,COCO minival,RetinaNet (ViL-Base),44.3,0.33944954128440347,null,['Transformer'],2103.15358v2
+Object Detection,COCO minival,"R3-CNN (ResNet-50-FPN, GC-Net)",44.3,0.33944954128440347,null,[']'],2104.01329v2
+Object Detection,COCO minival,Faster RCNN-R101-FPN+,44.0,0.3302752293577981,null,['FPN'],2005.12872v3
+Object Detection,COCO minival,Cascade R-CNN (HRNetV2p-W32),43.7,0.3211009174311926,null,[']'],1908.07919v2
+Object Detection,COCO minival,"Sparse R-CNN (ResNet-101, FPN)",43.5,0.3149847094801222,null,"['FPN', 'ResNet']",2011.12450v2
+Object Detection,COCO minival,ATSS (ResNet-50),43.5,0.3149847094801222,null,[']'],1512.03385v1
+Object Detection,COCO minival,"PVT-Large (RetinaNet 3x,MS)",43.4,0.311926605504587,null,[']'],2102.12122v2
+Object Detection,COCO minival,"ExtremeNet (Hourglass-104, multi-scale)",43.3,0.30886850152905176,null,['multiscale'],1901.08043v3
+Object Detection,COCO minival,Pix2seq (R50-DC5 ),43.2,0.3058103975535168,null,['ResNet-50'],2109.10852v2
+Object Detection,COCO minival,HTC (cascade),43.2,0.3058103975535168,null,[']'],1901.07518v2
+Object Detection,COCO minival,"Mask R-CNN-FPN (ResNeXt-101, GN+WS)",43.12,0.3033639143730885,null,"['FPN', 'ResNeXt']",1903.10520v2
+Object Detection,COCO minival,HTC (HRNetV2p-W18),43.1,0.30275229357798156,null,[']'],1908.07919v2
+Object Detection,COCO minival,"Mask R-CNN (ResNet-101, DCNv2)",43.1,0.30275229357798156,null,"['DCN', 'ResNet']",1811.11168v2
+Object Detection,COCO minival,HoughNet (HG-104),43.0,0.29969418960244637,null,[']'],2007.02355v3
+Object Detection,COCO minival,"Faster R-CNN (FPN, X-volution)",42.8,0.29357798165137594,null,['FPN'],2106.02253v2
+Object Detection,COCO minival,"Cascade R-CNN (ResNet-101-FPN+, cascade)",42.7,0.290519877675841,null,"['FPN', 'ResNet']",1712.00726v1
+Object Detection,COCO minival,PVT-Large (RetinaNet 1x),42.6,0.28746177370030573,null,[']'],2102.12122v2
+Object Detection,COCO minival,CornerNet-Saccade (Hourglass-54),42.6,0.28746177370030573,null,[']'],1904.08900v2
+Object Detection,COCO minival,Pix2seq (R50),42.6,0.28746177370030573,null,[']'],2109.10852v2
+Object Detection,COCO minival,"Mask R-CNN (ResNet-101-FPN, GroupNorm, long)",42.3,0.2782874617737001,null,"['FPN', 'ResNet']",1803.08494v3
+Object Detection,COCO minival,"Sparse R-CNN (ResNet-50, FPN)",42.3,0.2782874617737001,null,"['FPN', 'ResNet']",2011.12450v2
+Object Detection,COCO minival,Mask R-CNN (HRNetV2p-W32),42.3,0.2782874617737001,null,[']'],1908.07919v2
+Object Detection,COCO minival,DETR-ResNet50 with iRPE-K (300 epochs),42.3,0.2782874617737001,null,[']'],2107.14222v1
+Object Detection,COCO minival,TridentNet (ResNet-101),42.0,0.26911314984709467,null,['ResNet'],1901.01892v2
+Object Detection,COCO minival,R3-CNN (ResNet-50-FPN),42.0,0.26911314984709467,null,"['FPN', 'ResNet']",2104.01329v2
+Object Detection,COCO minival,Faster R-CNN (HRNetV2p-W48),41.8,0.2629969418960243,null,[']'],1908.07919v2
+Object Detection,COCO minival,Faster R-CNN (LIP-ResNet-101),41.7,0.2599388379204893,null,[']'],1908.04156v3
+Object Detection,COCO minival,"Faster R-CNN (ResNet-101, DCNv2)",41.7,0.2599388379204893,null,"['DCN', 'ResNet']",1811.11168v2
+Object Detection,COCO minival,"FSAF (ResNeXt-101, anchor-based branches)",41.6,0.2568807339449541,null,['ResNeXt'],1903.00621v1
+Object Detection,COCO minival,CornerNet-Saccade (Hourglass-104),41.4,0.25076452599388366,null,[']'],1904.08900v2
+Object Detection,COCO minival,Grid R-CNN (ResNet-101-FPN),41.3,0.24770642201834842,null,"['FPN', 'ResNet']",1811.12030v1
+Object Detection,COCO minival,Cascade R-CNN (HRNetV2p-W18),41.3,0.24770642201834842,null,[']'],1908.07919v2
+Object Detection,COCO minival,CenterNet511 (Hourglass-52),41.3,0.24770642201834842,null,[']'],1904.08189v3
+Object Detection,COCO minival,RetinaMask (ResNet-101-FPN),41.1,0.24159021406727824,null,"['FPN', 'ResNet']",1901.03353v1
+Object Detection,COCO minival,PoolFormer-S36 (Mask R-CNN),41.0,0.23853211009174302,null,[']'],2111.11418v3
+Object Detection,COCO minival,Faster R-CNN (HRNetV2p-W32),40.9,0.2354740061162078,null,[']'],1908.07919v2
+Object Detection,COCO minival,VirTex Mask R-CNN (ResNet-50-FPN),40.9,0.2354740061162078,null,"['FPN', 'ResNet']",2006.06666v3
+Object Detection,COCO minival,Mask R-CNN (ResNet-101 + 1 NL),40.8,0.2324159021406726,null,['ResNet'],1711.07971v3
+Object Detection,COCO minival,"Mask R-CNN (ResNet-50-FPN, GroupNorm, long)",40.8,0.2324159021406726,null,"['FPN', 'ResNet']",1803.08494v3
+Object Detection,COCO minival,"RPDet (ResNet-50, multi-scale train)",40.8,0.2324159021406726,null,"['multiscale', 'ResNet']",1904.11490v2
+Object Detection,COCO minival,DETR-ResNet50 with iRPE-K (150 epochs),40.8,0.2324159021406726,null,[']'],2107.14222v1
+Object Detection,COCO minival,"Faster R-CNN+aLRP Loss (ResNet-50, 500 scale)",40.7,0.2293577981651376,null,['ResNet'],2009.13592v4
+Object Detection,COCO minival,PPDet (ResNet-101-FPN),40.5,0.22324159021406717,null,"['FPN', 'ResNet']",2008.01167v2
+Object Detection,COCO minival,"GCnet (ResNet-50-FPN, GRoIE)",40.3,0.21712538226299674,null,"['FPN', 'ResNet']",1904.11492v1
+Object Detection,COCO minival,"Mask R-CNN (ResNet-50-FPN, GroupNorm)",40.3,0.21712538226299674,null,"['FPN', 'ResNet']",1803.08494v3
+Object Detection,COCO minival,Cascade R-CNN (ResNet-50-FPN+),40.3,0.21712538226299674,null,"['FPN', 'ResNet']",1712.00726v1
+Object Detection,COCO minival,"ExtremeNet (Hourglass-104, single-scale)",40.3,0.21712538226299674,null,['single scale'],1901.08043v3
+Object Detection,COCO minival,RPDet (ResNet-101),40.3,0.21712538226299674,null,['ResNet'],1904.11490v2
+Object Detection,COCO minival,"RetinaNet+aLRP Loss (ResNet-50, 500 scale)",40.2,0.21406727828746175,null,['ResNet'],2009.13592v4
+Object Detection,COCO minival,Mask R-CNN (ResNet-101-FPN),40.0,0.20795107033639132,null,"['FPN', 'ResNet']",1703.06870v3
+Object Detection,COCO minival,FPN+,39.8,0.20183486238532092,null,['FPN'],1612.03144v2
+Object Detection,COCO minival,"FoveaBox+aLRP Loss (ResNet-50, 500 scale)",39.7,0.19877675840978593,null,['ResNet'],2009.13592v4
+Object Detection,COCO minival,Grid R-CNN (ResNet-50-FPN),39.6,0.1957186544342507,null,"['FPN', 'ResNet']",1811.12030v1
+Object Detection,COCO minival,"Mask R-CNN (ResNet-50, ACNet)",39.5,0.1926605504587155,null,['ResNet'],1904.03579v1
+Object Detection,COCO minival,"FSAF (ResNet-101, anchor-based branches)",39.3,0.18654434250764507,null,['ResNet'],1903.00621v1
+Object Detection,COCO minival,Mask R-CNN (HRNetV2p-W18),39.2,0.18348623853211007,null,[']'],1908.07919v2
+Object Detection,COCO minival,Mask R-CNN (ResNet-50 + 1 NL),39.0,0.17737003058103964,null,['ResNet'],1711.07971v3
+Object Detection,COCO minival,"FoveaBox (ResNet-101-FPN, 800x800)",38.9,0.17431192660550443,null,"['FPN', 'ResNet']",1904.03797v2
+Object Detection,COCO minival,FCOS (ResNet-50-FPN + improvements),38.6,0.16513761467889904,null,"['FPN', 'ResNet']",1904.01355v5
+Object Detection,COCO minival,RPDet (ResNet-50),38.6,0.16513761467889904,null,['ResNet'],1904.11490v2
+Object Detection,COCO minival,Libra R-CNN (ResNet-50 FPN),38.5,0.16207951070336382,null,"['FPN', 'ResNet']",1904.02701v1
+Object Detection,COCO minival,"Mask R-CNN (ResNet-50-FPN, GRoIE)",38.4,0.1590214067278286,null,"['FPN', 'ResNet']",2004.13665v2
+Object Detection,COCO minival,CornerNet511 (Hourglass-104),38.4,0.1590214067278286,null,[']'],1808.01244v2
+Object Detection,COCO minival,FoveaBox+Retina (ResNet-50),38.1,0.14984709480122319,null,['ResNet'],1904.03797v2
+Object Detection,COCO minival,Faster R-CNN (HRNetV2p-W18),38.0,0.14678899082568797,null,[']'],1908.07919v2
+Object Detection,COCO minival,"FoveaBox (ResNet-101-FPN, 600x600)",38.0,0.14678899082568797,null,"['FPN', 'ResNet']",1904.03797v2
+Object Detection,COCO minival,FSAF (ResNet-101),37.9,0.14373088685015276,null,['ResNet'],1903.00621v1
+Object Detection,COCO minival,Mask R-CNN (ResNet-50-FPN),37.7,0.13761467889908255,null,"['FPN', 'ResNet']",1703.06870v3
+Object Detection,COCO minival,"Faster R-CNN (ResNet-50-FPN, GRoIE)",37.5,0.13149847094801215,null,"['FPN', 'ResNet']",2004.13665v2
+Object Detection,COCO minival,Mask R-CNN (ResNeXt-101-FPN),36.7,0.10703363914373087,null,"['FPN', 'ResNeXt']",1703.06870v3
+Object Detection,COCO minival,"FoveaBox (ResNet-50-FPN, 600x600)",36.0,0.08562691131498462,null,"['FPN', 'ResNet']",1904.03797v2
+Object Detection,COCO minival,FSAF (ResNet-50),35.9,0.08256880733944941,null,['ResNet'],1903.00621v1
+Object Detection,COCO minival,"GHM-C + GHM-R (RetinaNet-FPN-ResNet-50, M=30)",35.8,0.07951070336391419,null,['FPN'],1811.05181v1
+Object Detection,COCO minival,Online Fg Bal. Sampling+Hard Negative Mining (ResNet-50),35.6,0.07339449541284399,null,['ResNet'],1909.09777v3
+Object Detection,COCO minival,"M2Det (ResNet-1o1, 320x320)",34.1,0.027522935779816467,null,['ResNet'],1811.04533v3
+Object Detection,COCO minival,Faster R-CNN (Res2Net-50),33.7,0.015290519877675839,null,[']'],1904.01169v3
+Object Detection,COCO minival,"M2Det (VGG-16, 320x320)",33.2,0.0,null,[']'],1811.04533v3
+Object Detection,COCO-O,EVA,57.8,1.0,null,[']'],2211.07636v2
+Object Detection,COCO-O,DETA\n(Swin-L),48.5,0.7895927601809956,null,[']'],2212.06137v1
+Object Detection,COCO-O,GLIP-L\n(Swin-L),48.0,0.7782805429864253,null,[']'],2112.03857v2
+Object Detection,COCO-O,GRiT\n(ViT-H),42.9,0.6628959276018099,null,[']'],2212.00280v1
+Object Detection,COCO-O,DINO\n(Swin-L),42.1,0.6447963800904978,null,[']'],2203.03605v4
+Object Detection,COCO-O,CBNetV2\n(Swin-L),39.0,0.574660633484163,null,[']'],2107.00420v7
+Object Detection,COCO-O,ConvNeXt-XL\n(Cascade Mask R-CNN),37.5,0.5407239819004525,null,[']'],2201.03545v2
+Object Detection,COCO-O,InternImage-L (Cascade Mask R-CNN),37.0,0.5294117647058824,null,[']'],2211.05778v4
+Object Detection,COCO-O,DyHead\n(Swin-L),35.3,0.49095022624434387,null,[']'],2106.08322v1
+Object Detection,COCO-O,ViTDet\n(ViT-H),34.3,0.46832579185520357,null,[']'],2203.16527v2
+Object Detection,COCO-O,ViT-Adapter (BEiTv2-L),34.25,0.4671945701357466,null,[']'],2205.08534v4
+Object Detection,COCO-O,FIBER-B\n(Swin-B),33.7,0.4547511312217195,null,[']'],2206.07643v2
+Object Detection,COCO-O,QueryInst\n(Swin-L),33.2,0.4434389140271494,null,[']'],2105.01928v3
+Object Detection,COCO-O,YOLOv6-L6,32.5,0.42760180995475117,null,[']'],2209.02976v1
+Object Detection,COCO-O,YOLOv7-E6E,32.0,0.416289592760181,null,[']'],2207.02696v1
+Object Detection,COCO-O,MViTV2-H\n(Cascade Mask R-CNN),30.9,0.3914027149321267,null,[']'],2112.01526v2
+Object Detection,COCO-O,Det-AdvProp\n(EfficientNet-B5),30.8,0.3891402714932128,null,[']'],2103.13886v2
+Object Detection,COCO-O,YOLOv4-P6,30.4,0.38009049773755654,null,[']'],2004.10934v1
+Object Detection,COCO-O,YOLOX-X,30.3,0.37782805429864263,null,[']'],2107.08430v2
+Object Detection,COCO-O,CenterNet2\n(R2-101-DCN),29.5,0.35972850678733037,null,[']'],2103.07461v1
+Object Detection,COCO-O,GLIP-T\n(Swin-T),29.1,0.3506787330316743,null,[']'],2112.03857v2
+Object Detection,COCO-O,EfficientDet-D5\n(EfficientNet-B5),28.5,0.33710407239819007,null,[']'],1911.09070v7
+Object Detection,COCO-O,PVTv2-B5\n(Mask R-CNN),28.2,0.330316742081448,null,[']'],2106.13797v7
+Object Detection,COCO-O,VFNet\n(RX-101-64x4d),28.0,0.32579185520362,null,[']'],2008.13367v2
+Object Detection,COCO-O,GCNet\n(RX-101-32x4d-DCN),26.0,0.2805429864253394,null,[']'],1904.11492v1
+Object Detection,COCO-O,GFLv2\n(R2-101-DCN),25.1,0.2601809954751132,null,[']'],2011.12885v1
+Object Detection,COCO-O,RepPointsV2\n(RX-101-64x4d-DCN),24.9,0.25565610859728505,null,[']'],2007.08508v1
+Object Detection,COCO-O,UniverseNet\n(R2-101-DCN),24.8,0.2533936651583711,null,[']'],2103.14027v3
+Object Detection,COCO-O,YOLOX-S,20.6,0.15837104072398195,null,[']'],2107.08430v2
+Object Detection,COCO-O,YOLOS-B\n(ViT-B),20.0,0.14479638009049775,null,[']'],2106.00666v3
+Object Detection,COCO-O,DyHead\n(ResNet-50),19.3,0.1289592760180996,null,[']'],2106.08322v1
+Object Detection,COCO-O,HTC\n(ResNet-50),19.1,0.12443438914027155,null,[']'],1901.07518v2
+Object Detection,COCO-O,Deformable-DETR\n(ResNet-50),18.5,0.11085972850678735,null,[']'],2010.04159v4
+Object Detection,COCO-O,Cascade R-CNN\n(ResNet-50),18.2,0.10407239819004525,null,[']'],1906.09756v1
+Object Detection,COCO-O,Mask R-CNN\n(ResNet-50),17.1,0.079185520361991,null,[']'],1703.06870v3
+Object Detection,COCO-O,DETR\n(ResNet-50),17.1,0.079185520361991,null,[']'],2005.12872v3
+Object Detection,COCO-O,ATSS\n(ResNet-50),16.8,0.0723981900452489,null,[']'],1912.02424v4
+Object Detection,COCO-O,FCOS\n(ResNet-50),16.7,0.07013574660633484,null,[']'],1904.01355v5
+Object Detection,COCO-O,RetinaNet\n(ResNet-50),16.6,0.06787330316742086,null,[']'],1708.02002v2
+Object Detection,COCO-O,Faster R-CNN\n(ResNet-50-FPN),16.4,0.06334841628959274,null,[']'],1506.01497v3
+Object Detection,COCO-O,YOLOv3\n(DarkNet-53),14.8,0.027149321266968354,null,[']'],1804.02767v1
+Object Detection,COCO-O,SSD (VGG-16),13.6,0.0,null,[']'],1512.02325v5
+Object Detection,PASCAL VOC 2007,"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3,1.0,null,"['FPN', 'single scale']",2012.07177v2
+Object Detection,PASCAL VOC 2007,YOLO-Former,86.01,0.9504518072289156,null,[']'],2401.06244v1
+Object Detection,PASCAL VOC 2007,DETReg (MDef-DETR),84.16,0.922590361445783,null,[']'],2111.11430v6
+Object Detection,PASCAL VOC 2007,"HSD (VGG16, 512x512, single-scale test)",83.0,0.9051204819277108,null,['single scale'],null
+Object Detection,PASCAL VOC 2007,CoupleNet,82.7,0.9006024096385542,null,[']'],1708.02863v1
+Object Detection,PASCAL VOC 2007,EEEA-Net-C2 (YOLOv4),81.8,0.8870481927710843,null,[']'],2108.06156v1
+Object Detection,PASCAL VOC 2007,"HSD (VGG16, 320x320, single-scale test)",81.7,0.8855421686746988,null,['single scale'],null
+Object Detection,PASCAL VOC 2007,SSD512 (07+12+COCO),81.6,0.8840361445783131,null,[']'],1512.02325v5
+Object Detection,PASCAL VOC 2007,BlitzNet512 + seg (s8),81.5,0.8825301204819277,null,[']'],1708.02813v1
+Object Detection,PASCAL VOC 2007,Localize,81.5,0.8825301204819277,null,[']'],2009.14085v1
+Object Detection,PASCAL VOC 2007,"CenterNet(DLA34, Flip, 512x512)",80.7,0.8704819277108433,null,[']'],1904.07850v2
+Object Detection,PASCAL VOC 2007,"PS-KD (ResNet-152, CutMix)",79.7,0.8554216867469879,null,[']'],2006.12000v3
+Object Detection,PASCAL VOC 2007,DPNet,79.2,0.8478915662650602,null,[']'],2209.13933v1
+Object Detection,PASCAL VOC 2007,OHEM,78.9,0.8433734939759037,null,[']'],1604.03540v1
+Object Detection,PASCAL VOC 2007,YOLO v2,78.6,0.8388554216867469,null,['YOLO'],1612.08242v1
+Object Detection,PASCAL VOC 2007,ThunderNet SNet535 Backbone,78.6,0.8388554216867469,null,[']'],1903.11752v3
+Object Detection,PASCAL VOC 2007,DeNet-101 (skip),77.1,0.8162650602409637,null,[']'],1703.10295v3
+Object Detection,PASCAL VOC 2007,I+ORE,76.2,0.802710843373494,null,[']'],1708.04896v2
+Object Detection,PASCAL VOC 2007,"Perona Malik (Perona and Malik, 1990)",74.37,0.7751506024096386,null,[']'],2011.01901v3
+Object Detection,PASCAL VOC 2007,FRCN,74.2,0.7725903614457831,null,[']'],1704.03414v1
+Object Detection,PASCAL VOC 2007,Faster R-CNN,73.2,0.7575301204819277,null,[']'],1506.01497v3
+Object Detection,PASCAL VOC 2007,VGG-16 + KL Loss + var voting + soft-NMS,71.6,0.7334337349397589,null,[']'],1809.08545v3
+Object Detection,PASCAL VOC 2007,Fast R-CNN,70.0,0.7093373493975903,null,[']'],1504.08083v2
+Object Detection,PASCAL VOC 2007,subCNN,68.5,0.6867469879518072,null,[']'],1604.04693v3
+Object Detection,PASCAL VOC 2007,YOLO,63.4,0.6099397590361445,null,['YOLO'],1506.02640v5
+Object Detection,PASCAL VOC 2007,SPP(combination),60.9,0.5722891566265059,null,[']'],1406.4729v4
+Object Detection,PASCAL VOC 2007,R-CNN,58.5,0.536144578313253,null,[']'],1311.2524v5
+Object Detection,PASCAL VOC 2007,Deformable Parts Model (DeepPyramid),45.2,0.3358433734939759,null,[']'],1409.5403v2
+Object Detection,PASCAL VOC 2007,TinyissimoYOLO-v8,42.3,0.29216867469879515,null,[']'],2311.01057v2
+Object Detection,PASCAL VOC 2007,FemotoDet,22.9,0.0,null,[']'],2301.06719v5
+Object Detection,COCO 2017 val,Salience-DETR (Focal-L 1x),57.3,1.0,null,['DETR'],2403.16131v1
+Object Detection,COCO 2017 val,"YOLOv6-L6(46 fps, V100, bs1)",57.2,0.9943181818181821,null,['YOLO'],2301.05586v1
+Object Detection,COCO 2017 val,Salience-DETR (Swin-L 1x),56.5,0.9545454545454547,null,['DETR'],2403.16131v1
+Object Detection,COCO 2017 val,MogaNet-XL (Cascade Mask R-CNN),56.2,0.9375000000000003,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-L (Cascade Mask R-CNN),53.3,0.7727272727272727,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-B (Cascade Mask R-CNN),52.6,0.7329545454545456,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-S (Cascade Mask R-CNN),51.6,0.6761363636363638,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,RF-ConvNeXt-T Cascade R-CNN,50.9,0.6363636363636364,null,[']'],2206.06637v2
+Object Detection,COCO 2017 val,Salience-DETR (ResNet50 1x),50.0,0.5852272727272727,null,['DETR'],2403.16131v1
+Object Detection,COCO 2017 val,SQR-Adamixer-R101,49.8,0.5738636363636362,null,[']'],2212.07593v3
+Object Detection,COCO 2017 val,MogaNet-L (Mask R-CNN 1x),49.4,0.5511363636363635,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,ViDT Swin-base,49.2,0.5397727272727274,null,[']'],2110.03921v2
+Object Detection,COCO 2017 val,SQR-Adamixer-R50,48.9,0.5227272727272727,null,[']'],2212.07593v3
+Object Detection,COCO 2017 val,MogaNet-L (RetinaNet 1x),48.7,0.5113636363636366,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-B (Mask R-CNN 1x),47.9,0.46590909090909083,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-B (RetinaNet 1x),47.7,0.4545454545454547,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,ViDT Swin-small,47.5,0.4431818181818182,null,[']'],2110.03921v2
+Object Detection,COCO 2017 val,MogaNet-S (Mask R-CNN 1x),46.7,0.3977272727272729,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-S (RetinaNet 1x),45.8,0.3465909090909089,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,ViDT Swin-tiny,44.8,0.28977272727272707,null,[']'],2110.03921v2
+Object Detection,COCO 2017 val,MogaNet-T (Mask R-CNN 1x),42.6,0.16477272727272724,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-T (RetinaNet 1x),41.4,0.09659090909090888,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,MogaNet-XT (Mask R-CNN 1x),40.7,0.05681818181818184,null,[']'],2211.03295v3
+Object Detection,COCO 2017 val,ViDT Swin-nano,40.4,0.03977272727272704,null,[']'],2110.03921v2
+Object Detection,COCO 2017 val,MogaNet-XT (RetinaNet 1x),39.7,0.0,null,[']'],2211.03295v3
+Object Detection,COCO 2017,MaxViT-B,53.4,1.0,null,[']'],2204.01697v4
+Object Detection,COCO 2017,MaxViT-S,53.1,0.9285714285714292,null,[']'],2204.01697v4
+Object Detection,COCO 2017,MaxViT-T,52.1,0.6904761904761908,null,[']'],2204.01697v4
+Object Detection,COCO 2017,DAT-S++,50.2,0.23809523809523833,null,[']'],2309.01430v1
+Object Detection,COCO 2017,DAT-T++,49.2,0.0,null,[']'],2309.01430v1
+Object Detection,CrowdHuman (full body),InternImage-H,97.2,1.0,null,[']'],2211.05778v4
+Object Detection,CrowdHuman (full body),Progressive DETR,94.1,0.7572435395458097,null,[']'],2203.07669v3
+Object Detection,CrowdHuman (full body),DDQ DETR (R50),93.8,0.7337509788566948,null,['ResNet-50'],2303.12776v2
+Object Detection,CrowdHuman (full body),DDQ R-CNN (R50),93.5,0.71025841816758,null,['ResNet-50'],2303.12776v2
+Object Detection,CrowdHuman (full body),"Hulk(Finetune, ViT-L)",93.0,0.6711041503523881,null,[']'],2312.01697v4
+Object Detection,CrowdHuman (full body),DDQ FCN (R50 One-Stage),92.7,0.6476115896632731,null,"['one-stage', 'ResNet-50']",2303.12776v2
+Object Detection,CrowdHuman (full body),UniHCP (finetune),92.5,0.6319498825371962,null,[']'],2303.02936v4
+Object Detection,CrowdHuman (full body),"Hulk(Finetune, ViT-B)",92.4,0.6241190289741583,null,[']'],2312.01697v4
+Object Detection,CrowdHuman (full body),V2F-Net,91.03,0.5168363351605322,null,[']'],2104.03106v1
+Object Detection,CrowdHuman (full body),CrowdDet,90.7,0.49099451840250574,null,['ResNet'],2003.09163v2
+Object Detection,CrowdHuman (full body),Beta R-CNN,89.6,0.40485512920908295,null,[']'],2210.12758v1
+Object Detection,CrowdHuman (full body),NOH-NMS,89.0,0.35787000783085315,null,[']'],2007.13376v1
+Object Detection,CrowdHuman (full body),"IterDet (Faster RCNN, ResNet50, 2 iterations)",88.08,0.2858261550509,null,['ResNet'],2005.05708v2
+Object Detection,CrowdHuman (full body),"PS-RCNN (Faster RCNN, ResNet50, COCO Instance Masks",87.94,0.2748629600626462,null,[']'],2003.07080v1
+Object Detection,CrowdHuman (full body),"PS-RCNN (Faster RCNN, ResNet50)",86.05,0.1268598277212209,null,['ResNet'],2003.07080v1
+Object Detection,CrowdHuman (full body),Faster RCNN (ResNet50),84.95,0.04072043852779923,null,['ResNet'],1805.00123v1
+Object Detection,CrowdHuman (full body),"Adaptive NMS (Faster RCNN, ResNet50)",84.71,0.021926389976506422,null,['ResNet'],1904.03629v1
+Object Detection,CrowdHuman (full body),"IterDet (Faster RCNN, ResNet50, 1 iteration)",84.43,0.0,null,['ResNet'],2005.05708v2
+Object Detection,CPPE-5,TridentNet,52.9,1.0,null,[']'],2112.09569v2
+Object Detection,CPPE-5,Empirical Attention,52.5,0.982905982905983,null,"['DCN', 'Transformer']",2112.09569v2
+Object Detection,CPPE-5,Double Heads,52.0,0.9615384615384616,null,[']'],2112.09569v2
+Object Detection,CPPE-5,Deformable Convolutional Network,51.6,0.9444444444444445,null,['DCN'],2112.09569v2
+Object Detection,CPPE-5,RegNet,51.3,0.9316239316239315,null,[']'],2112.09569v2
+Object Detection,CPPE-5,VarifocalNet,51.0,0.9188034188034189,null,"['FPN', 'VFNet']",2112.09569v2
+Object Detection,CPPE-5,Localization Distillation,50.9,0.9145299145299145,null,[']'],2112.09569v2
+Object Detection,CPPE-5,FSAF,49.2,0.841880341880342,null,['ResNeXt'],2112.09569v2
+Object Detection,CPPE-5,Deformable DETR,48.0,0.7905982905982907,null,"['ResNeXt', 'DCN']",2112.09569v2
+Object Detection,CPPE-5,Grid RCNN,47.5,0.7692307692307693,null,['FPN'],2112.09569v2
+Object Detection,CPPE-5,FCOS,44.4,0.6367521367521367,null,['FPN'],2112.09569v2
+Object Detection,CPPE-5,Faster RCNN,44.0,0.6196581196581197,null,"['ResNet', 'FPN']",2112.09569v2
+Object Detection,CPPE-5,Sparse RCNN,44.0,0.6196581196581197,null,"['ResNet', 'FPN']",2112.09569v2
+Object Detection,CPPE-5,RepPoints,43.0,0.576923076923077,null,"['ResNet', 'multiscale', 'DCN']",2112.09569v2
+Object Detection,CPPE-5,YOLOv3,38.5,0.38461538461538464,null,['YOLO'],2112.09569v2
+Object Detection,CPPE-5,SSD,29.5,0.0,null,['SSD'],2112.09569v2
+Object Detection,Waymo 2D detection all_ns f0val,YOLOX-L,41.6,1.0,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,UniverseNet-20.08,39.0,0.8907563025210083,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,UniverseNet,38.6,0.8739495798319328,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,ATSS (ConvNeXt-T),38.3,0.8613445378151259,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,ATSS (Swin-T),37.2,0.8151260504201682,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,ATSS+DyHead,37.1,0.8109243697478992,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,Cascade R-CNN,36.4,0.7815126050420167,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,GFL,35.7,0.7521008403361346,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,ATSS,35.4,0.7394957983193277,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,ATSS+SEPC,35.0,0.7226890756302521,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,Faster R-CNN,34.5,0.7016806722689075,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,Sparse R-CNN,32.8,0.630252100840336,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,Deformable DETR,32.7,0.6260504201680673,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,RetinaNet,32.5,0.6176470588235293,null,[']'],2103.14027v3
+Object Detection,Waymo 2D detection all_ns f0val,DETR,17.8,0.0,null,[']}]</script'],2103.14027v3
+Object Detection,Manga109-s 15test,YOLOX-L,70.2,1.0,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,UniverseNet-20.08,69.9,0.9923076923076923,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,UniverseNet,68.9,0.9666666666666668,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,ATSS+DyHead,67.9,0.9410256410256411,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,Cascade R-CNN,67.6,0.9333333333333331,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,ATSS (ConvNeXt-T),67.4,0.9282051282051282,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,GFL,67.3,0.9256410256410255,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,ATSS+SEPC,67.1,0.9205128205128202,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,ATSS,66.5,0.905128205128205,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,ATSS (Swin-T),66.2,0.8974358974358975,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,Faster R-CNN,65.8,0.887179487179487,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,RetinaNet,65.3,0.8743589743589743,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,Deformable DETR,64.1,0.8435897435897434,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,Sparse R-CNN,63.1,0.817948717948718,null,[']'],2103.14027v3
+Object Detection,Manga109-s 15test,DETR,31.2,0.0,null,[']}]</script'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),UniverseNet-20.08,52.1,1.0,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),UniverseNet,51.4,0.9753521126760563,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),ATSS (ConvNeXt-T),50.4,0.9401408450704224,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),YOLOX-L,49.6,0.9119718309859155,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),ATSS+DyHead,49.4,0.9049295774647886,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),ATSS (Swin-T),49.0,0.8908450704225351,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),Cascade R-CNN,48.1,0.8591549295774648,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),ATSS+SEPC,48.1,0.8591549295774648,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),GFL,47.7,0.8450704225352114,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),ATSS,47.1,0.823943661971831,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),Faster R-CNN,45.9,0.7816901408450704,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),RetinaNet,44.8,0.7429577464788731,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),Deformable DETR,44.6,0.7359154929577465,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),Sparse R-CNN,44.6,0.7359154929577465,null,[']'],2103.14027v3
+Object Detection,USB (Standard USB 1.0 protocol),DETR,23.7,0.0,null,[']}]</script'],2103.14027v3
+Object Detection,LVIS v1.0 val,Co-DETR (single-scale),68.0,1.0,null,[']'],2211.12860v5
+Object Detection,LVIS v1.0 val,Grounding DINO 1.5 Pro,63.5,0.8891625615763546,null,[']'],2405.10300v2
+Object Detection,LVIS v1.0 val,InternImage-H,63.2,0.8817733990147784,null,[']'],2211.05778v4
+Object Detection,LVIS v1.0 val,EVA,62.2,0.8571428571428572,null,[']'],2211.07636v2
+Object Detection,LVIS v1.0 val,RichSem (Focal-H + ImageNet as weakly-supervised extra data),61.2,0.832512315270936,null,[']'],2310.12152v1
+Object Detection,LVIS v1.0 val,GLEE-Pro,55.7,0.6970443349753696,null,[']'],2312.09158v1
+Object Detection,LVIS v1.0 val,ViTDet-H,53.4,0.6403940886699507,null,[']'],2203.16527v2
+Object Detection,LVIS v1.0 val,DiverGen (Swin-L),51.2,0.5862068965517242,null,[']'],2405.10185v1
+Object Detection,LVIS v1.0 val,ViTDet-L,51.2,0.5862068965517242,null,[']'],2203.16527v2
+Object Detection,LVIS v1.0 val,CenterNet2 (Swin-L w/ X-Paste + Copy-Paste),50.9,0.5788177339901478,null,[']'],2212.03863v2
+Object Detection,LVIS v1.0 val,"Eff-B7 NAS-FPN (1280, Copy-Paste pre-training))",41.6,0.34975369458128086,null,[']'],2012.07177v2
+Object Detection,LVIS v1.0 val,R101-MaskRCNN-LOCE,29.0,0.03940886699507393,null,[']'],2108.07507v2
+Object Detection,LVIS v1.0 val,R50-MaskRCNN-LOCE,27.4,0.0,null,[']}]</script'],2108.07507v2
+Object Detection,GEN1 Detection,ERGO-12,50.4,1.0,null,[']'],2304.13455v4
+Object Detection,GEN1 Detection,GET-T,47.9,0.9299719887955182,null,[']'],2310.02642v1
+Object Detection,GEN1 Detection,S5-ViT-B,47.4,0.9159663865546218,null,[']'],2402.15584v3
+Object Detection,GEN1 Detection,RVT-B,47.2,0.9103641456582632,null,[']'],2212.05598v3
+Object Detection,GEN1 Detection,HMNet-L3,47.1,0.9075630252100841,null,[']'],2305.17852v1
+Object Detection,GEN1 Detection,RVT-S,46.5,0.8907563025210083,null,[']'],2212.05598v3
+Object Detection,GEN1 Detection,S4D-ViT-B,46.2,0.8823529411764706,null,[']'],2402.15584v3
+Object Detection,GEN1 Detection,RVT-T,44.1,0.8235294117647058,null,[']'],2212.05598v3
+Object Detection,GEN1 Detection,Spiking DenseNet121-124+SSD,18.9,0.11764705882352938,null,[']'],2205.04339v1
+Object Detection,GEN1 Detection,Spiking VGG-11+SDD,17.4,0.0756302521008403,null,[']'],2205.04339v1
+Object Detection,GEN1 Detection,Spiking MobileNet-64+SSD,14.7,0.0,null,[']}]</script'],2205.04339v1
+Object Detection,SeaDronesSee,Synth Pretrained Faster R-CNN ResNeXt-101-FPN,59.2,1.0,null,[']'],2112.12252v1
+Object Detection,SeaDronesSee,Synth Pretrained Yolo5,59.08,0.9967880085653104,null,[']'],2112.12252v1
+Object Detection,SeaDronesSee,Yolo 5,54.74,0.8806209850107068,null,[']'],2112.12252v1
+Object Detection,SeaDronesSee,Faster R-CNN ResNeXt-101-FPN,54.66,0.8784796573875802,null,[']'],2105.01922v2
+Object Detection,SeaDronesSee,CenterNet Hourglass104,50.32,0.7623126338329764,null,[']'],2105.01922v2
+Object Detection,SeaDronesSee,Synth Pretrained EffDetD0,38.74,0.45235546038543906,null,[']'],2112.12252v1
+Object Detection,SeaDronesSee,EfficientDet D0,37.11,0.4087259100642398,null,[']'],2105.01922v2
+Object Detection,SeaDronesSee,CenterNet ResNet101,36.42,0.3902569593147752,null,[']'],2105.01922v2
+Object Detection,SeaDronesSee,Faster RCNN ResNet50FPN,30.09,0.22082441113490364,null,[']'],2105.01922v2
+Object Detection,SeaDronesSee,CenterNet ResNet18,21.84,0.0,null,[']}]</script'],2105.01922v2
+Object Detection,UA-DETRAC,VSTAM,90.39,1.0,null,[']'],null
+Object Detection,UA-DETRAC,FFAVOD-SpotNet with U-Net,88.1,0.9382582906443784,null,[']'],2109.07298v1
+Object Detection,UA-DETRAC,SpotNet,86.8,0.9032084119708815,null,[']'],2002.05540v2
+Object Detection,UA-DETRAC,CenterNet,83.48,0.8136964141277974,null,[']'],1904.07850v2
+Object Detection,UA-DETRAC,RN-VID,70.57,0.4656241574548394,null,[']'],2003.10898v2
+Object Detection,UA-DETRAC,R-FCN,69.87,0.44675114586141834,null,[']'],1605.06409v2
+Object Detection,UA-DETRAC,Faster R-CNN,58.45,0.1388514424373148,null,[']'],1506.01497v3
+Object Detection,UA-DETRAC,YOLOv2,57.72,0.1191695874898895,null,[']'],1612.08242v1
+Object Detection,UA-DETRAC,3D-DETNet,53.3,0.0,null,[']}]</script'],1801.01769v2
+Object Detection,GRAZPEDWRI-DX,YOLOv8+ResCBAM,65.8,1.0,null,[']'],2402.09329v4
+Object Detection,GRAZPEDWRI-DX,YOLOv9-E,65.62,0.9181818181818214,null,[']'],2403.11249v2
+Object Detection,GRAZPEDWRI-DX,YOLOv9-C,65.57,0.8954545454545434,null,[']'],2403.11249v2
+Object Detection,GRAZPEDWRI-DX,DeepLOC,65.4,0.8181818181818217,null,[']'],2308.12727v1
+Object Detection,GRAZPEDWRI-DX,YOLOv8+ResGAM,65.0,0.6363636363636369,null,[']'],2402.09329v4
+Object Detection,GRAZPEDWRI-DX,YOLOv8+SA,64.3,0.31818181818181684,null,[']'],2402.09329v4
+Object Detection,GRAZPEDWRI-DX,YOLOv8+ECA,64.2,0.27272727272727393,null,[']'],2402.09329v4
+Object Detection,GRAZPEDWRI-DX,YOLOv8+GAM,64.2,0.27272727272727393,null,[']'],2402.09329v4
+Object Detection,GRAZPEDWRI-DX,YOLOv8,63.6,0.0,null,[']}]</script'],2304.05071v5
+Object Detection,UAVDT,PRB-FPN,76.55,1.0,null,[']'],2012.01724v5
+Object Detection,UAVDT,FFAVOD-SpotNet with U-Net,53.76,0.5853347889374091,null,[']'],2109.07298v1
+Object Detection,UAVDT,SpotNet,52.8,0.5678675400291121,null,[']'],2002.05540v2
+Object Detection,UAVDT,RN-VID,39.43,0.3245997088791849,null,[']'],2003.10898v2
+Object Detection,UAVDT,R-FCN,34.35,0.23216885007278026,null,[']'],1804.00518v1
+Object Detection,UAVDT,SSD,33.62,0.21888646288209604,null,[']'],1804.00518v1
+Object Detection,UAVDT,Faster-RCNN,22.32,0.013282387190684143,null,[']'],1804.00518v1
+Object Detection,UAVDT,RON,21.59,0.0,null,[']}]</script'],1804.00518v1
+Object Detection,PASCAL VOC 2012,InternImage-H,97.2,1.0,null,[']'],2211.05778v4
+Object Detection,PASCAL VOC 2012,YOLO-Former,86.01,0.8210745123121203,null,[']'],2401.06244v1
+Object Detection,PASCAL VOC 2012,SSD512 (07+12+COCO),80.0,0.7249760153501759,null,[']'],1512.02325v5
+Object Detection,PASCAL VOC 2012,YOLO,57.9,0.37160217460825073,null,['YOLO'],1506.02640v5
+Object Detection,PASCAL VOC 2012,SDS,50.7,0.25647585545251045,null,[']'],1407.1808v1
+Object Detection,PASCAL VOC 2012,LRPCMP:a2+,42.1,0.11896386312759841,null,[']'],1910.09840v3
+Object Detection,PASCAL VOC 2012,LRPCMP:a1+,34.66,0.0,null,[']}]</script'],1910.09840v3
+Object Detection,NAO,Mask RCNN R50,15.2,1.0,null,[']'],2111.04204v1
+Object Detection,NAO,EfficientDet-D4,15.0,0.9615384615384617,null,[']'],2111.04204v1
+Object Detection,NAO,EfficientDet-D7,13.6,0.6923076923076923,null,[']'],2111.04204v1
+Object Detection,NAO,Faster RCNN,13.5,0.6730769230769231,null,[']'],2111.04204v1
+Object Detection,NAO,EfficientDet-D2,12.8,0.5384615384615387,null,[']'],2111.04204v1
+Object Detection,NAO,RetinaNet-R50,11.1,0.2115384615384615,null,[']'],2111.04204v1
+Object Detection,NAO,YOLOv3,10.0,0.0,null,[']}]</script'],2111.04204v1
+Object Detection,TBBR,Swin-T (ImageNet-1k pretrain),45.4,1.0,null,[']'],null
+Object Detection,TBBR,"FSAF (ResNeXt-101, ImageNet-1k pretrain)",38.0,0.690376569037657,null,[']'],null
+Object Detection,TBBR,"Mask R-CNN (ResNet-50-FPN, ImageNet-1k pretrain)",37.0,0.6485355648535566,null,[']'],null
+Object Detection,TBBR,Mask R-CNN (ResNet-50-FPN),30.8,0.38912133891213396,null,[']'],null
+Object Detection,TBBR,"TridentNet (ResNet-50, ImageNet-1k pretrain)",30.0,0.3556485355648536,null,[']'],null
+Object Detection,TBBR,FSAF (ResNeXt-101),24.8,0.1380753138075314,null,[']'],null
+Object Detection,TBBR,TridentNet (ResNet-50),21.5,0.0,null,[']}]</script'],null
+Object Detection,ODinW Full-Shot 13 Tasks,Grounding DINO 1.5 Pro,72.4,1.0,null,[']'],2405.10300v2
+Object Detection,ODinW Full-Shot 13 Tasks,DetCLIPv3,72.1,0.914285714285711,null,[']'],2404.09216v1
+Object Detection,ODinW Full-Shot 13 Tasks,MQ-GLIP-L,71.3,0.6857142857142833,null,[']'],2305.18980v2
+Object Detection,ODinW Full-Shot 13 Tasks,Grounding DINO,70.9,0.5714285714285714,null,[']'],2303.05499v4
+Object Detection,ODinW Full-Shot 13 Tasks,DetCLIPv2,70.4,0.42857142857142855,null,[']'],2304.04514v1
+Object Detection,ODinW Full-Shot 13 Tasks,GLIPv2,70.4,0.42857142857142855,null,[']'],2206.05836v2
+Object Detection,ODinW Full-Shot 13 Tasks,GLIP,68.9,0.0,null,[']}]</script'],2112.03857v2
+Object Detection,PeopleArt,PVT (Pyramid Vision Transformer; trained on PeopleArt and PopArt),49.7,1.0,null,[']'],2301.05124v1
+Object Detection,PeopleArt,TOOD (Task-aligned One-stage Object Detection; trained on PeopleArt and PoPArt),47.8,0.8613138686131383,null,[']'],2301.05124v1
+Object Detection,PeopleArt,PVT (Pyramid Vision Transformer),46.5,0.7664233576642334,null,[']'],2301.05124v1
+Object Detection,PeopleArt,TOOD (Task-aligned One-stage Object Detection),46.1,0.7372262773722628,null,[']'],2301.05124v1
+Object Detection,PeopleArt,FasterRCNN (trained on StyleCOCO),36.0,0.0,null,[']'],2102.06529v2
+Object Detection,BigDetection val,Cascade R-CNN (R50-FPN),24.1,1.0,null,[']'],2203.13249v1
+Object Detection,BigDetection val,CenterNet2 (R50-FPN),23.1,0.9305555555555556,null,[']'],2203.13249v1
+Object Detection,BigDetection val,Faster R-CNN (R50-FPN),19.4,0.6736111111111109,null,[']'],2203.13249v1
+Object Detection,BigDetection val,Faster R-CNN (R50),18.9,0.6388888888888887,null,[']'],2203.13249v1
+Object Detection,BigDetection val,Deformable DETR (R50),13.1,0.2361111111111111,null,[']'],2203.13249v1
+Object Detection,BigDetection val,YOLOv3 (D53),9.7,0.0,null,[']}]</script'],2203.13249v1
+Object Detection,KITTI Cars Easy,Patches,87.87,1.0,null,[']'],1910.04093v1
+Object Detection,KITTI Cars Easy,PointRCNN Shi et al. (2019),85.94,0.9298946603705046,null,[']'],1812.04244v2
+Object Detection,KITTI Cars Easy,Roarnet,83.71,0.8488921176897926,null,[']'],1811.03818v1
+Object Detection,KITTI Cars Easy,Vote3Deep,76.79,0.5975299673083909,null,[']'],1609.06666v2
+Object Detection,KITTI Cars Easy,VeloFCN,60.34,0.0,null,[']}]</script'],1608.07916v1
+Object Detection,KITTI Cars Hard,Patches,68.91,1.0,null,[']'],1910.04093v1
+Object Detection,KITTI Cars Hard,PointRCNN Shi et al. (2019),68.32,0.9774551012609858,null,[']'],1812.04244v2
+Object Detection,KITTI Cars Hard,Vote3Deep,63.23,0.7829575850210164,null,[']'],1609.06666v2
+Object Detection,KITTI Cars Hard,F-PointNet,62.19,0.7432174245319068,null,[']'],1711.08488v2
+Object Detection,KITTI Cars Hard,VeloFCN,42.74,0.0,null,[']}]</script'],1608.07916v1
+Object Detection,iSAID,PANet++,47.0,1.0,null,[']'],1905.12886v2
+Object Detection,iSAID,PANet+,46.31,0.9342857142857145,null,[']'],1905.12886v2
+Object Detection,iSAID,PANet,41.66,0.4914285714285711,null,[']'],1803.01534v4
+Object Detection,iSAID,Mask-RCNN+,37.18,0.06476190476190473,null,[']'],1703.06870v3
+Object Detection,iSAID,Mask-RCNN,36.5,0.0,null,[']}]</script'],1703.06870v3
+Object Detection,Waymo Open Dataset,LeapMotor_Det,70.41,1.0,null,[']'],2106.08713v1
+Object Detection,Waymo Open Dataset,YOLOR_TensorRT (Ours),69.72,0.8899521531100482,null,[']'],2106.08713v1
+Object Detection,Waymo Open Dataset,YOLOR_P6_TRT,69.56,0.8644338118022337,null,[']'],2106.08713v1
+Object Detection,Waymo Open Dataset,dereyly_self_ensemble,65.65,0.24082934609250495,null,[']'],2106.08713v1
+Object Detection,Waymo Open Dataset,YOLO_v5,64.14,0.0,null,[']}]</script'],2106.08713v1
+Object Detection,AI-TOD,DetectoRS + NWD (ResNet-50-FPN),20.8,1.0,null,[']'],2110.13389v2
+Object Detection,AI-TOD,DetectoRS (ResNet-50-FPN),14.8,0.14285714285714285,null,[']'],2006.02334v2
+Object Detection,AI-TOD,M-CenterNet (DLA-34),14.5,0.0999999999999999,null,[']'],null
+Object Detection,AI-TOD,Cascade R-CNN (ResNet-50-FPN),13.8,0.0,null,[']'],1712.00726v1
+Object Detection,LVIS v1.0 minival,Co-DETR (single-scale),72.0,1.0,null,[']'],2211.12860v5
+Object Detection,LVIS v1.0 minival,Grounding DINO 1.5 Pro,68.1,0.6803278688524587,null,[']'],2405.10300v2
+Object Detection,LVIS v1.0 minival,"M3I Pre-training (InternImage-H, single-scale)",65.8,0.49180327868852447,null,[']'],2211.09807v2
+Object Detection,LVIS v1.0 minival,InternImage-H,65.8,0.49180327868852447,null,[']'],2211.05778v4
+Object Detection,LVIS v1.0 minival,GLIPv2,59.8,0.0,null,[']}]</script'],2206.05836v2
+Object Detection,India Driving Dataset,YOLOv5x,69.7,1.0,null,[']'],2304.06925v2
+Object Detection,India Driving Dataset,hybrid incremental net,68.43,0.975,null,[']'],1909.13080v1
+Object Detection,India Driving Dataset,YOLO-Drone,40.13,0.4179133858267716,null,[']'],2304.06925v2
+Object Detection,India Driving Dataset,,18.900000000000006,0.0,null,[']}]</script'],2203.16220v1
+Object Detection,KITTI Cars Moderate,Patches,77.16,1.0,null,[']'],1910.04093v1
+Object Detection,KITTI Cars Moderate,PointRCNN Shi et al. (2019),75.76,0.9527824620573359,null,[']'],1812.04244v2
+Object Detection,KITTI Cars Moderate,Vote3Deep,68.24,0.6991568296795952,null,[']'],1609.06666v2
+Object Detection,KITTI Cars Moderate,VeloFCN,47.51,0.0,null,[']}]</script'],1608.07916v1
+Object Detection,WiderPerson,"IterDet (Faster RCNN, ResNet50, 2 iterations)",91.95,1.0,null,['ResNet'],2005.05708v2
+Object Detection,WiderPerson,"PS-RCNN (Faster RCNN, ResNet50)",89.96,0.19105691056910462,null,['ResNet'],2003.07080v1
+Object Detection,WiderPerson,"IterDet (Faster RCNN, ResNet50, 1 iteration)",89.49,0.0,null,['ResNet'],2005.05708v2
+Object Detection,WaterScenes,YOLOv8-M,59.2,1.0,null,[']'],2307.06505v3
+Object Detection,WaterScenes,YOLOX-M,57.8,0.8771929824561399,null,[']'],2107.08430v2
+Object Detection,WaterScenes,Achelous-MV-GDF-S2,56.0,0.719298245614035,null,[']'],2307.07102v1
+Object Detection,WaterScenes,Faster R-CNN,47.8,0.0,null,[']}]</script'],2307.06505v3
+Object Detection,Visual Genome,YOLOv5x6,32.7,1.0,null,[']'],null
+Object Detection,Visual Genome,MSDN,7.43,0.074697912852435,null,[']'],1707.09700v2
+Object Detection,Visual Genome,AP (%),5.39,0.0,null,[']}]</script'],1511.07571v1
+Object Detection,MS COCO,MOAT-3 22K+1K,59.2,1.0,null,[']'],2210.01820v2
+Object Detection,MS COCO,MOAT-2,58.5,0.0,null,[']'],2210.01820v2
+Object Detection,VisDrone-DET2019,PP-YOLOE-plus,66.7,1.0,null,[']'],2203.16250v3
+Object Detection,VisDrone-DET2019,CZ Det,58.3,0.6818181818181817,null,[']'],2303.08747v1
+Object Detection,VisDrone-DET2019,Cascade R-CNN + NWD,40.3,0.0,null,[']}]</script'],2110.13389v2
+Object Detection,FlickrLogos-32,Logo-Yolo,76.11,1.0,null,[']'],2008.05359v1
+Object Detection,FlickrLogos-32,DeepLogo (VGG),74.4,0.3448275862068988,null,[']'],1510.02131v1
+Object Detection,FlickrLogos-32,DeepLogo (AlexNet),73.5,0.0,null,[']}]</script'],1510.02131v1
+Object Detection,VEDAI,GHOST,80.31,1.0,null,[']'],2301.00131v1
+Object Detection,VEDAI,ICAFusion,76.62,0.2931034482758624,null,[']'],2308.07504v1
+Object Detection,VEDAI,SuperYOLO,75.09,0.0,null,[']}]</script'],2209.13351v2
+Object Detection,OoDIS,UGainS,0.0,nan,null,"['aux data', 'aux model']",2308.02046v1
+Object Detection,OoDIS,Mask2Anomaly,0.0,nan,null,['aux data'],2307.13316v1
+Object Detection,OoDIS,U3HS,0.0,nan,null,[']}]</script'],2209.05407v4
+Object Detection,SIXray,LRPz,99.987,1.0,null,[']'],1910.09840v3
+Object Detection,SIXray,Optim [39] Lpixel,99.927,0.0,null,[']}]</script'],2108.03798v2
+Object Detection,nuScenes,BIRANet(RGB+Radar),76.9,1.0,null,[']'],2008.13642v1
+Object Detection,nuScenes,RANet(Radar),73.3,0.0,null,[']}]</script'],2008.13642v1
+Object Detection,PASCAL VOC 10%,DETReg (MDef-DETR),58.78,1.0,null,[']'],2111.11430v6
+Object Detection,PASCAL VOC 10%,DETReg (ours),51.4,0.0,null,[']}]</script'],2106.04550v5
+Object Detection,MSCOCO,PP-PicoDet-L,40.9,1.0,null,[']'],2111.00902v1
+Object Detection,MSCOCO,YOLOv5s,37.2,0.7628205128205131,null,[']'],null
+Object Detection,MSCOCO,PP-PicoDet-M,36.6,0.7243589743589745,null,[']'],null
+Object Detection,MSCOCO,YOLOX-tiny,32.8,0.4807692307692306,null,[']'],null
+Object Detection,MSCOCO,YOLOX-Nano,25.8,0.032051282051282055,null,[']'],null
+Object Detection,MSCOCO,NanoDet-M,25.3,0.0,null,[']'],null
+Object Detection,Drone vs Bird,OBSS YOLOv5+Track Boosting (Including Synthetic Data),79.4,1.0,null,[']'],2111.12389v5
+Object Detection,Drone vs Bird,OBSS YOLOv5+Track Boosting,76.1,0.0,null,[']}]</script'],2111.12389v5
+Object Detection,SpaceNet 2,YOLT,0.6,1.0,null,[']'],1807.01232v3
+Object Detection,SpaceNet 2,Multi-Task Network Cascades,0.57,0.0,null,[']}]</script'],1807.01232v3
+Object Detection,ODinW Full-shot 35 Tasks,Grounding DINO 1.5 Pro,72.4,1.0,null,[']'],2405.10300v2
+Object Detection,ODinW Full-shot 35 Tasks,GLIP-T,62.6,0.0,null,[']}]</script'],2204.08790v6
+Object Detection,Manga109,DASS-Detector (YOLOX XL),87.93,1.0,null,[']'],2211.10641v2
+Object Detection,Manga109,DASS-Detector (YOLOX Tiny),87.46,0.0,null,[']}]</script'],2211.10641v2
+Object Detection,BDD100K val,PP-YOLOE,59.7,1.0,null,[']'],2203.16250v3
+Object Detection,BDD100K val,hybrid incremental net,45.7,0.0,null,[']}]</script'],1909.13080v1
+Object Detection,OpenImages-v6,ScaleDet,76.2,1.0,null,[']'],2306.04849v1
+Object Detection,OpenImages-v6,InternImage-H,74.1,0.0,null,[']}]</script'],2211.05778v4
+Object Detection,Pascal VOC to Clipart1K,MILA,49.9,1.0,null,[']'],2309.01086v1
+Object Detection,Pascal VOC to Clipart1K,CDDMSL,40.4,0.0,null,[']}]</script'],2309.13525v1
+Object Detection,IndustReal,YoloV8,64.1,1.0,null,[']'],2310.17323v1
+Object Detection,IndustReal,YoloV8 (synthetic data only),57.5,0.0,null,[']}]</script'],2310.17323v1
+Object Detection,BDD100K,CDDMSL,27.1,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,PASCAL Part 2010 - Animals,Attention-based Joint Detection of Object and Semantic Part,87.5,1.0,null,[']}]</script'],2007.02419v1
+Object Detection,SUN-RGBD val,CDSSD,7,1.0,null,[']}]</script'],1806.10787v1
+Object Detection,KITTI Pedestrians Easy,Vote3Deep,68.39,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,KITTI Pedestrians Moderate,Vote3Deep,55.37,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,KITTI Pedestrians Hard,Vote3Deep,52.59,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,KITTI Cyclists Easy,Vote3Deep,79.92,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,KITTI Cyclists Moderate,Vote3Deep,67.88,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,KITTI Cyclists Hard,Vote3Deep,62.98,1.0,null,[']}]</script'],1609.06666v2
+Object Detection,Extragalactic Planetary Nebulae,PNe within NGC1380 \u0026 NGC1404,-61,1.0,null,[']}]</script'],null
+Object Detection,COCO+,RepPoints + Self-adaptation,28.4,1.0,null,[']}]</script'],2011.08529v4
+Object Detection,Waymo 2D detection all_ns test,UniverseNet,67.42,1.0,null,[']}]</script'],2103.14027v3
+Object Detection,DeepTrash,YOLOv5,0.856,1.0,null,['YOLO'],2105.01882v4
+Object Detection,MJU-Waste,EfficientDet-D2,97.9,1.0,null,[']}]</script'],2105.06808v1
+Object Detection,UAVVaste,EfficientDet-D2,74.1,1.0,null,[']}]</script'],2105.06808v1
+Object Detection,Extended TACO-1,EfficientDet-D2,56.8,1.0,null,[']}]</script'],2105.06808v1
+Object Detection,Drinking Waste Classification,EfficientDet-D2,99.4,1.0,null,[']}]</script'],2105.06808v1
+Object Detection,Extended TACO-7,EfficientDet-D2,16.2,1.0,null,[']}]</script'],2105.06808v1
+Object Detection,A2D,RL [10] Lpixel,5.8,1.0,null,[']}]</script'],2108.03798v2
+Object Detection,STN PLAD,MS-PAD,89.2,1.0,null,"['VGG', 'SSD']",2108.07944v3
+Object Detection,A Dataset of Multispectral Potato Plants Images,Retina-UNet-Ag,0.589,1.0,null,[']}]</script'],2106.07770v3
+Object Detection,SpaceNet 1,YOLT,0.21,1.0,null,[']}]</script'],1807.01232v3
+Object Detection,AquaTrash,Aquavision,0.814,1.0,null,[']}]</script'],null
+Object Detection,ELEVATER,GLIP-T,62.6,1.0,null,[']}]</script'],2204.08790v6
+Object Detection,Object Detection on COCO minival,"DaViT-T (Mask R-CNN, 36 epochs)",49.9,1.0,null,[']}]</script'],2204.03645v1
+Object Detection,Cityscapes to Foggy Cityscapes,CDDMSL,54.3,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,CrowdHuman,S-RCNN+Ours,92.5,1.0,null,[']}]</script'],2203.07669v3
+Object Detection,CityPersons,V2F-Net,89.92,1.0,null,[']}]</script'],2104.03106v1
+Object Detection,SHEL5K,YOLO,0.882,1.0,null,[']}]</script'],null
+Object Detection,LVIS v1.0,ScaleDet,50.7,1.0,null,[']}]</script'],2306.04849v1
+Object Detection,Objects365,ScaleDet,46.8,1.0,null,[']}]</script'],2306.04849v1
+Object Detection,VisDrone- 1% labeled data,SSOD + Crop (L + U),17.21,1.0,null,[']}]</script'],2308.05032v1
+Object Detection,VisDrone - 5% labeled data,SSOD + Crop (L + U),23.57,1.0,null,[']}]</script'],2308.05032v1
+Object Detection,VisDrone - 10% labeled data,SSOD + Crop (L + U),27.46,1.0,null,[']}]</script'],2308.05032v1
+Object Detection,Multispectral Dataset,TarDAL,78,1.0,null,[']}]</script'],2203.16220v1
+Object Detection,PASCAL VOC,TinyissimoYOLO-v8,839,1.0,null,[']}]</script'],2311.01057v2
+Object Detection,MSCOCO,DAS,60.3,1.0,null,[']}]</script'],2311.12091v1
+Object Detection,LDD,R^3-CNN,22.7,1.0,null,[']}]</script'],2206.10192v1
+Object Detection,Watercolor2k,CDDMSL,49.8,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,Comic2k,CDDMSL,45.9,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,Clipart1k,CDDMSL,39.8,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,PASCAL VOC to Watercolor2k,CDDMSL,49.7,1.0,null,[']}]</script'],2309.13525v1
+Object Detection,PASCAL VOC to Comic2k,CDDMSL,46.3,1.0,null,[']}]</script'],2309.13525v1

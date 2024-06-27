@@ -1,0 +1,1093 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id,max,min,difficulty
+3D Human Pose Estimation,3D Poses in the Wild Challenge,BeyondWeak,80.31,1.0,,[']'],2009.06549v1,92.7,-18.700000000000003,0.8887791741472172
+3D Human Pose Estimation,3DOH50K,OOH,41.5,1.0,,[']}]</script'],,92.7,-18.700000000000003,0.5403949730700179
+3D Human Pose Estimation,3DPW,KITRO (w/ 2D GT),46.56,1.0,,[']'],2405.19833v1,92.7,-18.700000000000003,0.5858168761220826
+3D Human Pose Estimation,AGORA,NIKI (Twist-and-Swing),29.8,1.0,,[']'],2305.08590v1,92.7,-18.700000000000003,0.4353680430879713
+3D Human Pose Estimation,AIST++,RobustCap,66.9,1.0,,[']'],2309.00310v1,92.7,-18.700000000000003,0.7684021543985637
+3D Human Pose Estimation,CHALL H80K,ResNet,44.7,1.0,,['ResNet'],1809.06079v1,92.7,-18.700000000000003,0.5691202872531419
+3D Human Pose Estimation,DHP19,Point Transformer,26.629999999999995,1.0,,[']'],2206.04511v2,92.7,-18.700000000000003,0.4069120287253141
+3D Human Pose Estimation,EMDB,TRAM,54.3,1.0,,[']'],2403.17346v1,92.7,-18.700000000000003,0.6552962298025135
+3D Human Pose Estimation,Geometric Pose Affordance,ResNet-F,84.8,1.0,,[']'],1905.07718v2,92.7,-18.700000000000003,0.9290843806104129
+3D Human Pose Estimation,H3WB,SemGAN,54.61,1.0,,['2D-to-3D'],2406.01196v1,92.7,-18.700000000000003,0.6580789946140035
+3D Human Pose Estimation,HSPACE,T-THUNDR (HITI + HSPACE),29.0,1.0,,[']}]</script'],2112.12867v2,92.7,-18.700000000000003,0.4281867145421903
+3D Human Pose Estimation,Human3.6M,BCP+VHA R152 384x384,84.4,1.0,,[']'],2306.16615v1,92.7,-18.700000000000003,0.9254937163375224
+3D Human Pose Estimation,HumanEva-I,"GLA-GCN (T=27, GT)",90.8,1.0,,[']'],2307.05853v2,92.7,-18.700000000000003,0.9829443447037701
+3D Human Pose Estimation,JTA,Dual network,58.15,1.0,,[']}]</script'],2205.00748v3,92.7,-18.700000000000003,0.6898563734290843
+3D Human Pose Estimation,MPI-INF-3DHP,MotionAGFormer-L (T=81),83.8,1.0,,[']'],2310.16288v1,92.7,-18.700000000000003,0.9201077199281866
+3D Human Pose Estimation,Panoptic,TesseTrack Multi-View (5 views),92.7,1.0,,[']'],,92.7,-18.700000000000003,1.0
+3D Human Pose Estimation,RICH,IPMAN-R,21.0,1.0,,[']'],2303.18246v3,92.7,-18.700000000000003,0.35637342908438063
+3D Human Pose Estimation,SLOPER4D,LiDAR-HMR,49.3,1.0,,[']'],2311.11971v1,92.7,-18.700000000000003,0.6104129263913823
+3D Human Pose Estimation,SPEC-MTP,W-HMR,-18.700000000000003,1.0,,[']'],2311.17460v3,92.7,-18.700000000000003,0.0
+3D Human Pose Estimation,SkiPose,MetaPose (S1+S2),47.0,1.0,,[']'],2108.04869v2,92.7,-18.700000000000003,0.5897666068222621
+3D Human Pose Estimation,Surreal,VirtualMarker,63.1,1.0,,[']'],2303.11726v3,92.7,-18.700000000000003,0.7342908438061042
+3D Human Pose Estimation,Total Capture,AdaFuse,80.8,1.0,,[']'],2010.13302v1,92.7,-18.700000000000003,0.893177737881508
+3D Human Pose Estimation,UBody,Multi-HMR,43.6,1.0,,[']'],2402.14654v1,92.7,-18.700000000000003,0.559245960502693
+3D Human Pose Estimation,Waymo Open Dataset,VoxelKP,91.13,1.0,,[']}]</script'],2312.08871v1,92.7,-18.700000000000003,0.9859066427289048
+3D Reconstruction,3DPeople,SVCP,10.0,1.0,,[']}]</script'],2205.04087v1,99.72,0.642,0.09445083671450777
+3D Reconstruction,ApolloCar3D,GSNet,20.21,1.0,,[']}]</script'],2007.13124v1,99.72,0.642,0.1975009588405095
+3D Reconstruction,DTU,MVSFormer++,99.72,1.0,,[']'],2401.11673v1,99.72,0.642,1.0
+3D Reconstruction,Data3D−R2N2,AttSets,0.642,1.0,,[']'],1808.00758v2,99.72,0.642,0.0
+3D Reconstruction,Scan2CAD,Scan2CAD,31.68,1.0,,[']'],1811.11187v1,99.72,0.642,0.3132683340398474
+3D Reconstruction,ScanNet,Atlas (finetuned),89.4,1.0,,[']}]</script'],2003.10432v3,99.72,0.642,0.8958396414945801
+3D Reconstruction,ShapeNet,MD-GON,92.8,1.0,,[']'],2311.12125v1,99.72,0.642,0.9301560386765982
+3D Semantic Segmentation,3D Platelet EM,2D\u20133D + 3 \u00d7 3 \u00d7 3,0.446,1.0,,[']}]</script'],,82.6,0.446,0.0
+3D Semantic Segmentation,DALES,KPConv,81.1,1.0,,[']'],1904.08889v2,82.6,0.446,0.9817416072254547
+3D Semantic Segmentation,ECLAIR,Res16UNet14C,0.845,1.0,,[']}]</script'],2404.10699v1,82.6,0.446,0.004856732478029067
+3D Semantic Segmentation,KITTI-360,DeepViewAgg,58.3,1.0,,[']'],2204.07548v2,82.6,0.446,0.7042140370523651
+3D Semantic Segmentation,OpenTrench3D,PointVector-XL,76.5,1.0,,[']'],2205.10528v3,82.6,0.446,0.9257492027168489
+3D Semantic Segmentation,PartNet,CSN,62.1,1.0,,[']'],2003.09053v6,82.6,0.446,0.7504686320812134
+3D Semantic Segmentation,RELLIS-3D Dataset,salsanext,43.07,1.0,,[']'],2011.12954v4,82.6,0.446,0.5188304890814812
+3D Semantic Segmentation,S3DIS,OneFormer3D,72.4,1.0,,[']'],2311.14405v1,82.6,0.446,0.8758429291330917
+3D Semantic Segmentation,STPLS3D,KpConv,53.73,1.0,,[']'],1904.08889v2,82.6,0.446,0.6485868003992502
+3D Semantic Segmentation,ScanNet++,PTv3 + PPT,0.464,1.0,,[']'],2312.10035v2,82.6,0.446,0.0002191007132945446
+3D Semantic Segmentation,ScanNet200,PTv3 + PPT,39.3,1.0,,[']'],2312.10035v2,82.6,0.446,0.4729410619081238
+3D Semantic Segmentation,ScribbleKITTI,IGNet,62.0,1.0,,[']'],2311.15605v1,82.6,0.446,0.7492514058962437
+3D Semantic Segmentation,SemanticKITTI,PTv3 + PPT,75.5,1.0,,[']'],2312.10035v2,82.6,0.446,0.913576940867152
+3D Semantic Segmentation,SensatUrban,LCPFormer,63.4,1.0,,[']'],2210.12755v2,82.6,0.446,0.7662925724858194
+3D Semantic Segmentation,nuScenes,PTv2,82.6,1.0,,[']'],2210.05666v2,82.6,0.446,1.0
+Action Recognition,AVA v2.1,STAR/L,41.7,1.0,,[']'],2304.12160v1,99.6,3.05,0.40031071983428285
+Action Recognition,AVA v2.2,"LART (Hiera-H, K700 PT+FT)",45.1,1.0,,[']'],2304.01199v2,99.6,3.05,0.4355256343863284
+Action Recognition,ActionNet-VE,Baseline,90.27,1.0,,[']}]</script'],,99.6,3.05,0.9033661315380632
+Action Recognition,ActivityNet,Text4Vis (w/ ViT-L),96.9,1.0,,[']'],2207.01297v4,99.6,3.05,0.9720352149145521
+Action Recognition,Animal Kingdom,MSQNet,73.1,1.0,,[']'],2307.10763v3,99.6,3.05,0.725530813050233
+Action Recognition,BAR,DebiAN,69.88,1.0,,[']'],2207.10077v2,99.6,3.05,0.692180217503884
+Action Recognition,Charades,MSQNet,47.57,1.0,,[']}]</script'],2307.10763v3,99.6,3.05,0.4611082340756085
+Action Recognition,Charades-Ego,"LaViLa (Finetuned, TimeSformer-L)",36.1,1.0,,[']'],2212.04501v1,99.6,3.05,0.34230968410150187
+Action Recognition,Diving-48,Video-FocalNet-B,90.8,1.0,,[']'],2307.06947v4,99.6,3.05,0.9088555152770585
+Action Recognition,Drone-Action,FAR,92.7,1.0,,[']'],2203.10694v2,99.6,3.05,0.9285344381149664
+Action Recognition,EPIC-KITCHENS-100,Avion (ViT-L),54.4,1.0,,[']'],2309.16669v1,99.6,3.05,0.5318487830139824
+Action Recognition,EPIC-KITCHENS-55,TSM+W3 - full res,34.2,1.0,,[']}]</script'],2004.01278v1,99.6,3.05,0.322630761263594
+Action Recognition,EgoGesture,TSM+W3,94.3,1.0,,[']}]</script'],2004.01278v1,99.6,3.05,0.9451061626100467
+Action Recognition,HAA500,TSN,64.4,1.0,,[']'],2009.05224v2,99.6,3.05,0.6354220611082342
+Action Recognition,HACS,InternVideo2-6B,97.0,1.0,,[']'],2403.15377v1,99.6,3.05,0.9730709476954946
+Action Recognition,HMDB-51,VideoMAE V2-g,88.1,1.0,,[']'],2303.16727v2,99.6,3.05,0.8808907301916106
+Action Recognition,HMDB51,MSQNet,93.25,1.0,,[']}]</script'],2307.10763v3,99.6,3.05,0.9342309684101502
+Action Recognition,Hockey,MSQNet,3.05,1.0,,[']}]</script'],2307.10763v3,99.6,3.05,0.0
+Action Recognition,ICVL-4,OHA-GCN (Two stream; HP + OHP-hands + informative samples),91.86,1.0,,['GCN'],1901.06882v1,99.6,3.05,0.9198342827550492
+Action Recognition,IRD,OHA-GCN (Two stream; HP + OHP-hands + informative samples),80.11,1.0,,['GCN'],1901.06882v1,99.6,3.05,0.7981356809943035
+Action Recognition,IndustReal,MViT-V2,65.25,1.0,,[']}]</script'],2310.17323v1,99.6,3.05,0.6442257897462456
+Action Recognition,Jester (Gesture Recognition),DirecFormer,98.15,1.0,,[']'],2203.10233v1,99.6,3.05,0.9849818746763336
+Action Recognition,MECCANO,SlowFast,42.85,1.0,,[']}]</script'],2010.05654v1,99.6,3.05,0.41222164681512174
+Action Recognition,MTL-AQA,C3D-AVG,96.32,1.0,,[']}]</script'],1904.04346v2,99.6,3.05,0.9660279647850855
+Action Recognition,Mimetics,JMRN,40.0,1.0,,[']'],2010.08164v2,99.6,3.05,0.38270326255826
+Action Recognition,N-UCLA,DVANet,94.4,1.0,,[']}]</script'],2312.05719v1,99.6,3.05,0.9461418953909893
+Action Recognition,NEC Drone,FAR,71.46,1.0,,[']}]</script'],2203.10694v2,99.6,3.05,0.7085447954427757
+Action Recognition,NTU RGB+D,DSCNet (RGB + Pose),97.4,1.0,,[']'],,99.6,3.05,0.9772138788192647
+Action Recognition,NTU RGB+D 120,DSCNet (RGB + Pose),96.7,1.0,,[']'],,99.6,3.05,0.969963749352667
+Action Recognition,Okutama-Action,PLAR with bbox (Ours),75.93,1.0,,[']'],2305.12437v2,99.6,3.05,0.7548420507509064
+Action Recognition,Penn Action,STAR-Transformer (RGB + Pose),98.7,1.0,,['Transformer'],2210.07503v1,99.6,3.05,0.9906784049715175
+Action Recognition,RareAct,\ud83e\udda9 Flamingo,60.8,1.0,,['zero-shot'],2204.14198v2,99.6,3.05,0.5981356809943035
+Action Recognition,Real Life Violence Situations Dataset,DeVTr,96.25,1.0,,[']'],,99.6,3.05,0.9653029518384257
+Action Recognition,RoCoG-v2,AZTR (Ours),40.2,1.0,,[']}]</script'],2303.01589v1,99.6,3.05,0.38477472812014507
+Action Recognition,Skeleton-Mimetics,Structured Keypoint Pooling,21.2,1.0,,[']}]</script'],2303.15270v1,99.6,3.05,0.1879854997410668
+Action Recognition,Something-Something V1,InternVideo,70.0,1.0,,['Self-Supervised Learning'],2212.03191v2,99.6,3.05,0.6934230968410151
+Action Recognition,Something-Something V2,InternVideo2-6B,77.5,1.0,,[']'],2403.15377v1,99.6,3.05,0.7711030554117039
+Action Recognition,Sports-1M,ip-CSN-152 (RGB),75.5,1.0,,[']'],1904.02811v4,99.6,3.05,0.7503883997928535
+Action Recognition,THUMOS14,MSQNet,83.16,1.0,,[']}]</script'],2307.10763v3,99.6,3.05,0.8297255308130502
+Action Recognition,THUMOS’14,BMN,38.8,1.0,,[']'],1907.09702v1,99.6,3.05,0.3702744691869498
+Action Recognition,UAV Human,FAR,38.6,1.0,,[']}]</script'],2203.10694v2,99.6,3.05,0.3682030036250648
+Action Recognition,UAV-Human,PMI Sampler,55.0,1.0,,[']'],2304.06866v2,99.6,3.05,0.5380631796996376
+Action Recognition,UCF 101,R2+1D-BERT,98.69,1.0,,[']}]</script'],2008.01232v3,99.6,3.05,0.9905748316934231
+Action Recognition,UCF-101,DMC-Net (ResNet-18),90.9,1.0,,[']'],1901.03460v3,99.6,3.05,0.9098912480580011
+Action Recognition,UCF101,VideoMAE V2-g,99.6,1.0,,[']'],2303.16727v2,99.6,3.05,1.0
+Action Recognition,UTD-MHAD,Action Machine (RGB only),92.5,1.0,,[']}]</script'],1812.05770v2,99.6,3.05,0.9264629725530814
+Action Recognition,VIRAT Ground 2.0,DHCM,66.45,1.0,,[']}]</script'],,99.6,3.05,0.6566545831175558
+Action Recognition,Volleyball,PoseC3D (Pose Only),91.3,1.0,,[']'],2104.13586v2,99.6,3.05,0.9140341791817711
+Action Recognition,Win-Fail Action Understanding,2DCNN+TRN,75.74,1.0,,['DCN'],2102.07355v1,99.6,3.05,0.7528741584671155
+Action Recognition,miniSports,IF+MD+RGB-R (ResNet-18),74.9,1.0,,['ResNet'],1904.04289v2,99.6,3.05,0.7441740031071985
+Anomaly Detection,ADNI,Brainomaly,0.655,1.0,,[']}]</script'],2302.09200v3,99.94,0.0999999999999943,0.005558894230769287
+Anomaly Detection,AG News,DATE,90.0,1.0,,[']}]</script'],2104.05591v1,99.94,0.0999999999999943,0.9004407051282052
+Anomaly Detection,ASSIRA Cat Vs Dog,Shell-based Anomaly (supervisered),0.0999999999999943,1.0,,[']}]</script'],,99.94,0.0999999999999943,0.0
+Anomaly Detection,AeBAD-S,MMR,84.7,1.0,,[']'],2304.02216v2,99.94,0.0999999999999943,0.8473557692307693
+Anomaly Detection,AeBAD-V,MMR,78.2,1.0,,[']'],2304.02216v2,99.94,0.0999999999999943,0.7822516025641026
+Anomaly Detection,Anomaly Detection on Anomaly Detection on Unlabeled ImageNet-30 vs Flowers-102,PsudoLabels CLIP ViT,98.3,1.0,,[']'],2112.07662v2,99.94,0.0999999999999943,0.983573717948718
+Anomaly Detection,Anomaly Detection on Unlabeled CIFAR-10 vs LSUN (Fix),PsudoLabels ViT,99.1,1.0,,[']'],2112.07662v2,99.94,0.0999999999999943,0.9915865384615384
+Anomaly Detection,Anomaly Detection on Unlabeled ImageNet-30 vs CUB-200,PsudoLabels CLIP ViT,99.4,1.0,,[']'],2112.07662v2,99.94,0.0999999999999943,0.9945913461538463
+Anomaly Detection,BTAD,CPR,98.4,1.0,,[']'],2308.06748v1,99.94,0.0999999999999943,0.9845753205128206
+Anomaly Detection,BottleCap,DFC,0.971,1.0,,['VGG'],,99.94,0.0999999999999943,0.008723958333333389
+Anomaly Detection,CIFAR-10,RCALAD,65.7,1.0,,[']}]</script'],2304.07769v3,99.94,0.0999999999999943,0.6570512820512822
+Anomaly Detection,COCO-OOC,GCRN,0.98,1.0,,[']}]</script'],2202.05930v1,99.94,0.0999999999999943,0.008814102564102621
+Anomaly Detection,CUHK Avenue,MULDE-object-centric-micro,94.3,1.0,,"['object-level', 'rgb+flow+pose']",2403.14497v1,99.94,0.0999999999999943,0.9435096153846154
+Anomaly Detection,Cats-and-Dogs,PANDA,97.3,1.0,,[']'],2010.05903v3,99.94,0.0999999999999943,0.9735576923076923
+Anomaly Detection,Census,DevNet,0.828,1.0,,[']}]</script'],1911.08623v1,99.94,0.0999999999999943,0.007291666666666723
+Anomaly Detection,Corridor,Two-stream,78.3,1.0,,"['frame-level', 'rgb-only']",2209.02899v1,99.94,0.0999999999999943,0.7832532051282052
+Anomaly Detection,DIOR,PANDA-OE,95.9,1.0,,[']'],2010.05903v3,99.94,0.0999999999999943,0.9595352564102565
+Anomaly Detection,Fashion-MNIST,GAN based Anomaly Detection in Imbalance Problems,98.6,1.0,,[']'],,99.94,0.0999999999999943,0.9865785256410257
+Anomaly Detection,Fishyscapes,RPL+CoroCL,95.96,1.0,,['DeepLab v3+'],2211.14512v3,99.94,0.0999999999999943,0.960136217948718
+Anomaly Detection,Fishyscapes L&F,cDNP+OE,69.8,1.0,,[']'],2211.06660v2,99.94,0.0999999999999943,0.6981169871794872
+Anomaly Detection,Forest CoverType,DIF,0.972,1.0,,[']}]</script'],2206.06602v4,99.94,0.0999999999999943,0.008733974358974415
+Anomaly Detection,Hyper-Kvasir Dataset,CCD,0.972,1.0,,[']'],2103.03423v2,99.94,0.0999999999999943,0.008733974358974415
+Anomaly Detection,InsPLAD,AttentDifferNet (SENet-AlexNet),94.34,1.0,,[']'],2311.02747v2,99.94,0.0999999999999943,0.9439102564102565
+Anomaly Detection,KDD Cup 1999,RCALAD,95.4,1.0,,[']}]</script'],2304.07769v3,99.94,0.0999999999999943,0.9545272435897437
+Anomaly Detection,KSDD2,SAA+,59.19,1.0,,[']}]</script'],2305.10724v1,99.94,0.0999999999999943,0.5918469551282052
+Anomaly Detection,Kaggle-Credit Card Fraud Dataset,DIF,0.953,1.0,,[']}]</script'],2206.06602v4,99.94,0.0999999999999943,0.008543669871794928
+Anomaly Detection,LAG,CCD,0.874,1.0,,[']'],2103.03423v2,99.94,0.0999999999999943,0.007752403846153903
+Anomaly Detection,Leave-One-Class-Out CIFAR-10,BCE-CLIP,98.4,1.0,,"['CLIP Pre-trained', 'Outlier Exposure']",2205.11474v2,99.94,0.0999999999999943,0.9845753205128206
+Anomaly Detection,Leave-One-Class-Out ImageNet-30,BCE-CLIP (OE),99.3,1.0,,"['Outlier Exposure', 'CLIP Pre-trained']",2205.11474v2,99.94,0.0999999999999943,0.9935897435897436
+Anomaly Detection,Lost and Found,Mask2Anomaly,86.59,1.0,,['Vision Transformer'],2307.13316v1,99.94,0.0999999999999943,0.8662860576923077
+Anomaly Detection,MIT-BIH Arrhythmia Database,RCALAD,60.6,1.0,,[']}]</script'],2304.07769v3,99.94,0.0999999999999943,0.6059695512820513
+Anomaly Detection,MNIST,GAN-based Anomaly Detection in Imbalance\nProblems,99.7,1.0,,[']'],,99.94,0.0999999999999943,0.9975961538461539
+Anomaly Detection,MNIST-test,OGNET,3.299999999999997,1.0,,[']}]</script'],2004.07657v4,99.94,0.0999999999999943,0.032051282051282076
+Anomaly Detection,MVTEC 3D-AD,CDO,93.75,1.0,,[']'],2302.08769v1,99.94,0.0999999999999943,0.9380008012820513
+Anomaly Detection,MVTEC AD textures,DualModel,99.94,1.0,,[']'],,99.94,0.0999999999999943,1.0
+Anomaly Detection,MVTec 3D-AD (RGB),CPR,88.5,1.0,,[']}]</script'],2308.06748v1,99.94,0.0999999999999943,0.8854166666666667
+Anomaly Detection,MVTec AD,ReConPatch Ensemble (+RefineNet),99.86,1.0,,[']'],2305.16713v3,99.94,0.0999999999999943,0.999198717948718
+Anomaly Detection,MVTec AD Textures Domain Generalization,FABLE,97.5,1.0,,[']'],2306.10089v1,99.94,0.0999999999999943,0.9755608974358975
+Anomaly Detection,MVTec LOCO AD,PSAD,94.9,1.0,,[']'],2312.13783v2,99.94,0.0999999999999943,0.9495192307692308
+Anomaly Detection,Musk v1,RCALAD,63.1,1.0,,[']}]</script'],2304.07769v3,99.94,0.0999999999999943,0.6310096153846154
+Anomaly Detection,NB15-Analysis,DIF,0.931,1.0,,[']}]</script'],2206.06602v4,99.94,0.0999999999999943,0.008323317307692365
+Anomaly Detection,NB15-Backdoor,DIF,0.918,1.0,,[']}]</script'],2206.06602v4,99.94,0.0999999999999943,0.008193108974359032
+Anomaly Detection,NB15-DoS,DIF,0.932,1.0,,[']}]</script'],2206.06602v4,99.94,0.0999999999999943,0.00833333333333339
+Anomaly Detection,Numenta Anomaly Benchmark,HTM AL,70.1,1.0,,[']'],,99.94,0.0999999999999943,0.7011217948717948
+Anomaly Detection,ODDS,kNN,0.902,1.0,,[']'],2210.10773v1,99.94,0.0999999999999943,0.00803285256410262
+Anomaly Detection,One-class CIFAR-10,CLIP (OE),99.6,1.0,,"['CLIP Pre-trained', 'Outlier Exposure']",2205.11474v2,99.94,0.0999999999999943,0.9965945512820512
+Anomaly Detection,One-class CIFAR-100,Transformaly,97.7,1.0,,[']'],2112.04185v2,99.94,0.0999999999999943,0.9775641025641026
+Anomaly Detection,One-class ImageNet-30,BCE-Clip (OE),99.9,1.0,,"['Pretrained', 'Outlier Exposure']",2205.11474v2,99.94,0.0999999999999943,0.999599358974359
+Anomaly Detection,PAD Dataset,SplatPose,93.9,1.0,,[']'],2404.06832v1,99.94,0.0999999999999943,0.9395032051282052
+Anomaly Detection,Real 3D-AD,Reg 3D-AD,0.704,1.0,,[']}]</script'],,99.94,0.0999999999999943,0.006049679487179544
+Anomaly Detection,Road Anomaly,RbA,90.28,1.0,,['Swin-Transformer'],2211.14293v2,99.94,0.0999999999999943,0.9032451923076923
+Anomaly Detection,STL-10,Shell-based Anomaly (supervised),0.7999999999999972,1.0,,[']}]</script'],,99.94,0.0999999999999943,0.007011217948717977
+Anomaly Detection,SVHN,RCALAD,57.7,1.0,,[']}]</script'],2304.07769v3,99.94,0.0999999999999943,0.576923076923077
+Anomaly Detection,ShanghaiTech,DAC(STG-NF + Jigsaw),87.72,1.0,,"['rgb+pose', 'object-level', 'divide and conquer']",2309.14622v2,99.94,0.0999999999999943,0.8776041666666666
+Anomaly Detection,Surface Defect Saliency of Magnetic Tile,CS-Flow (unsupervised),99.3,1.0,,[']'],2110.02855v1,99.94,0.0999999999999943,0.9935897435897436
+Anomaly Detection,TII-SSRC-23,Deep SVDD,97.84,1.0,,[']}]</script'],2310.10661v1,99.94,0.0999999999999943,0.9789663461538463
+Anomaly Detection,Thyroid,DevNet,0.783,1.0,,[']'],1911.08623v1,99.94,0.0999999999999943,0.00684094551282057
+Anomaly Detection,UBnormal,STG-NF - Supervised,79.2,1.0,,[']'],2211.10946v2,99.94,0.0999999999999943,0.7922676282051283
+Anomaly Detection,UCF-Crime,MULDE-frame-centric-micro-one-class-classification,78.5,1.0,,[']}]</script'],2403.14497v1,99.94,0.0999999999999943,0.7852564102564102
+Anomaly Detection,UCSD Ped2,DMAD,99.7,1.0,,[']'],2303.05047v1,99.94,0.0999999999999943,0.9975961538461539
+Anomaly Detection,UCSD Peds2,Background-Agnostic Framework,98.7,1.0,,[']'],2008.12328v5,99.94,0.0999999999999943,0.9875801282051283
+Anomaly Detection,UEA time-series datasets,SINBAD,96.8,1.0,,[']'],2302.12245v2,99.94,0.0999999999999943,0.9685496794871795
+Anomaly Detection,Unlabeled CIFAR-10 vs CIFAR-100,PsudoLabels ViT,96.7,1.0,,[']'],2112.07662v2,99.94,0.0999999999999943,0.967548076923077
+Anomaly Detection,Vehicle Claims,Random Forest,98.65,1.0,,[']'],2210.14056v2,99.94,0.0999999999999943,0.987079326923077
+Anomaly Detection,VisA,DiffusionAD,96.0,1.0,,[']'],2303.08730v3,99.94,0.0999999999999943,0.960536858974359
+Anomaly Detection,kdd 99,PCA via oversampling,99.01,1.0,,[']}]</script'],,99.94,0.0999999999999943,0.9906850961538463
+Anomaly Detection,voraus-AD,MVT-Flow,93.6,1.0,,[']'],2311.04765v1,99.94,0.0999999999999943,0.9364983974358974
+Classification,AUR & UMB dataset,RandomForestClassifier,82.0,1.0,,[']}]</script'],,2020.0,0.573,0.04032183386673547
+Classification,Adult,MambaNet,0.914,1.0,,[']}]</script'],2401.08867v1,2020.0,0.573,0.00016885978052190057
+Classification,Autoimmune Dataset,Swin Transformer Base (Patch 4 Window 12),0.891,1.0,,[']'],2207.06489v5,2020.0,0.573,0.00015747041116118585
+Classification,BIOSCAN_1M_Insect Dataset,BIOSCAN_1M_order_classifier,92.65,1.0,,[']'],2307.10455v3,2020.0,0.573,0.04559560707071858
+Classification,Bengali Ekman's Six Basic Emotions Corpus,CNN + Attention + LSTM + CNN,86.91,1.0,,[']}]</script'],,2020.0,0.573,0.04275321663026196
+Classification,BiasBios,WeaSEL,86.0,1.0,,[']}]</script'],2107.02233v3,2020.0,0.573,0.042302593755555416
+Classification,CIFAKE: Real and AI-Generated Synthetic Images,CNN,93.55,1.0,,[']}]</script'],2303.14126v1,2020.0,0.573,0.046041278045703064
+Classification,CIFAR-100,ResNet8\u00d74,77.5,1.0,,[']}]</script'],2310.03669v2,2020.0,0.573,0.03809347899181303
+Classification,CORBEL,lstm,0.72,1.0,,[']}]</script'],,2020.0,0.573,7.279292591413308e-05
+Classification,CWRU Bearing Dataset,MCNN-LSTM,98.46,1.0,,[']'],,2020.0,0.573,0.04847266080922955
+Classification,Chest X-Ray Images (Pneumonia),AAPSO-Deep Feature Selection,98.41,1.0,,[']}]</script'],2208.03558v1,2020.0,0.573,0.0484479013106193
+Classification,ForgeryNet,MINTIME-XC,94.25,1.0,,"['Vision Transformer', 'CNN', 'CNN+Transformer', 'Video-level Classification', 'TimeSformer', 'XceptionNet']",2211.10996v2,2020.0,0.573,0.04638791102624656
+Classification,Full-body Parkinson’s disease dataset,PoseFormerV2,0.59,1.0,,[']'],2303.17472v1,2020.0,0.573,8.418229527484785e-06
+Classification,HOWS,RECALL,57.83,1.0,,[']}]</script'],2209.14774v1,2020.0,0.573,0.028353092238540933
+Classification,HRF,RRWNet,99.022,1.0,,[']}]</script'],2402.03166v3,2020.0,0.573,0.04875095757360876
+Classification,IRFL: Image Recognition of Figurative Language,CLIP-RN50x64,39.0,1.0,,[']}]</script'],2303.15445v3,2020.0,0.573,0.01902866506192103
+Classification,ISIC 2019,CASS,0.651,1.0,,[']}]</script'],2206.04170v6,2020.0,0.573,3.862481783198901e-05
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with Max-logit,0.995,1.0,,[']'],2302.11893v1,2020.0,0.573,0.0002089701682705045
+Classification,InDL,ConvNext,93.47,1.0,,[']'],2201.03545v2,2020.0,0.573,0.04600166284792667
+Classification,Kepler Exoplanet Search Results,SVM,97.72,1.0,,[']}]</script'],,2020.0,0.573,0.048106220229797866
+Classification,LES-AV,RRWNet,0.948,1.0,,[']}]</script'],2402.03166v3,2020.0,0.573,0.0001856962395768701
+Classification,MedSecId,GPT-4,96.86,1.0,,[']'],2404.16294v1,2020.0,0.573,0.047680356853701575
+Classification,MixedWM38,WaferSegClassNet,99.018,1.0,,[']}]</script'],2207.00960v1,2020.0,0.573,0.04874897681371994
+Classification,MuReD Dataset,"C-Tran, preprocessing, augmentation",0.573,1.0,,[']}]</script'],2207.02335v3,2020.0,0.573,0.0
+Classification,N-CARS,MEM,98.55,1.0,,[']'],2212.10368v3,2020.0,0.573,0.048517227906728
+Classification,N-ImageNet,Event Spike Tensor,48.93,1.0,,[']'],2112.01041v2,2020.0,0.573,0.02394590148591655
+Classification,N-ImageNet (mini),Event Imge,61.42,1.0,,[']'],2112.01041v2,2020.0,0.573,0.030130824238756838
+Classification,RITE,RRWNet,0.966,1.0,,[']}]</script'],2402.03166v3,2020.0,0.573,0.00019460965907655984
+Classification,RSSCN7,GLNet,95.07,1.0,,[']'],,2020.0,0.573,0.04679396680345464
+Classification,Reddit Ideology Database,SVM,86.19,1.0,,[']'],,2020.0,0.573,0.042396679850274364
+Classification,SGD,SGD_ss,2020.0,1.0,,[']}]</script'],2011.09553v2,2020.0,0.573,1.0
+Classification,SHD - Adding,ELM Neuron,82.0,1.0,,[']'],2306.16922v3,2020.0,0.573,0.04032183386673547
+Classification,Sentiment140,pFedBreD_ns_mg,73.81,1.0,,[']}]</script'],2211.10684v2,2020.0,0.573,0.03626622799437663
+Classification,Sound-based drone fault classification using multitask learning,1DCNN-ResNet,0.985,1.0,,[']}]</script'],2304.11708v1,2020.0,0.573,0.00020401826854845462
+Classification,TCGA,MSI-H Transformer,0.58,1.0,,[']}]</script'],2312.10944v1,2020.0,0.573,3.4663298054349114e-06
+Classification,XImageNet-12,DenseNet121,0.906,1.0,,[']'],1608.06993v5,2020.0,0.573,0.00016489826074426067
+Denoising,AAPM,EDCNN,0.006,1.0,,['DCN'],2011.00139v1,84.61,0.006,0.0
+Denoising,CBSD68 sigm75,MeD,74.6,1.0,,[']}]</script'],2309.05049v1,84.61,0.006,0.8816840811309158
+Denoising,DND,DRANet,60.36,1.0,,[']}]</script'],2305.04269v1,84.61,0.006,0.7133705262162545
+Denoising,Darmstadt Noise Dataset,SINDy,81.0,1.0,,[']'],1712.02432v1,84.61,0.006,0.957330622665595
+Denoising,iris,PCNN+RL+HME,84.61,1.0,,[']}]</script'],2010.14255v2,84.61,0.006,1.0
+Depth Estimation,4D Light Field Dataset,LFattNet,82.78,1.0,,[']}]</script'],,99.924,0.356,0.8278161658364133
+Depth Estimation,Cityscapes test,SDC-Depth,93.083,1.0,,[']}]</script'],,99.924,0.356,0.9312931865659649
+Depth Estimation,DCM,Bhattacharjee et al.,99.749,1.0,,[']'],2110.03575v2,99.924,0.356,0.9982424071991
+Depth Estimation,DIODE,AIP-Brown,0.356,1.0,,[']'],2007.06153v1,99.924,0.356,0.0
+Depth Estimation,KITTI 2015,H-Net (Ours) Full Eigen,99.924,1.0,,[']'],2104.11288v1,99.924,0.356,1.0
+Depth Estimation,KITTI Eigen split,LightDepth,57.4,1.0,,[']}]</script'],2211.08608v2,99.924,0.356,0.5729149927687609
+Depth Estimation,Mars DTM Estimation,GLPDepth,0.432,1.0,,[']'],,99.924,0.356,0.0007632974449622369
+Depth Estimation,Matterport3D,UniFuse,99.894,1.0,,[']}]</script'],2102.03550v2,99.924,0.356,0.9996986983769885
+Depth Estimation,NYU-Depth V2,EVP,99.776,1.0,,[']'],2312.08548v1,99.924,0.356,0.9985135786598103
+Depth Estimation,ScanNet,Atlas (plain),99.835,1.0,,[']'],2003.10432v3,99.924,0.356,0.9991061385183994
+Depth Estimation,ScanNetV2,DELTAS,99.856,1.0,,[']'],2003.08933v2,99.924,0.356,0.9993170496545074
+Depth Estimation,Stanford2D3D Panoramic,HiMODE,99.739,1.0,,[']'],2204.05007v1,99.924,0.356,0.998141973324763
+Depth Estimation,Taskonomy,X-TC (Cross-Task Consistency),98.37,1.0,,[']}]</script'],,99.924,0.356,0.984392575928009
+Depth Estimation,eBDtheque,Bhattacharjee et al.,99.624,1.0,,[']'],2110.03575v2,99.924,0.356,0.9969869837698858
+Domain Adaptation,Canon RAW Low Light,FSDA-LL Sony -\u003E Canon,33.22,1.0,,[']}]</script'],2303.15528v1,100.0,5.909999999999997,0.2902540121160591
+Domain Adaptation,Cityscapes to ACDC,Rein,77.6,1.0,,[']'],2312.04265v5,100.0,5.909999999999997,0.7619300669571686
+Domain Adaptation,Cityscapes-to-FoggyDriving,CoDA,61.0,1.0,,[']'],2403.17369v2,100.0,5.909999999999997,0.5855032415772133
+Domain Adaptation,Cityscapes-to-FoggyZurich,CoDA,60.9,1.0,,[']'],2403.17369v2,100.0,5.909999999999997,0.5844404293761293
+Domain Adaptation,Comic2k,MILA,44.6,1.0,,[']}]</script'],2309.01086v1,100.0,5.909999999999997,0.4112020405994261
+Domain Adaptation,DomainNet,SFDA2,68.3,1.0,,[']'],2403.10834v1,100.0,5.909999999999997,0.6630885322563503
+Domain Adaptation,Foggy Cityscapes,MILA,50.6,1.0,,[']}]</script'],2309.01086v1,100.0,5.909999999999997,0.47497077266447024
+Domain Adaptation,GTA-to-FoggyCityscapes,FogAdapt+,45.0,1.0,,[']}]</script'],2201.02588v3,100.0,5.909999999999997,0.41545328940376236
+Domain Adaptation,GTA5 to Cityscapes,HALO,77.8,1.0,,[']'],2306.11180v5,100.0,5.909999999999997,0.7640556913593368
+Domain Adaptation,GTA5+Synscapes to Cityscapes,MSCL,59.0,1.0,,[']'],2103.04717v3,100.0,5.909999999999997,0.564246997555532
+Domain Adaptation,GTAV to Cityscapes+Mapillary,Rein,63.3,1.0,,[']'],2312.04265v5,100.0,5.909999999999997,0.6099479222021469
+Domain Adaptation,GTAV+Synscapes to Cityscapes,DDB,69.0,1.0,,[']'],2209.07695v3,100.0,5.909999999999997,0.6705282176639388
+Domain Adaptation,HMDB --> UCF (full),TranSVAE,98.95,1.0,,[']'],,100.0,5.909999999999997,0.9888404718886173
+Domain Adaptation,HMDBfull-to-UCF,TA3N,81.79,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.8064618981825912
+Domain Adaptation,HMDBsmall-to-UCF,TA3N,99.47,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.9943670953342544
+Domain Adaptation,ImageCLEF-DA,CMKD,94.3,1.0,,[']'],,100.0,5.909999999999997,0.9394197045382081
+Domain Adaptation,MNIST-M-to-MNIST,DRANet,99.3,1.0,,[']}]</script'],2103.13447v2,100.0,5.909999999999997,0.9925603145924115
+Domain Adaptation,MNIST-to-MNIST-M,DRANet,98.7,1.0,,[']'],2103.13447v2,100.0,5.909999999999997,0.9861834413859072
+Domain Adaptation,MNIST-to-USPS,FACT,98.8,1.0,,[']'],2306.00607v2,100.0,5.909999999999997,0.9872462535869911
+Domain Adaptation,MSDA,MetaSelf-Learning,42.0,1.0,,[']}]</script'],2108.10840v1,100.0,5.909999999999997,0.3835689233712403
+Domain Adaptation,MoLane,UFLD-SGPCS-ResNet18,93.94,1.0,,[']'],2206.08083v4,100.0,5.909999999999997,0.9355935806143054
+Domain Adaptation,MuLane,UFLD-SGADA-ResNet32,91.63,1.0,,[']'],2206.08083v4,100.0,5.909999999999997,0.9110426187692634
+Domain Adaptation,Nikon RAW Low Light,FSDA-LL Sony -\u003E Nikon,30.3,1.0,,[']}]</script'],2303.15528v1,100.0,5.909999999999997,0.2592198958444043
+Domain Adaptation,Noisy-Amazon (20%),Butterfly,28.47,1.0,,[']}]</script'],1905.07720v3,100.0,5.909999999999997,0.23977043256456584
+Domain Adaptation,Noisy-Amazon (45%),Butterfly,43.99,1.0,,[']}]</script'],1905.07720v3,100.0,5.909999999999997,0.4047188861728133
+Domain Adaptation,Noisy-MNIST-to-SYND,Butterfly,42.45,1.0,,[']}]</script'],1905.07720v3,100.0,5.909999999999997,0.38835157827611866
+Domain Adaptation,Noisy-SYND-to-MNIST,Butterfly,5.909999999999997,1.0,,[']}]</script'],1905.07720v3,100.0,5.909999999999997,0.0
+Domain Adaptation,Office-31,PMTrans,95.3,1.0,,['Transformer'],2303.13434v2,100.0,5.909999999999997,0.9500478265490487
+Domain Adaptation,Office-Caltech,SPL,93.0,1.0,,[']'],1911.07982v1,100.0,5.909999999999997,0.9256031459241152
+Domain Adaptation,Office-Caltech-10,MEDA,92.8,1.0,,[']}]</script'],1807.07258v2,100.0,5.909999999999997,0.9234775215219471
+Domain Adaptation,Office-Home,RCL,90.0,1.0,,[']'],2405.18376v1,100.0,5.909999999999997,0.8937187798915932
+Domain Adaptation,Olympic-to-HMDBsmall,TA3N,92.92,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.924752896163248
+Domain Adaptation,PACS,SSGEN,88.09,1.0,,[']}]</script'],2202.08045v1,100.0,5.909999999999997,0.8734190668508874
+Domain Adaptation,Panoptic SYNTHIA-to-Cityscapes,EDAPS,41.2,1.0,,[']'],2304.14291v2,100.0,5.909999999999997,0.3750664257625678
+Domain Adaptation,Panoptic SYNTHIA-to-Mapillary,EDAPS,36.6,1.0,,[']'],2304.14291v2,100.0,5.909999999999997,0.3261770645127006
+Domain Adaptation,Rotating MNIST,PCIDA,87.1,1.0,,[']'],2007.01807v2,100.0,5.909999999999997,0.8628972260601551
+Domain Adaptation,SVHN-to-MNIST,Mean teacher,99.18,1.0,,[']'],1706.05208v4,100.0,5.909999999999997,0.9912849399511107
+Domain Adaptation,SVNH-to-MNIST,SRDA (RAN),98.91,1.0,,[']'],1905.10748v4,100.0,5.909999999999997,0.9884153470081836
+Domain Adaptation,SYNSIG-to-GTSRB,DFA-MCD,97.5,1.0,,[']'],2006.12770v5,100.0,5.909999999999997,0.9734296949728983
+Domain Adaptation,SYNTHIA-to-Cityscapes,HALO,78.1,1.0,,[']'],2306.11180v5,100.0,5.909999999999997,0.767244127962589
+Domain Adaptation,SYNTHIA-to-Cityscapes Labels,MRNet,46.5,1.0,,[']}]</script'],1912.11164v3,100.0,5.909999999999997,0.4313954724200234
+Domain Adaptation,SYNTHIA-to-FoggyCityscapes,FogAdapt+,45.2,1.0,,[']}]</script'],2201.02588v3,100.0,5.909999999999997,0.41757891380593054
+Domain Adaptation,Sim10k,MILA,57.4,1.0,,[']}]</script'],2309.01086v1,100.0,5.909999999999997,0.5472420023381869
+Domain Adaptation,Synscapes-to-Cityscapes,ProDA+CRA,60.2,1.0,,[']'],2109.06422v2,100.0,5.909999999999997,0.5770007439685408
+Domain Adaptation,Synth Digits-to-SVHN,DSN (DANN),91.2,1.0,,[']'],1608.06019v1,100.0,5.909999999999997,0.906472526304602
+Domain Adaptation,Synth Objects-to-LINEMOD,DSN (DANN),100.0,1.0,,[']}]</script'],1608.06019v1,100.0,5.909999999999997,1.0
+Domain Adaptation,Synth Signs-to-GTSRB,Mean teacher,98.66,1.0,,[']'],1706.05208v4,100.0,5.909999999999997,0.9857583165054734
+Domain Adaptation,TuLane,UFLD-SGPCS-ResNet32,93.29,1.0,,[']'],2206.08083v4,100.0,5.909999999999997,0.9286853013072591
+Domain Adaptation,UCF --> HMDB (full),TranSVAE,87.78,1.0,,[']'],,100.0,5.909999999999997,0.8701243490275269
+Domain Adaptation,UCF-to-HMDBfull,TA3N,78.33,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.7696885960250823
+Domain Adaptation,UCF-to-HMDBsmall,TA3N,99.33,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.9928791582527368
+Domain Adaptation,UCF-to-Olympic,TA3N,98.15,1.0,,[']'],1905.10861v5,100.0,5.909999999999997,0.9803379742799448
+Domain Adaptation,USPS-to-MNIST,FACT,98.6,1.0,,[']'],2306.00607v2,100.0,5.909999999999997,0.985120629184823
+Domain Adaptation,VisDA2017,RCL,93.2,1.0,,[']'],2405.18376v1,100.0,5.909999999999997,0.9277287703262834
+Face Recognition,Adience,PIC - MagFace,90.25,1.0,,[']'],2211.12483v3,99.95,0.542,0.9024223402543055
+Face Recognition,Adience (Online Open Set),FaceNet+Adaptive Threshold,84.3,1.0,,[']'],1810.11160v1,99.95,0.542,0.8425680025752454
+Face Recognition,AgeDB-30,Prodpoly,0.984,1.0,,[']'],2006.13026v2,99.95,0.542,0.004446322227587316
+Face Recognition,BTS3.1,MCN,0.542,1.0,,[']}]</script'],1807.09192v1,99.95,0.542,0.0
+Face Recognition,CALFW,Prodpoly,0.962,1.0,,[']'],2006.13026v2,99.95,0.542,0.0042250120714630605
+Face Recognition,CASIA-WebFace+masks,Fine-tuned ArcFace,91.47,1.0,,['ResNet-152'],2109.01745v5,99.95,0.542,0.9146949943666506
+Face Recognition,CFP-FF,GhostFaceNetV2-1,99.91,1.0,,[']}]</script'],,99.95,0.542,0.9995976178979559
+Face Recognition,CFP-FP,GhostFaceNetV2-1,0.993,1.0,,[']'],,99.95,0.542,0.004536858200547239
+Face Recognition,CPLFW,GhostFaceNetV2-1,0.946,1.0,,[']'],,99.95,0.542,0.00406405923064542
+Face Recognition,Carl,Model with Up Convolution + DoG Filter (Aligned),85.0,1.0,,[']'],2002.04219v1,99.95,0.542,0.8496096893610172
+Face Recognition,CelebA+masks,Fine-tuned ArcFace,95.43,1.0,,[']'],2109.01745v5,99.95,0.542,0.9545308224690167
+Face Recognition,Color FERET,PIC - QMagFace,96.76,1.0,,[']'],2211.12483v3,99.95,0.542,0.967910027361983
+Face Recognition,Color FERET (Online Open Set),FaceNet+Adaptive Threshold,83.79,1.0,,[']'],1810.11160v1,99.95,0.542,0.8374376307741832
+Face Recognition,EURECOM,Model with Up Convolution + DoG Filter,88.33,1.0,,[']}]</script'],2002.04219v1,99.95,0.542,0.8831079993561886
+Face Recognition,IJB-B,ArcFace+CSFM,0.949,1.0,,[']'],2207.10180v1,99.95,0.542,0.004094237888298728
+Face Recognition,LFW,GhostFaceNetV2-1 (MS1MV3),0.998,1.0,,[']'],,99.95,0.542,0.004587155963302752
+Face Recognition,LFW (Online Open Set),FaceNet+Adaptive Threshold,76.46,1.0,,[']'],1810.11160v1,99.95,0.542,0.7637011105746015
+Face Recognition,MFR,Partial FC,97.85,1.0,,['ViT-L'],2203.15565v1,99.95,0.542,0.9788749396426846
+Face Recognition,MLFW,"MS1MV2, R100, SFace",91.57,1.0,,[']'],2109.05804v2,99.95,0.542,0.9157009496217607
+Face Recognition,MORPH,PIC - ArcFace,99.95,1.0,,[']'],2211.12483v3,99.95,0.542,1.0
+Face Recognition,UHDB31,Multi-task,84.32,1.0,,[']}]</script'],2011.12427v2,99.95,0.542,0.8427691936262675
+Face Recognition,UND-X1,Model with Up Convolution + DoG Filter,87.2,1.0,,[']'],2002.04219v1,99.95,0.542,0.8717407049734428
+Face Recognition,XQLFW,FaceTransformer+OctupletLoss,0.951,1.0,,[']}]</script'],2207.06726v2,99.95,0.542,0.004114356993400932
+Graph Classification,20NEWS,sKNN-LDS,47.9,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.47516344478135164
+Graph Classification,5pt. Bench-Easy,NDP,97.9,1.0,,[']}]</script'],1910.11436v3,100.0,0.731,0.978845359578519
+Graph Classification,AIDS,DGCNN,65.1,1.0,,['GCN'],1712.03563v1,100.0,0.731,0.6484300234715772
+Graph Classification,BACE,GTOT-Tuning,83.4,1.0,,[']}]</script'],2203.10453v1,100.0,0.731,0.8327776042873405
+Graph Classification,BBBP,GTOT-Tuning,70.0,1.0,,[']'],2203.10453v1,100.0,0.731,0.6977908511216997
+Graph Classification,BP-fMRI-97,IsoNN,64.9,1.0,,[']'],1907.09495v2,100.0,0.731,0.6464152958123887
+Graph Classification,BZR,GDL-g (ADJ),87.81,1.0,,[']}]</script'],2102.06555v2,100.0,0.731,0.8772023491724507
+Graph Classification,Bench-hard,NDP,72.6,1.0,,[']}]</script'],1910.11436v3,100.0,0.731,0.7239823106911523
+Graph Classification,CIFAR10 100k,NeuralWalker,80.02,1.0,,[']'],2406.03386v1,100.0,0.731,0.7987287068470519
+Graph Classification,COIL-RAG,SPI-GCN,75.72,1.0,,['GCN'],,100.0,0.731,0.7554120621744955
+Graph Classification,COLLAB,U2GNN (Unsupervised),95.62,1.0,,[']'],1909.11855v9,100.0,0.731,0.9558774642637682
+Graph Classification,COX2,GIN-0,81.13,1.0,,[']'],1810.00826v3,100.0,0.731,0.809910445355549
+Graph Classification,CSL,CIN,1.0,1.0,,[']}]</script'],2106.12575v3,100.0,0.731,0.00270980870160876
+Graph Classification,Cancer,sKNN-LDS,95.7,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.9566833553274436
+Graph Classification,Citeseer,sKNN-LDS,73.7,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.73506331281669
+Graph Classification,ClinTox,GTOT-Tuning,72.0,1.0,,[']}]</script'],2203.10453v1,100.0,0.731,0.7179381277135863
+Graph Classification,Cora,sKNN-LDS,72.3,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.7209602192023693
+Graph Classification,D&D,U2GNN (Unsupervised),95.67,1.0,,[']'],1909.11855v9,100.0,0.731,0.9563811461785653
+Graph Classification,Digits,sKNN-LDS,92.5,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.9244477127804249
+Graph Classification,ENZYMES,DSGCN-allfeat,78.39,1.0,,['GCN'],2003.11702v1,100.0,0.731,0.7823086764246643
+Graph Classification,FRANKENSTEIN,GWL_WL,78.9,1.0,,[']'],,100.0,0.731,0.7874462319555955
+Graph Classification,HIV,GTOT-Tuning,78.2,1.0,,[']'],2203.10453v1,100.0,0.731,0.7803946851484351
+Graph Classification,HIV dataset,CIN++,80.63,1.0,,[']'],2306.03561v1,100.0,0.731,0.8048736262075774
+Graph Classification,HIV-DTI-77,IsoNN,67.5,1.0,,[']'],1907.09495v2,100.0,0.731,0.6726067553818412
+Graph Classification,HIV-fMRI-77,IsoNN,73.4,1.0,,[']'],1907.09495v2,100.0,0.731,0.732041221327907
+Graph Classification,HYDRIDES,SPI-GCN,82.25,1.0,,['GCN'],,100.0,0.731,0.8211929202470056
+Graph Classification,IMDB-BINARY,GAP-Layer (Rcut),69.93,1.0,,[']'],2206.07369v3,100.0,0.731,0.6970856964409837
+Graph Classification,IMDb-B,U2GNN (Unsupervised),96.41,1.0,,[']'],1909.11855v9,100.0,0.731,0.9638356385175634
+Graph Classification,IMDb-M,U2GNN (Unsupervised),89.2,1.0,,[']'],1909.11855v9,100.0,0.731,0.8912047064038119
+Graph Classification,IPC-grounded,GG-NN,77.9,1.0,,[']'],1511.05493v4,100.0,0.731,0.7773725936596522
+Graph Classification,IPC-lifted,CNN,86.9,1.0,,[']'],1905.06393v1,100.0,0.731,0.8680353383231423
+Graph Classification,MNIST,NeuralWalker,98.76,1.0,,[']'],2406.03386v1,100.0,0.731,0.9875086885130303
+Graph Classification,MUTAG,Evolution of Graph Classifiers,100.0,1.0,,[']'],,100.0,0.731,1.0
+Graph Classification,MUV,GTOT-Tuning,80.0,1.0,,[']}]</script'],2203.10453v1,100.0,0.731,0.7985272340811331
+Graph Classification,MalNet-Tiny,Exphormer,94.02,1.0,,[']'],2303.06147v2,100.0,0.731,0.9397596429902587
+Graph Classification,Mutagenicity,TREE-G,83.0,1.0,,[']'],2207.02760v5,100.0,0.731,0.8287481489689631
+Graph Classification,NC1,EigenGCN-3,0.77,1.0,,['GCN'],1904.13107v2,100.0,0.731,0.00039287189354179084
+Graph Classification,NCI-123,GAM,64.79,1.0,,[']}]</script'],,100.0,0.731,0.6453071955998348
+Graph Classification,NCI-83,GAM,70.42,1.0,,[']}]</script'],,100.0,0.731,0.7020217792059958
+Graph Classification,NCI1,TFGW ADJ (L=2),88.1,1.0,,[']'],2205.15733v1,100.0,0.731,0.8801237042782741
+Graph Classification,NCI109,WKPI-kcenters,87.3,1.0,,[']'],,100.0,0.731,0.8720647936415195
+Graph Classification,NCI33,GAM,69.58,1.0,,[']}]</script'],,100.0,0.731,0.6935599230374034
+Graph Classification,NEURON-Average,WKPI-kcenters,77.8,1.0,,[']'],,100.0,0.731,0.7763652298300577
+Graph Classification,NEURON-BINARY,WKPI-kmeans,90.3,1.0,,[']'],,100.0,0.731,0.9022857085293495
+Graph Classification,NEURON-MULTI,WKPI-kcenters,69.1,1.0,,[']'],,100.0,0.731,0.6887245766553506
+Graph Classification,PROTEINS,HGP-SL,84.91,1.0,,[']'],1911.05954v3,100.0,0.731,0.8479887981142149
+Graph Classification,PTC,U2GNN (Unsupervised),91.81,1.0,,[']'],1909.11855v9,100.0,0.731,0.917496902356224
+Graph Classification,Peptides-func,S\u00b2GCN,0.731,1.0,,[']'],2405.19121v2,100.0,0.731,0.0
+Graph Classification,Pubmed,Fea2Fea-s3,78.5,1.0,,[']}]</script'],2106.13061v4,100.0,0.731,0.7834167766372181
+Graph Classification,RE-M12K,GFN-light,49.75,1.0,,[']'],1905.04579v3,100.0,0.731,0.4937996756288468
+Graph Classification,RE-M5K,GIN-0,57.5,1.0,,[']'],1810.00826v3,100.0,0.731,0.5718703724224078
+Graph Classification,REDDIT-B,CRaWl,93.15,1.0,,[']'],2102.08786v3,100.0,0.731,0.9309955776727882
+Graph Classification,REDDIT-BINARY,CT-Layer,78.45,1.0,,[']'],2206.07369v3,100.0,0.731,0.782913094722421
+Graph Classification,REDDIT-MULTI-12K,GNN (DiffPool),47.08,1.0,,[']'],1806.08804v4,100.0,0.731,0.4669030613786781
+Graph Classification,REDDIT-MULTI-5k,GraphSAGE,50.0,1.0,,[']}]</script'],1912.09893v3,100.0,0.731,0.49631808520283266
+Graph Classification,SIDER,GTOT-Tuning,63.5,1.0,,[']}]</script'],2203.10453v1,100.0,0.731,0.6323122021980678
+Graph Classification,SYNTHIE,SPI-GCN,71.0,1.0,,['GCN'],,100.0,0.731,0.707864489417643
+Graph Classification,Synthetic Dynamic Networks,Time-cohort Dynamic Features + Static Features,98.4,1.0,,[']'],2404.00793v3,100.0,0.731,0.9838821787264908
+Graph Classification,Tox21,GMT,77.3,1.0,,[']'],2102.11533v4,100.0,0.731,0.771328410682086
+Graph Classification,ToxCast,GMT,65.44,1.0,,[']'],2102.11533v4,100.0,0.731,0.651855060492198
+Graph Classification,UPFD-GOS,UPFD-SAGE,97.54,1.0,,[']'],2104.12259v1,100.0,0.731,0.9752188497919795
+Graph Classification,UPFD-POL,HGFND,91.13,1.0,,[']'],2212.12621v1,100.0,0.731,0.9106468283149824
+Graph Classification,Web,UGraphEmb-F,45.03,1.0,,[']}]</script'],1904.01098v2,100.0,0.731,0.44625210287199424
+Graph Classification,Wine,sKNN-LDS,98.0,1.0,,[']}]</script'],1905.08509v4,100.0,0.731,0.9798527234081134
+Image Classification,AmsterTime,AP-GeM (ResNet-101),0.84,1.0,,[']}]</script'],2203.16291v2,100.0,0.278,0.005635667154690038
+Image Classification,ArtDL,ResNet-50,72.73,1.0,,['ResNet'],2010.11697v3,100.0,0.278,0.7265397805900403
+Image Classification,BreakHis,WaveMix,99.39,1.0,,[']'],2406.05612v1,100.0,0.278,0.9938829947253365
+Image Classification,CARS196,\u00b52Net+ (ViT-L/16),87.18,1.0,,[']}]</script'],2209.07326v3,100.0,0.278,0.8714426104570707
+Image Classification,CIFAR-10,efficient adaptive ensembling,99.61,1.0,,[']'],2206.07394v3,100.0,0.278,0.9960891277752151
+Image Classification,"CIFAR-10 (40 Labels, ImageNet-100 Unlabeled)",UnMixMatch,52.07,1.0,,[']'],2306.01222v2,100.0,0.278,0.519363831451435
+Image Classification,CIFAR-10 (with noisy labels),SSR,96.74,1.0,,[']'],2111.11288v2,100.0,0.278,0.967309119351798
+Image Classification,"CIFAR-10, 40% Symmetric Noise",FaMUS,95.37,1.0,,[']'],2104.15092v1,100.0,0.278,0.9535709271775537
+Image Classification,"CIFAR-10, 60% Symmetric Noise",MentorMix,91.3,1.0,,[']'],2104.15092v1,100.0,0.278,0.9127574657547983
+Image Classification,CIFAR-100,EffNet-L2 (SAM),96.08,1.0,,[']'],2010.01412v3,100.0,0.278,0.960690720202162
+Image Classification,"CIFAR-100 (alpha=0, 20 clients per round)",FedAvgM + ASAM + SWA,51.58,1.0,,[']}]</script'],2203.11834v3,100.0,0.278,0.5144501714767052
+Image Classification,"CIFAR-100, 40% Symmetric Noise",FaMUS,75.91,1.0,,[']'],2104.15092v1,100.0,0.278,0.7584284310382864
+Image Classification,"CIFAR-100, 60% Symmetric Noise",MentorMix,64.6,1.0,,[']}]</script'],2104.15092v1,100.0,0.278,0.6450131365195242
+Image Classification,CINIC-10,"VIT-L/16 (Spinal FC, Background)",95.8,1.0,,[']'],2305.03238v4,100.0,0.278,0.9578829145023164
+Image Classification,CLEVR/Count,SEER (RegNet10B),89.28,1.0,,[']'],2202.08360v2,100.0,0.278,0.8925011532059124
+Image Classification,CLEVR/Dist,SEER (RegNet10B),74.98,1.0,,[']'],2202.08360v2,100.0,0.278,0.7491025049637994
+Image Classification,CUB,Entropy-based Logic Explained Network,0.929,1.0,,[']'],2106.06804v4,100.0,0.278,0.006528148252140952
+Image Classification,CUB-200-2011,Sparse-CBM,19.980000000000004,1.0,,[']'],2404.03323v1,100.0,0.278,0.19756924249413377
+Image Classification,Caltech-256,AG-Net,96.89,1.0,,[']'],2110.12183v1,100.0,0.278,0.9688133009767153
+Image Classification,Causal3DIdent,SimCLR,1.0,1.0,,[']'],2106.04619v4,100.0,0.278,0.007240127554601793
+Image Classification,CelebA 64x64,cFlow,0.82,1.0,,[']'],2008.05248v1,100.0,0.278,0.005435109604701068
+Image Classification,Certificate Verification,ResMLP-24,98.7,1.0,,[']'],2105.03404v2,100.0,0.278,0.986963759250717
+Image Classification,Chaoyang,HSANR,83.4,1.0,,[']}]</script'],2112.03694v1,100.0,0.278,0.8335372335091555
+Image Classification,Clothing1M,LRA-diffusion (CC),75.7,1.0,,[']'],2305.19518v2,100.0,0.278,0.7563225767634023
+Image Classification,Clothing1M (using clean data),CurriculumNet,81.5,1.0,,[']'],1808.01097v4,100.0,0.278,0.8144842662602033
+Image Classification,Colored-MNIST(with spurious correlation),MLP-DecAug,69.6,1.0,,[']'],2012.09382v1,100.0,0.278,0.6951525240167665
+Image Classification,DF20,ViT-Large/16 (384),80.45,1.0,,[']'],2103.10107v4,100.0,0.278,0.8039549948857825
+Image Classification,DF20 - Mini,ViT-Large/16 (384),75.85,1.0,,[']'],2103.10107v4,100.0,0.278,0.7578267583883195
+Image Classification,DTD,Linear FT(ViT-L/14),90.0,1.0,,[']'],2305.12827v3,100.0,0.278,0.8997212250055153
+Image Classification,DVS128 Gesture,SNN,92.5,1.0,,[']}]</script'],2302.06279v3,100.0,0.278,0.9247909187541365
+Image Classification,Deep PCB,ResNet,97.5,1.0,,[']}]</script'],,100.0,0.278,0.9749303062513789
+Image Classification,EMNIST-Balanced,WaveMixLite-128/7,91.06,1.0,,[']'],2205.14375v5,100.0,0.278,0.9103507751549307
+Image Classification,EMNIST-Byclass,WaveMixLite-128/7,11.569999999999991,1.0,,[']}]</script'],2205.14375v5,100.0,0.278,0.113234792723772
+Image Classification,EMNIST-Bymerge,WaveMixLite-128/16,8.200000000000003,1.0,,[']}]</script'],2205.14375v5,100.0,0.278,0.07944084555063079
+Image Classification,EMNIST-Digits,WaveMixLite-112/16,99.82,1.0,,[']'],2205.14375v5,100.0,0.278,0.9981949820500992
+Image Classification,EMNIST-Letters,WaveMixLite-112/16,95.96,1.0,,[']'],2205.14375v5,100.0,0.278,0.9594873749022281
+Image Classification,EuroSAT,IMP+MTP(IntenImage-XL),99.24,1.0,,[']'],2403.13430v2,100.0,0.278,0.9923788131004191
+Image Classification,EuroSAT-SAR,FG-MAE (ViT-S/16),85.9,1.0,,[']'],2310.18653v1,100.0,0.278,0.8586069272577767
+Image Classification,FEMNIST,pFedBreD_ns_mg,70.34,1.0,,[']}]</script'],2211.10684v2,100.0,0.278,0.7025731533663585
+Image Classification,FGVC Aircraft,TransBoost-ResNet50,83.8,1.0,,[']}]</script'],2205.13331v4,100.0,0.278,0.8375483845089348
+Image Classification,FGVC-Aircraft,"EnGraf-Net101 (G=4, H=1)",93.34,1.0,,[']}]</script'],,100.0,0.278,0.9332143358536732
+Image Classification,FMD (materials),RADAM (ConvNeXt-L),95.2,1.0,,[']}]</script'],2303.04554v1,100.0,0.278,0.9518661880026474
+Image Classification,Fashion-MNIST,Fine-Tuning DARTS,96.91,1.0,,[']'],2006.09042v1,100.0,0.278,0.9690138585267042
+Image Classification,FlickrLogos-32,TC-VII (with outside data),96.0,1.0,,[']'],1701.02620v2,100.0,0.278,0.9598884900022061
+Image Classification,Flowers-102,CCT-14/7x2,99.76,1.0,,[']'],2104.05704v4,100.0,0.278,0.9975933094001325
+Image Classification,Food-101,Bamboo (ViTB/16),92.9,1.0,,[']'],2203.07845v2,100.0,0.278,0.928802069753916
+Image Classification,Food-101N,LRA-diffusion (CLIP ViT),93.42,1.0,,[']'],2305.19518v2,100.0,0.278,0.9340165660536291
+Image Classification,Fracture/Normal Shoulder Bone X-ray Images on MURA,Our Ensemble Learning-2,99.306,1.0,,[']'],2102.00515v3,100.0,0.278,0.9930406530153827
+Image Classification,Galaxy10 DECals,WaveMix,95.42,1.0,,[']'],2205.14375v5,100.0,0.278,0.954072321052526
+Image Classification,GasHisSDB,CoAtNet-1,98.74,1.0,,[']'],2106.04803v2,100.0,0.278,0.9873648743506949
+Image Classification,HErlev,Fuzzy Distance Ensemble,98.58,1.0,,[']'],,100.0,0.278,0.9857604139507832
+Image Classification,ISBNet,ThanosNet,0.952,1.0,,[']}]</script'],,100.0,0.278,0.006758789434628266
+Image Classification,Id Pattern Dataset,Claude 3 Opus,75.7,1.0,,[']'],2406.03207v1,100.0,0.278,0.7563225767634023
+Image Classification,ImageNet,OmniVec(ViT),92.4,1.0,,[']'],2311.05709v1,100.0,0.278,0.9237881310041917
+Image Classification,ImageNet ReaL,Baseline (ViT-G/14),91.78,1.0,,[']'],2203.05482v3,100.0,0.278,0.9175708469545336
+Image Classification,ImageNet V2,Model soups (BASIC-L),84.63,1.0,,[']'],2203.05482v3,100.0,0.278,0.845871522833477
+Image Classification,ImageNet-10,ResNet-50 + UDA+AutoDropout,72.9,1.0,,['ResNet'],2101.01761v1,100.0,0.278,0.7282445197649466
+Image Classification,ImageNet-100,SparseSwin with L2,86.96,1.0,,[']'],2309.05224v1,100.0,0.278,0.8692364774071919
+Image Classification,ImageNet-32,"WRN (N=28, k=10)",59.04,1.0,,[']}]</script'],1707.08819v3,100.0,0.278,0.5892581376225908
+Image Classification,ImageNet-9,SqueezeNet + Simple Bypass,60.4,1.0,,[']}]</script'],1602.07360v4,100.0,0.278,0.6028960510218407
+Image Classification,ImageNet-Hard,EfficientNet-L2-Ns,39.0,1.0,,[']'],,100.0,0.278,0.38829947253364355
+Image Classification,ImageNet-P,SqueezeNet + Simple Bypass,82.5,1.0,,[']}]</script'],1602.07360v4,100.0,0.278,0.8245121437596519
+Image Classification,ImageNet-Sketch,\u00b52Net+ (ViT-L/16),88.6,1.0,,[']}]</script'],2209.07326v3,100.0,0.278,0.8856821965062874
+Image Classification,Imagenette,\u00b52Net+ (ViT-L/16),100.0,1.0,,[']'],2209.07326v3,100.0,0.278,1.0
+Image Classification,Imbalanced CUB-200-2011,Multi-task,99.67,1.0,,[']'],2011.12427v2,100.0,0.278,0.996690800425182
+Image Classification,Intel Image Classification,ResNet,98.4,1.0,,[']}]</script'],,100.0,0.278,0.9839553960008826
+Image Classification,JFT-300M,V-MoE-H/14 (Every-2),60.62,1.0,,['Transformer'],2106.05974v1,100.0,0.278,0.6051021840717195
+Image Classification,KITTI-Dist,SEER (RegNet10B),78.34,1.0,,[']}]</script'],2202.08360v2,100.0,0.278,0.7827961733619462
+Image Classification,KMNIST,\u00b52Net (ViT-L/16),98.68,1.0,,[']}]</script'],2205.12755v6,100.0,0.278,0.9867632017007281
+Image Classification,KTH-TIPS2,RADAM (ConvNeXt-XL),94.4,1.0,,[']}]</script'],2303.04554v1,100.0,0.278,0.9438438860030887
+Image Classification,Kuzushiji-MNIST,VGG-5 (Spinal FC),99.15,1.0,,[']'],2007.03347v3,100.0,0.278,0.9914763041254688
+Image Classification,LIMUC,Inception-v3,0.867,1.0,,[']'],2202.05167v2,100.0,0.278,0.005906419847175147
+Image Classification,LabelMe,CoNAL,87.12,1.0,,[']}]</script'],2012.13052v2,100.0,0.278,0.8708409378071038
+Image Classification,Large Labelled Logo Dataset (L3D),L3D_original_2level,0.278,1.0,,[']'],2112.05404v1,100.0,0.278,0.0
+Image Classification,MAMe,EfficientNet-B3,88.95,1.0,,['EfficientNet'],2007.13693v3,100.0,0.278,0.8891919536310945
+Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[']'],2001.09136v6,100.0,0.278,0.9986963759250718
+Image Classification,MNIST-rot-12,PDO-eConv (ours),98.13,1.0,,[']}]</script'],2007.10408v2,100.0,0.278,0.9812478690760313
+Image Classification,MNIST-rot-12k (DA),PDO-eConv (ours),99.291,1.0,,[']}]</script'],2007.10408v2,100.0,0.278,0.992890234852891
+Image Classification,Malaria Dataset,kEffNet-B0 V2 16ch,97.61,1.0,0.61M,[']'],,100.0,0.278,0.9760333727763182
+Image Classification,MultiMNIST,CapsNet,94.8,1.0,,[']}]</script'],1710.09829v2,100.0,0.278,0.947855037002868
+Image Classification,N-Caltech 101,mMND (STDP),41.9,1.0,,[']'],,100.0,0.278,0.4173803172820441
+Image Classification,N-MNIST,STS-ResNet,99.6,1.0,,[']'],2003.12346v2,100.0,0.278,0.9959888490002206
+Image Classification,No Background RGB Arabic Alphabets Sign Language Dataset,ArabSignNet,97.4,1.0,,[']}]</script'],,100.0,0.278,0.973927518501434
+Image Classification,Noisy MNIST (AWGN),PCGAN-CHAR,98.43,1.0,,[']'],1908.08987v1,100.0,0.278,0.984256232325866
+Image Classification,Noisy MNIST (Contrast),PCGAN-CHAR,97.25,1.0,,[']'],1908.08987v1,100.0,0.278,0.9724233368765167
+Image Classification,Noisy MNIST (Motion),PCGAN-CHAR,99.2,1.0,,[']'],1908.08987v1,100.0,0.278,0.9919776980004412
+Image Classification,ObjectNet,CoCa,82.7,1.0,,[']'],2205.01917v2,100.0,0.278,0.8265177192595415
+Image Classification,ObjectNet (Bounding Box),BiT-L (ResNet),85.1,1.0,,['ResNet'],1912.11370v3,100.0,0.278,0.8505846252582178
+Image Classification,ObjectNet (ImageNet classes),Diffusion Classifier (zero-shot),43.4,1.0,,[']'],2303.16203v3,100.0,0.278,0.4324221335312168
+Image Classification,OmniBenchmark,NOAH-ViTB/16,47.6,1.0,,"['pre-trained on ImageNet22K', 'parameter-efficient tuning', 'ViT']",2206.04673v2,100.0,0.278,0.4745392190289004
+Image Classification,Oxford-IIIT Pet Dataset,TWIST (ResNet-50),94.5,1.0,,[']'],2110.07402v4,100.0,0.278,0.9448466737530334
+Image Classification,Oxford-IIIT Pets,efficient adaptive ensembling,98.22,1.0,,[']'],2206.07394v3,100.0,0.278,0.9821503780509817
+Image Classification,PASCAL VOC 2007,NNCLR,83.0,1.0,,[']}]</script'],2104.14548v2,100.0,0.278,0.8295260825093761
+Image Classification,PRImA,ResNet-152 2x (RS training),89.3,1.0,,[']}]</script'],2103.07579v1,100.0,0.278,0.8927017107559013
+Image Classification,Places205,InternImage-H,71.7,1.0,,[']'],2211.05778v4,100.0,0.278,0.7162110667656084
+Image Classification,Places365,OmniVec2,65.1,1.0,,[']'],,100.0,0.278,0.6500270752692484
+Image Classification,Places365-Standard,SWAG (ViT H/14),60.7,1.0,,[']'],2201.08371v2,100.0,0.278,0.6059044142716753
+Image Classification,PlantVillage,adaptive minimal ensembling,100.0,1.0,,[']'],,100.0,0.278,1.0
+Image Classification,QMNIST,Deep regularization,99.67,1.0,,[']}]</script'],2002.08335v2,100.0,0.278,0.996690800425182
+Image Classification,RESISC45,ResNet50,96.83,1.0,,[']'],1911.06721v1,100.0,0.278,0.9682116283267483
+Image Classification,RGB Arabic Alphabet Sign Language (AASL) dataset,ArabSignNet,97.4,1.0,,[']}]</script'],,100.0,0.278,0.973927518501434
+Image Classification,Red MiniImageNet 20% label noise,NCR (ResNet-18),69.0,1.0,,[']'],2202.02200v2,100.0,0.278,0.6891357975170975
+Image Classification,Red MiniImageNet 40% label noise,NCR (ResNet-18),64.6,1.0,,[']'],2202.02200v2,100.0,0.278,0.6450131365195242
+Image Classification,Red MiniImageNet 60% label noise,InstanceGM-SS,53.21,1.0,,[']'],2209.00906v1,100.0,0.278,0.5307956118008063
+Image Classification,Red MiniImageNet 80% label noise,NCR (ResNet-18),51.2,1.0,,[']'],2202.02200v2,100.0,0.278,0.5106395780269148
+Image Classification,SARS-COV-2,Fuzzy rank-based fusion of CNN models using Gompertz function,98.93,1.0,,[']}]</script'],,100.0,0.278,0.9892701710755902
+Image Classification,SIPaKMeD,DL+PCA+GWO,97.87,1.0,,[']'],2106.04919v1,100.0,0.278,0.9786406209261748
+Image Classification,STL-10,VIT-L/16 (Spinal FC),99.71,1.0,,[']'],2305.03238v4,100.0,0.278,0.9970919155251599
+Image Classification,SUN397,TransBoost-ResNet50,95.94,1.0,,[']}]</script'],2205.13331v4,100.0,0.278,0.9592868173522392
+Image Classification,SVHN,E2E-M3,99.0,1.0,,[']'],2007.15161v3,100.0,0.278,0.9899721225005516
+Image Classification,So2Sat LCZ42,ResNet50,63.25,1.0,,[']}]</script'],1911.06721v1,100.0,0.278,0.6314755018952689
+Image Classification,Split CIFAR-10,Model with negotiation paradigm,46.5,1.0,,[']}]</script'],2312.00237v1,100.0,0.278,0.46350855377950706
+Image Classification,Split Fashion M-NIST,Model with negotiation paradigm,54.8,1.0,,[']}]</script'],2312.00237v1,100.0,0.278,0.5467399370249293
+Image Classification,Split M-NIST,Model with negotiation paradigm,82.3,1.0,,[']}]</script'],2312.00237v1,100.0,0.278,0.8225065682597621
+Image Classification,Sports10,Max Margin Contrastive,93.42,1.0,,[']}]</script'],2106.10060v1,100.0,0.278,0.9340165660536291
+Image Classification,Stanford Cars,efficient adaptive ensembling,99.84,1.0,,[']'],2206.07394v3,100.0,0.278,0.9983955396000883
+Image Classification,Stanford Online Products,\u00b52Net+ (ViT-L/16),89.47,1.0,,[']}]</script'],2209.07326v3,100.0,0.278,0.8944064499308076
+Image Classification,Surrey ASL,E2E-3M,5.099999999999994,1.0,,[']}]</script'],2007.15161v3,100.0,0.278,0.04835442530234045
+Image Classification,Tiered ImageNet 5-way (5-shot),EGNN+Transduction,80.15,1.0,,[']'],1905.01436v1,100.0,0.278,0.8009466316359479
+Image Classification,Tiny ImageNet Classification,Astroformer,92.98,1.0,,[']'],2304.05350v2,100.0,0.278,0.9296042999538718
+Image Classification,Tiny-ImageNet,UPANets,67.67,1.0,,[']'],2103.08640v2,100.0,0.278,0.6757987204428311
+Image Classification,VTAB-1k,ALIGN (50 hypers/task),79.99,1.0,,[']'],2102.05918v2,100.0,0.278,0.7993421712360361
+Image Classification,Visual Wake Words,HyT-NAS-BA,92.25,1.0,,[']'],2303.04440v2,100.0,0.278,0.9222839493792744
+Image Classification,VizWiz-Classification,VOLO-D5,57.2,1.0,,[']}]</script'],2106.13112v2,100.0,0.278,0.5708068430236057
+Image Classification,WebVision,PropMix (Ours),78.84,1.0,,[']'],2110.11809v1,100.0,0.278,0.7878101121116705
+Image Classification,WebVision-1000,MAM (ViT-B/16),83.6,1.0,,[']'],2304.05173v1,100.0,0.278,0.8355428090090451
+Image Classification,cats_vs_dogs,\u00b52Net+ (ViT-L/16),99.83,1.0,,[']}]</script'],2209.07326v3,100.0,0.278,0.9982952608250938
+Image Classification,"cifar-10,4000",WRN-28-2 + UDA+AutoDropout,95.8,1.0,,[']}]</script'],2101.01761v1,100.0,0.278,0.9578829145023164
+Image Classification,cifar10,SAM,0.967,1.0,,[']}]</script'],,100.0,0.278,0.006909207597119994
+Image Classification,cifar100,shreynet,45.98,1.0,,[']}]</script'],1512.03385v1,100.0,0.278,0.45829405747979385
+Image Classification,delete,,36.2,1.0,,[']}]</script'],2310.00567v1,100.0,0.278,0.3602214155351879
+Image Classification,iCassava'19,E2E-3M,99.064,1.0,,[']}]</script'],2007.15161v3,100.0,0.278,0.9906139066605162
+Image Classification,iNat2021-mini,WaveMix-256/16 (level 2),61.75,1.0,,[']}]</script'],2205.14375v5,100.0,0.278,0.6164336856460962
+Image Classification,iNaturalist,Hiera-H (448px),83.8,1.0,,[']'],2306.00989v1,100.0,0.278,0.8375483845089348
+Image Classification,iNaturalist 2018,OmniVec2,94.6,1.0,,[']'],,100.0,0.278,0.9458494615029782
+Image Classification,iNaturalist 2019,Hiera-H (448px),88.5,1.0,,[']'],2306.00989v1,100.0,0.278,0.8846794087563427
+Image Classification,mini WebVision 1.0,LRA-diffusion (CLIP ViT),84.16,1.0,,[']'],2305.19518v2,100.0,0.278,0.8411584204087362
+Image Classification,mnist,WaveMixLite,99.75,1.0,,[']}]</script'],2205.14375v5,100.0,0.278,0.9974930306251378
+Image Classification,smallNORB,Heinsen Routing,99.1,1.0,,[']'],1911.00792v6,100.0,0.278,0.9909749102504963
+Image Classification,split CIFAR-100,Model with negotiation paradigm,34.9,1.0,,[']}]</script'],2312.00237v1,100.0,0.278,0.3471851747859048
+Image Generation,"1,078 People 3D Faces Collection Data",Sessiz \u00e7\u0131\u011fl\u0131k,15.0,1.0,,[']}]</script'],,99.666,-19772.0,0.995739360756164
+Image Generation,25% ImageNet 128x128,LeCAM + DA,88.84,1.0,,[']}]</script'],2104.03310v1,99.666,-19772.0,0.9994552042088468
+Image Generation,ADE-Indoor,Projected GAN,93.3,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9996796443740549
+Image Generation,AFHQ Cat,Vision-aided GAN,99.54,1.0,,[']'],2112.09130v3,99.666,-19772.0,0.9999936593137183
+Image Generation,AFHQ Dog,Projected GAN,95.48,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9997893483113091
+Image Generation,AFHQ Wild,Vision-aided GAN,99.62,1.0,,[']'],2112.09130v3,99.666,-19772.0,0.9999976851462781
+Image Generation,AFHQV2,Polarity-StyleGAN3,96.05,1.0,,[']'],2203.01993v2,99.666,-19772.0,0.9998180323682976
+Image Generation,ARKitScenes,GAUDI,62.65,1.0,,[']'],2207.13751v1,99.666,-19772.0,0.9981372472745869
+Image Generation,Binarized MNIST,CR-NVAE,23.07,1.0,,[']'],2105.14859v2,99.666,-19772.0,0.9961454666156324
+Image Generation,CAT 256x256,StyleGAN2 + DA + RLC (Ours),89.84,1.0,,[']'],2104.03310v1,99.666,-19772.0,0.9995055271158442
+Image Generation,CIFAR-10,StyleSAN-XL,98.64,1.0,,['GAN'],2301.12811v4,99.666,-19772.0,0.9999483686974207
+Image Generation,CIFAR-10 (10% data),DiffAugment-StyleGAN2,85.5,1.0,,[']'],2006.10738v4,99.666,-19772.0,0.9992871256994758
+Image Generation,CIFAR-10 (20% data),DiffAugment-StyleGAN2,87.85,1.0,,[']'],2006.10738v4,99.666,-19772.0,0.9994053845309194
+Image Generation,CIFAR-100,LeCAM (StyleGAN2 + ADA),97.01,1.0,,[']'],2104.03310v1,99.666,-19772.0,0.999866342359015
+Image Generation,CLEVR,Projected GAN,99.11,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9999720204637095
+Image Generation,CUB 128 x 128,Projected GAN,97.21,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9998764069404145
+Image Generation,CelebA 128x128,U-Net GAN,97.05,1.0,,[']'],2002.12655v2,99.666,-19772.0,0.9998683552752949
+Image Generation,CelebA 256x256,Efficient-VDVAE,99.49,1.0,,['VAE'],2203.13751v2,99.666,-19772.0,0.9999911431683685
+Image Generation,CelebA 64x64,DDPM-IP,98.73,1.0,,"['unconditional', 'Diffusion']",2301.11706v3,99.666,-19772.0,0.9999528977590504
+Image Generation,CelebA-HQ 1024x1024,StyleSwin,95.57,1.0,,[']'],2112.10762v2,99.666,-19772.0,0.9997938773729389
+Image Generation,CelebA-HQ 128x128,U-Net GAN,97.97,1.0,,[']'],2002.12655v2,99.666,-19772.0,0.9999146523497325
+Image Generation,CelebA-HQ 256x256,RDM,96.85,1.0,,[']'],2309.03350v1,99.666,-19772.0,0.9998582906938954
+Image Generation,CelebA-HQ 512x512,WaveDiff,93.6,1.0,,[']}]</script'],2211.16152v2,99.666,-19772.0,0.9996947412461541
+Image Generation,CelebA-HQ 64x64,COCO-GAN,96.0,1.0,,[']'],1904.00284v4,99.666,-19772.0,0.9998155162229477
+Image Generation,Cityscapes,Projected GAN,96.59,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9998452067380762
+Image Generation,Cityscapes-25K 256x512,SB-GAN,37.03,1.0,,[']}]</script'],1911.11357v1,99.666,-19772.0,0.9968479743973151
+Image Generation,Cityscapes-5K 256x512,SB-GAN,34.510000000000005,1.0,,[']}]</script'],1911.11357v1,99.666,-19772.0,0.9967211606716818
+Image Generation,EMNIST-Letters,Spiking-Diffusion,32.59,1.0,,[']}]</script'],2308.10187v4,99.666,-19772.0,0.9966245406902471
+Image Generation,FFHQ 1024 x 1024,StyleSAN-XL,98.39,1.0,,[']'],2301.12811v4,99.666,-19772.0,0.9999357879706713
+Image Generation,FFHQ 128 x 128,DDPM-IP,97.02,1.0,,['unconditional'],2301.11706v3,99.666,-19772.0,0.999866845588085
+Image Generation,FFHQ 256 x 256,StyleSAN-XL,98.32,1.0,,['GAN'],2301.12811v4,99.666,-19772.0,0.9999322653671815
+Image Generation,FFHQ 512 x 512,StyleSAN-XL,98.23,1.0,,[']'],2301.12811v4,99.666,-19772.0,0.9999277363055518
+Image Generation,FFHQ 64x64 - 4x upscaling,PFGM++,97.57,1.0,,[']}]</script'],2302.04265v2,99.666,-19772.0,0.9998945231869335
+Image Generation,FFHQ-U,Alias-Free-R,96.34,1.0,,[']'],2106.12423v4,99.666,-19772.0,0.9998326260113268
+Image Generation,Fashion-MNIST,GLF+perceptual loss (ours),89.7,1.0,,[']'],1905.10485v2,99.666,-19772.0,0.9994984819088646
+Image Generation,GQN,GENESIS,19.5,1.0,,[']}]</script'],1907.13052v4,99.666,-19772.0,0.995965813837652
+Image Generation,ImageNet 128x128,PaGoDA,98.52,1.0,,"['GAN', 'VAE', 'Diffusion']",2405.14822v1,99.666,-19772.0,0.999942329948581
+Image Generation,ImageNet 256x256,PaGoDA,98.44,1.0,,"['GAN', 'VAE', 'Diffusion']",2405.14822v1,99.666,-19772.0,0.9999383041160211
+Image Generation,ImageNet 256x256 - 1 labeled data per class,DPT,96.0,1.0,,[']}]</script'],,99.666,-19772.0,0.9998155162229477
+Image Generation,ImageNet 256x256 - 1% labeled data,DPT,96.65,1.0,,[']}]</script'],,99.666,-19772.0,0.999848226112496
+Image Generation,ImageNet 256x256 - 2 labeled data per class,DPT,96.56,1.0,,[']}]</script'],,99.666,-19772.0,0.9998436970508663
+Image Generation,ImageNet 256x256 - 5 labeled data per class,DPT,96.63,1.0,,[']}]</script'],,99.666,-19772.0,0.9998472196543561
+Image Generation,ImageNet 32x32,PaGoDA,99.21,1.0,,[']'],2405.14822v1,99.666,-19772.0,0.9999770527544091
+Image Generation,ImageNet 512x512,"EDM2- XXL  Autoguidance (M, T /3.5)",98.75,1.0,,[']'],2406.02507v1,99.666,-19772.0,0.9999539042171904
+Image Generation,ImageNet 64x64,GDD-I,98.84,1.0,,"['GAN', 'Diffusion']",2405.20750v2,99.666,-19772.0,0.9999584332788202
+Image Generation,Indian Celebs 256 x 256,MSG-StyleGAN,71.56,1.0,,[']}]</script'],1903.06048v4,99.666,-19772.0,0.998585624375933
+Image Generation,KMNIST,Spiking-Diffusion,40.77,1.0,,[']}]</script'],2308.10187v4,99.666,-19772.0,0.9970361820694852
+Image Generation,LLVIP,pix2pix,10.76,1.0,,[']}]</script'],2108.10831v4,99.666,-19772.0,0.9955259916304953
+Image Generation,LSUN,BigGAN + gSR,20.18,1.0,,[']}]</script'],2208.09932v1,99.666,-19772.0,0.9960000334144102
+Image Generation,LSUN Bedroom,StyleGAN,97.35,1.0,,[']'],1812.04948v3,99.666,-19772.0,0.999883452147394
+Image Generation,LSUN Bedroom 128 x 128,LadaGAN,95.1,1.0,,[']'],2401.09596v1,99.666,-19772.0,0.9997702256066501
+Image Generation,LSUN Bedroom 256 x 256,Diffusion ProjectedGAN,98.57,1.0,,[']'],2206.02262v4,99.666,-19772.0,0.9999448460939309
+Image Generation,LSUN Bedroom 64 x 64,WGAN-GP + TT Update Rule,90.5,1.0,,[']'],1706.08500v6,99.666,-19772.0,0.9995387402344624
+Image Generation,LSUN Car 256 x 256,StyleGAN2,97.68,1.0,,[']}]</script'],1912.04958v2,99.666,-19772.0,0.9999000587067033
+Image Generation,LSUN Car 512 x 384,Polarity-StyleGAN2,97.73,1.0,,[']'],2203.01993v2,99.666,-19772.0,0.9999025748520531
+Image Generation,LSUN Cat 256 x 256,Vision-aided GAN,96.13,1.0,,[']'],2112.09130v3,99.666,-19772.0,0.9998220582008575
+Image Generation,LSUN Churches 256 x 256,Projected GAN,98.41,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9999367944288113
+Image Generation,LSUN Horse 256 x 256,Vision-aided GAN,97.85,1.0,,[']'],2112.09130v3,99.666,-19772.0,0.9999086136008927
+Image Generation,LSUN tower 64x64,DDPM-IP,97.4,1.0,,"['unconditional', 'Diffusion']",2301.11706v3,99.666,-19772.0,0.9998859682927441
+Image Generation,Landscapes 256 x 256,CIPS,96.39,1.0,,[']}]</script'],2011.13775v1,99.666,-19772.0,0.9998351421566767
+Image Generation,MNIST,Locally Masked PixelCNN (8 orders),99.35,1.0,,[']'],2006.12486v3,99.666,-19772.0,0.9999840979613888
+Image Generation,MetFaces,t-Stylegan3-ada (NVIDIA pre-trained),-19772.0,1.0,,[']'],2203.03226v3,99.666,-19772.0,0.0
+Image Generation,MetFaces-U,Alias-Free-R,81.25,1.0,,[']'],2106.12423v4,99.666,-19772.0,0.9990732533447371
+Image Generation,Multi-dSprites,GENESIS,75.1,1.0,,[']}]</script'],1907.13052v4,99.666,-19772.0,0.9987637674667035
+Image Generation,NASA Perseverance,Stylegan2-ada,-8986.0,1.0,,[']}]</script'],2203.03226v3,99.666,-19772.0,0.5427828748731989
+Image Generation,ObjectsRoom,GENESIS-V2,47.4,1.0,,[']'],2104.09958v3,99.666,-19772.0,0.9973698229428776
+Image Generation,Oxford 102 Flowers 128x128,QSNGAN,-15.799999999999995,1.0,,[']}]</script'],2104.09630v2,99.666,-19772.0,0.9941894152206463
+Image Generation,Oxford 102 Flowers 256 x 256,Projected GAN,96.14,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9998225614299273
+Image Generation,Places50,SinDiffusion,0.387,1.0,,[']'],2211.12445v1,99.666,-19772.0,0.9950039921162119
+Image Generation,Pokemon 1024x1024,StyleGAN-XL,74.53,1.0,,[']'],2202.00273v2,99.666,-19772.0,0.998735083409715
+Image Generation,Pokemon 256x256,StyleGAN-XL,76.03,1.0,,[']'],2202.00273v2,99.666,-19772.0,0.998810567770211
+Image Generation,RC-49,cDR-RS,99.666,1.0,,[']'],2103.11166v5,99.666,-19772.0,1.0
+Image Generation,Replica,GAUDI,81.25,1.0,,[']'],2207.13751v1,99.666,-19772.0,0.9990732533447371
+Image Generation,SDSS Galaxies,AstroDDPM,81.0,1.0,,[']}]</script'],2111.01713v2,99.666,-19772.0,0.9990606726179878
+Image Generation,STL-10,Diffusion ProjectedGAN,93.09,1.0,,[']'],2206.02262v4,99.666,-19772.0,0.9996690765635855
+Image Generation,Satellite-Buildings 256 x 256,CIPS,30.33,1.0,,[']}]</script'],2011.13775v1,99.666,-19772.0,0.9965108109204331
+Image Generation,Satellite-Landscapes 256 x 256,CIPS,51.53,1.0,,[']}]</script'],2011.13775v1,99.666,-19772.0,0.9975776565487764
+Image Generation,ShapeStacks,GENESIS-V2,-12.700000000000005,1.0,,[']'],2104.09958v3,99.666,-19772.0,0.994345416232338
+Image Generation,Stacked MNIST,VAEBM,87.03999999999999,1.0,,[']'],2010.00654v3,99.666,-19772.0,0.9993646229762517
+Image Generation,Stanford Cars,Projected GANs,97.91,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9999116329753126
+Image Generation,Stanford Dogs,Projected GAN,88.25,1.0,,[']'],2111.01007v1,99.666,-19772.0,0.9994255136937185
+Image Generation,VLN-CE,GAUDI,81.48,1.0,,[']'],2207.13751v1,99.666,-19772.0,0.9990848276133465
+Image Generation,VizDoom,GAUDI,66.3,1.0,,[']'],2207.13751v1,99.666,-19772.0,0.998320925885127
+Image Generation,iNaturalist 2019,StyeGAN2 + NoisyTwins,88.53999999999999,1.0,,[']'],2304.05866v1,99.666,-19772.0,0.9994401073367477
+Image-to-Image Translation,2017_test set,hi,457.0,1.0,,[']}]</script'],,457.0,0.26,1.0
+Image-to-Image Translation,ADE-Indoor Labels-to-Photo,SB-GAN,51.85,1.0,,[']}]</script'],1911.11357v1,457.0,0.26,0.11295266453562203
+Image-to-Image Translation,ADE20K Labels-to-Photos,DP-SIMS (ConvNext-L),54.3,1.0,,[']'],2312.13314v2,457.0,0.26,0.11831676665061085
+Image-to-Image Translation,ADE20K-Outdoor Labels-to-Photos,DP-GAN,40.4,1.0,,[']'],2210.04085v1,457.0,0.26,0.08788369750842931
+Image-to-Image Translation,AFHQ,StarGAN v2,0.524,1.0,,[']'],1912.01865v2,457.0,0.26,0.0005780093707579805
+Image-to-Image Translation,AFHQ (Cat to Dog),EGSDE,48.96,1.0,,[']}]</script'],2207.06635v5,457.0,0.26,0.10662521346936989
+Image-to-Image Translation,AFHQ (Wild to Dog),EGSDE,49.57,1.0,,[']}]</script'],2207.06635v5,457.0,0.26,0.10796076542453037
+Image-to-Image Translation,Aerial-to-Map,cGAN,0.26,1.0,,[']'],1611.07004v3,457.0,0.26,0.0
+Image-to-Image Translation,Apples and Oranges,Shared discriminator GAN,95.6,1.0,,[']}]</script'],2102.04699v1,457.0,0.26,0.20874020230327975
+Image-to-Image Translation,BCI,pyramidpix2pix,21.16,1.0,,[']'],2204.11425v2,457.0,0.26,0.045759075185006784
+Image-to-Image Translation,BRATS,ResViT,26.9,1.0,,[']}]</script'],2106.16031v3,457.0,0.26,0.058326400140123476
+Image-to-Image Translation,COCO-Stuff Labels-to-Photos,DP-SIMS (ConvNext-XL),86.7,1.0,,[']'],2312.13314v2,457.0,0.26,0.1892542803345448
+Image-to-Image Translation,CelebA-HQ,StarGAN v2,86.27,1.0,,[']'],1912.01865v2,457.0,0.26,0.1883128256776284
+Image-to-Image Translation,Cityscapes Labels-to-Photo,DP-SIMS (ConvNext-L),76.3,1.0,,[']'],2312.13314v2,457.0,0.26,0.16648421421377588
+Image-to-Image Translation,Cityscapes Photo-to-Labels,pix2pix,0.32,1.0,,[']'],1611.07004v3,457.0,0.26,0.0001313657660813592
+Image-to-Image Translation,Cityscapes-to-Foggy Cityscapes,MIC,47.6,1.0,,[']'],2212.01322v2,457.0,0.26,0.10364758943819241
+Image-to-Image Translation,Deep-Fashion,INADE,90.03,1.0,,[']'],2103.06878v1,457.0,0.26,0.19654508035206025
+Image-to-Image Translation,GTAV-to-Cityscapes Labels,MIC,75.9,1.0,,[']'],2212.01322v2,457.0,0.26,0.16560844243990017
+Image-to-Image Translation,IXI,ResViT,35.71,1.0,,[']'],2106.16031v3,457.0,0.26,0.0776152734597364
+Image-to-Image Translation,KITTI Object Tracking Evaluation 2012,SRNet,21.12,1.0,,[']}]</script'],1908.03047v1,457.0,0.26,0.045671498007619216
+Image-to-Image Translation,LLVIP,pyramidpix2pix,12.19,1.0,,[']'],2204.11425v2,457.0,0.26,0.026119893155843586
+Image-to-Image Translation,Object Transfiguration (sheep-to-giraffe),InstaGAN,78.1,1.0,,[']'],1812.10889v2,457.0,0.26,0.17042518719621663
+Image-to-Image Translation,RaFD,StarGAN,97.88,1.0,,[']'],1711.09020v3,457.0,0.26,0.21373210141437138
+Image-to-Image Translation,SYNTHIA Fall-to-Winter,CyCADA,63.3,1.0,,[']'],1711.03213v3,457.0,0.26,0.13802163156281472
+Image-to-Image Translation,SYNTHIA-to-Cityscapes,HRDA + PiPa,74.8,1.0,,['Transformer'],2211.07609v1,457.0,0.26,0.1632000700617419
+Image-to-Image Translation,Zebra and Horses,Shared discriminator GAN,94.2,1.0,,[']}]</script'],2102.04699v1,457.0,0.26,0.2056750010947147
+Image-to-Image Translation,anime-to-selfie,FQ-GAN,89.77,1.0,,[']'],2004.02088v2,457.0,0.26,0.195975828699041
+Image-to-Image Translation,cat2dog,GNR,73.9,1.0,,[']'],2106.06561v1,457.0,0.26,0.16122958357052153
+Image-to-Image Translation,dog2cat,U-GAT-IT,91.85,1.0,,[']}]</script'],1907.10830v4,457.0,0.26,0.20052984192319478
+Image-to-Image Translation,horse2zebra,U-GAT-IT,92.94,1.0,,[']'],1907.10830v4,457.0,0.26,0.20291632000700616
+Image-to-Image Translation,photo2portrait,U-GAT-IT,98.21,1.0,,[']}]</script'],1907.10830v4,457.0,0.26,0.21445461312781885
+Image-to-Image Translation,photo2vangogh,U-GAT-IT,95.72,1.0,,[']'],1907.10830v4,457.0,0.26,0.20900293383544247
+Image-to-Image Translation,portrait2photo,U-GAT-IT,98.31,1.0,,[']}]</script'],1907.10830v4,457.0,0.26,0.21467355607128782
+Image-to-Image Translation,selfie-to-anime,FQ-GAN,88.6,1.0,,[']'],2004.02088v2,457.0,0.26,0.1934141962604545
+Image-to-Image Translation,selfie2anime,GNR,64.4,1.0,,[']'],2106.06561v1,457.0,0.26,0.140430003940973
+Image-to-Image Translation,vangogh2photo,U-GAT-IT,94.39,1.0,,[']'],1907.10830v4,457.0,0.26,0.20609099268730569
+Image-to-Image Translation,zebra2horse,U-GAT-IT,92.53,1.0,,[']'],1907.10830v4,457.0,0.26,0.20201865393878354
+Instance Segmentation,ADE20K val,"OneFormer (InternImage-H, emb_dim=1024, single-scale, 896x896, COCO-Pretrained)",44.2,1.0,,[']'],2211.06220v2,90.7,22.2,0.3211678832116789
+Instance Segmentation,BDD100K val,Mask Transfiner,23.6,1.0,,[']'],2111.13673v1,90.7,22.2,0.020437956204379593
+Instance Segmentation,COCO 2017 val,SparK (ConvNeXt V1-B Mask R-CNN),45.1,1.0,,[']'],2301.03580v2,90.7,22.2,0.33430656934306574
+Instance Segmentation,COCO minival,InternImage-H,55.4,1.0,,[']'],2211.05778v4,90.7,22.2,0.4846715328467154
+Instance Segmentation,COCO test-dev,EVA,55.5,1.0,,['Giant'],2211.07636v2,90.7,22.2,0.48613138686131385
+Instance Segmentation,COCO val (panoptic labels),"OneFormer (InternImage-H, emb_dim=1024, single-scale)",52.0,1.0,,[']'],2211.06220v2,90.7,22.2,0.43503649635036495
+Instance Segmentation,COCO val2017,MogaNet-S (256x192),90.7,1.0,,[']}]</script'],2211.03295v3,90.7,22.2,1.0
+Instance Segmentation,Cityscapes val,"OneFormer (InternImage-H, emb_dim=256, single-scale)",50.6,1.0,,[']'],2211.06220v2,90.7,22.2,0.4145985401459854
+Instance Segmentation,KINS,BCNet,28.87,1.0,,[']}]</script'],2103.12340v1,90.7,22.2,0.09737226277372266
+Instance Segmentation,LDD,R^3-CNN,22.2,1.0,,[']}]</script'],2206.10192v1,90.7,22.2,0.0
+Instance Segmentation,LVIS v1.0 test-dev,R50-FPN-MaskRCNN-TTA,41.23,1.0,,[']}]</script'],2009.01559v1,90.7,22.2,0.27781021897810215
+Instance Segmentation,LVIS v1.0 val,Co-DETR (single-scale),56.0,1.0,,[']'],2211.12860v5,90.7,22.2,0.49343065693430654
+Instance Segmentation,Leaf Segmentation Challenge,LeafMask,90.09,1.0,,[']}]</script'],2108.03568v1,90.7,22.2,0.9910948905109489
+Instance Segmentation,NYU Depth v2,SGPN-CNN,30.5,1.0,,[']}]</script'],1711.08588v2,90.7,22.2,0.12116788321167885
+Instance Segmentation,Object Detection on COCO minival,"DaViT-T (Mask R-CNN, 36 epochs)",44.3,1.0,,[']}]</script'],2204.03645v1,90.7,22.2,0.32262773722627736
+Instance Segmentation,Occluded COCO,Swin-B + Cascade Mask R-CNN (tri-layer modelling),63.64,1.0,,[']'],2210.10046v1,90.7,22.2,0.604963503649635
+Instance Segmentation,OoDIS,UGainS,25.19,1.0,,"['aux data', 'aux model']",2308.02046v1,90.7,22.2,0.04364963503649638
+Instance Segmentation,PartNet,PE,57.5,1.0,,[']}]</script'],1912.00145v2,90.7,22.2,0.5153284671532846
+Instance Segmentation,Separated COCO,Swin-B + Cascade Mask R-CNN (tri-layer modelling),36.88,1.0,,[']'],2210.10046v1,90.7,22.2,0.21430656934306574
+Instance Segmentation,TBBR,Swin-T (ImageNet-1k pretrain),28.0,1.0,,[']'],,90.7,22.2,0.08467153284671534
+Instance Segmentation,UFBA-425,BB-UNet,86.15,1.0,,[']}]</script'],2406.03747v1,90.7,22.2,0.9335766423357664
+Instance Segmentation,UIIS,WaterMask RCNN,27.2,1.0,,[']'],,90.7,22.2,0.072992700729927
+Instance Segmentation,coco minval,"R3-CNN (ResNet-50-FPN, GC-Net)",56.0,1.0,,[']}]</script'],2104.01329v2,90.7,22.2,0.49343065693430654
+Instance Segmentation,iSAID,PANet++,40.0,1.0,,[']'],1905.12886v2,90.7,22.2,0.2598540145985402
+Instance Segmentation,iShape,ASIS(baseline),62.93,1.0,,[']}]</script'],2109.15068v1,90.7,22.2,0.5945985401459855
+Instance Segmentation,nuScenes,TraDeS,68.2,1.0,,[']}]</script'],2103.08808v1,90.7,22.2,0.6715328467153284
+Medical Image Segmentation,2015 MICCAI Polyp Detection,DoubleUNet,0.764,1.0,,[']}]</script'],2006.04868v2,99.264,0.498,0.0026932345139015455
+Medical Image Segmentation,2018 Data Science Bowl,DuAT,0.926,1.0,,[']'],2212.11677v1,99.264,0.498,0.004333475082518277
+Medical Image Segmentation,ACDC,FCT,0.93,1.0,,[']'],2206.00566v2,99.264,0.498,0.004373974849644615
+Medical Image Segmentation,AMOS,MedNeXt-L (5x5x5),91.77,1.0,,[']}]</script'],2303.09975v5,99.264,0.498,0.9241236862888038
+Medical Image Segmentation,ASU-Mayo Clinic dataset,ResUNet++,99.126,1.0,,[']}]</script'],1911.07067v1,99.264,0.498,0.9986027580341414
+Medical Image Segmentation,Autoimmune Dataset,Unet with APP,0.498,1.0,,[']}]</script'],2207.06489v5,99.264,0.498,0.0
+Medical Image Segmentation,Automatic Cardiac Diagnosis Challenge (ACDC),FCT,94.26,1.0,,[']'],2207.07842v1,99.264,0.498,0.94933479132495
+Medical Image Segmentation,BKAI-IGH NeoPolyp-Small,RaBiT,0.94,1.0,,[']'],2307.06420v1,99.264,0.498,0.004475224267460462
+Medical Image Segmentation,Brain US,MedT,88.84,1.0,,[']'],2102.10662v2,99.264,0.498,0.8944576068687605
+Medical Image Segmentation,CHAOS MRI Dataset,MS-Dual-Guided,86.75,1.0,,[']}]</script'],1906.02849v3,99.264,0.498,0.8732964785452484
+Medical Image Segmentation,CHASE_DB1,MERIT-GCASCADE,0.826,1.0,,['average of 5 runs'],2310.16175v1,99.264,0.498,0.0033209809043598
+Medical Image Segmentation,CVC-ClinicDB,DUCK-Net,0.968,1.0,,[']'],2207.07842v1,99.264,0.498,0.004758722637344836
+Medical Image Segmentation,CVC-ColonDB,DUCK-Net,0.935,1.0,,[']'],2311.02239v1,99.264,0.498,0.00442459955855254
+Medical Image Segmentation,CVC-VideoClinicDB,ResUNet++ + TTA,99.188,1.0,,[']'],2107.12435v1,99.264,0.498,0.9992305044245996
+Medical Image Segmentation,Cell,UNet++,91.21,1.0,,[']}]</script'],1912.05074v2,99.264,0.498,0.9184537188911164
+Medical Image Segmentation,DRIVE,MERIT-GCASCADE,0.708,1.0,,[']'],2310.16175v1,99.264,0.498,0.0021262377741327987
+Medical Image Segmentation,EM,FANet,0.954,1.0,,[']'],2103.17235v3,99.264,0.498,0.004616973452402649
+Medical Image Segmentation,ETIS-LARIBPOLYPDB,DUCK-Net,0.935,1.0,,[']'],2311.02239v1,99.264,0.498,0.00442459955855254
+Medical Image Segmentation,Endotect Polyp Segmentation Challenge Dataset,DDANet,99.213,1.0,,[']'],2012.15245v1,99.264,0.498,0.9994836279691391
+Medical Image Segmentation,GlaS,Hi-gMISnet,93.25,1.0,,[']'],,99.264,0.498,0.9391086001255493
+Medical Image Segmentation,HSVM,MS-Dual-Guided,83.2,1.0,,[']}]</script'],1906.02849v3,99.264,0.498,0.8373529352206225
+Medical Image Segmentation,Hyper-Kvasir Dataset,efficientnetb1,0.857,1.0,,[']}]</script'],,99.264,0.498,0.0036348540995889277
+Medical Image Segmentation,ISBI 2012 EM Segmentation,DC-UNet,0.926,1.0,,[']'],2006.00414v1,99.264,0.498,0.004333475082518277
+Medical Image Segmentation,ISIC 2018,ProMISe,92.1,1.0,,[']'],2403.04164v2,99.264,0.498,0.9274649170767267
+Medical Image Segmentation,ISIC2018,U2netme,0.942,1.0,,[']}]</script'],2202.00972v2,99.264,0.498,0.004495474151023631
+Medical Image Segmentation,Kvasir-Instrument,efficientnetb1,0.948,1.0,,[']'],,99.264,0.498,0.00455622380171314
+Medical Image Segmentation,Kvasir-SEG,DUCK-Net,0.95,1.0,,[']'],2311.02239v1,99.264,0.498,0.00457647368527631
+Medical Image Segmentation,LiTS2017,UNet 3+,0.967,1.0,,[']'],2004.08790v1,99.264,0.498,0.0047485976955632505
+Medical Image Segmentation,MICCAI 2015 Head and Neck Challenge,AnatomyNet,79.25,1.0,,[']}]</script'],1808.05238v2,99.264,0.498,0.7973594151833627
+Medical Image Segmentation,MICCAI 2015 Multi-Atlas Abdomen Labeling Challenge,MERIT,84.9,1.0,,[']'],2303.16892v1,99.264,0.498,0.8545653362493166
+Medical Image Segmentation,Medical Segmentation Decathlon,Swin UNETR,78.68,1.0,,[']'],2111.14791v2,99.264,0.498,0.7915881983678594
+Medical Image Segmentation,Medico automatic polyp segmentation challenge (dataset),NanoNet-A,99.264,1.0,,[']'],2104.11138v1,99.264,0.498,1.0
+Medical Image Segmentation,MoNuSAC,MaxViT-UNet,0.821,1.0,,[']}]</script'],2305.08396v5,99.264,0.498,0.003270356195451876
+Medical Image Segmentation,MoNuSeg,Hi-gMISnet,82.5,1.0,,[']'],,99.264,0.498,0.8302654759735132
+Medical Image Segmentation,MoNuSeg 2018,MaxViT-UNet,0.837,1.0,,[']}]</script'],2305.08396v5,99.264,0.498,0.003432355263957232
+Medical Image Segmentation,MosMedData,C2FVL,74.56,1.0,,[']}]</script'],2303.00279v1,99.264,0.498,0.7498734382277302
+Medical Image Segmentation,PROMISE12,Hi-gMISnet,90.79,1.0,,[']}]</script'],,99.264,0.498,0.9142012433428509
+Medical Image Segmentation,RITE,KiU-Net,75.17,1.0,,[']'],2010.01663v2,99.264,0.498,0.756049652714497
+Medical Image Segmentation,ROBUST-MIS,ColonsegNet,99.151,1.0,,[']'],2107.02319v2,99.264,0.498,0.9988558815786809
+Medical Image Segmentation,SegPC-2021,DCSAU-Net,0.804,1.0,,[']}]</script'],2202.00972v2,99.264,0.498,0.003098232185164936
+Medical Image Segmentation,Synapse,nnFormer,0.874,1.0,,[']}]</script'],2109.03201v6,99.264,0.498,0.0038069781098758687
+Medical Image Segmentation,Synapse multi-organ CT,Swin UNETR,90.8,1.0,,[']'],2111.14791v2,99.264,0.498,0.9143024927606667
+Medical Image Segmentation,iSEG 2017 Challenge,HyperDenseNet,0.925,1.0,,[']}]</script'],1804.02967v2,99.264,0.498,0.0043233501407366915
+Object Detection,A Dataset of Multispectral Potato Plants Images,Retina-UNet-Ag,0.589,1.0,,[']}]</script'],2106.07770v3,839.0,-61.0,0.06843222222222223
+Object Detection,A2D,RL [10] Lpixel,5.8,1.0,,[']}]</script'],2108.03798v2,839.0,-61.0,0.07422222222222222
+Object Detection,AI-TOD,DetectoRS + NWD (ResNet-50-FPN),20.8,1.0,,[']'],2110.13389v2,839.0,-61.0,0.09088888888888888
+Object Detection,AquaTrash,Aquavision,0.814,1.0,,[']}]</script'],,839.0,-61.0,0.06868222222222223
+Object Detection,BDD100K,CDDMSL,27.1,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.09788888888888889
+Object Detection,BDD100K val,PP-YOLOE,59.7,1.0,,[']'],2203.16250v3,839.0,-61.0,0.13411111111111113
+Object Detection,BigDetection val,Cascade R-CNN (R50-FPN),24.1,1.0,,[']'],2203.13249v1,839.0,-61.0,0.09455555555555555
+Object Detection,COCO 2017,MaxViT-B,53.4,1.0,,[']'],2204.01697v4,839.0,-61.0,0.12711111111111112
+Object Detection,COCO 2017 val,Salience-DETR (Focal-L 1x),57.3,1.0,,['DETR'],2403.16131v1,839.0,-61.0,0.13144444444444445
+Object Detection,COCO minival,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,839.0,-61.0,0.14100000000000001
+Object Detection,COCO test-dev,Co-DETR,66.0,1.0,,['Large'],2211.12860v5,839.0,-61.0,0.1411111111111111
+Object Detection,COCO+,RepPoints + Self-adaptation,28.4,1.0,,[']}]</script'],2011.08529v4,839.0,-61.0,0.09933333333333334
+Object Detection,COCO-O,EVA,57.8,1.0,,[']'],2211.07636v2,839.0,-61.0,0.132
+Object Detection,CPPE-5,TridentNet,52.9,1.0,,[']'],2112.09569v2,839.0,-61.0,0.12655555555555556
+Object Detection,CityPersons,V2F-Net,89.92,1.0,,[']}]</script'],2104.03106v1,839.0,-61.0,0.16768888888888892
+Object Detection,Cityscapes to Foggy Cityscapes,CDDMSL,54.3,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.12811111111111112
+Object Detection,Clipart1k,CDDMSL,39.8,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.112
+Object Detection,Comic2k,CDDMSL,45.9,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.11877777777777779
+Object Detection,CrowdHuman,S-RCNN+Ours,92.5,1.0,,[']}]</script'],2203.07669v3,839.0,-61.0,0.17055555555555554
+Object Detection,CrowdHuman (full body),InternImage-H,97.2,1.0,,[']'],2211.05778v4,839.0,-61.0,0.17577777777777776
+Object Detection,DeepTrash,YOLOv5,0.856,1.0,,['YOLO'],2105.01882v4,839.0,-61.0,0.0687288888888889
+Object Detection,Drinking Waste Classification,EfficientDet-D2,99.4,1.0,,[']}]</script'],2105.06808v1,839.0,-61.0,0.17822222222222223
+Object Detection,Drone vs Bird,OBSS YOLOv5+Track Boosting (Including Synthetic Data),79.4,1.0,,[']'],2111.12389v5,839.0,-61.0,0.156
+Object Detection,ELEVATER,GLIP-T,62.6,1.0,,[']}]</script'],2204.08790v6,839.0,-61.0,0.13733333333333334
+Object Detection,Extended TACO-1,EfficientDet-D2,56.8,1.0,,[']}]</script'],2105.06808v1,839.0,-61.0,0.1308888888888889
+Object Detection,Extended TACO-7,EfficientDet-D2,16.2,1.0,,[']}]</script'],2105.06808v1,839.0,-61.0,0.08577777777777779
+Object Detection,Extragalactic Planetary Nebulae,PNe within NGC1380 \u0026 NGC1404,-61.0,1.0,,[']}]</script'],,839.0,-61.0,0.0
+Object Detection,FlickrLogos-32,Logo-Yolo,76.11,1.0,,[']'],2008.05359v1,839.0,-61.0,0.15234444444444445
+Object Detection,GEN1 Detection,ERGO-12,50.4,1.0,,[']'],2304.13455v4,839.0,-61.0,0.12377777777777778
+Object Detection,GRAZPEDWRI-DX,YOLOv8+ResCBAM,65.8,1.0,,[']'],2402.09329v4,839.0,-61.0,0.1408888888888889
+Object Detection,India Driving Dataset,YOLOv5x,69.7,1.0,,[']'],2304.06925v2,839.0,-61.0,0.1452222222222222
+Object Detection,IndustReal,YoloV8,64.1,1.0,,[']'],2310.17323v1,839.0,-61.0,0.13899999999999998
+Object Detection,KITTI Cars Easy,Patches,87.87,1.0,,[']'],1910.04093v1,839.0,-61.0,0.16541111111111112
+Object Detection,KITTI Cars Hard,Patches,68.91,1.0,,[']'],1910.04093v1,839.0,-61.0,0.14434444444444444
+Object Detection,KITTI Cars Moderate,Patches,77.16,1.0,,[']'],1910.04093v1,839.0,-61.0,0.1535111111111111
+Object Detection,KITTI Cyclists Easy,Vote3Deep,79.92,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.1565777777777778
+Object Detection,KITTI Cyclists Hard,Vote3Deep,62.98,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.13775555555555555
+Object Detection,KITTI Cyclists Moderate,Vote3Deep,67.88,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.1432
+Object Detection,KITTI Pedestrians Easy,Vote3Deep,68.39,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.14376666666666665
+Object Detection,KITTI Pedestrians Hard,Vote3Deep,52.59,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.1262111111111111
+Object Detection,KITTI Pedestrians Moderate,Vote3Deep,55.37,1.0,,[']}]</script'],1609.06666v2,839.0,-61.0,0.1293
+Object Detection,LDD,R^3-CNN,22.7,1.0,,[']}]</script'],2206.10192v1,839.0,-61.0,0.093
+Object Detection,LVIS v1.0,ScaleDet,50.7,1.0,,[']}]</script'],2306.04849v1,839.0,-61.0,0.12411111111111112
+Object Detection,LVIS v1.0 minival,Co-DETR (single-scale),72.0,1.0,,[']'],2211.12860v5,839.0,-61.0,0.14777777777777779
+Object Detection,LVIS v1.0 val,Co-DETR (single-scale),68.0,1.0,,[']'],2211.12860v5,839.0,-61.0,0.14333333333333334
+Object Detection,MJU-Waste,EfficientDet-D2,97.9,1.0,,[']}]</script'],2105.06808v1,839.0,-61.0,0.17655555555555555
+Object Detection,MS COCO,MOAT-3 22K+1K,59.2,1.0,,[']'],2210.01820v2,839.0,-61.0,0.13355555555555557
+Object Detection,MSCOCO,PP-PicoDet-L,40.9,1.0,,[']'],2111.00902v1,839.0,-61.0,0.11322222222222222
+Object Detection,Manga109,DASS-Detector (YOLOX XL),87.93,1.0,,[']'],2211.10641v2,839.0,-61.0,0.16547777777777778
+Object Detection,Manga109-s 15test,YOLOX-L,70.2,1.0,,[']'],2103.14027v3,839.0,-61.0,0.14577777777777776
+Object Detection,Multispectral Dataset,TarDAL,78.0,1.0,,[']}]</script'],2203.16220v1,839.0,-61.0,0.15444444444444444
+Object Detection,NAO,Mask RCNN R50,15.2,1.0,,[']'],2111.04204v1,839.0,-61.0,0.08466666666666667
+Object Detection,ODinW Full-Shot 13 Tasks,Grounding DINO 1.5 Pro,72.4,1.0,,[']'],2405.10300v2,839.0,-61.0,0.14822222222222223
+Object Detection,ODinW Full-shot 35 Tasks,Grounding DINO 1.5 Pro,72.4,1.0,,[']'],2405.10300v2,839.0,-61.0,0.14822222222222223
+Object Detection,Object Detection on COCO minival,"DaViT-T (Mask R-CNN, 36 epochs)",49.9,1.0,,[']}]</script'],2204.03645v1,839.0,-61.0,0.12322222222222223
+Object Detection,Objects365,ScaleDet,46.8,1.0,,[']}]</script'],2306.04849v1,839.0,-61.0,0.11977777777777777
+Object Detection,OpenImages-v6,ScaleDet,76.2,1.0,,[']'],2306.04849v1,839.0,-61.0,0.15244444444444444
+Object Detection,PASCAL Part 2010 - Animals,Attention-based Joint Detection of Object and Semantic Part,87.5,1.0,,[']}]</script'],2007.02419v1,839.0,-61.0,0.165
+Object Detection,PASCAL VOC,TinyissimoYOLO-v8,839.0,1.0,,[']}]</script'],2311.01057v2,839.0,-61.0,1.0
+Object Detection,PASCAL VOC 10%,DETReg (MDef-DETR),58.78,1.0,,[']'],2111.11430v6,839.0,-61.0,0.1330888888888889
+Object Detection,PASCAL VOC 2007,"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3,1.0,,"['FPN', 'single scale']",2012.07177v2,839.0,-61.0,0.167
+Object Detection,PASCAL VOC 2012,InternImage-H,97.2,1.0,,[']'],2211.05778v4,839.0,-61.0,0.17577777777777776
+Object Detection,PASCAL VOC to Comic2k,CDDMSL,46.3,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.11922222222222222
+Object Detection,PASCAL VOC to Watercolor2k,CDDMSL,49.7,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.123
+Object Detection,Pascal VOC to Clipart1K,MILA,49.9,1.0,,[']'],2309.01086v1,839.0,-61.0,0.12322222222222223
+Object Detection,PeopleArt,PVT (Pyramid Vision Transformer; trained on PeopleArt and PopArt),49.7,1.0,,[']'],2301.05124v1,839.0,-61.0,0.123
+Object Detection,SHEL5K,YOLO,0.882,1.0,,[']}]</script'],,839.0,-61.0,0.06875777777777778
+Object Detection,SIXray,LRPz,99.987,1.0,,[']'],1910.09840v3,839.0,-61.0,0.17887444444444445
+Object Detection,STN PLAD,MS-PAD,89.2,1.0,,"['VGG', 'SSD']",2108.07944v3,839.0,-61.0,0.16688888888888886
+Object Detection,SUN-RGBD val,CDSSD,7.0,1.0,,[']}]</script'],1806.10787v1,839.0,-61.0,0.07555555555555556
+Object Detection,SeaDronesSee,Synth Pretrained Faster R-CNN ResNeXt-101-FPN,59.2,1.0,,[']'],2112.12252v1,839.0,-61.0,0.13355555555555557
+Object Detection,SpaceNet 1,YOLT,0.21,1.0,,[']}]</script'],1807.01232v3,839.0,-61.0,0.0680111111111111
+Object Detection,SpaceNet 2,YOLT,0.6,1.0,,[']'],1807.01232v3,839.0,-61.0,0.06844444444444445
+Object Detection,TBBR,Swin-T (ImageNet-1k pretrain),45.4,1.0,,[']'],,839.0,-61.0,0.11822222222222223
+Object Detection,UA-DETRAC,VSTAM,90.39,1.0,,[']'],,839.0,-61.0,0.1682111111111111
+Object Detection,UAVDT,PRB-FPN,76.55,1.0,,[']'],2012.01724v5,839.0,-61.0,0.15283333333333335
+Object Detection,UAVVaste,EfficientDet-D2,74.1,1.0,,[']}]</script'],2105.06808v1,839.0,-61.0,0.1501111111111111
+Object Detection,USB (Standard USB 1.0 protocol),UniverseNet-20.08,52.1,1.0,,[']'],2103.14027v3,839.0,-61.0,0.12566666666666665
+Object Detection,VEDAI,GHOST,80.31,1.0,,[']'],2301.00131v1,839.0,-61.0,0.1570111111111111
+Object Detection,VisDrone - 10% labeled data,SSOD + Crop (L + U),27.46,1.0,,[']}]</script'],2308.05032v1,839.0,-61.0,0.0982888888888889
+Object Detection,VisDrone - 5% labeled data,SSOD + Crop (L + U),23.57,1.0,,[']}]</script'],2308.05032v1,839.0,-61.0,0.09396666666666666
+Object Detection,VisDrone- 1% labeled data,SSOD + Crop (L + U),17.21,1.0,,[']}]</script'],2308.05032v1,839.0,-61.0,0.0869
+Object Detection,VisDrone-DET2019,PP-YOLOE-plus,66.7,1.0,,[']'],2203.16250v3,839.0,-61.0,0.1418888888888889
+Object Detection,Visual Genome,YOLOv5x6,32.7,1.0,,[']'],,839.0,-61.0,0.10411111111111111
+Object Detection,WaterScenes,YOLOv8-M,59.2,1.0,,[']'],2307.06505v3,839.0,-61.0,0.13355555555555557
+Object Detection,Watercolor2k,CDDMSL,49.8,1.0,,[']}]</script'],2309.13525v1,839.0,-61.0,0.1231111111111111
+Object Detection,Waymo 2D detection all_ns f0val,YOLOX-L,41.6,1.0,,[']'],2103.14027v3,839.0,-61.0,0.11399999999999999
+Object Detection,Waymo 2D detection all_ns test,UniverseNet,67.42,1.0,,[']}]</script'],2103.14027v3,839.0,-61.0,0.1426888888888889
+Object Detection,Waymo Open Dataset,LeapMotor_Det,70.41,1.0,,[']'],2106.08713v1,839.0,-61.0,0.14601111111111112
+Object Detection,WiderPerson,"IterDet (Faster RCNN, ResNet50, 2 iterations)",91.95,1.0,,['ResNet'],2005.05708v2,839.0,-61.0,0.16994444444444443
+Object Detection,iSAID,PANet++,47.0,1.0,,[']'],1905.12886v2,839.0,-61.0,0.12
+Object Detection,nuScenes,BIRANet(RGB+Radar),76.9,1.0,,[']'],2008.13642v1,839.0,-61.0,0.15322222222222223
+Object Tracking,BIRDSAI - ICVGIP 2020,final,0.14,1.0,,[']'],,99.373,0.14,0.0
+Object Tracking,COESOT,HR-CEUTrack-Large,65.0,1.0,,[']'],2307.04129v2,99.373,0.14,0.6536132133463666
+Object Tracking,FE108,HR-MonTrack-Base,68.5,1.0,,[']'],2307.04129v2,99.373,0.14,0.6888837382725504
+Object Tracking,KITTI,M2-Track,83.4,1.0,,[']'],2203.01730v1,99.373,0.14,0.8390354015297331
+Object Tracking,MMPTRACK,UMMT,95.0,1.0,,[']'],2302.03820v1,99.373,0.14,0.9559319984279423
+Object Tracking,SeaDronesSee,DiMP50,67.33,1.0,,[']'],2105.01922v2,99.373,0.14,0.677093305654369
+Object Tracking,VisEvent,RT-MDNet,99.373,1.0,,[']}]</script'],2108.05015v4,99.373,0.14,1.0
+Panoptic Segmentation,ADE20K val,"OneFormer (InternImage-H, emb_dim=256, single-scale, 896x896)",54.5,1.0,,[']'],2211.06220v2,76.8,0.649,0.7071607726753424
+Panoptic Segmentation,COCO minival,"OneFormer (InternImage-H, emb_dim=1024, single-scale)",60.0,1.0,,[']'],2211.06220v2,76.8,0.649,0.779385694212814
+Panoptic Segmentation,COCO panoptic,VAN-B6*,58.2,1.0,,[']}]</script'],2202.09741v5,76.8,0.649,0.755748447164187
+Panoptic Segmentation,COCO test-dev,Mask DINO (single scale),59.5,1.0,,"['Swin-Transformer', 'single scale']",2206.02777v3,76.8,0.649,0.7728197922548621
+Panoptic Segmentation,Cityscapes test,"OneFormer (ConvNeXt-L, single-scale, Mapillary Vistas-Pretrained)",68.0,1.0,,[']'],2211.06220v2,76.8,0.649,0.8844401255400455
+Panoptic Segmentation,Cityscapes val,"OneFormer (ConvNeXt-L, single-scale, 512x1024, Mapillary Vistas-pretrained)",70.1,1.0,,[']'],2211.06220v2,76.8,0.649,0.9120169137634436
+Panoptic Segmentation,DALES,SuperCluster,61.2,1.0,,[']}]</script'],2401.06704v2,76.8,0.649,0.7951438589118988
+Panoptic Segmentation,Indian Driving Dataset,EfficientPS,51.1,1.0,,[']'],2004.02307v3,76.8,0.649,0.6625126393612691
+Panoptic Segmentation,KITTI Panoptic Segmentation,EfficientPS,43.7,1.0,,[']'],2004.02307v3,76.8,0.649,0.56533729038358
+Panoptic Segmentation,KITTI-360,SuperCluster,48.3,1.0,,[']}]</script'],2401.06704v2,76.8,0.649,0.625743588396738
+Panoptic Segmentation,LaRS,Mask2Former (Swin-B),41.7,1.0,,[']'],2308.09618v1,76.8,0.649,0.5390736825517722
+Panoptic Segmentation,Mapillary val,"OneFormer (DiNAT-L, single-scale)",46.7,1.0,,[']'],2211.06220v2,76.8,0.649,0.6047327021312918
+Panoptic Segmentation,NYU Depth v2,EMSANet,47.38,1.0,,[']}]</script'],2207.04526v1,76.8,0.649,0.6136623287941065
+Panoptic Segmentation,PASTIS,Exchanger+Mask2Former,52.6,1.0,,[']'],2305.02086v2,76.8,0.649,0.682210345235125
+Panoptic Segmentation,PASTIS-R,Early Fusion,42.0,1.0,,[']}]</script'],2112.07558v1,76.8,0.649,0.5430132237265434
+Panoptic Segmentation,PanNuke,CellViT-SAM-H,50.62,1.0,,[']'],2306.15350v2,76.8,0.649,0.6562093734816351
+Panoptic Segmentation,Panoptic nuScenes test,(AF)2-S3Net + CenterPoint,76.8,1.0,,[']}]</script'],2109.03805v3,76.8,0.649,1.0
+Panoptic Segmentation,Panoptic nuScenes val,PolarSeg-Panoptic,63.4,1.0,,[']}]</script'],2109.03805v3,76.8,0.649,0.8240338275268874
+Panoptic Segmentation,S3DIS,SuperCluster,55.9,1.0,,[']}]</script'],2401.06704v2,76.8,0.649,0.7255452981576079
+Panoptic Segmentation,S3DIS Area5,SuperCluster,50.1,1.0,,[']'],2401.06704v2,76.8,0.649,0.6493808354453652
+Panoptic Segmentation,SUN-RGBD,EMSANet,52.84,1.0,,[']}]</script'],2207.04526v1,76.8,0.649,0.6853619781749419
+Panoptic Segmentation,ScanNet,OneFormer3D,71.2,1.0,,[']'],2311.14405v1,76.8,0.649,0.926461898070938
+Panoptic Segmentation,ScanNetV2,OneFormer3D,71.2,1.0,,[']'],2311.14405v1,76.8,0.649,0.926461898070938
+Panoptic Segmentation,SemanticKITTI,P3Former,0.649,1.0,,[']'],2303.13509v1,76.8,0.649,0.0
+Pose Estimation,300W (Full),SPIGA,98.71,1.0,,[']'],2210.07233v1,99.6,0.357,0.9910321130961377
+Pose Estimation,3DPW,HybridCap,94.6,1.0,,[']}]</script'],2203.09287v2,99.6,0.357,0.9496186128996503
+Pose Estimation,AIC,"Hulk(Finetune, ViT-L)",37.1,1.0,,[']'],2312.01697v4,99.6,0.357,0.3702326612456295
+Pose Estimation,ApolloCar3D,GSNet,20.21,1.0,,[']}]</script'],2007.13124v1,99.6,0.357,0.20004433562064833
+Pose Estimation,BRACE,HRNet fine-tuned on BRACE,0.357,1.0,,[']'],1902.09212v1,99.6,0.357,0.0
+Pose Estimation,COCO 2017 val,LOGO-CAP (Ours) HRNet-W48,72.2,1.0,,[']'],,99.6,0.357,0.723909998690084
+Pose Estimation,COCO minival,MSPN,75.9,1.0,,[']}]</script'],1901.00148v4,99.6,0.357,0.7611922251443428
+Pose Estimation,COCO test-dev,"ViTPose (ViTAE-G, ensemble)",81.1,1.0,,['Vision Transformer'],2204.12484v3,99.6,0.357,0.8135888677287063
+Pose Estimation,COCO val2017,MogaNet-B (384x288),77.3,1.0,,[']'],2211.03295v3,99.6,0.357,0.7752990135324406
+Pose Estimation,CrowdPose,"BUCTD-W48 (w/cond. input from PETR, and generative sampling)",78.5,1.0,,[']'],2306.07879v2,99.6,0.357,0.7873905464365245
+Pose Estimation,DensePose-COCO,Parsing R-CNN + ResNext101,61.6,1.0,,[']'],1811.12596v1,99.6,0.357,0.6171014580373427
+Pose Estimation,FLIC Elbows,Stacked Hourglass Networks,99.0,1.0,,[']'],1603.06937v2,99.6,0.357,0.9939542335479581
+Pose Estimation,FLIC Wrists,Stacked Hourglass Networks,97.0,1.0,,[']'],1603.06937v2,99.6,0.357,0.9738016787078182
+Pose Estimation,ITOP front-view,AdaPose,93.38,1.0,,[']'],,99.6,0.357,0.937325554447165
+Pose Estimation,ITOP top-view,DECA-D3,86.92,1.0,,[']'],2108.08557v1,99.6,0.357,0.8722328023135134
+Pose Estimation,J-HMDB,SimpleBaseline + HANet,99.6,1.0,,[']'],2211.15868v1,99.6,0.357,1.0
+Pose Estimation,KITTI 2015,GeoNet,89.19,1.0,,[']}]</script'],1803.02276v2,99.6,0.357,0.8951059520570721
+Pose Estimation,Leeds Sports Poses,OmniPose,99.5,1.0,,[']'],2103.10180v1,99.6,0.357,0.9989923722579931
+Pose Estimation,MERL-RAV,SPIGA,97.61,1.0,,[']}]</script'],2210.07233v1,99.6,0.357,0.9799482079340609
+Pose Estimation,MPII,OmniPose (WASPv2),92.3,1.0,,[']}]</script'],2103.10180v1,99.6,0.357,0.9264431748334896
+Pose Estimation,MPII Human Pose,"PCT (swin-l, test set)",94.3,1.0,,[']'],2303.11638v1,99.6,0.357,0.9465957296736294
+Pose Estimation,MPII Single Person,4xRSN-50,93.0,1.0,,"['COCO Keypoint Challenge Winner', 'COCO Best Paper Award', 'ECCV 2020']",2003.04030v3,99.6,0.357,0.9334965690275385
+Pose Estimation,MS COCO,OmniPose (WASPv2),79.5,1.0,,[']'],2103.10180v1,99.6,0.357,0.7974668238565945
+Pose Estimation,MS-COCO,UniHCP (finetune),76.5,1.0,,[']}]</script'],2303.02936v4,99.6,0.357,0.7672379915963847
+Pose Estimation,OCHuman,"ViTPose (ViTAE-G, GT bounding boxes)",93.3,1.0,,[']'],2204.12484v3,99.6,0.357,0.9365194522535595
+Pose Estimation,Pix3D,Mid-Level based,74.55,1.0,,[']}]</script'],2203.01449v1,99.6,0.357,0.7475892506272482
+Pose Estimation,UAV-Human,AlphaPose,56.9,1.0,,[']'],1612.00137v5,99.6,0.357,0.569742954163014
+Pose Estimation,UPenn Action,OmniPose,99.4,1.0,,[']'],2103.10180v1,99.6,0.357,0.9979847445159862
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Test)",YOLOX,41.1,1.0,,[']'],2107.08430v2,57.2,10.0,0.6588983050847458
+Real-Time Object Detection,"Argoverse-HD (Detection-Only, Val)",YOLOX,47.42,1.0,,[']'],2107.08430v2,57.2,10.0,0.7927966101694915
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Test)",YOLOX,41.1,1.0,,[']'],2107.08430v2,57.2,10.0,0.6588983050847458
+Real-Time Object Detection,"Argoverse-HD (Full-Stack, Val)",RL-Based Dynamic-Online Policy,26.01,1.0,,[']'],,57.2,10.0,0.3391949152542373
+Real-Time Object Detection,COCO 2017 val,"DINO-5scale (12 epochs, 900 queries)",10.0,1.0,,[']}]</script'],2203.03605v4,57.2,10.0,0.0
+Real-Time Object Detection,MS COCO,YOLOv6-L6(1280),57.2,1.0,,['YOLO'],2301.05586v1,57.2,10.0,1.0
+Real-Time Object Detection,PASCAL VOC 2007,YOLO,46.0,1.0,,['YOLO'],1506.02640v5,57.2,10.0,0.7627118644067796
+Representation Learning,Animals-10,top_model_weights_with_3d_2,99.255,1.0,,[']}]</script'],2204.01108v2,99.255,0.56,1.0
+Representation Learning,CIFAR10,Resnet 18,2.950000000000003,1.0,,[']}]</script'],2103.15375v2,99.255,0.56,0.024216019048584052
+Representation Learning,Circle Data,Morphological Network,97.3,1.0,,[']}]</script'],1901.00109v4,99.255,0.56,0.9801914990627691
+Representation Learning,SciDocs,SciNCL,81.8,1.0,,[']'],2202.06671v2,99.255,0.56,0.82314200314099
+Representation Learning,Sports10,Max Margin Contrastive,0.56,1.0,,[']}]</script'],2106.10060v1,99.255,0.56,0.0
+Semantic Segmentation,38-Cloud,Cloud-Net+,88.9,1.0,,[']'],2001.08768v2,98.7,0.414,0.9002909875261991
+Semantic Segmentation,ACDC Scribbles,ScribFormer,88.8,1.0,,[']'],2402.02029v1,98.7,0.414,0.8992735486234051
+Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,,[']'],2305.11172v1,98.7,0.414,0.6367743117025823
+Semantic Segmentation,ADE20K val,BEiT-3,62.8,1.0,,['ViT-Giant'],2208.10442v2,98.7,0.414,0.6347394338969944
+Semantic Segmentation,AIRS,ICT-Net,91.7,1.0,,[']}]</script'],1912.09216v1,98.7,0.414,0.9287792768044278
+Semantic Segmentation,ATLANTIS,Erfani et al.,68.63,1.0,,[']}]</script'],2111.11567v1,98.7,0.414,0.6940561219298781
+Semantic Segmentation,ApolloScape,ERFNet-IntRA-KD (ours),43.2,1.0,,[']}]</script'],2004.05304v1,98.7,0.414,0.4353214089493926
+Semantic Segmentation,BDD,FasterSeg,55.1,1.0,,[']}]</script'],1912.10917v2,98.7,0.414,0.5563966383818651
+Semantic Segmentation,BDD100K val,DSNet-Base,64.6,1.0,,[']'],2406.03702v1,98.7,0.414,0.6530533341472844
+Semantic Segmentation,BIG,PSPNet + CascadePSP,75.32,1.0,,[']'],2005.02551v1,98.7,0.414,0.762122784526789
+Semantic Segmentation,CC3M-TagMask,TTD (TCL),65.5,1.0,,[']'],2404.00384v2,98.7,0.414,0.6622102842724295
+Semantic Segmentation,COCO-Stuff,Deeplab v2,47.6,1.0,,[']}]</script'],1612.03716v4,98.7,0.414,0.4800887206723236
+Semantic Segmentation,COCO-Stuff full,SegFormer-B5 (Single Scale),46.7,1.0,,[']}]</script'],2105.15203v3,98.7,0.414,0.47093177054717866
+Semantic Segmentation,COCO-Stuff test,EVA,53.4,1.0,,[']'],2211.07636v2,98.7,0.414,0.5391001770343691
+Semantic Segmentation,COCO-Stuff-27,DiffSeg (512),72.5,1.0,,[']}]</script'],2308.12469v3,98.7,0.414,0.7334310074680015
+Semantic Segmentation,Cam2BEV,uNetXST,71.92,1.0,,[']}]</script'],2005.04078v1,98.7,0.414,0.727529861831797
+Semantic Segmentation,CamVid,SERNet-Former,84.62,1.0,,[']'],2401.15741v5,98.7,0.414,0.8567446024866207
+Semantic Segmentation,Cityscapes,SPFNet34M,77.8,1.0,,[']'],2206.07298v3,98.7,0.414,0.7873552693160775
+Semantic Segmentation,Cityscapes 3D,TaskPrompter,77.72,1.0,,[']}]</script'],2304.00971v3,98.7,0.414,0.7865413181938424
+Semantic Segmentation,Cityscapes VIPriors subset,EfficientSeg,81.68,1.0,,[']}]</script'],2009.06469v2,98.7,0.414,0.8268318987444805
+Semantic Segmentation,Cityscapes test,VLTSeg,86.4,1.0,,[']'],2312.02021v2,98.7,0.414,0.8748550149563519
+Semantic Segmentation,Cityscapes val,SERNet-Former,87.35,1.0,,[']'],2401.15741v5,98.7,0.414,0.8845206845328937
+Semantic Segmentation,Cleargrasp (Novel),Cleargrasp,58.0,1.0,,[']'],1910.02550v2,98.7,0.414,0.5859023665628879
+Semantic Segmentation,DADA-seg,MMUDA,46.97,1.0,,[']'],2203.10395v1,98.7,0.414,0.4736788555847221
+Semantic Segmentation,DDD17,CMNeXt,72.67,1.0,,[']'],2303.01480v1,98.7,0.414,0.7351606536027512
+Semantic Segmentation,DELIVER,GeminiFusion,66.9,1.0,,[']'],2406.01210v2,98.7,0.414,0.676454428911544
+Semantic Segmentation,DIVA-HisDB,U-Net,97.26,1.0,,[']}]</script'],2201.08295v3,98.7,0.414,0.985348879799768
+Semantic Segmentation,DSEC,CMNeXt,72.54,1.0,,[']'],2303.01480v1,98.7,0.414,0.7338379830291192
+Semantic Segmentation,Dark Zurich,Refign (HRDA),63.9,1.0,,[']'],2207.06825v3,98.7,0.414,0.6459312618277272
+Semantic Segmentation,DeLiVER,GeminiFusion,66.9,1.0,,[']'],2406.01210v2,98.7,0.414,0.676454428911544
+Semantic Segmentation,DensePASS,Trans4PASS+ (multi-scale),57.23,1.0,,[']'],2207.11860v5,98.7,0.414,0.5780680870113749
+Semantic Segmentation,DroneDeploy,DLv3+ (Xception65),52.5,1.0,,[']}]</script'],2012.02024v1,98.7,0.414,0.5299432269092241
+Semantic Segmentation,Endoscapes,MoCo V2 Surg SSL -  DeepLabv3+ head,73.2,1.0,,[']'],2207.00449v3,98.7,0.414,0.7405530797875588
+Semantic Segmentation,Event-based Segmentation Dataset,Bimodal SegNet,87.05,1.0,,[']'],2303.11228v2,98.7,0.414,0.8814683678245121
+Semantic Segmentation,EventScape,CMX (B4),64.28,1.0,,[']'],2203.04838v5,98.7,0.414,0.649797529658344
+Semantic Segmentation,FLAIR (French Land cover from Aerospace ImageRy),U-Net baseline,0.557,1.0,,[']}]</script'],2211.12979v5,98.7,0.414,0.0014549376309952594
+Semantic Segmentation,FMB Dataset,MMSFormer (RGB-Infrared),61.7,1.0,,[']'],2309.04001v4,98.7,0.414,0.6235476059662617
+Semantic Segmentation,FoodSeg103,FoodSAM,46.4,1.0,,[']'],2308.05938v1,98.7,0.414,0.4678794538387969
+Semantic Segmentation,Forward-Looking Sonar Marine Debris Datasets,Unet+RN34,0.748,1.0,,[']}]</script'],2108.06800v1,98.7,0.414,0.0033982459353315833
+Semantic Segmentation,Freiburg Forest,SSMA,84.18,1.0,,[']'],1808.03833v3,98.7,0.414,0.8522678713143276
+Semantic Segmentation,GAMUS,TIMF,76.38,1.0,,[']'],2305.14914v1,98.7,0.414,0.7729076368964043
+Semantic Segmentation,GTAV-to-Cityscapes Labels,MIC,75.9,1.0,,[']'],2212.01322v2,98.7,0.414,0.7680239301629938
+Semantic Segmentation,Graz-02,VOLO-D5,85.0,1.0,,[']'],2106.13112v2,98.7,0.414,0.8606108703172374
+Semantic Segmentation,HAM10000,MFSNet,90.6,1.0,,[']}]</script'],2203.14341v2,98.7,0.414,0.917587448873695
+Semantic Segmentation,HERA RFI Detection,Nearest Latent Neighbours,0.94,1.0,,[']'],2311.14303v2,98.7,0.414,0.005351728628695847
+Semantic Segmentation,Hypersim,MultiMAE (ViT-B),37.0,1.0,,[']'],2204.01678v1,98.7,0.414,0.37224019697617156
+Semantic Segmentation,INRIA Aerial Image Labeling,UANet(PVT-V2-B2),83.34,1.0,,[']'],2307.12309v1,98.7,0.414,0.8437213845308589
+Semantic Segmentation,ISIC 2017,MFSNet,98.7,1.0,,[']}]</script'],2203.14341v2,98.7,0.414,1.0
+Semantic Segmentation,ISPRS Potsdam,AerialFormer-B,93.9,1.0,,[']'],2306.06842v2,98.7,0.414,0.9511629326658935
+Semantic Segmentation,ISPRS Vaihingen,LSKNet-S,93.6,1.0,,[']'],2303.09030v2,98.7,0.414,0.9481106159575117
+Semantic Segmentation,ImageNet-S,"TEC (ViT-B/16, 224x224, SSL+FT, mmseg)",63.2,1.0,,[']'],2210.11016v1,98.7,0.414,0.63880918950817
+Semantic Segmentation,KITTI Semantic Segmentation,RPVNet [xu2021rpvnet],80.7,1.0,,[']'],2303.12766v1,98.7,0.414,0.8168609974971003
+Semantic Segmentation,KITTI-360,CMNeXt (RGB-D-E-LiDAR),67.84,1.0,,[']'],2303.01480v1,98.7,0.414,0.6860183545978064
+Semantic Segmentation,Kvasir-Instrument,DoubleUNet,0.903,1.0,,[']'],2006.04868v2,98.7,0.414,0.004975276234662109
+Semantic Segmentation,LIP val,"Hulk(Finetune, ViT-L)",66.02,1.0,,[']'],2312.01697v4,98.7,0.414,0.6675009665669576
+Semantic Segmentation,LLRGBD-synthetic,SMMCL (SegNeXt-B),68.76,1.0,,[']'],2308.12320v2,98.7,0.414,0.6953787925035102
+Semantic Segmentation,LOFAR RFI Detection,Nearest Latent Neighbours,0.414,1.0,,[']'],2311.14303v2,98.7,0.414,0.0
+Semantic Segmentation,LaRS,SWIM^2 (Mask2Former),78.1,1.0,,[']'],2311.14762v1,98.7,0.414,0.7904075860244592
+Semantic Segmentation,LandCover.ai,U-Net (ConvFormer-M36),87.64,1.0,,[']}]</script'],,98.7,0.414,0.8874712573509961
+Semantic Segmentation,LoveDA,U-Net Ensemble,57.36,1.0,,[']'],,98.7,0.414,0.579390757585007
+Semantic Segmentation,MCubeS,MMSFormer (RGB-A-D-N),53.11,1.0,,['RGB-A-D-N'],2309.04001v4,98.7,0.414,0.5361496042162668
+Semantic Segmentation,MCubeS (P),MMSFormer (RGB-A-D),52.03,1.0,,[']'],2309.04001v4,98.7,0.414,0.5251612640660929
+Semantic Segmentation,MS COCO,"OneFormer (InternImage-H, emb_dim=1024, single-scale)",68.8,1.0,,[']'],2211.06220v2,98.7,0.414,0.6957857680646277
+Semantic Segmentation,ManipalUAVid,UVid-Net,0.79,1.0,,[']}]</script'],2011.14284v2,98.7,0.414,0.0038255702745050163
+Semantic Segmentation,Mapillary val,AO-SegNet,76.0,1.0,,[']'],,98.7,0.414,0.7690413690657876
+Semantic Segmentation,Matterport3D,SFSS-MMSI (RGB+Depth),35.92,1.0,,[']'],2308.09369v1,98.7,0.414,0.3612518568259976
+Semantic Segmentation,Mila Simulated Floods,FloodTransformer (Ours),0.93,1.0,,[']}]</script'],2210.04218v1,98.7,0.414,0.005249984738416458
+Semantic Segmentation,MixedWM38,WaferSegClassNet,0.999,1.0,,[']}]</script'],2207.00960v1,98.7,0.414,0.00595201758134424
+Semantic Segmentation,Montgomery County X-ray Set,UNETR + SS-CXR,0.956,1.0,,[']'],2211.12944v2,98.7,0.414,0.005514518853142869
+Semantic Segmentation,NYU Depth v2,GeminiFusion (Finetune-Swin-Large),60.9,1.0,,[']'],2406.01210v2,98.7,0.414,0.6154080947439106
+Semantic Segmentation,Nighttime Driving,TADP,60.8,1.0,,[']'],2310.00031v3,98.7,0.414,0.6143906558411167
+Semantic Segmentation,OpenEDS,RITnet,95.3,1.0,,[']}]</script'],1910.00694v1,98.7,0.414,0.9654070773050077
+Semantic Segmentation,PASCAL Context,PlainSeg (EVA-02-L),71.0,1.0,,[']'],2310.12755v1,98.7,0.414,0.7181694239260932
+Semantic Segmentation,PASCAL VOC,SegCLIP,52.6,1.0,,[']}]</script'],2211.14813v2,98.7,0.414,0.530960665812018
+Semantic Segmentation,PASCAL VOC 2007,GALDNet,83.0,1.0,,[']'],1909.07229v1,98.7,0.414,0.8402620922613597
+Semantic Segmentation,PASCAL VOC 2010 test,SIW,81.1,1.0,,[']}]</script'],2202.02002v2,98.7,0.414,0.8209307531082758
+Semantic Segmentation,PASCAL VOC 2011,DLDL-8s+CRF,67.6,1.0,,[']}]</script'],1611.01731v2,98.7,0.414,0.683576501231101
+Semantic Segmentation,PASCAL VOC 2011 test,Plugin network,72.2,1.0,,[']'],1901.00326v3,98.7,0.414,0.7303786907596199
+Semantic Segmentation,PASCAL VOC 2012,DLDL-8s+CRF,67.1,1.0,,[']}]</script'],1611.01731v2,98.7,0.414,0.6784893067171316
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLabv3+ (Xception-65-JFT),89.0,1.0,,[']'],1802.02611v3,98.7,0.414,0.9013084264289929
+Semantic Segmentation,PASCAL VOC 2012 val,"EfficientNet-L2+NAS-FPN (single scale test, with self-training)",90.0,1.0,,"['FPN', 'single scale', 'EfficientNet']",2006.06882v2,98.7,0.414,0.9114828154569318
+Semantic Segmentation,PASTIS,Exchanger+Mask2Former,67.9,1.0,,[']'],2305.02086v2,98.7,0.414,0.6866288179394827
+Semantic Segmentation,PASTIS-R,Late Fusion,66.3,1.0,,[']}]</script'],2112.07558v1,98.7,0.414,0.6703497954947805
+Semantic Segmentation,PETRAW,NCC Next,96.9,1.0,,[']'],2202.05821v3,98.7,0.414,0.9816860997497101
+Semantic Segmentation,PH2,MFSNet,95.4,1.0,,[']}]</script'],2203.14341v2,98.7,0.414,0.9664245162078018
+Semantic Segmentation,RELLIS-3D Dataset,GA-Nav,74.44,1.0,,[']'],2103.04233v5,98.7,0.414,0.7531693221822029
+Semantic Segmentation,RUGD,GA-Nav,95.66,1.0,,[']}]</script'],2103.04233v5,98.7,0.414,0.9690698573550658
+Semantic Segmentation,S3DIS,PTv3 + PPT,80.8,1.0,24.1M,[']'],2312.10035v2,98.7,0.414,0.8178784363998941
+Semantic Segmentation,S3DIS Area5,OmniVec,75.9,1.0,,[']'],2311.05709v1,98.7,0.414,0.7680239301629938
+Semantic Segmentation,SBCoseg,Dice loss + IS-Triplet loss,0.951,1.0,,[']}]</script'],2103.10670v1,98.7,0.414,0.0054636469080031735
+Semantic Segmentation,SELMA,CMX,91.7,1.0,,[']'],2203.04838v5,98.7,0.414,0.9287792768044278
+Semantic Segmentation,SIFT-flow,RBE2E,64.0,1.0,,[']'],1607.07671v1,98.7,0.414,0.6469487007305211
+Semantic Segmentation,STARE,UNet,0.915,1.0,,[']}]</script'],1505.04597v1,98.7,0.414,0.005097368902997376
+Semantic Segmentation,SUN-RGBD,GeminiFusion (Swin-Large),54.6,1.0,,[']'],2406.01210v2,98.7,0.414,0.5513094438678957
+Semantic Segmentation,SWIMSEG,ACLNet,0.964,1.0,,[']}]</script'],2207.06277v1,98.7,0.414,0.00559591396536638
+Semantic Segmentation,SWINSEG,ACLNet,0.917,1.0,,[']}]</script'],2207.06277v1,98.7,0.414,0.005117717681053254
+Semantic Segmentation,SWINySEG,ACLNet,0.959,1.0,,[']}]</script'],2207.06277v1,98.7,0.414,0.005545042020226685
+Semantic Segmentation,SYNTHIA,CGA-Net,83.8,1.0,,[']}]</script'],,98.7,0.414,0.8484016034837107
+Semantic Segmentation,SYNTHIA-CVPR’16,SSMA,92.1,1.0,,[']'],1808.03833v3,98.7,0.414,0.9328490324156034
+Semantic Segmentation,SYNTHIA-to-Cityscapes,HRDA + PiPa,68.2,1.0,,[']'],2211.07609v1,98.7,0.414,0.6896811346478644
+Semantic Segmentation,ScanNet,PTv3 + PPT,79.4,1.0,,[']'],2312.10035v2,98.7,0.414,0.8036342917607798
+Semantic Segmentation,ScanNetV2,CMX,61.3,1.0,,[']'],2203.04838v5,98.7,0.414,0.6194778503550862
+Semantic Segmentation,Semantic3D,Feature Geometric Net,78.2,1.0,,[']'],2012.09439v2,98.7,0.414,0.7914250249272531
+Semantic Segmentation,SemanticPOSS,TFNet,51.9,1.0,,[']}]</script'],2309.07849v3,98.7,0.414,0.5238385934924608
+Semantic Segmentation,ShapeNet,PatchFormer,86.5,1.0,,[']'],2111.00207v3,98.7,0.414,0.8758724538591457
+Semantic Segmentation,SkyScapes-Dense,SkyScapesNet-Dense,40.13,1.0,,[']'],,98.7,0.414,0.40408603463362025
+Semantic Segmentation,SkyScapes-Lane,SkyScapesNet-Lane,50.93,1.0,,[']'],,98.7,0.414,0.5139694361353601
+Semantic Segmentation,SpaceNet 1,MAE+MTP(ViT-L),79.69,1.0,,[']'],2403.13430v2,98.7,0.414,0.806584864578882
+Semantic Segmentation,SpectralWaste,CMX (RGB-HYPER),58.2,1.0,,[']'],2203.04838v5,98.7,0.414,0.5879372443684757
+Semantic Segmentation,Stanford2D3D - RGBD,CMX (SegFormer-B4),62.1,1.0,,[']'],2203.04838v5,98.7,0.414,0.6276173615774373
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB+HHA),60.6,1.0,,[']'],2308.09369v1,98.7,0.414,0.612355778035529
+Semantic Segmentation,Stanford2D3D Panoramic - RGBD,CBFC,70.8,1.0,,[']'],2207.02437v1,98.7,0.414,0.7161345461205054
+Semantic Segmentation,Structured3D,SFSS-MMSI (RGB+Depth+Normal),71.97,1.0,,[']'],2308.09369v1,98.7,0.414,0.7280385812831939
+Semantic Segmentation,SynPASS,Trans4PASS+,39.16,1.0,,[']'],2207.11860v5,98.7,0.414,0.3942168772765195
+Semantic Segmentation,Toronto-3D L002,SCF-Net,93.5,1.0,,[']'],,98.7,0.414,0.9470931770547178
+Semantic Segmentation,Trans10K,Trans4Trans (M),75.14,1.0,,[']'],2107.03172v2,98.7,0.414,0.7602913945017602
+Semantic Segmentation,UAVid,U-Net Ensemble,73.34,1.0,,[']'],,98.7,0.414,0.7419774942514702
+Semantic Segmentation,UPLight,ShareCMP (B2 RGB-FP),92.45,1.0,,[']'],2312.03430v2,98.7,0.414,0.936410068575382
+Semantic Segmentation,UrbanLF,CMNeXt (RGB-LF80),81.02,1.0,,[']'],2303.01480v1,98.7,0.414,0.8201168019860406
+Semantic Segmentation,VDD,Segformer-B2,85.75,1.0,,[']'],2305.13608v2,98.7,0.414,0.8682416620881915
+Semantic Segmentation,WildDash,SIW,69.7,1.0,,[']}]</script'],2202.02002v2,98.7,0.414,0.7049427181897727
+Semantic Segmentation,ZJU-RGB-P,ShareCMP (B4 RGB-FP),92.7,1.0,,[']'],2312.03430v2,98.7,0.414,0.9389536658323667
+Semantic Segmentation,dacl10k v1 testdev,FPN EfficientNet-B4 w/ Aux loss,0.414,1.0,,[']'],2309.00460v1,98.7,0.414,0.0
+Semantic Segmentation,dacl10k v1 testfinal,FPN EfficientNet-B4,42.4,1.0,,[']}]</script'],2309.00460v1,98.7,0.414,0.42718189772704146
+Semantic Segmentation,iSAID,SegNeXt-L,70.3,1.0,,[']'],2209.08575v1,98.7,0.414,0.711047351606536
+Sentiment Analysis,122 People - Passenger Behavior Recognition Data,lstm+bert,3.0,1.0,,[']}]</script'],1802.04289v2,99.95,0.62,0.023960535588442564
+Sentiment Analysis,1B Words,Random,17.0,1.0,,[']}]</script'],1708.00524v2,99.95,0.62,0.16490486257928116
+Sentiment Analysis,AJGT,AraBERTv1,93.8,1.0,,[']}]</script'],2003.00104v4,99.95,0.62,0.9380851706433101
+Sentiment Analysis,ASTD,CNN-LSTM,0.62,1.0,,['LSTM'],,99.95,0.62,0.0
+Sentiment Analysis,Amazon Review Full,BERT large,65.83,1.0,,[']'],1904.12848v6,99.95,0.62,0.6564985402194704
+Sentiment Analysis,Amazon Review Polarity,BERT large,97.37,1.0,,[']'],1904.12848v6,99.95,0.62,0.974025974025974
+Sentiment Analysis,ArSAS,CNN-LSTM,0.9,1.0,,['LSTM'],,99.95,0.62,0.0028188865398167725
+Sentiment Analysis,CR,AnglE-LLaMA-7B,93.54,1.0,,[']'],2309.12871v7,99.95,0.62,0.9354676331420518
+Sentiment Analysis,ChnSentiCorp,RoBERTa-wwm-ext-large,95.8,1.0,,[']}]</script'],1906.08101v3,99.95,0.62,0.9582200744991443
+Sentiment Analysis,ChnSentiCorp Dev,RoBERTa-wwm-ext-large,95.8,1.0,,[']}]</script'],1906.08101v3,99.95,0.62,0.9582200744991443
+Sentiment Analysis,DBRD,RobBERT v2,95.14,1.0,,[']'],2001.06286v2,99.95,0.62,0.951575556226719
+Sentiment Analysis,DynaSent,SVM,1.0,1.0,,[']}]</script'],1708.05891v1,99.95,0.62,0.003825631732608477
+Sentiment Analysis,FiQA,k-RoBERTa (parallel),99.95,1.0,,[']'],,99.95,0.62,1.0
+Sentiment Analysis,Financial PhraseBank,FiLM,86.25,1.0,,[']'],2310.13312v1,99.95,0.62,0.8620759085875365
+Sentiment Analysis,HARD,AraBERTv1,96.1,1.0,,[']}]</script'],2003.00104v4,99.95,0.62,0.9612403100775193
+Sentiment Analysis,IITP Movie Reviews Sentiment,xlmindic-base-uniscript,66.34,1.0,,[']'],2201.12501v3,99.95,0.62,0.6616329407027082
+Sentiment Analysis,IITP Product Reviews Sentiment,CalBERT,79.4,1.0,,[']'],,99.95,0.62,0.7931138628813048
+Sentiment Analysis,IMDb,RoBERTa-large with LlamBERT,96.68,1.0,,[']'],2403.15938v1,99.95,0.62,0.9670794321957114
+Sentiment Analysis,IMDb Movie Reviews,Space-XLNet,0.948,1.0,,[']'],2401.16638v1,99.95,0.62,0.00330212423235679
+Sentiment Analysis,"LABR (2-class, unbalanced)",AraBERTv1,86.7,1.0,,[']}]</script'],2003.00104v4,99.95,0.62,0.8666062619550992
+Sentiment Analysis,Latvian Twitter Eater Sentiment Dataset,Naive Bayes,61.23,1.0,,[']}]</script'],2007.05194v2,99.95,0.62,0.6101882613510521
+Sentiment Analysis,MPQA,RoBERTa-large 355M + Entailment as Few-shot Learner,90.8,1.0,,[']'],2104.14690v1,99.95,0.62,0.907882814859559
+Sentiment Analysis,MR,VLAWE,93.3,1.0,,[']'],1902.08850v3,99.95,0.62,0.9330514446793516
+Sentiment Analysis,Multi-Domain Sentiment Dataset,UDAL,89.78,1.0,,[']'],2104.07078v1,99.95,0.62,0.8976140138930836
+Sentiment Analysis,RuSentiment,RuBERT-RuSentiment,75.71,1.0,,[']'],,99.95,0.62,0.7559649652672907
+Sentiment Analysis,SAIL 2017,CalBERT,38.0,1.0,,[']}]</script'],,99.95,0.62,0.37632135306553915
+Sentiment Analysis,SLUE,"W2V2-L-LL60K (pipeline approach, uses LM)",60.4,1.0,,[']'],2111.10367v3,99.95,0.62,0.6018322762508809
+Sentiment Analysis,SST-2 Binary classification,T5-11B,97.5,1.0,,['Transformer'],1910.10683v4,99.95,0.62,0.9753347427766033
+Sentiment Analysis,SST-5 Fine-grained classification,Heinsen Routing + RoBERTa Large,59.8,1.0,,[']'],2211.11754v3,99.95,0.62,0.5957918050941307
+Sentiment Analysis,SemEval,LSTMs+CNNs ensemble with multiple conv. ops,0.685,1.0,,['LSTM'],1704.06125v1,99.95,0.62,0.0006543843753146084
+Sentiment Analysis,SemEval 2014 Task 4 Subtask 1+2,InstructABSA,79.34,1.0,,[']'],2302.08624v6,99.95,0.62,0.7925098157656297
+Sentiment Analysis,SemEval 2017 Task 4-A,LSTMs+CNNs ensemble with multiple conv. ops,0.685,1.0,,['LSTM'],1704.06125v1,99.95,0.62,0.0006543843753146084
+Sentiment Analysis,Sogou News,"fastText, h=10, bigram",96.8,1.0,,[']}]</script'],1607.01759v3,99.95,0.62,0.9682875264270613
+Sentiment Analysis,TweetEval,BERTweet,33.4,1.0,,[']'],2005.10200v2,99.95,0.62,0.3300110741971207
+Sentiment Analysis,Twitter,AEN-BERT,74.71,1.0,,[']'],1902.09314v2,99.95,0.62,0.7458975133393737
+Sentiment Analysis,Urdu Online Reviews,RCNN,84.48,1.0,,[']}]</script'],,99.95,0.62,0.8442565186751233
+Sentiment Analysis,User and product information,MA-BERT,57.3,1.0,,['BERT'],,99.95,0.62,0.570623175274338
+Sentiment Analysis,Yelp Binary classification,XLNet,98.63,1.0,,[']'],1906.08237v2,99.95,0.62,0.9867109634551494
+Sentiment Analysis,Yelp Fine-grained classification,XLNet,72.95,1.0,,[']'],1906.08237v2,99.95,0.62,0.7281787979462399
+Super-Resolution,hradis et al dataset,super-resolution,20.4,1.0,,[']}]</script'],2201.05865v1,20.4,20.4,0.0
+Temporal Action Localization,ActivityNet-1.2,DeepMetricLearner,35.2,1.0,,[']}]</script'],2001.07793v1,76.9,7.4,0.4000000000000001
+Temporal Action Localization,ActivityNet-1.3,ActionMamba (InternVideo2-6B),42.02,1.0,,[']'],2403.09626v1,76.9,7.4,0.49812949640287774
+Temporal Action Localization,CrossTask,VideoCLIP,47.3,1.0,,[']'],2109.14084v2,76.9,7.4,0.5741007194244604
+Temporal Action Localization,EPIC-KITCHENS-100,"AdaTAD (verb, VideoMAE-L)",29.3,1.0,,[']'],2311.17241v2,76.9,7.4,0.3151079136690647
+Temporal Action Localization,Ego4D MQ test,ActionFormer (SlowFast+Omnivore+EgoVLP),21.76,1.0,,[']}]</script'],2211.09074v1,76.9,7.4,0.20661870503597124
+Temporal Action Localization,Ego4D MQ val,ActionFormer (SlowFast+Omnivore+EgoVLP),21.4,1.0,,[']}]</script'],2211.09074v1,76.9,7.4,0.20143884892086328
+Temporal Action Localization,FineAction,ActionMamba(InternVideo2-6B),29.04,1.0,,[']'],2403.09626v1,76.9,7.4,0.3113669064748201
+Temporal Action Localization,HACS,ActionMamba(InternVideo2-6B),44.56,1.0,,[']'],2403.09626v1,76.9,7.4,0.5346762589928058
+Temporal Action Localization,MEXaction2,S-CNN,7.4,1.0,,[']}]</script'],1601.02129v2,76.9,7.4,0.0
+Temporal Action Localization,MUSES,TemporalMaxer,27.2,1.0,,[']'],2303.09055v1,76.9,7.4,0.2848920863309352
+Temporal Action Localization,MultiTHUMOS,TriDet (VideoMAEv2),37.5,1.0,,[']'],2309.05590v1,76.9,7.4,0.4330935251798561
+Temporal Action Localization,THUMOS'14,AVFusion,57.18,1.0,,[']}]</script'],2106.14118v4,76.9,7.4,0.7162589928057554
+Temporal Action Localization,THUMOS14,BasicTAD (R50-SlowOnly),59.6,1.0,,[']}]</script'],2205.02717v3,76.9,7.4,0.7510791366906475
+Temporal Action Localization,THUMOS’14,AdaTAD (VideoMAEv2-giant),76.9,1.0,,[']'],2311.17241v2,76.9,7.4,1.0
+Text Classification,20 Newsgroups,RoBERTaGCN,89.5,1.0,,['GCN'],2105.05727v4,99.97,0.558,0.8946807226491772
+Text Classification,20NEWS,LinearSVM+TFIDF,93.0,1.0,,['LinearSVM'],2211.02563v1,99.97,0.558,0.9298877399106747
+Text Classification,AG News,XLNet,95.55,1.0,,['Transformer'],1906.08237v2,99.97,0.558,0.955538566772623
+Text Classification,Adverse Drug Events (ADE) Corpus,Spark NLP,85.96,1.0,,[']}]</script'],2201.01405v2,99.97,0.558,0.8590713394761195
+Text Classification,AffCon 2020 Emotion Detection,BERT-based Ensembles,0.558,1.0,,[']}]</script'],2006.01222v1,99.97,0.558,0.0
+Text Classification,Amazon-2,XLNet,97.89,1.0,,[']'],1906.08237v2,99.97,0.558,0.9790769725988815
+Text Classification,Amazon-5,XLNet,68.33,1.0,,[']'],1906.08237v2,99.97,0.558,0.6817285639560616
+Text Classification,An Amharic News Text classification Dataset,Naive Bayes using Tf-idf features,62.3,1.0,,[']'],2103.05639v1,99.97,0.558,0.6210719027883957
+Text Classification,Arxiv HEP-TH citation graph,BigBird,92.31,1.0,,[']}]</script'],2007.14062v2,99.97,0.558,0.9229469279362653
+Text Classification,BANKING77,RoBERTa-Large + ICDA,94.42,1.0,,[']}]</script'],2302.05096v1,99.97,0.558,0.9441717297710538
+Text Classification,BLURB,BioLinkBERT (large),84.88,1.0,,[']'],2203.15827v1,99.97,0.558,0.8482074598640003
+Text Classification,DBpedia,XLNet,99.38,1.0,,[']'],1906.08237v2,99.97,0.558,0.9940651028044903
+Text Classification,DODF Data,"ULMFiT (pre-trained vocab, no gradual unfreezing)",0.891,1.0,,[']'],,99.97,0.558,0.0033496962137367723
+Text Classification,FMC-MWO2KG,Flair,99.541,1.0,,[']}]</script'],,99.97,0.558,0.9956846255985192
+Text Classification,Facebook Media,Our proposed method Model Averaging(D + E + F),0.677,1.0,,[']}]</script'],2001.05493v2,99.97,0.558,0.0011970385868909186
+Text Classification,GLUE MRPC,TRANS-BLSTM,90.45,1.0,,[']}]</script'],2003.07000v1,99.97,0.558,0.9042369130487266
+Text Classification,GLUE RTE,TRANS-BLSTM,79.78,1.0,,[']}]</script'],2003.07000v1,99.97,0.558,0.7969058061401039
+Text Classification,GLUE SST2,TRANS-BLSTM,94.38,1.0,,[']'],2003.07000v1,99.97,0.558,0.9437693638594938
+Text Classification,HateXplain,Space-XLNet,0.879,1.0,,[']'],2401.16638v1,99.97,0.558,0.0032289864402687803
+Text Classification,Hyperpartisan News Detection,BigBird,92.2,1.0,,[']}]</script'],2007.14062v2,99.97,0.558,0.9218404216794753
+Text Classification,IMDb Movie Reviews,Logistic Regression,99.16,1.0,,[']'],,99.97,0.558,0.9918520902909105
+Text Classification,Lot-insts,Character-BERT+RS,83.73,1.0,,[']'],2302.09509v1,99.97,0.558,0.8366394399066511
+Text Classification,MR,VLAWE,93.3,1.0,,[']'],1902.08850v3,99.97,0.558,0.9329054842473745
+Text Classification,MTEB,ST5-XXL,73.42,1.0,,[']'],2210.07316v3,99.97,0.558,0.7329296262020681
+Text Classification,MVICTOR (type),CNN + CRF,0.75,1.0,,[']'],,99.97,0.558,0.0019313563754878684
+Text Classification,MuLD (Character Type),Longformer,82.58,1.0,,[']'],2202.07362v1,99.97,0.558,0.8250714199493019
+Text Classification,NICE-2,RoBERTa,99.76,1.0,,[']}]</script'],2211.16878v3,99.97,0.558,0.9978875789643102
+Text Classification,NICE-45,BERT,72.79,1.0,,[']}]</script'],2211.16878v3,99.97,0.558,0.7265923630949986
+Text Classification,NewsDiscourse,"Human (Post-Rec.) (Spangher et al., 2021)",73.69,1.0,,[']'],,99.97,0.558,0.7356455961050979
+Text Classification,Ohsumed,RoBERTaGCN,72.8,1.0,,['GCN'],2105.05727v4,99.97,0.558,0.7266929545728885
+Text Classification,OneStopEnglish (Readability Assessment),RoBERTa-RF-T1 hybrid,0.99,1.0,,[']'],2109.12258v2,99.97,0.558,0.004345551844847704
+Text Classification,Overruling,Custom Legal-BERT,97.4,1.0,,[']'],2104.08671v3,99.97,0.558,0.9741479901822718
+Text Classification,Patents,BigBird,69.3,1.0,,[']}]</script'],2007.14062v2,99.97,0.558,0.691485937311391
+Text Classification,R52,1-6 BertGCN,96.6,1.0,,['GCN'],2105.05727v4,99.97,0.558,0.9661006719510723
+Text Classification,R8,DeBERTa,98.45,1.0,,[']'],2211.16878v3,99.97,0.558,0.9847100953607211
+Text Classification,RCV1,oh-CNN + two LSTM tv-embed.,92.85,1.0,,['LSTM'],1602.02373v2,99.97,0.558,0.9283788677423248
+Text Classification,RusAge: Corpus for Age-Based Text Classification,LSVC + linguistic features + publishing attributes,95.77,1.0,,[']}]</script'],2009.11898v1,99.97,0.558,0.9577515792862028
+Text Classification,SILICONE Benchmark,Pretrained Hierarchical Transformer,28.75,1.0,,[']}]</script'],2009.11152v3,99.97,0.558,0.2835874944674687
+Text Classification,SST-2,DeBERTa,94.78,1.0,,[']'],2211.16878v3,99.97,0.558,0.9477930229750936
+Text Classification,STOPS-2,ERNIE 2.0,99.88,1.0,,[']}]</script'],2211.16878v3,99.97,0.558,0.99909467669899
+Text Classification,STOPS-41,DeBERTa,89.73,1.0,,[']}]</script'],2211.16878v3,99.97,0.558,0.896994326640647
+Text Classification,SVICTOR (type),CNN + CRF,0.774,1.0,,[']'],,99.97,0.558,0.002172775922423852
+Text Classification,Searchsnippets,DistilBERT,89.69,1.0,,[']'],2211.16878v3,99.97,0.558,0.896591960729087
+Text Classification,Social media attributions of YouTube comments,Space-BERT,0.83,1.0,,[']'],2401.16638v1,99.97,0.558,0.002736088198607813
+Text Classification,Sogou News,BERT-ITPT-FiT,98.07,1.0,,[']'],1905.05583v3,99.97,0.558,0.9808876192009013
+Text Classification,TRAC2-Benghali. Task 2.,BERT,0.929,1.0,,[']}]</script'],,99.97,0.558,0.0037319438297187466
+Text Classification,TRAC2-English. Task2.,BERT,0.871,1.0,,[']}]</script'],,99.97,0.558,0.0031485132579567856
+Text Classification,TREC-10,BERT,99.4,1.0,,[']}]</script'],2211.16878v3,99.97,0.558,0.9942662857602704
+Text Classification,TREC-50,Rules,97.2,1.0,,[']'],,99.97,0.558,0.972136160624472
+Text Classification,TREC-6,Automatic Label Error Correction,99.0,1.0,,[']'],2302.04391v7,99.97,0.558,0.9902426266446707
+Text Classification,Terms of Service,Custom Legal-BERT,78.7,1.0,,[']'],2104.08671v3,99.97,0.558,0.7860419265279845
+Text Classification,This is not a Dataset,Vicuna13B v1.1,95.7,1.0,,[']'],2310.15941v1,99.97,0.558,0.957047438940973
+Text Classification,Twitter,ERNIE 2.0,99.97,1.0,,[']'],2211.16878v3,99.97,0.558,1.0
+Text Classification,Twitter Sentiment Analysis,Logistic Regression,99.071,1.0,,[']}]</script'],,99.97,0.558,0.9909568261376897
+Text Classification,Twitter-US,Our proposed method Model Averaging(D + E + F),0.648,1.0,,[']}]</script'],2001.05493v2,99.97,0.558,0.0009053233010099382
+Text Classification,WNUT-2020 Task 2,NutCracker,99.091,1.0,,[']}]</script'],2010.04335v1,99.97,0.558,0.9911580090934695
+Text Classification,WeeBit (Readability Assessment),BERT-FP-LBL,0.927,1.0,,[']'],2210.10305v2,99.97,0.558,0.003711825534140748
+Text Classification,Yahoo! Answers,BERT-ITPT-FiT,77.62,1.0,,[']'],1905.05583v3,99.97,0.558,0.7751780469158653
+Text Classification,Yelp-2,XLNet,98.63,1.0,,[']'],1906.08237v2,99.97,0.558,0.9865207419627409
+Text Classification,Yelp-5,HAHNN (CNN),73.28,1.0,,[']'],1901.06610v2,99.97,0.558,0.7315213455116083
+Text Classification,arXiv-10,Protoformer,0.794,1.0,,[']'],2206.12710v1,99.97,0.558,0.0023739588782038384

@@ -1,0 +1,12 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Representation Learning,SciDocs,SciNCL,81.8,1.0,null,[']'],2202.06671v2
+Representation Learning,SciDocs,SPECTER,80.0,0.9217391304347827,null,[']'],2004.07180v4
+Representation Learning,SciDocs,Citeomatic,76.0,0.7478260869565219,null,[']'],2004.07180v4
+Representation Learning,SciDocs,Sci-DeCLUTR,66.6,0.33913043478260857,null,[']'],2202.06671v2
+Representation Learning,SciDocs,SciBERT,59.6,0.03478260869565236,null,[']'],2004.07180v4
+Representation Learning,SciDocs,BioBERT,58.8,0.0,null,[']'],1901.08746v4
+Representation Learning,SciDocs,CiteBERT,58.8,0.0,null,[']}]</script'],2202.06671v2
+Representation Learning,Circle Data,Morphological Network,97.3,1.0,null,[']}]</script'],1901.00109v4
+Representation Learning,Sports10,Max Margin Contrastive,0.56,1.0,null,[']}]</script'],2106.10060v1
+Representation Learning,CIFAR10,Resnet 18,2.950000000000003,1.0,null,[']}]</script'],2103.15375v2
+Representation Learning,Animals-10,top_model_weights_with_3d_2,99.255,1.0,null,[']}]</script'],2204.01108v2

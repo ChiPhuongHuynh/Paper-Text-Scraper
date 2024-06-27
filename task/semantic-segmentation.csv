@@ -1,0 +1,1617 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,null,[']'],2305.11172v1
+Semantic Segmentation,ADE20K,InternImage-H,62.9,0.9975822050290135,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,M3I Pre-training (InternImage-H),62.9,0.9975822050290135,null,[']'],2211.09807v2
+Semantic Segmentation,ADE20K,BEiT-3,62.8,0.995164410058027,null,['ViT-Giant'],2208.10442v2
+Semantic Segmentation,ADE20K,EVA,62.3,0.9830754352030947,null,['ViT-Giant'],2211.07636v2
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (Mask2Former, BEiTv2 pretrain)",61.5,0.9637330754352031,null,[']'],2205.08534v4
+Semantic Segmentation,ADE20K,FD-SwinV2-G,61.4,0.9613152804642165,null,['Swin-Transformer'],2205.14141v3
+Semantic Segmentation,ADE20K,RevCol-H (Mask2Former),61.0,0.9516441005802708,null,['CNN'],2212.11696v3
+Semantic Segmentation,ADE20K,"MasK DINO (SwinL, multi-scale)",60.8,0.9468085106382979,null,[']'],2206.02777v3
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",60.5,0.9395551257253385,null,[']'],2205.08534v4
+Semantic Segmentation,ADE20K,"DINOv2 (ViT-g/14 frozen model, w/ ViT-Adapter + Mask2former)",60.2,0.9323017408123792,null,[']'],2304.07193v2
+Semantic Segmentation,ADE20K,SwinV2-G(UperNet),59.9,0.9250483558994197,null,['Swin-Transformer'],2111.09883v2
+Semantic Segmentation,ADE20K,FocalNet-L (Mask2Former),58.5,0.8911992263056093,null,[']'],2203.11926v3
+Semantic Segmentation,ADE20K,"ViT-Adapter-L (UperNet, BEiT pretrain)",58.4,0.8887814313346228,null,[']'],2205.08534v4
+Semantic Segmentation,ADE20K,RSSeg-ViT-L (BEiT pretrain),58.4,0.8887814313346228,null,[']'],2212.13764v1
+Semantic Segmentation,ADE20K,SegViT-v2 (BEiT-v2-Large),58.2,0.88394584139265,null,[']'],2306.06289v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L FaPN-Mask2Former),58.2,0.88394584139265,null,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L MSFaPN-Mask2Former),58.2,0.88394584139265,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,DiNAT-L (Mask2Former),58.1,0.8815280464216635,null,"['Transformer', 'Neighborhood Attention']",2209.15001v3
+Semantic Segmentation,ADE20K,HorNet-L (Mask2Former),57.9,0.8766924564796905,null,[']'],2207.14284v3
+Semantic Segmentation,ADE20K,Mask2Former (SwinL-FaPN),57.7,0.8718568665377177,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K,FASeg (SwinL),57.7,0.8718568665377177,null,[']'],2204.01244v3
+Semantic Segmentation,ADE20K,RR (BEiT-L),57.7,0.8718568665377177,null,[']'],2204.01969v1
+Semantic Segmentation,ADE20K,"MOAT-4 (IN-22K pretraining, single-scale)",57.6,0.8694390715667312,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,"Frozen Backbone, SwinV2-G-ext22K (Mask2Former)",57.6,0.8694390715667312,null,[']'],2211.02043v1
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L Mask2Former),57.5,0.8670212765957447,null,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,Mask2Former (SwinL),57.3,0.8621856866537717,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K,SenFormer (BEiT-L),57.1,0.8573500967117988,null,[']'],2111.13280v2
+Semantic Segmentation,ADE20K,BEiT-L (ViT+UperNet),57.0,0.8549323017408124,null,['Transformer'],2106.08254v2
+Semantic Segmentation,ADE20K,"SeMask(SeMask Swin-L MSFaPN-Mask2Former, single-scale)",57.0,0.8549323017408124,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,MetaPrompt-SD,56.8,0.8500967117988394,null,[']'],2312.14733v1
+Semantic Segmentation,ADE20K,"FaPN (MaskFormer, Swin-L, ImageNet-22k pretrain)",56.7,0.847678916827853,null,['Swin-Transformer'],2108.07058v2
+Semantic Segmentation,ADE20K,"MOAT-3 (IN-22K pretraining, single-scale)",56.5,0.84284332688588,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,Mask2Former (Swin-L-FaPN),56.4,0.8404255319148936,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L MaskFormer),56.2,0.8355899419729208,null,['Swin-Transformer'],2112.12782v3
+Semantic Segmentation,ADE20K,dBOT ViT-L (CLIP),56.2,0.8355899419729208,null,[']'],2209.03917v3
+Semantic Segmentation,ADE20K,Mask2Former+CBL(Swin-B),56.1,0.8331721470019343,null,[']'],null
+Semantic Segmentation,ADE20K,TADP,55.9,0.8283365570599612,null,[']'],2310.00031v3
+Semantic Segmentation,ADE20K,"CSWin-L (UperNet, ImageNet-22k pretrain)",55.7,0.8235009671179885,null,['Transformer'],2107.00652v3
+Semantic Segmentation,ADE20K,UniRepLKNet-XL,55.6,0.821083172147002,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,"Focal-L (UperNet, ImageNet-22k pretrain)",55.4,0.816247582205029,null,['Focal-Transformer'],2107.00641v1
+Semantic Segmentation,ADE20K,InternImage-XL,55.3,0.8138297872340425,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,dBOT ViT-L,55.2,0.8114119922630562,null,[']'],2209.03917v3
+Semantic Segmentation,ADE20K,Mask2Former(Swin-B),55.1,0.8089941972920697,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K,ConvNeXt V2-H (FCMAE),55.0,0.8065764023210832,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,UniRepLKNet-L++,55.0,0.8065764023210832,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,DiNAT-Large (UperNet),54.9,0.8041586073500967,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,MaskFormer+CBL(Swin-B),54.9,0.8041586073500967,null,[']'],null
+Semantic Segmentation,ADE20K,"TransNeXt-Base (IN-1K pretrain, Mask2Former, 512)",54.7,0.7993230174081238,null,[']'],2311.17132v3
+Semantic Segmentation,ADE20K,"MOAT-2 (IN-22K pretraining, single-scale)",54.7,0.7993230174081238,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,"CAE (ViT-L, UperNet)",54.7,0.7993230174081238,null,[']'],2202.03026v3
+Semantic Segmentation,ADE20K,VAN-B6,54.7,0.7993230174081238,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,DiNAT_s-Large (UperNet),54.6,0.7969052224371374,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,"DDP (Swin-L, step-3)",54.4,0.7920696324951644,null,[']'],2303.17559v2
+Semantic Segmentation,ADE20K,"PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",54.4,0.7920696324951644,null,[']'],2104.12753v3
+Semantic Segmentation,ADE20K,VOLO-D5,54.3,0.7896518375241779,null,[']'],2106.13112v2
+Semantic Segmentation,ADE20K,K-Net,54.3,0.7896518375241779,null,[']'],2106.14855v2
+Semantic Segmentation,ADE20K,GPaCo (Swin-L),54.3,0.7896518375241779,null,[']'],2209.12400v2
+Semantic Segmentation,ADE20K,SenFormer (Swin-L),54.2,0.7872340425531915,null,[']'],2111.13280v2
+Semantic Segmentation,ADE20K,Swin V2-H,54.2,0.7872340425531915,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,InternImage-L,54.1,0.784816247582205,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,"TransNeXt-Small (IN-1K pretrain, Mask2Former, 512)",54.1,0.784816247582205,null,[']'],2311.17132v3
+Semantic Segmentation,ADE20K,ConvNeXt-XL++,54.0,0.7823984526112185,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,Sequential Ensemble (SegFormer),54.0,0.7823984526112185,null,"['HRNet', 'Transformer', 'Ensemble']",2210.05387v1
+Semantic Segmentation,ADE20K,MogaNet-XL (UperNet),54.0,0.7823984526112185,null,[']'],2211.03295v3
+Semantic Segmentation,ADE20K,UniRepLKNet-B++,53.9,0.7799806576402321,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,MaskFormer(Swin-B),53.8,0.7775628626692456,null,[']'],2107.06278v2
+Semantic Segmentation,ADE20K,ConvNeXt-L++,53.7,0.7751450676982593,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,SwinV2-G-HTC++ Liu et al. ([2021a]),53.7,0.7751450676982593,null,[']'],2111.09883v2
+Semantic Segmentation,ADE20K,ConvNeXt V2-L,53.7,0.7751450676982593,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,Seg-L-Mask/16 (MS),53.63,0.7734526112185687,null,['Transformer'],2105.05633v3
+Semantic Segmentation,ADE20K,"MAE (ViT-L, UperNet)",53.6,0.7727272727272727,null,[']'],2111.06377v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-L FPN),53.52,0.7707930367504836,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,"Swin-L (UperNet, ImageNet-22k pretrain)",53.5,0.7703094777562862,null,['Swin-Transformer'],2103.14030v2
+Semantic Segmentation,ADE20K,Swin-L,53.5,0.7703094777562862,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,"TransNeXt-Tiny (IN-1K pretrain, Mask2Former, 512)",53.4,0.7678916827852997,null,[']'],2311.17132v3
+Semantic Segmentation,ADE20K,ConvNeXt-B++,53.1,0.7606382978723405,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,PatchConvNet-L120 (UperNet),52.9,0.7558027079303674,null,[']'],2112.13692v1
+Semantic Segmentation,ADE20K,dBOT ViT-B (CLIP),52.9,0.7558027079303674,null,[']'],2209.03917v3
+Semantic Segmentation,ADE20K,PatchConvNet-B120\n(UperNet),52.8,0.7533849129593809,null,[']'],2112.13692v1
+Semantic Segmentation,ADE20K,Swin-B,52.8,0.7533849129593809,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,UniRepLKNet-S++,52.7,0.7509671179883947,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,ConvNeXt V2-B,52.1,0.7364603481624759,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,"LV-ViT-L (UperNet, MS)",51.8,0.7292069632495164,null,['Transformer'],2104.10858v3
+Semantic Segmentation,ADE20K,SegFormer-B5,51.8,0.7292069632495164,null,[']'],2105.15203v3
+Semantic Segmentation,ADE20K,"BiFormer-B (IN1k pretrain, Upernet 160k)",51.7,0.72678916827853,null,[']'],2303.08810v1
+Semantic Segmentation,ADE20K,ConvNeXt V2-L (Supervised),51.6,0.7243713733075435,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Huge),51.5,0.721953578336557,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K,DAT-B++,51.5,0.721953578336557,null,[']'],2309.01430v1
+Semantic Segmentation,ADE20K,"CrossFormer (ImageNet1k-pretrain, UPerNet, multi-scale test)",51.4,0.7195357833655706,null,[']'],2108.00154v2
+Semantic Segmentation,ADE20K,InternImage-B,51.3,0.7171179883945841,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,DAT-S++,51.2,0.7147001934235977,null,[']'],2309.01430v1
+Semantic Segmentation,ADE20K,ActiveMLP-L(UperNet),51.1,0.7122823984526112,null,[']'],2203.06108v2
+Semantic Segmentation,ADE20K,SegFormer-B4,51.1,0.7122823984526112,null,[']'],2105.15203v3
+Semantic Segmentation,ADE20K,PatchConvNet-B60 (UperNet),51.1,0.7122823984526112,null,[']'],2112.13692v1
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Large),51.0,0.7098646034816247,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K,"TEC (Vit-B, Upernet)",51.0,0.7098646034816247,null,[']'],2210.11016v1
+Semantic Segmentation,ADE20K,UniRepLKNet-S,51.0,0.7098646034816247,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-B FPN),50.98,0.7093810444874273,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,InternImage-S,50.9,0.7074468085106382,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,MogaNet-L (UperNet),50.9,0.7074468085106382,null,[']'],2211.03295v3
+Semantic Segmentation,ADE20K,dBOT ViT-B,50.8,0.7050290135396517,null,[']'],2209.03917v3
+Semantic Segmentation,ADE20K,"Upernet-BiFormer-S (IN1k pretrain, Upernet 160k)",50.8,0.7050290135396517,null,[']'],2303.08810v1
+Semantic Segmentation,ADE20K,UperNet Shuffle-B,50.5,0.6977756286266924,null,[']'],2106.03650v1
+Semantic Segmentation,ADE20K,ConvNeXt V1-L,50.5,0.6977756286266924,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,DiNAT-Base (UperNet),50.4,0.6953578336557059,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,ELSA-Swin-S,50.3,0.6929400386847194,null,[']'],2112.12786v1
+Semantic Segmentation,ADE20K,DAT-T++,50.3,0.6929400386847194,null,[']'],2309.01430v1
+Semantic Segmentation,ADE20K,"SETR-MLA (160k, MS)",50.28,0.6924564796905223,null,[']'],2012.15840v3
+Semantic Segmentation,ADE20K,VAN-Large (HamNet),50.2,0.6905222437137332,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,"HRViT-b3 (SegFormer, SS)",50.2,0.6905222437137332,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,"Twins-SVT-L (UperNet, ImageNet-1k pretrain)",50.2,0.6905222437137332,null,[']'],2104.13840v4
+Semantic Segmentation,ADE20K,MogaNet-B (UperNet),50.1,0.6881044487427467,null,[']'],2211.03295v3
+Semantic Segmentation,ADE20K,"Seg-B-Mask/16(MS, ViT-B)",50.0,0.6856866537717602,null,[']'],2105.05633v3
+Semantic Segmentation,ADE20K,iBOT (ViT-B/16),50.0,0.6856866537717602,null,[']'],2111.07832v3
+Semantic Segmentation,ADE20K,ConvNeXt-B,49.9,0.6832688588007737,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,DiNAT-Small (UperNet),49.9,0.6832688588007737,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,ConvNeXt V1-B,49.9,0.6832688588007737,null,[']'],2301.00808v1
+Semantic Segmentation,ADE20K,NAT-Base,49.7,0.6784332688588008,null,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,"Swin-B (UperNet, ImageNet-1k pretrain)",49.7,0.6784332688588008,null,[']'],2103.14030v2
+Semantic Segmentation,ADE20K,"Seg-B/8 (MS, ViT-B)",49.61,0.6762572533849129,null,[']'],2105.05633v3
+Semantic Segmentation,ADE20K,ConvNeXt-S,49.6,0.6760154738878144,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,Light-Ham (VAN-Base),49.6,0.6760154738878144,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K,NAT-Small,49.5,0.6735976789168279,null,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,DaViT-B,49.4,0.6711798839458414,null,[']'],2204.03645v1
+Semantic Segmentation,ADE20K,DAT-B (UperNet),49.38,0.6706963249516441,null,[']'],2201.00520v3
+Semantic Segmentation,ADE20K,PatchConvNet-S60 (UperNet),49.3,0.6687620889748549,null,[']'],2112.13692v1
+Semantic Segmentation,ADE20K,MogaNet-S (UperNet),49.2,0.6663442940038685,null,[']'],2211.03295v3
+Semantic Segmentation,ADE20K,Shift-B (UperNet),49.2,0.6663442940038685,null,[']'],2201.10801v1
+Semantic Segmentation,ADE20K,UniRepLKNet-T,49.1,0.663926499032882,null,[']'],2311.15599v2
+Semantic Segmentation,ADE20K,DPT-Hybrid,49.02,0.6619922630560929,null,['Transformer'],2103.13413v1
+Semantic Segmentation,ADE20K,GC ViT-B,49.0,0.6615087040618955,null,[']'],2206.09959v5
+Semantic Segmentation,ADE20K,A2MIM (ViT-B),49.0,0.6615087040618955,null,[']'],2205.13943v4
+Semantic Segmentation,ADE20K,EfficientViT-B3 (r512),49.0,0.6615087040618955,null,[']'],2205.14756v6
+Semantic Segmentation,ADE20K,DiNAT-Tiny (UperNet),48.8,0.6566731141199226,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,"HRViT-b2 (SegFormer, SS)",48.76,0.655705996131528,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,NAT-Tiny,48.4,0.6470019342359767,null,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,XCiT-M24/8 (UperNet),48.4,0.6470019342359767,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,ResNeSt-200,48.36,0.6460348162475822,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K,DAT-S (UperNet),48.31,0.6448259187620891,null,[']'],2201.00520v3
+Semantic Segmentation,ADE20K,GC ViT-S,48.3,0.6445841392649903,null,[']'],2206.09959v5
+Semantic Segmentation,ADE20K,InternImage-T,48.1,0.6397485493230174,null,[']'],2211.05778v4
+Semantic Segmentation,ADE20K,VAN-Large,48.1,0.6397485493230174,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,XCiT-S24/8 (UperNet),48.1,0.6397485493230174,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,MaskFormer(ResNet-101),48.1,0.6397485493230174,null,[']'],2107.06278v2
+Semantic Segmentation,ADE20K,"MAE (ViT-B, UperNet)",48.1,0.6397485493230174,null,[']'],2111.06377v2
+Semantic Segmentation,ADE20K,HRNetV2 + OCR + RMI (PaddleClas pretrained),47.98,0.6368471953578336,null,[']'],1909.11065v6
+Semantic Segmentation,ADE20K,Shift-B,47.9,0.6349129593810444,null,[']'],2201.10801v1
+Semantic Segmentation,ADE20K,Shift-S,47.8,0.6324951644100579,null,[']'],2201.10801v1
+Semantic Segmentation,ADE20K,MogaNet-S (Semantic FPN),47.7,0.6300773694390717,null,[']'],2211.03295v3
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-S FPN),47.63,0.6283849129593811,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,ResNeSt-269,47.6,0.6276595744680852,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K,UperNet Shuffle-T,47.6,0.6276595744680852,null,[']'],2106.03650v1
+Semantic Segmentation,ADE20K,CondNet(ResNest-101),47.54,0.6262088974854932,null,[']'],2109.10322v1
+Semantic Segmentation,ADE20K,"tiny-MOAT-3 (IN-1K pretraining, single scale)",47.5,0.6252417794970987,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,CondNet(ResNet-101),47.38,0.6223404255319149,null,[']'],2109.10322v1
+Semantic Segmentation,ADE20K,DiNAT-Mini (UperNet),47.2,0.6179883945841393,null,[']'],2209.15001v3
+Semantic Segmentation,ADE20K,DCNAS,47.12,0.61605415860735,null,[']'],2003.11883v2
+Semantic Segmentation,ADE20K,XCiT-S24/8 (Semantic-FPN),47.1,0.6155705996131529,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,ResNeSt-101,46.91,0.6109767891682785,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K,XCiT-M24/8 (Semantic-FPN),46.9,0.6107350096711799,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,HamNet (ResNet-101),46.8,0.6083172147001934,null,['ResNet'],2109.04553v2
+Semantic Segmentation,ADE20K,Sequential Ensemble (DeepLabv3+),46.8,0.6083172147001934,null,"['ResNet-101', 'DeepLab v3+', 'Ensemble']",2210.05387v1
+Semantic Segmentation,ADE20K,ConvNeXt-T,46.7,0.605899419729207,null,[']'],2201.03545v2
+Semantic Segmentation,ADE20K,VAN-Base (Semantic-FPN),46.7,0.605899419729207,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,XCiT-S12/8 (UperNet),46.6,0.6034816247582205,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,GC ViT-T,46.5,0.601063829787234,null,[']'],2206.09959v5
+Semantic Segmentation,ADE20K,NAT-Mini,46.4,0.5986460348162476,null,"['NAT Transformer', 'Transformer', 'Neighborhood Attention']",2204.07143v5
+Semantic Segmentation,ADE20K,Shift-T,46.3,0.5962282398452611,null,[']'],2201.10801v1
+Semantic Segmentation,ADE20K,DaViT-T,46.3,0.5962282398452611,null,[']'],2204.03645v1
+Semantic Segmentation,ADE20K,CPN(ResNet-101),46.27,0.5955029013539652,null,['ResNet'],2004.01547v1
+Semantic Segmentation,ADE20K,MultiMAE (ViT-B),46.2,0.5938104448742747,null,[']'],2204.01678v1
+Semantic Segmentation,ADE20K,DRAN(ResNet-101),46.18,0.5933268858800773,null,['ResNet'],null
+Semantic Segmentation,ADE20K,PyConvSegNet-152,45.99,0.5887330754352031,null,['CNN'],2006.11538v1
+Semantic Segmentation,ADE20K,DNL,45.97,0.5882495164410058,null,[']'],2006.06668v2
+Semantic Segmentation,ADE20K,ACNet (ResNet-101),45.9,0.5865570599613152,null,[']'],1911.01664v1
+Semantic Segmentation,ADE20K,ACNet\n(ResNet-101),45.9,0.5865570599613152,null,[']'],1911.01664v1
+Semantic Segmentation,ADE20K,"HRViT-b1 (SegFormer, SS)",45.88,0.5860735009671181,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,ADE20K,OCR(HRNetV2-W48),45.66,0.5807543520309477,null,[']'],1909.11065v6
+Semantic Segmentation,ADE20K,SPNet (ResNet-101),45.6,0.5793036750483559,null,['ResNet'],2003.13328v1
+Semantic Segmentation,ADE20K,Swin-T (UPerNet) MoBY,45.58,0.5788201160541585,null,"['Transformer', 'Swin-Transformer']",2105.04553v2
+Semantic Segmentation,ADE20K,DAT-T (UperNet),45.54,0.577852998065764,null,[']'],2201.00520v3
+Semantic Segmentation,ADE20K,iBOT (ViT-S/16),45.4,0.5744680851063829,null,[']'],2111.07832v3
+Semantic Segmentation,ADE20K,EANet\n(ResNet-101),45.33,0.5727756286266924,null,[']'],2105.02358v2
+Semantic Segmentation,ADE20K,OCR (ResNet-101),45.28,0.5715667311411993,null,[']'],1909.11065v6
+Semantic Segmentation,ADE20K,Asymmetric ALNN,45.24,0.5705996131528047,null,[']'],1908.07678v5
+Semantic Segmentation,ADE20K,"Light-Ham (VAN-Small, D=256)",45.2,0.5696324951644102,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K,LaU-regression-loss,45.02,0.5652804642166345,null,['CNN'],1911.05250v2
+Semantic Segmentation,ADE20K,PSPNet,44.94,0.5633462282398451,null,[']'],1612.01105v2
+Semantic Segmentation,ADE20K,"tiny-MOAT-2 (IN-1K pretraining, single scale)",44.9,0.5623791102514506,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,CFNet(ResNet-101),44.89,0.562137330754352,null,['ResNet'],null
+Semantic Segmentation,ADE20K,EncNet,44.65,0.5563346228239845,null,[']'],1803.08904v1
+Semantic Segmentation,ADE20K,LaU-offset-loss,44.55,0.553916827852998,null,['CNN'],1911.05250v2
+Semantic Segmentation,ADE20K,EncNet + JPU,44.34,0.5488394584139266,null,['CNN'],1903.11816v1
+Semantic Segmentation,ADE20K,SGR (ResNet-101),44.32,0.5483558994197292,null,[']'],null
+Semantic Segmentation,ADE20K,XCiT-S12/8 (Semantic-FPN),44.2,0.5454545454545455,null,['Transformer'],2106.09681v2
+Semantic Segmentation,ADE20K,Auto-DeepLab-L,43.98,0.5401353965183752,null,[']'],1901.02985v2
+Semantic Segmentation,ADE20K,PSANet (ResNet-101),43.77,0.5350580270793037,null,[']'],null
+Semantic Segmentation,ADE20K,DSSPN (ResNet-101),43.68,0.5328820116054158,null,[']'],1803.06067v1
+Semantic Segmentation,ADE20K,PSPNet (ResNet-152),43.51,0.5287717601547388,null,[']'],1612.01105v2
+Semantic Segmentation,ADE20K,PSPNet\n(ResNet-101),43.29,0.5234526112185687,null,[']'],1612.01105v2
+Semantic Segmentation,ADE20K,HRNetV2,43.2,0.5212765957446809,null,[']'],1904.04514v1
+Semantic Segmentation,ADE20K,SeMask (SeMask Swin-T FPN),43.16,0.5203094777562862,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K,"tiny-MOAT-1 (IN-1K pretraining, single scale)",43.1,0.5188588007736944,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,VAN-Small,42.9,0.5140232108317214,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,PoolFormer-M48,42.7,0.5091876208897486,null,[']'],2111.11418v3
+Semantic Segmentation,ADE20K,UperNet (ResNet-101),42.66,0.5082205029013539,null,[']'],1807.10221v1
+Semantic Segmentation,ADE20K,"tiny-MOAT-0 (IN-1K pretraining, single scale)",41.2,0.4729206963249517,null,[']'],2210.01820v2
+Semantic Segmentation,ADE20K,RefineNet,40.7,0.4608317214700194,null,[']'],1611.06612v3
+Semantic Segmentation,ADE20K,FBNetV5,40.4,0.4535783365570599,null,[']'],2111.10007v2
+Semantic Segmentation,ADE20K,ConvMLP-L,40.0,0.4439071566731141,null,[']'],2109.04454v2
+Semantic Segmentation,ADE20K,ConvMLP-M,38.6,0.4100580270793037,null,[']'],2109.04454v2
+Semantic Segmentation,ADE20K,VAN-Tiny,38.5,0.4076402321083172,null,[']'],2202.09741v5
+Semantic Segmentation,ADE20K,A2MIM (ResNet-50),38.3,0.4028046421663442,null,[']'],2205.13943v4
+Semantic Segmentation,ADE20K,iBOT (ViT-B/16) (linear head),38.3,0.4028046421663442,null,[']'],2111.07832v3
+Semantic Segmentation,ADE20K,SegFormer-B0,37.4,0.3810444874274661,null,[']'],2105.15203v3
+Semantic Segmentation,ADE20K,MUXNet-m + PPM,35.8,0.3423597678916827,null,['CNN'],2003.13880v2
+Semantic Segmentation,ADE20K,ConvMLP-S,35.8,0.3423597678916827,null,[']'],2109.04454v2
+Semantic Segmentation,ADE20K,MUXNet-m + C1,32.42,0.26063829787234044,null,['CNN'],2003.13880v2
+Semantic Segmentation,ADE20K,DilatedNet,32.31,0.2579787234042554,null,['CNN'],1511.07122v3
+Semantic Segmentation,ADE20K,FCN,29.39,0.18737911025145068,null,['CNN'],1411.4038v2
+Semantic Segmentation,ADE20K,SegNet,21.64,0.0,null,['CNN'],1511.00561v3
+Semantic Segmentation,NYU Depth v2,GeminiFusion (Finetune-Swin-Large),60.9,1.0,null,[']'],2406.01210v2
+Semantic Segmentation,NYU Depth v2,OmniVec,60.8,0.997596153846154,null,[']'],2311.05709v1
+Semantic Segmentation,NYU Depth v2,GeminiFusion (Swin-Large),60.2,0.9831730769230772,null,[']'],2406.01210v2
+Semantic Segmentation,NYU Depth v2,DPLNet,59.3,0.9615384615384617,null,[']'],2312.00360v2
+Semantic Segmentation,NYU Depth v2,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",59.02,0.9548076923076924,null,[']'],2309.13635v1
+Semantic Segmentation,NYU Depth v2,SwinMTL,58.14,0.9336538461538464,null,[']'],2403.10662v1
+Semantic Segmentation,NYU Depth v2,PolyMaX(ConvNeXt-L),58.08,0.9322115384615386,null,[']'],2311.05770v1
+Semantic Segmentation,NYU Depth v2,GeminiFusion (MiT-B5),57.7,0.9230769230769234,null,[']'],2406.01210v2
+Semantic Segmentation,NYU Depth v2,DFormer-L,57.2,0.9110576923076926,null,[']'],2309.09668v2
+Semantic Segmentation,NYU Depth v2,CMX (B5),56.9,0.9038461538461539,null,[']'],2203.04838v5
+Semantic Segmentation,NYU Depth v2,CMNeXt (B4),56.9,0.9038461538461539,null,[']'],2303.01480v1
+Semantic Segmentation,NYU Depth v2,"OMNIVORE (Swin-L, finetuned)",56.8,0.9014423076923078,null,[']'],2201.08377v2
+Semantic Segmentation,NYU Depth v2,GeminiFusion (MiT-B3),56.8,0.9014423076923078,null,[']'],2406.01210v2
+Semantic Segmentation,NYU Depth v2,CMX (B4),56.3,0.8894230769230771,null,[']'],2203.04838v5
+Semantic Segmentation,NYU Depth v2,MultiMAE (ViT-B),56.0,0.8822115384615387,null,[']'],2204.01678v1
+Semantic Segmentation,NYU Depth v2,SMMCL (SegNeXt-B),55.8,0.8774038461538463,null,[']'],2308.12320v2
+Semantic Segmentation,NYU Depth v2,DFormer-B,55.6,0.8725961538461539,null,[']'],2309.09668v2
+Semantic Segmentation,NYU Depth v2,ComPtr (Swin-B),55.5,0.8701923076923079,null,[']'],2307.12349v1
+Semantic Segmentation,NYU Depth v2,"OMNIVORE (Swin-B, finetuned)",55.1,0.8605769230769231,null,[']'],2201.08377v2
+Semantic Segmentation,NYU Depth v2,HAPNet,55.0,0.8581730769230771,null,[']'],2404.03527v2
+Semantic Segmentation,NYU Depth v2,CMX (B2),54.4,0.84375,null,[']'],2203.04838v5
+Semantic Segmentation,NYU Depth v2,TokenFusion (S),54.2,0.8389423076923079,null,[']'],2204.08721v2
+Semantic Segmentation,NYU Depth v2,AsymFormer,54.1,0.8365384615384616,null,[']'],2309.14065v7
+Semantic Segmentation,NYU Depth v2,SMMCL (SegFormer-B2),53.7,0.8269230769230772,null,[']'],2308.12320v2
+Semantic Segmentation,NYU Depth v2,DFormer-S,53.6,0.8245192307692308,null,[']'],2309.09668v2
+Semantic Segmentation,NYU Depth v2,InvPT,53.56,0.8235576923076925,null,[']'],2203.07997v3
+Semantic Segmentation,NYU Depth v2,HS3-Fuse (ResNet-101),53.5,0.8221153846153848,null,[']'],2111.02333v1
+Semantic Segmentation,NYU Depth v2,PDCNet (ResNet-101),53.5,0.8221153846153848,null,[']'],2302.11951v1
+Semantic Segmentation,NYU Depth v2,"EMSANet (2x ResNet-34 NBt1D, finetuned)",53.34,0.8182692307692311,null,[']'],2207.04526v1
+Semantic Segmentation,NYU Depth v2,DCANet (ResNet-101),53.3,0.8173076923076924,null,[']'],2210.06747v1
+Semantic Segmentation,NYU Depth v2,TokenFusion (Ti),53.3,0.8173076923076924,null,[']'],2204.08721v2
+Semantic Segmentation,NYU Depth v2,InverseForm (ResNet-101),53.1,0.8125,null,[']'],2104.02745v2
+Semantic Segmentation,NYU Depth v2,CAINet (MobileNet-V2),52.6,0.8004807692307693,null,[']'],2401.01624v1
+Semantic Segmentation,NYU Depth v2,CEN-PSPNet (ResNet-152),52.5,0.7980769230769232,null,[']'],2112.02252v2
+Semantic Segmentation,NYU Depth v2,AMF (ResNet-50),52.5,0.7980769230769232,null,[']'],2201.01427v2
+Semantic Segmentation,NYU Depth v2,SMMCL (ResNet-101),52.5,0.7980769230769232,null,[']'],2308.12320v2
+Semantic Segmentation,NYU Depth v2,SA-Gate,52.4,0.7956730769230769,null,[']'],2007.09183v1
+Semantic Segmentation,NYU Depth v2,Warp-Refine,52.2,0.7908653846153849,null,[']'],2109.13432v1
+Semantic Segmentation,NYU Depth v2,FSFNet,52.0,0.7860576923076925,null,[']'],2105.04102v1
+Semantic Segmentation,NYU Depth v2,VCD+ACNet (ResNet-50),51.9,0.7836538461538461,null,[']'],null
+Semantic Segmentation,NYU Depth v2,MIPANet (ResNet50),51.9,0.7836538461538461,null,[']'],2311.11312v2
+Semantic Segmentation,NYU Depth v2,DFormer-T,51.8,0.7812500000000001,null,[']'],2309.09668v2
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNext-101),51.3,0.7692307692307693,null,['ResNeXt'],2108.10528v1
+Semantic Segmentation,NYU Depth v2,EMSAFormer (SwinV2-T-128-Multi-Aug),51.26,0.7682692307692308,null,[']'],2306.05242v1
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-101),51.24,0.7677884615384617,null,[']'],2206.03939v1
+Semantic Segmentation,NYU Depth v2,AsymFusion (ResNet-152),51.2,0.7668269230769232,null,[']'],2108.05009v1
+Semantic Segmentation,NYU Depth v2,DynMM (ResNet-50),51.0,0.7620192307692308,null,[']'],2204.00102v2
+Semantic Segmentation,NYU Depth v2,SGNet (ResNet-101),51.0,0.7620192307692308,null,[']'],2004.04534v2
+Semantic Segmentation,NYU Depth v2,PSD-ResNet50,51.0,0.7620192307692308,null,[']'],null
+Semantic Segmentation,NYU Depth v2,Malleable 2.5D (ResNet-101),50.9,0.7596153846153847,null,[']'],2007.09365v1
+Semantic Segmentation,NYU Depth v2,ICM,50.7,0.7548076923076925,null,[']'],null
+Semantic Segmentation,NYU Depth v2,SANet,50.7,0.7548076923076925,null,[']'],2011.02572v1
+Semantic Segmentation,NYU Depth v2,VCD+RedNet (ResNet-50),50.7,0.7548076923076925,null,[']'],null
+Semantic Segmentation,NYU Depth v2,HaarNet,50.7,0.7548076923076925,null,[']'],2310.07669v1
+Semantic Segmentation,NYU Depth v2,PAP (ResNet-50),50.4,0.7475961538461539,null,[']'],1906.03525v1
+Semantic Segmentation,NYU Depth v2,Cerberus,50.4,0.7475961538461539,null,[']'],2111.12608v2
+Semantic Segmentation,NYU Depth v2,ESANet (R34-NBt1D),50.3,0.7451923076923077,null,[']'],2011.06961v3
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-50),50.05,0.7391826923076923,null,[']'],2206.03939v1
+Semantic Segmentation,NYU Depth v2,Malleable 2.5D (ResNet-50),49.7,0.730769230769231,null,[']'],2007.09365v1
+Semantic Segmentation,NYU Depth v2,MMANet,49.62,0.7288461538461539,null,[']'],2304.08028v1
+Semantic Segmentation,NYU Depth v2,SGACNet (R34-NBt1D),49.4,0.7235576923076924,null,[']'],2308.06024v1
+Semantic Segmentation,NYU Depth v2,ComPtr (Swin-T),49.2,0.7187500000000001,null,[']'],2307.12349v1
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-34),49.15,0.717548076923077,null,[']'],2206.03939v1
+Semantic Segmentation,NYU Depth v2,UMT,49.14,0.7173076923076924,null,[']'],2106.11059v1
+Semantic Segmentation,NYU Depth v2,MTI-Net (HRNet-48),49.0,0.7139423076923078,null,[']'],2001.06902v5
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNet-101),49.0,0.7139423076923078,null,[']'],2108.10528v1
+Semantic Segmentation,NYU Depth v2,MKE,48.88,0.7110576923076924,null,[']'],2103.14431v3
+Semantic Segmentation,NYU Depth v2,ShapeConv (ResNet-50),48.8,0.7091346153846154,null,[']'],2108.10528v1
+Semantic Segmentation,NYU Depth v2,mmFormer,48.45,0.700721153846154,null,[']'],2206.02425v2
+Semantic Segmentation,NYU Depth v2,ACNet,48.3,0.6971153846153846,null,[']'],1905.10089v1
+Semantic Segmentation,NYU Depth v2,SGACNet (R18-NBt1D),48.2,0.6947115384615387,null,[']'],2308.06024v1
+Semantic Segmentation,NYU Depth v2,ESANet (R18-NBt1D ),48.17,0.6939903846153848,null,[']'],2011.06961v3
+Semantic Segmentation,NYU Depth v2,RFNet,48.13,0.6930288461538463,null,[']'],null
+Semantic Segmentation,NYU Depth v2,TupleInfoNCE,48.1,0.6923076923076924,null,[']'],2107.02575v1
+Semantic Segmentation,NYU Depth v2,DDSC (ResNet-101),48.1,0.6923076923076924,null,[']'],null
+Semantic Segmentation,NYU Depth v2,CFN,47.7,0.6826923076923078,null,[']'],null
+Semantic Segmentation,NYU Depth v2,FDNet (DenseNet264),47.4,0.6754807692307693,null,[']'],1905.08929v1
+Semantic Segmentation,NYU Depth v2,RedNet,47.2,0.6706730769230771,null,[']'],1806.01054v2
+Semantic Segmentation,NYU Depth v2,Z-ACN (ResNet-18),47.02,0.666346153846154,null,[']'],2206.03939v1
+Semantic Segmentation,NYU Depth v2,TRL (ResNet-101),46.8,0.6610576923076923,null,[']'],null
+Semantic Segmentation,NYU Depth v2,RefineNet (ResNet-101),46.5,0.653846153846154,null,['ResNet'],1611.06612v3
+Semantic Segmentation,NYU Depth v2,PGT (Swin-S),46.43,0.6521634615384616,null,[']'],2307.15362v1
+Semantic Segmentation,NYU Depth v2,ATRC,46.33,0.6497596153846155,null,[']'],2104.13874v2
+Semantic Segmentation,NYU Depth v2,LS-DeconvNet,45.9,0.639423076923077,null,[']'],null
+Semantic Segmentation,NYU Depth v2,VCD+DeepLab (VGG16),45.3,0.625,null,[']'],null
+Semantic Segmentation,NYU Depth v2,SOSD-Net,45.0,0.6177884615384616,null,[']'],2101.07422v1
+Semantic Segmentation,NYU Depth v2,MMAF-Net-152,44.8,0.6129807692307693,null,[']'],1912.11691v1
+Semantic Segmentation,NYU Depth v2,RecurrentSceneParsing,44.5,0.6057692307692308,null,[']'],1705.07238v2
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-152,44.4,0.6033653846153847,null,[']'],1810.03272v1
+Semantic Segmentation,NYU Depth v2,Depth-aware CNN,43.9,0.5913461538461539,null,[']'],1803.06791v1
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-101,43.6,0.5841346153846155,null,[']'],1810.03272v1
+Semantic Segmentation,NYU Depth v2,TD2-PSP50,43.5,0.5817307692307693,null,[']'],2004.01800v2
+Semantic Segmentation,NYU Depth v2,NDDR-CNN,43.3,0.5769230769230769,null,[']'],1801.08297v4
+Semantic Segmentation,NYU Depth v2,3DGNN,43.1,0.5721153846153847,null,[']'],null
+Semantic Segmentation,NYU Depth v2,CI-Net,42.6,0.560096153846154,null,[']'],2107.13800v2
+Semantic Segmentation,NYU Depth v2,Multi-Task Light-Weight-RefineNet,42.0,0.545673076923077,null,[']'],1809.04766v2
+Semantic Segmentation,NYU Depth v2,Light-Weight-RefineNet-50,41.7,0.5384615384615385,null,[']'],1810.03272v1
+Semantic Segmentation,NYU Depth v2,PGT (Swin-T),41.61,0.536298076923077,null,[']'],2307.15362v1
+Semantic Segmentation,NYU Depth v2,MTML,41.51,0.5338942307692308,null,[']'],2210.06989v4
+Semantic Segmentation,NYU Depth v2,RAN,41.2,0.5264423076923078,null,[']'],1707.06426v1
+Semantic Segmentation,NYU Depth v2,DenseMTL,40.84,0.5177884615384617,null,[']'],2206.08927v1
+Semantic Segmentation,NYU Depth v2,STD2P,40.1,0.5000000000000001,null,[']'],1604.02388v3
+Semantic Segmentation,NYU Depth v2,MaskSup,39.31,0.4810096153846155,null,[']'],2210.00923v2
+Semantic Segmentation,NYU Depth v2,HeMIS,37.77,0.44399038461538476,null,[']'],1607.05194v1
+Semantic Segmentation,NYU Depth v2,TD4-PSP18,37.4,0.43509615384615385,null,[']'],2004.01800v2
+Semantic Segmentation,NYU Depth v2,Bayesian DenseNet,37.3,0.43269230769230765,null,[']'],1703.04977v2
+Semantic Segmentation,NYU Depth v2,HN-network,33.49,0.3411057692307693,null,[']'],2002.02200v1
+Semantic Segmentation,NYU Depth v2,CompL,33.48,0.34086538461538457,null,[']'],2210.07239v1
+Semantic Segmentation,NYU Depth v2,Dilated FCN-2s RGB,32.3,0.31249999999999994,null,[']'],1707.08254v3
+Semantic Segmentation,NYU Depth v2,AdaShare,29.6,0.2475961538461539,null,[']'],1911.12423v2
+Semantic Segmentation,NYU Depth v2,EDNAS+JAReD,22.1,0.06730769230769233,null,[']'],2210.01384v1
+Semantic Segmentation,NYU Depth v2,Cross-stitch,19.3,0.0,null,[']'],1604.03539v1
+Semantic Segmentation,Cityscapes test,VLTSeg,86.4,1.0,null,[']'],2312.02021v2
+Semantic Segmentation,Cityscapes test,MetaPrompt-SD,86.2,0.9954883825851567,null,[']'],2312.14733v1
+Semantic Segmentation,Cityscapes test,InternImage-H,86.1,0.9932325738777349,null,"['Deformable Convolution', 'DCN']",2211.05778v4
+Semantic Segmentation,Cityscapes test,HS3-Fuse,85.8,0.9864651477554701,null,[']'],2111.02333v1
+Semantic Segmentation,Cityscapes test,InverseForm,85.6,0.9819535303406268,null,[']'],2104.02745v2
+Semantic Segmentation,Cityscapes test,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",85.2,0.9729302955109406,null,[']'],2205.08534v4
+Semantic Segmentation,Cityscapes test,SERNet-Former,84.83,0.9645838032934806,null,[']'],2401.15741v5
+Semantic Segmentation,Cityscapes test,Depth Anything,84.8,0.9639070606812541,null,[']'],2401.10891v2
+Semantic Segmentation,Cityscapes test,HRNetV2 + OCR +,84.5,0.9571396345589893,null,['hrnet'],1909.11065v6
+Semantic Segmentation,Cityscapes test,EfficientPS,84.21,0.9505977893074664,null,[']'],2004.02307v3
+Semantic Segmentation,Cityscapes test,Panoptic-DeepLab,84.2,0.9503722084367245,null,[']'],1911.10194v3
+Semantic Segmentation,Cityscapes test,HRNetV2 + OCR (w/ ASP),83.7,0.9390931648996165,null,['hrnet'],1909.11065v6
+Semantic Segmentation,Cityscapes test,DCNAS(coarse + Mapillary),83.6,0.9368373561921947,null,[']'],2003.11883v2
+Semantic Segmentation,Cityscapes test,Euclidean Frank-Wolfe CRFs (backbon,83.6,0.9368373561921947,null,[']'],2110.14759v2
+Semantic Segmentation,Cityscapes test,GALDNet(+Mapillary)++,83.3,0.9300699300699299,null,[']'],1909.07229v1
+Semantic Segmentation,Cityscapes test,ResNeSt200 (Mapillary),83.3,0.9300699300699299,null,[']'],2004.08955v2
+Semantic Segmentation,Cityscapes test,HANet (Height-driven Attention Networks by LGE A\u0026B)(coarse),83.2,0.9278141213625084,null,[']'],2003.05128v3
+Semantic Segmentation,Cityscapes test,"kMaX-DeepLab (ConvNeXt-L, fine only)",83.2,0.9278141213625084,null,[']'],2207.04044v5
+Semantic Segmentation,Cityscapes test,"SegFormer (MiT-B5, Mapillary)",83.1,0.9255583126550866,null,['Transformer'],2105.15203v3
+Semantic Segmentation,Cityscapes test,"OCR (HRNetV2-W48, coarse)",83.0,0.9233025039476651,null,['hrnet'],1909.11065v6
+Semantic Segmentation,Cityscapes test,MRFM(coarse),83.0,0.9233025039476651,null,[']'],2011.08577v2
+Semantic Segmentation,Cityscapes test,DNL (coarse),83.0,0.9233025039476651,null,[']'],2006.06668v2
+Semantic Segmentation,Cityscapes test,DRAN(ResNet-101) WITH ONLY FINE ANNOTATED DATA,82.9,0.9210466952402436,null,['ResNet'],null
+Semantic Segmentation,Cityscapes test,Gated-SCNN,82.8,0.9187908865328218,null,[']'],1907.05740v1
+Semantic Segmentation,Cityscapes test,Dense Prediction Cell,82.7,0.9165350778254003,null,[']'],1809.04184v1
+Semantic Segmentation,Cityscapes test,CAA (ResNet-101),82.6,0.9142792691179785,null,['ResNet'],2101.07434v5
+Semantic Segmentation,Cityscapes test,"OCR (ResNet-101, coarse)",82.4,0.9097676517031356,null,['ResNet'],1909.11065v6
+Semantic Segmentation,Cityscapes test,DDRNet-39 1.5x,82.4,0.9097676517031356,null,[']'],2101.06085v2
+Semantic Segmentation,Cityscapes test,SSMA,82.3,0.9075118429957137,null,[']'],1808.03833v3
+Semantic Segmentation,Cityscapes test,Gated Fully Fusion,82.3,0.9075118429957137,null,[']'],1904.01803v2
+Semantic Segmentation,Cityscapes test,Auto-DeepLab-L,82.1,0.9030002255808705,null,[']'],1901.02985v2
+Semantic Segmentation,Cityscapes test,DGCNet (ResNet-101),82.0,0.900744416873449,null,"['GCN', 'ResNet']",1909.06121v3
+Semantic Segmentation,Cityscapes test,SPNet (ResNet-101),82.0,0.900744416873449,null,['ResNet'],2003.13328v1
+Semantic Segmentation,Cityscapes test,OCR (ResNet-101),81.8,0.8962327994586057,null,['ResNet'],1909.11065v6
+Semantic Segmentation,Cityscapes test,OCNet,81.7,0.8939769907511842,null,[']'],1809.00916v4
+Semantic Segmentation,Cityscapes test,SETR-PUP++,81.64,0.8926235055267312,null,[']'],2012.15840v3
+Semantic Segmentation,Cityscapes test,HRNet (HRNetV2-W48),81.6,0.8917211820437625,null,[']'],1904.04514v1
+Semantic Segmentation,Cityscapes test,HRNetV2 (train+val),81.6,0.8917211820437625,null,['hrnet'],1908.07919v2
+Semantic Segmentation,Cityscapes test,DANet (ResNet-101),81.5,0.889465373336341,null,['ResNet'],1809.02983v4
+Semantic Segmentation,Cityscapes test,CCNet,81.4,0.8872095646289195,null,[']'],1811.11721v2
+Semantic Segmentation,Cityscapes test,BFP,81.4,0.8872095646289195,null,[']'],1909.00179v1
+Semantic Segmentation,Cityscapes test,"DeepLabv3 (ResNet-101, coarse)",81.3,0.8849537559214977,null,['ResNet'],1706.05587v3
+Semantic Segmentation,Cityscapes test,CPN(ResNet-101),81.3,0.8849537559214977,null,['ResNet'],2004.01547v1
+Semantic Segmentation,Cityscapes test,Asymmetric ALNN,81.3,0.8849537559214977,null,[']'],1908.07678v5
+Semantic Segmentation,Cityscapes test,AdapNet++,81.24,0.8836002706970446,null,[']'],1808.03833v3
+Semantic Segmentation,Cityscapes test,SVCNet (ResNet-101),81.0,0.878186329799233,null,['ResNet'],1909.02651v1
+Semantic Segmentation,Cityscapes test,D3Net-L,80.8,0.8736747123843897,null,['D3Net'],2011.11844v2
+Semantic Segmentation,Cityscapes test,DenseASPP (DenseNet-161),80.6,0.8691630949695464,null,[']'],null
+Semantic Segmentation,Cityscapes test,Smooth Network with Channel Attention Block,80.3,0.8623956688472816,null,[']'],1804.09337v1
+Semantic Segmentation,Cityscapes test,PSPNet++,80.2,0.8601398601398601,null,[']'],1612.01105v2
+Semantic Segmentation,Cityscapes test,PSANet (ResNet-101),80.1,0.8578840514324383,null,['ResNet'],null
+Semantic Segmentation,Cityscapes test,ESANet-R34-NBt1D,80.09,0.8576584705616963,null,[']'],2011.06961v3
+Semantic Segmentation,Cityscapes test,DeepLabV3 with R-101,79.9,0.8533724340175953,null,[']'],2307.14179v1
+Semantic Segmentation,Cityscapes test,DFN (ResNet-101),79.3,0.8398375817730654,null,['ResNet'],1804.09337v1
+Semantic Segmentation,Cityscapes test,AAF (ResNet-101),79.1,0.8353259643582222,null,['ResNet'],1803.10335v3
+Semantic Segmentation,Cityscapes test,ShelfNet-34,79.0,0.8330701556508007,null,[']'],1811.11254v6
+Semantic Segmentation,Cityscapes test,BiSeNet (ResNet-101),78.9,0.8308143469433792,null,['ResNet'],1808.00897v1
+Semantic Segmentation,Cityscapes test,ResNet-38,78.4,0.8195353034062711,null,['ResNet'],1611.10080v1
+Semantic Segmentation,Cityscapes test,PSPNet,78.4,0.8195353034062711,null,[']'],1612.01105v2
+Semantic Segmentation,Cityscapes test,DepthSeg (ResNet-101),78.2,0.8150236859914279,null,['ResNet'],1705.07238v2
+Semantic Segmentation,Cityscapes test,DSSPN (ResNet-101),77.8,0.8060004511617413,null,['ResNet'],1803.06067v1
+Semantic Segmentation,Cityscapes test,DUC-HDC (ResNet-101),77.6,0.801488833746898,null,['ResNet'],1702.08502v3
+Semantic Segmentation,Cityscapes test,SaGe,76.9,0.785698172794947,null,[']'],2111.13163v1
+Semantic Segmentation,Cityscapes test,SwiftNetRN-18,75.5,0.7541168508910443,null,[']'],1903.08469v2
+Semantic Segmentation,Cityscapes test,RefineNet (ResNet-101),73.6,0.7112564854500336,null,['ResNet'],1611.06612v3
+Semantic Segmentation,Cityscapes test,MobileNet V3-Large 1.0,72.6,0.6886983983758175,null,[']'],1905.02244v5
+Semantic Segmentation,Cityscapes test,SqueezeNAS (LAT Large),72.5,0.686442589668396,null,[']'],1908.01748v2
+Semantic Segmentation,Cityscapes test,Multi Scale Spatial Attention,72.4,0.6841867809609745,null,[']'],2007.12685v3
+Semantic Segmentation,Cityscapes test,FRRN,71.8,0.6706519287164447,null,[']'],1611.08323v2
+Semantic Segmentation,Cityscapes test,LRR-4x,71.8,0.6706519287164447,null,[']'],1605.02264v2
+Semantic Segmentation,Cityscapes test,Context,71.6,0.6661403113016015,null,[']'],1504.01013v4
+Semantic Segmentation,Cityscapes test,FasterSeg,71.5,0.66388450259418,null,[']'],1912.10917v2
+Semantic Segmentation,Cityscapes test,DFANet A,71.3,0.6593728851793367,null,[']'],1904.02216v1
+Semantic Segmentation,Cityscapes test,LDFNet,71.3,0.6593728851793367,null,[']'],1809.09077v3
+Semantic Segmentation,Cityscapes test,LightSeg-DarkNet19,70.75,0.6469659372885178,null,[']'],1912.06683v1
+Semantic Segmentation,Cityscapes test,ESNet,70.7,0.6458380329348071,null,[']'],1906.09826v1
+Semantic Segmentation,Cityscapes test,ICNet,70.6,0.6435822242273853,null,[']'],1704.08545v2
+Semantic Segmentation,Cityscapes test,LEDNet,70.6,0.6435822242273853,null,[']'],1905.02423v3
+Semantic Segmentation,Cityscapes test,WASPnet (ours),70.5,0.6413264155199638,null,[']'],1912.03183v1
+Semantic Segmentation,Cityscapes test,DeepLab-CRF (ResNet-101),70.4,0.6390706068125424,null,['ResNet'],1606.00915v2
+Semantic Segmentation,Cityscapes test,ERFNet (PyTorch),69.8,0.6255357545680125,null,[']'],null
+Semantic Segmentation,Cityscapes test,Fast-SCNN,68.0,0.5849311978344236,null,[']'],1902.04502v1
+Semantic Segmentation,Cityscapes test,LightSeg-MobileNet,67.81,0.5806451612903225,null,[']'],1912.06683v1
+Semantic Segmentation,Cityscapes test,LiteSeg-MobileNet,67.81,0.5806451612903225,null,[']'],1912.06683v1
+Semantic Segmentation,Cityscapes test,Template-Based NAS-arch1,67.8,0.5804195804195803,null,[']'],1904.02365v2
+Semantic Segmentation,Cityscapes test,Template-Based NAS-arch0,67.7,0.5781637717121588,null,[']'],1904.02365v2
+Semantic Segmentation,Cityscapes test,EDANet,67.3,0.5691405368824722,null,[']'],1809.06323v3
+Semantic Segmentation,Cityscapes test,Dilation10,67.1,0.5646289194676289,null,[']'],1511.07122v3
+Semantic Segmentation,Cityscapes test,DPN,66.8,0.5578614933453642,null,[']'],1509.02634v2
+Semantic Segmentation,Cityscapes test,SqueezeNAS (LAT Small),66.8,0.5578614933453642,null,[']'],1908.01748v2
+Semantic Segmentation,Cityscapes test,SINet,66.5,0.5510940672230994,null,[']'],1911.09099v4
+Semantic Segmentation,Cityscapes test,ESPNetv2,66.2,0.5443266411008346,null,[']'],1811.11431v3
+Semantic Segmentation,Cityscapes test,FCN,65.3,0.5240243627340401,null,[']'],1605.06211v1
+Semantic Segmentation,Cityscapes test,LightSeg-ShuffleNet,65.17,0.521091811414392,null,[']'],1912.06683v1
+Semantic Segmentation,Cityscapes test,LiteSeg-ShuffleNet,65.17,0.521091811414392,null,[']'],1912.06683v1
+Semantic Segmentation,Cityscapes test,DeepLab,63.1,0.47439657117076467,null,[']'],1412.7062v4
+Semantic Segmentation,Cityscapes test,ENet + Lov\u00e1sz-Softmax,63.06,0.4734942476877961,null,[']'],1705.08790v2
+Semantic Segmentation,Cityscapes test,ESPNet,60.3,0.4112339273629595,null,[']'],1803.06815v3
+Semantic Segmentation,Cityscapes test,ENet,58.3,0.3661177532145273,null,[']'],1606.02147v1
+Semantic Segmentation,Cityscapes test,SegNet,57.0,0.3367922400180464,null,[']'],1511.00561v3
+Semantic Segmentation,Cityscapes test,IkshanaNet-1,54.82,0.2876156101962553,null,[']'],2101.10837v4
+Semantic Segmentation,Cityscapes test,IkshanaNet-2,45.02,0.06654635686893758,null,[']'],2101.10837v4
+Semantic Segmentation,Cityscapes test,IkshanaNet-3,42.07,0.0,null,[']}]</script'],2101.10837v4
+Semantic Segmentation,ADE20K val,BEiT-3,62.8,1.0,null,['ViT-Giant'],2208.10442v2
+Semantic Segmentation,ADE20K val,ViT-CoMer,62.1,0.9690265486725665,null,[']'],2403.07392
+Semantic Segmentation,ADE20K val,EVA,61.5,0.9424778761061948,null,[']'],2211.07636v2
+Semantic Segmentation,ADE20K val,FD-SwinV2-G,61.4,0.9380530973451328,null,[']'],2205.14141v3
+Semantic Segmentation,ADE20K val,MaskDINO-SwinL,60.8,0.911504424778761,null,[']'],2206.02777v3
+Semantic Segmentation,ADE20K val,"OneFormer (InternImage-H, emb_dim=256, multi-scale, 896x896)",60.8,0.911504424778761,null,[']'],2211.06220v2
+Semantic Segmentation,ADE20K val,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",60.5,0.8982300884955753,null,[']'],2205.08534v4
+Semantic Segmentation,ADE20K val,"OneFormer (DiNAT-L, multi-scale, 896x896)",58.6,0.8141592920353984,null,"['Transformer', 'Neighborhood Attention']",2211.06220v2
+Semantic Segmentation,ADE20K val,"ViT-Adapter-L (UperNet, BEiT pretrain)",58.4,0.8053097345132744,null,[']'],2205.08534v4
+Semantic Segmentation,ADE20K val,"OneFormer (DiNAT-L, multi-scale, 640x640)",58.4,0.8053097345132744,null,"['Transformer', 'Neighborhood Attention']",2211.06220v2
+Semantic Segmentation,ADE20K val,RSSeg-ViT-L(BEiT pretrain),58.4,0.8053097345132744,null,[']'],2212.13764v1
+Semantic Segmentation,ADE20K val,"OneFormer (Swin-L, multi-scale, 896x896)",58.3,0.8008849557522123,null,[']'],2211.06220v2
+Semantic Segmentation,ADE20K val,SeMask (SeMask Swin-L FaPN-Mask2Former),58.2,0.7964601769911507,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,SeMask (SeMask Swin-L MSFaPN-Mask2Former),58.2,0.7964601769911507,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,DiNAT-L (Mask2Former),58.1,0.7920353982300886,null,"['Transformer', 'Neighborhood Attention']",2209.15001v3
+Semantic Segmentation,ADE20K val,"Mask2Former (Swin-L-FaPN, multiscale)",57.7,0.7743362831858409,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K val,"OneFormer (Swin-L, multi-scale, 640x640)",57.7,0.7743362831858409,null,[']'],2211.06220v2
+Semantic Segmentation,ADE20K val,SeMask (SeMask Swin-L Mask2Former),57.5,0.7654867256637169,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,SenFormer (BEiT-L),57.1,0.7477876106194692,null,[']'],2111.13280v2
+Semantic Segmentation,ADE20K val,"BEiT-L (ViT+UperNet, ImageNet-22k pretrain)",57.0,0.7433628318584071,null,"['Self-Supervised Learning', 'Transformer']",2106.08254v2
+Semantic Segmentation,ADE20K val,"SeMask (SeMask Swin-L MSFaPN-Mask2Former, single-scale)",57.0,0.7433628318584071,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,"FaPN (MaskFormer, Swin-L, ImageNet-22k pretrain)",56.7,0.7300884955752214,null,[']'],2108.07058v2
+Semantic Segmentation,ADE20K val,Mask2Former (Swin-L-FaPN),56.4,0.7168141592920354,null,[']'],2112.01527v3
+Semantic Segmentation,ADE20K val,SeMask (SeMask Swin-L MaskFormer),56.2,0.7079646017699117,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,"CSWin-L (UperNet, ImageNet-22k pretrain)",55.7,0.685840707964602,null,[']'],2107.00652v3
+Semantic Segmentation,ADE20K val,"MaskFormer (Swin-L, ImageNet-22k pretrain)",55.6,0.6814159292035399,null,[']'],2107.06278v2
+Semantic Segmentation,ADE20K val,DeiT-L,55.6,0.6814159292035399,null,[']'],2204.07118v1
+Semantic Segmentation,ADE20K val,"Focal-L (UperNet, ImageNet-22k pretrain)",55.4,0.6725663716814159,null,['Focal-Transformer'],2107.00641v1
+Semantic Segmentation,ADE20K val,SegViT ViT-Large,55.2,0.6637168141592922,null,[']'],2210.05844v2
+Semantic Segmentation,ADE20K val,"PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",54.4,0.6283185840707964,null,['Swin-Transformer'],2104.12753v3
+Semantic Segmentation,ADE20K val,K-Net,54.3,0.6238938053097344,null,['Swin-Transformer'],2106.14855v2
+Semantic Segmentation,ADE20K val,SenFormer (Swin-L),54.2,0.6194690265486728,null,[']'],2111.13280v2
+Semantic Segmentation,ADE20K val,DeiT-B,54.1,0.6150442477876107,null,[']'],2204.07118v1
+Semantic Segmentation,ADE20K val,MixMIM-L,53.8,0.6017699115044247,null,[']'],2205.13137v4
+Semantic Segmentation,ADE20K val,"Seg-L-Mask/16 (MS, ViT-L)",53.63,0.5942477876106196,null,['Transformer'],2105.05633v3
+Semantic Segmentation,ADE20K val,"Swin-L (UperNet, ImageNet-22k pretrain)",53.5,0.588495575221239,null,['Swin-Transformer'],2103.14030v2
+Semantic Segmentation,ADE20K val,SeMask (SeMask Swin-L FPN),53.5,0.588495575221239,null,[']'],2112.12782v3
+Semantic Segmentation,ADE20K val,PatchConvNet-L120 (UperNet),52.9,0.5619469026548672,null,['PatchConvnet'],2112.13692v1
+Semantic Segmentation,ADE20K val,PatchConvNet-B120 (UperNet),52.8,0.5575221238938052,null,['PatchConvnet'],2112.13692v1
+Semantic Segmentation,ADE20K val,"SegFormer-B5(MS, 87M #Params, ImageNet-1K pretrain)",51.8,0.5132743362831858,null,['Transformer'],2105.15203v3
+Semantic Segmentation,ADE20K val,"Light-Ham (VAN-Huge, 61M, IN-1k, MS)",51.5,0.5,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K val,"CrossFormer (ImageNet1k-pretrain, UPerNet, multi-scale test)",51.4,0.495575221238938,null,"['Transformer', 'CrossFormer']",2108.00154v2
+Semantic Segmentation,ADE20K val,PatchConvNet-B60 (UperNet),51.1,0.4823008849557523,null,['PatchConvnet'],2112.13692v1
+Semantic Segmentation,ADE20K val,"Light-Ham (VAN-Large, 46M, IN-1k, MS)",51.0,0.4778761061946903,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K val,UperNet Shuffle-B,50.5,0.4557522123893805,null,[']'],2106.03650v1
+Semantic Segmentation,ADE20K val,ELSA-Swin-S,50.3,0.4469026548672565,null,[']'],2112.12786v1
+Semantic Segmentation,ADE20K val,MixMIM-B,50.3,0.4469026548672565,null,[']'],2205.13137v4
+Semantic Segmentation,ADE20K val,"Twins-SVT-L (UperNet, ImageNet-1k pretrain)",50.2,0.4424778761061948,null,['Transformer'],2104.13840v4
+Semantic Segmentation,ADE20K val,"Seg-B-Mask/16 (MS, ViT-B)",50.0,0.4336283185840708,null,['Transformer'],2105.05633v3
+Semantic Segmentation,ADE20K val,"Swin-B (UperNet, ImageNet-1k pretrain)",49.7,0.42035398230088505,null,['Swin-Transformer'],2103.14030v2
+Semantic Segmentation,ADE20K val,gSwin-S,49.69,0.41991150442477865,null,"['Swin-Transformer', 'MLP']",2208.11718v1
+Semantic Segmentation,ADE20K val,"Seg-B/8 (MS, ViT-B)",49.61,0.4163716814159292,null,['Transformer'],2105.05633v3
+Semantic Segmentation,ADE20K val,UperNet Shuffle-S,49.6,0.41592920353982304,null,[']'],2106.03650v1
+Semantic Segmentation,ADE20K val,"Light-Ham (VAN-Base, 27M, IN-1k, MS)",49.6,0.41592920353982304,null,[']'],2109.04553v2
+Semantic Segmentation,ADE20K val,PatchConvNet-S60 (UperNet),49.3,0.402654867256637,null,['PatchConvnet'],2112.13692v1
+Semantic Segmentation,ADE20K val,DPT-Hybrid,49.02,0.3902654867256638,null,['Transformer'],2103.13413v1
+Semantic Segmentation,ADE20K val,DaViT-S (UperNet),48.8,0.3805309734513273,null,[']'],2204.03645v1
+Semantic Segmentation,ADE20K val,ResNeSt-200,48.36,0.3610619469026548,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K val,HRNetV2 + OCR + RMI (PaddleClas pretrained),47.98,0.3442477876106193,null,['Transformer'],1909.11065v6
+Semantic Segmentation,ADE20K val,gSwin-T,47.63,0.32876106194690274,null,"['Swin-Transformer', 'MLP']",2208.11718v1
+Semantic Segmentation,ADE20K val,ResNeSt-269,47.6,0.3274336283185841,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K val,UperNet Shuffle-T,47.6,0.3274336283185841,null,[']'],2106.03650v1
+Semantic Segmentation,ADE20K val,DCNAS,47.12,0.30619469026548657,null,['DCN'],2003.11883v2
+Semantic Segmentation,ADE20K val,ResNeSt-101,46.91,0.2969026548672564,null,[']'],2004.08955v2
+Semantic Segmentation,ADE20K val,"Seg-S-Mask/16 (MS, ViT-S)",46.9,0.29646017699115035,null,[']'],null
+Semantic Segmentation,ADE20K val,DaViT-B (UperNet),46.3,0.26991150442477857,null,[']'],2204.03645v1
+Semantic Segmentation,ADE20K val,CPN(ResNet-101),46.27,0.26858407079646024,null,['ResNet'],2004.01547v1
+Semantic Segmentation,ADE20K val,MultiMAE (ViT-B),46.2,0.2654867256637169,null,[']'],2204.01678v1
+Semantic Segmentation,ADE20K val,PyConvSegNet-152,45.99,0.25619469026548675,null,[']'],2006.11538v1
+Semantic Segmentation,ADE20K val,DNL,45.97,0.2553097345132742,null,[']'],2006.06668v2
+Semantic Segmentation,ADE20K val,CTNet,45.94,0.2539823008849556,null,['ResNet'],2104.09805v1
+Semantic Segmentation,ADE20K val,ACNet (ResNet-101),45.9,0.25221238938053087,null,['ResNet'],1911.01664v1
+Semantic Segmentation,ADE20K val,ACNet(ResNet-101),45.9,0.25221238938053087,null,['ResNet'],1911.01664v1
+Semantic Segmentation,ADE20K val,OCR (HRNetV2-W48),45.66,0.24159292035398208,null,['Transformer'],1909.11065v6
+Semantic Segmentation,ADE20K val,EANet (ResNet-101),45.33,0.22699115044247772,null,['ResNet'],2105.02358v2
+Semantic Segmentation,ADE20K val,OCR (ResNet-101),45.28,0.22477876106194689,null,['ResNet'],1909.11065v6
+Semantic Segmentation,ADE20K val,Asymmetric ALNN,45.24,0.22300884955752215,null,[']'],1908.07678v5
+Semantic Segmentation,ADE20K val,gSwin-VT,45.07,0.21548672566371677,null,"['Swin-Transformer', 'MLP']",2208.11718v1
+Semantic Segmentation,ADE20K val,LaU-regression-loss,45.02,0.2132743362831859,null,[']'],1911.05250v2
+Semantic Segmentation,ADE20K val,EncNet (ResNet-101),44.65,0.1969026548672565,null,['ResNet'],1803.08904v1
+Semantic Segmentation,ADE20K val,SGR (ResNet-101),44.32,0.18230088495575214,null,['ResNet'],null
+Semantic Segmentation,ADE20K val,Auto-DeepLab-L,43.98,0.16725663716814138,null,[']'],1901.02985v2
+Semantic Segmentation,ADE20K val,PSANet (ResNet-101),43.77,0.15796460176991156,null,['ResNet'],null
+Semantic Segmentation,ADE20K val,DSSPN (ResNet-101),43.68,0.15398230088495565,null,['ResNet'],1803.06067v1
+Semantic Segmentation,ADE20K val,PSPNet (ResNet-152),43.51,0.14646017699115027,null,['ResNet'],1612.01105v2
+Semantic Segmentation,ADE20K val,PSPNet (ResNet-101),43.29,0.13672566371681402,null,['ResNet'],1612.01105v2
+Semantic Segmentation,ADE20K val,HRNetV2 (HRNetV2-W48),42.99,0.12345132743362831,null,[']'],1904.04514v1
+Semantic Segmentation,ADE20K val,UperNet (ResNet-101),42.66,0.10884955752212365,null,['ResNet'],1807.10221v1
+Semantic Segmentation,ADE20K val,RefineNet (ResNet-152),40.7,0.02212389380530974,null,['ResNet'],1611.06612v3
+Semantic Segmentation,ADE20K val,RefineNet (ResNet-101),40.2,0.0,null,['ResNet'],1611.06612v3
+Semantic Segmentation,Cityscapes val,SERNet-Former,87.35,1.0,null,[']'],2401.15741v5
+Semantic Segmentation,Cityscapes val,MetaPrompt-SD,87.1,0.994026284348865,null,['Diffusion'],2312.14733v1
+Semantic Segmentation,Cityscapes val,InternImage-H,87.0,0.9916367980884111,null,"['DCN', 'Deformable Convolution']",2211.05778v4
+Semantic Segmentation,Cityscapes val,HRNetV2-OCR+PSA,86.93,0.9899641577060935,null,[']'],2107.00782v2
+Semantic Segmentation,Cityscapes val,InternImage-XL,86.4,0.9772998805256873,null,['Deformable Convolution'],2211.05778v4
+Semantic Segmentation,Cityscapes val,HRNet-OCR,86.3,0.9749103942652331,null,['multiscale'],2005.10821v1
+Semantic Segmentation,Cityscapes val,Depth Anything,86.2,0.9725209080047792,null,[']'],2401.10891v2
+Semantic Segmentation,Cityscapes val,"OneFormer (ConvNeXt-XL, Mapillary, multi-scale)",85.8,0.962962962962963,null,['Transformer'],2211.06220v2
+Semantic Segmentation,Cityscapes val,ViT-Adapter-L,85.8,0.962962962962963,null,[']'],2205.08534v4
+Semantic Segmentation,Cityscapes val,SeMask (SeMask Swin-L Mask2Former),84.98,0.9433691756272403,null,['Transformer'],2112.12782v3
+Semantic Segmentation,Cityscapes val,Sequential Ensemble (MiT-B5 + HRNet),84.8,0.939068100358423,null,"['HRNet', 'Transformer', 'Ensemble']",2210.05387v1
+Semantic Segmentation,Cityscapes val,Soft Labells (HRnet),84.8,0.939068100358423,null,"['CNN', 'HRNet']",2302.13961v3
+Semantic Segmentation,Cityscapes val,"OneFormer (ConvNeXt-XL, multi-scale)",84.6,0.9342891278375149,null,['Transformer'],2211.06220v2
+Semantic Segmentation,Cityscapes val,DiNAT-L (Mask2Former),84.5,0.9318996415770611,null,"['Transformer', 'Neighborhood Attention']",2209.15001v3
+Semantic Segmentation,Cityscapes val,"OneFormer (Swin-L, multi-scale)",84.4,0.9295101553166072,null,['Transformer'],2211.06220v2
+Semantic Segmentation,Cityscapes val,"VOLO-D4 (MS, ImageNet1k pretrain)",84.3,0.927120669056153,null,['multiscale'],2106.13112v2
+Semantic Segmentation,Cityscapes val,Mask2Former (Swin-L),84.3,0.927120669056153,null,['Transformer'],2112.01527v3
+Semantic Segmentation,Cityscapes val,"SegFormer (MiT-B5, Mapillary)",84.0,0.919952210274791,null,['Transformer'],2105.15203v3
+Semantic Segmentation,Cityscapes val,"DDP (ConvNeXt-L, step-3)",83.9,0.9175627240143371,null,[']'],2303.17559v2
+Semantic Segmentation,Cityscapes val,HRNetV2 + OCR + RMI (PaddleClas pretrained),83.6,0.910394265232975,null,['Transformer'],1909.11065v6
+Semantic Segmentation,Cityscapes val,"PatchDiverse + Swin-L (multi-scale test, upernet, ImageNet22k pretrain)",83.6,0.910394265232975,null,['multiscale'],2104.12753v3
+Semantic Segmentation,Cityscapes val,SynBoost,83.5,0.9080047789725211,null,[']'],2103.05445v1
+Semantic Segmentation,Cityscapes val,HRNetV2+OCR+CBL(ImageNet pretrained),83.4,0.9056152927120672,null,"['Boundary', 'Transformer']",null
+Semantic Segmentation,Cityscapes val,EfficientViT-B3 (r1184x2368),83.2,0.9008363201911591,null,[']'],2205.14756v6
+Semantic Segmentation,Cityscapes val,"HRViT-b3 (SegFormer, SS)",83.16,0.8998805256869773,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,Cityscapes val,SpineNet-S143+ (single-scale test),83.04,0.8970131421744327,null,['single scale'],2103.12270v1
+Semantic Segmentation,Cityscapes val,"HRViT-b2 (SegFormer, SS)",82.81,0.8915173237753885,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,Cityscapes val,FAN-L-Hybrid+STL,82.8,0.8912783751493429,null,['Transformer'],2401.03844v1
+Semantic Segmentation,Cityscapes val,ResNeSt-200,82.7,0.8888888888888891,null,['ResNet'],2004.08955v2
+Semantic Segmentation,Cityscapes val,WaveMix,82.7,0.8888888888888891,null,[']'],2205.14375v5
+Semantic Segmentation,Cityscapes val,CMX (B4),82.6,0.8864994026284349,null,['RGB-D'],2203.04838v5
+Semantic Segmentation,Cityscapes val,WaveMix-256/16 (Level-4),82.6,0.8864994026284349,null,[']'],2205.14375v5
+Semantic Segmentation,Cityscapes val,FAN-L-Hybrid,82.3,0.8793309438470729,null,['Transformer'],2204.12451v4
+Semantic Segmentation,Cityscapes val,"SETR-PUP (80k, MS)",82.15,0.8757467144563922,null,[']'],2012.15840v3
+Semantic Segmentation,Cityscapes val,DSNet-Base,82.0,0.872162485065711,null,[']'],2406.03702v1
+Semantic Segmentation,Cityscapes val,EANet,81.7,0.8649940262843491,null,[']'],2105.02358v2
+Semantic Segmentation,Cityscapes val,"HRViT-b1 (SegFormer, SS)",81.63,0.8633213859020311,null,"['Transformer', 'multiscale']",2111.01236v2
+Semantic Segmentation,Cityscapes val,CMX (B2),81.6,0.8626045400238949,null,"['Transformer', 'RGB-D']",2203.04838v5
+Semantic Segmentation,Cityscapes val,Trans4Trans,81.54,0.8611708482676227,null,['Transformer'],2108.09174v1
+Semantic Segmentation,Cityscapes val,Panoptic-DeepLab,81.5,0.860215053763441,null,[']'],1911.10194v3
+Semantic Segmentation,Cityscapes val,Soft Labells (Deeplab),81.5,0.860215053763441,null,"['DeepLabv3', 'CNN']",null
+Semantic Segmentation,Cityscapes val,HRNetV2 (HRNetV2-W48),81.1,0.8506571087216248,null,[']'],1908.07919v2
+Semantic Segmentation,Cityscapes val,Trans4PASS (Small),81.1,0.8506571087216248,null,['Transformer'],2203.01452v2
+Semantic Segmentation,Cityscapes val,OCR (ResNet-101-FCN),80.6,0.8387096774193549,null,['ResNet'],1909.11065v6
+Semantic Segmentation,Cityscapes val,RepVGG-B2,80.57,0.8379928315412186,null,[']'],2101.03697v3
+Semantic Segmentation,Cityscapes val,DSNet,80.4,0.8339307048984471,null,[']'],2406.03702v1
+Semantic Segmentation,Cityscapes val,SeMask (SeMask Swin-L FPN),80.39,0.8336917562724016,null,['Transformer'],2112.12782v3
+Semantic Segmentation,Cityscapes val,Auto-DeepLab-L,80.33,0.8322580645161292,null,[']'],1901.02985v2
+Semantic Segmentation,Cityscapes val,SML,80.33,0.8322580645161292,null,[']'],2107.11264v4
+Semantic Segmentation,Cityscapes val,Multiscale DEQ (MDEQ-XL),80.3,0.8315412186379929,null,[']'],2006.08656v2
+Semantic Segmentation,Cityscapes val,HRNetV2 (HRNetV2-W40),80.2,0.829151732377539,null,[']'],1908.07919v2
+Semantic Segmentation,Cityscapes val,PSPNet (Dilated-ResNet-101),79.7,0.817204301075269,null,[']'],1612.01105v2
+Semantic Segmentation,Cityscapes val,DeepLabv3+ (Dilated-Xception-71),79.6,0.8148148148148148,null,[']'],1802.02611v3
+Semantic Segmentation,Cityscapes val,Trans4PASS (Tiny),79.1,0.8028673835125448,null,['Transformer'],2203.01452v2
+Semantic Segmentation,Cityscapes val,SemanticFPN P2-P5 + PointRend,78.6,0.7909199522102748,null,['FPN'],1912.08193v2
+Semantic Segmentation,Cityscapes val,DeepLabv3 (Dilated-ResNet-101),78.5,0.7885304659498209,null,[']'],1706.05587v3
+Semantic Segmentation,Cityscapes val,StreamDEQ (8 iterations),78.2,0.7813620071684589,null,[']'],2204.13492v4
+Semantic Segmentation,Cityscapes val,Multiscale DEQ (MDEQ-large),77.8,0.7718040621266428,null,[']'],2006.08656v2
+Semantic Segmentation,Cityscapes val,HALO,77.8,0.7718040621266428,null,[']'],2306.11180v5
+Semantic Segmentation,Cityscapes val,DetCon_B,77.0,0.7526881720430109,null,[']'],2103.10957v2
+Semantic Segmentation,Cityscapes val,EEEA-Net-C2 (ours),76.8,0.7479091995221028,null,[']'],2108.06156v1
+Semantic Segmentation,Cityscapes val,WaveMixLite-256/16,76.79,0.7476702508960577,null,[']'],null
+Semantic Segmentation,Cityscapes val,RepMLPNet-D256,76.27,0.7352449223416966,null,[']'],2112.11081v2
+Semantic Segmentation,Cityscapes val,Dilated-ResNet (Dilated-ResNet-101),75.7,0.7216248506571089,null,[']'],1512.03385v1
+Semantic Segmentation,Cityscapes val,UNet++ (ResNet-101),75.5,0.7168458781362008,null,['ResNet'],1807.10165v1
+Semantic Segmentation,Cityscapes val,SqueezeNAS (LAT XLarge),75.2,0.7096774193548389,null,[']'],1908.01748v2
+Semantic Segmentation,Cityscapes val,ReLICv2,75.2,0.7096774193548389,null,[']'],2201.05119v2
+Semantic Segmentation,Cityscapes val,GSCNN (ResNet-101),74.7,0.6977299880525688,null,['ResNet'],1907.05740v1
+Semantic Segmentation,Cityscapes val,BYOL,74.6,0.6953405017921147,null,[']'],2201.05119v2
+Semantic Segmentation,Cityscapes val,WASPnet (ours),74.0,0.6810035842293908,null,[']'],1912.03183v1
+Semantic Segmentation,Cityscapes val,SqueezeNAS (LAT Large),73.6,0.6714456391875746,null,[']'],1908.01748v2
+Semantic Segmentation,Cityscapes val,FasterSeg,73.1,0.6594982078853047,null,[']'],1912.10917v2
+Semantic Segmentation,Cityscapes val,GSCNN (ResNet-50),73.0,0.6571087216248508,null,['ResNet'],1907.05740v1
+Semantic Segmentation,Cityscapes val,Aerial-PASS (ResNet-18),72.8,0.6523297491039427,null,[']'],2105.07209v1
+Semantic Segmentation,Cityscapes val,RFNet (ResNet-18),72.5,0.6451612903225807,null,['RGB-D'],2002.10570v2
+Semantic Segmentation,Cityscapes val,ERFNet (PyTorch),72.1,0.6356033452807646,null,[']'],null
+Semantic Segmentation,Cityscapes val,SwaftNet (ResNet-18),72.1,0.6356033452807646,null,[']'],1909.07721v2
+Semantic Segmentation,Cityscapes val,StreamDEQ (4 iterations),71.5,0.6212664277180407,null,[']'],2204.13492v4
+Semantic Segmentation,Cityscapes val,Template-Based NAS-arch1,69.5,0.5734767025089607,null,[']'],1904.02365v2
+Semantic Segmentation,Cityscapes val,Fast-SCNN + Coarse + ImageNet,69.19,0.5660692951015532,null,[']'],1902.04502v1
+Semantic Segmentation,Cityscapes val,LDFNet,68.48,0.5491039426523299,null,[']'],1809.09077v3
+Semantic Segmentation,Cityscapes val,Template-Based NAS-arch0,68.1,0.5400238948626045,null,[']'],1904.02365v2
+Semantic Segmentation,Cityscapes val,SqueezeNAS (LAT Small),68.0,0.5376344086021506,null,[']'],1908.01748v2
+Semantic Segmentation,Cityscapes val,ContextNet,65.9,0.4874551971326167,null,[']'],1805.04554v4
+Semantic Segmentation,Cityscapes val,DiCENet,63.4,0.42771804062126645,null,[']'],1906.03516v3
+Semantic Segmentation,Cityscapes val,DCT-EDANet,61.6,0.38470728793309444,null,[']'],1907.10015v2
+Semantic Segmentation,Cityscapes val,StreamDEQ (2 iterations),57.9,0.2962962962962963,null,[']'],2204.13492v4
+Semantic Segmentation,Cityscapes val,StreamDEQ (1 iterations),45.5,0.0,null,[']'],2204.13492v4
+Semantic Segmentation,PASCAL Context,PlainSeg (EVA-02-L),71.0,1.0,null,[']'],2310.12755v1
+Semantic Segmentation,PASCAL Context,InternImage-H,70.3,0.9848812095032397,null,[']'],2211.05778v4
+Semantic Segmentation,PASCAL Context,RSSeg-ViT-L (BEiT pretrain),68.9,0.9546436285097193,null,[']'],2212.13764v1
+Semantic Segmentation,PASCAL Context,"ViT-Adapter-L (Mask2Former, BEiT pretrain)",68.2,0.939524838012959,null,[']'],2205.08534v4
+Semantic Segmentation,PASCAL Context,"ViT-Adapter-L (UperNet, BEiT pretrain)",67.5,0.9244060475161987,null,[']'],2205.08534v4
+Semantic Segmentation,PASCAL Context,RSSeg-ViT-L,67.5,0.9244060475161987,null,[']'],2212.13764v1
+Semantic Segmentation,PASCAL Context,SegViT (ours),65.3,0.876889848812095,null,[']'],2210.05844v2
+Semantic Segmentation,PASCAL Context,CAA + CAR (ConvNeXt-Large + JPU),64.1,0.8509719222462202,null,[']'],2203.07160v2
+Semantic Segmentation,PASCAL Context,SenFormer (Swin-L),64.0,0.8488120950323974,null,[']'],2111.13280v2
+Semantic Segmentation,PASCAL Context,Sequential Ensemble (Segformer + HRNet),62.1,0.8077753779697626,null,"['HRNet', 'Transformer', 'Ensemble']",2210.05387v1
+Semantic Segmentation,PASCAL Context,CAA + Simple decoder (Efficientnet-B7),60.5,0.7732181425485961,null,['EfficientNet'],2101.07434v5
+Semantic Segmentation,PASCAL Context,DPT-Hybrid,60.46,0.7723542116630671,null,['Transformer'],2103.13413v1
+Semantic Segmentation,PASCAL Context,CAA (Efficientnet-B7),60.1,0.7645788336933047,null,['EfficientNet'],2101.07434v5
+Semantic Segmentation,PASCAL Context,HRNetV2 + OCR + RMI (PaddleClas pretrained),59.6,0.7537796976241903,null,['Transformer'],1909.11065v6
+Semantic Segmentation,PASCAL Context,Seg-L-Mask/16,59.0,0.7408207343412527,null,[']'],2105.05633v3
+Semantic Segmentation,PASCAL Context,ResNeSt-269,58.9,0.7386609071274299,null,[']'],2004.08955v2
+Semantic Segmentation,PASCAL Context,ResNeSt-200,58.4,0.7278617710583154,null,[']'],2004.08955v2
+Semantic Segmentation,PASCAL Context,CondNet(ResNest-101),57.0,0.6976241900647948,null,[']'],2109.10322v1
+Semantic Segmentation,PASCAL Context,SenFormer (ResNet-101),56.6,0.6889848812095033,null,[']'],2111.13280v2
+Semantic Segmentation,PASCAL Context,ResNeSt-101,56.5,0.6868250539956804,null,[']'],2004.08955v2
+Semantic Segmentation,PASCAL Context,OCR (HRNetV2-W48),56.2,0.6803455723542118,null,['Transformer'],1909.11065v6
+Semantic Segmentation,PASCAL Context,GPaCo (ResNet101),56.2,0.6803455723542118,null,[']'],2209.12400v2
+Semantic Segmentation,PASCAL Context,CondNet(ResNet-101),56.0,0.676025917926566,null,[']'],2109.10322v1
+Semantic Segmentation,PASCAL Context,"SETR-MLA (16, 80k, MS)",55.83,0.672354211663067,null,['Transformer'],2012.15840v3
+Semantic Segmentation,PASCAL Context,DCNAS,55.6,0.6673866090712743,null,['DCN'],2003.11883v2
+Semantic Segmentation,PASCAL Context,DRAN(ResNet-101),55.4,0.6630669546436285,null,['ResNet'],null
+Semantic Segmentation,PASCAL Context,DNL,55.3,0.6609071274298056,null,[']'],2006.06668v2
+Semantic Segmentation,PASCAL Context,HamNet (ResNet-101),55.2,0.6587473002159828,null,[']'],2109.04553v2
+Semantic Segmentation,PASCAL Context,CAA (ResNet-101),55.0,0.654427645788337,null,['ResNet'],2101.07434v5
+Semantic Segmentation,PASCAL Context,OCR (ResNet-101),54.8,0.6501079913606911,null,['ResNet'],1909.11065v6
+Semantic Segmentation,PASCAL Context,SIW(Segformer-B5),54.2,0.6371490280777539,null,[']'],2202.02002v2
+Semantic Segmentation,PASCAL Context,CFNet (ResNet-101),54.0,0.632829373650108,null,['ResNet'],null
+Semantic Segmentation,PASCAL Context,CFNet (ResNet-101),54.0,0.632829373650108,null,['ResNet'],1908.07919v2
+Semantic Segmentation,PASCAL Context,HRNetV2 HRNetV2-W48,54.0,0.632829373650108,null,[']'],1908.07919v2
+Semantic Segmentation,PASCAL Context,CPN(ResNet-101),53.9,0.6306695464362851,null,['ResNet'],2004.01547v1
+Semantic Segmentation,PASCAL Context,LaU-regression-loss (ResNet-101),53.9,0.6306695464362851,null,['ResNet'],1911.05250v2
+Semantic Segmentation,PASCAL Context,"DGCNet (MS, ResNet-101)",53.7,0.6263498920086394,null,"['GCN', 'ResNet']",1909.06121v3
+Semantic Segmentation,PASCAL Context,BFP,53.6,0.6241900647948165,null,[']'],1909.00179v1
+Semantic Segmentation,PASCAL Context,SVCNet (ResNet-101),53.2,0.6155507559395249,null,['ResNet'],1909.02651v1
+Semantic Segmentation,PASCAL Context,Joint Pyramid Upsampling + EncNet,53.1,0.613390928725702,null,[']'],1903.11816v1
+Semantic Segmentation,PASCAL Context,EMANet,53.1,0.613390928725702,null,[']'],1907.13426v2
+Semantic Segmentation,PASCAL Context,Asymmetric ALNN,52.8,0.6069114470842333,null,[']'],1908.07678v5
+Semantic Segmentation,PASCAL Context,CASSOD,52.76,0.6060475161987041,null,[']'],2104.14126v1
+Semantic Segmentation,PASCAL Context,DANet (ResNet-101),52.6,0.6025917926565876,null,['ResNet'],1809.02983v4
+Semantic Segmentation,PASCAL Context,ICM,52.6,0.6025917926565876,null,[']'],null
+Semantic Segmentation,PASCAL Context,DUpsampling,52.5,0.6004319654427647,null,[']'],1903.02120v3
+Semantic Segmentation,PASCAL Context,EncNet (ResNet-101),51.7,0.5831533477321815,null,['ResNet'],1803.08904v1
+Semantic Segmentation,PASCAL Context,CFNet (ResNet-50),51.5,0.5788336933045357,null,['ResNet'],null
+Semantic Segmentation,PASCAL Context,ResNet-38,48.1,0.5053995680345573,null,['ResNet'],1611.10080v1
+Semantic Segmentation,PASCAL Context,PSPNet (ResNet-101),47.8,0.49892008639308855,null,['ResNet'],1612.01105v2
+Semantic Segmentation,PASCAL Context,RefineNet,47.3,0.48812095032397407,null,[']'],1611.06612v3
+Semantic Segmentation,PASCAL Context,DeepLabV2,45.7,0.4535637149028079,null,[']'],1606.00915v2
+Semantic Segmentation,PASCAL Context,VeryDeep,44.5,0.42764578833693306,null,[']'],1605.06885v1
+Semantic Segmentation,PASCAL Context,Piecewise,43.3,0.4017278617710583,null,[']'],1504.01013v4
+Semantic Segmentation,PASCAL Context,Dilated-FCN2s,42.6,0.3866090712742981,null,[']'],1707.08254v3
+Semantic Segmentation,PASCAL Context,HO CRF,41.3,0.35853131749460043,null,[']'],1511.08119v4
+Semantic Segmentation,PASCAL Context,BoxSup,40.5,0.3412526997840173,null,[']'],1503.01640v2
+Semantic Segmentation,PASCAL Context,ParseNet,40.4,0.3390928725701944,null,[']'],1506.04579v2
+Semantic Segmentation,PASCAL Context,CRF-RNN,39.3,0.3153347732181425,null,[']'],1502.03240v3
+Semantic Segmentation,PASCAL Context,FCN-8s,37.8,0.2829373650107991,null,[']'],1411.4038v2
+Semantic Segmentation,PASCAL Context,CFM,34.4,0.20950323974082072,null,[']'],1412.1283v4
+Semantic Segmentation,PASCAL Context,RBE2E,32.5,0.16846652267818576,null,[']'],1607.07671v1
+Semantic Segmentation,PASCAL Context,SegCLIP,24.7,0.0,null,[']}]</script'],2211.14813v2
+Semantic Segmentation,S3DIS,PTv3 + PPT,80.8,1.0,24.1M,[']'],2312.10035v2
+Semantic Segmentation,S3DIS,PonderV2 + SparseUNet,79.9,0.9728915662650605,null,[']'],2310.08586v3
+Semantic Segmentation,S3DIS,Swin3D-L,79.8,0.9698795180722891,N/A,[']'],2304.06906v3
+Semantic Segmentation,S3DIS,PointVector-XL,78.4,0.9277108433734942,null,[']'],2205.10528v3
+Semantic Segmentation,S3DIS,PPT + SparseUNet,78.1,0.9186746987951806,N/A,[']'],2308.09718v1
+Semantic Segmentation,S3DIS,WindowNorm+StratifiedTransformer,77.6,0.9036144578313252,8.2M,['WindowNorm'],2212.02287v1
+Semantic Segmentation,S3DIS,EQ-Net,77.5,0.9006024096385543,N/A,[']'],2203.01252v3
+Semantic Segmentation,S3DIS,PointMetaBase-XXL,77.0,0.8855421686746988,19.7M,[']'],2211.14462v2
+Semantic Segmentation,S3DIS,Superpoint Transformer,76.0,0.855421686746988,0.212M,[']'],2306.08045v2
+Semantic Segmentation,S3DIS,SuperCluster,75.3,0.8343373493975903,0.21M,[']'],2401.06704v2
+Semantic Segmentation,S3DIS,PointNeXt-XL,74.9,0.8222891566265063,41.6M,[']'],2206.04670v2
+Semantic Segmentation,S3DIS,DeepViewAgg,74.7,0.816265060240964,41.2M,"['Multi-modal', 'multi-view']",2204.07548v2
+Semantic Segmentation,S3DIS,RepSurf-U,74.3,0.8042168674698795,0.97M,[']'],2205.05740v2
+Semantic Segmentation,S3DIS,WindowNorm+PointTransformer,74.1,0.7981927710843373,8.0M,['WindowNorm'],2212.02287v1
+Semantic Segmentation,S3DIS,PointNeXt-L,73.9,0.7921686746987954,7.1M,[']'],2206.04670v2
+Semantic Segmentation,S3DIS,PointTransformer,73.5,0.7801204819277109,7.8M,['Transformer'],2012.09164v2
+Semantic Segmentation,S3DIS,CBL,73.1,0.7680722891566264,N/A,[']'],2203.05272v2
+Semantic Segmentation,S3DIS,BAAF-Net,72.2,0.7409638554216869,N/A,[']'],2103.07074v2
+Semantic Segmentation,S3DIS,SCF-Net,71.6,0.7228915662650601,N/A,[']'],null
+Semantic Segmentation,S3DIS,Feature Geometric Net (FG-Net),70.8,0.6987951807228915,N/A,[']'],2012.09439v2
+Semantic Segmentation,S3DIS,RPNet,70.8,0.6987951807228915,N/A,[']'],2108.12468v1
+Semantic Segmentation,S3DIS,KPConv,70.6,0.6927710843373492,14.1M,[']'],1904.08889v2
+Semantic Segmentation,S3DIS,KPConv,70.6,0.6927710843373492,14.1M,[']'],2012.09164v2
+Semantic Segmentation,S3DIS,FastPointTrans. (small),70.3,0.6837349397590361,N/A,[']'],2112.04702v2
+Semantic Segmentation,S3DIS,RandLA-Net,70.0,0.674698795180723,1.2M,[']'],1911.11236v3
+Semantic Segmentation,S3DIS,MuGNet,69.8,0.6686746987951807,N/A,[']'],null
+Semantic Segmentation,S3DIS,PointASNL,68.7,0.6355421686746989,N/A,[']'],2003.00492v3
+Semantic Segmentation,S3DIS,SSP+SPG,68.4,0.6265060240963858,0.290M,[']'],1904.02113v1
+Semantic Segmentation,S3DIS,FKAConv,68.4,0.6265060240963858,N/A,[']'],2004.04462v3
+Semantic Segmentation,S3DIS,ConvPoint,68.2,0.6204819277108435,4.7M,[']'],1904.02375v5
+Semantic Segmentation,S3DIS,JSENet,67.7,0.605421686746988,N/A,[']'],2007.06888v1
+Semantic Segmentation,S3DIS,CT2,67.4,0.5963855421686749,N/A,['Transformer'],2007.11679v4
+Semantic Segmentation,S3DIS,ShellNet,66.8,0.5783132530120482,N/A,[']'],1908.06295v1
+Semantic Segmentation,S3DIS,PointWeb,66.7,0.5753012048192773,N/A,[']'],null
+Semantic Segmentation,S3DIS,PointCNN,65.4,0.5361445783132532,N/A,[']'],1904.08017v1
+Semantic Segmentation,S3DIS,PointCNN,65.4,0.5361445783132532,N/A,[']'],2012.09164v2
+Semantic Segmentation,S3DIS,MinkowskiNet,65.4,0.5361445783132532,37.9M,[']'],1904.08755v4
+Semantic Segmentation,S3DIS,DSPoint,63.3,0.4728915662650602,N/A,[']'],2111.10332v4
+Semantic Segmentation,S3DIS,A-CNN,62.9,0.46084337349397586,N/A,[']'],1904.08017v1
+Semantic Segmentation,S3DIS,SPG,62.1,0.4367469879518073,0.290M,[']'],1711.09869v2
+Semantic Segmentation,S3DIS,SPGraph,62.1,0.4367469879518073,N/A,[']'],1904.08017v1
+Semantic Segmentation,S3DIS,SPGraph,62.1,0.4367469879518073,N/A,[']'],2012.09164v2
+Semantic Segmentation,S3DIS,JSNet,61.7,0.424698795180723,N/A,[']'],1912.09654v1
+Semantic Segmentation,S3DIS,DeepGCN,60.0,0.37349397590361444,N/A,['GCN'],1910.06849v3
+Semantic Segmentation,S3DIS,ASIS,59.3,0.3524096385542168,N/A,[']'],1902.09852v2
+Semantic Segmentation,S3DIS,RSNet,56.5,0.2680722891566265,N/A,[']'],1802.04402v2
+Semantic Segmentation,S3DIS,3P-RNN,56.3,0.26204819277108427,N/A,[']'],1904.08017v1
+Semantic Segmentation,S3DIS,Point-PlaneNet,54.8,0.21686746987951797,N/A,[']'],null
+Semantic Segmentation,S3DIS,SMS,51.74,0.12469879518072292,N/A,[']'],2109.00452v3
+Semantic Segmentation,S3DIS,PointNet,47.6,0.0,N/A,[']'],1904.08017v1
+Semantic Segmentation,S3DIS,PointNet,47.6,0.0,N/A,[']'],2012.09164v2
+Semantic Segmentation,S3DIS Area5,OmniVec,75.9,1.0,null,[']'],2311.05709v1
+Semantic Segmentation,S3DIS Area5,PTv3 + PPT,74.7,0.9655172413793103,null,[']'],2312.10035v2
+Semantic Segmentation,S3DIS Area5,Swin3D-L,74.5,0.9597701149425286,N/A,['pre-trained on Structed3D'],2304.06906v3
+Semantic Segmentation,S3DIS Area5,DeLA,74.1,0.9482758620689652,7.0M,[']'],2308.16532v1
+Semantic Segmentation,S3DIS Area5,ConDaFormer,73.5,0.9310344827586206,null,[']'],2312.11112v1
+Semantic Segmentation,S3DIS Area5,PCLN(Point Transformer),73.5,0.9310344827586206,31.2M,[']'],null
+Semantic Segmentation,S3DIS Area5,PonderV2 + SparseUNet,73.2,0.9224137931034482,null,[']'],2310.08586v3
+Semantic Segmentation,S3DIS Area5,PointHR,73.2,0.9224137931034482,null,[']'],2310.07743v1
+Semantic Segmentation,S3DIS Area5,PPT + SparseUNet,72.7,0.9080459770114941,N/A,[']'],2308.09718v1
+Semantic Segmentation,S3DIS Area5,SAT (FAT),72.6,0.9051724137931031,N/A,[']'],2301.06869v1
+Semantic Segmentation,S3DIS Area5,PTv2,72.6,0.9051724137931031,N/A,[']'],2210.05666v2
+Semantic Segmentation,S3DIS Area5,PT + ERDA,72.6,0.9051724137931031,null,[']'],null
+Semantic Segmentation,S3DIS Area5,PointVector-XL,72.3,0.8965517241379308,null,[']'],2205.10528v3
+Semantic Segmentation,S3DIS Area5,WindowNorm+StratifiedTransformer,72.2,0.8936781609195401,N/A,['WindowNorm'],2212.02287v1
+Semantic Segmentation,S3DIS Area5,Diffusion Unit,72.2,0.8936781609195401,8.1M,[']'],2209.09483v3
+Semantic Segmentation,S3DIS Area5,CSC+MinkUNet,72.2,0.8936781609195401,null,[']'],2012.09165v3
+Semantic Segmentation,S3DIS Area5,StratifiedTransformer,72.0,0.8879310344827585,8.0M,[']'],2203.14508v1
+Semantic Segmentation,S3DIS Area5,PointTransformer+CBL,71.6,0.8764367816091951,N/A,[']'],2203.05272v2
+Semantic Segmentation,S3DIS Area5,WindowNorm+PointTransformer,71.4,0.8706896551724138,N/A,['WindowNorm'],2212.02287v1
+Semantic Segmentation,S3DIS Area5,PointMixer,71.4,0.8706896551724138,6.5M,['MLP-Mixer'],2111.11187v5
+Semantic Segmentation,S3DIS Area5,PointMetaBase-XXL,71.3,0.8678160919540228,N/A,[']'],2211.14462v2
+Semantic Segmentation,S3DIS Area5,PointNeXt,71.1,0.8620689655172411,41.6M,[']'],2206.04670v2
+Semantic Segmentation,S3DIS Area5,SPoTr,70.8,0.8534482758620687,N/A,[']'],2303.16450v1
+Semantic Segmentation,S3DIS Area5,PointTransformer,70.4,0.8419540229885057,7.8M,[']'],2012.09164v2
+Semantic Segmentation,S3DIS Area5,LCPFormer,70.2,0.8362068965517241,N/A,[']'],2210.12755v2
+Semantic Segmentation,S3DIS Area5,GeomGCNN,69.4,0.8132183908045977,null,[']'],2103.15226v1
+Semantic Segmentation,S3DIS Area5,Superpoint Transformer,68.9,0.7988505747126438,212K,[']'],2306.08045v2
+Semantic Segmentation,S3DIS Area5,RepSurf-U,68.9,0.7988505747126438,0.97M,[']'],2205.05740v2
+Semantic Segmentation,S3DIS Area5,CGA-Net,68.6,0.7902298850574709,N/A,[']'],null
+Semantic Segmentation,S3DIS Area5,SuperCluster,68.1,0.7758620689655169,0.21,[']'],2401.06704v2
+Semantic Segmentation,S3DIS Area5,MKConv,67.7,0.7643678160919539,null,[']'],2107.12655v3
+Semantic Segmentation,S3DIS Area5,PatchFormer,67.3,0.7528735632183906,N/A,[']'],2111.00207v3
+Semantic Segmentation,S3DIS Area5,FusionNet,67.2,0.75,N/A,[']'],null
+Semantic Segmentation,S3DIS Area5,KPConv,67.1,0.747126436781609,14.1M,[']'],1904.08889v2
+Semantic Segmentation,S3DIS Area5,ASSANet,66.8,0.7385057471264366,N/A,[']'],2110.10538v2
+Semantic Segmentation,S3DIS Area5,BAAF-Net,65.4,0.6982758620689655,N/A,[']'],2103.07074v2
+Semantic Segmentation,S3DIS Area5,MinkowskiNet,65.4,0.6982758620689655,37.9M,[']'],1904.08755v4
+Semantic Segmentation,S3DIS Area5,VMVF,65.38,0.697701149425287,N/A,[']'],2007.13138v1
+Semantic Segmentation,S3DIS Area5,SCF-Net,63.7,0.6494252873563218,N/A,[']'],null
+Semantic Segmentation,S3DIS Area5,MuG-Net,63.5,0.6436781609195401,N/A,[']'],null
+Semantic Segmentation,S3DIS Area5,HPEIN,61.85,0.5962643678160919,N/A,[']'],1909.10469v1
+Semantic Segmentation,S3DIS Area5,SSP+SPG,61.7,0.5919540229885057,290K,[']'],1904.02113v1
+Semantic Segmentation,S3DIS Area5,DPC,61.28,0.5798850574712643,N/A,[']'],1907.12046v3
+Semantic Segmentation,S3DIS Area5,SPG,58.04,0.4867816091954022,280K,[']'],1711.09869v2
+Semantic Segmentation,S3DIS Area5,PointCNN,57.3,0.46551724137931016,N/A,[']'],2012.09164v2
+Semantic Segmentation,S3DIS Area5,DeepGCN,52.49,0.32729885057471264,N/A,[']'],1910.06849v3
+Semantic Segmentation,S3DIS Area5,SegCloud,48.9,0.22413793103448265,N/A,[']'],1710.07563v1
+Semantic Segmentation,S3DIS Area5,PointNet,41.1,0.0,N/A,[']'],2012.09164v2
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLabv3+ (Xception-65-JFT),89.0,1.0,null,[']'],1802.02611v3
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLabv3+ (Xception-JFT),89.0,1.0,null,[']'],1802.02611v3
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLabv3-JFT,86.9,0.9438502673796793,null,[']'],1706.05587v3
+Semantic Segmentation,PASCAL VOC 2012 test,CASIA_IVA_SDN,86.6,0.9358288770053474,null,[']'],1708.04943v1
+Semantic Segmentation,PASCAL VOC 2012 test,Smooth Network with Channel Attention Block,86.2,0.9251336898395722,null,[']'],1804.09337v1
+Semantic Segmentation,PASCAL VOC 2012 test,SANet (pretraining on COCO dataset),86.1,0.9224598930481281,null,[']'],1909.03402v4
+Semantic Segmentation,PASCAL VOC 2012 test,EncNet,85.9,0.9171122994652408,null,[']'],1803.08904v1
+Semantic Segmentation,PASCAL VOC 2012 test,HamNet w/o COCO (ResNet-101),85.9,0.9171122994652408,null,[']'],2109.04553v2
+Semantic Segmentation,PASCAL VOC 2012 test,Auto-DeepLab-L,85.6,0.909090909090909,null,[']'],1901.02985v2
+Semantic Segmentation,PASCAL VOC 2012 test,PSPNet,85.4,0.9037433155080216,null,[']'],1612.01105v2
+Semantic Segmentation,PASCAL VOC 2012 test,ResNet-38 MS COCO,84.9,0.8903743315508023,null,['ResNet'],1611.10080v1
+Semantic Segmentation,PASCAL VOC 2012 test,OCR (HRNetV2-W48),84.5,0.8796791443850267,null,[']'],1909.11065v6
+Semantic Segmentation,PASCAL VOC 2012 test,OCR (ResNet-101),84.3,0.874331550802139,null,['ResNet'],1909.11065v6
+Semantic Segmentation,PASCAL VOC 2012 test,Multipath-RefineNet,84.2,0.8716577540106952,null,[']'],1611.06612v3
+Semantic Segmentation,PASCAL VOC 2012 test,ShelfNet,84.2,0.8716577540106952,null,[']'],1811.11254v6
+Semantic Segmentation,PASCAL VOC 2012 test,EANet (ResNet-101),84.0,0.8663101604278075,null,['ResNet'],2105.02358v2
+Semantic Segmentation,PASCAL VOC 2012 test,Large Kernel Matters,83.6,0.855614973262032,null,[']'],1703.02719v1
+Semantic Segmentation,PASCAL VOC 2012 test,TripleNet,83.3,0.8475935828877005,null,[']'],1809.09299v1
+Semantic Segmentation,PASCAL VOC 2012 test,SANet,83.2,0.8449197860962567,null,[']'],1909.03402v4
+Semantic Segmentation,PASCAL VOC 2012 test,TuSimple,83.1,0.8422459893048126,null,[']'],1702.08502v3
+Semantic Segmentation,PASCAL VOC 2012 test,EncNet (ResNet-101),82.9,0.8368983957219253,null,['ResNet'],1803.08904v1
+Semantic Segmentation,PASCAL VOC 2012 test,DFN (ResNet-101),82.7,0.8315508021390375,null,['ResNet'],1804.09337v1
+Semantic Segmentation,PASCAL VOC 2012 test,Deep Layer Cascade (LC),82.7,0.8315508021390375,null,[']'],1704.01344v1
+Semantic Segmentation,PASCAL VOC 2012 test,Light-Weight-RefineNet-152,82.7,0.8315508021390375,null,[']'],1810.03272v1
+Semantic Segmentation,PASCAL VOC 2012 test,DANet (ResNet-101),82.6,0.8288770053475935,null,['ResNet'],1809.02983v4
+Semantic Segmentation,PASCAL VOC 2012 test,PSPNet (ResNet-101),82.6,0.8288770053475935,null,['ResNet'],1612.01105v2
+Semantic Segmentation,PASCAL VOC 2012 test,Light-Weight-RefineNet-101,82.0,0.8128342245989305,null,[']'],1810.03272v1
+Semantic Segmentation,PASCAL VOC 2012 test,Light-Weight-RefineNet-50,81.1,0.7887700534759357,null,[']'],1810.03272v1
+Semantic Segmentation,PASCAL VOC 2012 test,CentraleSupelec Deep G-CRF,80.2,0.7647058823529412,null,[']'],1603.08358v4
+Semantic Segmentation,PASCAL VOC 2012 test,EdgeNeXt,80.2,0.7647058823529412,null,"['CNN', 'Transformer']",2206.10589v3
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLab-CRF (ResNet-101),79.7,0.751336898395722,null,['ResNet'],1606.00915v2
+Semantic Segmentation,PASCAL VOC 2012 test,WASPnet-CRF (ours),79.6,0.748663101604278,null,[']'],1912.03183v1
+Semantic Segmentation,PASCAL VOC 2012 test,Light-Weight-RefineNet-MobileNet-v2,79.2,0.7379679144385027,null,[']'],1810.03272v1
+Semantic Segmentation,PASCAL VOC 2012 test,Deeplab-v2 with Lovasz-Softmax loss,79.0,0.732620320855615,null,[']'],1705.08790v2
+Semantic Segmentation,PASCAL VOC 2012 test,Deeplab-v2 + Lov\u00e1sz-Softmax,79.0,0.732620320855615,null,[']'],1705.08790v2
+Semantic Segmentation,PASCAL VOC 2012 test,CRF-RNN,74.7,0.6176470588235294,null,[']'],1502.03240v3
+Semantic Segmentation,PASCAL VOC 2012 test,SID,72.8,0.5668449197860962,null,[']'],1603.07485v2
+Semantic Segmentation,PASCAL VOC 2012 test,DeepLab-MSc-CRF-LargeFOV (VGG-16),71.6,0.5347593582887699,null,[']'],1412.7062v4
+Semantic Segmentation,PASCAL VOC 2012 test,ParseNet,69.8,0.48663101604278064,null,[']'],1506.04579v2
+Semantic Segmentation,PASCAL VOC 2012 test,Dilated FCN-2s VGG19,69.0,0.4652406417112299,null,[']'],1707.08254v3
+Semantic Segmentation,PASCAL VOC 2012 test,ESPNetv2,68.0,0.4385026737967914,null,[']'],1811.11431v3
+Semantic Segmentation,PASCAL VOC 2012 test,Dilated Convolutions,67.6,0.42780748663101587,null,[']'],1511.07122v3
+Semantic Segmentation,PASCAL VOC 2012 test,DiCENet,67.31,0.4200534759358289,null,[']'],1906.03516v3
+Semantic Segmentation,PASCAL VOC 2012 test,RRM,66.5,0.3983957219251337,null,[']'],1911.08039v1
+Semantic Segmentation,PASCAL VOC 2012 test,SSDD,65.5,0.3716577540106952,null,[']'],1911.01370v2
+Semantic Segmentation,PASCAL VOC 2012 test,BoxSup,64.6,0.34759358288770037,null,[']'],1503.01640v2
+Semantic Segmentation,PASCAL VOC 2012 test,PSA w/ EADER DeepLab (Xception-65),63.8,0.32620320855614965,null,[']'],2011.04626v1
+Semantic Segmentation,PASCAL VOC 2012 test,ESPNet,63.01,0.30508021390374324,null,[']'],1803.06815v3
+Semantic Segmentation,PASCAL VOC 2012 test,FCN (VGG-16),62.2,0.28342245989304815,null,[']'],1411.4038v2
+Semantic Segmentation,PASCAL VOC 2012 test,G2,56.7,0.1363636363636364,null,[']'],1701.08261v2
+Semantic Segmentation,PASCAL VOC 2012 test,CK,51.6,0.0,null,[']}]</script'],1407.1808v1
+Semantic Segmentation,SUN-RGBD,GeminiFusion (Swin-Large),54.6,1.0,null,[']'],2406.01210v2
+Semantic Segmentation,SUN-RGBD,GeminiFusion (MiT-B5),53.3,0.9197530864197528,null,[']'],2406.01210v2
+Semantic Segmentation,SUN-RGBD,TokenFusion (S),53.0,0.9012345679012345,null,[']'],2204.08721v2
+Semantic Segmentation,SUN-RGBD,DPLNet ,52.8,0.8888888888888886,null,[']'],2312.00360v2
+Semantic Segmentation,SUN-RGBD,GeminiFusion (MiT-B3),52.7,0.8827160493827162,null,[']'],2406.01210v2
+Semantic Segmentation,SUN-RGBD,DFormer-L,52.5,0.8703703703703703,null,[']'],2309.09668v2
+Semantic Segmentation,SUN-RGBD,CMX (B5),52.4,0.8641975308641974,null,[']'],2203.04838v5
+Semantic Segmentation,SUN-RGBD,CMX (B4),52.1,0.845679012345679,null,[']'],2203.04838v5
+Semantic Segmentation,SUN-RGBD,TokenFusion (Ti),51.4,0.802469135802469,null,[']'],2204.08721v2
+Semantic Segmentation,SUN-RGBD,DFormer-B,51.2,0.7901234567901236,null,[']'],2309.09668v2
+Semantic Segmentation,SUN-RGBD,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",50.86,0.7691358024691357,null,[']'],2309.13635v1
+Semantic Segmentation,SUN-RGBD,FSFNet,50.6,0.7530864197530864,null,[']'],2105.04102v1
+Semantic Segmentation,SUN-RGBD,PSD-ResNet50,50.6,0.7530864197530864,null,[']'],null
+Semantic Segmentation,SUN-RGBD,TokenFusion (S),50.0,0.7160493827160493,null,[']'],2309.09668v2
+Semantic Segmentation,SUN-RGBD,DPLNet ,49.7,0.697530864197531,null,[']'],2203.04838v5
+Semantic Segmentation,SUN-RGBD,DFormer-L,49.6,0.6913580246913581,null,[']'],2201.01427v2
+Semantic Segmentation,SUN-RGBD,CMX (B5),49.6,0.6913580246913581,null,[']'],2210.06747v1
+Semantic Segmentation,SUN-RGBD,CMX (B4),49.6,0.6913580246913581,null,[']'],2302.11951v1
+Semantic Segmentation,SUN-RGBD,TokenFusion (Ti),49.4,0.6790123456790123,null,[']'],2007.09183v1
+Semantic Segmentation,SUN-RGBD,DFormer-B,49.1,0.6604938271604939,null,[']'],2309.14065v7
+Semantic Segmentation,SUN-RGBD,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",48.82,0.6432098765432098,null,[']'],2306.05242v1
+Semantic Segmentation,SUN-RGBD,FSFNet,48.8,0.6419753086419752,null,[']'],2309.09668v2
+Semantic Segmentation,SUN-RGBD,PSD-ResNet50,48.6,0.6296296296296297,null,[']'],2108.10528v1
+Semantic Segmentation,SUN-RGBD,TokenFusion (S),48.6,0.6296296296296297,null,[']'],2004.04534v2
+Semantic Segmentation,SUN-RGBD,DPLNet ,48.47,0.6216049382716049,null,[']'],2207.04526v1
+Semantic Segmentation,SUN-RGBD,DFormer-L,48.3,0.6111111111111109,null,[']'],2002.12041v4
+Semantic Segmentation,SUN-RGBD,CMX (B5),48.17,0.6030864197530865,null,[']'],2011.06961v3
+Semantic Segmentation,SUN-RGBD,CMX (B4),48.1,0.5987654320987655,null,[']'],1905.10089v1
+Semantic Segmentation,SUN-RGBD,TokenFusion (Ti),47.8,0.5802469135802467,null,[']'],1806.01054v2
+Semantic Segmentation,SUN-RGBD,DFormer-B,47.7,0.5740740740740743,null,[']'],null
+Semantic Segmentation,SUN-RGBD,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version, finetuned)",47.1,0.5370370370370371,null,[']'],null
+Semantic Segmentation,SUN-RGBD,FSFNet,47.0,0.5308641975308642,null,[']'],1912.11691v1
+Semantic Segmentation,SUN-RGBD,PSD-ResNet50,45.9,0.46296296296296285,null,[']'],null
+Semantic Segmentation,SUN-RGBD,TokenFusion (S),45.73,0.45246913580246895,null,[']'],1808.03833v3
+Semantic Segmentation,SUN-RGBD,DPLNet ,45.1,0.41358024691358036,null,[']'],1705.07238v2
+Semantic Segmentation,SUN-RGBD,DFormer-L,44.3,0.36419753086419737,null,[']'],2107.13800v2
+Semantic Segmentation,SUN-RGBD,TokenFusion (S),42.0,0.22222222222222227,null,[']'],1803.06791v1
+Semantic Segmentation,SUN-RGBD,DPLNet ,38.4,0.0,null,[']'],1808.03833v3
+Semantic Segmentation,DensePASS,Trans4PASS+ (multi-scale),57.23,1.0,null,[']'],2207.11860v5
+Semantic Segmentation,DensePASS,Trans4PASS+ (single-scale),56.45,0.9807787087235093,null,[']'],2207.11860v5
+Semantic Segmentation,DensePASS,Trans4PASS (multi-scale),56.38,0.9790537210448498,null,[']'],2203.01452v2
+Semantic Segmentation,DensePASS,Trans4PASS (single-scale),55.25,0.9512074913750617,null,[']'],2203.01452v2
+Semantic Segmentation,DensePASS,DAFormer,54.67,0.9369147363233121,null,[']'],2111.14887v2
+Semantic Segmentation,DensePASS,PCS,53.83,0.9162148841793988,null,[']'],2103.16765v1
+Semantic Segmentation,DensePASS,P2PDA (Cityscapes+WildDash),48.52,0.7853622474125186,null,[']'],2110.11062v1
+Semantic Segmentation,DensePASS,SIM,44.58,0.6882700837851159,null,[']'],2003.08040v3
+Semantic Segmentation,DensePASS,PoolFormer (MiT-B1),43.18,0.6537703302119271,null,[']'],2111.11418v3
+Semantic Segmentation,DensePASS,ECANet,43.02,0.6498275012321342,null,[']'],2103.05687v1
+Semantic Segmentation,DensePASS,FAN (MiT-B1),42.54,0.6379990142927551,null,[']'],2204.12451v4
+Semantic Segmentation,DensePASS,SegFormer (MiT-B2),42.4,0.6345490389354362,null,[']'],2105.15203v3
+Semantic Segmentation,DensePASS,ASMLP (MiT-B1),42.05,0.625924100542139,null,[']'],2107.08391v2
+Semantic Segmentation,DensePASS,P2PDA (Cityscapes),41.99,0.6244455396747167,null,[']'],2110.11062v1
+Semantic Segmentation,DensePASS,CycleMLP (MiT-B1),40.16,0.5793494332183341,null,[']'],2107.10224v4
+Semantic Segmentation,DensePASS,SegFormer (MiT-B1),38.5,0.5384425825529818,null,[']'],2105.15203v3
+Semantic Segmentation,DensePASS,DPT (MiT-B1),36.5,0.4891572203055693,null,[']'],2107.14467v1
+Semantic Segmentation,DensePASS,"SETR (PUP, Transformer-L)",35.7,0.46944307540660435,null,[']'],2012.15840v3
+Semantic Segmentation,DensePASS,"SETR (MLA, Transformer-L)",35.6,0.4669788072942337,null,[']'],2012.15840v3
+Semantic Segmentation,DensePASS,Seamless (Mapillary),34.14,0.4310004928536225,null,[']'],1905.01220v1
+Semantic Segmentation,DensePASS,DeepLabV3+ (ResNet-101),32.5,0.3905864958107443,null,[']'],1802.02611v3
+Semantic Segmentation,DensePASS,DNL (ResNet-101),32.1,0.3807294233612618,null,[']'],2006.06668v2
+Semantic Segmentation,DensePASS,SwiftNet (Merge3),32.04,0.3792508624938394,null,[']'],2008.08974v2
+Semantic Segmentation,DensePASS,CRST,31.67,0.3701330704780681,null,[']'],1908.09822v3
+Semantic Segmentation,DensePASS,CLAN,31.46,0.3649581074420898,null,[']'],1809.09478v3
+Semantic Segmentation,DensePASS,"PVT (Tiny, FPN)",31.2,0.3585510103499261,null,[']'],2102.12122v2
+Semantic Segmentation,DensePASS,USSS (Mapillary),30.87,0.3504189255791031,null,[']'],1811.10323v3
+Semantic Segmentation,DensePASS,PSPNet (ResNet-50),29.5,0.3166584524396255,null,[']'],1612.01105v2
+Semantic Segmentation,DensePASS,Semantic-FPN (ResNet-101),28.8,0.29940857565303114,null,[']'],1901.02446v2
+Semantic Segmentation,DensePASS,DANet (ResNet-101),28.5,0.2920157713159192,null,[']'],1809.02983v4
+Semantic Segmentation,DensePASS,USSS (IDD),26.98,0.2545588960078857,null,[']'],1811.10323v3
+Semantic Segmentation,DensePASS,FANet (Resnet-34),26.9,0.25258748151798915,null,[']'],2007.03815v2
+Semantic Segmentation,DensePASS,SwiftNet (Cityscapes),25.67,0.22227698373583055,null,[']'],1903.08469v2
+Semantic Segmentation,DensePASS,Fast-SCNN,24.6,0.19590931493346483,null,[']'],1902.04502v1
+Semantic Segmentation,DensePASS,PASS,23.66,0.1727451946771809,null,[']'],1909.07721v2
+Semantic Segmentation,DensePASS,ERFNet,16.65,0.0,null,[']}]</script'],null
+Semantic Segmentation,ScanNet,PTv3 + PPT,79.4,1.0,null,[']'],2312.10035v2
+Semantic Segmentation,ScanNet,PonderV2 + SparseUNet,78.5,0.9815573770491802,null,[']'],2310.08586v3
+Semantic Segmentation,ScanNet,Mix3D,78.1,0.9733606557377047,null,[']'],2110.02210v2
+Semantic Segmentation,ScanNet,Swin3D-L,77.9,0.9692622950819673,null,[']'],2304.06906v3
+Semantic Segmentation,ScanNet,PPT + SparseUNet,76.6,0.942622950819672,null,[']'],2308.09718v1
+Semantic Segmentation,ScanNet,OctFormer,76.6,0.942622950819672,null,[']'],2305.03045v2
+Semantic Segmentation,ScanNet,PointHR,76.6,0.942622950819672,null,[']'],2310.07743v1
+Semantic Segmentation,ScanNet,O-CNN,76.2,0.9344262295081966,null,[']'],1712.01537v1
+Semantic Segmentation,ScanNet,OA-CNNs,75.6,0.9221311475409834,null,[']'],2403.14418v1
+Semantic Segmentation,ScanNet,PTv2,75.2,0.9139344262295082,null,[']'],2210.05666v2
+Semantic Segmentation,ScanNet,BPNet,74.9,0.9077868852459017,null,[']'],2103.14326v1
+Semantic Segmentation,ScanNet,VMVF,74.6,0.9016393442622949,null,[']'],2007.13138v1
+Semantic Segmentation,ScanNet,ODIN,74.4,0.8975409836065574,null,[']'],2401.02416v2
+Semantic Segmentation,ScanNet,EQ-Net,74.3,0.8954918032786884,null,[']'],2203.01252v3
+Semantic Segmentation,ScanNet,StratifiedFormer,73.7,0.8831967213114753,null,[']'],2203.14508v1
+Semantic Segmentation,ScanNet,MinkowskiNet,73.4,0.8770491803278688,null,[']'],1904.08755v4
+Semantic Segmentation,ScanNet,SparseConvNet,72.5,0.858606557377049,null,[']'],1711.10275v1
+Semantic Segmentation,ScanNet,FG-Net,69.0,0.7868852459016392,null,[']'],2012.09439v2
+Semantic Segmentation,ScanNet,RPNet,68.2,0.7704918032786885,null,[']'],2108.12468v1
+Semantic Segmentation,ScanNet,KpConv,68.0,0.7663934426229507,null,[']'],1904.08889v2
+Semantic Segmentation,ScanNet,SAFNet,65.4,0.7131147540983607,null,[']'],2107.01579v3
+Semantic Segmentation,ScanNet,TextureNet,56.6,0.5327868852459016,null,[']'],1812.00020v2
+Semantic Segmentation,ScanNet,PointConv,55.6,0.5122950819672131,null,[']'],1811.07246v3
+Semantic Segmentation,ScanNet,PanopticFusion,52.9,0.456967213114754,null,[']'],1903.01177v2
+Semantic Segmentation,ScanNet,3DMV,48.4,0.36475409836065564,null,[']'],1803.10409v1
+Semantic Segmentation,ScanNet,PointCNN,45.8,0.3114754098360655,null,[']'],null
+Semantic Segmentation,ScanNet,FCPN,44.7,0.2889344262295082,null,[']'],1808.06840v1
+Semantic Segmentation,ScanNet,SurfaceConvPF,44.2,0.27868852459016397,null,[']'],1808.04952v2
+Semantic Segmentation,ScanNet,Tangent Convolutions,44.2,0.27868852459016397,null,[']'],1807.02443v1
+Semantic Segmentation,ScanNet,SPLAT Net,39.3,0.17827868852459006,null,[']'],1802.08275v4
+Semantic Segmentation,ScanNet,PointNet++,33.9,0.06762295081967207,null,[']'],1706.02413v1
+Semantic Segmentation,ScanNet,ScanNet,30.6,0.0,null,[']'],1702.04405v2
+Semantic Segmentation,PASCAL VOC 2012 val,"EfficientNet-L2+NAS-FPN (single scale test, with self-training)",90.0,1.0,null,"['FPN', 'single scale', 'EfficientNet']",2006.06882v2
+Semantic Segmentation,PASCAL VOC 2012 val,TADP,87.11,0.9210382513661202,null,[']'],2310.00031v3
+Semantic Segmentation,PASCAL VOC 2012 val,"Eff-B7 NAS-FPN (Copy-Paste pre-training, single-scale))",86.6,0.9071038251366119,null,"['FPN', 'single scale']",2012.07177v2
+Semantic Segmentation,PASCAL VOC 2012 val,ExFuse (ResNeXt-131),85.8,0.8852459016393441,null,['ResNeXt'],1804.03821v1
+Semantic Segmentation,PASCAL VOC 2012 val,SpineNet-S143 (single-scale test),85.64,0.8808743169398907,null,['single scale'],2103.12270v1
+Semantic Segmentation,PASCAL VOC 2012 val,DeepLabv3-JFT,82.7,0.8005464480874318,null,[']'],1706.05587v3
+Semantic Segmentation,PASCAL VOC 2012 val,Auto-DeepLab-L,82.04,0.782513661202186,null,[']'],1901.02985v2
+Semantic Segmentation,PASCAL VOC 2012 val,ResNet-GCN,81.0,0.7540983606557378,null,"['GCN', 'ResNet']",1703.02719v1
+Semantic Segmentation,PASCAL VOC 2012 val,HyperSeg-L,80.61,0.7434426229508196,null,[']'],2012.11582v2
+Semantic Segmentation,PASCAL VOC 2012 val,DFN (ResNet-101),80.6,0.7431693989071037,null,['ResNet'],1804.09337v1
+Semantic Segmentation,PASCAL VOC 2012 val,WASPnet-CRF (ours),80.41,0.7379781420765027,null,[']'],1912.03183v1
+Semantic Segmentation,PASCAL VOC 2012 val,Deeplab v3+ (Res2Net-101),79.3,0.7076502732240436,null,[']'],1904.01169v3
+Semantic Segmentation,PASCAL VOC 2012 val,FastDenseNas-arch0,78.0,0.6721311475409836,null,[']'],1810.10804v3
+Semantic Segmentation,PASCAL VOC 2012 val,ReLICv2,77.9,0.6693989071038253,null,[']'],2201.05119v2
+Semantic Segmentation,PASCAL VOC 2012 val,DeepLab-CRF (ResNet-101),77.69,0.6636612021857923,null,['ResNet'],1606.00915v2
+Semantic Segmentation,PASCAL VOC 2012 val,FastDenseNas-arch2,77.3,0.6530054644808743,null,[']'],1810.10804v3
+Semantic Segmentation,PASCAL VOC 2012 val,DetCon,77.3,0.6530054644808743,null,[']'],2201.05119v2
+Semantic Segmentation,PASCAL VOC 2012 val,FastDenseNas-arch1,77.1,0.6475409836065572,null,[']'],1810.10804v3
+Semantic Segmentation,PASCAL VOC 2012 val,DeepLabv3 (ImageNet+300M),76.5,0.6311475409836066,null,[']'],1707.02968v2
+Semantic Segmentation,PASCAL VOC 2012 val,BYOL,75.7,0.6092896174863389,null,[']'],2201.05119v2
+Semantic Segmentation,PASCAL VOC 2012 val,DiCENet,66.5,0.35792349726775957,null,[']'],1906.03516v3
+Semantic Segmentation,PASCAL VOC 2012 val,RRM,66.3,0.35245901639344257,null,[']'],1911.08039v1
+Semantic Segmentation,PASCAL VOC 2012 val,SIW,65.0,0.31693989071038253,null,[']'],2202.02002v2
+Semantic Segmentation,PASCAL VOC 2012 val,SSDD,64.9,0.3142076502732242,null,[']'],1911.01370v2
+Semantic Segmentation,PASCAL VOC 2012 val,PSA w/ EADER DeepLab (Xception-65),62.8,0.2568306010928961,null,[']'],2011.04626v1
+Semantic Segmentation,PASCAL VOC 2012 val,G2,55.7,0.06284153005464492,null,[']'],1701.08261v2
+Semantic Segmentation,PASCAL VOC 2012 val,PRM,53.4,0.0,null,[']'],1804.00880v1
+Semantic Segmentation,DADA-seg,MMUDA,46.97,1.0,null,[']'],2203.10395v1
+Semantic Segmentation,DADA-seg,Trans4Trans,39.2,0.7953647616539374,null,[']'],2108.09174v1
+Semantic Segmentation,DADA-seg,EDCNet,32.04,0.6067948380300237,null,[']'],2112.05006v1
+Semantic Segmentation,DADA-seg,"SETR (PUP, Transformer-Large)",31.8,0.600474058467211,null,[']'],2012.15840v3
+Semantic Segmentation,DADA-seg,"SETR (MLA, Transformer-Large)",30.4,0.5636028443508032,null,[']'],2012.15840v3
+Semantic Segmentation,DADA-seg,ISSAFE,29.97,0.5522781143007638,null,[']'],2008.08974v2
+Semantic Segmentation,DADA-seg,BDL,29.66,0.5441137740321307,null,[']'],1904.10620v1
+Semantic Segmentation,DADA-seg,CLAN,28.76,0.5204108506715829,null,[']'],1809.09478v3
+Semantic Segmentation,DADA-seg,HRNet (ACDC),27.5,0.4872267579668159,null,[']'],1908.07919v2
+Semantic Segmentation,DADA-seg,SegFormer (MiT-B3),27.0,0.474058467210956,null,[']'],2105.15203v3
+Semantic Segmentation,DADA-seg,SIM,26.85,0.4701079799841981,null,[']'],2003.08040v3
+Semantic Segmentation,DADA-seg,DeepLabV3+ (ACDC),26.8,0.4687911509086121,null,[']'],1802.02611v3
+Semantic Segmentation,DADA-seg,Fast-SCNN,26.32,0.4561495917829866,null,[']'],1902.04502v1
+Semantic Segmentation,DADA-seg,Lawin Transformer,25.16,0.4255991572293916,null,[']'],2201.01615v4
+Semantic Segmentation,DADA-seg,FDA,24.45,0.40690018435607056,null,[']'],2004.05498v1
+Semantic Segmentation,DADA-seg,ResNet-101,23.6,0.3845140900711088,null,[']'],1512.03385v1
+Semantic Segmentation,DADA-seg,DANet,22.24,0.34869633921516985,null,[']'],1809.02983v4
+Semantic Segmentation,DADA-seg,SegFormer (MiT-B2),21.2,0.3213062944429813,null,[']'],2105.15203v3
+Semantic Segmentation,DADA-seg,SwiftNet (ResNet-18),20.5,0.30287068738477746,null,[']'],1903.08469v2
+Semantic Segmentation,DADA-seg,PSPNet (ResNet-101),20.1,0.2923360547800896,null,[']'],1612.01105v2
+Semantic Segmentation,DADA-seg,ResNeSt (ResNeSt-101),19.99,0.28943903081380035,null,[']'],2004.08955v2
+Semantic Segmentation,DADA-seg,DNL (ResNet-101),19.7,0.2818014221754016,null,[']'],2006.06668v2
+Semantic Segmentation,DADA-seg,Semantic FPN (ResNet-101),19.59,0.27890439820911245,null,[']'],1901.02446v2
+Semantic Segmentation,DADA-seg,ResNet-50,18.96,0.262312351856729,null,[']'],1512.03385v1
+Semantic Segmentation,DADA-seg,MobileNetV3 (MobileNetV3small),18.2,0.24229654990782196,null,[']'],1905.02244v5
+Semantic Segmentation,DADA-seg,SegFormer (MiT-B1),16.6,0.20015801948907036,null,[']'],2105.15203v3
+Semantic Segmentation,DADA-seg,MobileNetV2,16.05,0.18567289965762446,null,[']'],1801.04381v4
+Semantic Segmentation,DADA-seg,ERFNet,9.0,0.0,null,[']}]</script'],null
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB+HHA),60.6,1.0,null,[']'],2308.09369v1
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB+Depth+Normal),59.43,0.955,null,[']'],2308.09369v1
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB+Normal),58.24,0.9092307692307693,null,[']'],2308.09369v1
+Semantic Segmentation,Stanford2D3D Panoramic,"SGAT4PASS\uff08RGB only, Fold 1\uff09",56.4,0.8384615384615384,null,[']'],2306.03403v2
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB+Depth),55.49,0.8034615384615384,null,[']'],2308.09369v1
+Semantic Segmentation,Stanford2D3D Panoramic,"SGAT4PASS\uff08RGB only, 3 Fold AVG\uff09",55.3,0.796153846153846,null,[']'],2306.03403v2
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS+ (Supervised + Small + MS),54.0,0.7461538461538461,null,[']'],2207.11860v5
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS (Supervised + Small + MS),53.0,0.7076923076923076,null,[']'],2203.01452v2
+Semantic Segmentation,Stanford2D3D Panoramic,SFSS-MMSI (RGB Only),52.87,0.7026923076923075,null,[']'],2308.09369v1
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS+ (UDA + MPA + MS),52.3,0.6807692307692306,null,[']'],2207.11860v5
+Semantic Segmentation,Stanford2D3D Panoramic,CBFC,52.2,0.676923076923077,null,[']'],2207.02437v1
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS (Supervised + Small),52.1,0.6730769230769231,null,[']'],2203.01452v2
+Semantic Segmentation,Stanford2D3D Panoramic,HoHoNet (ResNet-101),52.0,0.6692307692307692,null,[']'],2011.11498v3
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS (UDA + MPA + MS),51.2,0.6384615384615385,null,[']'],2203.01452v2
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS (UDA + MPA),50.8,0.6230769230769229,null,[']'],2203.01452v2
+Semantic Segmentation,Stanford2D3D Panoramic,PanoFormer,48.9,0.5499999999999999,null,[']'],2203.09283v2
+Semantic Segmentation,Stanford2D3D Panoramic,Trans4PASS (UDA + Source Only),48.1,0.5192307692307693,null,[']'],2203.01452v2
+Semantic Segmentation,Stanford2D3D Panoramic,FreDSNet,46.1,0.4423076923076923,null,[']'],2210.01595v2
+Semantic Segmentation,Stanford2D3D Panoramic,Tangent (ResNet-101),45.6,0.4230769230769231,null,[']'],1912.09390v3
+Semantic Segmentation,Stanford2D3D Panoramic,SWSCNN,43.4,0.33846153846153837,null,[']'],2006.10731v2
+Semantic Segmentation,Stanford2D3D Panoramic,HexRUNet,43.3,0.3346153846153844,null,[']'],1907.12849v1
+Semantic Segmentation,Stanford2D3D Panoramic,Interpolated SelectionConv,41.4,0.26153846153846144,null,[']'],2210.10123v1
+Semantic Segmentation,Stanford2D3D Panoramic,GaugeNet (R2R-U-Net),39.4,0.18461538461538451,null,[']'],1902.04615v3
+Semantic Segmentation,Stanford2D3D Panoramic,UGSCNN,38.3,0.14230769230769214,null,[']'],1901.02039v1
+Semantic Segmentation,Stanford2D3D Panoramic,DisConv,34.6,0.0,null,[']}]</script'],null
+Semantic Segmentation,CamVid,SERNet-Former,84.62,1.0,null,[']'],2401.15741v5
+Semantic Segmentation,CamVid,SIW,83.7,0.9759288330716902,null,[']'],2202.02002v2
+Semantic Segmentation,CamVid,DSNet,83.32,0.9659863945578229,null,[']'],2406.03702v1
+Semantic Segmentation,CamVid,RTFormer-Base,82.5,0.944531658817373,null,[']'],2210.07124v1
+Semantic Segmentation,CamVid,DeepLabV3Plus + SDCNetAug,81.7,0.923600209314495,null,['DCN'],1812.01593v3
+Semantic Segmentation,CamVid,ETC-Mobile,76.3,0.7823129251700679,null,[']'],2002.11433v2
+Semantic Segmentation,CamVid,VideoGCRF,75.2,0.7535321821036106,null,[']'],1807.03148v1
+Semantic Segmentation,CamVid,DenseDecoder,70.9,0.6410256410256411,null,[']'],null
+Semantic Segmentation,CamVid,BiSeNet,68.7,0.5834641548927263,null,[']'],1808.00897v1
+Semantic Segmentation,CamVid,FC-DenseNet103,66.9,0.5363683935112508,null,[']'],1611.09326v3
+Semantic Segmentation,CamVid,EDANet,66.4,0.5232862375719519,null,[']'],1809.06323v3
+Semantic Segmentation,CamVid,Dilated Convolutions,65.3,0.4945054945054944,null,[']'],1511.07122v3
+Semantic Segmentation,CamVid,DFANet A,64.7,0.478806907378336,null,[']'],1904.02216v1
+Semantic Segmentation,CamVid,Template-Based NAS-arch0 (480x360 inputs),63.9,0.4578754578754578,null,[']'],1904.02365v2
+Semantic Segmentation,CamVid,LMDNet,63.5,0.4474097331240188,null,[']'],1809.03994v1
+Semantic Segmentation,CamVid,Template-Based NAS-arch1 (480x360 inputs),63.2,0.4395604395604396,null,[']'],1904.02365v2
+Semantic Segmentation,CamVid,RTA,62.5,0.4212454212454212,null,[']'],1807.11037v1
+Semantic Segmentation,CamVid,DeepLab-MSc-CRF-LargeFOV,61.6,0.3976975405546834,null,[']'],1412.7062v4
+Semantic Segmentation,CamVid,ReSeg,58.8,0.32443746729461004,null,[']'],1511.07053v3
+Semantic Segmentation,CamVid,SegNet,46.4,0.0,null,[']}]</script'],1511.00561v3
+Semantic Segmentation,ImageNet-S,"TEC (ViT-B/16, 224x224, SSL+FT, mmseg)",63.2,1.0,null,[']'],2210.11016v1
+Semantic Segmentation,ImageNet-S,"SERE (ViT-B/16, 100ep, 224x224, SSL+FT)",63.0,0.995260663507109,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"TEC (ViT-B/16, 224x224, SSL+FT)",62.0,0.971563981042654,null,[']'],2210.11016v1
+Semantic Segmentation,ImageNet-S,"MAE (ViT-B/16, 224x224, SSL+FT, mmseg)",61.6,0.962085308056872,null,[']'],2111.06377v2
+Semantic Segmentation,ImageNet-S,"MAE (ViT-B/16, 224x224, SSL+FT)",61.0,0.947867298578199,null,[']'],2111.06377v2
+Semantic Segmentation,ImageNet-S,"SERE (ViT-S/16, 100ep, 224x224, SSL+FT, mmseg)",59.4,0.909952606635071,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"SERE (ViT-S/16, 100ep, 224x224, SSL+FT)",58.9,0.8981042654028435,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"RF-ConvNext-Tiny (rfmerge, P4, 224x224, SUP)",51.3,0.7180094786729857,null,[']'],2206.06637v2
+Semantic Segmentation,ImageNet-S,"RF-ConvNext-Tiny (rfmultiple, P4, 224x224, SUP)",50.8,0.7061611374407581,null,[']'],2206.06637v2
+Semantic Segmentation,ImageNet-S,"RF-ConvNext-Tiny (rfsingle, P4, 224x224, SUP)",50.7,0.7037914691943128,null,[']'],2206.06637v2
+Semantic Segmentation,ImageNet-S,"ConvNext-Tiny (P4, 224x224, SUP)",48.7,0.6563981042654029,null,[']'],2201.03545v2
+Semantic Segmentation,ImageNet-S,"SERE (ViT-B/16, 100ep, 224x224, SSL)",48.6,0.6540284360189573,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"TEC (ViT-B/16, 224x224, SSL, mmseg)",46.1,0.5947867298578199,null,[']'],2210.11016v1
+Semantic Segmentation,ImageNet-S,"TEC (ViT-B/16, 224x224, SSL)",42.9,0.518957345971564,null,[']'],2210.11016v1
+Semantic Segmentation,ImageNet-S,"SERE (ViT-S/16, 100ep, 224x224, SSL, mmseg)",41.0,0.4739336492890995,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"SERE (ViT-S/16, 100ep, 224x224, SSL)",41.0,0.4739336492890995,null,[']'],2206.05184v3
+Semantic Segmentation,ImageNet-S,"MAE (ViT-B/16, 224x224, SSL, mmseg)",40.0,0.45023696682464454,null,[']'],2111.06377v2
+Semantic Segmentation,ImageNet-S,"MAE (ViT-B/16, 224x224, SSL)",38.3,0.409952606635071,null,[']'],2111.06377v2
+Semantic Segmentation,ImageNet-S,"PASS (ResNet-50 D16, 224x224, LUSS)",21.6,0.014218009478673018,null,[']'],2106.03149v3
+Semantic Segmentation,ImageNet-S,"PASS (ResNet-50 D32, 224x224, LUSS)",21.0,0.0,null,[']}]</script'],2106.03149v3
+Semantic Segmentation,BDD100K val,DSNet-Base,64.6,1.0,null,[']'],2406.03702v1
+Semantic Segmentation,BDD100K val,Deeplabv3+,63.6,0.9097472924187732,null,[']'],1802.02611v3
+Semantic Segmentation,BDD100K val,DANet,62.8,0.8375451263537907,null,[']'],1809.02983v4
+Semantic Segmentation,BDD100K val,PSPNet,62.3,0.7924187725631769,null,[']'],1612.01105v2
+Semantic Segmentation,BDD100K val,EMANet,61.4,0.7111913357400723,null,[']'],1907.13426v2
+Semantic Segmentation,BDD100K val,OCRNet,60.1,0.5938628158844769,null,[']'],1909.11065v6
+Semantic Segmentation,BDD100K val,NiseNet,53.52,0.0,null,[']'],null
+Semantic Segmentation,LaRS,SWIM^2 (Mask2Former),78.1,1.0,null,[']'],2311.14762v1
+Semantic Segmentation,LaRS,TransMari (Mask2Former),77.8,0.9953271028037385,null,[']'],2311.14762v1
+Semantic Segmentation,LaRS,Mari-Mask2Former (Mask2Former),75.7,0.9626168224299068,null,[']'],2311.14762v1
+Semantic Segmentation,LaRS,KNet (Swin-T),71.3,0.8940809968847353,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,SegFormer (MiT-B2),67.8,0.8395638629283491,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,DeepLabv3 (ResNet-101),62.9,0.7632398753894082,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,PointRend,62.1,0.7507788161993771,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,DeepLabv3+ (ResNet-101),61.0,0.7336448598130842,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,STDC2,60.8,0.7305295950155765,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,FCN (ResNet-101),60.2,0.7211838006230532,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,WaSR (ResNet-101),59.5,0.7102803738317759,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,STDC1,57.8,0.6838006230529596,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,eWaSR,56.5,0.6635514018691591,null,[']'],2311.14762v1
+Semantic Segmentation,LaRS,FCN (ResNet-50),53.6,0.6183800623052961,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,Segmenter (ViT-B),52.6,0.6028037383177571,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,BiSeNetv2,51.2,0.5809968847352026,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,WODIS (ResNet-101),40.7,0.41744548286604377,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,BiSeNetv1 (ResNet-50),39.4,0.39719626168224303,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,IntCatchAI,20.5,0.10280373831775702,null,[']'],2308.09618v1
+Semantic Segmentation,LaRS,UNet,13.9,0.0,null,[']}]</script'],2308.09618v1
+Semantic Segmentation,COCO-Stuff test,EVA,53.4,1.0,null,[']'],2211.07636v2
+Semantic Segmentation,COCO-Stuff test,RSSeg-ViT-L (BEiT pretrain),52.6,0.973941368078176,null,[']'],2212.13764v1
+Semantic Segmentation,COCO-Stuff test,RSSeg-ViT-L,52.0,0.9543973941368079,null,[']'],2212.13764v1
+Semantic Segmentation,COCO-Stuff test,SegViT (ours),50.3,0.8990228013029316,null,[']'],2210.05844v2
+Semantic Segmentation,COCO-Stuff test,SenFormer (Swin-L),50.1,0.8925081433224756,null,[']'],2111.13280v2
+Semantic Segmentation,COCO-Stuff test,CAA (Efficientnet-B7),45.4,0.739413680781759,null,['EfficientNet'],2101.07434v5
+Semantic Segmentation,COCO-Stuff test,HRNetV2 + OCR + RMI (PaddleClas pretrained),45.2,0.732899022801303,null,[']'],1909.11065v6
+Semantic Segmentation,COCO-Stuff test,DRAN(ResNet-101),41.2,0.6026058631921826,null,['ResNet'],null
+Semantic Segmentation,COCO-Stuff test,CAA (ResNet-101),41.2,0.6026058631921826,null,['ResNet'],2101.07434v5
+Semantic Segmentation,COCO-Stuff test,OCR (HRNetV2-W48),40.5,0.5798045602605864,null,[']'],1909.11065v6
+Semantic Segmentation,COCO-Stuff test,EMANet,39.9,0.5602605863192183,null,[']'],1907.13426v2
+Semantic Segmentation,COCO-Stuff test,DANet (ResNet-101),39.7,0.5537459283387623,null,['ResNet'],1809.02983v4
+Semantic Segmentation,COCO-Stuff test,SVCNet (ResNet-101),39.6,0.5504885993485343,null,['ResNet'],1909.02651v1
+Semantic Segmentation,COCO-Stuff test,OCR (ResNet-101),39.5,0.5472312703583062,null,['ResNet'],1909.11065v6
+Semantic Segmentation,COCO-Stuff test,Asymmetric ALNN,37.2,0.47231270358306204,null,[']'],1908.07678v5
+Semantic Segmentation,COCO-Stuff test,CCL (ResNet-101),35.7,0.4234527687296418,null,['ResNet'],null
+Semantic Segmentation,COCO-Stuff test,RefineNet (ResNet-101),33.6,0.3550488599348535,null,['ResNet'],1611.06612v3
+Semantic Segmentation,COCO-Stuff test,DAG-RNN (VGG-16),31.2,0.2768729641693811,null,[']'],1509.00552v2
+Semantic Segmentation,COCO-Stuff test,FCN (VGG-16),22.7,0.0,null,[']}]</script'],1411.4038v2
+Semantic Segmentation,iSAID,SegNeXt-L,70.3,1.0,null,[']'],2209.08575v1
+Semantic Segmentation,iSAID,SegNeXt-B,69.9,0.9540229885057481,null,[']'],2209.08575v1
+Semantic Segmentation,iSAID,AerialFormer-B,69.3,0.8850574712643677,null,[']'],2306.06842v2
+Semantic Segmentation,iSAID,SegNeXt-S,68.8,0.8275862068965516,null,[']'],2209.08575v1
+Semantic Segmentation,iSAID,AerialFormer-S,68.4,0.7816091954022997,null,[']'],2306.06842v2
+Semantic Segmentation,iSAID,SegNeXt-T,68.3,0.7701149425287355,null,[']'],2209.08575v1
+Semantic Segmentation,iSAID,FarSeg++@MiT-B2,67.9,0.7241379310344837,null,[']'],null
+Semantic Segmentation,iSAID,FarSeg++@ResNet-50,67.6,0.6896551724137926,null,[']'],null
+Semantic Segmentation,iSAID,AerialFormer-T,67.5,0.6781609195402301,null,[']'],2306.06842v2
+Semantic Segmentation,iSAID,DeepLabV3 with R-50,67.03,0.624137931034483,null,[']'],2307.14179v1
+Semantic Segmentation,iSAID,FarSeg++@Swin-T,66.3,0.540229885057471,null,[']'],null
+Semantic Segmentation,iSAID,IMP-ViTAEv2-S-UperNet,65.3,0.4252873563218388,null,[']'],2204.02825v4
+Semantic Segmentation,iSAID,FactSeg@ResNet-50,64.79,0.3666666666666674,null,[']'],null
+Semantic Segmentation,iSAID,ViTAE-B + RVSA-UperNet,64.49,0.3321839080459764,null,[']'],2208.03987v4
+Semantic Segmentation,iSAID,RSP-ViTAEv2-S-UperNet,64.3,0.3103448275862066,null,[']'],2204.02825v4
+Semantic Segmentation,iSAID,RSP-Swin-T-UperNet,64.1,0.2873563218390798,null,[']'],2204.02825v4
+Semantic Segmentation,iSAID,ViT-B + RVSA-UperNet,63.85,0.25862068965517254,null,[']'],2208.03987v4
+Semantic Segmentation,iSAID,FarSeg@ResNet-50,63.71,0.24252873563218397,null,[']'],2011.09766v1
+Semantic Segmentation,iSAID,RSP-ResNet-50-UperNet,61.6,0.0,null,[']}]</script'],2204.02825v4
+Semantic Segmentation,Semantic3D,Feature Geometric Net,78.2,1.0,null,[']'],2012.09439v2
+Semantic Segmentation,Semantic3D,RFCR,77.8,0.9833333333333331,null,[']'],2105.10203v1
+Semantic Segmentation,Semantic3D,SCF-Net,77.6,0.9749999999999996,null,[']'],null
+Semantic Segmentation,Semantic3D,RandLA-Net,77.4,0.9666666666666668,null,[']'],1911.11236v3
+Semantic Segmentation,Semantic3D,SPG,76.2,0.9166666666666666,null,[']'],1711.09869v2
+Semantic Segmentation,Semantic3D,BAAF-Net,75.4,0.8833333333333334,null,[']'],2103.07074v2
+Semantic Segmentation,Semantic3D,KPConv,74.6,0.8499999999999996,null,[']'],1904.08889v2
+Semantic Segmentation,Semantic3D,SPG,73.2,0.7916666666666666,null,[']'],1711.09869v2
+Semantic Segmentation,Semantic3D,GACNet,70.8,0.6916666666666664,null,[']'],null
+Semantic Segmentation,Semantic3D,shellnet_v2,69.3,0.6291666666666664,null,[']'],1908.06295v1
+Semantic Segmentation,Semantic3D,MSDeepVoxNet,65.3,0.46249999999999974,null,[']'],1804.03583v1
+Semantic Segmentation,Semantic3D,RF_MSSF,62.7,0.3541666666666667,null,[']'],1808.00495v1
+Semantic Segmentation,Semantic3D,SegCloud,61.3,0.2958333333333331,null,[']'],1710.07563v1
+Semantic Segmentation,Semantic3D,SnapNet_,59.1,0.2041666666666666,null,[']'],null
+Semantic Segmentation,Semantic3D,DeePr3SS,58.5,0.17916666666666656,null,[']'],1705.03428v1
+Semantic Segmentation,Semantic3D,3D-FCNN-TI,58.2,0.16666666666666666,null,[']'],1710.07563v1
+Semantic Segmentation,Semantic3D,TMLC-MSR,54.2,0.0,null,[']}]</script'],null
+Semantic Segmentation,ISPRS Potsdam,AerialFormer-B,93.9,1.0,null,[']'],2306.06842v2
+Semantic Segmentation,ISPRS Potsdam,ViT-G12X4,92.58,0.5987841945288739,null,[']'],2304.05215v3
+Semantic Segmentation,ISPRS Potsdam,FT-UNetFormer,92.0,0.42249240121580484,null,[']'],2109.08937v4
+Semantic Segmentation,ISPRS Potsdam,DC-Swin,92.0,0.42249240121580484,null,[']'],2104.12137v6
+Semantic Segmentation,ISPRS Potsdam,LSKNet-S,92.0,0.42249240121580484,null,[']'],2303.09030v2
+Semantic Segmentation,ISPRS Potsdam,EfficientUNets and Transformers,91.8,0.3617021276595731,null,[']'],2206.09731v2
+Semantic Segmentation,ISPRS Potsdam,IMP-ViTAEv2-S-UperNet,91.6,0.3009118541033413,null,[']'],2204.02825v4
+Semantic Segmentation,ISPRS Potsdam,MANet,91.31,0.21276595744680896,null,[']'],null
+Semantic Segmentation,ISPRS Potsdam,UNetFormer,91.3,0.20972644376899588,null,[']'],2109.08937v4
+Semantic Segmentation,ISPRS Potsdam,ABCNet,91.3,0.20972644376899588,null,[']'],2102.02531v1
+Semantic Segmentation,ISPRS Potsdam,ViTAE-B + RVSA -UperNet,91.22,0.18541033434650403,null,[']'],2208.03987v4
+Semantic Segmentation,ISPRS Potsdam,RSP-ViTAEv2-S-UperNet,91.21,0.18237082066869093,null,[']'],2204.02825v4
+Semantic Segmentation,ISPRS Potsdam,BANet,91.06,0.13677811550152036,null,[']'],2106.12413v2
+Semantic Segmentation,ISPRS Potsdam,RSP-Swin-T-UperNet,90.78,0.051671732522796776,null,[']'],2204.02825v4
+Semantic Segmentation,ISPRS Potsdam,ViT-B + RVSA-UperNet,90.77,0.04863221884498367,null,[']'],2208.03987v4
+Semantic Segmentation,ISPRS Potsdam,RSP-ResNet-50-UperNet,90.61,0.0,null,[']'],2204.02825v4
+Semantic Segmentation,Trans10K,Trans4Trans (M),75.14,1.0,null,[']'],2107.03172v2
+Semantic Segmentation,Trans10K,Trans4Trans (S),74.15,0.9808695652173914,null,[']'],2107.03172v2
+Semantic Segmentation,Trans10K,Trans2Seg,72.15,0.9422222222222223,null,[']'],2101.08461v3
+Semantic Segmentation,Trans10K,Trans2Lab,69.0,0.8813526570048309,null,[']'],2003.13948v3
+Semantic Segmentation,Trans10K,DeepLabV3+,68.87,0.878840579710145,null,[']'],1802.02611v3
+Semantic Segmentation,Trans10K,DANet,68.81,0.8776811594202899,null,[']'],1809.02983v4
+Semantic Segmentation,Trans10K,Trans4Trans (T),68.63,0.8742028985507245,null,[']'],2107.03172v2
+Semantic Segmentation,Trans10K,PSPNet,68.23,0.8664734299516909,null,[']'],1612.01105v2
+Semantic Segmentation,Trans10K,OCNet,66.31,0.8293719806763286,null,[']'],1809.00916v4
+Semantic Segmentation,Trans10K,DenseASPP,63.01,0.7656038647342994,null,[']'],null
+Semantic Segmentation,Trans10K,FCN,62.75,0.7605797101449275,null,[']'],1411.4038v2
+Semantic Segmentation,Trans10K,BiSeNet,58.4,0.6765217391304348,null,[']'],1808.00897v1
+Semantic Segmentation,Trans10K,RefineNet,58.18,0.6722705314009662,null,[']'],1611.06612v3
+Semantic Segmentation,Trans10K,ICNet,23.39,0.0,null,[']'],1704.08545v2
+Semantic Segmentation,DeLiVER,GeminiFusion,66.9,1.0,null,[']'],2406.01210v2
+Semantic Segmentation,DeLiVER,CMNeXt (RGB-D-E-LiDAR),66.3,0.9756888168557533,null,[']'],2303.01480v1
+Semantic Segmentation,DeLiVER,CMX (RGB-Depth),62.67,0.8286061588330631,null,[']'],2203.04838v5
+Semantic Segmentation,DeLiVER,TokenFusion (RGB-Depth),60.25,0.7305510534846028,null,[']'],2204.08721v2
+Semantic Segmentation,DeLiVER,CMX (RGB-Event),56.52,0.5794165316045381,null,[']'],2203.04838v5
+Semantic Segmentation,DeLiVER,CMX (RGB-LiDAR),56.37,0.5733387358184763,null,[']'],2203.04838v5
+Semantic Segmentation,DeLiVER,TokenFusion (RGB-LiDAR),53.01,0.43719611021069676,null,[']'],2204.08721v2
+Semantic Segmentation,DeLiVER,HRFuser (RGB-D-E-Li),52.97,0.43557536466774704,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,HRFuser (RGB-D-LiDAR),52.72,0.42544570502431106,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,HRFuser (RGB-Depth),51.88,0.39141004862236634,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,HRFuser (RGB-D-Event),51.83,0.38938411669367895,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,HRFuser (RGB),47.95,0.23217179902755278,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,TokenFusion (RGB-Event),45.63,0.1381685575364669,null,[']'],2204.08721v2
+Semantic Segmentation,DeLiVER,HRFuser (RGB-LiDAR),43.13,0.03687196110210711,null,[']'],2206.15157v3
+Semantic Segmentation,DeLiVER,HRFuser (RGB-Event),42.22,0.0,null,[']}]</script'],2206.15157v3
+Semantic Segmentation,Dark Zurich,Refign (HRDA),63.9,1.0,null,[']'],2207.06825v3
+Semantic Segmentation,Dark Zurich,CoDA,61.2,0.9081632653061226,null,[']'],2403.17369v2
+Semantic Segmentation,Dark Zurich,MIC,60.2,0.8741496598639458,null,[']'],2212.01322v2
+Semantic Segmentation,Dark Zurich,Refign (DAFormer),56.2,0.7380952380952382,null,[']'],2207.06825v3
+Semantic Segmentation,Dark Zurich,HRDA,55.9,0.7278911564625851,null,[']'],2204.13132v2
+Semantic Segmentation,Dark Zurich,SePiCo,54.2,0.6700680272108844,null,['Transformer'],2204.08808v2
+Semantic Segmentation,Dark Zurich,DAFormer,53.8,0.6564625850340136,null,[']'],2111.14887v2
+Semantic Segmentation,Dark Zurich,GPS-GLASS,46.4,0.4047619047619047,null,[']'],2207.13297v5
+Semantic Segmentation,Dark Zurich,SePiCo (DeepLab v2 ResNet-101),45.4,0.37074829931972786,null,[']'],2204.08808v2
+Semantic Segmentation,Dark Zurich,MGCDA,42.5,0.272108843537415,null,[']'],2005.14553v2
+Semantic Segmentation,Dark Zurich,DANNet (DeepLab v2 ResNet-101),42.5,0.272108843537415,null,[']'],2104.10834v1
+Semantic Segmentation,Dark Zurich,GCMA,42.0,0.25510204081632654,null,[']'],1901.05946v2
+Semantic Segmentation,Dark Zurich,DANNet,36.76,0.07687074829931967,null,[']'],2104.10834v1
+Semantic Segmentation,Dark Zurich,CIConv,34.5,0.0,null,[']}]</script'],2108.05137v2
+Semantic Segmentation,LoveDA,U-Net Ensemble,57.36,1.0,null,[']'],null
+Semantic Segmentation,LoveDA,U-Net (MaxViT-S),56.16,0.841479524438573,null,[']'],null
+Semantic Segmentation,LoveDA,ViT-G12X4,54.4,0.6089828269484807,null,[']'],2304.05215v3
+Semantic Segmentation,LoveDA,MAE+MTP(ViT-L+RVSA),54.17,0.5785997357992078,null,[']'],2403.13430v2
+Semantic Segmentation,LoveDA,IMP+MTP(InternImage-XL),54.17,0.5785997357992078,null,[']'],2403.13430v2
+Semantic Segmentation,LoveDA,AerialFormer-B,54.1,0.5693527080581244,null,[']'],2306.06842v2
+Semantic Segmentation,LoveDA,LSKNet-S,54.0,0.5561426684280054,null,[']'],2303.09030v2
+Semantic Segmentation,LoveDA,LSKNet-T,53.2,0.45046235138705465,null,[']'],2303.09030v2
+Semantic Segmentation,LoveDA,Hi-ResNet,52.6,0.3712021136063411,null,[']'],2305.12691v2
+Semantic Segmentation,LoveDA,ViTAE-B + RVSA-UperNet,52.44,0.3500660501981504,null,[']'],2208.03987v4
+Semantic Segmentation,LoveDA,UNetFormer,52.4,0.34478203434610294,null,[']'],2109.08937v4
+Semantic Segmentation,LoveDA,MAE+MTP(ViT-B+RVSA),52.39,0.34346103038309134,null,[']'],2403.13430v2
+Semantic Segmentation,LoveDA,ViT-B + RVSA-UperNet,51.95,0.2853368560105685,null,[']'],2208.03987v4
+Semantic Segmentation,LoveDA,HRNetw32,49.79,0.0,null,[']}]</script'],2110.08733v6
+Semantic Segmentation,KITTI-360,CMNeXt (RGB-D-E-LiDAR),67.84,1.0,null,[']'],2303.01480v1
+Semantic Segmentation,KITTI-360,CMX (RGB-Depth),64.43,0.8235902741852046,null,[']'],2203.04838v5
+Semantic Segmentation,KITTI-360,CMX (RGB-LiDAR),64.31,0.8173823072943611,null,[']'],2203.04838v5
+Semantic Segmentation,KITTI-360,ACNet (ResNet50),61.57,0.6756337299534402,null,[']'],1905.10089v1
+Semantic Segmentation,KITTI-360,TokenFusion (RGB-Depth),57.44,0.461976202793585,null,[']'],2204.08721v2
+Semantic Segmentation,KITTI-360,ISSAFE (ResNet50),56.64,0.4205897568546301,null,[']'],2008.08974v2
+Semantic Segmentation,KITTI-360,TransFuser (RGB-LiDAR),56.57,0.41696844283497153,null,[']'],2104.09224v1
+Semantic Segmentation,KITTI-360,TokenFusion (RGB-LiDAR),54.55,0.31246766683911004,null,[']'],2204.08721v2
+Semantic Segmentation,KITTI-360,PMF (RGB-LiDAR),54.48,0.3088463528194515,null,[']'],2106.15277v2
+Semantic Segmentation,KITTI-360,ISSAFE (ResNet18),53.95,0.2814278323848941,null,[']'],2008.08974v2
+Semantic Segmentation,KITTI-360,HRFuser (RGB-D-LiDAR),52.61,0.21210553543714436,null,[']'],2206.15157v3
+Semantic Segmentation,KITTI-360,HRFuser (RGB-Depth),49.32,0.041903776513192034,null,[']'],2206.15157v3
+Semantic Segmentation,KITTI-360,HRFuser (RGB-LiDAR),48.74,0.011898603207449763,null,[']'],2206.15157v3
+Semantic Segmentation,KITTI-360,PGSNet (RGB-D-LiDAR),48.51,0.0,null,[']}]</script'],null
+Semantic Segmentation,MCubeS,MMSFormer (RGB-A-D-N),53.11,1.0,null,['RGB-A-D-N'],2309.04001v4
+Semantic Segmentation,MCubeS,MMSFormer (RGB-A-D),52.05,0.9426406926406925,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS,CMNeXt (B2 RGB-A-D-N),51.54,0.91504329004329,null,['RGB-A-D-N'],2303.01480v1
+Semantic Segmentation,MCubeS,MMSFormer (RGB-A),51.3,0.9020562770562769,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS,ShareCMP (B2 RGB-A-D),50.99,0.8852813852813854,null,['RGB-A-D'],2312.03430v2
+Semantic Segmentation,MCubeS,ShareCMP(B2 RGB-D),50.55,0.8614718614718613,null,['RGB-D'],2312.03430v2
+Semantic Segmentation,MCubeS,MMSFormer (RGB),50.44,0.8555194805194805,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS,ShareCMP(B2 RGB-A),50.34,0.8501082251082253,null,['RGB-A'],2312.03430v2
+Semantic Segmentation,MCubeS,CMNeXt (B2 RGB-A-D),49.48,0.8035714285714284,null,['RGB-A-D'],2303.01480v1
+Semantic Segmentation,MCubeS,CMNeXt (B2 RGB-A),48.42,0.7462121212121213,null,['RGB-A'],2303.01480v1
+Semantic Segmentation,MCubeS,MCubeSNet (RGB-A-D-N),42.86,0.44534632034632027,null,['RGB-A-D-N'],null
+Semantic Segmentation,MCubeS,DeepLabV3+ (RGB-A-D-N),38.13,0.18939393939393942,null,['RGB-A-D-N'],1802.02611v3
+Semantic Segmentation,MCubeS,DDF (RGB-A-D-N),36.16,0.08279220779220749,null,['RGB-A-D-N'],2104.14107v1
+Semantic Segmentation,MCubeS,DRConv (RGB-A-D-N),34.63,0.0,null,['RGB-A-D-N'],2003.12243v3
+Semantic Segmentation,UrbanLF,CMNeXt (RGB-LF80),81.02,1.0,null,[']'],2303.01480v1
+Semantic Segmentation,UrbanLF,CMNeXt (RGB-LF33),80.98,0.9940740740740752,null,[']'],2303.01480v1
+Semantic Segmentation,UrbanLF,CMNeXt (RGB-LF8),80.74,0.9585185185185183,null,[']'],2303.01480v1
+Semantic Segmentation,UrbanLF,SA-Gate,79.53,0.77925925925926,null,[']'],2007.09183v1
+Semantic Segmentation,UrbanLF,ESANet,79.43,0.764444444444446,null,[']'],2011.06961v3
+Semantic Segmentation,UrbanLF,OCR (HRNetV2-W48),79.36,0.7540740740740746,null,[']'],1505.04597v1
+Semantic Segmentation,UrbanLF,MTINet (HRNetV2-W48),79.1,0.7155555555555553,null,[']'],2001.06902v5
+Semantic Segmentation,UrbanLF,SegFormer,78.53,0.6311111111111118,null,[']'],2105.15203v3
+Semantic Segmentation,UrbanLF,SETR (ViT-Large),77.69,0.5066666666666669,null,[']'],2012.15840v3
+Semantic Segmentation,UrbanLF,TMANet,76.41,0.3170370370370371,null,[']'],2102.08643v2
+Semantic Segmentation,UrbanLF,PSPNet,75.78,0.22370370370370446,null,[']'],1612.01105v2
+Semantic Segmentation,UrbanLF,DeepLabV3+ (ResNet-101),75.39,0.1659259259259266,null,[']'],1802.02611v3
+Semantic Segmentation,UrbanLF,TDNet (ResNet-50),74.71,0.06518518518518485,null,[']'],2004.01800v2
+Semantic Segmentation,UrbanLF,DAVSS,74.27,0.0,null,[']}]</script'],2006.10380v2
+Semantic Segmentation,LIP val,"Hulk(Finetune, ViT-L)",66.02,1.0,null,[']'],2312.01697v4
+Semantic Segmentation,LIP val,"Hulk(Finetune, ViT-B)",63.98,0.9041803663691874,null,[']'],2312.01697v4
+Semantic Segmentation,LIP val,UniHCP (finetune),63.86,0.8985439173320809,null,['Transformer'],2303.02936v4
+Semantic Segmentation,LIP val,SOLIDER,60.5,0.7407233442930955,null,['Transformer'],2303.17602v1
+Semantic Segmentation,LIP val,HRNetV2 + OCR + RMI (PaddleClas pretrained),58.2,0.6326914044152188,null,['HRNet'],1909.11065v6
+Semantic Segmentation,LIP val,OCR (HRNetV2-W48),56.65,0.559887271019258,null,[']'],1909.11065v6
+Semantic Segmentation,LIP val,HRNetV2 (HRNetV2-W48),55.9,0.5246594645373416,null,[']'],1904.04514v1
+Semantic Segmentation,LIP val,OCR (ResNet-101),55.6,0.5105683419445751,null,['hrnet'],1909.11065v6
+Semantic Segmentation,LIP val,CE2P (ResNet-101),53.1,0.3931423203381872,null,['ResNet'],1809.05996v3
+Semantic Segmentation,LIP val,JPPNet (ResNet-101),51.37,0.3118835133865665,null,['ResNet'],1804.01984v1
+Semantic Segmentation,LIP val,MuLA (ResNet-101),49.3,0.21465476749647724,null,['ResNet'],null
+Semantic Segmentation,LIP val,MMAN (ResNet-101),46.81,0.09769844997651506,null,['ResNet'],1807.08260v2
+Semantic Segmentation,LIP val,Attention+SSL (ResNet-101),44.73,0.0,null,['ResNet'],1703.05446v2
+Semantic Segmentation,ScanNetV2,CMX,61.3,1.0,null,[']'],2203.04838v5
+Semantic Segmentation,ScanNetV2,"EMSANet (2x ResNet-34 NBt1D, PanopticNDT version)",60.0,0.9540636042402828,null,[']'],2309.13635v1
+Semantic Segmentation,ScanNetV2,RFBNet,59.2,0.9257950530035337,null,[']'],1907.00135v2
+Semantic Segmentation,ScanNetV2,SSMA,57.7,0.8727915194346292,null,[']'],1808.03833v3
+Semantic Segmentation,ScanNetV2,EMSAFormer,56.4,0.8268551236749117,null,[']'],2306.05242v1
+Semantic Segmentation,ScanNetV2,AdapNet++,50.3,0.6113074204946997,null,[']'],1808.03833v3
+Semantic Segmentation,ScanNetV2,3DMV (2d proj),49.8,0.5936395759717314,null,[']'],1803.10409v1
+Semantic Segmentation,ScanNetV2,MSeg1080_RVC,48.5,0.5477031802120141,null,[']'],2112.13762v1
+Semantic Segmentation,ScanNetV2,PSPNet,47.5,0.5123674911660778,null,[']'],1612.01105v2
+Semantic Segmentation,ScanNetV2,ENet,37.6,0.1625441696113075,null,[']'],1606.02147v1
+Semantic Segmentation,ScanNetV2,ScanNet (2d proj),33.0,0.0,null,[']'],1702.04405v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,MIC,75.9,1.0,null,[']'],2212.01322v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,HRDA + PiPa,75.6,0.9884615384615381,null,[']'],2211.07609v1
+Semantic Segmentation,GTAV-to-Cityscapes Labels,HRDA,73.8,0.919230769230769,null,[']'],2204.13132v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,SePiCo,70.3,0.7846153846153844,null,[']'],2204.08808v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,DAFormer + ProCST,69.4,0.7500000000000001,null,[']'],2204.11891v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,DAFormer,68.3,0.7076923076923074,null,[']'],2111.14887v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,TransDA-B,63.9,0.5384615384615383,null,[']'],2203.07988v1
+Semantic Segmentation,GTAV-to-Cityscapes Labels,G2L,59.7,0.37692307692307697,null,[']'],null
+Semantic Segmentation,GTAV-to-Cityscapes Labels,ProDA+CRA,58.6,0.33461538461538465,null,[']'],2109.06422v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,ProDA,57.5,0.29230769230769227,null,[']'],2101.10979v2
+Semantic Segmentation,GTAV-to-Cityscapes Labels,CMFormer,55.3,0.2076923076923076,null,[']'],2307.00371v5
+Semantic Segmentation,GTAV-to-Cityscapes Labels,CCM,49.9,0.0,null,[']}]</script'],null
+Semantic Segmentation,Nighttime Driving,TADP,60.8,1.0,null,[']'],2310.00031v3
+Semantic Segmentation,Nighttime Driving,CoDA,59.2,0.9352226720647775,null,[']'],2403.17369v2
+Semantic Segmentation,Nighttime Driving,Refign (HRDA),58.0,0.8866396761133604,null,[']'],2207.06825v3
+Semantic Segmentation,Nighttime Driving,Refign (DAFormer),56.8,0.8380566801619433,null,[']'],2207.06825v3
+Semantic Segmentation,Nighttime Driving,MGCDA,49.4,0.5384615384615384,null,[']'],2005.14553v2
+Semantic Segmentation,Nighttime Driving,DANNet (PSPNet),47.7,0.46963562753036453,null,[']'],2104.10834v1
+Semantic Segmentation,Nighttime Driving,GCMA,45.6,0.3846153846153847,null,[']'],1901.05946v2
+Semantic Segmentation,Nighttime Driving,ERF-PSPNet,45.09,0.36396761133603256,null,[']'],1908.05868v1
+Semantic Segmentation,Nighttime Driving,DANNet (DeepLab-v2),44.98,0.3595141700404857,null,[']'],2104.10834v1
+Semantic Segmentation,Nighttime Driving,DANNet (RefineNet),42.36,0.25344129554655864,null,[']'],2104.10834v1
+Semantic Segmentation,Nighttime Driving,CIConv,41.6,0.22267206477732798,null,[']'],2108.05137v2
+Semantic Segmentation,Nighttime Driving,DMAda,36.1,0.0,null,[']}]</script'],1810.02575v1
+Semantic Segmentation,EventScape,CMX (B4),64.28,1.0,null,[']'],2203.04838v5
+Semantic Segmentation,EventScape,CMX (B2),61.9,0.9137993480622961,null,[']'],2203.04838v5
+Semantic Segmentation,EventScape,SegFormer-B4,59.86,0.8399130749728358,null,[']'],2105.15203v3
+Semantic Segmentation,EventScape,SegFormer-B2,58.69,0.7975371242303512,null,[']'],2105.15203v3
+Semantic Segmentation,EventScape,SA-Gate,53.94,0.6254980079681274,null,[']'],2007.09183v1
+Semantic Segmentation,EventScape,DeepLabV3+,53.65,0.6149945671858021,null,[']'],1802.02611v3
+Semantic Segmentation,EventScape,Trans4Trans,51.86,0.5501629844259326,null,[']'],2107.03172v2
+Semantic Segmentation,EventScape,CGNet,44.75,0.2926475914523723,null,[']'],1811.08201v2
+Semantic Segmentation,EventScape,Fast-SCNN,44.27,0.27526258601955816,null,[']'],1902.04502v1
+Semantic Segmentation,EventScape,ISSAFE,43.61,0.25135820354943855,null,[']'],2008.08974v2
+Semantic Segmentation,EventScape,RFNet,41.34,0.16914161535675487,null,[']'],2002.10570v2
+Semantic Segmentation,EventScape,SwiftNet,36.67,0.0,null,[']}]</script'],1903.08469v2
+Semantic Segmentation,FMB Dataset,MMSFormer (RGB-Infrared),61.7,1.0,null,[']'],2309.04001v4
+Semantic Segmentation,FMB Dataset,MMSFormer (RGB),57.2,0.6979865771812082,null,[']'],2309.04001v4
+Semantic Segmentation,FMB Dataset,SegMiF (RGB-Infrared),54.8,0.5369127516778521,null,[']'],2308.02097v1
+Semantic Segmentation,FMB Dataset,ReCoNet (RGB-Infrared),50.9,0.2751677852348993,null,[']'],1807.01197v2
+Semantic Segmentation,FMB Dataset,DIDFuse (RGB-Infrared),50.6,0.25503355704698005,null,[']'],2003.09210v3
+Semantic Segmentation,FMB Dataset,SegMiF (RGB),50.5,0.2483221476510068,null,[']'],2308.02097v1
+Semantic Segmentation,FMB Dataset,GMNet (RGB-Infrared),49.2,0.16107382550335603,null,[']'],2007.09073v1
+Semantic Segmentation,FMB Dataset,TarDAL (RGB-Infrared),48.1,0.08724832214765126,null,[']'],2203.16220v1
+Semantic Segmentation,FMB Dataset,EGFNet (RGB-Infrared),47.3,0.03355704697986576,null,[']'],null
+Semantic Segmentation,FMB Dataset,FEANet (RGB-Infrared),46.8,0.0,null,[']}]</script'],2110.08988v1
+Semantic Segmentation,ISPRS Vaihingen,LSKNet-S,93.6,1.0,null,[']'],2303.09030v2
+Semantic Segmentation,ISPRS Vaihingen,LSKNet-T,93.6,1.0,null,[']'],2303.09030v2
+Semantic Segmentation,ISPRS Vaihingen,EfficientUNets and Transformers,91.8,0.41935483870967727,null,[']'],2206.09731v2
+Semantic Segmentation,ISPRS Vaihingen,FT-UNetFormer,91.6,0.35483870967741815,null,[']'],2109.08937v4
+Semantic Segmentation,ISPRS Vaihingen,DC-Swin,91.6,0.35483870967741815,null,[']'],2104.12137v6
+Semantic Segmentation,ISPRS Vaihingen,UNetFormer,91.0,0.16129032258064546,null,[']'],2109.08937v4
+Semantic Segmentation,ISPRS Vaihingen,MANet,90.96,0.1483870967741918,null,[']'],null
+Semantic Segmentation,ISPRS Vaihingen,ABCNet,90.7,0.0645161290322591,null,[']'],2102.02531v1
+Semantic Segmentation,ISPRS Vaihingen,BANet,90.5,0.0,null,[']}]</script'],2106.12413v2
+Semantic Segmentation,SpaceNet 1,MAE+MTP(ViT-L),79.69,1.0,null,[']'],2403.13430v2
+Semantic Segmentation,SpaceNet 1,MAE+MTP(ViT-B+RVSA),79.63,0.9873949579831928,null,[']'],2403.13430v2
+Semantic Segmentation,SpaceNet 1,MAE+MTP(ViT-L+RVSA),79.54,0.968487394957985,null,[']'],2403.13430v2
+Semantic Segmentation,SpaceNet 1,IMP+MTP(InternImage-XL),79.16,0.8886554621848735,null,[']'],2403.13430v2
+Semantic Segmentation,SpaceNet 1,PSANet w/ ResNet50 - FMoW self-supervised pre-training w/ MoCo-V2 + Temporal Positives,78.48,0.7457983193277319,null,[']'],2011.09980v7
+Semantic Segmentation,SpaceNet 1,PSANet w/ ResNet50 backbone - FMoW self-supervised pre-training w/ MoCo-V2,78.05,0.6554621848739488,null,[']'],2011.09980v7
+Semantic Segmentation,SpaceNet 1,PSANet w/ ResNet50 backbone - FMoW pretrained,75.57,0.13445378151260243,null,[']'],2011.09980v7
+Semantic Segmentation,SpaceNet 1,PSANet w/ ResNet50 backbone - ImageNet pretrained,75.23,0.06302521008403314,null,[']'],2011.09980v7
+Semantic Segmentation,SpaceNet 1,PSANet w/ ResNet50 backbone,74.93,0.0,null,[']}]</script'],2011.09980v7
+Semantic Segmentation,ZJU-RGB-P,ShareCMP (B4 RGB-FP),92.7,1.0,null,[']'],2312.03430v2
+Semantic Segmentation,ZJU-RGB-P,CMX (B4 RGB-AoLP),92.6,0.9919354838709671,null,[']'],2203.04838v5
+Semantic Segmentation,ZJU-RGB-P,ShareCMP (B2 RGB-FP),92.4,0.9758064516129035,null,[']'],2312.03430v2
+Semantic Segmentation,ZJU-RGB-P,CMX (B2 RGB-DoLP),92.2,0.9596774193548387,null,[']'],2203.04838v5
+Semantic Segmentation,ZJU-RGB-P,SegFormer-B2 (RGB),89.6,0.7499999999999994,null,[']'],2105.15203v3
+Semantic Segmentation,ZJU-RGB-P,EAFNet (RGB-AoLP),85.7,0.4354838709677422,null,[']'],2011.13313v2
+Semantic Segmentation,ZJU-RGB-P,EAFNet (RGB-DoLP),85.4,0.4112903225806457,null,[']'],2011.13313v2
+Semantic Segmentation,ZJU-RGB-P,EAFNet (3Path),83.4,0.25000000000000056,null,[']'],2011.13313v2
+Semantic Segmentation,ZJU-RGB-P,SwiftNet (RGB),80.3,0.0,null,[']}]</script'],1903.08469v2
+Semantic Segmentation,INRIA Aerial Image Labeling,UANet(PVT-V2-B2),83.34,1.0,null,[']'],2307.12309v1
+Semantic Segmentation,INRIA Aerial Image Labeling,UANet(Re2sNet50),83.17,0.9437086092715228,null,[']'],2307.12309v1
+Semantic Segmentation,INRIA Aerial Image Labeling,UANet(VGG-16),83.08,0.9139072847682105,null,[']'],2307.12309v1
+Semantic Segmentation,INRIA Aerial Image Labeling,SDSC-UNet,83.01,0.8907284768211929,null,[']'],null
+Semantic Segmentation,INRIA Aerial Image Labeling,DSAT-Net,82.68,0.781456953642386,null,[']'],null
+Semantic Segmentation,INRIA Aerial Image Labeling,UANet(ResNet50),82.17,0.6125827814569544,null,[']'],2307.12309v1
+Semantic Segmentation,INRIA Aerial Image Labeling,ICT-Net,80.32,0.0,null,[']'],1912.09216v1
+Semantic Segmentation,LLRGBD-synthetic,SMMCL (SegNeXt-B),68.76,1.0,null,[']'],2308.12320v2
+Semantic Segmentation,LLRGBD-synthetic,SMMCL (SegFormer-B2),67.77,0.8579626972740304,null,[']'],2308.12320v2
+Semantic Segmentation,LLRGBD-synthetic,CMX (SegFormer-B2),66.52,0.6786226685796259,null,[']'],2203.04838v5
+Semantic Segmentation,LLRGBD-synthetic,TokenFusion (SegFormer-B2),64.75,0.42467718794834985,null,[']'],2204.08721v2
+Semantic Segmentation,LLRGBD-synthetic,SMMCL (ResNet-101),64.4,0.3744619799139174,null,[']'],2308.12320v2
+Semantic Segmentation,LLRGBD-synthetic,ShapeConv (ResNeXt-101),63.26,0.21090387374461947,null,[']'],2108.10528v1
+Semantic Segmentation,LLRGBD-synthetic,CEN (ResNet-101),62.15,0.0516499282639884,null,[']'],2112.02252v2
+Semantic Segmentation,LLRGBD-synthetic,SA-Gate (ResNet-101),61.79,0.0,null,[']}]</script'],2007.09183v1
+Semantic Segmentation,UPLight,ShareCMP (B2 RGB-FP),92.45,1.0,null,[']'],2312.03430v2
+Semantic Segmentation,UPLight,CMX (B2 RGB-AoLP),92.13,0.9725321888412011,null,[']'],2203.04838v5
+Semantic Segmentation,UPLight,CMX (B2 RGB-DoLP),92.07,0.9673819742489262,null,[']'],2203.04838v5
+Semantic Segmentation,UPLight,SegFormer-B2 (RGB),89.6,0.7553648068669522,null,[']'],2105.15203v3
+Semantic Segmentation,UPLight,EAFNet (RGB-AoLP),87.53,0.5776824034334764,null,[']'],2011.13313v2
+Semantic Segmentation,UPLight,EAFNet (RGB-DoLP),87.34,0.5613733905579402,null,[']'],2011.13313v2
+Semantic Segmentation,UPLight,MCubeSNet (RGB-AoLP),82.64,0.15793991416309033,null,[']'],null
+Semantic Segmentation,UPLight,MCubeSNet (RGB-DoLP),80.8,0.0,null,[']}]</script'],null
+Semantic Segmentation,DELIVER,GeminiFusion,66.9,1.0,null,[']'],2406.01210v2
+Semantic Segmentation,DELIVER,CMNeXt (RGB-D-E-LiDAR),66.3,0.9381443298969063,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,CMNeXt (RGB-D-LiDAR),65.5,0.8556701030927829,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,CMNeXt (RGB-D-Event),64.44,0.7463917525773188,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,CMNeXt (RGB-Depth),63.58,0.6577319587628859,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,CMNeXt (RGB-LiDAR),58.04,0.08659793814432949,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,CMNeXt (RGB-Event),57.48,0.028865979381442676,null,[']'],2303.01480v1
+Semantic Segmentation,DELIVER,SegFormer,57.2,0.0,null,[']}]</script'],2105.15203v3
+Semantic Segmentation,MCubeS (P),MMSFormer (RGB-A-D),52.03,1.0,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS (P),MMSFormer (RGB-A),51.3,0.7977839335180044,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS (P),ShareCMP (B2 RGB-A-D),50.99,0.7119113573407204,null,[']'],2312.03430v2
+Semantic Segmentation,MCubeS (P),ShareCMP (B2 RGB-D),50.55,0.5900277008310237,null,[']'],2312.03430v2
+Semantic Segmentation,MCubeS (P),MMSFormer (RGB),50.44,0.5595567867036001,null,[']'],2309.04001v4
+Semantic Segmentation,MCubeS (P),ShareCMP(B2 RGB-A),50.34,0.5318559556786709,null,[']'],2312.03430v2
+Semantic Segmentation,MCubeS (P),CMNeXt (B2 RGB-A-D),49.48,0.2936288088642646,null,[']'],2303.01480v1
+Semantic Segmentation,MCubeS (P),CMNeXt (B2 RGB-A),48.42,0.0,null,[']}]</script'],2303.01480v1
+Semantic Segmentation,SpectralWaste,CMX (RGB-HYPER),58.2,1.0,null,[']'],2203.04838v5
+Semantic Segmentation,SpectralWaste,CMX ( RGB-HYPER3 ),56.6,0.8832116788321167,null,[']'],2203.04838v5
+Semantic Segmentation,SpectralWaste,SegFormer (HYPER),54.3,0.7153284671532844,null,[']'],2105.15203v3
+Semantic Segmentation,SpectralWaste,SegFormer (HYPER3),53.5,0.6569343065693429,null,[']'],2105.15203v3
+Semantic Segmentation,SpectralWaste,MiniNet (HYPER),52.8,0.6058394160583939,null,[']'],2006.15350v1
+Semantic Segmentation,SpectralWaste,MiniNet (HYPER3),49.0,0.32846715328467146,null,[']'],2006.15350v1
+Semantic Segmentation,SpectralWaste,SegFormer (RGB),48.4,0.28467153284671515,null,[']'],2105.15203v3
+Semantic Segmentation,SpectralWaste,MiniNet (RGB),44.5,0.0,null,[']}]</script'],2006.15350v1
+Semantic Segmentation,DDD17,CMNeXt,72.67,1.0,null,[']'],2303.01480v1
+Semantic Segmentation,DDD17,CMX,71.88,0.9557670772676369,null,[']'],2203.04838v5
+Semantic Segmentation,DDD17,SegNeXt-B,71.46,0.9322508398656211,null,[']'],2209.08575v1
+Semantic Segmentation,DDD17,SegFormer-B2,71.05,0.9092945128779393,null,[']'],2105.15203v3
+Semantic Segmentation,DDD17,EDCNet-S2D,61.99,0.40201567749160133,null,[']'],2112.05006v1
+Semantic Segmentation,DDD17,ESS,61.37,0.3673012318029113,null,[']'],2203.10016v2
+Semantic Segmentation,DDD17,HALSIE,60.66,0.3275475923852181,null,[']'],2211.10754v4
+Semantic Segmentation,DDD17,EV-SegNet,54.81,0.0,null,[']}]</script'],1811.12039v1
+Semantic Segmentation,DSEC,CMNeXt,72.54,1.0,null,[']'],2303.01480v1
+Semantic Segmentation,DSEC,CMX,72.42,0.9942775393419168,null,[']'],2203.04838v5
+Semantic Segmentation,DSEC,SegFormer-B2,71.99,0.9737720553171192,null,[']'],2105.15203v3
+Semantic Segmentation,DSEC,SegNeXt-B,71.55,0.952789699570815,null,[']'],2209.08575v1
+Semantic Segmentation,DSEC,EDCNet-S2D,56.75,0.2470195517405817,null,[']'],2112.05006v1
+Semantic Segmentation,DSEC,HALSIE,52.43,0.04101096804959462,null,[']'],2211.10754v4
+Semantic Segmentation,DSEC,EV-SegNet,51.76,0.009060562708631268,null,[']'],1811.12039v1
+Semantic Segmentation,DSEC,ESS,51.57,0.0,null,[']}]</script'],2203.10016v2
+Semantic Segmentation,KITTI Semantic Segmentation,RPVNet [xu2021rpvnet],80.7,1.0,null,[']'],2303.12766v1
+Semantic Segmentation,KITTI Semantic Segmentation,DeepLabV3Plus + SDCNetAug,72.83,0.7596212583995112,null,['DCN'],1812.01593v3
+Semantic Segmentation,KITTI Semantic Segmentation,MapillaryAI,69.56,0.6597434331093464,null,[']'],1712.02616v3
+Semantic Segmentation,KITTI Semantic Segmentation,SIW,68.9,0.6395846059865609,null,[']'],2202.02002v2
+Semantic Segmentation,KITTI Semantic Segmentation,AHiSS,61.24,0.405620036652413,null,[']'],1803.05675v2
+Semantic Segmentation,KITTI Semantic Segmentation,SegStereo,59.1,0.34025656689065364,null,[']'],1807.11699v1
+Semantic Segmentation,KITTI Semantic Segmentation,APMoE_seg,47.96,0.0,null,[']}]</script'],1805.01556v2
+Semantic Segmentation,SkyScapes-Dense,SkyScapesNet-Dense,40.13,1.0,null,[']'],null
+Semantic Segmentation,SkyScapes-Dense,DeepLabv3+,38.2,0.9257120862201694,null,[']'],1802.02611v3
+Semantic Segmentation,SkyScapes-Dense,FCN8s (ResNet-50),33.06,0.7278675904541956,null,['ResNet'],1411.4038v2
+Semantic Segmentation,SkyScapes-Dense,BiSeNet (ResNet-50),30.82,0.6416474210931485,null,['ResNet'],1808.00897v1
+Semantic Segmentation,SkyScapes-Dense,DenseASPP (ResNet-101),24.73,0.4072363356428021,null,['ResNet'],null
+Semantic Segmentation,SkyScapes-Dense,SegNet,23.14,0.34603541185527326,null,[']'],1511.00561v3
+Semantic Segmentation,SkyScapes-Dense,U-Net,14.15,0.0,null,[']}]</script'],1505.04597v1
+Semantic Segmentation,FoodSeg103,FoodSAM,46.4,1.0,null,[']'],2308.05938v1
+Semantic Segmentation,FoodSeg103,SeTR-MLA (ViT-16/B),45.1,0.8807339449541287,null,[']'],2012.15840v3
+Semantic Segmentation,FoodSeg103,SeTR-Naive (ReLeM-ViT-16/B),43.9,0.7706422018348623,null,[']'],2105.05409v1
+Semantic Segmentation,FoodSeg103,Swin-Transformer (Swin-Small),41.6,0.559633027522936,null,[']'],2103.14030v2
+Semantic Segmentation,FoodSeg103,SeTR-Naive (ViT-16/B),41.3,0.5321100917431191,null,[']'],2012.15840v3
+Semantic Segmentation,FoodSeg103,CCNet (ReLeM-ResNet-50),36.8,0.11926605504587132,null,[']'],2105.05409v1
+Semantic Segmentation,FoodSeg103,CCNet (ResNet-50),35.5,0.0,null,['ResNet'],1811.11721v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,HRDA + PiPa,68.2,1.0,null,[']'],2211.07609v1
+Semantic Segmentation,SYNTHIA-to-Cityscapes,MIC,67.3,0.8988764044943814,null,[']'],2212.01322v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,HRDA,65.8,0.730337078651685,null,[']'],2204.13132v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,SePiCo,64.3,0.5617977528089884,null,[']'],2204.08808v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,DAFormer + ProCST,61.6,0.25842696629213513,null,[']'],2204.11891v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,DAFormer,60.9,0.17977528089887646,null,[']'],2111.14887v2
+Semantic Segmentation,SYNTHIA-to-Cityscapes,TransDA-B,59.3,0.0,null,[']}]</script'],2203.07988v1
+Semantic Segmentation,UAVid,U-Net Ensemble,73.34,1.0,null,[']'],null
+Semantic Segmentation,UAVid,U-Net (MaxViT-S),71.88,0.8471204188481668,null,[']'],null
+Semantic Segmentation,UAVid,LSKNet-S,70.0,0.6502617801047118,null,[']'],2303.09030v2
+Semantic Segmentation,UAVid,LSKNet-T,69.3,0.5769633507853399,null,[']'],2303.09030v2
+Semantic Segmentation,UAVid,UNetFormer,67.8,0.41989528795811476,null,[']'],2109.08937v4
+Semantic Segmentation,UAVid,BANet,64.6,0.08481675392670103,null,[']'],2106.12413v2
+Semantic Segmentation,UAVid,ABCNet,63.79,0.0,null,[']}]</script'],2102.02531v1
+Semantic Segmentation,SynPASS,Trans4PASS+,39.16,1.0,null,[']'],2207.11860v5
+Semantic Segmentation,SynPASS,Trans4PASS,38.57,0.9669652855543115,null,[']'],2203.01452v2
+Semantic Segmentation,SynPASS,SegFomrer,37.24,0.8924972004479286,null,[']'],2105.15203v3
+Semantic Segmentation,SynPASS,HRNet,34.09,0.7161254199328111,null,[']'],1908.07919v2
+Semantic Segmentation,SynPASS,PVT,32.68,0.6371780515117582,null,[']'],2102.12122v2
+Semantic Segmentation,SynPASS,DeepLabv3+,29.66,0.4680851063829788,null,[']'],1802.02611v3
+Semantic Segmentation,SynPASS,Fast-SCNN,21.3,0.0,null,[']}]</script'],1902.04502v1
+Semantic Segmentation,SELMA,CMX,91.7,1.0,null,[']'],2203.04838v5
+Semantic Segmentation,SELMA,SegFormer,77.2,0.7387387387387387,null,[']'],2105.15203v3
+Semantic Segmentation,SELMA,DeepLabV3,70.7,0.6216216216216216,null,[']'],1706.05587v3
+Semantic Segmentation,SELMA,DeepLabV2,68.9,0.5891891891891893,null,[']'],1606.00915v2
+Semantic Segmentation,SELMA,PSPNet,68.4,0.5801801801801802,null,[']'],1612.01105v2
+Semantic Segmentation,SELMA,FCN,68.2,0.5765765765765766,null,[']'],1411.4038v2
+Semantic Segmentation,SELMA,UNet,36.2,0.0,null,[']}]</script'],1505.04597v1
+Semantic Segmentation,VDD,Segformer-B2,85.75,1.0,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,UperNet(Swin-L),85.63,0.9884393063583811,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,UperNet(Swin-T),84.73,0.9017341040462431,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,Mask2Former(ResNet-50),83.21,0.7552986512524078,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,Segformer-B5,82.11,0.6493256262042387,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,Mask2Former(Swin-T),77.85,0.2389210019267814,null,[']'],2305.13608v2
+Semantic Segmentation,VDD,Segformer-B0,75.37,0.0,null,[']}]</script'],2305.13608v2
+Semantic Segmentation,Mapillary val,AO-SegNet,76.0,1.0,null,[']'],null
+Semantic Segmentation,Mapillary val,"OneFormer (DiNAT-L, multi-scale)",64.9,0.694214876033058,null,[']'],2211.06220v2
+Semantic Segmentation,Mapillary val,"Mask2Former (Swin-L, multiscale)",64.7,0.6887052341597797,null,[']'],2112.01527v3
+Semantic Segmentation,Mapillary val,MaskFormer (ResNet-50),55.4,0.4325068870523415,null,[']'],2107.06278v2
+Semantic Segmentation,Mapillary val,NiseNet,48.32,0.23746556473829195,null,[']'],null
+Semantic Segmentation,Mapillary val,SegBlocks-RN50 (t=0.4),39.7,0.0,null,[']}]</script'],2011.12025v2
+Semantic Segmentation,MS COCO,"OneFormer (InternImage-H, emb_dim=1024, single-scale)",68.8,1.0,null,[']'],2211.06220v2
+Semantic Segmentation,MS COCO,"OneFormer (DiNAT-L, single-scale)",68.1,0.983451536643026,null,"['Transformer', 'Neighborhood Attention']",2211.06220v2
+Semantic Segmentation,MS COCO,"OneFormer (Swin-L, single-scale)",67.4,0.9669030732860522,null,[']'],2211.06220v2
+Semantic Segmentation,MS COCO,"Mask2Former (Swin-L, single-scale)",67.4,0.9669030732860522,null,[']'],2112.01527v3
+Semantic Segmentation,MS COCO,"MaskFormer (Swin-L, single-scale)",64.8,0.9054373522458629,null,[']'],2112.01527v3
+Semantic Segmentation,MS COCO,SegCLIP,26.5,0.0,null,[']}]</script'],2211.14813v2
+Semantic Segmentation,Stanford2D3D - RGBD,CMX (SegFormer-B4),62.1,1.0,null,[']'],2203.04838v5
+Semantic Segmentation,Stanford2D3D - RGBD,CMX (SegFormer-B2),61.2,0.9601769911504425,null,[']'],2203.04838v5
+Semantic Segmentation,Stanford2D3D - RGBD,ShapeConv-101,60.6,0.9336283185840708,null,[']'],2108.10528v1
+Semantic Segmentation,Stanford2D3D - RGBD,Linear Fusion (Segformer B2),57.16,0.7814159292035396,null,[']'],2304.10756v1
+Semantic Segmentation,Stanford2D3D - RGBD,MMAF-Net-152,52.9,0.5929203539823008,null,[']'],1912.11691v1
+Semantic Segmentation,Stanford2D3D - RGBD,Depth-aware CNN,39.5,0.0,null,[']}]</script'],1803.06791v1
+Semantic Segmentation,Event-based Segmentation Dataset,Bimodal SegNet,87.05,1.0,null,[']'],2303.11228v2
+Semantic Segmentation,Event-based Segmentation Dataset,CMX,85.81,0.9548269581056468,null,[']'],2203.04838v5
+Semantic Segmentation,Event-based Segmentation Dataset,SA-Gate,84.08,0.8918032786885246,null,[']'],2007.09183v1
+Semantic Segmentation,Event-based Segmentation Dataset,DeepLab,71.05,0.41712204007285963,null,[']'],1606.00915v2
+Semantic Segmentation,Event-based Segmentation Dataset,U-Net,64.7,0.18579234972677602,null,[']'],1505.04597v1
+Semantic Segmentation,Event-based Segmentation Dataset,FCN,59.6,0.0,null,[']}]</script'],1411.4038v2
+Semantic Segmentation,GAMUS,TIMF,76.38,1.0,null,[']'],2305.14914v1
+Semantic Segmentation,GAMUS,CMX,75.23,0.951374207188161,null,[']'],2203.04838v5
+Semantic Segmentation,GAMUS,VCD,59.7,0.2947145877378438,null,[']'],null
+Semantic Segmentation,GAMUS,RTFNet,58.26,0.23382663847780133,null,[']'],null
+Semantic Segmentation,GAMUS,ShapeConv,55.86,0.13234672304439757,null,[']'],2108.10528v1
+Semantic Segmentation,GAMUS,MFNet,52.73,0.0,null,[']}]</script'],null
+Semantic Segmentation,ACDC Scribbles,ScribFormer,88.8,1.0,null,[']'],2402.02029v1
+Semantic Segmentation,ACDC Scribbles,ScribbleVC,88.4,0.9848484848484852,null,[']'],2307.16226v1
+Semantic Segmentation,ACDC Scribbles,CycleMix,84.8,0.8484848484848485,null,[']'],2203.01475v2
+Semantic Segmentation,ACDC Scribbles,CutMix,70.5,0.3068181818181819,null,[']'],1905.04899v2
+Semantic Segmentation,ACDC Scribbles,TFCNs,64.5,0.0795454545454546,null,[']'],2207.03450v1
+Semantic Segmentation,ACDC Scribbles,Puzzle Mix,62.4,0.0,null,[']}]</script'],2009.06962v2
+Semantic Segmentation,ShapeNet,PatchFormer,86.5,1.0,null,[']'],2111.00207v3
+Semantic Segmentation,ShapeNet,SGPN,85.8,0.6315789473684207,null,[']'],1711.08588v2
+Semantic Segmentation,ShapeNet,JSNet,85.8,0.6315789473684207,null,[']'],1912.09654v1
+Semantic Segmentation,ShapeNet,Point-PlaneNet,85.1,0.2631578947368413,null,[']'],null
+Semantic Segmentation,ShapeNet,PointNet++,84.6,0.0,null,[']}]</script'],1706.02413v1
+Semantic Segmentation,BIG,PSPNet + CascadePSP,75.32,1.0,null,[']'],2005.02551v1
+Semantic Segmentation,BIG,RefineNet + CascadePSP,74.77,0.9335748792270534,null,[']'],2005.02551v1
+Semantic Segmentation,BIG,DeepLabV3+ + CascadePSP,74.59,0.9118357487922716,null,[']'],2005.02551v1
+Semantic Segmentation,BIG,FCN + CascadePSP,67.04,0.0,null,[']}]</script'],2005.02551v1
+Semantic Segmentation,PETRAW,NCC Next,96.9,1.0,null,[']'],2202.05821v3
+Semantic Segmentation,PETRAW,SK,96.4,0.957983193277311,null,[']'],2202.05821v3
+Semantic Segmentation,PETRAW,MediCIS,94.0,0.756302521008403,null,[']'],2202.05821v3
+Semantic Segmentation,PETRAW,Hutom,85.0,0.0,null,[']}]</script'],2202.05821v3
+Semantic Segmentation,Hypersim,MultiMAE (ViT-B),37.0,1.0,null,[']'],2204.01678v1
+Semantic Segmentation,Hypersim,MAE (ViT-B),36.5,0.9056603773584906,null,[']'],2204.01678v1
+Semantic Segmentation,Hypersim,DINO (ViT-B),32.5,0.1509433962264152,null,[']'],2204.01678v1
+Semantic Segmentation,Hypersim,MoCo-v3 (ViT-B),31.7,0.0,null,[']}]</script'],2204.01678v1
+Semantic Segmentation,Structured3D,SFSS-MMSI (RGB+Depth+Normal),71.97,1.0,null,[']'],2308.09369v1
+Semantic Segmentation,Structured3D,SFSS-MMSI (RGB+Normal),71.0,0.7327823691460055,null,[']'],2308.09369v1
+Semantic Segmentation,Structured3D,SFSS-MMSI (RGB+Depth),70.17,0.5041322314049589,null,[']'],2308.09369v1
+Semantic Segmentation,Structured3D,SFSS-MMSI (RGB Only),68.34,0.0,null,[']}]</script'],2308.09369v1
+Semantic Segmentation,Matterport3D,SFSS-MMSI (RGB+Depth),35.92,1.0,null,[']'],2308.09369v1
+Semantic Segmentation,Matterport3D,SFSS-MMSI (RGB+Normal),35.77,0.9675324675324678,null,[']'],2308.09369v1
+Semantic Segmentation,Matterport3D,SFSS-MMSI (RGB+Depth+Normal),35.52,0.9134199134199138,null,[']'],2308.09369v1
+Semantic Segmentation,Matterport3D,SFSS-MMSI (RGB Only),31.3,0.0,null,[']}]</script'],2308.09369v1
+Semantic Segmentation,CC3M-TagMask,TTD (TCL),65.5,1.0,null,[']'],2404.00384v2
+Semantic Segmentation,CC3M-TagMask,TCL,60.4,0.7918367346938775,null,[']'],2212.00785v2
+Semantic Segmentation,CC3M-TagMask,TTD (MaskCLIP),50.2,0.37551020408163277,null,[']'],2404.00384v2
+Semantic Segmentation,CC3M-TagMask,MaskCLIP,41.0,0.0,null,[']}]</script'],2112.01071v2
+Semantic Segmentation,PASCAL VOC 2011 test,Plugin network,72.2,1.0,null,[']'],1901.00326v3
+Semantic Segmentation,PASCAL VOC 2011 test,FCN-VGG16,32.0,0.1927710843373494,null,[']'],1605.06211v1
+Semantic Segmentation,PASCAL VOC 2011 test,FCN-pool4,22.4,0.0,null,[']}]</script'],1605.06211v1
+Semantic Segmentation,RELLIS-3D Dataset,GA-Nav,74.44,1.0,null,[']'],2103.04233v5
+Semantic Segmentation,RELLIS-3D Dataset,gscnn,50.13,0.05076142131979712,null,[']'],2011.12954v4
+Semantic Segmentation,RELLIS-3D Dataset,hrnet+OCR,48.83,0.0,null,[']}]</script'],2011.12954v4
+Semantic Segmentation,PASTIS,Exchanger+Mask2Former,67.9,1.0,null,[']'],2305.02086v2
+Semantic Segmentation,PASTIS,Exchanger+Unet,66.8,0.7708333333333318,null,[']'],2305.02086v2
+Semantic Segmentation,PASTIS,U-TAE,63.1,0.0,null,[']}]</script'],2107.07933v4
+Semantic Segmentation,SIFT-flow,RBE2E,64.0,1.0,null,[']'],1607.07671v1
+Semantic Segmentation,SIFT-flow,JCSS,59.2,0.7500000000000002,null,[']'],1507.01581v4
+Semantic Segmentation,SIFT-flow,JCSS (weakly supervised),44.8,0.0,null,[']}]</script'],1507.01581v4
+Semantic Segmentation,Stanford2D3D Panoramic - RGBD,CBFC,70.8,1.0,null,[']'],2207.02437v1
+Semantic Segmentation,Stanford2D3D Panoramic - RGBD,Tangent (ResNet-101),69.1,0.10526315789473133,null,[']'],1912.09390v3
+Semantic Segmentation,Stanford2D3D Panoramic - RGBD,HoHoNet (ResNet-101),68.9,0.0,null,[']}]</script'],2011.11498v3
+Semantic Segmentation,Toronto-3D L002,SCF-Net,93.5,1.0,null,[']'],null
+Semantic Segmentation,Toronto-3D L002,PointNet++,91.2,0.5490196078431373,null,[']'],1706.02413v1
+Semantic Segmentation,Toronto-3D L002,RandLA-Net,88.4,0.0,null,[']}]</script'],1911.11236v3
+Semantic Segmentation,Montgomery County X-ray Set,UNETR + SS-CXR,0.956,1.0,null,[']'],2211.12944v2
+Semantic Segmentation,Montgomery County X-ray Set,UNETR+ SS-IN,0.945,0.676470588235293,null,[']'],2211.12944v2
+Semantic Segmentation,Montgomery County X-ray Set,UNETR,0.922,0.0,null,[']}]</script'],2211.12944v2
+Semantic Segmentation,dacl10k v1 testdev,FPN EfficientNet-B4 w/ Aux loss,0.414,1.0,null,[']'],2309.00460v1
+Semantic Segmentation,dacl10k v1 testdev,DeepLabv3+ EfficientNet-B4,0.411,0.7857142857142848,null,[']'],2309.00460v1
+Semantic Segmentation,dacl10k v1 testdev,SegFormer mit-b1,0.4,0.0,null,[']}]</script'],2309.00460v1
+Semantic Segmentation,SYNTHIA-CVPR’16,SSMA,92.1,1.0,null,[']'],1808.03833v3
+Semantic Segmentation,SYNTHIA-CVPR’16,AdapNet++,87.87,0.0,null,[']}]</script'],1808.03833v3
+Semantic Segmentation,Freiburg Forest,SSMA,84.18,1.0,null,[']'],1808.03833v3
+Semantic Segmentation,Freiburg Forest,AdapNet++,83.09,0.0,null,[']}]</script'],1808.03833v3
+Semantic Segmentation,38-Cloud,Cloud-Net+,88.9,1.0,null,[']'],2001.08768v2
+Semantic Segmentation,38-Cloud,Cloud-Net,87.32,0.0,null,[']}]</script'],1901.10077v1
+Semantic Segmentation,PASCAL VOC 2007,GALDNet,83.0,1.0,null,[']'],1909.07229v1
+Semantic Segmentation,PASCAL VOC 2007,DeepLabv3 (ImageNet+300M),81.3,0.0,null,[']}]</script'],1707.02968v2
+Semantic Segmentation,SkyScapes-Lane,SkyScapesNet-Lane,50.93,1.0,null,[']'],null
+Semantic Segmentation,SkyScapes-Lane,FCN8s (ResNet-50),13.74,0.0,null,['ResNet'],1411.4038v2
+Semantic Segmentation,Kvasir-Instrument,DoubleUNet,0.903,1.0,null,[']'],2006.04868v2
+Semantic Segmentation,Graz-02,VOLO-D5,85.0,1.0,null,[']'],2106.13112v2
+Semantic Segmentation,Graz-02,FloodTransformer (Ours),0.96,0.0,null,[']}]</script'],2210.04218v1
+Semantic Segmentation,Cleargrasp (Novel),Cleargrasp,58.0,1.0,null,[']'],1910.02550v2
+Semantic Segmentation,Cleargrasp (Novel),SuperCaustics-R,53.16,0.0,null,[']}]</script'],2107.11008v2
+Semantic Segmentation,Cityscapes,SPFNet34M,77.8,1.0,null,[']'],2206.07298v3
+Semantic Segmentation,Cityscapes,DiffSeg (512),21.2,0.0,null,[']}]</script'],2308.12469v3
+Semantic Segmentation,Endoscapes,MoCo V2 Surg SSL -  DeepLabv3+ head,73.2,1.0,null,[']'],2207.00449v3
+Semantic Segmentation,Endoscapes,TCNN,73.1,0.0,null,[']}]</script'],2112.13815v1
+Semantic Segmentation,HERA RFI Detection,Nearest Latent Neighbours,0.94,1.0,null,[']'],2311.14303v2
+Semantic Segmentation,HERA RFI Detection,Spiking Nerest Latent Neighbours,0.92,0.0,null,[']}]</script'],2311.14303v2
+Semantic Segmentation,LOFAR RFI Detection,Nearest Latent Neighbours,0.414,1.0,null,[']'],2311.14303v2
+Semantic Segmentation,LOFAR RFI Detection,Spiking Nerest Latent Neighbours,0.321,0.0,null,[']}]</script'],2311.14303v2
+Semantic Segmentation,BDD,FasterSeg,55.1,1.0,null,[']}]</script'],1912.10917v2
+Semantic Segmentation,COCO-Stuff,Deeplab v2,47.6,1.0,null,[']}]</script'],1612.03716v4
+Semantic Segmentation,Cam2BEV,uNetXST,71.92,1.0,null,[']}]</script'],2005.04078v1
+Semantic Segmentation,ApolloScape,ERFNet-IntRA-KD (ours),43.2,1.0,null,[']}]</script'],2004.05304v1
+Semantic Segmentation,DroneDeploy,DLv3+ (Xception65),52.5,1.0,null,[']}]</script'],2012.02024v1
+Semantic Segmentation,ManipalUAVid,UVid-Net,0.79,1.0,null,[']}]</script'],2011.14284v2
+Semantic Segmentation,Cityscapes VIPriors subset,EfficientSeg,81.68,1.0,null,[']}]</script'],2009.06469v2
+Semantic Segmentation,SBCoseg,Dice loss + IS-Triplet loss,0.951,1.0,null,[']}]</script'],2103.10670v1
+Semantic Segmentation,PASCAL VOC 2010 test,SIW,81.1,1.0,null,[']}]</script'],2202.02002v2
+Semantic Segmentation,PASCAL VOC 2012,DLDL-8s+CRF,67.1,1.0,null,[']}]</script'],1611.01731v2
+Semantic Segmentation,COCO-Stuff full,SegFormer-B5 (Single Scale),46.7,1.0,null,[']}]</script'],2105.15203v3
+Semantic Segmentation,PASCAL VOC 2011,DLDL-8s+CRF,67.6,1.0,null,[']}]</script'],1611.01731v2
+Semantic Segmentation,AIRS,ICT-Net,91.7,1.0,null,[']}]</script'],1912.09216v1
+Semantic Segmentation,WildDash,SIW,69.7,1.0,null,[']}]</script'],2202.02002v2
+Semantic Segmentation,OpenEDS,RITnet,95.3,1.0,null,[']}]</script'],1910.00694v1
+Semantic Segmentation,SYNTHIA,CGA-Net,83.8,1.0,null,[']}]</script'],null
+Semantic Segmentation,PASCAL VOC,SegCLIP,52.6,1.0,null,[']}]</script'],2211.14813v2
+Semantic Segmentation,DIVA-HisDB,U-Net,97.26,1.0,null,[']}]</script'],2201.08295v3
+Semantic Segmentation,ATLANTIS,Erfani et al.,68.63,1.0,null,[']}]</script'],2111.11567v1
+Semantic Segmentation,PH2,MFSNet,95.4,1.0,null,[']}]</script'],2203.14341v2
+Semantic Segmentation,ISIC 2017,MFSNet,98.7,1.0,null,[']}]</script'],2203.14341v2
+Semantic Segmentation,HAM10000,MFSNet,90.6,1.0,null,[']}]</script'],2203.14341v2
+Semantic Segmentation,Mila Simulated Floods,FloodTransformer (Ours),0.93,1.0,null,[']}]</script'],2210.04218v1
+Semantic Segmentation,SWIMSEG,ACLNet,0.964,1.0,null,[']}]</script'],2207.06277v1
+Semantic Segmentation,SWINSEG,ACLNet,0.917,1.0,null,[']}]</script'],2207.06277v1
+Semantic Segmentation,SWINySEG,ACLNet,0.959,1.0,null,[']}]</script'],2207.06277v1
+Semantic Segmentation,MixedWM38,WaferSegClassNet,0.999,1.0,null,[']}]</script'],2207.00960v1
+Semantic Segmentation,PASTIS-R,Late Fusion,66.3,1.0,null,[']}]</script'],2112.07558v1
+Semantic Segmentation,Cityscapes 3D,TaskPrompter,77.72,1.0,null,[']}]</script'],2304.00971v3
+Semantic Segmentation,FLAIR (French Land cover from Aerospace ImageRy),U-Net baseline,0.557,1.0,null,[']}]</script'],2211.12979v5
+Semantic Segmentation,RUGD,GA-Nav,95.66,1.0,null,[']}]</script'],2103.04233v5
+Semantic Segmentation,dacl10k v1 testfinal,FPN EfficientNet-B4,42.4,1.0,null,[']}]</script'],2309.00460v1
+Semantic Segmentation,SemanticPOSS,TFNet,51.9,1.0,null,[']}]</script'],2309.07849v3
+Semantic Segmentation,COCO-Stuff-27,DiffSeg (512),72.5,1.0,null,[']}]</script'],2308.12469v3
+Semantic Segmentation,Forward-Looking Sonar Marine Debris Datasets,Unet+RN34,0.748,1.0,null,[']}]</script'],2108.06800v1
+Semantic Segmentation,STARE,UNet,0.915,1.0,null,[']}]</script'],1505.04597v1
+Semantic Segmentation,LandCover.ai,U-Net (ConvFormer-M36),87.64,1.0,null,[']}]</script'],null

@@ -1,0 +1,87 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id,max,min,difficulty
+3D Part Segmentation,Intra,3DMedPT,94.82,1.0,,['Transformer'],2112.04863v2,94.82,89.1,1.0
+3D Part Segmentation,ShapeNet,GeomGCNN,89.1,1.0,,[],2103.15226v1,94.82,89.1,0.0
+Depth Estimation,KITTI,FutureDepth,0.041,1.0,,[],2403.12953v1,0.2619,0.041,0.0
+Depth Estimation,Stanford 2D 3D,HiMODE,0.2619,1.0,,[],2204.05007v1,0.2619,0.041,1.0
+Image Classification,CIFAR-10,ViT-H/14,99.0,1.0,632M,['Transformer'],2010.11929v2,100.0,47.6,0.9809160305343512
+Image Classification,"CIFAR-10, 40% Symmetric Noise",FaMUS,95.37,1.0,,[],2104.15092v1,100.0,47.6,0.9116412213740459
+Image Classification,"CIFAR-10, 60% Symmetric Noise",MentorMix,91.3,1.0,,[],2104.15092v1,100.0,47.6,0.8339694656488549
+Image Classification,CIFAR-100,EffNet-L2 (SAM),96.0,1.0,,[],2010.01412v3,100.0,47.6,0.9236641221374046
+Image Classification,"CIFAR-100, 40% Symmetric Noise",FaMUS,75.91,1.0,,[],2104.15092v1,100.0,47.6,0.540267175572519
+Image Classification,CINIC-10,"VIT-L/16 (Spinal FC, Background)",95.8,1.0,,[],2305.03238v4,100.0,47.6,0.9198473282442747
+Image Classification,CLEVR/Count,SEER (RegNet10B),89.28,1.0,,[],2202.08360v2,100.0,47.6,0.7954198473282443
+Image Classification,CLEVR/Dist,SEER (RegNet10B),74.98,1.0,,[],2202.08360v2,100.0,47.6,0.5225190839694657
+Image Classification,Caltech 256,AG-Net,96.89,1.0,,[],2110.12183v1,100.0,47.6,0.940648854961832
+Image Classification,Causal 3Dident,SimCLR,100.0,1.0,,[],2106.04619v4,100.0,47.6,1.0
+Image Classification,Clothing1M,LRA-diffusion (CC),75.7,1.0,,[],2305.19518v2,100.0,47.6,0.5362595419847329
+Image Classification,Colored MNIST,MLP-DecAug,69.6,1.0,,[],2012.09382v1,100.0,47.6,0.4198473282442747
+Image Classification,Cub 200 2011,Sparse-CBM,80.02,1.0,,[],2404.03323v1,100.0,47.6,0.6187022900763358
+Image Classification,DF20,ViT-Large/16 (384),80.45,1.0,,[],2103.10107v4,100.0,47.6,0.626908396946565
+Image Classification,DF20 mini,ViT-Large/16 (384),75.85,1.0,,[],2103.10107v4,100.0,47.6,0.53912213740458
+Image Classification,DTD,Linear FT(ViT-L/14),90.0,1.0,,[],2305.12827v3,100.0,47.6,0.8091603053435115
+Image Classification,EMNIST Balanced,WaveMixLite-128/7,91.06,1.0,,[],2205.14375v5,100.0,47.6,0.8293893129770993
+Image Classification,EMNIST Digits,WaveMixLite-112/16,99.82,1.0,,[],2205.14375v5,100.0,47.6,0.996564885496183
+Image Classification,EMNIST Letters,WaveMixLite-112/16,95.96,1.0,,[],2205.14375v5,100.0,47.6,0.9229007633587785
+Image Classification,EUROSAT,IMP+MTP(IntenImage-XL),99.24,1.0,,[],2403.13430v2,100.0,47.6,0.9854961832061068
+Image Classification,EUROSAT SAR,FG-MAE (ViT-S/16),85.9,1.0,,[],2310.18653v1,100.0,47.6,0.7309160305343513
+Image Classification,Fashion MNIST,Fine-Tuning DARTS,96.91,1.0,,[],2006.09042v1,100.0,47.6,0.9410305343511449
+Image Classification,Flickrlogos-32,TC-VII (with outside data),96.0,1.0,,[],1701.02620v2,100.0,47.6,0.9236641221374046
+Image Classification,Food-101 N,LRA-diffusion (CLIP ViT),93.42,1.0,,[],2305.19518v2,100.0,47.6,0.8744274809160305
+Image Classification,Food101,Bamboo (ViTB/16),92.9,1.0,,[],2203.07845v2,100.0,47.6,0.8645038167938932
+Image Classification,Fractured/Normal Shoulder Bone Xray on MURA,Our Ensemble Learning-2,69.39999999999999,1.0,,[],2102.00515v3,100.0,47.6,0.41603053435114484
+Image Classification,Galaxy10 DECals,WaveMix,95.42,1.0,,[],2205.14375v5,100.0,47.6,0.9125954198473283
+Image Classification,GasHisSDB,CoAtNet-1,98.74,1.0,,[],2106.04803v2,100.0,47.6,0.9759541984732824
+Image Classification,HErlev,DL+PCA+GWO,98.32,1.0,,[],2106.04919v1,100.0,47.6,0.9679389312977098
+Image Classification,ImageNet,OmniVec(ViT),92.4,1.0,,[],2311.05709v1,100.0,47.6,0.8549618320610688
+Image Classification,ImageNet Real,Baseline (ViT-G/14),91.78,1.0,,[],2203.05482v3,100.0,47.6,0.8431297709923664
+Image Classification,ImageNet V2,Model soups (BASIC-L),84.63,1.0,,[],2203.05482v3,100.0,47.6,0.706679389312977
+Image Classification,Imagenet 100,SparseSwin with L2,86.96,1.0,,[],2309.05224v1,100.0,47.6,0.7511450381679388
+Image Classification,Imagenette,\u00b52Net+ (ViT-L/16),100.0,1.0,,[],2209.07326v3,100.0,47.6,1.0
+Image Classification,Imbalanced CUB 200,Multi-task,99.67,1.0,,[],2011.12427v2,100.0,47.6,0.9937022900763359
+Image Classification,JFT 300M,V-MoE-H/14 (Every-2),60.62,1.0,,['Transformer'],2106.05974v1,100.0,47.6,0.24847328244274802
+Image Classification,Kuzushiji MNIST,VGG-5 (Spinal FC),99.15,1.0,,[],2007.03347v3,100.0,47.6,0.9837786259541986
+Image Classification,LIMUC,Inception-v3,86.7,1.0,,[],2202.05167v2,100.0,47.6,0.7461832061068703
+Image Classification,MAME,EfficientNet-B3,88.95,1.0,,['EfficientNet'],2007.13693v3,100.0,47.6,0.7891221374045801
+Image Classification,MNIST,Branching/Merging CNN + Homogeneous Vector Capsules,99.87,1.0,,[],2001.09136v6,100.0,47.6,0.9975190839694658
+Image Classification,Malaria,\u00b52Net+ (ViT-L/16),97.46,1.0,,[],2209.07326v3,100.0,47.6,0.9515267175572518
+Image Classification,NMNIST,STS-ResNet,99.6,1.0,,[],2003.12346v2,100.0,47.6,0.9923664122137403
+Image Classification,Noisy MNIST AWGN,PCGAN-CHAR,98.43,1.0,,[],1908.08987v1,100.0,47.6,0.9700381679389314
+Image Classification,Noisy MNIST Contrast,PCGAN-CHAR,97.25,1.0,,[],1908.08987v1,100.0,47.6,0.9475190839694656
+Image Classification,Noisy MNIST Motion,PCGAN-CHAR,99.2,1.0,,[],1908.08987v1,100.0,47.6,0.984732824427481
+Image Classification,OMNIBenchmark,NOAH-ViTB/16,47.6,1.0,,"['pre-trained on ImageNet22K', 'parameter-efficient tuning', 'ViT']",2206.04673v2,100.0,47.6,0.0
+Image Classification,Object Net,BiT-L (ResNet),85.1,1.0,,['ResNet'],1912.11370v3,100.0,47.6,0.715648854961832
+Image Classification,ObjectNet (ImageNet Classes),BiT-L (ResNet),85.1,1.0,,['ResNet'],1912.11370v3,100.0,47.6,0.715648854961832
+Image Classification,Oxford Flowers,CCT-14/7x2,99.76,1.0,,[],2104.05704v4,100.0,47.6,0.9954198473282444
+Image Classification,Oxford IIIt Pets,TWIST (ResNet-50),94.5,1.0,,[],2110.07402v4,100.0,47.6,0.8950381679389313
+Image Classification,Places 365,OmniVec(ViT),63.5,1.0,,[],2311.05709v1,100.0,47.6,0.30343511450381677
+Image Classification,Places 365 Standard,OmniVec(ViT),63.5,1.0,,[],2311.05709v1,100.0,47.6,0.30343511450381677
+Image Classification,Places205,InternImage-H,71.7,1.0,,[],2211.05778v4,100.0,47.6,0.4599236641221374
+Image Classification,Plant Village,\u00b52Net+ (ViT-L/16),99.89,1.0,,[],2209.07326v3,100.0,47.6,0.9979007633587786
+Image Classification,RESISC45,ResNet50,96.83,1.0,,[],1911.06721v1,100.0,47.6,0.939503816793893
+Image Classification,STL-10,VIT-L/16 (Spinal FC),99.71,1.0,,[],2305.03238v4,100.0,47.6,0.9944656488549617
+Image Classification,SVHN,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,100.0,47.6,0.34923664122137416
+Image Classification,SipakMed,DL+PCA+GWO,97.87,1.0,,[],2106.04919v1,100.0,47.6,0.959351145038168
+Image Classification,Stanford Cars,efficient adaptive ensembling,99.84,1.0,,[],2206.07394v3,100.0,47.6,0.9969465648854963
+Image Classification,Tiny ImageNet,Astroformer,92.98,1.0,,[],2304.05350v2,100.0,47.6,0.8660305343511451
+Image Classification,VITAB1k,ALIGN (50 hypers/task),79.99,1.0,,[],2102.05918v2,100.0,47.6,0.6181297709923663
+Image Classification,Visual Wake Words,HyT-NAS-BA,92.25,1.0,,[],2303.04440v2,100.0,47.6,0.8520992366412213
+Image Classification,WebVision,PropMix (Ours),78.84,1.0,,[],2110.11809v1,100.0,47.6,0.5961832061068703
+Image Classification,WebVision-1000,MAM (ViT-B/16),83.6,1.0,,[],2304.05173v1,100.0,47.6,0.6870229007633587
+Image Classification,iNaturalist 2018,OmniVec,93.8,1.0,,[],2311.05709v1,100.0,47.6,0.8816793893129771
+Image Classification,smallNORB,Heinsen Routing,99.1,1.0,,[],1911.00792v6,100.0,47.6,0.9828244274809159
+Image Generation,CIFAR-10,StyleSAN-XL,1.36,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.008159564823209436
+Image Generation,Celeb-A 64x64,DDPM-IP,1.27,1.0,,"['unconditional', 'Diffusion']",2301.11706v3,12.3,1.27,0.0
+Image Generation,FFHQ 256x256,StyleSAN-XL,1.68,1.0,,['GAN'],2301.12811v4,12.3,1.27,0.03717135086128739
+Image Generation,ImageNet 256x256,Improved DDPM,12.3,1.0,,['Diffusion'],2102.09672v1,12.3,1.27,1.0
+Object Detection,COCO 2017,"YOLOv6-L6(46 fps, V100, bs1)",57.2,1.0,,['YOLO'],2301.05586v1,97.2,57.2,0.0
+Object Detection,COCO minivar,Co-DETR,65.9,1.0,,['Large'],2211.12860v5,97.2,57.2,0.21750000000000008
+Object Detection,COCO-O,EVA,57.8,1.0,,[],2211.07636v2,97.2,57.2,0.014999999999999857
+Object Detection,Crowd Human Full Body,InternImage-H,97.2,1.0,,[],2211.05778v4,97.2,57.2,1.0
+Object Detection,Pascal VOC,"Cascade Eff-B7 NAS-FPN (Copy Paste pre-training, single-scale)",89.3,1.0,,"['FPN', 'single scale']",2012.07177v2,97.2,57.2,0.8024999999999999
+Semantic Segmentation,ADE20K,ONE-PEACE,63.0,1.0,,[],2305.11172v1,86.4,60.8,0.08593750000000008
+Semantic Segmentation,CityScapes,VLTSeg,86.4,1.0,,[],2312.02021v2,86.4,60.8,1.0
+Semantic Segmentation,NYU Depth v2,OmniVec,60.8,1.0,,[],2311.05709v1,86.4,60.8,0.0
+Text to Image,COCO,Parti Finetuned,3.22,1.0,,['Autoregressive'],2206.10789v1,3.22,3.22,0.0
+Text-to-Image,CUB,TLDM,6.72,1.0,,[],2202.09671v4,14.1,6.72,0.0
+Text-to-Image,Multi Model Celeb-A,Swinv2-Imagen,10.31,1.0,,[],2210.09549v1,14.1,6.72,0.4864498644986451
+Text-to-Image,Oxford 102,VQ-Diffusion-F,14.1,1.0,,[],2111.14822v3,14.1,6.72,1.0

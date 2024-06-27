@@ -1,0 +1,92 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Classification,InDL,ConvNext,93.47,1.0,null,[']'],2201.03545v2
+Classification,InDL,VGG16,92.86,0.9336235038084876,null,[']'],1409.1556v6
+Classification,InDL,DenseNet201,90.99,0.7301414581066371,null,[']'],1608.06993v5
+Classification,InDL,Inception ResNet V2,90.27,0.6517954298150159,null,[']'],1602.07261v2
+Classification,InDL,Xception,89.81,0.6017410228509252,null,[']'],1610.02357v3
+Classification,InDL,NASNetLarge,89.52,0.5701849836779104,null,[']'],1707.07012v4
+Classification,InDL,Darknet53,88.53,0.46245919477693154,null,[']'],1804.02767v1
+Classification,InDL,ResNetV2_50,88.08,0.4134929270946679,null,[']'],2110.00476v1
+Classification,InDL,EfficientNetV2,85.4,0.12187159956474482,null,[']'],2104.00298v3
+Classification,InDL,MobileNetV3,84.28,0.0,null,[']}]</script'],1905.02244v5
+Classification,N-ImageNet,Event Spike Tensor,48.93,1.0,null,[']'],2112.01041v2
+Classification,N-ImageNet,DiST,48.43,0.8915401301518439,null,[']'],2112.01041v2
+Classification,N-ImageNet,Sorted Time Surface,47.9,0.776572668112798,null,[']'],2112.01041v2
+Classification,N-ImageNet,Event Histogram,47.73,0.7396963123644246,null,[']'],2112.01041v2
+Classification,N-ImageNet,HATS,47.14,0.611713665943601,null,[']'],2112.01041v2
+Classification,N-ImageNet,Binary Event Image,46.36,0.4425162689804771,null,[']'],2112.01041v2
+Classification,N-ImageNet,Timestamp Image,45.86,0.3340563991323209,null,[']'],2112.01041v2
+Classification,N-ImageNet,Event Image,45.77,0.31453362255965356,null,[']'],2112.01041v2
+Classification,N-ImageNet,Time Surface,44.32,0.0,null,[']}]</script'],2112.01041v2
+Classification,Full-body Parkinson’s disease dataset,PoseFormerV2,0.59,1.0,null,[']'],2303.17472v1
+Classification,Full-body Parkinson’s disease dataset,PD STGCN,0.48,0.38888888888888895,null,[']'],2105.03464v3
+Classification,Full-body Parkinson’s disease dataset,MotionBERT,0.47,0.3333333333333333,null,[']'],2210.06551v5
+Classification,Full-body Parkinson’s disease dataset,Pose Transformers (POTR),0.46,0.277777777777778,null,[']'],2109.07531v1
+Classification,Full-body Parkinson’s disease dataset,MotionBERT-LITE,0.43,0.11111111111111122,null,[']'],2210.06551v5
+Classification,Full-body Parkinson’s disease dataset,MotionAGFormer,0.42,0.05555555555555561,null,[']'],2310.16288v1
+Classification,Full-body Parkinson’s disease dataset,Mixste,0.41,0.0,null,[']}]</script'],2203.00859v4
+Classification,N-CARS,MEM,98.55,1.0,null,[']'],2212.10368v3
+Classification,N-CARS,GET,96.7,0.7730061349693256,null,[']'],2310.02642v1
+Classification,N-CARS,ResNet34 + EST,92.5,0.2576687116564413,null,[']'],1904.08245v4
+Classification,N-CARS,Spiking VGG-11,92.4,0.24539877300613522,null,[']'],2205.04339v1
+Classification,N-CARS,Spiking MobileNet-64,91.7,0.15950920245398756,null,[']'],2205.04339v1
+Classification,N-CARS,Spiking DenseNet121-24,90.4,0.0,null,[']}]</script'],2205.04339v1
+Classification,N-ImageNet (mini),Event Imge,61.42,1.0,null,[']'],2112.01041v2
+Classification,N-ImageNet (mini),Event Histogram,61.02,0.9493670886075951,null,[']'],2112.01041v2
+Classification,N-ImageNet (mini),Timestamp Image,60.46,0.8784810126582278,null,[']'],2112.01041v2
+Classification,N-ImageNet (mini),DiST,59.74,0.7873417721518987,null,[']'],2112.01041v2
+Classification,N-ImageNet (mini),Sorted Time Surface,58.38,0.6151898734177216,null,[']'],2112.01041v2
+Classification,N-ImageNet (mini),Binary Event Image,53.52,0.0,null,[']}]</script'],2112.01041v2
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with Max-logit,0.995,1.0,null,[']'],2302.11893v1
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with ODIN,0.995,1.0,null,[']'],2302.11893v1
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with Entropy,0.994,0.75,null,[']'],2302.11893v1
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with MC Dropout,0.994,0.75,null,[']'],2302.11893v1
+Classification,ImageNet C-OOD (class-out-of-distribution),ViT-L/32-384 with Softmax,0.991,0.0,null,[']}]</script'],2302.11893v1
+Classification,Autoimmune Dataset,Swin Transformer Base (Patch 4 Window 12),0.891,1.0,null,[']'],2207.06489v5
+Classification,Autoimmune Dataset,CASS,0.889,0.9923371647509579,null,[']'],2206.04170v6
+Classification,Autoimmune Dataset,DINO,0.863,0.8927203065134098,null,[']'],2206.04170v6
+Classification,Autoimmune Dataset,VANBUREN et all,0.63,0.0,null,[']}]</script'],2207.06489v5
+Classification,ForgeryNet,MINTIME-XC,94.25,1.0,null,"['Vision Transformer', 'CNN', 'CNN+Transformer', 'Video-level Classification', 'TimeSformer', 'XceptionNet']",2211.10996v2
+Classification,ForgeryNet,SlowFast R-50,90.86,0.10789473684210445,null,['Video-level Classification'],2211.10996v2
+Classification,ForgeryNet,MINTIME-EF,90.45,0.0,null,"['EfficientNet', 'Vision Transformer', 'CNN', 'CNN+Transformer', 'Video-level Classification', 'TimeSformer']",2211.10996v2
+Classification,SHD - Adding,ELM Neuron,82.0,1.0,null,[']'],2306.16922v3
+Classification,SHD - Adding,LSTM,10.0,0.0,null,[']'],2306.16922v3
+Classification,XImageNet-12,DenseNet121,0.906,1.0,null,[']'],1608.06993v5
+Classification,XImageNet-12,ResNet 50,0.898,0.6363636363636364,null,[']'],1512.03385v1
+Classification,XImageNet-12,VGG-16,0.884,0.0,null,[']}]</script'],1409.1556v6
+Classification,CWRU Bearing Dataset,MCNN-LSTM,98.46,1.0,null,[']'],null
+Classification,CWRU Bearing Dataset,CNN,7.0,0.0,null,[']}]</script'],2010.02146v2
+Classification,Brain Tumor MRI Dataset,CASS,0.99,nan,null,[']'],2206.04170v6
+Classification,Brain Tumor MRI Dataset,DINO,0.99,nan,null,[']}]</script'],2206.04170v6
+Classification,RSSCN7,GLNet,95.07,1.0,null,[']'],null
+Classification,RSSCN7,CPM,50.0,0.0,null,[']}]</script'],1602.00134v4
+Classification,Reddit Ideology Database,SVM,86.19,1.0,null,[']'],null
+Classification,Reddit Ideology Database,RoBERTa,78.13,0.0,null,[']}]</script'],null
+Classification,MedSecId,GPT-4,96.86,1.0,null,[']'],2404.16294v1
+Classification,MedSecId,BiLSTM-CRF,82.2,0.0,null,[']}]</script'],null
+Classification,BIOSCAN_1M_Insect Dataset,BIOSCAN_1M_order_classifier,92.65,1.0,null,[']'],2307.10455v3
+Classification,BIOSCAN_1M_Insect Dataset,BIOSCAN_1M_family_classifier,91.45,0.0,null,[']}]</script'],2307.10455v3
+Classification,Burr classification images,60_divisions,6.799999999999997,nan,null,[']'],null
+Classification,Burr classification images,70_divisions,6.799999999999997,nan,null,[']'],null
+Classification,Burr classification images,80_divisions,6.799999999999997,nan,null,[']}]</script'],null
+Classification,BiasBios,WeaSEL,86,1.0,null,[']}]</script'],2107.02233v3
+Classification,ISIC 2019,CASS,0.651,1.0,null,[']}]</script'],2206.04170v6
+Classification,SGD,SGD_ss,2020,1.0,null,[']}]</script'],2011.09553v2
+Classification,Chest X-Ray Images (Pneumonia),AAPSO-Deep Feature Selection,98.41,1.0,null,[']}]</script'],2208.03558v1
+Classification,Bengali Ekman's Six Basic Emotions Corpus,CNN + Attention + LSTM + CNN,86.91,1.0,null,[']}]</script'],null
+Classification,HOWS,RECALL,57.83,1.0,null,[']}]</script'],2209.14774v1
+Classification,Sentiment140,pFedBreD_ns_mg,73.81,1.0,null,[']}]</script'],2211.10684v2
+Classification,MixedWM38,WaferSegClassNet,99.018,1.0,null,[']}]</script'],2207.00960v1
+Classification,CORBEL,lstm,0.72,1.0,null,[']}]</script'],null
+Classification,CIFAKE: Real and AI-Generated Synthetic Images,CNN,93.55,1.0,null,[']}]</script'],2303.14126v1
+Classification,Sound-based drone fault classification using multitask learning,1DCNN-ResNet,0.985,1.0,null,[']}]</script'],2304.11708v1
+Classification,IRFL: Image Recognition of Figurative Language,CLIP-RN50x64,39,1.0,null,[']}]</script'],2303.15445v3
+Classification,MuReD Dataset,"C-Tran, preprocessing, augmentation",0.573,1.0,null,[']}]</script'],2207.02335v3
+Classification,Kepler Exoplanet Search Results,SVM,97.72,1.0,null,[']}]</script'],null
+Classification,TCGA,MSI-H Transformer,0.58,1.0,null,[']}]</script'],2312.10944v1
+Classification,CIFAR-100,ResNet8\u00d74,77.5,1.0,null,[']}]</script'],2310.03669v2
+Classification,Adult,MambaNet,0.914,1.0,null,[']}]</script'],2401.08867v1
+Classification,HRF,RRWNet,99.022,1.0,null,[']}]</script'],2402.03166v3
+Classification,RITE,RRWNet,0.966,1.0,null,[']}]</script'],2402.03166v3
+Classification,LES-AV,RRWNet,0.948,1.0,null,[']}]</script'],2402.03166v3
+Classification,AUR & UMB dataset,RandomForestClassifier,82,1.0,null,[']}]</script'],null

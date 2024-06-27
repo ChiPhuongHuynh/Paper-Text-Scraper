@@ -1,0 +1,15 @@
+Task,Dataset,name,accuracy,accuracy_norm,params,tags,id
+Denoising,Darmstadt Noise Dataset,SINDy,81.0,1.0,null,[']'],1712.02432v1
+Denoising,Darmstadt Noise Dataset,Pixel-shuffling Downsampling,38.4,0.15139442231075692,null,[']'],1904.03485v2
+Denoising,Darmstadt Noise Dataset,TWSC,37.93,0.14203187250996013,null,[']'],1807.04364v1
+Denoising,Darmstadt Noise Dataset,CBDNet(Syn),37.57,0.13486055776892428,null,[']'],1807.04686v2
+Denoising,Darmstadt Noise Dataset,MCWNNM,37.38,0.13107569721115542,null,[']'],1705.09912v2
+Denoising,Darmstadt Noise Dataset,Han et al,35.95,0.10258964143426298,null,[']'],1805.03779v3
+Denoising,Darmstadt Noise Dataset,FFDNet,34.4,0.07171314741035852,null,[']'],1710.04026v2
+Denoising,Darmstadt Noise Dataset,TNRD,33.65,0.05677290836653382,null,[']'],1508.02848v2
+Denoising,Darmstadt Noise Dataset,CDnCNN-B,32.43,0.03247011952191233,null,[']'],1608.03981v1
+Denoising,Darmstadt Noise Dataset,NLRN,30.8,0.0,null,[']}]</script'],1806.02919v2
+Denoising,AAPM,EDCNN,0.006,1.0,null,['DCN'],2011.00139v1
+Denoising,iris,PCNN+RL+HME,84.61,1.0,null,[']}]</script'],2010.14255v2
+Denoising,DND,DRANet,60.36,1.0,null,[']}]</script'],2305.04269v1
+Denoising,CBSD68 sigm75,MeD,74.6,1.0,null,[']}]</script'],2309.05049v1
